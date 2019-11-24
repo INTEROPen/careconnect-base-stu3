@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>EXAMPLE.FHIR.UV.MYIG\IG Change History - FHIR v3.0.2</title>
+    <title>CARE-CONNECT-STU3\IG Change History - FHIR v3.0.2</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,8 +18,6 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-
-    <!-- Placeholder for child template CSS declarations -->
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,14 +34,24 @@
   </head>
   <body>
 
+
     <style type="text/css">h2{--heading-prefix:"5"}
     h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
-        
-
-        <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Your User Friendly Name for MyIG Here</span><br/> - CI Build</p>
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+        <div id="hl7-status">
+          <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -64,15 +72,15 @@
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">IG Home</a></li>
+  <li><a href="index.html">Care Connect Implementation Guide</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">MyIg Background<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Care Connect Background<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="background.html">Backaground</a>
+        <a href="background.html">Background</a>
       </li>
     </ul>
   </li>
@@ -129,7 +137,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Your User Friendly Name for MyIG Here - Local Development build (vnull). See the <a href="http://example.org/fhir/uv/myig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">An example implementation guide for Care Connect - Local Development build (vnull). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>IG Change History</h2>
   
   <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
@@ -138,7 +146,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
   <a name="0.1.0"> </a>
 	<p>
-		<b>2099-01-01 v0.1.0 - My IG R1 (STU ballot 1) Ballot Candidate</b> based on FHIR R4
+		<b>2019-11-24 v0.1.0 - My IG R1 (STU ballot 1) Ballot Candidate</b> based on FHIR STU3
   </p>
   <ul>
     <li>Initial version</li>
@@ -156,11 +164,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Core</a>.  Package example.fhir.uv.myig# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Nov 23, 2019 21:19+0000">2019-11-23</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 09:26+0000">2019-11-24</span>
           <br/>
           <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

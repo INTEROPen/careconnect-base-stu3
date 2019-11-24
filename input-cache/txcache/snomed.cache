@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------

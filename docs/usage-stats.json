@@ -1,5 +1,5 @@
 {
-  "package": "example.fhir.uv.myig",
+  "package": "fhir.hl7.org.uk",
   "fhirVersion": "3.0.2",
   "jurisdiction": "001",
   "extensions": [
@@ -19,10 +19,10 @@
     }
   ],
   "profiles": {
-    "Observation": [
+    "Encounter": [
       {
-        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1",
-        "title": "CareConnect-Observation-1"
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1",
+        "title": "CareConnect-Encounter-1"
       }
     ],
     "Organization": [
@@ -39,11 +39,11 @@
     ]
   },
   "usage": {
-    "http://example.org/fhir/uv/myig/StructureDefinition/ext-myExtension": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/StructureDefinition/birthPlace": [
       "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference": [
+      "CodeSystem"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
       "StructureDefinition.differential.element.binding",
@@ -69,12 +69,15 @@
     "http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor": [
       "Patient"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status": [
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.differential.element",
       "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-json-type": [
       "StructureDefinition.snapshot.element.type.code"
@@ -86,16 +89,32 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
-      "StructureDefinition"
+      "StructureDefinition",
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type": [
       "StructureDefinition.snapshot.element.type.code"
     ],
+    "http://hl7.org/fhir/StructureDefinition/valueset-map": [
+      "ValueSet"
+    ],
     "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference": [
       "ValueSet"
     ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AdmissionMethod-1": [
+      "Encounter.hospitalization"
+    ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1": [
       "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DischargeMethod-1": [
+      "Encounter.hospitalization"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1": [
+      "Encounter"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EncounterTransport-1": [
+      "Encounter"
     ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1": [
       "Patient"
@@ -112,6 +131,9 @@
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NominatedPharmacy-1": [
       "Patient"
     ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1": [
+      "Encounter"
+    ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1": [
       "Patient"
     ],
@@ -122,10 +144,9 @@
       "Patient"
     ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid": [
-      "Observation.bodySite.coding",
-      "Observation.code.coding",
-      "Observation.component.code.coding",
-      "Observation.method.coding"
+      "Encounter.hospitalization.reAdmission.coding",
+      "Encounter.reason.coding",
+      "Encounter.type.coding"
     ]
   }
 }

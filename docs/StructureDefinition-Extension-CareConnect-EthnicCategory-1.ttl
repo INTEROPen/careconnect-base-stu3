@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-EthnicCategory-1> a fhir:StructureDefinition;
+<https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Extension-CareConnect-EthnicCategory-1"];
   fhir:Resource.meta [
@@ -20,7 +20,7 @@
   fhir:StructureDefinition.name [ fhir:value "Extension-CareConnect-EthnicCategory-1"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2018-11-05T00:00:00+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "HL7 West Riding - Core"];
+  fhir:StructureDefinition.publisher [ fhir:value "HL7 West Riding - Example"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -325,7 +325,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-EthnicCategory-1.ttl> a owl:Ontology;
+<https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

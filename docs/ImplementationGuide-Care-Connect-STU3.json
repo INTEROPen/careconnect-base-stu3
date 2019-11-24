@@ -1,0 +1,68 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "Care-Connect-STU3",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3",
+  "name": "Care Connect Implementation Guide",
+  "status": "draft",
+  "experimental": false,
+  "date": "2019-11-24T09:26:53+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "3.0.2",
+  "page": {
+    "source": "toc.html",
+    "title": "Table of Contents",
+    "kind": "page",
+    "page": [
+      {
+        "source": "index.html",
+        "title": "MyIG Home Page",
+        "kind": "page"
+      },
+      {
+        "source": "background.html",
+        "title": "Background",
+        "kind": "page"
+      },
+      {
+        "source": "spec.html",
+        "title": "Detailed Specification",
+        "kind": "resource"
+      },
+      {
+        "source": "downloads.html",
+        "title": "Useful Downloads",
+        "kind": "page"
+      },
+      {
+        "source": "changes.html",
+        "title": "IG Change History",
+        "kind": "page"
+      }
+    ]
+  }
+}

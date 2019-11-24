@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>EXAMPLE.FHIR.UV.MYIG\ - Definitions - FHIR v3.0.2</title>
+    <title>CARE-CONNECT-STU3\CareConnect-Patient-1 - Definitions - FHIR v3.0.2</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-
-      <!-- Placeholder for child template CSS declarations -->
   
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -36,14 +34,24 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"6.2"}
-    h3,h4,h5,h6{--heading-prefix:"6.2"}</style>
+
+    <style type="text/css">h2{--heading-prefix:"6.1"}
+    h3,h4,h5,h6{--heading-prefix:"6.1"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
-
-        <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Your User Friendly Name for MyIG Here</span><br/> - CI Build</p>
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/STU3/">
+            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+        <div id="hl7-status">
+          <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -64,15 +72,15 @@
             <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">IG Home</a></li>
+  <li><a href="index.html">Care Connect Implementation Guide</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">MyIg Background<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Care Connect Background<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="background.html">Backaground</a>
+        <a href="background.html">Background</a>
       </li>
     </ul>
   </li>
@@ -112,7 +120,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->  
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b></b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>CareConnect-Patient-1</b></li>
         </ul>  
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
@@ -126,7 +134,7 @@
 
 
 <div style="counter-reset: section 4" class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Your User Friendly Name for MyIG Here - Local Development build (vnull). See the <a href="http://example.org/fhir/uv/myig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">An example implementation guide for Care Connect - Local Development build (vnull). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <ul class="nav nav-tabs">
     <li>
       <a href="CareConnect-Patient-1.html">Content</a>
@@ -152,10 +160,6 @@
       <a href="CareConnect-Patient-1.profile.json.html">JSON</a>
     </li>
 
-
-    <li>
-      <a href="CareConnect-Patient-1.profile.ttl.html">Turtle</a>
-    </li>
 
   </ul>
   <a name="root"> </a>
@@ -227,7 +231,7 @@
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
 <b title="Formal Invariant Identifier">ele-1</b>: All FHIR elements must have a @value or children (: hasValue() | (children().count() &gt; id.count()))</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="Patient.meta.profile"> </a><span style="color: grey">8.</span> <b>Patient.meta.profile</b><a href="#Patient.meta.profile" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
-  <tr><td>Definition</td><td><p><a name="d40f0d6e-0510-4bfb-b734-fb0cbcc5a3a7">​</a>A list of profiles (references to <a href="http://hl7.org/fhir/STU3/structuredefinition.html#">StructureDefinition</a> resources) that this resource claims to conform to. The URL is a reference to <a href="null">StructureDefinition.url</a>.</p>
+  <tr><td>Definition</td><td><p><a name="45bb69c5-f492-4527-93a6-f101068a4945">​</a>A list of profiles (references to <a href="http://hl7.org/fhir/STU3/structuredefinition.html#">StructureDefinition</a> resources) that this resource claims to conform to. The URL is a reference to <a href="null">StructureDefinition.url</a>.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..* This element is affected by the following invariants: ele-1</td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/datatypes.html#uri">uri</a></td></tr>
@@ -1410,7 +1414,7 @@
   <tr><td>Definition</td><td><p>Identifies the purpose for this name.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>1..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The use of a human name<br/>The codes SHALL be taken from <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The use of a human name<br/>The codes SHALL be taken from <a href="valueset-CareConnect-NameUse-1.html">NameUse</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/datatypes.html#code">code</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td>Requirements</td><td><p>Allows the appropriate name for a particular context of use to be selected from among a set of names.</p>
@@ -1645,7 +1649,7 @@
   <tr><td>Definition</td><td><p>Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The gender of a person used for administrative purposes.<br/>The codes SHALL be taken from <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The gender of a person used for administrative purposes.<br/>The codes SHALL be taken from <a href="valueset-CareConnect-AdministrativeGender-1.html">Administrative Gender</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/datatypes.html#code">code</a></td></tr>
   <tr><td>Requirements</td><td><p>Needed for identification of the individual, in combination with (at least) name and birth date. Gender of individual drives many clinical processes.</p>
 </td></tr>
@@ -1915,7 +1919,7 @@
   <tr><td>Definition</td><td><p>This field contains a patient's most recent marital (civil) status.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The domestic partnership status of a person.<br/>The codes SHALL be taken from <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The domestic partnership status of a person.<br/>The codes SHALL be taken from <a href="valueset-CareConnect-MaritalStatus-1.html">Marital Status Codes</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Requirements</td><td><p>Most, if not all systems capture it.</p>
 </td></tr>
@@ -2817,7 +2821,7 @@
   <tr><td>Definition</td><td><p>Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The gender of a person used for administrative purposes.<br/>The codes SHALL be taken from <a href="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1</a></td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/terminologies.html">Binding</a></td><td>The gender of a person used for administrative purposes.<br/>The codes SHALL be taken from <a href="valueset-CareConnect-AdministrativeGender-1.html">Administrative Gender</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/datatypes.html#code">code</a></td></tr>
   <tr><td>Requirements</td><td><p>Needed to address the person correctly.</p>
 </td></tr>
@@ -3809,11 +3813,15 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 West Riding - Core.  Package example.fhir.uv.myig# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Nov 23, 2019 21:19+0000">2019-11-23</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 West Riding - Example.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 09:26+0000">2019-11-24</span>
           <br/>
           <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
+                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
+                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

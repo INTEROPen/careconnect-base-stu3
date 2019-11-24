@@ -1,68 +1,116 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 1, errors = 62, warn = 4, info = 0 -->
+<!-- broken links = 7, errors = 56, warn = 0, info = 0 -->
 <head>
-  <title>YourComputableMyIGNameHere : Validation Results</title>
+  <title>Care Connect Implementation Guide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
- <h1>Validation Results for YourComputableMyIGNameHere</h1>
- <p>Generated Sat Nov 23 21:21:21 GMT 2019, FHIR version 3.0.2 for example.fhir.uv.myig# (canonical = <a href="http://example.org/fhir/uv/myig">http://example.org/fhir/uv/myig</a> (<a href="http://example.org/fhir/uv/myig/history.html">history</a>))</p>
+ <h1>Validation Results for Care Connect Implementation Guide</h1>
+ <p>Generated Sun Nov 24 09:28:14 GMT 2019, FHIR version 3.0.2 for fhir.hl7.org.uk# (canonical = <a href="https://fhir.hl7.org.uk/STU3">https://fhir.hl7.org.uk/STU3</a> (<a href="https://fhir.hl7.org.uk/STU3/history.html">history</a>))</p>
 <p>IG Publisher Version: v1.0.2-SNAPSHOT</p>
 <p><a href="#suppressed">5 Suppressed Errors</a></p>
- <p>HL7 Publication check:</p> <ul><li>n/a - not an HL7.org or FHIR.org implementation guide</li></ul>
+ <p>HL7 Publication check:</p> <ul>
+  <li>History Page 'null' is wrong (ig.json#paths/history) - must be 'https://fhir.hl7.org.uk/STU3/history.html' or 'https://fhir.hl7.org.uk/STU3/history.cfml'</li>
+  <li>package-list.json: package-id is wrong - is 'hl7.fhir.uv.myig' should be 'fhir.hl7.org.uk'</li>
+  <li>package-list.json: canonical is wrong - is 'http://hl7.org/fhir/uv/myig' should be 'https://fhir.hl7.org.uk/STU3'</li>
+  <li>package-list.json: No entry found for version null</li>
+</ul>
 
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>6</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_UK-STU3"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/UK-STU3</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_examples_patient-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/examples/patient-1</b></a></td><td><b>10</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Encounter-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Encounter-1</b></a></td><td><b>18</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Organization-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Organization-1</b></a></td><td><b>5</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Patient-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Patient-1</b></a></td><td><b>14</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_examples_Patient-example"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/examples/Patient-example</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_Extension-CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_Extension-CareConnect-NHSNumberVerificationStatus-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-DischargeDestination-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/codesystem/CareConnect-DischargeDestination-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/codesystem/CareConnect-EthnicCategory-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-NHSNumberVerificationStatus-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/codesystem/CareConnect-NHSNumberVerificationStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-SourceOfAdmission-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/codesystem/CareConnect-SourceOfAdmission-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_myig"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/myig</b></a></td><td><b>3</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-AdministrativeGender-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-AdministrativeGender-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-DischargeDestination-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-DischargeDestination-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-EthnicCategory-1</b></a></td><td><b>3</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-EncounterType-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-EncounterType-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Observation-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Observation-1</b></a></td><td><b>19</b></td><td><b>4</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-EthnicCategory-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Organization-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Organization-1</b></a></td><td><b>7</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-MaritalStatus-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-MaritalStatus-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Patient-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Patient-1</b></a></td><td><b>24</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-NHSNumberVerificationStatus-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-NHSNumberVerificationStatus-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_Extension-CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1</b></a></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-NameUse-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-NameUse-1</b></a></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_Extension-CareConnect-NHSNumberVerificationStatus-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1</b></a></td><td><b>4</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-SourceOfAdmission-1"><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/valueset/CareConnect-SourceOfAdmission-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
 </table>
 <hr/>
 <a name="internal"> </a>
 <h2><a href="">n/a</a></h2>
  <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.id</b></td><td><b>warning</b></td><td><b>The Implementation Guide Resource id should be fhir.hl7.org.uk</b></td>
+   </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="CareConnect-Patient-1-definitions.html#d40f0d6e-0510-4bfb-b734-fb0cbcc5a3a7">CareConnect-Patient-1-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 230, column 232</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;StructureDefinition.url&quot; cannot be resolved</b></td>
+     <td><b><a href="1.html#282a6ab9-0aea-4e36-934e-e10b45105b78">1.html#/html/body/div/div/div/div/div/div/p/a at Line 162, column 676</a></b></td><td><b>error</b></td><td><b>The link 'Practitioner/1' for &quot;Dr. AA Bhatia&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="1.html#6f05a016-b368-46e7-9a70-76f8cb1e71bf">1.html#/html/body/div/div/div/div/div/div/p/a at Line 162, column 754</a></b></td><td><b>error</b></td><td><b>The link 'Organization/1' for &quot;The Moir Medical Centre&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CareConnect-Patient-1-definitions.html#45bb69c5-f492-4527-93a6-f101068a4945">CareConnect-Patient-1-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 234, column 232</a></b></td><td><b>error</b></td><td><b>The link '' for &quot;StructureDefinition.url&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="valueset-CareConnect-AdministrativeGender-1.html#64081e45-8828-44d1-b17f-65adf0b29dcf">valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 152, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="valueset-CareConnect-MaritalStatus-1.html#7bc78de3-bbfa-4763-8e77-c460ca73b444">valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 152, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="valueset-CareConnect-NameUse-1.html#86782306-d4c0-4065-8a88-69e67db126f4">valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 152, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_examples_Patient-example"> </a>
-<h2><a href="example.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/examples/Patient-example.xml</a></h2>
- <table class="grid">
-   <tr>
-     <td>&check;</td>
-   </tr>
-</table>
-<hr/>
-<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_myig"> </a>
-<h2><a href="example.fhir.uv.myig.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/myig.xml</a></h2>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_UK-STU3"> </a>
+<h2><a href="Care-Connect-STU3.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/UK-STU3.xml</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
@@ -78,97 +126,103 @@
    </tr>
 </table>
 <hr/>
-<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-EthnicCategory-1"> </a>
-<h2><a href="valueset-CareConnect-EthnicCategory-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-EthnicCategory-1.xml</a></h2>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_examples_patient-1"> </a>
+<h2><a href="1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/examples/Patient-1.xml</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-EthnicCategory-1.xml - the canonical URL (http://example.org/fhir/uv/myig/ValueSet/CareConnect-EthnicCategory-1) does not match the URL (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1)</b></td>
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1]]' on Patient.extension:religiousAffiliation could not be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</b></td>
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ResidentialStatus-1]]' on Patient.extension:residentialStatus could not be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/ValueSet/CareConnect-EthnicCategory-1 vs https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1</b></td>
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-TreatmentCategory-1]]' on Patient.extension:treatmentCategory could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1]]' on Patient.extension:nhsCommunication could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NominatedPharmacy-1]]' on Patient.extension:nominatedPharmacy could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.extension[0]</b></td><td><b>error</b></td><td><b>Problem with use of resolve() - profile '[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1]]' on Patient.extension:deathNotificationStatus could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.extension[0].value.ofType(CodeableConcept)</b></td><td><b>error</b></td><td><b>None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1, and a code from this value set is required) (codes = https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1#A)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.identifier[0].extension[0].value.ofType(CodeableConcept)</b></td><td><b>error</b></td><td><b>None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1, and a code from this value set is required) (codes = https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1#01)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.generalPractitioner[0]</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Practitioner/1'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/1: Patient.managingOrganization</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'Organization/1'</b></td>
    </tr>
 </table>
 <hr/>
-<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Observation-1"> </a>
-<h2><a href="CareConnect-Observation-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Observation-1.xml</a></h2>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Encounter-1"> </a>
+<h2><a href="CareConnect-Encounter-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Encounter-1.xml</a></h2>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Observation-1.xml - the canonical URL (http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Observation-1) does not match the URL (https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1)</b></td>
+     <td><b>StructureDefinition/CareConnect-Encounter-1: StructureDefinition.snapshot.element[28].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[14].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
+     <td><b>StructureDefinition/CareConnect-Encounter-1: StructureDefinition.snapshot.element[246].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[34].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[80].binding.description</b></td><td><b>warning</b></td><td><b>value should not start or finish with whitespace</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EncounterTransport-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.extension (encounterTransport)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[80].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[80].binding.valueSet.ofType(Reference).reference</b></td><td><b>warning</b></td><td><b>value should not start or finish with whitespace</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.extension (outcomeOfAttendance)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[94].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationMethod-1'</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.extension (emergencyCareDischargeStatus)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.snapshot.element[185].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1'</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.type.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[5].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[17].binding.description</b></td><td><b>warning</b></td><td><b>value should not start or finish with whitespace</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.reason.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[17].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 '</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[17].binding.valueSet.ofType(Reference).reference</b></td><td><b>warning</b></td><td><b>value should not start or finish with whitespace</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AdmissionMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.hospitalization.extension (admissionMethod)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[25].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationMethod-1'</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DischargeMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.hospitalization.extension (dischargeMethod)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Observation-1: StructureDefinition.differential.element[35].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1'</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 differential Encounter.hospitalization.reAdmission.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 differential Observation.code.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EncounterTransport-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.extension (encounterTransport)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 differential Observation.bodySite.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.extension (outcomeOfAttendance)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 differential Observation.method.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.extension (emergencyCareDischargeStatus)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 differential Observation.component.code.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.type.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 snapshot Observation.code.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.reason.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 snapshot Observation.bodySite.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AdmissionMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.hospitalization.extension (admissionMethod)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 snapshot Observation.method.coding.extension (snomedCTDescriptionID)</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DischargeMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.hospitalization.extension (dischargeMethod)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>CareConnect-Observation-1</b></td><td><b>error</b></td><td><b><a href="careconnect-observation-1.html">CareConnect-Observation-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1 snapshot Observation.component.code.coding.extension (snomedCTDescriptionID)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Observation-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Observation-1 vs https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1</b></td>
+     <td><b>CareConnect-Encounter-1</b></td><td><b>error</b></td><td><b><a href="careconnect-encounter-1.html">CareConnect-Encounter-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1 snapshot Encounter.hospitalization.reAdmission.coding.extension (snomedCTDescriptionID)</b></td>
    </tr>
 </table>
 <hr/>
@@ -177,9 +231,6 @@
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Organization-1.xml - the canonical URL (http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Organization-1) does not match the URL (https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition/CareConnect-Organization-1: StructureDefinition.snapshot.element[16].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
@@ -196,9 +247,6 @@
    <tr style="background-color: #ffcccc">
      <td><b>CareConnect-Organization-1</b></td><td><b>error</b></td><td><b><a href="careconnect-organization-1.html">CareConnect-Organization-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MainLocation-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1 snapshot Organization.extension (mainLocation)</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Organization-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Organization-1 vs https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1</b></td>
-   </tr>
 </table>
 <hr/>
 <a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_CareConnect-Patient-1"> </a>
@@ -208,37 +256,10 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Patient-1.xml - the canonical URL (http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Patient-1) does not match the URL (https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[59].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[89].example[0].value.ofType(uri)</b></td><td><b>error</b></td><td><b>URI values cannot have whitespace</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[120].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[143].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[167].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.snapshot.element[250].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.differential.element[19].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.differential.element[23].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.differential.element[32].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1'</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition.differential.element[45].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1'</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>CareConnect-Patient-1</b></td><td><b>error</b></td><td><b><a href="careconnect-patient-1.html">CareConnect-Patient-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1 differential Patient.extension (religiousAffiliation)</b></td>
@@ -276,22 +297,13 @@
    <tr style="background-color: #ffcccc">
      <td><b>CareConnect-Patient-1</b></td><td><b>error</b></td><td><b><a href="careconnect-patient-1.html">CareConnect-Patient-1</a>: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1 snapshot Patient.extension (deathNotificationStatus)</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CareConnect-Patient-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/StructureDefinition/CareConnect-Patient-1 vs https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1</b></td>
-   </tr>
 </table>
 <hr/>
 <a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_Extension-CareConnect-EthnicCategory-1"> </a>
 <h2><a href="extension-Extension-CareConnect-EthnicCategory-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1.xml - the canonical URL (http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-EthnicCategory-1) does not match the URL (https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1)</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-EthnicCategory-1 vs https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1</b></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -299,19 +311,121 @@
 <h2><a href="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1.xml</a></h2>
  <table class="grid">
    <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-DischargeDestination-1"> </a>
+<h2><a href="CareConnect-DischargeDestination-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CodeSystem/CareConnect-DischargeDestination-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-EthnicCategory-1"> </a>
+<h2><a href="CareConnect-EthnicCategory-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CodeSystem/CareConnect-EthnicCategory-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-NHSNumberVerificationStatus-1"> </a>
+<h2><a href="CareConnect-NHSNumberVerificationStatus-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CodeSystem/CareConnect-NHSNumberVerificationStatus-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_codesystem_CareConnect-SourceOfAdmission-1"> </a>
+<h2><a href="CareConnect-SourceOfAdmission-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/CodeSystem/CareConnect-SourceOfAdmission-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-AdministrativeGender-1"> </a>
+<h2><a href="valueset-CareConnect-AdministrativeGender-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-AdministrativeGender-1.xml</a></h2>
+ <table class="grid">
+   <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1</b></td><td><b>error</b></td><td><b>Conformance resource /Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1.xml - the canonical URL (http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1) does not match the URL (https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1)</b></td>
+     <td><b>ValueSet/CareConnect-AdministrativeGender-1: ValueSet.extension[0].value.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-DischargeDestination-1"> </a>
+<h2><a href="valueset-CareConnect-DischargeDestination-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-DischargeDestination-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-EncounterType-1"> </a>
+<h2><a href="valueset-CareConnect-EncounterType-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-EncounterType-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1: StructureDefinition.snapshot.element[4].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1'</b></td>
+     <td><b>CareConnect-EncounterType-1</b></td><td><b>error</b></td><td><b>Error from server: The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-EthnicCategory-1"> </a>
+<h2><a href="valueset-CareConnect-EthnicCategory-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-EthnicCategory-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1: StructureDefinition.differential.element[2].binding.valueSet.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1'</b></td>
+     <td><b>CareConnect-EthnicCategory-1</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-MaritalStatus-1"> </a>
+<h2><a href="valueset-CareConnect-MaritalStatus-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-MaritalStatus-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1</b></td><td><b>error</b></td><td><b>URL Mismatch http://example.org/fhir/uv/myig/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1 vs https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1</b></td>
+     <td><b>ValueSet/CareConnect-MaritalStatus-1: ValueSet.extension[0].value.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-NHSNumberVerificationStatus-1"> </a>
+<h2><a href="valueset-CareConnect-NHSNumberVerificationStatus-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-NHSNumberVerificationStatus-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CareConnect-NHSNumberVerificationStatus-1</b></td><td><b>error</b></td><td><b>Error from server: Unable to provide support for code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-NameUse-1"> </a>
+<h2><a href="valueset-CareConnect-NameUse-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-NameUse-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet/CareConnect-NameUse-1: ValueSet.extension[0].value.ofType(Reference)</b></td><td><b>error</b></td><td><b>Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_kevinmayfield_Development_wildfyre_UK-STU3_input_resources_valueset_CareConnect-SourceOfAdmission-1"> </a>
+<h2><a href="valueset-CareConnect-SourceOfAdmission-1.html">/Users/kevinmayfield/Development/wildfyre/UK-STU3/input/resources/ValueSet/CareConnect-SourceOfAdmission-1.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td>&check;</td>
    </tr>
 </table>
 <a name="suppressed"> </a>

@@ -1,9 +1,1140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="b561104c-71b2-4a9d-879a-78b0045ef383"/>
+  <id value="aabd30ce-dabb-4f58-b75d-b53e2f894f0c"/>
   <meta>
-    <lastUpdated value="2019-11-23T21:19:30.297+00:00"/>
+    <lastUpdated value="2019-11-24T09:26:53.143+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-NameUse-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/name-use version 3.0.2</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html">
+                <code>http://hl7.org/fhir/name-use</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-usual"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-usual">usual</a>
+                </td>
+                <td>Usual</td>
+                <td>Known as/conventional/the one you normally use</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-official"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-official">official</a>
+                </td>
+                <td>Official</td>
+                <td>The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-temp"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-temp">temp</a>
+                </td>
+                <td>Temp</td>
+                <td>A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-nickname"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-nickname">nickname</a>
+                </td>
+                <td>Nickname</td>
+                <td>A name that is used to address the person in an informal manner, but is not part of their formal or usual name</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-anonymous"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-anonymous">anonymous</a>
+                </td>
+                <td>Anonymous</td>
+                <td>Anonymous assigned name, alias, or pseudonym (used to protect a person&#39;s identity for privacy reasons)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-old"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-old">old</a>
+                </td>
+                <td>Old</td>
+                <td>This name is no longer in use (or was never correct, but retained for records)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-name-use-maiden"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-name-use.html#name-use-maiden">maiden</a>
+                </td>
+                <td>Name changed for Marraige</td>
+                <td>A name used prior to changing name because of marriage. This name use is for use by applications that collect and store names that were used prior to a marriage. Marriage naming customs vary greatly around the world, and are constantly changing. This term is not gender specific. The use of this term does not imply any particular history for a person&#39;s name</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
+          <valueCanonical value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://hl7.org/fhir/ValueSet/name-use"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="fhir"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="0"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+          <valueString value="Informative"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.4.642.3.58"/>
+        </identifier>
+        <version value="3.0.1"/>
+        <name value="NameUse"/>
+        <status value="draft"/>
+        <date value="2017-04-18T22:44:47+01:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="The use of a human name"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; HL7.org 2011+"/>
+        <expansion>
+          <identifier value="urn:uuid:9aaac549-72cf-40fa-a874-07985e19f711"/>
+          <timestamp value="2019-11-24T09:27:35+00:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/name-use|3.0.2"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="usual"/>
+            <display value="Usual"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="official"/>
+            <display value="Official"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="temp"/>
+            <display value="Temp"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="nickname"/>
+            <display value="Nickname"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="anonymous"/>
+            <display value="Anonymous"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="old"/>
+            <display value="Old"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/name-use"/>
+            <code value="maiden"/>
+            <display value="Name changed for Marraige"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-AdministrativeGender-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 4 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/administrative-gender version 3.0.2</p>
+            <p>All codes from system 
+              <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html">
+                <code>http://hl7.org/fhir/administrative-gender</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-male"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-male">male</a>
+                </td>
+                <td>Male</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-female"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-female">female</a>
+                </td>
+                <td>Female</td>
+                <td>Female</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-other"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-administrative-gender-unknown"> </a>
+                  <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a>
+                </td>
+                <td>Unknown</td>
+                <td>Unknown</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
+          <valueCanonical value="https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="pc"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="5"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+          <valueString value="Informative"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.4.642.3.1"/>
+        </identifier>
+        <version value="3.0.1"/>
+        <name value="Administrative Gender"/>
+        <status value="draft"/>
+        <date value="2017-04-18T22:46:00+01:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="The gender of a person used for administrative purposes."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; HL7.org 2011+"/>
+        <expansion>
+          <identifier value="urn:uuid:69230547-4eb6-43d8-90c4-b091d3569442"/>
+          <timestamp value="2019-11-24T09:27:35+00:00"/>
+          <total value="4"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/administrative-gender|3.0.2"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="male"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="female"/>
+            <display value="Female"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="other"/>
+            <display value="Other"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/administrative-gender"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-MaritalStatus-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 11 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/v3/NullFlavor version 2016-11-11, http://hl7.org/fhir/v3/MaritalStatus version 2016-11-11</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-A"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-A">A</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Annulled</td>
+                <td>Marriage contract has been declared null and to not have existed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-D"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-D">D</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Divorced</td>
+                <td>Marriage contract has been declared dissolved and inactive</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-I"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-I">I</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Interlocutory</td>
+                <td>Subject to an Interlocutory Decree.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-L"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-L">L</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Legally Separated</td>
+                <td>Legally Separated</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-M"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-M">M</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Married</td>
+                <td>A current marriage contract is active</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-P"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-P">P</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Polygamous</td>
+                <td>More than 1 current spouse</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-S"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-S">S</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Never Married</td>
+                <td>No marriage contract has ever been entered</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-T"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-T">T</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Domestic partner</td>
+                <td>Person declares that a domestic partner relationship exists.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-U"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-U">U</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>unmaried</td>
+                <td>Currently not in a marriage contract.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-MaritalStatus-W"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-W">W</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/MaritalStatus</td>
+                <td>Widowed</td>
+                <td>The spouse has died</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-v3-NullFlavor-UNK"> </a>
+                  <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a>
+                </td>
+                <td>http://hl7.org/fhir/v3/NullFlavor</td>
+                <td>unknown</td>
+                <td>Description:A proper value is applicable, but not known.
+
+                        
+                           Usage Notes: This means the actual value is not known.  If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used.  No properties should be included for a datatype with this property unless:
+
+                        
+                           Those properties themselves directly translate to a semantic of &quot;unknown&quot;.  (E.g. a local code sent as a translation that conveys &#39;unknown&#39;)
+                           Those properties further qualify the nature of what is unknown.  (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
+          <valueCanonical value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://hl7.org/fhir/ValueSet/marital-status"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+          <valueCode value="pa"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+          <valueInteger value="5"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+          <valueString value="Informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-extensible">
+          <valueBoolean value="true"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.4.642.3.28"/>
+        </identifier>
+        <version value="3.0.1"/>
+        <name value="Marital Status Codes"/>
+        <status value="draft"/>
+        <date value="2017-04-18T22:44:47+01:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="This value set defines the set of codes that can be used to indicate the marital status of a person."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; HL7.org 2011+"/>
+        <expansion>
+          <identifier value="urn:uuid:f5af7657-505f-4a92-97ad-6157e7af15d8"/>
+          <timestamp value="2019-11-24T09:27:35+00:00"/>
+          <total value="11"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/v3/MaritalStatus|2016-11-11"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/v3/NullFlavor|2016-11-11"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="A"/>
+            <display value="Annulled"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="I"/>
+            <display value="Interlocutory"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="L"/>
+            <display value="Legally Separated"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="P"/>
+            <display value="Polygamous"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="S"/>
+            <display value="Never Married"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="T"/>
+            <display value="Domestic partner"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="U"/>
+            <display value="unmaried"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+            <code value="W"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/v3/NullFlavor"/>
+            <code value="UNK"/>
+            <display value="unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-SourceOfAdmission-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 14 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CareConnect-SourceOfAdmission-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-19"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-19">19</a>
+                </td>
+                <td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-29"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-29">29</a>
+                </td>
+                <td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-39"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-39">39</a>
+                </td>
+                <td>Penal establishment, Court, or Police Station / Police Custody Suite</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-49"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-49">49</a>
+                </td>
+                <td>NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-51"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-51">51</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department</td>
+                <td>National Code 51 &#39;NHS other hospital provider - Ward for general Patients or the younger physically disabled or A and E department&#39; should not be used if the Patient arrives at an Accident and Emergency Department and is admitted to the same Hospital Provider.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-52"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-52">52</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-53"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-53">53</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-54"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-54">54</a>
+                </td>
+                <td>NHS run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-65"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-65">65</a>
+                </td>
+                <td>Local Authority residential accommodation i.e. where care is provided</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-66"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-66">66</a>
+                </td>
+                <td>Local Authority foster care</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-79"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-79">79</a>
+                </td>
+                <td>Babies born in or on the way to hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-85"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-85">85</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-87"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-87">87</a>
+                </td>
+                <td>Non NHS run hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-SourceOfAdmission-1-88"> </a>
+                  <a href="CareConnect-SourceOfAdmission-1.html#CareConnect-SourceOfAdmission-1-88">88</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Hospice</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/s/smo/source_of_admission_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1"/>
+        <version value="1.1.0"/>
+        <name value="NHS Data Model and Dictionary Source Of Admission"/>
+        <status value="draft"/>
+        <date value="2018-11-14T00:00:00+00:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:17a4cdce-faa4-4387-a8a0-b8b89d12b657"/>
+          <timestamp value="2019-11-24T09:27:36+00:00"/>
+          <total value="14"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="19"/>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="29"/>
+            <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishments)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="39"/>
+            <display value="Penal establishment, Court, or Police Station / Police Custody Suite"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="49"/>
+            <display value="NHS other Hospital Provider - high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="51"/>
+            <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled or A and E department"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="52"/>
+            <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="53"/>
+            <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="54"/>
+            <display value="NHS run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="65"/>
+            <display value="Local Authority residential accommodation i.e. where care is provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="66"/>
+            <display value="Local Authority foster care"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="79"/>
+            <display value="Babies born in or on the way to hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="85"/>
+            <display value="Non-NHS (other than Local Authority) run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="87"/>
+            <display value="Non NHS run hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
+            <code value="88"/>
+            <display value="Non-NHS (other than Local Authority) run Hospice"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeDestination-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-DischargeDestination-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 19 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CareConnect-DischargeDestination-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-19"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-19">19</a>
+                </td>
+                <td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-29"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-29">29</a>
+                </td>
+                <td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-30"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-30">30</a>
+                </td>
+                <td>Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-37"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-37">37</a>
+                </td>
+                <td>Court</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-38"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-38">38</a>
+                </td>
+                <td>Penal establishment or police station</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-48"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-48">48</a>
+                </td>
+                <td>High Security Psychiatric Hospital, Scotland</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-49"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-49">49</a>
+                </td>
+                <td>NHS other Hospital Provider - high security psychiatric accommodation</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-50"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-50">50</a>
+                </td>
+                <td>NHS other Hospital Provider - medium secure unit</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-51"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-51">51</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-52"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-52">52</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-53"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-53">53</a>
+                </td>
+                <td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-54"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-54">54</a>
+                </td>
+                <td>NHS run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-65"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-65">65</a>
+                </td>
+                <td>Local Authority residential accommodation i.e. where care is provided</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-66"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-66">66</a>
+                </td>
+                <td>Local Authority foster care</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-79"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-79">79</a>
+                </td>
+                <td>Not applicable - Patient died or still birth</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-84"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-84">84</a>
+                </td>
+                <td>Non-NHS run hospital - medium secure unit</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-85"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-85">85</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Care Home</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-87"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-87">87</a>
+                </td>
+                <td>Non NHS run hospital</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-DischargeDestination-1-88"> </a>
+                  <a href="CareConnect-DischargeDestination-1.html#CareConnect-DischargeDestination-1-88">88</a>
+                </td>
+                <td>Non-NHS (other than Local Authority) run Hospice</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_destination_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeDestination-1"/>
+        <version value="1.1.0"/>
+        <name value="NHS Data Model and Dictionary Discharge Destination"/>
+        <status value="draft"/>
+        <date value="2018-11-14T00:00:00+00:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:d2acadcf-a9b5-4c9e-a077-0e58f85fa50d"/>
+          <timestamp value="2019-11-24T09:27:36+00:00"/>
+          <total value="19"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="19"/>
+            <display value="Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode."/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="29"/>
+            <display value="Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="30"/>
+            <display value="Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="37"/>
+            <display value="Court"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="38"/>
+            <display value="Penal establishment or police station"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="48"/>
+            <display value="High Security Psychiatric Hospital, Scotland"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="49"/>
+            <display value="NHS other Hospital Provider - high security psychiatric accommodation"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="50"/>
+            <display value="NHS other Hospital Provider - medium secure unit"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="51"/>
+            <display value="NHS other Hospital Provider - Ward for general Patients or the younger physically disabled"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="52"/>
+            <display value="NHS other Hospital Provider - Ward for maternity Patients or Neonates"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="53"/>
+            <display value="NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="54"/>
+            <display value="NHS run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="65"/>
+            <display value="Local Authority residential accommodation i.e. where care is provided"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="66"/>
+            <display value="Local Authority foster care"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="79"/>
+            <display value="Not applicable - Patient died or still birth"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="84"/>
+            <display value="Non-NHS run hospital - medium secure unit"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="85"/>
+            <display value="Non-NHS (other than Local Authority) run Care Home"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="87"/>
+            <display value="Non NHS run hospital"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
+            <code value="88"/>
+            <display value="Non-NHS (other than Local Authority) run Hospice"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

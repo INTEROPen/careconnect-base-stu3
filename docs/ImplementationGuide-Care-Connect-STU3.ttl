@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Care-Connect-STU3"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3"];
+  fhir:ImplementationGuide.name [ fhir:value "Care Connect Implementation Guide"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-24T09:26:53+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "A brief description of what MyIG is about (probably the same text as in your readme)"];
+  fhir:ImplementationGuide.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:ImplementationGuide.fhirVersion [ fhir:value "3.0.2"];
+  fhir:ImplementationGuide.page [
+     fhir:ImplementationGuide.page.source [ fhir:value "toc.html" ];
+     fhir:ImplementationGuide.page.title [ fhir:value "Table of Contents" ];
+     fhir:ImplementationGuide.page.kind [ fhir:value "page" ];
+     fhir:ImplementationGuide.page.page [
+       fhir:index 0;
+       fhir:ImplementationGuide.page.source [ fhir:value "index.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "MyIG Home Page" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.page.source [ fhir:value "background.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "Background" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.page.source [ fhir:value "spec.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "Detailed Specification" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.page.source [ fhir:value "downloads.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "Useful Downloads" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.page.source [ fhir:value "changes.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "IG Change History" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

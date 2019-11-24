@@ -1,10 +1,10 @@
 {
-  "url": "http://example.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-  "name": "YourComputableMyIGNameHere",
-  "package-id": "example.fhir.uv.myig",
-  "date": "Sat, 23 Nov, 2019 21:19:30 +0000",
-  "errs": 124,
-  "warnings": 8,
+  "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3",
+  "name": "Care Connect Implementation Guide",
+  "package-id": "fhir.hl7.org.uk",
+  "date": "Sun, 24 Nov, 2019 09:26:53 +0000",
+  "errs": 112,
+  "warnings": 0,
   "hints": 0,
   "version": "3.0.2",
   "tool": "4.1.0 (3)"

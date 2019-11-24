@@ -4,7 +4,7 @@
   <id value="CareConnect-EthnicCategory-1"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Ethnic Category</h2><div><p>A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>
-</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</code></li></ul></div>
+</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-EthnicCategory-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
     <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"/>
@@ -18,7 +18,7 @@
   <name value="Care Connect Ethnic Category"/>
   <status value="draft"/>
   <date value="2018-11-02T00:00:00+00:00"/>
-  <publisher value="HL7 West Riding - Core"/>
+  <publisher value="HL7 West Riding - Example"/>
   <contact>
     <telecom>
       <system value="other"/>
