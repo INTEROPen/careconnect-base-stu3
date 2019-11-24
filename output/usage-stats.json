@@ -1,0 +1,131 @@
+{
+  "package": "example.fhir.uv.myig",
+  "fhirVersion": "3.0.2",
+  "jurisdiction": "001",
+  "extensions": [
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1",
+      "title": "Extension-CareConnect-EthnicCategory-1",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1",
+      "title": "Extension-CareConnect-NHSNumberVerificationStatus-1",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1",
+        "title": "CareConnect-Observation-1"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1",
+        "title": "CareConnect-Organization-1"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1",
+        "title": "CareConnect-Patient-1"
+      }
+    ]
+  },
+  "usage": {
+    "http://example.org/fhir/uv/myig/StructureDefinition/ext-myExtension": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/birthPlace": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/organization-period": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthTime": [
+      "Patient.birthDate"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-json-type": [
+      "StructureDefinition.snapshot.element.type.code"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-rdf-type": [
+      "StructureDefinition.snapshot.element.type.code"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-xml-type": [
+      "StructureDefinition.snapshot.element.type.code"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference": [
+      "ValueSet"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MainLocation-1": [
+      "Organization"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1": [
+      "Patient.identifier"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NominatedPharmacy-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ResidentialStatus-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-TreatmentCategory-1": [
+      "Patient"
+    ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid": [
+      "Observation.bodySite.coding",
+      "Observation.code.coding",
+      "Observation.component.code.coding",
+      "Observation.method.coding"
+    ]
+  }
+}

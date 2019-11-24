@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="example.fhir.uv.myig"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>YourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
+</div></div>
+  </text>
+  <url value="http://example.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+  <name value="YourComputableMyIGNameHere"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-11-23T21:19:30+00:00"/>
+  <publisher value="HL7 West Riding - Core"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A brief description of what MyIG is about (probably the same text as in your readme)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="3.0.2"/>
+  <page>
+    <source value="toc.html"/>
+    <title value="Table of Contents"/>
+    <kind value="page"/>
+    <page>
+      <source value="index.html"/>
+      <title value="MyIG Home Page"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="background.html"/>
+      <title value="Background"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="spec.html"/>
+      <title value="Detailed Specification"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="downloads.html"/>
+      <title value="Useful Downloads"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="changes.html"/>
+      <title value="IG Change History"/>
+      <kind value="page"/>
+    </page>
+  </page>
+</ImplementationGuide>
