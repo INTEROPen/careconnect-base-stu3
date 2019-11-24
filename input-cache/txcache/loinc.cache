@@ -29,3 +29,23 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "8867-4"
+}, "valueSet" :null}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "85353-1"
+}, "valueSet" :null}####
+v: {
+  "display" : "Vital signs, weight, height, head circumference, oxygen saturation and BMI panel",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

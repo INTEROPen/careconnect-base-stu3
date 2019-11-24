@@ -4,6 +4,63 @@
   "jurisdiction": "001",
   "extensions": [
     {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1",
+      "title": "Extension-CareConnect-DeathNotificationStatus-1",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string",
+        "dateTime",
+        "base64Binary",
+        "boolean",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1",
       "title": "Extension-CareConnect-EthnicCategory-1",
       "types": [
@@ -11,8 +68,85 @@
       ]
     },
     {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1",
+      "title": "Extension-CareConnect-NHSCommunication-1",
+      "types": [
+        "CodeableConcept",
+        "boolean",
+        "CodeableConcept",
+        "CodeableConcept",
+        "boolean",
+        "base64Binary",
+        "boolean",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "Meta"
+      ]
+    },
+    {
       "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1",
       "title": "Extension-CareConnect-NHSNumberVerificationStatus-1",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NominatedPharmacy-1",
+      "title": "Extension-CareConnect-NominatedPharmacy-1",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1",
+      "title": "Extension-CareConnect-ReligiousAffiliation-1",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ResidentialStatus-1",
+      "title": "Extension-CareConnect-ResidentialStatus-1",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-TreatmentCategory-1",
+      "title": "Extension-CareConnect-TreatmentCategory-1",
       "types": [
         "CodeableConcept"
       ]
@@ -23,6 +157,12 @@
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1",
         "title": "CareConnect-Encounter-1"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-VitalSigns-Observation-1",
+        "title": "CareConnect-VitalSigns-Observation-1"
       }
     ],
     "Organization": [
@@ -71,6 +211,10 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status": [
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.differential.element",
@@ -146,7 +290,11 @@
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid": [
       "Encounter.hospitalization.reAdmission.coding",
       "Encounter.reason.coding",
-      "Encounter.type.coding"
+      "Encounter.type.coding",
+      "Observation.bodySite.coding",
+      "Observation.code.coding",
+      "Observation.component.code.coding",
+      "Observation.method.coding"
     ]
   }
 }

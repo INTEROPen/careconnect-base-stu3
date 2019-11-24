@@ -57,18 +57,81 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/CareConnect-Observation-1"/>
+      </reference>
+      <name value="CareConnect-Observation-1"/>
+      <description value="Level 2 (base UK) profile."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CareConnect-HeartRate-Observation-1"/>
+      </reference>
+      <name value="CareConnect-HeartRate-Observation-1"/>
+      <description value="Level 3 profile. This extends the CareConnect-Observation-1 profile"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CareConnect-VitalSigns-Observation-1"/>
+      </reference>
+      <name value="CareConnect-VitalSigns-Observation-1"/>
+      <description value="Level 3 profile. This extends the CareConnect-Observation-1 profile"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/Extension-CareConnect-EthnicCategory-1"/>
       </reference>
-      <name value="Extension-CareConnect-EthnicCategory-1"/>
+      <name value="CareConnect-EthnicCategory-1"/>
       <description value="Level 2 (base UK) extension."/>
     </resource>
     <resource>
     <reference>
       <reference value="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1"/>
     </reference>
-    <name value="Extension-CareConnect-NHSNumberVerificationStatus-1"/>
+    <name value="CareConnect-NHSNumberVerificationStatus-1"/>
     <description value="Level 2 (base UK) extension."/>
   </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1"/>
+      </reference>
+      <name value="CareConnect-NominatedPharmacy-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"/>
+      </reference>
+      <name value="CareConnect-ReligiousAffiliation-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-ResidentialStatus-1"/>
+      </reference>
+      <name value="CareConnect-ResidentialStatus-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-TreatmentCategory-1"/>
+      </reference>
+      <name value="CareConnect-TreatmentCategory-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1"/>
+      </reference>
+      <name value="CareConnect-DeathNotificationStatus-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/Extension-CareConnect-NHSCommunication-1"/>
+      </reference>
+      <name value="CareConnect-NHSCommunication-1"/>
+      <description value="Level 2 (base UK) extension."/>
+    </resource>
     <resource>
       <reference>
         <reference value="ValueSet/CareConnect-NameUse-1"/>
@@ -141,6 +204,13 @@
     </resource>
     <resource>
       <reference>
+        <reference value="ValueSet/CareConnect-ObservationType-1"/>
+      </reference>
+      <name value="CareConnect-ObservationType-1"/>
+      <description value="resource"/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="ValueSet/CareConnect-DischargeDestination-1"/>
       </reference>
       <name value="CareConnect-DischargeDestination-1"/>
@@ -160,6 +230,14 @@
       <name value="Patient example"/>
       <description value="Level 2 Example"/>
       <exampleCanonical value="StructureDefinition/CareConnect-Patient-1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Observation/9084"/>
+      </reference>
+      <name value="Observation example"/>
+      <description value="Level 3 Example"/>
+      <exampleCanonical value="StructureDefinition/CareConnect-HeartRate-Observation-1"/>
     </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->

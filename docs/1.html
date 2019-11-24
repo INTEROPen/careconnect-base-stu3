@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+
+      <!-- Placeholder for child template CSS declarations -->
   
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -34,23 +36,13 @@
   </head>
   <body>
 
-
-    <style type="text/css">h2{--heading-prefix:"6.18"}
-    h3,h4,h5,h6{--heading-prefix:"6.18"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.28"}
+    h3,h4,h5,h6{--heading-prefix:"6.28"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        <div id="hl7-nav">
-          <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/STU3/">
-            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
-          </a>
-        </div>
-        <div id="fhir-nav">
-          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
-        </div>
-        <div id="hl7-search">
-          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
-        </div>
-        <div id="hl7-status">
+        
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
         </div>
       </div>   <!-- /container -->
@@ -159,7 +151,7 @@
   <p>
     <b>Narrative view</b>
   </p>
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><a name="282a6ab9-0aea-4e36-934e-e10b45105b78">​</a><b>generalPractitioner</b>: <a href="Practitioner/1">Dr. AA Bhatia</a></p><p><a name="6f05a016-b368-46e7-9a70-76f8cb1e71bf">​</a><b>managingOrganization</b>: <a href="Organization/1">The Moir Medical Centre</a></p></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><a name="7b8a2c8a-f1e3-4c43-935f-2311f1d68bcb">​</a><b>generalPractitioner</b>: <a href="Practitioner/1">Dr. AA Bhatia</a></p><p><a name="5e0e6a11-3611-4d60-a5fe-a0f7323d7ccb">​</a><b>managingOrganization</b>: <a href="Organization/1">The Moir Medical Centre</a></p></div>
 
   
   
@@ -174,15 +166,11 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 West Riding - Example.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 09:26+0000">2019-11-24</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 West Riding - Example.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 12:29+0000">2019-11-24</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
-                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
-                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

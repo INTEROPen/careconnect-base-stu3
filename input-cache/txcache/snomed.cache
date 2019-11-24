@@ -16,3 +16,71 @@ e: {
   "error" : "Error from server: The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364066008"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Cardiovascular observable",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005",
+  "display" : "Heart rate"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005"
+}, "valueSet" :null}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<363787002 | Observable entity|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<363787002 | Observable entity|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "118227000"
+}, "valueSet" :null}####
+v: {
+  "display" : "Vital signs finding",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

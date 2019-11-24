@@ -18,6 +18,8 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,23 +36,13 @@
   </head>
   <body>
 
-
     <style type="text/css">h2{--heading-prefix:"6"}
     h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
-        <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
-            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
-          </a>
-        </div>
-        <div id="fhir-nav">
-          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-        </div>
-        <div id="hl7-search">
-          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-        </div>
-        <div id="hl7-status">
+        
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
         </div>
       </div> <!-- /container -->
@@ -189,6 +181,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>Level 2 (base UK) profile.</td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Observation-1.html"
+                     title="StructureDefinition/CareConnect-Observation-1">  •  CareConnect-Observation-1</a>
+               </td>
+               <td>Level 2 (base UK) profile.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-HeartRate-Observation-1.html"
+                     title="StructureDefinition/CareConnect-HeartRate-Observation-1">  •  CareConnect-HeartRate-Observation-1</a>
+               </td>
+               <td>Level 3 profile. This extends the CareConnect-Observation-1 profile</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-VitalSigns-Observation-1.html"
+                     title="StructureDefinition/CareConnect-VitalSigns-Observation-1">  •  CareConnect-VitalSigns-Observation-1</a>
+               </td>
+               <td>Level 3 profile. This extends the CareConnect-Observation-1 profile</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -201,14 +214,56 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="extension-Extension-CareConnect-EthnicCategory-1.html"
-                     title="StructureDefinition/Extension-CareConnect-EthnicCategory-1">  •  Extension-CareConnect-EthnicCategory-1</a>
+                     title="StructureDefinition/Extension-CareConnect-EthnicCategory-1">  •  CareConnect-EthnicCategory-1</a>
                </td>
                <td>Level 2 (base UK) extension.</td>
             </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html"
-                     title="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">  •  Extension-CareConnect-NHSNumberVerificationStatus-1</a>
+                     title="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">  •  CareConnect-NHSNumberVerificationStatus-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-NominatedPharmacy-1.html"
+                     title="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1">  •  CareConnect-NominatedPharmacy-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ReligiousAffiliation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1">  •  CareConnect-ReligiousAffiliation-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ResidentialStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ResidentialStatus-1">  •  CareConnect-ResidentialStatus-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-TreatmentCategory-1.html"
+                     title="StructureDefinition/Extension-CareConnect-TreatmentCategory-1">  •  CareConnect-TreatmentCategory-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-DeathNotificationStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1">  •  CareConnect-DeathNotificationStatus-1</a>
+               </td>
+               <td>Level 2 (base UK) extension.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-NHSCommunication-1.html"
+                     title="StructureDefinition/Extension-CareConnect-NHSCommunication-1">  •  CareConnect-NHSCommunication-1</a>
                </td>
                <td>Level 2 (base UK) extension.</td>
             </tr>
@@ -272,6 +327,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ObservationType-1.html"
+                     title="ValueSet/CareConnect-ObservationType-1">  •  CareConnect-ObservationType-1</a>
+               </td>
+               <td>resource</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="valueset-CareConnect-DischargeDestination-1.html"
                      title="ValueSet/CareConnect-DischargeDestination-1">  •  CareConnect-DischargeDestination-1</a>
                </td>
@@ -329,6 +391,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>Level 2 Example</td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="9084.html" title="Observation/9084">  •  Observation example</a>
+               </td>
+               <td>Level 3 Example</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -345,15 +413,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 09:26+0000">2019-11-24</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 12:29+0000">2019-11-24</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
-                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->
