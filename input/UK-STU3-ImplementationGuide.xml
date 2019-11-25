@@ -57,6 +57,20 @@
     </resource>
     <resource>
       <reference>
+        <reference value="StructureDefinition/CareConnect-Location-1"/>
+      </reference>
+      <name value="CareConnect-Location-1"/>
+      <description value="Level 2 (base UK) profile."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CareConnect-Slot-1"/>
+      </reference>
+      <name value="CareConnect-Slot-1"/>
+      <description value="Level 2 (base UK) profile."/>
+    </resource>
+    <resource>
+      <reference>
         <reference value="StructureDefinition/CareConnect-Observation-1"/>
       </reference>
       <name value="CareConnect-Observation-1"/>

@@ -36,8 +36,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"6.4"}
-    h3,h4,h5,h6{--heading-prefix:"6.4"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.6"}
+    h3,h4,h5,h6{--heading-prefix:"6.6"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
@@ -630,7 +630,7 @@
   <tr><td>Definition</td><td><p>The patient, or group of patients, location, or device whose characteristics (direct or indirect) are described by the observation and into whose record the observation is placed.  Comments: Indirect characteristics may be those of a specimen, fetus, donor,  other observer (for example a relative or EMT), or any observation made about the subject.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..1 This element is affected by the following invariants: ele-1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/STU3/group.html" title="http://hl7.org/fhir/StructureDefinition/Group">Group</a> | <a href="http://hl7.org/fhir/STU3/device.html" title="http://hl7.org/fhir/StructureDefinition/Device">Device</a> | <a href="CareConnect-Patient-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1">CareConnect-Patient-1</a> | https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/references.html#Reference">Reference</a>(<a href="http://hl7.org/fhir/STU3/group.html" title="http://hl7.org/fhir/StructureDefinition/Group">Group</a> | <a href="http://hl7.org/fhir/STU3/device.html" title="http://hl7.org/fhir/StructureDefinition/Device">Device</a> | <a href="CareConnect-Patient-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1">CareConnect-Patient-1</a> | <a href="CareConnect-Location-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1">CareConnect-Location-1</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Observations have no value if you don't know who or what they're about.</p>
 </td></tr>
   <tr><td>Comments</td><td><p>One would expect this element to be a cardinality  of 1..1.  The only circumstance in which the subject can be missing is when the observation is made by a device that does not know the patient. In this case, the observation SHALL be matched to a patient through some context/channel matching technique, and at this point, the observation should be updated.  If the target of the observation is different than the subject, the general extension <a href="http://hl7.org/fhir/STU3/extension-observation-focal-subject.html">observation-focal-subject</a>.  may be used.  However, the distinction between the patient's own value for an observation versus that of the fetus, or the donor or blood product unit, etc., are often specified in the observation code.</p>
@@ -2395,7 +2395,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Nov 25, 2019 12:06+0000">2019-11-25</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Nov 25, 2019 16:40+0000">2019-11-25</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
