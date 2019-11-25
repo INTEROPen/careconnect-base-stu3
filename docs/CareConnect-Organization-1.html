@@ -163,6 +163,18 @@
 
   
   
+  
+  <div style="display:inline-block">
+  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+    <p>
+        Measurements and simple assertions made about a patient, device or other subject.
+    </p>
+</div>
+
+
+  </div>
+  
+  
   <!-- no uri -->
   <a name="profile"> </a>
   <h3 id="profile">Formal Views of Profile Content</h3>
@@ -1274,6 +1286,42 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
 
   
   
+  
+  <div style="display:inline-block">
+  <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+
+    <h2>Search Parameters (Recommended)</h2>
+    <p>This implementation guide outlines some suggested search parameters for the Organization resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Organization resource
+    </p>
+    <table style="min-width:100%;width:100%">
+        <tr id="clinical">
+            <th style="width:15%;">Name</th>
+            <th style="width:10%;">Type</th>
+            <th style="width:40%;">Description</th>
+            <th style="width:5%;">Conformance</th>
+            <th style="width:30%;">Path</th>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">identifier</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>Any identifier for the organization (e.g. SDS/ODS code)</td>
+            <td>MAY</td>
+            <td>Organization.identifier</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">name</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A portion of the organization's name</td>
+            <td>MAY</td>
+            <td>Organization.name</td>
+        </tr>
+    </table>
+
+</div>
+
+  </div>
+  
+  
 
 </div>
 
@@ -1312,7 +1360,7 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Nov 24, 2019 12:29+0000">2019-11-24</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Nov 25, 2019 09:00+0000">2019-11-25</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,47 @@
+{
+  "resourceType": "Organization",
+  "id": "2",
+  "meta": {
+    "lastUpdated": "2019-06-25T08:40:33.309+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 2</p><p><b>meta</b>: </p><p><b>identifier</b>: C81010</p><p><b>active</b>: true</p><p><b>name</b>: The Moir Medical Centre</p><p><b>telecom</b>: ph: 0115 9737320(WORK)</p><p><b>address</b>: The Moir Medical Centre Regent Street, Long Eaton Nottingham Nottingham NG10 1QQ (WORK)</p><p><b>partOf</b>: <a href=\"{{[id]}}.html\">Nhs Erewash Ccg. Generated Summary: id: 3; 03X; active; name: Nhs Erewash Ccg</a></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+      "value": "C81010"
+    }
+  ],
+  "active": true,
+  "name": "The Moir Medical Centre",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "0115 9737320",
+      "use": "work"
+    }
+  ],
+  "address": [
+    {
+      "use": "work",
+      "type": "both",
+      "line": [
+        "The Moir Medical Centre",
+        "Regent Street, Long Eaton",
+        "Nottingham"
+      ],
+      "city": "Nottingham",
+      "district": "Derbyshire",
+      "postalCode": "NG10 1QQ"
+    }
+  ],
+  "partOf": {
+    "reference": "Organization/3",
+    "display": "Nhs Erewash Ccg"
+  }
+}

@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/Organization/3> a fhir:Organization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "3"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2019-06-25T08:39:39.391+00:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 3</p><p><b>meta</b>: </p><p><b>identifier</b>: 03X</p><p><b>active</b>: true</p><p><b>name</b>: Nhs Erewash Ccg</p><p><b>address</b>: Toll Bar House 1 Derby Road Ilkeston DE7 5FH (WORK)</p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/ods-organization-code" ];
+     fhir:Identifier.value [ fhir:value "03X" ]
+  ];
+  fhir:Organization.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Organization.name [ fhir:value "Nhs Erewash Ccg"];
+  fhir:Organization.address [
+     fhir:index 0;
+     fhir:Address.use [ fhir:value "work" ];
+     fhir:Address.type [ fhir:value "both" ];
+     fhir:Address.line [
+       fhir:value "Toll Bar House";
+       fhir:index 0
+     ], [
+       fhir:value "1 Derby Road";
+       fhir:index 1
+     ];
+     fhir:Address.city [ fhir:value "Ilkeston" ];
+     fhir:Address.district [ fhir:value "Derbyshire" ];
+     fhir:Address.postalCode [ fhir:value "DE7 5FH" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/Organization/3.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

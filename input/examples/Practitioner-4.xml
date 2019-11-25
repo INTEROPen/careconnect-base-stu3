@@ -1,0 +1,37 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+    <id value="4"/>
+    <meta>
+        <lastUpdated value="2019-06-25T09:29:16.325+00:00"/>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.hl7.org.uk/Id/gmc-number"/>
+        <value value="G8133438"/>
+    </identifier>
+    <active value="true"/>
+    <name>
+        <family value="Bhatia"/>
+        <given value="AA"/>
+        <prefix value="Dr"/>
+    </name>
+    <telecom>
+        <system value="email"/>
+        <value value="abhatia@nhs.skynet"/>
+        <use value="work"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="0115 9737320"/>
+        <use value="work"/>
+    </telecom>
+    <address>
+        <use value="work"/>
+        <line value="The Moir Medical Centre"/>
+        <line value="Regent Street, Long Eaton"/>
+        <line value="Nottingham"/>
+        <city value="Nottingham"/>
+        <district value="Derbyshire"/>
+        <postalCode value="NG10 1QQ"/>
+    </address>
+    <gender value="male"/>
+</Practitioner>

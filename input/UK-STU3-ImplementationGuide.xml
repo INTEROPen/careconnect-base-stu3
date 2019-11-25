@@ -28,7 +28,7 @@
       -->
     </coding>
   </jurisdiction>
-  <packageId value="fhir.hl7.org.uk"/>
+  <packageId value="fhir.hl7.org.uk/STU3"/>
   <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
   <fhirVersion value="3.0.2"/>
   <definition>
@@ -61,6 +61,13 @@
       </reference>
       <name value="CareConnect-Observation-1"/>
       <description value="Level 2 (base UK) profile."/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/CareConnect-Practitioner-1"/>
+      </reference>
+      <name value="CareConnect-Practitoner-1"/>
+      <description value="Level 2 profile."/>
     </resource>
     <resource>
       <reference>
@@ -237,7 +244,31 @@
       </reference>
       <name value="Observation example"/>
       <description value="Level 3 Example"/>
-      <exampleCanonical value="StructureDefinition/CareConnect-HeartRate-Observation-1"/>
+      <exampleCanonical value="StructureDefinition/CareConnect-Observation-1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Practitioner/4"/>
+      </reference>
+      <name value="Practitioner example"/>
+      <description value="Level 3 Example"/>
+      <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/2"/>
+      </reference>
+      <name value="Organization example"/>
+      <description value="Level 3 Example"/>
+      <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="Organization/3"/>
+      </reference>
+      <name value="Organization example"/>
+      <description value="Level 3 Example"/>
+      <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"/>
     </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->

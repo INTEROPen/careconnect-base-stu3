@@ -1,5 +1,5 @@
 {
-  "package": "fhir.hl7.org.uk",
+  "package": "fhir.hl7.org.uk/STU3",
   "fhirVersion": "3.0.2",
   "jurisdiction": "001",
   "extensions": [
@@ -176,6 +176,12 @@
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1",
         "title": "CareConnect-Patient-1"
       }
+    ],
+    "Practitioner": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1",
+        "title": "CareConnect-Practitioner-1"
+      }
     ]
   },
   "usage": {
@@ -267,7 +273,8 @@
       "Organization"
     ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1": [
-      "Patient"
+      "Patient",
+      "Practitioner"
     ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1": [
       "Patient.identifier"

@@ -18,7 +18,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 9084</p><p><b>meta</b>: </p><p><b>identifier</b>: CD20170922173803</p><p><b>status</b>: final</p><p><b>category</b>: Cardiovascular observable <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs', given as 'Vital Signs'})</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '364075005' = 'Heart rate', given as 'Heart rate'})</span></p><p><b>subject</b>: <a href=\"Patient/2\">Mr Horatio Samson</a></p><p><b>effective</b>: 22 Sep 2017, 18:38:03</p><p><b>performer</b>: <a href=\"Patient/2\">Mr Horatio Samson</a></p><p><b>value</b>: 98.00 {beats}/min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {beats}/min = '{beats}/min')</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 9084</p><p><b>meta</b>: </p><p><b>identifier</b>: CD20170922173803</p><p><b>status</b>: final</p><p><b>category</b>: Cardiovascular observable <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs', given as 'Vital Signs'})</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '364075005' = 'Heart rate', given as 'Heart rate'})</span></p><p><b>subject</b>: <a href=\"{{[id]}}.html\">Ms Bernie Kanfeld. Generated Summary: id: 1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title=\"Codes: {http://hl7.org/fhir/v3/MaritalStatus S}\">Never Married</span></a></p><p><b>effective</b>: 22 Sep 2017, 18:38:03</p><p><b>performer</b>: <a href=\"{{[id]}}.html\">Ms Bernie Kanfeld. Generated Summary: id: 1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title=\"Codes: {http://hl7.org/fhir/v3/MaritalStatus S}\">Never Married</span></a></p><p><b>value</b>: 98.00 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
   ];
   fhir:Observation.identifier [
      fhir:index 0;
@@ -47,22 +47,22 @@
      fhir:CodeableConcept.text [ fhir:value "Heart rate" ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/2>;
-     fhir:Reference.reference [ fhir:value "Patient/2" ];
-     fhir:Reference.display [ fhir:value "Mr Horatio Samson" ]
+     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/1>;
+     fhir:Reference.reference [ fhir:value "Patient/1" ];
+     fhir:Reference.display [ fhir:value "Ms Bernie Kanfeld" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2017-09-22T17:38:03+00:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/2>;
-     fhir:Reference.reference [ fhir:value "Patient/2" ];
-     fhir:Reference.display [ fhir:value "Mr Horatio Samson" ]
+     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/1>;
+     fhir:Reference.reference [ fhir:value "Patient/1" ];
+     fhir:Reference.display [ fhir:value "Ms Bernie Kanfeld" ]
   ];
   fhir:Observation.valueQuantity [
      fhir:Quantity.value [ fhir:value "98.00"^^xsd:decimal ];
-     fhir:Quantity.unit [ fhir:value "{beats}/min" ];
+     fhir:Quantity.unit [ fhir:value "/min" ];
      fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-     fhir:Quantity.code [ fhir:value "{beats}/min" ]
+     fhir:Quantity.code [ fhir:value "/min" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

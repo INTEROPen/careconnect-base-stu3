@@ -1,0 +1,32 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="2"/>
+    <meta>
+        <lastUpdated value="2019-06-25T08:40:33.309+00:00"/>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="C81010"/>
+    </identifier>
+    <active value="true"/>
+    <name value="The Moir Medical Centre"/>
+    <telecom>
+        <system value="phone"/>
+        <value value="0115 9737320"/>
+        <use value="work"/>
+    </telecom>
+    <address>
+        <use value="work"/>
+        <type value="both"/>
+        <line value="The Moir Medical Centre"/>
+        <line value="Regent Street, Long Eaton"/>
+        <line value="Nottingham"/>
+        <city value="Nottingham"/>
+        <district value="Derbyshire"/>
+        <postalCode value="NG10 1QQ"/>
+    </address>
+    <partOf>
+        <reference value="Organization/3"/>
+        <display value="Nhs Erewash Ccg"/>
+    </partOf>
+</Organization>

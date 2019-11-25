@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.name [ fhir:value "Care Connect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-11-24T12:29:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-25T09:00:29+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 West Riding - Example"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

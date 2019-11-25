@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="39bec0f5-6e88-454d-9e08-38e316d44df3"/>
+  <id value="8a708d83-753f-4f4d-b3da-9d54e3547a50"/>
   <meta>
-    <lastUpdated value="2019-11-24T12:29:22.650+00:00"/>
+    <lastUpdated value="2019-11-25T09:00:29.427+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -132,8 +132,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:15ad3547-330c-4325-bab3-36d78d26dc5d"/>
-          <timestamp value="2019-11-24T12:30:21+00:00"/>
+          <identifier value="urn:uuid:1c72c594-cef6-495a-b2ee-ea22981299d6"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -284,8 +284,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:283d4f60-1493-4ffd-8542-a6a0d8c66a59"/>
-          <timestamp value="2019-11-24T12:30:21+00:00"/>
+          <identifier value="urn:uuid:5e550d2b-9d5e-48d5-93bb-1b92ef0d0720"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -496,8 +496,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:fd14543b-9feb-4b24-93f7-76fb2351fe80"/>
-          <timestamp value="2019-11-24T12:30:21+00:00"/>
+          <identifier value="urn:uuid:840708b9-1754-49c0-99dc-b033dcfeb4c4"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -565,6 +565,963 @@
             <system value="http://hl7.org/fhir/v3/NullFlavor"/>
             <code value="UNK"/>
             <display value="unknown"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-EthnicCategory-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 68 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CareConnect-EthnicCategory-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-A"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-A">A</a>
+                </td>
+                <td>British, Mixed British</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-B"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-B">B</a>
+                </td>
+                <td>Irish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-C"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-C">C</a>
+                </td>
+                <td>Any other White background</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-C2"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-C2">C2</a>
+                </td>
+                <td>Northern Irish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-C3"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-C3">C3</a>
+                </td>
+                <td>Other white, white unspecified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CA"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CA">CA</a>
+                </td>
+                <td>English</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CB"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CB">CB</a>
+                </td>
+                <td>Scottish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CC"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CC">CC</a>
+                </td>
+                <td>Welsh</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CD"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CD">CD</a>
+                </td>
+                <td>Cornish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CE"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CE">CE</a>
+                </td>
+                <td>Cypriot (part not stated)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CF"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CF">CF</a>
+                </td>
+                <td>Greek</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CG"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CG">CG</a>
+                </td>
+                <td>Greek Cypriot</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CH"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CH">CH</a>
+                </td>
+                <td>Turkish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CJ"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CJ">CJ</a>
+                </td>
+                <td>Turkish Cypriot</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CK"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CK">CK</a>
+                </td>
+                <td>Italian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CL"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CL">CL</a>
+                </td>
+                <td>Irish Traveller</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CM"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CM">CM</a>
+                </td>
+                <td>Traveller</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CN"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CN">CN</a>
+                </td>
+                <td>Gypsy/Romany</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CP"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CP">CP</a>
+                </td>
+                <td>Polish</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CQ"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CQ">CQ</a>
+                </td>
+                <td>All republics which made up the former USSR</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CR"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CR">CR</a>
+                </td>
+                <td>Kosovan</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CS"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CS">CS</a>
+                </td>
+                <td>Albanian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CT"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CT">CT</a>
+                </td>
+                <td>Bosnian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CU"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CU">CU</a>
+                </td>
+                <td>Croatian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CV"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CV">CV</a>
+                </td>
+                <td>Serbian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CW"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CW">CW</a>
+                </td>
+                <td>Other republics which made up the former Yugoslavia</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CX"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CX">CX</a>
+                </td>
+                <td>Mixed white</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-CY"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-CY">CY</a>
+                </td>
+                <td>Other white European, European unspecified, European mixed</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-D"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-D">D</a>
+                </td>
+                <td>White and Black Caribbean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-E"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-E">E</a>
+                </td>
+                <td>White and Black African</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-F"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-F">F</a>
+                </td>
+                <td>White and Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-G"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-G">G</a>
+                </td>
+                <td>Any other mixed background</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GA"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GA">GA</a>
+                </td>
+                <td>Black and Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GB"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GB">GB</a>
+                </td>
+                <td>Black and Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GC"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GC">GC</a>
+                </td>
+                <td>Black and White</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GD"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GD">GD</a>
+                </td>
+                <td>Chinese and White</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GE"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GE">GE</a>
+                </td>
+                <td>Asian and Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-GF"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-GF">GF</a>
+                </td>
+                <td>Other Mixed, Mixed Unspecified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-H"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-H">H</a>
+                </td>
+                <td>Indian or British Indian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-J"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-J">J</a>
+                </td>
+                <td>Pakistani or British Pakistani</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-K"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-K">K</a>
+                </td>
+                <td>Bangladeshi or British Bangladeshi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-L"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-L">L</a>
+                </td>
+                <td>Any other Asian background</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LA"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LA">LA</a>
+                </td>
+                <td>Mixed Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LB"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LB">LB</a>
+                </td>
+                <td>Punjabi</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LC"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LC">LC</a>
+                </td>
+                <td>Kashmiri</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LD"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LD">LD</a>
+                </td>
+                <td>East African Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LE"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LE">LE</a>
+                </td>
+                <td>Sri Lanka</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LF"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LF">LF</a>
+                </td>
+                <td>Tamil</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LG"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LG">LG</a>
+                </td>
+                <td>Sinhalese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LH"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LH">LH</a>
+                </td>
+                <td>British Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LJ"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LJ">LJ</a>
+                </td>
+                <td>Caribbean Asian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-LK"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-LK">LK</a>
+                </td>
+                <td>Other Asian, Asian unspecified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-M"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-M">M</a>
+                </td>
+                <td>Caribbean</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-N"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-N">N</a>
+                </td>
+                <td>African</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-P"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-P">P</a>
+                </td>
+                <td>Any other Black background</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-PA"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-PA">PA</a>
+                </td>
+                <td>Somali</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-PB"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-PB">PB</a>
+                </td>
+                <td>Mixed Black</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-PC"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-PC">PC</a>
+                </td>
+                <td>Nigerian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-PD"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-PD">PD</a>
+                </td>
+                <td>Black British</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-PE"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-PE">PE</a>
+                </td>
+                <td>Other Black, Black unspecified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-R"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-R">R</a>
+                </td>
+                <td>Chinese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-S"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-S">S</a>
+                </td>
+                <td>Any other ethnic group</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-SA"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-SA">SA</a>
+                </td>
+                <td>Vietnamese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-SB"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-SB">SB</a>
+                </td>
+                <td>Japanese</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-SC"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-SC">SC</a>
+                </td>
+                <td>Filipino</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-SD"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-SD">SD</a>
+                </td>
+                <td>Malaysian</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-SE"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-SE">SE</a>
+                </td>
+                <td>Any Other Group</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-EthnicCategory-1-Z"> </a>
+                  <a href="CareConnect-EthnicCategory-1.html#CareConnect-EthnicCategory-1-Z">Z</a>
+                </td>
+                <td>Not stated</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.6"/>
+        </identifier>
+        <version value="1.1.0"/>
+        <name value="Care Connect Ethnic Category"/>
+        <status value="draft"/>
+        <date value="2018-11-02T00:00:00+00:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:bee1847c-c5d3-4602-8ac4-e4a00cf53dff"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
+          <total value="68"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="A"/>
+            <display value="British, Mixed British"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="B"/>
+            <display value="Irish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="C"/>
+            <display value="Any other White background"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="C2"/>
+            <display value="Northern Irish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="C3"/>
+            <display value="Other white, white unspecified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CA"/>
+            <display value="English"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CB"/>
+            <display value="Scottish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CC"/>
+            <display value="Welsh"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CD"/>
+            <display value="Cornish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CE"/>
+            <display value="Cypriot (part not stated)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CF"/>
+            <display value="Greek"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CG"/>
+            <display value="Greek Cypriot"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CH"/>
+            <display value="Turkish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CJ"/>
+            <display value="Turkish Cypriot"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CK"/>
+            <display value="Italian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CL"/>
+            <display value="Irish Traveller"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CM"/>
+            <display value="Traveller"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CN"/>
+            <display value="Gypsy/Romany"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CP"/>
+            <display value="Polish"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CQ"/>
+            <display value="All republics which made up the former USSR"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CR"/>
+            <display value="Kosovan"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CS"/>
+            <display value="Albanian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CT"/>
+            <display value="Bosnian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CU"/>
+            <display value="Croatian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CV"/>
+            <display value="Serbian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CW"/>
+            <display value="Other republics which made up the former Yugoslavia"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CX"/>
+            <display value="Mixed white"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="CY"/>
+            <display value="Other white European, European unspecified, European mixed"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="D"/>
+            <display value="White and Black Caribbean"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="E"/>
+            <display value="White and Black African"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="F"/>
+            <display value="White and Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="G"/>
+            <display value="Any other mixed background"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GA"/>
+            <display value="Black and Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GB"/>
+            <display value="Black and Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GC"/>
+            <display value="Black and White"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GD"/>
+            <display value="Chinese and White"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GE"/>
+            <display value="Asian and Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="GF"/>
+            <display value="Other Mixed, Mixed Unspecified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="H"/>
+            <display value="Indian or British Indian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="J"/>
+            <display value="Pakistani or British Pakistani"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="K"/>
+            <display value="Bangladeshi or British Bangladeshi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="L"/>
+            <display value="Any other Asian background"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LA"/>
+            <display value="Mixed Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LB"/>
+            <display value="Punjabi"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LC"/>
+            <display value="Kashmiri"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LD"/>
+            <display value="East African Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LE"/>
+            <display value="Sri Lanka"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LF"/>
+            <display value="Tamil"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LG"/>
+            <display value="Sinhalese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LH"/>
+            <display value="British Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LJ"/>
+            <display value="Caribbean Asian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="LK"/>
+            <display value="Other Asian, Asian unspecified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="M"/>
+            <display value="Caribbean"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="N"/>
+            <display value="African"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="P"/>
+            <display value="Any other Black background"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="PA"/>
+            <display value="Somali"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="PB"/>
+            <display value="Mixed Black"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="PC"/>
+            <display value="Nigerian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="PD"/>
+            <display value="Black British"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="PE"/>
+            <display value="Other Black, Black unspecified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="R"/>
+            <display value="Chinese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="S"/>
+            <display value="Any other ethnic group"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="SA"/>
+            <display value="Vietnamese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="SB"/>
+            <display value="Japanese"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="SC"/>
+            <display value="Filipino"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="SD"/>
+            <display value="Malaysian"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="SE"/>
+            <display value="Any Other Group"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
+            <code value="Z"/>
+            <display value="Not stated"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -736,8 +1693,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:d96445a4-bea0-42f2-bcfb-6a4804878925"/>
-          <timestamp value="2019-11-24T12:30:21+00:00"/>
+          <identifier value="urn:uuid:28399adf-d88c-4237-9ed3-3c047bca3b1a"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -816,6 +1773,183 @@
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
             <code value="88"/>
             <display value="Non-NHS (other than Local Authority) run Hospice"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1"/>
+    <resource>
+      <ValueSet>
+        <id value="CareConnect-NHSNumberVerificationStatus-1"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 8 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1 version 1.1.0</p>
+            <p>All codes from system 
+              <a href="CareConnect-NHSNumberVerificationStatus-1.html">
+                <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-01"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-01">01</a>
+                </td>
+                <td>Number present and verified</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-02"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-02">02</a>
+                </td>
+                <td>Number present but not traced</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-03"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-03">03</a>
+                </td>
+                <td>Trace required</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-04"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-04">04</a>
+                </td>
+                <td>Trace attempted - No match or multiple match found</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-05"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-05">05</a>
+                </td>
+                <td>Trace needs to be resolved - (NHS number or patient detail conflict)</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-06"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-06">06</a>
+                </td>
+                <td>Trace in progress</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-07"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-07">07</a>
+                </td>
+                <td>Number not present and trace not required</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSNumberVerificationStatus-1-08"> </a>
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html#CareConnect-NHSNumberVerificationStatus-1-08">08</a>
+                </td>
+                <td>Trace postponed (baby under six weeks old)</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+          <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"/>
+        </extension>
+        <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSNumberVerificationStatus-1"/>
+        <identifier>
+          <system value="urn:ietf:rfc:3986"/>
+          <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.17.70"/>
+        </identifier>
+        <version value="1.1.0"/>
+        <name value="Care Connect NHS Number Verification Status"/>
+        <status value="draft"/>
+        <date value="2018-11-02T00:00:00+00:00"/>
+        <publisher value="HL7 West Riding - Example"/>
+        <contact>
+          <telecom>
+            <system value="other"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+        <expansion>
+          <identifier value="urn:uuid:74fe8a23-518f-4b4b-9de5-6375e339257b"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
+          <total value="8"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="01"/>
+            <display value="Number present and verified"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="02"/>
+            <display value="Number present but not traced"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="03"/>
+            <display value="Trace required"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="04"/>
+            <display value="Trace attempted - No match or multiple match found"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="05"/>
+            <display value="Trace needs to be resolved - (NHS number or patient detail conflict)"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="06"/>
+            <display value="Trace in progress"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="07"/>
+            <display value="Number not present and trace not required"/>
+          </contains>
+          <contains>
+            <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+            <code value="08"/>
+            <display value="Trace postponed (baby under six weeks old)"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -1027,8 +2161,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:c2e35576-fe36-4122-89b9-eb8d6ebe3438"/>
-          <timestamp value="2019-11-24T12:30:22+00:00"/>
+          <identifier value="urn:uuid:767b2fbe-89da-49b1-b8d4-b81682bc1232"/>
+          <timestamp value="2019-11-25T09:01:25+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>

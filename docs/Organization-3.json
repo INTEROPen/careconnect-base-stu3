@@ -1,0 +1,35 @@
+{
+  "resourceType": "Organization",
+  "id": "3",
+  "meta": {
+    "lastUpdated": "2019-06-25T08:39:39.391+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 3</p><p><b>meta</b>: </p><p><b>identifier</b>: 03X</p><p><b>active</b>: true</p><p><b>name</b>: Nhs Erewash Ccg</p><p><b>address</b>: Toll Bar House 1 Derby Road Ilkeston DE7 5FH (WORK)</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+      "value": "03X"
+    }
+  ],
+  "active": true,
+  "name": "Nhs Erewash Ccg",
+  "address": [
+    {
+      "use": "work",
+      "type": "both",
+      "line": [
+        "Toll Bar House",
+        "1 Derby Road"
+      ],
+      "city": "Ilkeston",
+      "district": "Derbyshire",
+      "postalCode": "DE7 5FH"
+    }
+  ]
+}
