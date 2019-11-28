@@ -11,6 +11,596 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "999000531000000100"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000531000000100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000051000001100"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000051000001100 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "887161000000102",
+        "display" : "Diagnoses"
+      },
+      {
+        "code" : "887171000000109",
+        "display" : "Procedures"
+      },
+      {
+        "code" : "717711000000103",
+        "display" : "Problems"
+      },
+      {
+        "code" : "933361000000108",
+        "display" : "Medications and medical devices"
+      },
+      {
+        "code" : "886921000000105",
+        "display" : "Allergies and adverse reactions"
+      },
+      {
+        "code" : "1102411000000102",
+        "display" : "Active medications"
+      },
+      {
+        "code" : "1102191000000100",
+        "display" : "Discontinued medications"
+      },
+      {
+        "code" : "1103671000000101",
+        "display" : "Ended allergies"
+      },
+      {
+        "code" : "325851000000107",
+        "display" : "Consultation"
+      },
+      {
+        "code" : "25851000000105",
+        "display" : "Topic (EHR)"
+      },
+      {
+        "code" : "24781000000107",
+        "display" : "Category (EHR)"
+      },
+      {
+        "code" : "1102181000000102",
+        "display" : "Immunisations"
+      },
+      {
+        "code" : "826501000000100",
+        "display" : "Miscellaneous record"
+      },
+      {
+        "code" : "792931000000107",
+        "display" : "Outbound referral"
+      },
+      {
+        "code" : "887191000000108",
+        "display" : "Investigations and results"
+      },
+      {
+        "code" : "1149501000000101",
+        "display" : "List of consultations"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:02c7f545-7869-4642-8fd4-ec00e18a1038",
+    "timestamp" : "2019-11-28T17:37:21+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "887161000000102",
+      "display" : "Diagnoses"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "887171000000109",
+      "display" : "Procedures"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "717711000000103",
+      "display" : "Problems"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "933361000000108",
+      "display" : "Medications and medical devices"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "886921000000105",
+      "display" : "Allergies and adverse reactions"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102411000000102",
+      "display" : "Active medications"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102191000000100",
+      "display" : "Discontinued medications"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1103671000000101",
+      "display" : "Ended allergies"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "325851000000107",
+      "display" : "Consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25851000000105",
+      "display" : "Topic (EHR)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24781000000107",
+      "display" : "Category (EHR)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102181000000102",
+      "display" : "Immunisations"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "826501000000100",
+      "display" : "Miscellaneous record"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "792931000000107",
+      "display" : "Outbound referral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "887191000000108",
+      "display" : "Investigations and results"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1149501000000101",
+      "display" : "List of consultations"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "404684003"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Clinical finding (finding)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "201741000000102",
+        "display" : "Did not attend child immunisation (finding)"
+      },
+      {
+        "code" : "281399006",
+        "display" : "Did not attend (finding)"
+      },
+      {
+        "code" : "213257006",
+        "display" : "Generally unwell (finding)"
+      },
+      {
+        "code" : "266758009",
+        "display" : "Immunization contraindicated (situation)"
+      },
+      {
+        "code" : "310376006",
+        "display" : "Immunization consent not given (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:754ffe09-e0b4-4b2e-b381-5671dd92657e",
+    "timestamp" : "2019-11-28T17:37:22+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "201741000000102",
+      "display" : "Did not attend child immunisation (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281399006",
+      "display" : "Did not attend (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "213257006",
+      "display" : "Generally unwell (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266758009",
+      "display" : "Immunization contraindicated (situation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310376006",
+      "display" : "Immunization consent not given (finding)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999003021000000104"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999003021000000104 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000031000001105"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000031000001105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000811000001105"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000811000001105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "12465201000001105"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 12465201000001105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000831000001104"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000831000001104 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000841000001106"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000841000001106 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000821000001101"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000821000001101 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000391000000109"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000391000000109 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000381000000107"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000381000000107 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "< 309013001 |Referred by person (finding)"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Expected character \"<\" but found 3 at character 3"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "< 306098008 |Self-referral (procedure)"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Expected character \"<\" but found 3 at character 3"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "171279008",
+        "display" : "Immunization due"
+      },
+      {
+        "code" : "414448007",
+        "display" : "Identified as high risk for travel"
+      },
+      {
+        "code" : "161096004",
+        "display" : "Going to travel abroad"
+      },
+      {
+        "code" : "506931000000109",
+        "display" : "Recent travel to disease affected area"
+      },
+      {
+        "code" : "78648007",
+        "display" : "At risk for infection"
+      },
+      {
+        "code" : "14679004",
+        "display" : "Occupation"
+      },
+      {
+        "code" : "134436002",
+        "display" : "Lifestyle"
+      },
+      {
+        "code" : "398192003",
+        "display" : "Co-morbid conditions"
+      },
+      {
+        "code" : "443684005",
+        "display" : "Disease outbreak"
+      },
+      {
+        "code" : "183995001",
+        "display" : "Patient requested procedure"
+      },
+      {
+        "code" : "444107005",
+        "display" : "Exposure to communicable disease"
+      },
+      {
+        "code" : "723620004",
+        "display" : "Requires vaccination"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:222c4ed0-191e-4ff7-9172-476234500a36",
+    "timestamp" : "2019-11-28T17:37:26+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "171279008",
+      "display" : "Immunization due"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414448007",
+      "display" : "Identified as high risk for travel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "161096004",
+      "display" : "Going to travel abroad"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "506931000000109",
+      "display" : "Recent travel to disease affected area"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78648007",
+      "display" : "At risk for infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14679004",
+      "display" : "Occupation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "134436002",
+      "display" : "Lifestyle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398192003",
+      "display" : "Co-morbid conditions"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443684005",
+      "display" : "Disease outbreak"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "183995001",
+      "display" : "Patient requested procedure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444107005",
+      "display" : "Exposure to communicable disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "723620004",
+      "display" : "Requires vaccination"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "255217005",
+        "display" : "First episode"
+      },
+      {
+        "code" : "288527008",
+        "display" : "New episode"
+      },
+      {
+        "code" : "303350001",
+        "display" : "Ongoing episode"
+      },
+      {
+        "code" : "272131007",
+        "display" : "Old episode"
+      },
+      {
+        "code" : "394846009",
+        "display" : "Undefined episodicity"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:e156f521-c60e-495e-bd6d-f999d55d7608",
+    "timestamp" : "2019-11-28T17:37:27+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "255217005",
+      "display" : "First episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "288527008",
+      "display" : "New episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303350001",
+      "display" : "Ongoing episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "272131007",
+      "display" : "Old episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394846009",
+      "display" : "Undefined episodicity"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "364075005",
   "display" : "Heart rate"
 }, "valueSet" :null, "lang":"null"}####
@@ -18,6 +608,555 @@ v: {
   "display" : "Heart rate",
   "severity" : null,
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "^999000051000001100 |ePrescribing route of administration simple reference set|"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(1104311000000102 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 1 score| OR 1104321000000108 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 2 score|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (1104311000000102 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 1 score| OR 1104321000000108 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 2 score|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<442083009 |anatomical or acquired body structure|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<442083009 |anatomical or acquired body structure|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| 130987000 |Acute confusion|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| 130987000 |Acute confusion|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<386053000 | Evaluation procedure|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<386053000 | Evaluation procedure|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000531000000100"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000531000000100 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<363787002 | Observable entity|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<363787002 | Observable entity|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000051000001100"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000051000001100 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<105590001 |Substance (substance)|(in which case method and site should also be populated)OR <49755003 |Morphologically abnormal structure (morphologic abnormality)|OR < 260787004 |Physical object (physical object))"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<105590001 |Substance (substance)|(in which case method and site should also be populated)OR <49755003 |Morphologically abnormal structure (morphologic abnormality)|OR < 260787004 |Physical object (physical object))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "887161000000102",
+        "display" : "Diagnoses"
+      },
+      {
+        "code" : "887171000000109",
+        "display" : "Procedures"
+      },
+      {
+        "code" : "717711000000103",
+        "display" : "Problems"
+      },
+      {
+        "code" : "933361000000108",
+        "display" : "Medications and medical devices"
+      },
+      {
+        "code" : "886921000000105",
+        "display" : "Allergies and adverse reactions"
+      },
+      {
+        "code" : "1102411000000102",
+        "display" : "Active medications"
+      },
+      {
+        "code" : "1102191000000100",
+        "display" : "Discontinued medications"
+      },
+      {
+        "code" : "1103671000000101",
+        "display" : "Ended allergies"
+      },
+      {
+        "code" : "325851000000107",
+        "display" : "Consultation"
+      },
+      {
+        "code" : "25851000000105",
+        "display" : "Topic (EHR)"
+      },
+      {
+        "code" : "24781000000107",
+        "display" : "Category (EHR)"
+      },
+      {
+        "code" : "1102181000000102",
+        "display" : "Immunisations"
+      },
+      {
+        "code" : "826501000000100",
+        "display" : "Miscellaneous record"
+      },
+      {
+        "code" : "792931000000107",
+        "display" : "Outbound referral"
+      },
+      {
+        "code" : "887191000000108",
+        "display" : "Investigations and results"
+      },
+      {
+        "code" : "1149501000000101",
+        "display" : "List of consultations"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:f9fa5b9b-39d9-477c-a01e-25b56da59358",
+    "timestamp" : "2019-11-28T17:39:08+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "887161000000102",
+      "display" : "Diagnoses"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "887171000000109",
+      "display" : "Procedures"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "717711000000103",
+      "display" : "Problems"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "933361000000108",
+      "display" : "Medications and medical devices"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "886921000000105",
+      "display" : "Allergies and adverse reactions"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102411000000102",
+      "display" : "Active medications"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102191000000100",
+      "display" : "Discontinued medications"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1103671000000101",
+      "display" : "Ended allergies"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "325851000000107",
+      "display" : "Consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "25851000000105",
+      "display" : "Topic (EHR)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "24781000000107",
+      "display" : "Category (EHR)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1102181000000102",
+      "display" : "Immunisations"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "826501000000100",
+      "display" : "Miscellaneous record"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "792931000000107",
+      "display" : "Outbound referral"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "887191000000108",
+      "display" : "Investigations and results"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1149501000000101",
+      "display" : "List of consultations"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "404684003"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 404684003 is not a reference set"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<33879002 OR <<713404003 OR <<955641000000103 OR <<955691000000108 OR <<955701000000108 OR <<957581000000102 OR <<957751000000103 OR <<1066171000000108 OR <<140611000119104 OR <<15483003 OR <<39343008 OR <<34631000 OR <<72093006 OR <<425897001 OR <<8605003 OR <<428502009 OR <<283451000000105 OR <<308753004 OR <<572481000119103 OR <<965851000000105 OR <<761841000 OR <<16300531000119107 OR <<14747002 OR <<283431000000103 OR <<427633002) MINUS (<<304250009 OR <<51116004 OR <<296811004 OR <<294631000 OR <<425457005 OR <<291705006 OR <<417451006 OR <<47988006 OR <<293095001 OR <<601000000100 OR <<123471000119103 OR <<266758009 OR <<223464006 OR <<185324002 OR <<416064006 OR <<428119001 OR <<308433002 OR <<183944003 OR <<408864009 OR <<202111000000106 OR <<708538000 OR <<418019003 OR <<416237000 OR <<400999005 OR <<309370004)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<33879002 OR <<713404003 OR <<955641000000103 OR <<955691000000108 OR <<955701000000108 OR <<957581000000102 OR <<957751000000103 OR <<1066171000000108 OR <<140611000119104 OR <<15483003 OR <<39343008 OR <<34631000 OR <<72093006 OR <<425897001 OR <<8605003 OR <<428502009 OR <<283451000000105 OR <<308753004 OR <<572481000119103 OR <<965851000000105 OR <<761841000 OR <<16300531000119107 OR <<14747002 OR <<283431000000103 OR <<427633002) MINUS (<<304250009 OR <<51116004 OR <<296811004 OR <<294631000 OR <<425457005 OR <<291705006 OR <<417451006 OR <<47988006 OR <<293095001 OR <<601000000100 OR <<123471000119103 OR <<266758009 OR <<223464006 OR <<185324002 OR <<416064006 OR <<428119001 OR <<308433002 OR <<183944003 OR <<408864009 OR <<202111000000106 OR <<708538000 OR <<418019003 OR <<416237000 OR <<400999005 OR <<309370004)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "201741000000102",
+        "display" : "Did not attend child immunisation (finding)"
+      },
+      {
+        "code" : "281399006",
+        "display" : "Did not attend (finding)"
+      },
+      {
+        "code" : "213257006",
+        "display" : "Generally unwell (finding)"
+      },
+      {
+        "code" : "266758009",
+        "display" : "Immunization contraindicated (situation)"
+      },
+      {
+        "code" : "310376006",
+        "display" : "Immunization consent not given (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:f1890c8c-1239-4049-8297-65802a2c1069",
+    "timestamp" : "2019-11-28T17:39:10+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "201741000000102",
+      "display" : "Did not attend child immunisation (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "281399006",
+      "display" : "Did not attend (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "213257006",
+      "display" : "Generally unwell (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "266758009",
+      "display" : "Immunization contraindicated (situation)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "310376006",
+      "display" : "Immunization consent not given (finding)"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999003021000000104"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999003021000000104 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| 442452003 |Life threatening severity|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| 442452003 |Life threatening severity|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000031000001105"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000031000001105 was not known"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -43,15 +1182,457 @@ e: {
     "include" : [{
       "system" : "http://snomed.info/sct",
       "filter" : [{
-        "property" : "constraint",
-        "op" : "=",
-        "value" : "(<<363787002 | Observable entity|)"
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000811000001105"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "12465201000001105"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000831000001104"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000841000001106"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000821000001101"
       }]
     }]
   }
 }}####
 e: {
-  "error" : "Error from server: The filter \"constraint = (<<363787002 | Observable entity|)\" was not understood in the context of http://snomed.info/sct"
+  "error" : "Error from server: The Snomed Concept 999000811000001105 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(< 442083009 Anatomical or acquired body structure OR < 49755003 Morphologically abnormal structure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (< 442083009 Anatomical or acquired body structure OR < 49755003 Morphologically abnormal structure)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000391000000109"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000391000000109 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000381000000107"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000381000000107 was not known"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "< 309013001 |Referred by person (finding)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"concept = < 309013001 |Referred by person (finding)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "< 309013001 |Referred by person (finding)"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "< 306098008 |Self-referral (procedure)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"concept = < 309013001 |Referred by person (finding)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<71388002 |Procedure|<<129125009 |Procedure with explicit context|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(722742002 |Breathing room air| OR 371825009 |Patient on oxygen|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (722742002 |Breathing room air| OR 371825009 |Patient on oxygen|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "171279008",
+        "display" : "Immunization due"
+      },
+      {
+        "code" : "414448007",
+        "display" : "Identified as high risk for travel"
+      },
+      {
+        "code" : "161096004",
+        "display" : "Going to travel abroad"
+      },
+      {
+        "code" : "506931000000109",
+        "display" : "Recent travel to disease affected area"
+      },
+      {
+        "code" : "78648007",
+        "display" : "At risk for infection"
+      },
+      {
+        "code" : "14679004",
+        "display" : "Occupation"
+      },
+      {
+        "code" : "134436002",
+        "display" : "Lifestyle"
+      },
+      {
+        "code" : "398192003",
+        "display" : "Co-morbid conditions"
+      },
+      {
+        "code" : "443684005",
+        "display" : "Disease outbreak"
+      },
+      {
+        "code" : "183995001",
+        "display" : "Patient requested procedure"
+      },
+      {
+        "code" : "444107005",
+        "display" : "Exposure to communicable disease"
+      },
+      {
+        "code" : "723620004",
+        "display" : "Requires vaccination"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:fb81d90e-1362-4d7a-ba14-c6b2731aff27",
+    "timestamp" : "2019-11-28T17:39:22+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "171279008",
+      "display" : "Immunization due"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "414448007",
+      "display" : "Identified as high risk for travel"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "161096004",
+      "display" : "Going to travel abroad"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "506931000000109",
+      "display" : "Recent travel to disease affected area"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "78648007",
+      "display" : "At risk for infection"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "14679004",
+      "display" : "Occupation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "134436002",
+      "display" : "Lifestyle"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "398192003",
+      "display" : "Co-morbid conditions"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "443684005",
+      "display" : "Disease outbreak"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "183995001",
+      "display" : "Patient requested procedure"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "444107005",
+      "display" : "Exposure to communicable disease"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "723620004",
+      "display" : "Requires vaccination"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<371525003 | Clinical procedure report (record artifact))"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<371525003 | Clinical procedure report (record artifact))\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "255217005",
+        "display" : "First episode"
+      },
+      {
+        "code" : "288527008",
+        "display" : "New episode"
+      },
+      {
+        "code" : "303350001",
+        "display" : "Ongoing episode"
+      },
+      {
+        "code" : "272131007",
+        "display" : "Old episode"
+      },
+      {
+        "code" : "394846009",
+        "display" : "Undefined episodicity"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "expansion" : {
+    "identifier" : "urn:uuid:5c7fab03-0742-4a49-8446-8b5d6ed4d13b",
+    "timestamp" : "2019-11-28T17:39:23+00:00",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueString" : "-1"
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20190731"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "255217005",
+      "display" : "First episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "288527008",
+      "display" : "New episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "303350001",
+      "display" : "Ongoing episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "272131007",
+      "display" : "Old episode"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "394846009",
+      "display" : "Undefined episodicity"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<404684003 | clinical findings)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<404684003 | clinical findings)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1104441000000107"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 1104441000000107 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "75367002"
+}, "valueSet" :null}####
+v: {
+  "display" : "Blood pressure",
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -60,6 +1641,26 @@ e: {
 }, "valueSet" :null}####
 v: {
   "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "103228002"
+}, "valueSet" :null}####
+v: {
+  "display" : "Hemoglobin saturation with oxygen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "86290005"
+}, "valueSet" :null}####
+v: {
+  "display" : "Respiratory rate",
   "severity" : null,
   "error" : ""
 }

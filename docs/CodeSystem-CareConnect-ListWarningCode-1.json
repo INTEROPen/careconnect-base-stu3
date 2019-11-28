@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-ListWarningCode-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect List Warning Code</h2><div><p>A CodeSystem to identify the reason a list may be incomplete.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">confidential-items<a name=\"CareConnect-ListWarningCode-1-confidential-items\"> </a></td><td>Confidential Items</td><td>Items excluded due to confidentiality and/or patient preferences.</td></tr><tr><td style=\"white-space:nowrap\">data-in-transit<a name=\"CareConnect-ListWarningCode-1-data-in-transit\"> </a></td><td>Data in Transit</td><td>Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded.</td></tr><tr><td style=\"white-space:nowrap\">data-awaiting-filing<a name=\"CareConnect-ListWarningCode-1-data-awaiting-filing\"> </a></td><td>Data Awaiting Filing</td><td>Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available.</td></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1",
+  "version": "1.2.0",
+  "name": "Care Connect List Warning Code",
+  "status": "draft",
+  "date": "2018-11-01T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the reason a list may be incomplete.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "confidential-items",
+      "display": "Confidential Items",
+      "definition": "Items excluded due to confidentiality and/or patient preferences."
+    },
+    {
+      "code": "data-in-transit",
+      "display": "Data in Transit",
+      "definition": "Patient record transfer from previous GP practice not yet complete; any information recorded before dd-mmm-yyyy has been excluded."
+    },
+    {
+      "code": "data-awaiting-filing",
+      "display": "Data Awaiting Filing",
+      "definition": "Patient data may be incomplete as there is data supplied by a third party awaiting review before becoming available."
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1> a fhir:StructureDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Extension-CareConnect-AllergySeverity-1"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2017-11-10T09:34:52.233+00:00"^^xsd:dateTime ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt; &lt;style&gt;.fhir-data-cell {\n	border: 1px solid #f0f0f0 } .fhir-data-label, .fhir-telecom-name {\n	color: #474747; font-weight: bold; font-size: 13 }\n.fhir-data-label-empty { color: #474747; font-weight: normal }\n.fhir-data-value, .fhir-telecom-value { color: #474747; font-size: 13\n} .fhir-data-value-smalltext { font-size: 10 }\n.fhir-data-block-title { color: #808080; font-weight: bold; text-decoration: underline;\n	font-size: 13 } tr, .fhir-table-title {\n	font-size: 11px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; vertical-align: top; border: 0\n} .fhir-table-title { padding: 0px 4px }\ntd { padding: 5px 4px } .fhir-panel-heading-box {\n	margin: -15px -15px 15px; padding: 10px 15px; background-color: #f0f0f0; border-bottom: 1px solid #808080;\n	border-top-left-radius: 3px; border-top-right-radius: 3px } .fhir-panel-heading-text {\n	margin-top: 0; margin-bottom: 0; font-size: 17.5px; font-weight: 500\n} tr { padding: 3px; line-height: 1.66em\n} .fhir-table-header-row { border: 1px solid #f0f0f0 }\ntr, fhir-table-title, td, tr,\nfhir-table-title, td { text-align: left; text-align: left\n} fhir-table-title, td, fhir-table-title,\ntd { vertical-align: top; vertical-align: top }\ntable { width: 100%; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; border-collapse: collapse\n} .fhir-panel * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box;\n	box-sizing: border-box } .fhir-table.fhir-tree-table tbody:before { content: '-';\n	display: block; line-height: 1em; color: transparent }\n.fhir-tree-table { table-layout: fixed; width: 100% }\n.fhir-panel { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4;\n	width: 95%; max-width: 100%; word-wrap: break-word }\n.fhir-panel { padding: 15px; margin-bottom: 20; background-color: #ffffff;\n	border: 1px solid #808080; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) }\n.fhir-panel .fhir-link { text-decoration: none; color: #005eb8 }\n.fhir-panel-subheading { color: #474747; font-weight: bold; font-size: 13\n} .fhir-info-name-bold { font-weight: bold; color: #474747\n} .fhir-text-italic { font-style: italic; color: #474747\n} .fhir-info-plain { color: #474747 }\n.fhir-resource-info-cell { padding: 5px 4px; border-bottom: 1px solid #f0f0f0 }\n.fhir-indent-wrapped-text { margin-left: 3em; text-indent: -3em }\n.fhir-link { text-decoration: none; color: #005eb8 }\n.fhir-text-faded { opacity: 0.4 } .fhir-text-strikethrough {\n	text-decoration: line-through } .fhirtreebg-dotted-1 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR4nO3OIRIAIAwDwf41/38DRSJBIbqZWRdxlaRu7a2XPwAAwOl7AAAAMEcDVN1AgPyAV0EAAAAASUVORK5CYII=);\n	background-repeat: repeat-y } .fhirtreebg-dotted-00 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4nO3OIQEAAAgDsHd9/w60AMHE/NI2AAAAG84DAADAHwNp30Cqb/h6OAAAAABJRU5ErkJggg==);\n	background-repeat: repeat-y } .fhirtreebg-dotted-10 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR4nO3OIRIAIAwDwf41/38DRSJBIbqZWRdxlaRu7a2XPwAAwOl7AAAAMEcDVN1AgPyAV0EAAAAASUVORK5CYII=);\n	background-repeat: repeat-y } .fhir-tree-resource-icon { padding-right: 4px;\n	background-color: white; border: 0; width: 20; height: 16\n} img.fhir-tree-icon { background-color: white; border: 0;\n	width: 16; height: 22 } .fhir-tree-icons {\n	padding: 0 4px; border-collapse: collapse } .fhir-tree-icons img {\n	vertical-align: top; float: left; border-collapse: collapse }\n.fhir-table, .fhir-table tbody tr { border-collapse: collapse; vertical-align: top;\n	border-style: none } .fhir-tree-icons, .fhir-tree-icons img,\n.fhir-table { -webkit-border-horizontal-spacing: 0; -webkit-border-vertical-spacing: 0 }\n.fhir-tree-cell { padding: 5px 4px } .fhir-details-header-row {\n	font-size: 12px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 3px; vertical-align: top;\n	line-height: 1.4em; font-weight: normal; text-align: left; border-bottom: 1px solid #cccccc;\n	background: #f0f0f0 } .fhir-details-data-row, .fhir-details-data-cell {\n	padding: 3px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 11px; line-height: 1.2em;\n	font-weight: normal; vertical-align: top; text-align: left }\n.fhir-details-header-cell { font-size: 12px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 3px;\n	vertical-align: top; line-height: 1.2em; font-weight: bold; border-bottom: 1px solid #cccccc;\n	background: #f0f0f0 } .fhir-list { margin: 0px\n}&lt;/style&gt; &lt;div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-heading-box&quot;&gt; &lt;h3 class=&quot;fhir-panel-heading-text&quot;&gt;Structure definition: Extension-CareConnect-AllergySeverity-1&lt;/h3&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table&quot;&gt; &lt;colgroup&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Name:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Extension-CareConnect-AllergySeverity-1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;URL:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&lt;/a&gt; &lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Version:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;0.0.1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Constrained type:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Extension&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Constrained URL:&lt;/span&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/extensibility.html#extension&quot;&gt;http://hl7.org/fhir/StructureDefinition/Extension&lt;/a&gt; &lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Status:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Draft&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Description:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;This Extension resource is constrained to support a coded severity of the allergy/intolerance.&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Published by:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;HL7 UK&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Created date:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;13/07/17&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Last updated:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;10/11/17&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Kind:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Complex Data Type&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;FHIR Version:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;STU3&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;DisplayName:&lt;/span&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt;Extension-CareConnect-AllergySeverity-1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Abstract:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;No&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Context type:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Resource&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Use contexts:&lt;/span&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt;AllergyIntolerance.reaction&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt;Copyright &amp;#169; 2016 HL7 UK&amp;#xD; &amp;#xD;\nLicensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&amp;#xD; &amp;#xD;\nhttp://www.apache.org/licenses/LICENSE-2.0&amp;#xD; &amp;#xD;\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&amp;#xD; &amp;#xD;\nHL7&amp;#174; FHIR&amp;#174; standard Copyright &amp;#169; 2011+ HL7&amp;#xD; &amp;#xD;\nThe HL7&amp;#174; FHIR&amp;#174; standard is used under the FHIR license. You may obtain a copy of the FHIR license at&amp;#xD; &amp;#xD;\nhttps://www.hl7.org/fhir/license.html&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table fhir-tree-table&quot;&gt; &lt;thead&gt; &lt;tr class=&quot;fhir-table-header-row&quot;&gt; &lt;th title=&quot;The logical name of the element&quot; style=&quot;width: 25%&quot; class=&quot;fhir-table-title&quot;&gt;Name&lt;/th&gt; &lt;th title=&quot;Features of the element&quot; style=&quot;width: 5%; max-width: 60px&quot; class=&quot;fhir-table-title&quot;&gt;Flags&lt;/th&gt; &lt;th title=&quot;Minimum and maximum # of times the element can appear in the instance&quot; style=&quot;width: 5%; max-width: 40px&quot; class=&quot;fhir-table-title&quot;&gt;Card.&lt;/th&gt; &lt;th title=&quot;Reference to the type of the element&quot; style=&quot;width: 15%; max-width: 80px&quot; class=&quot;fhir-table-title&quot;&gt;Type&lt;/th&gt; &lt;th title=&quot;Additional information about the element&quot; style=&quot;width: 50%&quot; class=&quot;fhir-table-title&quot;&gt;Description/Constraints&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-1 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_resource.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension&quot; title=&quot;A coded severity of the allergy/intolerance.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;Extension&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot; /&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;A coded severity of the allergy/intolerance.&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt;Constraint (ele-1): All FHIR elements must have a @value or children&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt;Constraint (ext-1): Must have either extensions or value[x], not both&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.id&quot; title=&quot;unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;id&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;xml:id (or equivalent in JSON)&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.url&quot; title=&quot;Source of the definition for the extension code - a logical name or a URL.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;url&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;1..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;Identifies The Meaning Of The Extension&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Fixed Value: &lt;a href=&quot;/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&lt;/a&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-00 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin_end.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_element.gif&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.valueCodeableConcept&quot; title=&quot;A coded severity of the allergy/intolerance.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;valueCodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#codeableconcept&quot;&gt;CodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;A coded severity of the allergy/intolerance&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Binding (required): A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy. ( &lt;a href=&quot;/STU3/ValueSet/CareConnect-AllergySeverity-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1&lt;/a&gt; ) &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table fhir-tree-table&quot;&gt; &lt;thead&gt; &lt;tr class=&quot;fhir-table-header-row&quot;&gt; &lt;th title=&quot;The logical name of the element&quot; style=&quot;width: 25%&quot; class=&quot;fhir-table-title&quot;&gt;Name&lt;/th&gt; &lt;th title=&quot;Features of the element&quot; style=&quot;width: 5%; max-width: 60px&quot; class=&quot;fhir-table-title&quot;&gt;Flags&lt;/th&gt; &lt;th title=&quot;Minimum and maximum # of times the element can appear in the instance&quot; style=&quot;width: 5%; max-width: 40px&quot; class=&quot;fhir-table-title&quot;&gt;Card.&lt;/th&gt; &lt;th title=&quot;Reference to the type of the element&quot; style=&quot;width: 15%; max-width: 80px&quot; class=&quot;fhir-table-title&quot;&gt;Type&lt;/th&gt; &lt;th title=&quot;Additional information about the element&quot; style=&quot;width: 50%&quot; class=&quot;fhir-table-title&quot;&gt;Description/Constraints&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-1 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_resource.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension&quot; title=&quot;A coded severity of the allergy/intolerance.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;Extension&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot; /&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;A coded severity of the allergy/intolerance.&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.url&quot; title=&quot;Source of the definition for the extension code - a logical name or a URL.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;url&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-text-faded fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Fixed Value: &lt;a href=&quot;/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&lt;/a&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-00 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin_end.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_element.gif&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.valueCodeableConcept&quot; title=&quot;A coded severity of the allergy/intolerance.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;valueCodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#codeableconcept&quot;&gt;CodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;A coded severity of the allergy/intolerance&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Binding (required): A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy. ( &lt;a href=&quot;/STU3/ValueSet/CareConnect-AllergySeverity-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1&lt;/a&gt; ) &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-heading-box&quot;&gt; &lt;h3 class=&quot;fhir-panel-heading-text&quot;&gt;Details&lt;/h3&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table&quot;&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension&quot; /&gt; Extension &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;A coded severity of the allergy/intolerance.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..*&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Invariants&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;b&gt;Affect this element&lt;/b&gt; &lt;br /&gt; &lt;b&gt;ele-1:&lt;/b&gt; All FHIR elements must have a @value or children (xpath: @value|f:*|h:div) severity: Error &lt;br /&gt; &lt;b&gt;ext-1:&lt;/b&gt; Must have either extensions or value[x], not both (xpath: exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])) severity: Error &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.id&quot; /&gt; Extension.id &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Note that FHIR strings may not exceed 1MB in size&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.url&quot; /&gt; Extension.url &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Source of the definition for the extension code - a logical name or a URL.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;1..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Fixed Value&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.valueCodeableConcept&quot; /&gt; Extension.valueCodeableConcept &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;A coded severity of the allergy/intolerance.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/terminologies.html&quot; class=&quot;fhir-link&quot;&gt;Binding&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;CareConnectAllergySeverity1: A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy. (Required)&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#codeableconcept&quot;&gt;CodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;A stream of bytes, base64 encoded&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-heading-box&quot;&gt; &lt;h3 class=&quot;fhir-panel-heading-text&quot;&gt;Bindings&lt;/h3&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table&quot;&gt; &lt;thead&gt; &lt;tr class=&quot;fhir-table-header-row&quot;&gt; &lt;th title=&quot;Identifies the bound node within the StructureDefinition&quot; style=&quot;width: 20%&quot; class=&quot;fhir-table-title&quot;&gt;Path&lt;/th&gt; &lt;th title=&quot;Node description&quot; style=&quot;width: 40%&quot; class=&quot;fhir-table-title&quot;&gt;Definition&lt;/th&gt; &lt;th title=&quot;Type of binding.&quot; style=&quot;width: 10%&quot; class=&quot;fhir-table-title&quot;&gt;Type&lt;/th&gt; &lt;th title=&quot;ValueSet containing permitted codes.&quot; style=&quot;width: 30%&quot; class=&quot;fhir-table-title&quot;&gt;Reference&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;tabLink fhir-link&quot; href=&quot;details.html#Extension.valueCodeableConcept&quot;&gt;Extension.valueCodeableConcept&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;A coded severity of the allergy/intolerance.&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/terminologies.html#Required&quot;&gt;Required&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;/STU3/ValueSet/CareConnect-AllergySeverity-1&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; </div>"
+  ];
+  fhir:StructureDefinition.url [ fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1"];
+  fhir:StructureDefinition.version [ fhir:value "0.0.1"];
+  fhir:StructureDefinition.name [ fhir:value "Extension-CareConnect-AllergySeverity-1"];
+  fhir:StructureDefinition.status [ fhir:value "draft"];
+  fhir:StructureDefinition.date [ fhir:value "2017-07-13T10:35:53+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:StructureDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:StructureDefinition.description [ fhir:value "This Extension resource is constrained to support a coded severity of the allergy/intolerance."];
+  fhir:StructureDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ]
+     ]
+  ];
+  fhir:StructureDefinition.copyright [ fhir:value "Copyright © 2016 HL7 UK  Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"];
+  fhir:StructureDefinition.fhirVersion [ fhir:value "3.0.1"];
+  fhir:StructureDefinition.kind [ fhir:value "complex-type"];
+  fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
+  fhir:StructureDefinition.contextType [ fhir:value "resource"];
+  fhir:StructureDefinition.context [
+     fhir:value "AllergyIntolerance.reaction";
+     fhir:index 0
+  ];
+  fhir:StructureDefinition.type [ fhir:value "Extension"];
+  fhir:StructureDefinition.baseDefinition [ fhir:value "http://hl7.org/fhir/StructureDefinition/Extension"];
+  fhir:StructureDefinition.derivation [ fhir:value "constraint"];
+  fhir:StructureDefinition.snapshot [
+     fhir:StructureDefinition.snapshot.element [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value "Extension" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension" ];
+       fhir:ElementDefinition.short [ fhir:value "A coded severity of the allergy/intolerance." ];
+       fhir:ElementDefinition.definition [ fhir:value "A coded severity of the allergy/intolerance." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() | (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.id [ fhir:value "Extension.id" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.id" ];
+       fhir:ElementDefinition.representation [
+         fhir:value "xmlAttr";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.short [ fhir:value "xml:id (or equivalent in JSON)" ];
+       fhir:ElementDefinition.definition [ fhir:value "unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ];
+       fhir:ElementDefinition.comment [ fhir:value "Note that FHIR strings may not exceed 1MB in size" ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.id" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() | (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.id [ fhir:value "Extension.extension" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.extension" ];
+       fhir:ElementDefinition.slicing [
+         fhir:ElementDefinition.slicing.discriminator [
+           fhir:index 0;
+           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
+           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
+         ];
+         fhir:ElementDefinition.slicing.description [ fhir:value "Extensions are always sliced by (at least) url" ];
+         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
+       ];
+       fhir:ElementDefinition.short [ fhir:value "Additional Content defined by implementations" ];
+       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
+       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
+       fhir:ElementDefinition.alias [
+         fhir:value "extensions";
+         fhir:index 0
+       ], [
+         fhir:value "user content";
+         fhir:index 1
+       ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Element.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() | (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.id [ fhir:value "Extension.url" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.url" ];
+       fhir:ElementDefinition.representation [
+         fhir:value "xmlAttr";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.short [ fhir:value "identifies the meaning of the extension" ];
+       fhir:ElementDefinition.definition [ fhir:value "Source of the definition for the extension code - a logical name or a URL." ];
+       fhir:ElementDefinition.comment [ fhir:value "The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension." ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Extension.url" ];
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
+       ];
+       fhir:ElementDefinition.fixedUri [ fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1" ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() | (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.id [ fhir:value "Extension.value[x]:valueCodeableConcept" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.valueCodeableConcept" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "valueCodeableConcept" ];
+       fhir:ElementDefinition.short [ fhir:value "A coded severity of the allergy/intolerance" ];
+       fhir:ElementDefinition.definition [ fhir:value "A coded severity of the allergy/intolerance." ];
+       fhir:ElementDefinition.comment [ fhir:value "A stream of bytes, base64 encoded" ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Extension.value[x]" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() | (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ]
+       ];
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy." ];
+         fhir:ElementDefinition.binding.valueSetReference [
+           fhir:link <https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1>;
+           fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1" ]
+         ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
+       ]
+     ]
+  ];
+  fhir:StructureDefinition.differential [
+     fhir:StructureDefinition.differential.element [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value "Extension" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension" ];
+       fhir:ElementDefinition.short [ fhir:value "A coded severity of the allergy/intolerance." ];
+       fhir:ElementDefinition.definition [ fhir:value "A coded severity of the allergy/intolerance." ]
+     ], [
+       fhir:index 1;
+       fhir:Element.id [ fhir:value "Extension.url" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.url" ];
+       fhir:ElementDefinition.fixedUri [ fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.id [ fhir:value "Extension.value[x]:valueCodeableConcept" ];
+       fhir:ElementDefinition.path [ fhir:value "Extension.valueCodeableConcept" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "valueCodeableConcept" ];
+       fhir:ElementDefinition.short [ fhir:value "A coded severity of the allergy/intolerance" ];
+       fhir:ElementDefinition.definition [ fhir:value "A coded severity of the allergy/intolerance." ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.binding [
+         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy." ];
+         fhir:ElementDefinition.binding.valueSetReference [
+           fhir:link <https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1>;
+           fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

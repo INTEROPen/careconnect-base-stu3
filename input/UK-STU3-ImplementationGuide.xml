@@ -30,243 +30,8 @@
    <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
    <fhirVersion value="3.0.2"></fhirVersion>
    <definition>
-      <grouping>
-         <name value="HL7 UK"></name>
-         <description value="Core UK FHIR Resources"></description>
-      </grouping>
       <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Patient-1"></reference>
-         </reference>
-         <name value="CareConnect-Patient-1"></name>
-         <description value="Level 2 (base UK) Patient profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Organization-1"></reference>
-         </reference>
-         <name value="CareConnect-Organization-1"></name>
-         <description value="Level 2 (base UK) profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Encounter-1"></reference>
-         </reference>
-         <name value="CareConnect-Encounter-1"></name>
-         <description value="Level 2 (base UK) profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Location-1"></reference>
-         </reference>
-         <name value="CareConnect-Location-1"></name>
-         <description value="Level 2 (base UK) profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Slot-1"></reference>
-         </reference>
-         <name value="CareConnect-Slot-1"></name>
-         <description value="Level 2 (base UK) profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Observation-1"></reference>
-         </reference>
-         <name value="CareConnect-Observation-1"></name>
-         <description value="Level 2 (base UK) profile."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-Practitioner-1"></reference>
-         </reference>
-         <name value="CareConnect-Practitoner-1"></name>
-         <description value="Level 2 profile."></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-HeartRate-Observation-1"></reference>
-         </reference>
-         <name value="CareConnect-HeartRate-Observation-1"></name>
-         <description value="Level 3 profile. This extends the CareConnect-Observation-1 profile"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/CareConnect-VitalSigns-Observation-1"></reference>
-         </reference>
-         <name value="CareConnect-VitalSigns-Observation-1"></name>
-         <description value="Level 3 profile. This extends the CareConnect-Observation-1 profile"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-EthnicCategory-1"></reference>
-         </reference>
-         <name value="CareConnect-EthnicCategory-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-NHSNumberVerificationStatus-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1"></reference>
-         </reference>
-         <name value="CareConnect-NominatedPharmacy-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"></reference>
-         </reference>
-         <name value="CareConnect-ReligiousAffiliation-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-ResidentialStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-ResidentialStatus-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-TreatmentCategory-1"></reference>
-         </reference>
-         <name value="CareConnect-TreatmentCategory-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-DeathNotificationStatus-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="StructureDefinition/Extension-CareConnect-NHSCommunication-1"></reference>
-         </reference>
-         <name value="CareConnect-NHSCommunication-1"></name>
-         <description value="Level 2 (base UK) extension."></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-NameUse-1"></reference>
-         </reference>
-         <name value="CareConnect-NameUse-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-AdministrativeGender-1"></reference>
-         </reference>
-         <name value="CareConnect-AdministrativeGender-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-MaritalStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-MaritalStatus-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-EthnicCategory-1"></reference>
-         </reference>
-         <name value="CareConnect-EthnicCategory-1"></name>
-         <description value="Level 2 resource"></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="CodeSystem/CareConnect-EthnicCategory-1"></reference>
-         </reference>
-         <name value="CareConnect-EthnicCategory-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-SourceOfAdmission-1"></reference>
-         </reference>
-         <name value="CareConnect-SourceOfAdmission-1"></name>
-         <description value="Level 2 resource"></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="CodeSystem/CareConnect-SourceOfAdmission-1"></reference>
-         </reference>
-         <name value="CareConnect-SourceOfAdmission-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-NHSNumberVerificationStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-NHSNumberVerificationStatus-1"></name>
-         <description value="Level 2 resource"></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="CodeSystem/CareConnect-NHSNumberVerificationStatus-1"></reference>
-         </reference>
-         <name value="CareConnect-NHSNumberVerificationStatus-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-EncounterType-1"></reference>
-         </reference>
-         <name value="CareConnect-EncounterType-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-ObservationType-1"></reference>
-         </reference>
-         <name value="CareConnect-ObservationType-1"></name>
-         <description value="resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="ValueSet/CareConnect-DischargeDestination-1"></reference>
-         </reference>
-         <name value="CareConnect-DischargeDestination-1"></name>
-         <description value="Level 2 resource"></description>
-      </resource>
-      <resource>
-         <reference>
-            <reference value="CodeSystem/CareConnect-DischargeDestination-1"></reference>
-         </reference>
-         <name value="CareConnect-DischargeDestination-1"></name>
-         <description value="Level 2 resource"></description>
-         <groupingId value="HL7 UK"></groupingId>
-      </resource>
       <resource>
          <reference>
             <reference value="Patient/1"></reference>
@@ -311,925 +76,1117 @@
          <reference>
             <reference value="StructureDefinition/CareConnect-ReferralRequest-1"></reference>
          </reference>
-         <name value="CareConnect-ReferralRequest-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-ReferralRequest-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-DischargeMethod-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-DischargeMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-DischargeMethod-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-RelatedProblemHeader-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-NHSNumberVerificationStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ValueApproximation-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ValueApproximation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ValueApproximation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-NominatedPharmacy-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Observation-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-DocumentReference-1"></reference>
          </reference>
-         <name value="CareConnect-DocumentReference-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-DocumentReference-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ClinicalSetting-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ClinicalSetting-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ClinicalSetting-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-CarePlan-1"></reference>
          </reference>
-         <name value="CareConnect-CarePlan-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-CarePlan-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Appointment-1"></reference>
          </reference>
-         <name value="CareConnect-Appointment-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Appointment-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Immunization-1"></reference>
          </reference>
-         <name value="CareConnect-Immunization-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Immunization-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-TreatmentCategory-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-TreatmentCategory-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-TreatmentCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-List-1"></reference>
          </reference>
-         <name value="CareConnect-List-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-List-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-Evidence-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-Evidence-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-Evidence-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-BloodPressure-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-BloodPressure-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-BloodPressure-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-PrescriptionType-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-PrescriptionType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-PrescriptionType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Condition-1"></reference>
          </reference>
-         <name value="CareConnect-Condition-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Condition-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-HeartRate-Observation-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-HeartRate-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ResidentialStatus-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ResidentialStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ResidentialStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Practitioner-1"></reference>
          </reference>
-         <name value="CareConnect-Practitioner-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Practitioner-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationRepeatInformation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ParentPresent-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ParentPresent-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ParentPresent-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-PrescribedElsewhere-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-PrescribedElsewhere-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-PrescribedElsewhere-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Patient-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Patient-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-AllergySeverity-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-AllergySeverity-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-AllergySeverity-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-AllergyIntoleranceEnd-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-FamilyMemberHistory-1"></reference>
          </reference>
-         <name value="CareConnect-FamilyMemberHistory-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-FamilyMemberHistory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-ResearchStudy-1"></reference>
          </reference>
-         <name value="CareConnect-ResearchStudy-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-ResearchStudy-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Subscore-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-Subscore-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Subscore-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Procedure-1"></reference>
          </reference>
-         <name value="CareConnect-Procedure-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Procedure-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-RelatedPerson-1"></reference>
          </reference>
-         <name value="CareConnect-RelatedPerson-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-RelatedPerson-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ConditionEpisode-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ConditionEpisode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ConditionEpisode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationQuantityText-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationQuantityText-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationQuantityText-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-OxygenSaturation-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-OxygenSaturation-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-OxygenSaturation-Observation-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Location-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Location-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Slot-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Slot-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationFlagAssociation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ListWarningCode-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ListWarningCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ListWarningCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationStatusReason-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationStatusReason-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationStatusReason-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-EthnicCategory-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-EthnicCategory-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-EthnicCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-VaccinationProcedure-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-VaccinationProcedure-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-VaccinationProcedure-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-RelatedClinicalContent-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ReligiousAffiliation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-RegistrationDetails-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-RegistrationDetails-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-RegistrationDetails-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Medication-1"></reference>
          </reference>
-         <name value="CareConnect-Medication-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Medication-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-DeathNotificationStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ProbabilityOfRecurrence-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-OutcomeOfAttendance-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-VitalSigns-Observation-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-VitalSigns-Observation-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Encounter-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Encounter-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-ProblemHeader-Condition-1"></reference>
          </reference>
-         <name value="CareConnect-ProblemHeader-Condition-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-ProblemHeader-Condition-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-PractitionerRole-1"></reference>
          </reference>
-         <name value="CareConnect-PractitionerRole-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-PractitionerRole-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-InspiredOxygen-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-InspiredOxygen-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-InspiredOxygen-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-NHSCommunication-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-NHSCommunication-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-NHSCommunication-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationChangeSummary-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MainLocation-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MainLocation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MainLocation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-EmergencyCareDischargeStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-MedicationDispense-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationDispense-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-MedicationDispense-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-RespiratoryRate-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-RespiratoryRate-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-RespiratoryRate-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-DiagnosticReport-1"></reference>
          </reference>
-         <name value="CareConnect-DiagnosticReport-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-DiagnosticReport-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-MedicationStatementLastIssueDate-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-AdmissionMethod-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-AdmissionMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-AdmissionMethod-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/CareConnect-Organization-1"></reference>
+         </reference>
+         <name value="StructureDefinition/CareConnect-Organization-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-EncounterTransport-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-EncounterTransport-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-EncounterTransport-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-SourceOfReferral-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-SourceOfReferral-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-SourceOfReferral-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-AnaestheticIssues-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-AnaestheticIssues-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-AnaestheticIssues-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-RiskAssessment-1"></reference>
          </reference>
-         <name value="CareConnect-RiskAssessment-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-RiskAssessment-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-ProcedureRequest-1"></reference>
          </reference>
-         <name value="CareConnect-ProcedureRequest-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-ProcedureRequest-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-ACVPU-Observation-1"></reference>
          </reference>
-         <name value="CareConnect-ACVPU-Observation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-ACVPU-Observation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-FastingStatus-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-FastingStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-FastingStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-DateRecorded-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-DateRecorded-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-DateRecorded-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Medication-Flag-1"></reference>
          </reference>
-         <name value="CareConnect-Medication-Flag-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Medication-Flag-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-MedicationStatement-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationStatement-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-MedicationStatement-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ActualProblem-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ActualProblem-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ActualProblem-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-AllergyIntolerance-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyIntolerance-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-AllergyIntolerance-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Composition-1"></reference>
          </reference>
-         <name value="CareConnect-Composition-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Composition-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ReasonCondition-1"></reference>
          </reference>
-         <name value="Extension-CareConnect-ReasonCondition-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/Extension-CareConnect-ReasonCondition-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-Flag-1"></reference>
          </reference>
-         <name value="CareConnect-Flag-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-Flag-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="StructureDefinition/CareConnect-MedicationRequest-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationRequest-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="StructureDefinition/CareConnect-MedicationRequest-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ListWarningCode-1"></reference>
          </reference>
-         <name value="CareConnect-ListWarningCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ListWarningCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-NHSNumberVerificationStatus-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-NHSNumberVerificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-MedicationFlag-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationFlag-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-MedicationFlag-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-LanguageAbilityMode-1"></reference>
          </reference>
-         <name value="CareConnect-LanguageAbilityMode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-LanguageAbilityMode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ReferralRequestMethod-1"></reference>
          </reference>
-         <name value="CareConnect-ReferralRequestMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ReferralRequestMethod-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-InterpretationCode-1"></reference>
          </reference>
-         <name value="CareConnect-InterpretationCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-InterpretationCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-RegistrationStatus-1"></reference>
          </reference>
-         <name value="CareConnect-RegistrationStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-RegistrationStatus-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-DeathNotificationStatus-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-DeathNotificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ImmunizationExplanationReason-1"></reference>
          </reference>
-         <name value="CareConnect-ImmunizationExplanationReason-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ImmunizationExplanationReason-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-ResidentialStatus-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-ResidentialStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-PDS-PersonNameType-1"></reference>
          </reference>
-         <name value="CareConnect-PDS-PersonNameType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-PDS-PersonNameType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"></reference>
          </reference>
-         <name value="CareConnect-NHSDataDictionary-PersonStatedGender-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-SDSJobRoleName-1"></reference>
          </reference>
-         <name value="CareConnect-SDSJobRoleName-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-SDSJobRoleName-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-DischargeDestination-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-DischargeDestination-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-MedicationChangeStatus-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationChangeStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-MedicationChangeStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-LanguageAbilityProficiency-1"></reference>
          </reference>
-         <name value="CareConnect-LanguageAbilityProficiency-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-LanguageAbilityProficiency-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-TreatmentCategory-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-TreatmentCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ConditionRelationship-1"></reference>
          </reference>
-         <name value="CareConnect-ConditionRelationship-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ConditionRelationship-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-EthnicCategory-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-EthnicCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></reference>
          </reference>
-         <name value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ConditionCategory-1"></reference>
          </reference>
-         <name value="CareConnect-ConditionCategory-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ConditionCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ProblemSignificance-1"></reference>
          </reference>
-         <name value="CareConnect-ProblemSignificance-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ProblemSignificance-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-OutcomeOfAttendance-1"></reference>
          </reference>
-         <name value="CareConnect-OutcomeOfAttendance-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-OutcomeOfAttendance-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="CodeSystem/CareConnect-SourceOfAdmission-1"></reference>
+         </reference>
+         <name value="CodeSystem/CareConnect-SourceOfAdmission-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-RegistrationType-1"></reference>
          </reference>
-         <name value="CareConnect-RegistrationType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-RegistrationType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ListEmptyReasonCode-1"></reference>
          </reference>
-         <name value="CareConnect-ListEmptyReasonCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ListEmptyReasonCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-ConditionEpisodicity-1"></reference>
          </reference>
-         <name value="CareConnect-ConditionEpisodicity-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-ConditionEpisodicity-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-DischargeMethod-1"></reference>
          </reference>
-         <name value="CareConnect-DischargeMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-DischargeMethod-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-AdmissionMethod-1"></reference>
          </reference>
-         <name value="CareConnect-AdmissionMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-AdmissionMethod-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-HumanLanguage-1"></reference>
          </reference>
-         <name value="CareConnect-HumanLanguage-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-HumanLanguage-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-PrescriptionType-1"></reference>
          </reference>
-         <name value="CareConnect-PrescriptionType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-PrescriptionType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-MedicationSupplyType-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationSupplyType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-MedicationSupplyType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-PrescribedElsewhere-1"></reference>
          </reference>
-         <name value="CareConnect-PrescribedElsewhere-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="CodeSystem/CareConnect-PrescribedElsewhere-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ConditionRelationship-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ConditionRelationship-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"></reference>
          </reference>
-         <name value="CareConnect-ClinicalDisciplines-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ClinicalDisciplines-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergyExposureRoute-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyExposureRoute-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergyExposureRoute-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-OutcomeOfAttendance-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-OutcomeOfAttendance-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"></reference>
          </reference>
-         <name value="CareConnect-SaturatedOxygenSp02Scale-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-PrescriptionType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-PrescriptionType-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ConditionEpisodicity-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ConditionEpisodicity-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-BodySite-1"></reference>
          </reference>
-         <name value="CareConnect-BodySite-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-BodySite-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-AdministrativeGender-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-AdministrativeGender-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergyCode-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergyCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-DischargeMethod-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-DischargeMethod-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-MedicationChangeStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-MedicationChangeStatus-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-RegistrationType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-RegistrationType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ACVPU-1"></reference>
          </reference>
-         <name value="CareConnect-ACVPU-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ACVPU-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-DischargeDestination-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-DischargeDestination-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ObservationMethod-1"></reference>
          </reference>
-         <name value="CareConnect-ObservationMethod-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ObservationMethod-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ReligiousAffiliation-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ReligiousAffiliation-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ReferralRequestMethod-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ReferralRequestMethod-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-PrescribedElsewhere-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-PrescribedElsewhere-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-MedicationFlag-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-MedicationFlag-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-NHSNumberVerificationStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-NHSNumberVerificationStatus-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-NameUse-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-NameUse-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ObservationType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ObservationType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-MedicationDosageRoute-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationDosageRoute-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-MedicationDosageRoute-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-PDS-PersonNameType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-PDS-PersonNameType-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-SourceOfAdmission-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-SourceOfAdmission-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-MedicationForm-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationForm-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-MedicationForm-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-DeathNotificationStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-DeathNotificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-SpecimenType-1"></reference>
          </reference>
-         <name value="CareConnect-SpecimenType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-SpecimenType-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ConditionCode-1"></reference>
          </reference>
-         <name value="CareConnect-ConditionCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ConditionCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-CompositionSectionCode-1"></reference>
          </reference>
-         <name value="CareConnect-CompositionSectionCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-CompositionSectionCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-TreatmentCategory-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-TreatmentCategory-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ProblemSignificance-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ProblemSignificance-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ListCode-1"></reference>
          </reference>
-         <name value="CareConnect-ListCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ListCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-EthnicCategory-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-EthnicCategory-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-MaritalStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-MaritalStatus-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ResidentialStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ResidentialStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergyManifestation-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyManifestation-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergyManifestation-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-VaccinationProcedure-1"></reference>
          </reference>
-         <name value="CareConnect-VaccinationProcedure-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-VaccinationProcedure-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"></reference>
          </reference>
-         <name value="CareConnect-ReasonImmunizationNotAdministered-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ReactionEventSeverity-1"></reference>
          </reference>
-         <name value="CareConnect-ReactionEventSeverity-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ReactionEventSeverity-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-EmergencyCareDischargeStatus-1"></reference>
          </reference>
-         <name value="CareConnect-EmergencyCareDischargeStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-EmergencyCareDischargeStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergySeverity-1"></reference>
          </reference>
-         <name value="CareConnect-AllergySeverity-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergySeverity-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergyVerificationStatus-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyVerificationStatus-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergyVerificationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ManufacturedMaterialSnCT-1"></reference>
          </reference>
-         <name value="CareConnect-ManufacturedMaterialSnCT-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ManufacturedMaterialSnCT-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-InterpretationCode-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-InterpretationCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-EncounterType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-EncounterType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-VaccineCode-1"></reference>
          </reference>
-         <name value="CareConnect-VaccineCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-VaccineCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-AdmissionMethod-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-AdmissionMethod-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-LanguageAbilityMode-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-LanguageAbilityMode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-SpecimenBodySite-1"></reference>
          </reference>
-         <name value="CareConnect-SpecimenBodySite-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-SpecimenBodySite-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-HumanLanguage-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-HumanLanguage-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-SDSJobRoleName-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-SDSJobRoleName-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-DocumentType-1"></reference>
          </reference>
-         <name value="CareConnect-DocumentType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-DocumentType-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ListWarningCode-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ListWarningCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-CareSettingType-1"></reference>
          </reference>
-         <name value="CareConnect-CareSettingType-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-CareSettingType-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-RegistrationStatus-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-RegistrationStatus-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-SourceOfReferral-1"></reference>
          </reference>
-         <name value="CareConnect-SourceOfReferral-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-SourceOfReferral-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ProcedureCode-1"></reference>
          </reference>
-         <name value="CareConnect-ProcedureCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ProcedureCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ConditionCategory-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ConditionCategory-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-AllergyCertainty-1"></reference>
          </reference>
-         <name value="CareConnect-AllergyCertainty-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-AllergyCertainty-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-InspiredOxygen-1"></reference>
          </reference>
-         <name value="CareConnect-InspiredOxygen-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-InspiredOxygen-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-LanguageAbilityProficiency-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-LanguageAbilityProficiency-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ImmunizationExplanationReason-2"></reference>
          </reference>
-         <name value="CareConnect-ImmunizationExplanationReason-2"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ImmunizationExplanationReason-2"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ListEmptyReasonCode-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ListEmptyReasonCode-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-MedicationSupplyType-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-MedicationSupplyType-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ReportCodeSnCT-1"></reference>
          </reference>
-         <name value="CareConnect-ReportCodeSnCT-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ReportCodeSnCT-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ConditionEpisodeSnCT-1"></reference>
          </reference>
-         <name value="CareConnect-ConditionEpisodeSnCT-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-ConditionEpisodeSnCT-1"></name>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="ValueSet/CareConnect-ImmunizationExplanationReason-1"></reference>
+         </reference>
+         <name value="ValueSet/CareConnect-ImmunizationExplanationReason-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-MedicationCode-1"></reference>
          </reference>
-         <name value="CareConnect-MedicationCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-MedicationCode-1"></name>
       </resource>
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-FindingCode-1"></reference>
          </reference>
-         <name value="CareConnect-FindingCode-1"></name>
-         <groupingId value="HL7 UK"></groupingId>
+         <name value="ValueSet/CareConnect-FindingCode-1"></name>
       </resource>
       <page>
          <!-- The root will always be toc.html - the template will force it if you don't do it -->

@@ -1,0 +1,109 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-ListCode-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect List Code</h2><div><p>A ValueSet to identify the purpose of a list.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102\">887161000000102</a></td><td>Diagnoses</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109\">887171000000109</a></td><td>Procedures</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103\">717711000000103</a></td><td>Problems</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108\">933361000000108</a></td><td>Medications and medical devices</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105\">886921000000105</a></td><td>Allergies and adverse reactions</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102\">1102411000000102</a></td><td>Active medications</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100\">1102191000000100</a></td><td>Discontinued medications</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101\">1103671000000101</a></td><td>Ended allergies</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107\">325851000000107</a></td><td>Consultation</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105\">25851000000105</a></td><td>Topic (EHR)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107\">24781000000107</a></td><td>Category (EHR)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102\">1102181000000102</a></td><td>Immunisations</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100\">826501000000100</a></td><td>Miscellaneous record</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107\">792931000000107</a></td><td>Outbound referral</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108\">887191000000108</a></td><td>Investigations and results</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101\">1149501000000101</a></td><td>List of consultations</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListCode-1",
+  "version": "1.6.0",
+  "name": "Care Connect List Code",
+  "status": "draft",
+  "date": "2019-11-22T17:18:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the purpose of a list.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 HL7 UK",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "887161000000102",
+            "display": "Diagnoses"
+          },
+          {
+            "code": "887171000000109",
+            "display": "Procedures"
+          },
+          {
+            "code": "717711000000103",
+            "display": "Problems"
+          },
+          {
+            "code": "933361000000108",
+            "display": "Medications and medical devices"
+          },
+          {
+            "code": "886921000000105",
+            "display": "Allergies and adverse reactions"
+          },
+          {
+            "code": "1102411000000102",
+            "display": "Active medications"
+          },
+          {
+            "code": "1102191000000100",
+            "display": "Discontinued medications"
+          },
+          {
+            "code": "1103671000000101",
+            "display": "Ended allergies"
+          },
+          {
+            "code": "325851000000107",
+            "display": "Consultation"
+          },
+          {
+            "code": "25851000000105",
+            "display": "Topic (EHR)"
+          },
+          {
+            "code": "24781000000107",
+            "display": "Category (EHR)"
+          },
+          {
+            "code": "1102181000000102",
+            "display": "Immunisations"
+          },
+          {
+            "code": "826501000000100",
+            "display": "Miscellaneous record"
+          },
+          {
+            "code": "792931000000107",
+            "display": "Outbound referral"
+          },
+          {
+            "code": "887191000000108",
+            "display": "Investigations and results"
+          },
+          {
+            "code": "1149501000000101",
+            "display": "List of consultations"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,12 +1,14 @@
 package uk.mayfieldis.fhir.ig;
 
 import ca.uhn.fhir.context.FhirContext;
-import org.hl7.fhir.dstu3.model.Resource;
-import org.hl7.fhir.dstu3.model.StructureDefinition;
-import org.hl7.fhir.r5.model.ImplementationGuide;
-import org.hl7.fhir.r5.model.Reference;
-import org.hl7.fhir.dstu3.model.ValueSet;
-import org.hl7.fhir.dstu3.model.CodeSystem;
+import ca.uhn.fhir.rest.api.EncodingEnum;
+
+import ca.uhn.fhir.rest.client.api.IGenericClient;
+import org.hl7.fhir.convertors.VersionConvertor_30_40;
+import org.hl7.fhir.convertors.VersionConvertor_30_50;
+import org.hl7.fhir.dstu3.model.*;
+import org.hl7.fhir.r4.model.ImplementationGuide;
+import org.hl7.fhir.r4.model.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -22,41 +24,48 @@ import java.util.Collection;
 @SpringBootApplication
 public class IGUpdate implements CommandLineRunner {
 
-    private static Logger LOG = LoggerFactory
+    private static Logger log = LoggerFactory
             .getLogger(IGUpdate.class);
 
     FhirContext ctxSTU3 = FhirContext.forDstu3();
-    FhirContext ctxR5 = FhirContext.forR5();
+    FhirContext ctxR4 = FhirContext.forR4();
+
+    VersionConvertor_30_40 convertor = new VersionConvertor_30_40();
 
     String path = "C:\\Development\\Wildfyre\\UK-STU3\\input\\resources\\";
     String igPath = "C:\\Development\\Wildfyre\\UK-STU3\\input\\UK-STU3-ImplementationGuide.xml";
 
     ImplementationGuide ig;
 
+    private IGenericClient validationClient;
+
     public static void main(String[] args) {
-        LOG.info("STARTING THE APPLICATION");
+        log.info("STARTING THE APPLICATION");
         SpringApplication.run(IGUpdate.class, args);
-        LOG.info("APPLICATION FINISHED");
+        log.info("APPLICATION FINISHED");
     }
 
     @Override
     public void run(String... args) {
-        LOG.info("EXECUTING : command line runner");
+        log.info("EXECUTING : command line runner");
 
         for (int i = 0; i < args.length; ++i) {
-            LOG.info("args[{}]: {}", i, args[i]);
+            log.info("args[{}]: {}", i, args[i]);
         }
 
         try {
             String igGuide = Files.readString(Paths.get(igPath));
-            ig = (ImplementationGuide) ctxR5.newXmlParser().parseResource(igGuide);
+            ig = (ImplementationGuide) ctxR4.newXmlParser().parseResource(igGuide);
         } catch (IOException e) {
             e.printStackTrace();
         }
 
+        this.validationClient = ctxSTU3.newRestfulGenericClient("https://fhir.airelogic.com/ccri-fhir/STU3");
+        this.validationClient.setEncoding(EncodingEnum.JSON);
+
         HL7UKResources();
 
-        String igGuide = ctxR5.newXmlParser().setPrettyPrint(true).encodeResourceToString(ig);
+        String igGuide = ctxR4.newXmlParser().setPrettyPrint(true).encodeResourceToString(ig);
 
         System.out.println(igGuide);
 
@@ -87,8 +96,10 @@ public class IGUpdate implements CommandLineRunner {
             String resourceName = split[split.length-1] ;
             String content = ctxSTU3.newXmlParser().encodeResourceToString(sd);
             try {
-                Files.writeString(Paths.get(path +resourceName +".xml"), content);
-                checkInIG(sd, resourceName, group);
+                if (convertsToR5(sd)  && validatesOK(sd)) {
+                    Files.writeString(Paths.get(path + resourceName + ".xml"), content);
+                    checkInIG(sd, resourceName, group);
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -102,8 +113,10 @@ public class IGUpdate implements CommandLineRunner {
             String resourceName = split[split.length-1] ;
             String content = ctxSTU3.newXmlParser().encodeResourceToString(vs);
             try {
-                Files.writeString(Paths.get(path + "ValueSet\\"+resourceName +".xml"), content);
-                checkInIG(vs, resourceName, group);
+                if (convertsToR5(vs) && validatesOK(vs)) {
+                    Files.writeString(Paths.get(path + "ValueSet\\" + resourceName + ".xml"), content);
+                    checkInIG(vs, resourceName, group);
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -117,8 +130,10 @@ public class IGUpdate implements CommandLineRunner {
             String resourceName = split[split.length-1] ;
             String content = ctxSTU3.newXmlParser().encodeResourceToString(cs);
             try {
-                Files.writeString(Paths.get(path + "CodeSystem\\"+resourceName +".xml"), content);
-                checkInIG(cs, resourceName, group);
+                if (convertsToR5(cs) && validatesOK(cs)) {
+                    Files.writeString(Paths.get(path + "CodeSystem\\" + resourceName + ".xml"), content);
+                    checkInIG(cs, resourceName, group);
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -137,23 +152,60 @@ public class IGUpdate implements CommandLineRunner {
             groupFound = new ImplementationGuide.ImplementationGuideDefinitionGroupingComponent();
             groupFound.setDescription(groupDesc);
             groupFound.setName(group);
-            ig.getDefinition().addGrouping(groupFound);
+         // TODO causing errors at present   ig.getDefinition().addGrouping(groupFound);
         }
     }
     private void checkInIG(Resource resource, String name, String group) {
         ImplementationGuide.ImplementationGuideDefinitionResourceComponent resourceComponent = null;
+
+        String igName = resource.getResourceType().name() + "/" + name;
+
         for(ImplementationGuide.ImplementationGuideDefinitionResourceComponent resourceComponentSearch : ig.getDefinition().getResource()) {
-            if (resourceComponentSearch.getName().equals(name)) resourceComponent = resourceComponentSearch;
+            if (resourceComponentSearch.getName().equals(igName)) resourceComponent = resourceComponentSearch;
         }
 
         if (resourceComponent == null) {
             resourceComponent = new ImplementationGuide.ImplementationGuideDefinitionResourceComponent();
-            resourceComponent.setName(name);
+            resourceComponent.setName(igName);
             resourceComponent.setReference(new Reference().setReference(resource.getResourceType().name()+"/"+name));
 
             ig.getDefinition().addResource(resourceComponent);
         }
-        resourceComponent.setGroupingId(group);
+      resourceComponent.setGroupingId(null);
+    }
+
+    private Boolean validatesOK(Resource resource) {
+        return true;
+    }
+
+     /*   Parameters parameters = new Parameters();
+
+        parameters.set addParameter().setName("resource").setResource(resource);
+
+        Parameters output = validationClient.operation()
+                .onServer().named("validate")
+               // .withParameters(parameters)
+                .withNoParameters()
+                .
+                .returnResourceType(org.hl7.fhir.dstu3.model.Parameters.class)
+                .execute();
+
+        if (output.hasParameter()) {
+
+        }
+        return true;
+    }
+
+      */
+
+
+    private Boolean convertsToR5(Resource resource) {
+        if (resource.getId() == null || resource.getId().isEmpty()) log.error("Missing Id {}",resource.getResourceType());
+        org.hl7.fhir.dstu3.model.Resource resourceR3 = (Resource) resource;
+        org.hl7.fhir.r4.model.Resource resourceR5 = convertor.convertResource(resourceR3,false);
+
+        if (resourceR5 != null) return true;
+        return false;
     }
 
 }

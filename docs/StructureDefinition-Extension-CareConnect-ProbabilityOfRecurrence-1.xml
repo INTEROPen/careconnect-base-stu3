@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+  <meta>
+    <lastUpdated value="2017-08-25T15:21:16.746+01:00"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt; &lt;style&gt;.fhir-data-cell {
+	border: 1px solid #f0f0f0 } .fhir-data-label, .fhir-telecom-name {
+	color: #474747; font-weight: bold; font-size: 13 }
+.fhir-data-label-empty { color: #474747; font-weight: normal }
+.fhir-data-value, .fhir-telecom-value { color: #474747; font-size: 13
+} .fhir-data-value-smalltext { font-size: 10 }
+.fhir-data-block-title { color: #808080; font-weight: bold; text-decoration: underline;
+	font-size: 13 } tr, .fhir-table-title {
+	font-size: 11px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; vertical-align: top; border: 0
+} .fhir-table-title { padding: 0px 4px }
+td { padding: 5px 4px } .fhir-panel-heading-box {
+	margin: -15px -15px 15px; padding: 10px 15px; background-color: #f0f0f0; border-bottom: 1px solid #808080;
+	border-top-left-radius: 3px; border-top-right-radius: 3px } .fhir-panel-heading-text {
+	margin-top: 0; margin-bottom: 0; font-size: 17.5px; font-weight: 500
+} tr { padding: 3px; line-height: 1.66em
+} .fhir-table-header-row { border: 1px solid #f0f0f0 }
+tr, fhir-table-title, td, tr,
+fhir-table-title, td { text-align: left; text-align: left
+} fhir-table-title, td, fhir-table-title,
+td { vertical-align: top; vertical-align: top }
+table { width: 100%; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; border-collapse: collapse
+} .fhir-panel * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+	box-sizing: border-box } .fhir-table.fhir-tree-table tbody:before { content: '-';
+	display: block; line-height: 1em; color: transparent }
+.fhir-tree-table { table-layout: fixed; width: 100% }
+.fhir-panel { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.4;
+	width: 95%; max-width: 100%; word-wrap: break-word }
+.fhir-panel { padding: 15px; margin-bottom: 20; background-color: #ffffff;
+	border: 1px solid #808080; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) }
+.fhir-panel .fhir-link { text-decoration: none; color: #005eb8 }
+.fhir-panel-subheading { color: #474747; font-weight: bold; font-size: 13
+} .fhir-info-name-bold { font-weight: bold; color: #474747
+} .fhir-text-italic { font-style: italic; color: #474747
+} .fhir-info-plain { color: #474747 }
+.fhir-resource-info-cell { padding: 5px 4px; border-bottom: 1px solid #f0f0f0 }
+.fhir-indent-wrapped-text { margin-left: 3em; text-indent: -3em }
+.fhir-link { text-decoration: none; color: #005eb8 }
+.fhir-text-faded { opacity: 0.4 } .fhir-text-strikethrough {
+	text-decoration: line-through } .fhirtreebg-dotted-1 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR4nO3OIRIAIAwDwf41/38DRSJBIbqZWRdxlaRu7a2XPwAAwOl7AAAAMEcDVN1AgPyAV0EAAAAASUVORK5CYII=);
+	background-repeat: repeat-y } .fhirtreebg-dotted-00 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4nO3OIQEAAAgDsHd9/w60AMHE/NI2AAAAG84DAADAHwNp30Cqb/h6OAAAAABJRU5ErkJggg==);
+	background-repeat: repeat-y } .fhirtreebg-dotted-10 { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR4nO3OIRIAIAwDwf41/38DRSJBIbqZWRdxlaRu7a2XPwAAwOl7AAAAMEcDVN1AgPyAV0EAAAAASUVORK5CYII=);
+	background-repeat: repeat-y } .fhir-tree-resource-icon { padding-right: 4px;
+	background-color: white; border: 0; width: 20; height: 16
+} img.fhir-tree-icon { background-color: white; border: 0;
+	width: 16; height: 22 } .fhir-tree-icons {
+	padding: 0 4px; border-collapse: collapse } .fhir-tree-icons img {
+	vertical-align: top; float: left; border-collapse: collapse }
+.fhir-table, .fhir-table tbody tr { border-collapse: collapse; vertical-align: top;
+	border-style: none } .fhir-tree-icons, .fhir-tree-icons img,
+.fhir-table { -webkit-border-horizontal-spacing: 0; -webkit-border-vertical-spacing: 0 }
+.fhir-tree-cell { padding: 5px 4px } .fhir-details-header-row {
+	font-size: 12px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 3px; vertical-align: top;
+	line-height: 1.4em; font-weight: normal; text-align: left; border-bottom: 1px solid #cccccc;
+	background: #f0f0f0 } .fhir-details-data-row, .fhir-details-data-cell {
+	padding: 3px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 11px; line-height: 1.2em;
+	font-weight: normal; vertical-align: top; text-align: left }
+.fhir-details-header-cell { font-size: 12px; font-family: Helvetica Neue, Helvetica, Arial, sans-serif; padding: 3px;
+	vertical-align: top; line-height: 1.2em; font-weight: bold; border-bottom: 1px solid #cccccc;
+	background: #f0f0f0 } .fhir-list { margin: 0px
+}&lt;/style&gt; &lt;div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-heading-box&quot;&gt; &lt;h3 class=&quot;fhir-panel-heading-text&quot;&gt;Structure definition: Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/h3&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table&quot;&gt; &lt;colgroup&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;col width=&quot;25%&quot; /&gt; &lt;/colgroup&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Name:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;URL:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/a&gt; &lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Version:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;0.0.1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Constrained type:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Extension&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Constrained URL:&lt;/span&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/extensibility.html#extension&quot;&gt;http://hl7.org/fhir/StructureDefinition/Extension&lt;/a&gt; &lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Status:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Draft&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Description:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring.&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Published by:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;HL7 UK&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Created date:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;13/07/17&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Last updated:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;25/08/17&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Kind:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Complex Data Type&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;FHIR Version:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;STU3&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;DisplayName:&lt;/span&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt;Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;1&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Abstract:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;No&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;2&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Context type:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;Resource&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-label&quot;&gt;Use contexts:&lt;/span&gt; &lt;span class=&quot;fhir-data-value&quot;&gt;AllergyIntolerance&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhir-data-cell&quot; colspan=&quot;4&quot;&gt; &lt;span class=&quot;fhir-data-value fhir-data-value-smalltext&quot;&gt;Copyright &amp;#169; 2016 HL7 UK&amp;#xD; &amp;#xD;
+Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&amp;#xD; &amp;#xD;
+http://www.apache.org/licenses/LICENSE-2.0&amp;#xD; &amp;#xD;
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&amp;#xD; &amp;#xD;
+HL7&amp;#174; FHIR&amp;#174; standard Copyright &amp;#169; 2011+ HL7&amp;#xD; &amp;#xD;
+The HL7&amp;#174; FHIR&amp;#174; standard is used under the FHIR license. You may obtain a copy of the FHIR license at&amp;#xD; &amp;#xD;
+https://www.hl7.org/fhir/license.html&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table fhir-tree-table&quot;&gt; &lt;thead&gt; &lt;tr class=&quot;fhir-table-header-row&quot;&gt; &lt;th title=&quot;The logical name of the element&quot; style=&quot;width: 25%&quot; class=&quot;fhir-table-title&quot;&gt;Name&lt;/th&gt; &lt;th title=&quot;Features of the element&quot; style=&quot;width: 5%; max-width: 60px&quot; class=&quot;fhir-table-title&quot;&gt;Flags&lt;/th&gt; &lt;th title=&quot;Minimum and maximum # of times the element can appear in the instance&quot; style=&quot;width: 5%; max-width: 40px&quot; class=&quot;fhir-table-title&quot;&gt;Card.&lt;/th&gt; &lt;th title=&quot;Reference to the type of the element&quot; style=&quot;width: 15%; max-width: 80px&quot; class=&quot;fhir-table-title&quot;&gt;Type&lt;/th&gt; &lt;th title=&quot;Additional information about the element&quot; style=&quot;width: 50%&quot; class=&quot;fhir-table-title&quot;&gt;Description/Constraints&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-1 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_resource.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension&quot; title=&quot;The probability of the reaction (allergic, adverse, intolerant) occurring.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;Extension&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot; /&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt;Constraint (ele-1): All FHIR elements must have a @value or children&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt;Constraint (ext-1): Must have either extensions or value[x], not both&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.id&quot; title=&quot;unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;id&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;xml:id (or equivalent in JSON)&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.url&quot; title=&quot;Source of the definition for the extension code - a logical name or a URL.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;url&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;1..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;Identifies The Meaning Of The Extension&lt;/div&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Fixed Value: &lt;a href=&quot;/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/a&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-00 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin_end.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.valueString&quot; title=&quot;The probability of the reaction (allergic, adverse, intolerant) occurring.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;valueString&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot;&gt; &lt;span title=&quot;This element has or is affected by some invariants&quot;&gt;I&lt;/span&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table fhir-tree-table&quot;&gt; &lt;thead&gt; &lt;tr class=&quot;fhir-table-header-row&quot;&gt; &lt;th title=&quot;The logical name of the element&quot; style=&quot;width: 25%&quot; class=&quot;fhir-table-title&quot;&gt;Name&lt;/th&gt; &lt;th title=&quot;Features of the element&quot; style=&quot;width: 5%; max-width: 60px&quot; class=&quot;fhir-table-title&quot;&gt;Flags&lt;/th&gt; &lt;th title=&quot;Minimum and maximum # of times the element can appear in the instance&quot; style=&quot;width: 5%; max-width: 40px&quot; class=&quot;fhir-table-title&quot;&gt;Card.&lt;/th&gt; &lt;th title=&quot;Reference to the type of the element&quot; style=&quot;width: 15%; max-width: 80px&quot; class=&quot;fhir-table-title&quot;&gt;Type&lt;/th&gt; &lt;th title=&quot;Additional information about the element&quot; style=&quot;width: 50%&quot; class=&quot;fhir-table-title&quot;&gt;Description/Constraints&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-1 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_resource.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension&quot; title=&quot;The probability of the reaction (allergic, adverse, intolerant) occurring.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;Extension&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot; /&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-10 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.url&quot; title=&quot;Source of the definition for the extension code - a logical name or a URL.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;url&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-text-faded fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-indent-wrapped-text fhir-info-plain&quot;&gt; Fixed Value: &lt;a href=&quot;/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&quot; class=&quot;fhir-link&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/a&gt; &lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td class=&quot;fhirtreebg-dotted-00 fhir-tree-icons&quot;&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/tbl_vjoin_end.png&quot; class=&quot;fhir-tree-icon&quot; /&gt; &lt;img src=&quot;https://fhir.nhs.uk/images/icon_primitive.png&quot; class=&quot;fhir-tree-resource-icon&quot; /&gt; &lt;a href=&quot;details.html#Extension.valueString&quot; title=&quot;The probability of the reaction (allergic, adverse, intolerant) occurring.&quot; class=&quot;fhir-tree-cell fhir-link tabLink&quot;&gt;valueString&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-flag&quot; /&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;0..1&lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-resource-info-cell&quot;&gt; &lt;div class=&quot;fhir-info-name-bold&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring&lt;/div&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel&quot;&gt; &lt;div class=&quot;fhir-panel-heading-box&quot;&gt; &lt;h3 class=&quot;fhir-panel-heading-text&quot;&gt;Details&lt;/h3&gt; &lt;/div&gt; &lt;div class=&quot;fhir-panel-body&quot;&gt; &lt;table class=&quot;fhir-table&quot;&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension&quot; /&gt; Extension &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..*&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell&quot;&gt;&amp;amp;#8203;&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Invariants&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;b&gt;Affect this element&lt;/b&gt; &lt;br /&gt; &lt;b&gt;ele-1:&lt;/b&gt; All FHIR elements must have a @value or children (xpath: @value|f:*|h:div) severity: Error &lt;br /&gt; &lt;b&gt;ext-1:&lt;/b&gt; Must have either extensions or value[x], not both (xpath: exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])) severity: Error &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.id&quot; /&gt; Extension.id &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Note that FHIR strings may not exceed 1MB in size&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.url&quot; /&gt; Extension.url &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Source of the definition for the extension code - a logical name or a URL.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;1..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#uri&quot;&gt;Uri&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Fixed Value&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-header-row&quot;&gt; &lt;td class=&quot;fhir-details-header-cell&quot; colspan=&quot;2&quot;&gt; &lt;a name=&quot;Extension.valueString&quot; /&gt; Extension.valueString &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Definition&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;The probability of the reaction (allergic, adverse, intolerant) occurring.&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/conformance-rules.html#cardinality&quot; class=&quot;fhir-link&quot;&gt;Cardinality&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;0..1&lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt; &lt;a href=&quot;http://hl7.org/fhir/stu3/datatypes.html&quot; class=&quot;fhir-link&quot;&gt;Type&lt;/a&gt; &lt;/td&gt; &lt;td class=&quot;fhir-tree-cell fhir-details-data-cell&quot;&gt; &lt;a class=&quot;fhir-link&quot; href=&quot;http://hl7.org/fhir/stu3/datatypes.html#string&quot;&gt;String&lt;/a&gt; &lt;/td&gt; &lt;/tr&gt; &lt;tr class=&quot;fhir-details-data-row&quot;&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;Comments&lt;/td&gt; &lt;td class=&quot;fhir-details-data-cell&quot;&gt;A stream of bytes, base64 encoded&lt;/td&gt; &lt;/tr&gt; &lt;/table&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; &lt;/div&gt; </div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+  <version value="0.0.1"/>
+  <name value="Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+  <status value="draft"/>
+  <date value="2017-07-13T10:47:04+01:00"/>
+  <publisher value="HL7 West Riding - Example"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2016 HL7 UK  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7&#xAE; FHIR&#xAE; standard Copyright &#xA9; 2011+ HL7  The HL7&#xAE; FHIR&#xAE; standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"/>
+  <fhirVersion value="3.0.1"/>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <contextType value="resource"/>
+  <context value="AllergyIntolerance"/>
+  <type value="Extension"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+  <derivation value="constraint"/>
+  <snapshot>
+    <element id="Extension">
+      <path value="Extension"/>
+      <short value="The probability of the reaction (allergic, adverse, intolerant) occurring"/>
+      <definition value="The probability of the reaction (allergic, adverse, intolerant) occurring."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <condition value="ele-1"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() | (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+      </constraint>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="Extension.id">
+      <path value="Extension.id"/>
+      <representation value="xmlAttr"/>
+      <short value="xml:id (or equivalent in JSON)"/>
+      <definition value="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <comment value="Note that FHIR strings may not exceed 1MB in size"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <condition value="ele-1"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() | (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+      </constraint>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="Extension.extension">
+      <path value="Extension.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional Content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <condition value="ele-1"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() | (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &#39;value&#39;)])"/>
+      </constraint>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url"/>
+      <representation value="xmlAttr"/>
+      <short value="identifies the meaning of the extension"/>
+      <definition value="Source of the definition for the extension code - a logical name or a URL."/>
+      <comment value="The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Extension.url"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="uri"/>
+      </type>
+      <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+      <condition value="ele-1"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() | (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+      </constraint>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+    <element id="Extension.value[x]:valueString">
+      <path value="Extension.valueString"/>
+      <sliceName value="valueString"/>
+      <short value="The probability of the reaction (allergic, adverse, intolerant) occurring"/>
+      <definition value="The probability of the reaction (allergic, adverse, intolerant) occurring."/>
+      <comment value="A stream of bytes, base64 encoded"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Extension.value[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="string"/>
+      </type>
+      <condition value="ele-1"/>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() | (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+      </constraint>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="N/A"/>
+      </mapping>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="Extension">
+      <path value="Extension"/>
+      <short value="The probability of the reaction (allergic, adverse, intolerant) occurring"/>
+      <definition value="The probability of the reaction (allergic, adverse, intolerant) occurring."/>
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url"/>
+      <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+    </element>
+    <element id="Extension.value[x]:valueString">
+      <path value="Extension.valueString"/>
+      <sliceName value="valueString"/>
+      <short value="The probability of the reaction (allergic, adverse, intolerant) occurring"/>
+      <definition value="The probability of the reaction (allergic, adverse, intolerant) occurring."/>
+      <type>
+        <code value="string"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

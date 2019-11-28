@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-PDS-PersonNameType-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PDS Person Name Type</h2><div><p>A code to identify the type of a name of a Person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-PDS-PersonNameType-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1</code></a></li></ul></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1",
+  "version": "1.1.0",
+  "name": "PDS Person Name Type",
+  "status": "draft",
+  "date": "2018-11-02T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A code to identify the type of a name of a Person.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"
+      }
+    ]
+  }
+}

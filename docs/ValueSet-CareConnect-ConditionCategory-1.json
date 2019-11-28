@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-ConditionCategory-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Category</h2><div><p>A ValueSet to identify the category of a condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ConditionCategory-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1</code></a></li></ul></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionCategory-1",
+  "version": "1.1.0",
+  "name": "Care Connect Condition Category",
+  "status": "draft",
+  "date": "2018-11-14T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the category of a condition.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1"
+      }
+    ]
+  }
+}

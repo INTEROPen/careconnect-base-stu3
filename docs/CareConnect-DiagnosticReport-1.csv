@@ -1,0 +1,926 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"DiagnosticReport","","Report
+TestResultResultsLabsLaboratory","",0,*,"","","","","A Diagnostic report - a combination of request information, atomic results, images, interpretation, as well as formatted reports","The findings and interpretation of diagnostic  tests performed on patients, groups of patients, devices, and locations, and/or specimens derived from these. The report includes clinical context such as requesting and provider information, and some mix of atomic results, images, textual and coded interpretations, and formatted representation of diagnostic reports.","This is intended to capture a single report, and is not suitable for use in displaying summary information that covers multiple reports.  For example, this resource has not been designed for laboratory cumulative reporting formats nor detailed structured reports for sequencing.","","","","","","","","",,,,,"",,,,"Resource",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-1:If the resource is contained in another resource, it SHALL NOT contain any narrative {contained.text.empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource {contained.where(('#'+id in %resource.descendants().reference).not()).empty()}"
+"DiagnosticReport.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.meta.versionId","","","",0,1,"","","Y","id {[]} {[]}
+","Version specific identifier","The version specific identifier, as it appears in the version portion of the URL. This values changes when the resource is created, updated, or deleted.","The server assigns this value, and ignores what the client specifies, except in the case that the server is imposing version integrity on updates/deletes.","","","","","","","","",,,,,"",,,,"Resource.meta.versionId",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.lastUpdated","","","",0,1,"","","Y","instant {[]} {[]}
+","When the resource version last changed","When the resource last changed - e.g. when the version changed.","This value is always populated except when the resource is first being created. The server / resource manager sets this value; what a client provides is irrelevant.","","","","","","","","",,,,,"",,,,"Resource.meta.lastUpdated",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.profile","","","",0,*,"","","Y","uri {[]} {[]}
+","Profiles this resource claims to conform to","A list of profiles (references to [StructureDefinition](structuredefinition.html#) resources) that this resource claims to conform to. The URL is a reference to [StructureDefinition.url]().","It is up to the server and/or other infrastructure of policy to determine whether/how these claims are verified and/or updated over time.  The list of profile URLs is a set.","","","","","","","","",,,,,"",,,,"Resource.meta.profile",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security","","","",0,*,"","","Y","Coding {[]} {[]}
+","Security Labels applied to this resource","Security labels applied to this resource. These tags connect specific resources to the overall security policy and infrastructure.","The security labels can be updated without changing the stated version of the resource  The list of security labels is a set. Uniqueness is based the system/code, and version and display are ignored.","","","","","","","","",,"extensible","Security Labels from the Healthcare Privacy and Security Classification System.","http://hl7.org/fhir/ValueSet/security-labels","",,,,"Resource.meta.security",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.meta.security.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.security.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag","","","",0,*,"","","Y","Coding {[]} {[]}
+","Tags applied to this resource","Tags applied to this resource. Tags are intended to be used to identify and relate resources to process and workflow, and applications are not required to consider the tags when interpreting the meaning of a resource.","The tags can be updated without changing the stated version of the resource.  The list of tags is a set. Uniqueness is based the system/code, and version and display are ignored.","","","","","","","","",,"example","Codes that represent various types of tags, commonly workflow-related; e.g. ""Needs review by Dr. Jones""","http://hl7.org/fhir/ValueSet/common-tags","",,,,"Resource.meta.tag",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.meta.tag.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.meta.tag.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element.   This element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"extensible","A human language.","http://hl7.org/fhir/ValueSet/languages","",,,,"Resource.language",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded in formation is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"ele-1
+dom-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.text.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.text.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.text.status","","","",1,1,"","","","code {[]} {[]}
+","generated | extensions | additional | empty","The status of the narrative - whether it's entirely generated (from just the defined data or the extensions too), or whether a human authored it and it may contain additional data.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,"required","The status of a resource narrative","http://hl7.org/fhir/ValueSet/narrative-status","",,,,"Narrative.status",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.text.div","","","",1,1,"","","","xhtml {[]} {[]}
+","Limited xhtml content","The actual narrative content, a stripped down version of XHTML.","The contents of the html element are an XHTML fragment containing only the basic html formatting elements described in chapters 7-11 and 15 of the HTML 4.0 standard, <a> elements (either name or href), images and internally contained stylesheets. The XHTML content may not contain a head, a body, external stylesheet references, scripts, forms, base/link/xlink, frames, iframes and objects.","","","","","","","","",,,,,"",,,,"Narrative.div",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+txt-1:The narrative SHALL contain only the basic html formatting elements and attributes described in chapters 7-11 (except section 4 of chapter 9) and 15 of the HTML 4.0 standard, <a> elements (either name or href), images and internally contained style attributes {htmlchecks()}txt-2:The narrative SHALL have some non-whitespace content {htmlchecks()}"
+"DiagnosticReport.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"",""
+"DiagnosticReport.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.modifierExtension","","extensions
+user content","",0,*,"","Y","","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier","","ReportID
+Filler IDPlacer ID","",0,*,"","","Y","Identifier {[]} {[]}
+","Business identifier for report","Identifiers assigned to this report by the performer or other systems.","Usually assigned by the Information System of the diagnostic service provider (filler id).","Need to know what identifier to use when making queries about this report from the source laboratory, and for linking to the report outside FHIR context.","","","","","","","",,,,,"",,,,"DiagnosticReport.identifier",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier.use","","","",0,1,"","Y","Y","code {[]} {[]}
+","usual | official | temp | secondary (If known)","The purpose of this identifier.","This is labeled as ""Is Modifier"" because applications should not mistake a temporary id for a permanent one. Applications can assume that an identifier is permanent unless it explicitly says that it is temporary.","Allows the appropriate identifier for a particular context of use to be selected from among a set of identifiers.","","","","","","","",,"required","Identifies the purpose for this identifier, if known .","http://hl7.org/fhir/ValueSet/identifier-use","",,,,"Identifier.use",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","Description of identifier","A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.","This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage.   Where the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type.","Allows users to make use of identifiers when the identifier system is not known.","","","","","","","",,"extensible","A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.","http://hl7.org/fhir/ValueSet/identifier-type","",,,,"Identifier.type",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier.type.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier.type.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.type.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.system","","","",1,1,"","","Y","uri {[]} {[]}
+","The namespace for the identifier value","Establishes the namespace for the value - that is, a URL that describes a set values that are unique.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers.","","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri""/>","","",,,,,"",,,,"Identifier.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.value","","","",1,1,"","","Y","string {[]} {[]}
+","The value that is unique","The portion of the identifier typically relevant to the user and which is unique within the context of the system.","If the value is a full URI, then the system SHALL be urn:ietf:rfc:3986.  The value's primary purpose is computational mapping.  As a result, it may be normalized for comparison purposes (e.g. removing non-significant whitespace, dashes, etc.)  A value formatted for human display can be conveyed using the [Rendered Value extension](extension-rendered-value.html).","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""123456""/>","","",,,,,"",,,,"Identifier.value",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.period","","","",0,1,"","","Y","Period {[]} {[]}
+","Time period when id is/was valid for use","Time period during which identifier is/was valid for use.","This is not a duration - that's a measure of time (a separate type), but a duration that occurs at a fixed value of time. A Period specifies a range of time; the context of use will specify whether the entire range applies (e.g. ""the patient was an inpatient of the hospital for this time range"") or one value from the range applies (e.g. ""give to the patient between these two times""). If duration is required, specify the type as Interval|Duration.","","","","","","","","",,,,,"",,,,"Identifier.period",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+per-1:If present, start SHALL have a lower value than end {start.empty() or end.empty() or (start <= end)}"
+"DiagnosticReport.identifier.period.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.period.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier.period.start","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Starting time with inclusive boundary","The start of the period. The boundary is inclusive.","If the low element is missing, the meaning is that the low boundary is not known.","","","","","","","","",,,,,"",,,,"Period.start",0,1,"ele-1
+per-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.period.end","","","",0,1,"","","Y","dateTime {[]} {[]}
+","End time with inclusive boundary, if not ongoing","The end of the period. If the end of the period is missing, it means that the period is ongoing. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time.","The high value includes any matching date/time. i.e. 2012-02-03T10:00:00 is in a period that has a end value of 2012-02-03.","","","If the end of the period is missing, it means that the period is ongoing","","","","","",,,,,"",,,,"Period.end",0,1,"ele-1
+per-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.assigner","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1]]}
+","Organization that issued id (may be just text)","Organization that issued/manages the identifier.","The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.","","","","","","","","",,,,,"",,,,"Identifier.assigner",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.identifier.assigner.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.assigner.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.identifier.assigner.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.assigner.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.identifier.assigner.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.basedOn","","Request
+","",0,*,"","","","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1]]}
+","What was requested","Details concerning a test or procedure requested.","Note: Usually there is one test request for each result, however in some circumstances multiple test requests may be represented using a single test result resource. Note that there are also cases where one request leads to multiple reports.","This allows tracing of authorization for the report and tracking whether proposals/recommendations were acted upon.","","","","","","","",,,,,"",,,,"DiagnosticReport.basedOn",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.basedOn.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.basedOn.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.basedOn.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.basedOn.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.basedOn.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.status","","","",1,1,"","Y","Y","code {[]} {[]}
+","registered | partial | preliminary | final +","The status of the diagnostic report as a whole.","This is labeled as ""Is Modifier"" because applications need to take appropriate action if a report is withdrawn.","Diagnostic services routinely issue provisional/incomplete reports, and sometimes withdraw previously released reports.","","","","","","","",,"required","The status of the diagnostic report as a whole.","http://hl7.org/fhir/ValueSet/diagnostic-report-status","",,,,"DiagnosticReport.status",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category","","Department
+Sub-departmentServiceDiscipline","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","Service category","A code that classifies the clinical discipline, department or diagnostic service that created the report (e.g. cardiology, biochemistry, hematology, MRI). This is used for searching, sorting and display purposes.","The level of granularity is defined by the category concepts in the value set. More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in DiagnosticReport.code.","","","","","","","","",,"preferred","Codes for diagnostic service sections.","http://hl7.org/fhir/ValueSet/diagnostic-service-sections","",,,,"DiagnosticReport.category",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.category.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"","value:system}
+","",,"open","CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.category.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding","snomedCT","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.category.coding.extension","snomedCTDescriptionID","extensions
+user content","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
+","The SNOMED CT Description ID for the display.","The SNOMED CT Description ID for the display.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.category.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.code","","","",1,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.display","","","",1,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.category.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code","","Type
+","",1,1,"","","Y","CodeableConcept {[]} {[]}
+","Name/Code for this diagnostic report","A code or name that describes this diagnostic report.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"preferred","Codes that describe Diagnostic Reports.","http://hl7.org/fhir/ValueSet/report-codes","",,,,"DiagnosticReport.code",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.code.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"","value:system}
+","",,"open","CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding","snomedCT","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,"extensible","A code from the SNOMED Clinical Terminology UK","https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReportCodeSnCT-1","",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.code.coding.extension","snomedCTDescriptionID","extensions
+user content","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
+","The SNOMED CT Description ID for the display.","The SNOMED CT Description ID for the display.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.code","","","",1,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.display","","","",1,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.code.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.subject","","Patient
+","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Group], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1]]}
+","The subject of the report - usually, but not always, the patient","The subject of the report. Usually, but not always, this is a patient. However diagnostic services also perform analyses on specimens collected from a variety of other sources.","References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.","SHALL know the subject context.","","","","","","","",,,,,"",,,,"DiagnosticReport.subject",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.subject.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.subject.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.subject.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.subject.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.subject.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.context","","Encounter
+","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1]]}
+","Health care event when test ordered","The healthcare event  (e.g. a patient and healthcare provider interaction) which this DiagnosticReport per is about.","This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter or episode but still be tied to the context of the encounter or episode (e.g. pre-admission lab tests).","Links the request to the Encounter context.","","","","","","","",,,,,"",,,,"DiagnosticReport.context",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.context.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.context.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.context.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.context.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.context.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.effective[x]","","Observation time
+Effective TimeOccurrence","",0,1,"","","Y","dateTime {[]} {[]}
+Period {[]} {[]}","Clinically relevant time/time-period for report","The time or time-period the observed values are related to. When the subject of the report is a patient, this is usually either the time of the procedure or of specimen collection(s), but very often the source of the date/time is not known, only the date/time itself.","If the diagnostic procedure was performed on the patient, this is the time it was performed. If there are specimens, the diagnostically relevant time can be derived from the specimen collection times, but the specimen information is not always available, and the exact relationship between the specimens and the diagnostically relevant time is not always automatic.","Need to know where in the patient history to file/present this report.","","","","","","","",,,,,"",,,,"DiagnosticReport.effective[x]",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.issued","","Date Created
+Date publishedDate Issued","",0,1,"","","Y","instant {[]} {[]}
+","DateTime this version was released","The date and time that this version of the report was released from the source diagnostic service.","May be different from the update time of the resource itself, because that is the status of the record (potentially a secondary copy), not the actual release time of the report.","Clinicians need to be able to check the date that the report was released.","","","","","","","",,,,,"",,,,"DiagnosticReport.issued",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer","","Laboratory
+ServicePractitionerDepartmentCompany","",0,*,"","","Y","BackboneElement {[]} {[]}
+","Participants in producing the report","Indicates who or what participated in producing the report.","","","","","","","","","",,,,,"",,,,"DiagnosticReport.performer",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.performer.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.performer.role","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","Type of performer","Describes the type of participation (e.g.  a responsible party, author, or verifier).","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"example","Indicate a role of diagnostic report performer","http://hl7.org/fhir/ValueSet/performer-role","",,,,"DiagnosticReport.performer.role",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.performer.role.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.performer.role.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.role.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.actor","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1]]}
+","Practitioner or Organization  participant","The reference to the  practitioner or organization involved in producing the report. For example, the diagnostic service that is responsible for issuing the report.","This is not necessarily the source of the atomic data items. It is the entity that takes responsibility for the clinical report.","Need to know whom to contact if there are queries about the results. Also may need to track the source of reports for secondary data analysis.","","","","","","","",,,,,"",,,,"DiagnosticReport.performer.actor",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.performer.actor.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.actor.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.performer.actor.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.actor.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.performer.actor.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.specimen","","","",0,*,"","","","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1]]}
+","Specimens this report is based on","Details about the specimens on which this diagnostic report is based.","If the specimen is sufficiently specified with a code in the test result name, then this additional data may be redundant. If there are multiple specimens, these may be represented per observation or group.","Need to be able to report information about the collected specimens on which the report is based.","","","","","","","",,,,,"",,,,"DiagnosticReport.specimen",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.specimen.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.specimen.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.specimen.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.specimen.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.specimen.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.result","","Data
+Atomic ValueResultAtomic resultTestAnalyteBatteryOrganizer","",0,*,"","","","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1]]}
+","Observations - simple, or complex nested groups","Observations that are part of this diagnostic report. Observations can be simple name/value pairs (e.g. ""atomic"" results), or they can be grouping observations that include references to other members of the group (e.g. ""panels"").","References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.","Need to support individual results, or report groups of results, where the result grouping is arbitrary, but meaningful. This structure is recursive - observations can contain observations.","","","","","","","",,,,,"",,,,"DiagnosticReport.result",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.result.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.result.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.result.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.result.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.result.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.imagingStudy","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/ImagingStudy], CanonicalType[http://hl7.org/fhir/StructureDefinition/ImagingManifest]]}
+","Reference to full details of imaging associated with the diagnostic report","One or more links to full details of any imaging performed during the diagnostic investigation. Typically, this is imaging performed by DICOM enabled modalities, but this is not required. A fully enabled PACS viewer can use this information to provide views of the source images.","ImagingStudy and ImageManifest and the image element are somewhat overlapping - typically, the list of image references in the image element will also be found in one of the imaging study resources. However each caters to different types of displays for different types of purposes. Neither, either, or both may be provided.","","","","","","","","",,,,,"",,,,"DiagnosticReport.imagingStudy",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.imagingStudy.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.imagingStudy.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.imagingStudy.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.imagingStudy.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.imagingStudy.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image","","DICOM
+SlidesScans","",0,*,"","","Y","BackboneElement {[]} {[]}
+","Key images associated with this report","A list of key images associated with this report. The images are generally created during the diagnostic process, and may be directly of the patient, or of treated specimens (i.e. slides of interest).","","Many diagnostic services include images in the report as part of their service.","","","","","","","",,,,,"",,,,"DiagnosticReport.image",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.image.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.image.comment","","","",0,1,"","","","string {[]} {[]}
+","Comment about the image (e.g. explanation)","A comment about the image. Typically, this is used to provide an explanation for why the image is included, or to draw the viewer's attention to important features.","The comment should be displayed with the image. It would be common for the report to include additional discussion of the image contents in other sections such as the conclusion.","The provider of the report should make a comment about each image included in the report.","","","","","","","",,,,,"",,,,"DiagnosticReport.image.comment",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.link","","","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Media]]}
+","Reference to the image source","Reference to the image source.","References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.","","","","","","","","",,,,,"",,,,"DiagnosticReport.image.link",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"DiagnosticReport.image.link.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.link.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.image.link.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.link.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.image.link.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.conclusion","","Report
+","",0,1,"","","","string {[]} {[]}
+","Clinical Interpretation of test results","Concise and clinically contextualized impression / summary of the diagnostic report.","Note that FHIR strings may not exceed 1MB in size","Need to be able to provide a conclusion that is not lost among the basic result data.","","","","","","","",,,,,"",,,,"DiagnosticReport.conclusion",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Codes for the conclusion","Codes for the conclusion.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"preferred","A SNOMED Coded finding for the test report.","https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-FindingCode-1","",,,,"DiagnosticReport.codedDiagnosis",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.codedDiagnosis.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"","value:system}
+","",,"open","CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.codedDiagnosis.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding","snomedCT","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,"extensible","A code from the SNOMED Clinical Terminology UK","https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-FindingCode-1","",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.codedDiagnosis.coding.extension","snomedCTDescriptionID","extensions
+user content","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
+","The SNOMED CT Description ID for the display.","The SNOMED CT Description ID for the display.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.codedDiagnosis.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.code","","","",1,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.display","","","",1,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.codedDiagnosis.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm","","","",0,*,"","","","Attachment {[]} {[]}
+","Entire report as issued","Rich text representation of the entire result as issued by the diagnostic service. Multiple formats are allowed but they SHALL be semantically equivalent.","""application/pdf"" is recommended as the most reliable and interoperable in this context.","Gives laboratory the ability to provide its own fully formatted report for clinical fidelity.","","","","","","","",,,,,"",,,,"DiagnosticReport.presentedForm",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+att-1:It the Attachment has data, it SHALL have a contentType {data.empty() or contentType.exists()}"
+"DiagnosticReport.presentedForm.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DiagnosticReport.presentedForm.contentType","","","",0,1,"","","Y","code {[]} {[]}
+","Mime type of the content, with charset etc.","Identifies the type of the data in the attachment and allows a method to be chosen to interpret or render the data. Includes mime type parameters such as charset where appropriate.","Note that FHIR strings may not exceed 1MB in size","Processors of the data need to be able to know how to interpret the data.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""text/plain; charset=UTF-8, image/png""/>","","",,"required","The mime type of an attachment. Any valid mime type is allowed.","http://hl7.org/fhir/ValueSet/mimetypes","",,,,"Attachment.contentType",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.language","","","",0,1,"","","Y","code {[]} {[]}
+","Human language of the content (BCP-47)","The human language of the content. The value can be any valid value according to BCP 47.","Note that FHIR strings may not exceed 1MB in size","Users need to be able to choose between the languages in a set of attachments.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""en-AU""/>","","",,"extensible","A human language.","http://hl7.org/fhir/ValueSet/languages","",,,,"Attachment.language",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.data","","","",0,1,"","","","base64Binary {[]} {[]}
+","Data inline, base64ed","The actual data of the attachment - a sequence of bytes. In XML, represented using base64.","The base64-encoded data SHALL be expressed in the same character set as the base resource XML or JSON.","The data needs to able to be transmitted inline.","","","","","","","",,,,,"",,,,"Attachment.data",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.url","","","",0,1,"","","Y","uri {[]} {[]}
+","Uri where the data can be found","An alternative location where the data can be accessed.","If both data and url are provided, the url SHALL point to the same content as the data contains. Urls may be relative references or may reference transient locations such as a wrapping envelope using cid: though this has ramifications for using signatures. Relative URLs are interpreted relative to the service url, like a resource reference, rather than relative to the resource itself. If a URL is provided, it SHALL resolve to actual data.","The data needs to be transmitted by reference.","","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://www.acme.com/logo-small.png""/>","","",,,,,"",,,,"Attachment.url",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.size","","","",0,1,"","","Y","unsignedInt {[]} {[]}
+","Number of bytes of content (if url provided)","The number of bytes of data that make up this attachment (before base64 encoding, if that is done).","The number of bytes is redundant if the data is provided as a base64binary, but is useful if the data is provided as a url reference.","Representing the size allows applications to determine whether they should fetch the content automatically in advance, or refuse to fetch it at all.","","","","","","","",,,,,"",,,,"Attachment.size",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.hash","","","",0,1,"","","Y","base64Binary {[]} {[]}
+","Hash of the data (sha-1, base64ed)","The calculated hash of the data using SHA-1. Represented using base64.","The hash is calculated on the data prior to base64 encoding, if the data is based64 encoded.","Included so that applications can verify that the contents of a location have not changed and so that a signature of the content can implicitly sign the content of an image without having to include the data in the instance or reference the url in the signature.","","","","","","","",,,,,"",,,,"Attachment.hash",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.title","","","",0,1,"","","Y","string {[]} {[]}
+","Label to display in place of the data","A label or set of text to display in place of the data.","Note that FHIR strings may not exceed 1MB in size","Applications need a label to display to a human user in place of the actual data if the data cannot be rendered or perceived by the viewer.","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Official Corporate Logo""/>","","",,,,,"",,,,"Attachment.title",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"DiagnosticReport.presentedForm.creation","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Date attachment was first created","The date that the attachment was first created.","","This is often tracked as an integrity issue for use of the attachment.","","","","","","","",,,,,"",,,,"Attachment.creation",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-LanguageAbilityMode-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Language Ability Mode</h2><div><p>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">ESGN<a name="CareConnect-LanguageAbilityMode-1-ESGN"> </a></td><td>Expressed signed</td><td/></tr><tr><td style="white-space:nowrap">ESP<a name="CareConnect-LanguageAbilityMode-1-ESP"> </a></td><td>Expressed spoken</td><td/></tr><tr><td style="white-space:nowrap">EWR<a name="CareConnect-LanguageAbilityMode-1-EWR"> </a></td><td>Expressed written</td><td/></tr><tr><td style="white-space:nowrap">RSGN<a name="CareConnect-LanguageAbilityMode-1-RSGN"> </a></td><td>Received signed</td><td/></tr><tr><td style="white-space:nowrap">RSP<a name="CareConnect-LanguageAbilityMode-1-RSP"> </a></td><td>Received spoken</td><td/></tr><tr><td style="white-space:nowrap">RWR<a name="CareConnect-LanguageAbilityMode-1-RWR"> </a></td><td>Received written</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1"/>
+  <version value="1.1.0"/>
+  <name value="Care Connect Language Ability Mode"/>
+  <status value="draft"/>
+  <date value="2018-11-01T00:00:00+00:00"/>
+  <publisher value="HL7 West Riding - Example"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ESGN"/>
+    <display value="Expressed signed"/>
+  </concept>
+  <concept>
+    <code value="ESP"/>
+    <display value="Expressed spoken"/>
+  </concept>
+  <concept>
+    <code value="EWR"/>
+    <display value="Expressed written"/>
+  </concept>
+  <concept>
+    <code value="RSGN"/>
+    <display value="Received signed"/>
+  </concept>
+  <concept>
+    <code value="RSP"/>
+    <display value="Received spoken"/>
+  </concept>
+  <concept>
+    <code value="RWR"/>
+    <display value="Received written"/>
+  </concept>
+</CodeSystem>

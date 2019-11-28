@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ConditionEpisodeSnCT-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Condition Episode SnCT</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.</p>
+</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255217005">255217005</a></td><td>First episode</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=288527008">288527008</a></td><td>New episode</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=303350001">303350001</a></td><td>Ongoing episode</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=272131007">272131007</a></td><td>Old episode</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=394846009">394846009</a></td><td>Undefined episodicity</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1"/>
+  <version value="1.0.0"/>
+  <name value="Care Connect Condition Episode SnCT"/>
+  <status value="draft"/>
+  <date value="2018-05-03T01:00:00+01:00"/>
+  <publisher value="HL7 West Riding - Example"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="255217005"/>
+        <display value="First episode"/>
+      </concept>
+      <concept>
+        <code value="288527008"/>
+        <display value="New episode"/>
+      </concept>
+      <concept>
+        <code value="303350001"/>
+        <display value="Ongoing episode"/>
+      </concept>
+      <concept>
+        <code value="272131007"/>
+        <display value="Old episode"/>
+      </concept>
+      <concept>
+        <code value="394846009"/>
+        <display value="Undefined episodicity"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-PrescriptionType-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Prescription Type</h2><div><p>A CodeSystem to identify the type of prescription</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">acute<a name=\"CareConnect-PrescriptionType-1-acute\"> </a></td><td>Acute</td><td/></tr><tr><td style=\"white-space:nowrap\">repeat<a name=\"CareConnect-PrescriptionType-1-repeat\"> </a></td><td>Repeat</td><td/></tr><tr><td style=\"white-space:nowrap\">repeat-dispensing<a name=\"CareConnect-PrescriptionType-1-repeat-dispensing\"> </a></td><td>Repeat dispensing</td><td/></tr><tr><td style=\"white-space:nowrap\">delayed-prescribing<a name=\"CareConnect-PrescriptionType-1-delayed-prescribing\"> </a></td><td>Delayed prescribing</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
+  "version": "1.2.0",
+  "name": "Care Connect Prescription Type",
+  "status": "draft",
+  "date": "2018-11-01T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the type of prescription",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "acute",
+      "display": "Acute"
+    },
+    {
+      "code": "repeat",
+      "display": "Repeat"
+    },
+    {
+      "code": "repeat-dispensing",
+      "display": "Repeat dispensing"
+    },
+    {
+      "code": "delayed-prescribing",
+      "display": "Delayed prescribing"
+    }
+  ]
+}

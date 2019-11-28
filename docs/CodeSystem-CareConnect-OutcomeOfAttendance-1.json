@@ -1,0 +1,57 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-OutcomeOfAttendance-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Outcome of Attendance</h2><div><p>This records the outcome of an Out-Patient Attendance Consultant.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CareConnect-OutcomeOfAttendance-1-1\"> </a></td><td>Discharged from Consultant's care (last attendance)</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CareConnect-OutcomeOfAttendance-1-2\"> </a></td><td>Another Appointment given</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CareConnect-OutcomeOfAttendance-1-3\"> </a></td><td>Appointment to be made at a later date</td><td/></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/out/outcome_of_attendance_de.asp?shownav=1"
+    }
+  ],
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1",
+  "version": "1.1.0",
+  "name": "NHS Data Model and Dictionary Outcome of Attendance",
+  "status": "draft",
+  "date": "2018-11-14T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "This records the outcome of an Out-Patient Attendance Consultant.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Discharged from Consultant's care (last attendance)"
+    },
+    {
+      "code": "2",
+      "display": "Another Appointment given"
+    },
+    {
+      "code": "3",
+      "display": "Appointment to be made at a later date"
+    }
+  ]
+}

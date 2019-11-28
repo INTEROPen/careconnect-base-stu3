@@ -1,0 +1,501 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"Medication","","","",0,*,"","","","","Definition of a Medication","This resource is primarily used for the identification and definition of a medication. It covers the ingredients and the packaging for a medication.","","","","","","","","","",,,,,"",,,,"Resource",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-1:If the resource is contained in another resource, it SHALL NOT contain any narrative {contained.text.empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource {contained.where(('#'+id in %resource.descendants().reference).not()).empty()}"
+"Medication.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element.   This element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource  Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"extensible","A human language.","http://hl7.org/fhir/ValueSet/languages","",,,,"Resource.language",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource, and may be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded in formation is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"ele-1
+dom-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"",""
+"Medication.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.modifierExtension","","extensions
+user content","",0,*,"","Y","","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.code","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
+","Codes that identify this medication","A code (or set of codes) that specify this medication, or a textual description if no code is available. Usage note: This could be a standard medication code such as a code from RxNorm, SNOMED CT, IDMP etc. It could also be a national or local formulary code, optionally with translations to other code systems.","Depending on the context of use, the code that was actually selected by the user (prescriber, dispenser, etc.) will have the coding.userSelected set to true.  As described in the coding datatype: ""A coding may be marked as a ""userSelected"" if a user selected the particular coded value in a user interface (e.g. the user selects an item in a pick-list). If a user selected coding exists, it is the preferred choice for performing translations etc.","","","","","","","","",,"required","A code from the SNOMED Clinical Terminology UK coding system that describes a medication from the VTM/VMP/VMPP/AMP/AMPP subsets from the dm+d terminology","https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationCode-1","",,,,"Medication.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.code.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.code.coding.extension","snomedCTDescriptionID","extensions
+user content","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
+","The SNOMED CT Description ID for the display","The SNOMED CT Description ID for the display.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.code.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.code.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.status","","","",0,1,"","","Y","code {[]} {[]}
+","active | inactive | entered-in-error","A code to indicate if the medication is in active use.","This status is not intended to specify if a medication is part of a formulary.","","","","","","","","",,"required","A coded concept defining if the medication is in active use","http://hl7.org/fhir/ValueSet/medication-status","",,,,"Medication.status",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.isBrand","","","",0,1,"","","Y","boolean {[]} {[]}
+","True if a brand","Set to true if the item is attributable to a specific manufacturer.","","","","","","","","","",,,,,"",,,,"Medication.isBrand",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.isOverTheCounter","","","",0,1,"","","Y","boolean {[]} {[]}
+","True if medication does not require a prescription","Set to true if the medication can be obtained without an order from a prescriber.","","","","","","","","","",,,,,"",,,,"Medication.isOverTheCounter",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.manufacturer","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1]]}
+","Manufacturer of the item","Describes the details of the manufacturer of the medication product.  This is not intended to represent the distributor of a medication product.","References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.","","","","","","","","",,,,,"",,,,"Medication.manufacturer",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ref-1:SHALL have a contained resource if a local reference is provided {reference.startsWith('#').not() or (reference.substring(1).trace('url') in %resource.contained.id.trace('ids'))}"
+"Medication.manufacturer.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.manufacturer.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.manufacturer.reference","","","",0,1,"","","Y","string {[]} {[]}
+","Literal reference, Relative, internal or absolute URL","A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.","Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure ""/[type]/[id]"" then it should be assumed that the reference is to a FHIR RESTful server.","","","","","","","","",,,,,"",,,,"Reference.reference",0,1,"ele-1
+ref-1","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.manufacturer.identifier","","","",0,1,"","","Y","Identifier {[]} {[]}
+","Logical reference, when literal reference is not known","An identifier for the other resource. This is used when there is no way to reference the other resource directly, either because the entity is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.","When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy.   When both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference  Applications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.","","","","","","","","",,,,,"",,,,"Reference.identifier",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.manufacturer.display","","","",0,1,"","","Y","string {[]} {[]}
+","Text alternative for the resource","Plain text narrative that identifies the resource in addition to the resource reference.","This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.","","","","","","","","",,,,,"",,,,"Reference.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Codes that describe a medication dose form","Describes the form of the item.  Powder; tablets; capsule.","When Medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When Medication is referenced within MedicationAdministration, this is administered form.","","","","","","","","",,"required","A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form","https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1","",,,,"Medication.form",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.form.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.form.coding.extension","snomedCTDescriptionID","extensions
+user content","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
+","The SNOMED CT Description ID for the display","The SNOMED CT Description ID for the display.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.form.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.code","","","",1,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.display","","","",1,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.form.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Active or inactive ingredient","Identifies a particular constituent of interest in the product.","The ingredients need not be a complete list.  If an ingredient is not specified, this does not indicate whether an ingredient is present or absent.  If an ingredient is specified it does not mean that all ingredients are specified.  It is possible to specify both inactive and active ingredients.","","","","","","","","",,,,,"",,,,"Medication.ingredient",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.ingredient.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.ingredient.item[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
+Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance], CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1]]}","The product contained","The actual ingredient - either a substance (simple ingredient) or another medication.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,,,,"",,,,"Medication.ingredient.item[x]",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.isActive","","","",0,1,"","","","boolean {[]} {[]}
+","Active ingredient indicator","Indication of whether this ingredient affects the therapeutic action of the drug.","","True indicates that the ingredient affects the therapeutic action of the drug (i.e. active).  False indicates that the ingredient does not affect the therapeutic action of the drug (i.e. inactive).","","","","","","","",,,,,"",,,,"Medication.ingredient.isActive",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount","","","",0,1,"","","","Ratio {[]} {[]}
+","Quantity of ingredient present","Specifies how many (or how much) of the items there are in this Medication.  For example, 250 mg per tablet.  This is expressed as a ratio where the numerator is 250mg and the denominator is 1 tablet.","","","","","","","","","",,,,,"",,,,"Medication.ingredient.amount",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+rat-1:Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present {(numerator.empty() xor denominator.exists()) and (numerator.exists() or extension.exists())}"
+"Medication.ingredient.amount.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.ingredient.amount.numerator","","","",0,1,"","","Y","Quantity {[]} {[]}
+","Numerator value","The value of the numerator.","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Ratio.numerator",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}"
+"Medication.ingredient.amount.numerator.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.numerator.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.ingredient.amount.numerator.value","","","",0,1,"","","Y","decimal {[]} {[]}
+","Numerical value (with implicit precision)","The value of the measured amount. The value includes an implicit precision in the presentation of the value.","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.numerator.comparator","","","",0,1,"","Y","Y","code {[]} {[]}
+","< | <= | >= | > - how to understand the value","How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is ""<"" , then the real value is < stated value.","This is labeled as ""Is Modifier"" because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value.","Need a framework for handling measures where the value is <5ug/L or >400mg/L due to the limitations of measuring methodology.","","If there is no comparator, then there is no modification of the value","","","","","",,"required","How the Quantity should be understood and represented.","http://hl7.org/fhir/ValueSet/quantity-comparator","",,,,"Quantity.comparator",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.numerator.unit","","","",0,1,"","","Y","string {[]} {[]}
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings may not exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.numerator.system","","","",0,1,"","","Y","uri {[]} {[]}
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","Need to know the system that defines the coded form of the unit.","","","","","","","",,,,,"",,,,"Quantity.system",0,1,"ele-1
+qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.numerator.code","","","",0,1,"","","Y","code {[]} {[]}
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator","","","",0,1,"","","Y","Quantity {[]} {[]}
+","Denominator value","The value of the denominator.","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Ratio.denominator",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}"
+"Medication.ingredient.amount.denominator.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.ingredient.amount.denominator.value","","","",0,1,"","","Y","decimal {[]} {[]}
+","Numerical value (with implicit precision)","The value of the measured amount. The value includes an implicit precision in the presentation of the value.","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator.comparator","","","",0,1,"","Y","Y","code {[]} {[]}
+","< | <= | >= | > - how to understand the value","How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is ""<"" , then the real value is < stated value.","This is labeled as ""Is Modifier"" because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value.","Need a framework for handling measures where the value is <5ug/L or >400mg/L due to the limitations of measuring methodology.","","If there is no comparator, then there is no modification of the value","","","","","",,"required","How the Quantity should be understood and represented.","http://hl7.org/fhir/ValueSet/quantity-comparator","",,,,"Quantity.comparator",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator.unit","","","",0,1,"","","Y","string {[]} {[]}
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings may not exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator.system","","","",0,1,"","","Y","uri {[]} {[]}
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","Need to know the system that defines the coded form of the unit.","","","","","","","",,,,,"",,,,"Quantity.system",0,1,"ele-1
+qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.ingredient.amount.denominator.code","","","",0,1,"","","Y","code {[]} {[]}
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Details about packaged medications","Information that only applies to packages (not products).","","","","","","","","","",,,,,"",,,,"Medication.package",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.container","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","E.g. box, vial, blister-pack","The kind of container that this package comes as.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"example","A coded concept defining the kind of container a medication package is packaged in","http://hl7.org/fhir/ValueSet/medication-package-form","",,,,"Medication.package.container",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.container.coding","","","",0,*,"","","Y","Coding {[]} {[]}
+","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.container.coding.system","","","",0,1,"","","Y","uri {[]} {[]}
+","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","","","","","",,,,,"",,,,"Coding.system",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.version","","","",0,1,"","","Y","string {[]} {[]}
+","Version of the system - if relevant","The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.","Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.","","","","","","","","",,,,,"",,,,"Coding.version",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.code","","","",0,1,"","","Y","code {[]} {[]}
+","Symbol in syntax defined by the system","A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).","Note that FHIR strings may not exceed 1MB in size","Need to refer to a particular code in the system.","","","","","","","",,,,,"",,,,"Coding.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.display","","","",0,1,"","","Y","string {[]} {[]}
+","Representation defined by the system","A representation of the meaning of the code in the system, following the rules of the system.","Note that FHIR strings may not exceed 1MB in size","Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.","","","","","","","",,,,,"",,,,"Coding.display",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.coding.userSelected","","","",0,1,"","","Y","boolean {[]} {[]}
+","If this coding was chosen directly by the user","Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).","Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.","This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.","","","","","","","",,,,,"",,,,"Coding.userSelected",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.container.text","","","",0,1,"","","Y","string {[]} {[]}
+","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content","","","",0,*,"","","","BackboneElement {[]} {[]}
+","What is  in the package","A set of components that go to make up the described item.","","","","","","","","","",,,,,"",,,,"Medication.package.content",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.content.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.content.item[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
+Reference {[]} {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1]]}","The item in the package","Identifies one of the items in the package.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,,,,"",,,,"Medication.package.content.item[x]",1,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
+","Quantity present in the package","The amount of the product that is in the package.","The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator.","","","","","","","","",,,,,"",,,,"Medication.package.content.amount",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+qty-3:If a code for the unit is present, the system SHALL also be present {code.empty() or system.exists()}sqty-1:The comparator is not used on a SimpleQuantity {comparator.empty()}"
+"Medication.package.content.amount.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.content.amount.value","","","",0,1,"","","Y","decimal {[]} {[]}
+","Numerical value (with implicit precision)","The value of the measured amount. The value includes an implicit precision in the presentation of the value.","The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books).","Precision is handled implicitly in almost all cases of measurement.","","","","","","","",,,,,"",,,,"Quantity.value",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount.comparator","","","",0,0,"","Y","Y","code {[]} {[]}
+","< | <= | >= | > - how to understand the value","Not allowed to be used in this context","This is labeled as ""Is Modifier"" because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value.","Need a framework for handling measures where the value is <5ug/L or >400mg/L due to the limitations of measuring methodology.","","If there is no comparator, then there is no modification of the value","","","","","",,"required","How the Quantity should be understood and represented.","http://hl7.org/fhir/ValueSet/quantity-comparator","",,,,"Quantity.comparator",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount.unit","","","",0,1,"","","Y","string {[]} {[]}
+","Unit representation","A human-readable form of the unit.","Note that FHIR strings may not exceed 1MB in size","There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms.","","","","","","","",,,,,"",,,,"Quantity.unit",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount.system","","","",0,1,"","","Y","uri {[]} {[]}
+","System that defines coded unit form","The identification of the system that provides the coded form of the unit.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","Need to know the system that defines the coded form of the unit.","","","","","","","",,,,,"",,,,"Quantity.system",0,1,"ele-1
+qty-3","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.content.amount.code","","","",0,1,"","","Y","code {[]} {[]}
+","Coded form of the unit","A computer processable form of the unit in some unit representation system.","The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system.","Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest.","","","","","","","",,,,,"",,,,"Quantity.code",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.batch","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Identifies a single production run","Information about a group of medication produced or packaged from one production run.","","","","","","","","","",,,,,"",,,,"Medication.package.batch",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.batch.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.batch.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.batch.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the element, and that modifies the understanding of the element that contains it. Usually modifier elements provide negation or qualification. In order to make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.package.batch.lotNumber","","","",0,1,"","","","string {[]} {[]}
+","Identifier assigned to batch","The assigned lot number of a batch of the specified product.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Medication.package.batch.lotNumber",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.package.batch.expirationDate","","","",0,1,"","","","dateTime {[]} {[]}
+","When batch will expire","When this specific batch of product will expire.","","","","","","","","","",,,,,"",,,,"Medication.package.batch.expirationDate",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image","","","",0,*,"","","","Attachment {[]} {[]}
+","Picture of the medication","Photo(s) or graphic representation(s) of the medication.","When providing a summary view (for example with Observation.value[x]) Attachment should be represented with a brief display text such as ""Attachment"".","Note that ""image"" is only applicable when the medication.code represents a physical item (e.g. Amoxil 250 mg capsule) and not an abstract item (e.g. amoxicillin 250 mg).","","","","","","","",,,,,"",,,,"Medication.image",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+att-1:It the Attachment has data, it SHALL have a contentType {data.empty() or contentType.exists()}"
+"Medication.image.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","Note that FHIR strings may not exceed 1MB in size","","","","","","","","",,,,,"",,,,"Element.id",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional Content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Medication.image.contentType","","","",0,1,"","","Y","code {[]} {[]}
+","Mime type of the content, with charset etc.","Identifies the type of the data in the attachment and allows a method to be chosen to interpret or render the data. Includes mime type parameters such as charset where appropriate.","Note that FHIR strings may not exceed 1MB in size","Processors of the data need to be able to know how to interpret the data.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""text/plain; charset=UTF-8, image/png""/>","","",,"required","The mime type of an attachment. Any valid mime type is allowed.","http://hl7.org/fhir/ValueSet/mimetypes","",,,,"Attachment.contentType",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.language","","","",0,1,"","","Y","code {[]} {[]}
+","Human language of the content (BCP-47)","The human language of the content. The value can be any valid value according to BCP 47.","Note that FHIR strings may not exceed 1MB in size","Users need to be able to choose between the languages in a set of attachments.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""en-AU""/>","","",,"extensible","A human language.","http://hl7.org/fhir/ValueSet/languages","",,,,"Attachment.language",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.data","","","",0,1,"","","","base64Binary {[]} {[]}
+","Data inline, base64ed","The actual data of the attachment - a sequence of bytes. In XML, represented using base64.","The base64-encoded data SHALL be expressed in the same character set as the base resource XML or JSON.","The data needs to able to be transmitted inline.","","","","","","","",,,,,"",,,,"Attachment.data",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.url","","","",0,1,"","","Y","uri {[]} {[]}
+","Uri where the data can be found","An alternative location where the data can be accessed.","If both data and url are provided, the url SHALL point to the same content as the data contains. Urls may be relative references or may reference transient locations such as a wrapping envelope using cid: though this has ramifications for using signatures. Relative URLs are interpreted relative to the service url, like a resource reference, rather than relative to the resource itself. If a URL is provided, it SHALL resolve to actual data.","The data needs to be transmitted by reference.","","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://www.acme.com/logo-small.png""/>","","",,,,,"",,,,"Attachment.url",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.size","","","",0,1,"","","Y","unsignedInt {[]} {[]}
+","Number of bytes of content (if url provided)","The number of bytes of data that make up this attachment (before base64 encoding, if that is done).","The number of bytes is redundant if the data is provided as a base64binary, but is useful if the data is provided as a url reference.","Representing the size allows applications to determine whether they should fetch the content automatically in advance, or refuse to fetch it at all.","","","","","","","",,,,,"",,,,"Attachment.size",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.hash","","","",0,1,"","","Y","base64Binary {[]} {[]}
+","Hash of the data (sha-1, base64ed)","The calculated hash of the data using SHA-1. Represented using base64.","The hash is calculated on the data prior to base64 encoding, if the data is based64 encoded.","Included so that applications can verify that the contents of a location have not changed and so that a signature of the content can implicitly sign the content of an image without having to include the data in the instance or reference the url in the signature.","","","","","","","",,,,,"",,,,"Attachment.hash",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.title","","","",0,1,"","","Y","string {[]} {[]}
+","Label to display in place of the data","A label or set of text to display in place of the data.","Note that FHIR strings may not exceed 1MB in size","Applications need a label to display to a human user in place of the actual data if the data cannot be rendered or perceived by the viewer.","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""Official Corporate Logo""/>","","",,,,,"",,,,"Attachment.title",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
+"Medication.image.creation","","","",0,1,"","","Y","dateTime {[]} {[]}
+","Date attachment was first created","The date that the attachment was first created.","","This is often tracked as an integrity issue for use of the attachment.","","","","","","","",,,,,"",,,,"Attachment.creation",0,1,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+"
