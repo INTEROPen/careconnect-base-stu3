@@ -5,7 +5,6 @@ import ca.uhn.fhir.rest.api.EncodingEnum;
 
 import ca.uhn.fhir.rest.client.api.IGenericClient;
 import org.hl7.fhir.convertors.VersionConvertor_30_40;
-import org.hl7.fhir.convertors.VersionConvertor_30_50;
 import org.hl7.fhir.dstu3.model.*;
 import org.hl7.fhir.r4.model.ImplementationGuide;
 import org.hl7.fhir.r4.model.Reference;
@@ -18,7 +17,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Collection;
+import java.util.Map;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 
 @SpringBootApplication
@@ -33,7 +34,7 @@ public class IGUpdate implements CommandLineRunner {
     VersionConvertor_30_40 convertor = new VersionConvertor_30_40();
 
     String path = "C:\\Development\\Wildfyre\\UK-STU3\\input\\resources\\";
-    String igPath = "C:\\Development\\Wildfyre\\UK-STU3\\input\\UK-STU3-ImplementationGuide.xml";
+    String igPath = path + "UK-STU3-ImplementationGuide.xml";
 
     ImplementationGuide ig;
 
@@ -76,29 +77,38 @@ public class IGUpdate implements CommandLineRunner {
         }
     }
     private void HL7UKResources() {
-        checkGrouping("HL7 UK","Core UK FHIR Resources");
+        String groupPrefix = "uk-";
+        checkGrouping(groupPrefix+"1","HL7 UK Base","UK Base FHIR Profiles");
+        checkGrouping(groupPrefix+"2","HL7 UK Level 3","UK Level 3 FHIR Profiles");
+        checkGrouping(groupPrefix+"3","HL7 UK Base Extensions","UK Base FHIR Extensions");
+        checkGrouping(groupPrefix+"4","HL7 UK ValueSets","UK FHIR ValueSets");
+        checkGrouping(groupPrefix+"5","HL7 UK CodeSystems","UK FHIR CodesSystems");
 
-        ProcessReferenceServer processReferenceServer = new ProcessReferenceServer("https://fhir.hl7.org.uk/STU3/", "HL7 UK");
-        Collection<StructureDefinition> structs = processReferenceServer.getStructureDefinitions();
-        Collection<CodeSystem> codeSystems = processReferenceServer.getCodeSystems();
-        Collection<ValueSet> valueSets =
-                processReferenceServer.getValueSets();
+        ProcessReferenceServer processReferenceServer = new ProcessReferenceServer("https://fhir.hl7.org.uk/STU3/");
+        processReferenceServer.populateMap();
 
-        processSD(structs,"HL7 UK");
-        processCS(codeSystems,"HL7 UK");
-        processVS(valueSets,"HL7 UK");
+        processMap(processReferenceServer.getResources(),groupPrefix);
     }
 
-    private void processSD(Collection<StructureDefinition> structs, String group) {
-        for (StructureDefinition sd : structs) {
+    private void processMap(Map<String, Resource> map, String groupId) {
 
-            String[] split = sd.getUrl().split("/");
-            String resourceName = split[split.length-1] ;
-            String content = ctxSTU3.newXmlParser().encodeResourceToString(sd);
+        SortedSet<String> keys = new TreeSet<>(map.keySet());
+        for (String key : keys) {
+
+            Resource resource = map.get(key);
+
+            String content = ctxSTU3.newXmlParser().setPrettyPrint(true).encodeResourceToString(resource);
             try {
-                if (convertsToR5(sd)  && validatesOK(sd)) {
-                    Files.writeString(Paths.get(path + resourceName + ".xml"), content);
-                    checkInIG(sd, resourceName, group);
+                if (convertsToR5(resource)  && validatesOK(resource)) {
+                    String filename = resource.getIdElement().getIdPart();
+                    if (resource instanceof ValueSet || resource instanceof CodeSystem) {
+                        filename = resource.getResourceType().name() + "\\" + filename;
+                    }
+
+                    if (filename !=null) {
+                        Files.writeString(Paths.get(path + filename + ".xml"), content);
+                        checkInIG(resource, key, groupId);
+                    }
                 }
             } catch (IOException e) {
                 e.printStackTrace();
@@ -106,41 +116,8 @@ public class IGUpdate implements CommandLineRunner {
         }
     }
 
-    private void processVS(Collection<ValueSet> valueSets, String group) {
-        for (ValueSet vs : valueSets) {
 
-            String[] split = vs.getUrl().split("/");
-            String resourceName = split[split.length-1] ;
-            String content = ctxSTU3.newXmlParser().encodeResourceToString(vs);
-            try {
-                if (convertsToR5(vs) && validatesOK(vs)) {
-                    Files.writeString(Paths.get(path + "ValueSet\\" + resourceName + ".xml"), content);
-                    checkInIG(vs, resourceName, group);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    private void processCS(Collection<CodeSystem> codeSystems, String group) {
-        for (CodeSystem cs : codeSystems) {
-
-            String[] split = cs.getUrl().split("/");
-            String resourceName = split[split.length-1] ;
-            String content = ctxSTU3.newXmlParser().encodeResourceToString(cs);
-            try {
-                if (convertsToR5(cs) && validatesOK(cs)) {
-                    Files.writeString(Paths.get(path + "CodeSystem\\" + resourceName + ".xml"), content);
-                    checkInIG(cs, resourceName, group);
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
-
-    private void checkGrouping(String group, String groupDesc) {
+    private void checkGrouping(String groupId, String group, String groupDesc) {
         ImplementationGuide.ImplementationGuideDefinitionGroupingComponent groupFound = null;
         for (ImplementationGuide.ImplementationGuideDefinitionGroupingComponent groupsearch : ig.getDefinition().getGrouping()) {
             if (groupsearch.getName().equals(group)) {
@@ -150,28 +127,42 @@ public class IGUpdate implements CommandLineRunner {
         }
         if (groupFound == null) {
             groupFound = new ImplementationGuide.ImplementationGuideDefinitionGroupingComponent();
+            groupFound.setId(groupId);
             groupFound.setDescription(groupDesc);
             groupFound.setName(group);
-         // TODO causing errors at present   ig.getDefinition().addGrouping(groupFound);
+            ig.getDefinition().addGrouping(groupFound);
         }
     }
-    private void checkInIG(Resource resource, String name, String group) {
+    private void checkInIG(Resource resource, String name, String groupPrefix) {
         ImplementationGuide.ImplementationGuideDefinitionResourceComponent resourceComponent = null;
 
-        String igName = resource.getResourceType().name() + "/" + name;
-
         for(ImplementationGuide.ImplementationGuideDefinitionResourceComponent resourceComponentSearch : ig.getDefinition().getResource()) {
-            if (resourceComponentSearch.getName().equals(igName)) resourceComponent = resourceComponentSearch;
+            if (resourceComponentSearch.getName().equals(name)) resourceComponent = resourceComponentSearch;
         }
 
+        String reference = name.replace("cs-","").replace("vs-","");
         if (resourceComponent == null) {
             resourceComponent = new ImplementationGuide.ImplementationGuideDefinitionResourceComponent();
-            resourceComponent.setName(igName);
-            resourceComponent.setReference(new Reference().setReference(resource.getResourceType().name()+"/"+name));
+            resourceComponent.setName(name);
 
             ig.getDefinition().addResource(resourceComponent);
         }
-      resourceComponent.setGroupingId(null);
+        resourceComponent.setReference(
+                new Reference()
+                        .setReference(resource.getResourceType().name()+"/"+resource.getIdElement().getIdPart()));
+        if (resource instanceof ValueSet) {
+            resourceComponent.setGroupingId(groupPrefix+"4");
+        } else if (resource instanceof CodeSystem) {
+            resourceComponent.setGroupingId(groupPrefix+"5");
+        } else if (resource.getIdElement().getIdPart().startsWith("Extension")) {
+            resourceComponent.setGroupingId(groupPrefix+"3");
+        } else if (resource.getIdElement().getIdPart().split("-").length == 4) {
+            resourceComponent.setGroupingId(groupPrefix+"2");
+        } else {
+            resourceComponent.setGroupingId(groupPrefix+"1");
+        }
+
+
     }
 
     private Boolean validatesOK(Resource resource) {

@@ -1,1 +1,41 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-MedicationSupplyType-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1"></url><version value="1.0.0"></version><name value="Care Connect Medication Supply Type"></name><status value="draft"></status><date value="2018-07-11T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify the type of medication supply."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="over-the-counter"></code><display value="Over the counter"></display></concept><concept><code value="emergency-supply"></code><display value="Emergency supply"></display></concept><concept><code value="patient-group-direction"></code><display value="Patient group direction"></display></concept><concept><code value="minor-ailments-scheme"></code><display value="Minor ailments scheme"></display></concept><concept><code value="prescription-dispensing"></code><display value="Prescription dispensing"></display></concept><concept><code value="private-prescription-dispensing"></code><display value="Private prescription dispensing"></display></concept><concept><code value="self-declared"></code><display value="Self declared"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-MedicationSupplyType-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Care Connect Medication Supply Type"></name>
+   <status value="draft"></status>
+   <date value="2018-07-11T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify the type of medication supply."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="over-the-counter"></code>
+      <display value="Over the counter"></display>
+   </concept>
+   <concept>
+      <code value="emergency-supply"></code>
+      <display value="Emergency supply"></display>
+   </concept>
+   <concept>
+      <code value="patient-group-direction"></code>
+      <display value="Patient group direction"></display>
+   </concept>
+   <concept>
+      <code value="minor-ailments-scheme"></code>
+      <display value="Minor ailments scheme"></display>
+   </concept>
+   <concept>
+      <code value="prescription-dispensing"></code>
+      <display value="Prescription dispensing"></display>
+   </concept>
+   <concept>
+      <code value="private-prescription-dispensing"></code>
+      <display value="Private prescription dispensing"></display>
+   </concept>
+   <concept>
+      <code value="self-declared"></code>
+      <display value="Self declared"></display>
+   </concept>
+</CodeSystem>

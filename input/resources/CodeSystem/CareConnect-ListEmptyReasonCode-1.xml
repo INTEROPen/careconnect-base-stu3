@@ -1,1 +1,17 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-ListEmptyReasonCode-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1"></url><version value="1.1.0"></version><name value="Care Connect List Empty Reason Code"></name><status value="draft"></status><date value="2018-11-01T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify the reason a list may be empty."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="no-content-recorded"></code><display value="No Content Recorded"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ListEmptyReasonCode-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1"></url>
+   <version value="1.1.0"></version>
+   <name value="Care Connect List Empty Reason Code"></name>
+   <status value="draft"></status>
+   <date value="2018-11-01T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify the reason a list may be empty."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="no-content-recorded"></code>
+      <display value="No Content Recorded"></display>
+   </concept>
+</CodeSystem>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Patient xmlns="http://hl7.org/fhir">
-  <id value="1"/>
+  <id value="patient-1"/>
   <meta>
     <lastUpdated value="2019-11-24T06:25:11.715+00:00"/>
     <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><b>generalPractitioner</b>: <a href="Practitioner/1">Dr. AA Bhatia</a></p><p><b>managingOrganization</b>: <a href="Organization/1">The Moir Medical Centre</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: patient-1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><b>generalPractitioner</b>: <a href="Practitioner/1">Dr. AA Bhatia</a></p><p><b>managingOrganization</b>: <a href="Organization/1">The Moir Medical Centre</a></p></div>
   </text>
   <extension url="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EthnicCategory-1">
     <valueCodeableConcept>

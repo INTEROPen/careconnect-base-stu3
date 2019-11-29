@@ -1,1 +1,43 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-ConditionRelationship-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"></url><version value="1.2.0"></version><name value="Care Connect Condition Relationship"></name><status value="draft"></status><date value="2019-10-24T18:50:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem that identifies the kind of relationship that exists with a target condition or problem."></description><copyright value="Copyright © 2019 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="merge-combine"></code><display value="Merge/Combine"></display><definition value="This condition is merged/combined with the target condition to form a single logical condition."></definition></concept><concept><code value="nesting"></code><display value="Nesting"></display><definition value="This target condition is a component problem of this condition."></definition></concept><concept><code value="evolve"></code><display value="Evolve"></display><definition value="This condition has evolved from the target condition."></definition></concept><concept><code value="parent"></code><display value="Parent"></display><definition value="The problem referenced is the parent of the problem/item in the resource."></definition></concept><concept><code value="child"></code><display value="Child"></display><definition value="The problem referenced is the child of the problem/item in the resource."></definition></concept><concept><code value="sibling"></code><display value="Sibling"></display><definition value="The problem referenced is a sibling of the problem/item in the resource."></definition></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ConditionRelationship-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"></url>
+   <version value="1.2.0"></version>
+   <name value="Care Connect Condition Relationship"></name>
+   <status value="draft"></status>
+   <date value="2019-10-24T18:50:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem that identifies the kind of relationship that exists with a target condition or problem."></description>
+   <copyright value="Copyright © 2019 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="merge-combine"></code>
+      <display value="Merge/Combine"></display>
+      <definition value="This condition is merged/combined with the target condition to form a single logical condition."></definition>
+   </concept>
+   <concept>
+      <code value="nesting"></code>
+      <display value="Nesting"></display>
+      <definition value="This target condition is a component problem of this condition."></definition>
+   </concept>
+   <concept>
+      <code value="evolve"></code>
+      <display value="Evolve"></display>
+      <definition value="This condition has evolved from the target condition."></definition>
+   </concept>
+   <concept>
+      <code value="parent"></code>
+      <display value="Parent"></display>
+      <definition value="The problem referenced is the parent of the problem/item in the resource."></definition>
+   </concept>
+   <concept>
+      <code value="child"></code>
+      <display value="Child"></display>
+      <definition value="The problem referenced is the child of the problem/item in the resource."></definition>
+   </concept>
+   <concept>
+      <code value="sibling"></code>
+      <display value="Sibling"></display>
+      <definition value="The problem referenced is a sibling of the problem/item in the resource."></definition>
+   </concept>
+</CodeSystem>

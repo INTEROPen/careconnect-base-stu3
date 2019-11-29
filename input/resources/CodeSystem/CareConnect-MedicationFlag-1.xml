@@ -1,1 +1,21 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-MedicationFlag-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"></url><version value="1.0.0"></version><name value="Care Connect Medication Flag"></name><status value="draft"></status><date value="2017-08-01T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify detail codes for flagged medication issues."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="do-not-discontinue"></code><display value="Do Not discontinue Medication"></display></concept><concept><code value="continue-indefinitely"></code><display value="Continue Indefinitely"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-MedicationFlag-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Care Connect Medication Flag"></name>
+   <status value="draft"></status>
+   <date value="2017-08-01T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify detail codes for flagged medication issues."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="do-not-discontinue"></code>
+      <display value="Do Not discontinue Medication"></display>
+   </concept>
+   <concept>
+      <code value="continue-indefinitely"></code>
+      <display value="Continue Indefinitely"></display>
+   </concept>
+</CodeSystem>

@@ -1,1 +1,71 @@
-<ValueSet xmlns="http://hl7.org/fhir"><id value="CareConnect-NameUse-1"></id><extension url="http://hl7.org/fhir/StructureDefinition/valueset-map"><valueReference><reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1"></reference></valueReference></extension><extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference"><valueUri value="http://hl7.org/fhir/ValueSet/name-use"></valueUri></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"><valueCode value="fhir"></valueCode></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"><valueInteger value="0"></valueInteger></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status"><valueString value="Informative"></valueString></extension><url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1"></url><identifier><system value="urn:ietf:rfc:3986"></system><value value="urn:oid:2.16.840.1.113883.4.642.3.58"></value></identifier><version value="3.0.1"></version><name value="NameUse"></name><status value="draft"></status><date value="2017-04-19T07:44:47+10:00"></date><publisher value="HL7 (FHIR Project)"></publisher><contact><telecom><system value="url"></system><value value="http://hl7.org/fhir"></value></telecom></contact><description value="The use of a human name"></description><copyright value="Copyright © HL7.org 2011+"></copyright><compose><include><system value="http://hl7.org/fhir/name-use"></system><concept><code value="usual"></code><display value="Usual"></display></concept><concept><code value="official"></code><display value="Official"></display></concept><concept><code value="temp"></code><display value="Temp"></display></concept><concept><code value="nickname"></code><display value="Nickname"></display></concept><concept><code value="anonymous"></code><display value="Anonymous"></display></concept><concept><code value="old"></code><display value="Old"></display></concept><concept><code value="maiden"></code><display value="Name changed for Marraige"></display></concept></include></compose></ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-NameUse-1"></id>
+   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
+      <valueReference>
+         <reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1"></reference>
+      </valueReference>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+      <valueUri value="http://hl7.org/fhir/ValueSet/name-use"></valueUri>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+      <valueCode value="fhir"></valueCode>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+      <valueInteger value="0"></valueInteger>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+      <valueString value="Informative"></valueString>
+   </extension>
+   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.4.642.3.58"></value>
+   </identifier>
+   <version value="3.0.1"></version>
+   <name value="NameUse"></name>
+   <status value="draft"></status>
+   <date value="2017-04-19T07:44:47+10:00"></date>
+   <publisher value="HL7 (FHIR Project)"></publisher>
+   <contact>
+      <telecom>
+         <system value="url"></system>
+         <value value="http://hl7.org/fhir"></value>
+      </telecom>
+   </contact>
+   <description value="The use of a human name"></description>
+   <copyright value="Copyright © HL7.org 2011+"></copyright>
+   <compose>
+      <include>
+         <system value="http://hl7.org/fhir/name-use"></system>
+         <concept>
+            <code value="usual"></code>
+            <display value="Usual"></display>
+         </concept>
+         <concept>
+            <code value="official"></code>
+            <display value="Official"></display>
+         </concept>
+         <concept>
+            <code value="temp"></code>
+            <display value="Temp"></display>
+         </concept>
+         <concept>
+            <code value="nickname"></code>
+            <display value="Nickname"></display>
+         </concept>
+         <concept>
+            <code value="anonymous"></code>
+            <display value="Anonymous"></display>
+         </concept>
+         <concept>
+            <code value="old"></code>
+            <display value="Old"></display>
+         </concept>
+         <concept>
+            <code value="maiden"></code>
+            <display value="Name changed for Marraige"></display>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

@@ -1,1 +1,19 @@
-<ValueSet xmlns="http://hl7.org/fhir"><id value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></id><extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference"><valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"></valueUri></extension><url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></url><version value="1.0.0"></version><name value="NHS Data Model and Dictionary Person Marital Status Code"></name><status value="active"></status><date value="2016-08-03T00:00:00+01:00"></date><publisher value="HL7 UK"></publisher><description value="An indicator to identify the legal marital status of a Person."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><compose><include><system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></system></include></compose></ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></id>
+   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+      <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"></valueUri>
+   </extension>
+   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></url>
+   <version value="1.0.0"></version>
+   <name value="NHS Data Model and Dictionary Person Marital Status Code"></name>
+   <status value="active"></status>
+   <date value="2016-08-03T00:00:00+01:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="An indicator to identify the legal marital status of a Person."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <compose>
+      <include>
+         <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"></system>
+      </include>
+   </compose>
+</ValueSet>

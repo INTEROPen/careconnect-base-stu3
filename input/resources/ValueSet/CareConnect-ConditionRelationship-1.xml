@@ -1,1 +1,16 @@
-<ValueSet xmlns="http://hl7.org/fhir"><id value="CareConnect-ConditionRelationship-1"></id><url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionRelationship-1"></url><version value="1.2.0"></version><name value="Care Connect Condition Relationship"></name><status value="draft"></status><date value="2019-09-04T14:30:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A ValueSet that identifies the kind of relationship that exists with a target condition or problem.."></description><copyright value="Copyright © 2019 HL7 UK"></copyright><compose><include><system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"></system></include></compose></ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ConditionRelationship-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionRelationship-1"></url>
+   <version value="1.2.0"></version>
+   <name value="Care Connect Condition Relationship"></name>
+   <status value="draft"></status>
+   <date value="2019-09-04T14:30:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A ValueSet that identifies the kind of relationship that exists with a target condition or problem.."></description>
+   <copyright value="Copyright © 2019 HL7 UK"></copyright>
+   <compose>
+      <include>
+         <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"></system>
+      </include>
+   </compose>
+</ValueSet>

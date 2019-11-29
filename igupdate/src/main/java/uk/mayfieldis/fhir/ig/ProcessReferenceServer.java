@@ -12,11 +12,9 @@ import java.util.*;
 public class ProcessReferenceServer {
 
     private String serverUrl;
-    private String group;
+   // private String group;
 
-    private Map<String, ValueSet> valueSets =  new HashMap<>();
-    private Map<String, CodeSystem> codeSystems =  new HashMap<>();
-    private Map<String, StructureDefinition> structureDefinitions =  new HashMap<>();
+    private Map<String, Resource> resources =  new HashMap<>();
 
     private IGenericClient client;
 
@@ -25,15 +23,28 @@ public class ProcessReferenceServer {
     private static Logger log = LoggerFactory
             .getLogger(ProcessReferenceServer.class);
 
-    public ProcessReferenceServer(String _serverUrl, String _group) {
+    public ProcessReferenceServer(String _serverUrl) {
         this.serverUrl = _serverUrl;
-        this.group = _group;
-
+       // this.group = _group;
         this.client = ctxFHIR.newRestfulGenericClient(serverUrl);
         this.client.setEncoding(EncodingEnum.JSON);
     }
 
-    public Collection<StructureDefinition> getStructureDefinitions() {
+    public void populateMap() {
+        getStructureDefinitions();
+        getValueSets();
+        getCodeSystems();
+    }
+
+    public Map<String, Resource> getResources() {
+        return resources;
+    }
+
+    public void setResources(Map<String, Resource> resources) {
+        this.resources = resources;
+    }
+
+    public void getStructureDefinitions() {
 
         Bundle bundle = null;
         try {
@@ -54,7 +65,7 @@ public class ProcessReferenceServer {
                     log.info(entry.getFullUrl());
                     if (entry.getResource() instanceof StructureDefinition) {
                         StructureDefinition sd = (StructureDefinition) entry.getResource();
-                        this.structureDefinitions.put(sd.getUrl(),sd);
+                        this.addMapEntry(sd.getUrl(),sd);
                     }
                 }
                 if (bundle.getLink(Bundle.LINK_NEXT) != null) {
@@ -70,9 +81,9 @@ public class ProcessReferenceServer {
                 }
             } while (more);
         }
-        return structureDefinitions.values();
+
     }
-    public Collection<CodeSystem> getCodeSystems() {
+    public void getCodeSystems() {
 
         Bundle bundle = null;
         try {
@@ -93,7 +104,7 @@ public class ProcessReferenceServer {
                     log.info(entry.getFullUrl());
                     if (entry.getResource() instanceof CodeSystem) {
                         CodeSystem cs = (CodeSystem) entry.getResource();
-                        this.codeSystems.put(cs.getUrl(),cs);
+                        this.addMapEntry(cs.getUrl(),cs);
                     }
                 }
                 if (bundle.getLink(Bundle.LINK_NEXT) != null) {
@@ -109,9 +120,9 @@ public class ProcessReferenceServer {
                 }
             } while (more);
         }
-        return codeSystems.values();
+
     }
-    public Collection<ValueSet> getValueSets() {
+    public void getValueSets() {
 
         Bundle bundle = null;
         try {
@@ -131,7 +142,7 @@ public class ProcessReferenceServer {
                     log.info(entry.getFullUrl());
                     if (entry.getResource() instanceof ValueSet) {
                         ValueSet vs = (ValueSet) entry.getResource();
-                        this.valueSets.put(vs.getUrl(),vs);
+                        this.addMapEntry(vs.getUrl(),vs);
                     }
                 }
                 if (bundle.getLink(Bundle.LINK_NEXT) != null) {
@@ -147,6 +158,22 @@ public class ProcessReferenceServer {
                 }
             } while (more);
         }
-        return valueSets.values();
     }
+
+    private void addMapEntry(String url, Resource resource) {
+        String[] urlParse = url.split("/");
+        String newUrl = urlParse[urlParse.length-1];
+        newUrl = newUrl.replace("CareConnect-","").replace("Extension-","");
+        if (this.resources.get(newUrl) != null) {
+            if (resource instanceof CodeSystem) {
+                newUrl = "cs-"+newUrl;
+            }
+            if (resource instanceof ValueSet) {
+                newUrl = "vs-"+newUrl;
+            }
+        }
+
+        this.resources.put(newUrl,resource);
+    }
+
 }

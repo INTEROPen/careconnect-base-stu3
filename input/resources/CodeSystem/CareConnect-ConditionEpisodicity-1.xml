@@ -1,1 +1,33 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-ConditionEpisodicity-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1"></url><version value="1.1.0"></version><name value="Care Connect Condition Episodicity"></name><status value="draft"></status><date value="2018-11-14T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify the episodicity of a condition."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="first"></code><display value="First"></display><definition value="The first episode of a condition."></definition></concept><concept><code value="new"></code><display value="New"></display><definition value="A new episode of a previously recorded condition."></definition></concept><concept><code value="review"></code><display value="Review"></display><definition value="A review of an existing condition episode."></definition></concept><concept><code value="end"></code><display value="End"></display><definition value="Marks the end of an existing condition episode."></definition></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ConditionEpisodicity-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1"></url>
+   <version value="1.1.0"></version>
+   <name value="Care Connect Condition Episodicity"></name>
+   <status value="draft"></status>
+   <date value="2018-11-14T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify the episodicity of a condition."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="first"></code>
+      <display value="First"></display>
+      <definition value="The first episode of a condition."></definition>
+   </concept>
+   <concept>
+      <code value="new"></code>
+      <display value="New"></display>
+      <definition value="A new episode of a previously recorded condition."></definition>
+   </concept>
+   <concept>
+      <code value="review"></code>
+      <display value="Review"></display>
+      <definition value="A review of an existing condition episode."></definition>
+   </concept>
+   <concept>
+      <code value="end"></code>
+      <display value="End"></display>
+      <definition value="Marks the end of an existing condition episode."></definition>
+   </concept>
+</CodeSystem>

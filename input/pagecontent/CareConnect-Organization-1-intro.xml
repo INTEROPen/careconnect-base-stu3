@@ -1,6 +1,17 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
     <p>
-        Measurements and simple assertions made about a patient, device or other subject.
+        This profile defines an organisation administration details structure that includes core localisation concepts for use in an UK context.
     </p>
+    <h4 id="identifiers">Identifiers</h4>
+    <p>These definitions represent common data held in the Organization.identifier element:</p>
+    <ul>
+        <li>SDS/ODS/NACS - England and Wales</li>
+        <li>Scotland. Not yet specified</li>
+        <li>Northern Ireland. Not yet specified</li>
+    </ul>
+    <p><strong>Examples</strong></p>
+
+    <p><a href="2.html">GP Practice</a></p>
+    <p><a href="3.html">CCG</a></p>
 </div>
 

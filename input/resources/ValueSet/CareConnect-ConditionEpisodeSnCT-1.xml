@@ -1,1 +1,36 @@
-<ValueSet xmlns="http://hl7.org/fhir"><id value="CareConnect-ConditionEpisodeSnCT-1"></id><url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1"></url><version value="1.0.0"></version><name value="Care Connect Condition Episode SnCT"></name><status value="draft"></status><date value="2018-05-03T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."></description><copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright><compose><include><system value="http://snomed.info/sct"></system><concept><code value="255217005"></code><display value="First episode"></display></concept><concept><code value="288527008"></code><display value="New episode"></display></concept><concept><code value="303350001"></code><display value="Ongoing episode"></display></concept><concept><code value="272131007"></code><display value="Old episode"></display></concept><concept><code value="394846009"></code><display value="Undefined episodicity"></display></concept></include></compose></ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ConditionEpisodeSnCT-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Care Connect Condition Episode SnCT"></name>
+   <status value="draft"></status>
+   <date value="2018-05-03T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."></description>
+   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"></system>
+         <concept>
+            <code value="255217005"></code>
+            <display value="First episode"></display>
+         </concept>
+         <concept>
+            <code value="288527008"></code>
+            <display value="New episode"></display>
+         </concept>
+         <concept>
+            <code value="303350001"></code>
+            <display value="Ongoing episode"></display>
+         </concept>
+         <concept>
+            <code value="272131007"></code>
+            <display value="Old episode"></display>
+         </concept>
+         <concept>
+            <code value="394846009"></code>
+            <display value="Undefined episodicity"></display>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

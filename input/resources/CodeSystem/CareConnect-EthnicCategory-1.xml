@@ -1,1 +1,287 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-EthnicCategory-1"></id><extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference"><valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"></valueUri></extension><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"></url><version value="1.1.0"></version><name value="Care Connect Ethnic Category"></name><status value="draft"></status><date value="2018-11-02T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."></description><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="A"></code><display value="British, Mixed British"></display></concept><concept><code value="B"></code><display value="Irish"></display></concept><concept><code value="C"></code><display value="Any other White background"></display></concept><concept><code value="C2"></code><display value="Northern Irish"></display></concept><concept><code value="C3"></code><display value="Other white, white unspecified"></display></concept><concept><code value="CA"></code><display value="English"></display></concept><concept><code value="CB"></code><display value="Scottish"></display></concept><concept><code value="CC"></code><display value="Welsh"></display></concept><concept><code value="CD"></code><display value="Cornish"></display></concept><concept><code value="CE"></code><display value="Cypriot (part not stated)"></display></concept><concept><code value="CF"></code><display value="Greek"></display></concept><concept><code value="CG"></code><display value="Greek Cypriot"></display></concept><concept><code value="CH"></code><display value="Turkish"></display></concept><concept><code value="CJ"></code><display value="Turkish Cypriot"></display></concept><concept><code value="CK"></code><display value="Italian"></display></concept><concept><code value="CL"></code><display value="Irish Traveller"></display></concept><concept><code value="CM"></code><display value="Traveller"></display></concept><concept><code value="CN"></code><display value="Gypsy/Romany"></display></concept><concept><code value="CP"></code><display value="Polish"></display></concept><concept><code value="CQ"></code><display value="All republics which made up the former USSR"></display></concept><concept><code value="CR"></code><display value="Kosovan"></display></concept><concept><code value="CS"></code><display value="Albanian"></display></concept><concept><code value="CT"></code><display value="Bosnian"></display></concept><concept><code value="CU"></code><display value="Croatian"></display></concept><concept><code value="CV"></code><display value="Serbian"></display></concept><concept><code value="CW"></code><display value="Other republics which made up the former Yugoslavia"></display></concept><concept><code value="CX"></code><display value="Mixed white"></display></concept><concept><code value="CY"></code><display value="Other white European, European unspecified, European mixed"></display></concept><concept><code value="D"></code><display value="White and Black Caribbean"></display></concept><concept><code value="E"></code><display value="White and Black African"></display></concept><concept><code value="F"></code><display value="White and Asian"></display></concept><concept><code value="G"></code><display value="Any other mixed background"></display></concept><concept><code value="GA"></code><display value="Black and Asian"></display></concept><concept><code value="GB"></code><display value="Black and Chinese"></display></concept><concept><code value="GC"></code><display value="Black and White"></display></concept><concept><code value="GD"></code><display value="Chinese and White"></display></concept><concept><code value="GE"></code><display value="Asian and Chinese"></display></concept><concept><code value="GF"></code><display value="Other Mixed, Mixed Unspecified"></display></concept><concept><code value="H"></code><display value="Indian or British Indian"></display></concept><concept><code value="J"></code><display value="Pakistani or British Pakistani"></display></concept><concept><code value="K"></code><display value="Bangladeshi or British Bangladeshi"></display></concept><concept><code value="L"></code><display value="Any other Asian background"></display></concept><concept><code value="LA"></code><display value="Mixed Asian"></display></concept><concept><code value="LB"></code><display value="Punjabi"></display></concept><concept><code value="LC"></code><display value="Kashmiri"></display></concept><concept><code value="LD"></code><display value="East African Asian"></display></concept><concept><code value="LE"></code><display value="Sri Lanka"></display></concept><concept><code value="LF"></code><display value="Tamil"></display></concept><concept><code value="LG"></code><display value="Sinhalese"></display></concept><concept><code value="LH"></code><display value="British Asian"></display></concept><concept><code value="LJ"></code><display value="Caribbean Asian"></display></concept><concept><code value="LK"></code><display value="Other Asian, Asian unspecified"></display></concept><concept><code value="M"></code><display value="Caribbean"></display></concept><concept><code value="N"></code><display value="African"></display></concept><concept><code value="P"></code><display value="Any other Black background"></display></concept><concept><code value="PA"></code><display value="Somali"></display></concept><concept><code value="PB"></code><display value="Mixed Black"></display></concept><concept><code value="PC"></code><display value="Nigerian"></display></concept><concept><code value="PD"></code><display value="Black British"></display></concept><concept><code value="PE"></code><display value="Other Black, Black unspecified"></display></concept><concept><code value="R"></code><display value="Chinese"></display></concept><concept><code value="S"></code><display value="Any other ethnic group"></display></concept><concept><code value="SA"></code><display value="Vietnamese"></display></concept><concept><code value="SB"></code><display value="Japanese"></display></concept><concept><code value="SC"></code><display value="Filipino"></display></concept><concept><code value="SD"></code><display value="Malaysian"></display></concept><concept><code value="SE"></code><display value="Any Other Group"></display></concept><concept><code value="Z"></code><display value="Not stated"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-EthnicCategory-1"></id>
+   <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+      <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"></valueUri>
+   </extension>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"></url>
+   <version value="1.1.0"></version>
+   <name value="Care Connect Ethnic Category"></name>
+   <status value="draft"></status>
+   <date value="2018-11-02T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."></description>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="A"></code>
+      <display value="British, Mixed British"></display>
+   </concept>
+   <concept>
+      <code value="B"></code>
+      <display value="Irish"></display>
+   </concept>
+   <concept>
+      <code value="C"></code>
+      <display value="Any other White background"></display>
+   </concept>
+   <concept>
+      <code value="C2"></code>
+      <display value="Northern Irish"></display>
+   </concept>
+   <concept>
+      <code value="C3"></code>
+      <display value="Other white, white unspecified"></display>
+   </concept>
+   <concept>
+      <code value="CA"></code>
+      <display value="English"></display>
+   </concept>
+   <concept>
+      <code value="CB"></code>
+      <display value="Scottish"></display>
+   </concept>
+   <concept>
+      <code value="CC"></code>
+      <display value="Welsh"></display>
+   </concept>
+   <concept>
+      <code value="CD"></code>
+      <display value="Cornish"></display>
+   </concept>
+   <concept>
+      <code value="CE"></code>
+      <display value="Cypriot (part not stated)"></display>
+   </concept>
+   <concept>
+      <code value="CF"></code>
+      <display value="Greek"></display>
+   </concept>
+   <concept>
+      <code value="CG"></code>
+      <display value="Greek Cypriot"></display>
+   </concept>
+   <concept>
+      <code value="CH"></code>
+      <display value="Turkish"></display>
+   </concept>
+   <concept>
+      <code value="CJ"></code>
+      <display value="Turkish Cypriot"></display>
+   </concept>
+   <concept>
+      <code value="CK"></code>
+      <display value="Italian"></display>
+   </concept>
+   <concept>
+      <code value="CL"></code>
+      <display value="Irish Traveller"></display>
+   </concept>
+   <concept>
+      <code value="CM"></code>
+      <display value="Traveller"></display>
+   </concept>
+   <concept>
+      <code value="CN"></code>
+      <display value="Gypsy/Romany"></display>
+   </concept>
+   <concept>
+      <code value="CP"></code>
+      <display value="Polish"></display>
+   </concept>
+   <concept>
+      <code value="CQ"></code>
+      <display value="All republics which made up the former USSR"></display>
+   </concept>
+   <concept>
+      <code value="CR"></code>
+      <display value="Kosovan"></display>
+   </concept>
+   <concept>
+      <code value="CS"></code>
+      <display value="Albanian"></display>
+   </concept>
+   <concept>
+      <code value="CT"></code>
+      <display value="Bosnian"></display>
+   </concept>
+   <concept>
+      <code value="CU"></code>
+      <display value="Croatian"></display>
+   </concept>
+   <concept>
+      <code value="CV"></code>
+      <display value="Serbian"></display>
+   </concept>
+   <concept>
+      <code value="CW"></code>
+      <display value="Other republics which made up the former Yugoslavia"></display>
+   </concept>
+   <concept>
+      <code value="CX"></code>
+      <display value="Mixed white"></display>
+   </concept>
+   <concept>
+      <code value="CY"></code>
+      <display value="Other white European, European unspecified, European mixed"></display>
+   </concept>
+   <concept>
+      <code value="D"></code>
+      <display value="White and Black Caribbean"></display>
+   </concept>
+   <concept>
+      <code value="E"></code>
+      <display value="White and Black African"></display>
+   </concept>
+   <concept>
+      <code value="F"></code>
+      <display value="White and Asian"></display>
+   </concept>
+   <concept>
+      <code value="G"></code>
+      <display value="Any other mixed background"></display>
+   </concept>
+   <concept>
+      <code value="GA"></code>
+      <display value="Black and Asian"></display>
+   </concept>
+   <concept>
+      <code value="GB"></code>
+      <display value="Black and Chinese"></display>
+   </concept>
+   <concept>
+      <code value="GC"></code>
+      <display value="Black and White"></display>
+   </concept>
+   <concept>
+      <code value="GD"></code>
+      <display value="Chinese and White"></display>
+   </concept>
+   <concept>
+      <code value="GE"></code>
+      <display value="Asian and Chinese"></display>
+   </concept>
+   <concept>
+      <code value="GF"></code>
+      <display value="Other Mixed, Mixed Unspecified"></display>
+   </concept>
+   <concept>
+      <code value="H"></code>
+      <display value="Indian or British Indian"></display>
+   </concept>
+   <concept>
+      <code value="J"></code>
+      <display value="Pakistani or British Pakistani"></display>
+   </concept>
+   <concept>
+      <code value="K"></code>
+      <display value="Bangladeshi or British Bangladeshi"></display>
+   </concept>
+   <concept>
+      <code value="L"></code>
+      <display value="Any other Asian background"></display>
+   </concept>
+   <concept>
+      <code value="LA"></code>
+      <display value="Mixed Asian"></display>
+   </concept>
+   <concept>
+      <code value="LB"></code>
+      <display value="Punjabi"></display>
+   </concept>
+   <concept>
+      <code value="LC"></code>
+      <display value="Kashmiri"></display>
+   </concept>
+   <concept>
+      <code value="LD"></code>
+      <display value="East African Asian"></display>
+   </concept>
+   <concept>
+      <code value="LE"></code>
+      <display value="Sri Lanka"></display>
+   </concept>
+   <concept>
+      <code value="LF"></code>
+      <display value="Tamil"></display>
+   </concept>
+   <concept>
+      <code value="LG"></code>
+      <display value="Sinhalese"></display>
+   </concept>
+   <concept>
+      <code value="LH"></code>
+      <display value="British Asian"></display>
+   </concept>
+   <concept>
+      <code value="LJ"></code>
+      <display value="Caribbean Asian"></display>
+   </concept>
+   <concept>
+      <code value="LK"></code>
+      <display value="Other Asian, Asian unspecified"></display>
+   </concept>
+   <concept>
+      <code value="M"></code>
+      <display value="Caribbean"></display>
+   </concept>
+   <concept>
+      <code value="N"></code>
+      <display value="African"></display>
+   </concept>
+   <concept>
+      <code value="P"></code>
+      <display value="Any other Black background"></display>
+   </concept>
+   <concept>
+      <code value="PA"></code>
+      <display value="Somali"></display>
+   </concept>
+   <concept>
+      <code value="PB"></code>
+      <display value="Mixed Black"></display>
+   </concept>
+   <concept>
+      <code value="PC"></code>
+      <display value="Nigerian"></display>
+   </concept>
+   <concept>
+      <code value="PD"></code>
+      <display value="Black British"></display>
+   </concept>
+   <concept>
+      <code value="PE"></code>
+      <display value="Other Black, Black unspecified"></display>
+   </concept>
+   <concept>
+      <code value="R"></code>
+      <display value="Chinese"></display>
+   </concept>
+   <concept>
+      <code value="S"></code>
+      <display value="Any other ethnic group"></display>
+   </concept>
+   <concept>
+      <code value="SA"></code>
+      <display value="Vietnamese"></display>
+   </concept>
+   <concept>
+      <code value="SB"></code>
+      <display value="Japanese"></display>
+   </concept>
+   <concept>
+      <code value="SC"></code>
+      <display value="Filipino"></display>
+   </concept>
+   <concept>
+      <code value="SD"></code>
+      <display value="Malaysian"></display>
+   </concept>
+   <concept>
+      <code value="SE"></code>
+      <display value="Any Other Group"></display>
+   </concept>
+   <concept>
+      <code value="Z"></code>
+      <display value="Not stated"></display>
+   </concept>
+</CodeSystem>

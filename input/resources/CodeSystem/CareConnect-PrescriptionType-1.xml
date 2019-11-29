@@ -1,1 +1,29 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-PrescriptionType-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1"></url><version value="1.2.0"></version><name value="Care Connect Prescription Type"></name><status value="draft"></status><date value="2018-11-01T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to identify the type of prescription"></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="acute"></code><display value="Acute"></display></concept><concept><code value="repeat"></code><display value="Repeat"></display></concept><concept><code value="repeat-dispensing"></code><display value="Repeat dispensing"></display></concept><concept><code value="delayed-prescribing"></code><display value="Delayed prescribing"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-PrescriptionType-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1"></url>
+   <version value="1.2.0"></version>
+   <name value="Care Connect Prescription Type"></name>
+   <status value="draft"></status>
+   <date value="2018-11-01T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to identify the type of prescription"></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="acute"></code>
+      <display value="Acute"></display>
+   </concept>
+   <concept>
+      <code value="repeat"></code>
+      <display value="Repeat"></display>
+   </concept>
+   <concept>
+      <code value="repeat-dispensing"></code>
+      <display value="Repeat dispensing"></display>
+   </concept>
+   <concept>
+      <code value="delayed-prescribing"></code>
+      <display value="Delayed prescribing"></display>
+   </concept>
+</CodeSystem>

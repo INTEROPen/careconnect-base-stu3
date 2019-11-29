@@ -1,1 +1,55 @@
-<ValueSet xmlns="http://hl7.org/fhir"><id value="CareConnect-ReactionEventSeverity-1"></id><extension url="http://hl7.org/fhir/StructureDefinition/valueset-map"><valueReference><reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1"></reference></valueReference></extension><extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference"><valueUri value="http://hl7.org/fhir/valueset-reaction-event-severity"></valueUri></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"><valueCode value="pc"></valueCode></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"><valueInteger value="3"></valueInteger></extension><extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status"><valueString value="Informative"></valueString></extension><url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1"></url><identifier><system value="urn:ietf:rfc:3986"></system><value value="urn:oid:2.16.840.1.113883.4.642.3.125"></value></identifier><version value="3.0.1"></version><name value="AllergyIntoleranceSeverity"></name><status value="draft"></status><date value="2017-04-19T07:44:47+10:00"></date><publisher value="HL7 (FHIR Project)"></publisher><contact><telecom><system value="url"></system><value value="http://hl7.org/fhir"></value></telecom></contact><description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."></description><copyright value="Copyright © HL7.org 2011+"></copyright><compose><include><system value="http://hl7.org/fhir/reaction-event-severity"></system><concept><code value="mild"></code><display value="Mild"></display></concept><concept><code value="moderate"></code><display value="Moderate"></display></concept><concept><code value="severe"></code><display value="Severe"></display></concept></include></compose></ValueSet>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ReactionEventSeverity-1"></id>
+   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
+      <valueReference>
+         <reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1"></reference>
+      </valueReference>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+      <valueUri value="http://hl7.org/fhir/valueset-reaction-event-severity"></valueUri>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+      <valueCode value="pc"></valueCode>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+      <valueInteger value="3"></valueInteger>
+   </extension>
+   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status">
+      <valueString value="Informative"></valueString>
+   </extension>
+   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1"></url>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"></system>
+      <value value="urn:oid:2.16.840.1.113883.4.642.3.125"></value>
+   </identifier>
+   <version value="3.0.1"></version>
+   <name value="AllergyIntoleranceSeverity"></name>
+   <status value="draft"></status>
+   <date value="2017-04-19T07:44:47+10:00"></date>
+   <publisher value="HL7 (FHIR Project)"></publisher>
+   <contact>
+      <telecom>
+         <system value="url"></system>
+         <value value="http://hl7.org/fhir"></value>
+      </telecom>
+   </contact>
+   <description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."></description>
+   <copyright value="Copyright © HL7.org 2011+"></copyright>
+   <compose>
+      <include>
+         <system value="http://hl7.org/fhir/reaction-event-severity"></system>
+         <concept>
+            <code value="mild"></code>
+            <display value="Mild"></display>
+         </concept>
+         <concept>
+            <code value="moderate"></code>
+            <display value="Moderate"></display>
+         </concept>
+         <concept>
+            <code value="severe"></code>
+            <display value="Severe"></display>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

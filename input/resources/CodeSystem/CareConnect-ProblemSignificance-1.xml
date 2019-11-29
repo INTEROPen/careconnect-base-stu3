@@ -1,1 +1,21 @@
-<CodeSystem xmlns="http://hl7.org/fhir"><id value="CareConnect-ProblemSignificance-1"></id><url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1"></url><version value="1.0.0"></version><name value="Care Connect Problem Significance"></name><status value="draft"></status><date value="2018-04-16T00:00:00+00:00"></date><publisher value="HL7 UK"></publisher><description value="A CodeSystem to record the significance of a Problem Header Condition."></description><copyright value="Copyright © 2016 HL7 UK"></copyright><caseSensitive value="true"></caseSensitive><content value="complete"></content><concept><code value="major"></code><display value="Major"></display></concept><concept><code value="minor"></code><display value="Minor"></display></concept></CodeSystem>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ProblemSignificance-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Care Connect Problem Significance"></name>
+   <status value="draft"></status>
+   <date value="2018-04-16T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A CodeSystem to record the significance of a Problem Header Condition."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <caseSensitive value="true"></caseSensitive>
+   <content value="complete"></content>
+   <concept>
+      <code value="major"></code>
+      <display value="Major"></display>
+   </concept>
+   <concept>
+      <code value="minor"></code>
+      <display value="Minor"></display>
+   </concept>
+</CodeSystem>
