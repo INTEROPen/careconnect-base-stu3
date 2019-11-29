@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-NHSNumberVerificationStatus-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect NHS Number Verification Status</h2><div><p>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CareConnect-NHSNumberVerificationStatus-1-01\"> </a></td><td>Number present and verified</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CareConnect-NHSNumberVerificationStatus-1-02\"> </a></td><td>Number present but not traced</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CareConnect-NHSNumberVerificationStatus-1-03\"> </a></td><td>Trace required</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CareConnect-NHSNumberVerificationStatus-1-04\"> </a></td><td>Trace attempted - No match or multiple match found</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CareConnect-NHSNumberVerificationStatus-1-05\"> </a></td><td>Trace needs to be resolved - (NHS number or patient detail conflict)</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"CareConnect-NHSNumberVerificationStatus-1-06\"> </a></td><td>Trace in progress</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"CareConnect-NHSNumberVerificationStatus-1-07\"> </a></td><td>Number not present and trace not required</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"CareConnect-NHSNumberVerificationStatus-1-08\"> </a></td><td>Trace postponed (baby under six weeks old)</td><td/></tr></table></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1"
+    }
+  ],
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1",
+  "version": "1.1.0",
+  "name": "Care Connect NHS Number Verification Status",
+  "status": "draft",
+  "date": "2018-11-02T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Number present and verified"
+    },
+    {
+      "code": "02",
+      "display": "Number present but not traced"
+    },
+    {
+      "code": "03",
+      "display": "Trace required"
+    },
+    {
+      "code": "04",
+      "display": "Trace attempted - No match or multiple match found"
+    },
+    {
+      "code": "05",
+      "display": "Trace needs to be resolved - (NHS number or patient detail conflict)"
+    },
+    {
+      "code": "06",
+      "display": "Trace in progress"
+    },
+    {
+      "code": "07",
+      "display": "Number not present and trace not required"
+    },
+    {
+      "code": "08",
+      "display": "Trace postponed (baby under six weeks old)"
+    }
+  ]
+}

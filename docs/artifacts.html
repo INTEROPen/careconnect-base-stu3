@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>CARE-CONNECT-STU3\Artifacts Summary - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Care Connect Implementation Guide</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Care Connect Background<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="background.html">Background</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Specification<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="spec.html">Detailed Specification</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/STU3/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
+      </li>
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+    </ul>
+  </li>
+</ul>      
+
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <div class="itoc">
+      <p>Artifact Packages</p>
+      <p class="link">-
+            <a href="#1">HL7 UK Base</a>
+      </p>
+      <p class="link">-
+            <a href="#2">HL7 UK Level 3</a>
+      </p>
+      <p class="link">-
+            <a href="#3">HL7 UK Base Extensions</a>
+      </p>
+      <p class="link">-
+            <a href="#4">HL7 UK ValueSets</a>
+      </p>
+      <p class="link">-
+            <a href="#5">HL7 UK CodeSystems</a>
+      </p>
+      <p class="link">-
+            <a href="#6">Examples</a>
+      </p>
+   </div>
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>HL7 UK Base </h3>
+   <p>UK Base FHIR Profiles</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-AllergyIntolerance-1.html"
+                     title="StructureDefinition/CareConnect-AllergyIntolerance-1">  •  AllergyIntolerance-1</a>
+               </td>
+               <td>This AllergyIntolerance Resource records Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Appointment-1.html"
+                     title="StructureDefinition/CareConnect-Appointment-1">  •  Appointment-1</a>
+               </td>
+               <td>CareConnect Appointment profile.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-CarePlan-1.html"
+                     title="StructureDefinition/CareConnect-CarePlan-1">  •  CarePlan-1</a>
+               </td>
+               <td>Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Composition-1.html"
+                     title="StructureDefinition/CareConnect-Composition-1">  •  Composition-1</a>
+               </td>
+               <td>A set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Condition-1.html"
+                     title="StructureDefinition/CareConnect-Condition-1">  •  Condition-1</a>
+               </td>
+               <td>This Condition resource records detailed information about conditions or diagnoses recognised by a clinician.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-DiagnosticReport-1.html"
+                     title="StructureDefinition/CareConnect-DiagnosticReport-1">  •  DiagnosticReport-1</a>
+               </td>
+               <td>A test report for National Pathology that contains data on the pathology tests performed on patients specimens populated by the performing organisation. </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-DocumentReference-1.html"
+                     title="StructureDefinition/CareConnect-DocumentReference-1">  •  DocumentReference-1</a>
+               </td>
+               <td>The DocumentReference resource is used to describe a document that is made available to a healthcare system.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Encounter-1.html"
+                     title="StructureDefinition/CareConnect-Encounter-1">  •  Encounter-1</a>
+               </td>
+               <td>The encounter resource represents an encounter between a care professional and the patient (or patient's record).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-FamilyMemberHistory-1.html"
+                     title="StructureDefinition/CareConnect-FamilyMemberHistory-1">  •  FamilyMemberHistory-1</a>
+               </td>
+               <td>Significant health events and conditions for a person related to the patient relevant in the context of care for the patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Flag-1.html"
+                     title="StructureDefinition/CareConnect-Flag-1">  •  Flag-1</a>
+               </td>
+               <td>Prospective warnings of potential issues when providing care to the patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Immunization-1.html"
+                     title="StructureDefinition/CareConnect-Immunization-1">  •  Immunization-1</a>
+               </td>
+               <td>This Immunization Resource describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party, and may include vaccine reaction information and what vaccination protocol was followed.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-List-1.html"
+                     title="StructureDefinition/CareConnect-List-1">  •  List-1</a>
+               </td>
+               <td>The List resource is a flat, possibly ordered collection of records. List resources are used in many places, including allergies, medications, alerts, family history, medical history, etc. List resources can be used to support patient-specific clinical lists as well as lists that manage workflows such as tracking patients, managing teaching cases, etc.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Location-1.html"
+                     title="StructureDefinition/CareConnect-Location-1">  •  Location-1</a>
+               </td>
+               <td>The Location resource provides information and details on the physical location and the services provided.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Medication-1.html"
+                     title="StructureDefinition/CareConnect-Medication-1">  •  Medication-1</a>
+               </td>
+               <td>This Medication Resource is primarily used for the identification and definition of a medication.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationDispense-1.html"
+                     title="StructureDefinition/CareConnect-MedicationDispense-1">  •  MedicationDispense-1</a>
+               </td>
+               <td>Indicates that a medication product is to be or has been dispensed for a named person/patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationRequest-1.html"
+                     title="StructureDefinition/CareConnect-MedicationRequest-1">  •  MedicationRequest-1</a>
+               </td>
+               <td>This MedicationRequest Resource represents an order for both supply of the medication and the instructions for administration of the medication to a patient. </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationStatement-1.html"
+                     title="StructureDefinition/CareConnect-MedicationStatement-1">  •  MedicationStatement-1</a>
+               </td>
+               <td>This MedicationStatement Resource is a record of a medication that is being consumed by a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Observation-1.html"
+                     title="StructureDefinition/CareConnect-Observation-1">  •  Observation-1</a>
+               </td>
+               <td>The Observation resource is used for tracking the current and historical observations that have been made for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Organization-1.html"
+                     title="StructureDefinition/CareConnect-Organization-1">  •  Organization-1</a>
+               </td>
+               <td>The Organization resource represents the organisation that employs the healthcare professional.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Patient-1.html"
+                     title="StructureDefinition/CareConnect-Patient-1">  •  Patient-1</a>
+               </td>
+               <td>The patient resource represents the patient involved in the provision of healthcare related services.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Practitioner-1.html"
+                     title="StructureDefinition/CareConnect-Practitioner-1">  •  Practitioner-1</a>
+               </td>
+               <td>The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-PractitionerRole-1.html"
+                     title="StructureDefinition/CareConnect-PractitionerRole-1">  •  PractitionerRole-1</a>
+               </td>
+               <td>The PractitionerRole resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Procedure-1.html"
+                     title="StructureDefinition/CareConnect-Procedure-1">  •  Procedure-1</a>
+               </td>
+               <td>An action that is or was performed on a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ProcedureRequest-1.html"
+                     title="StructureDefinition/CareConnect-ProcedureRequest-1">  •  ProcedureRequest-1</a>
+               </td>
+               <td>Procedure Request</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ReferralRequest-1.html"
+                     title="StructureDefinition/CareConnect-ReferralRequest-1">  •  ReferralRequest-1</a>
+               </td>
+               <td>Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-RelatedPerson-1.html"
+                     title="StructureDefinition/CareConnect-RelatedPerson-1">  •  RelatedPerson-1</a>
+               </td>
+               <td>Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ResearchStudy-1.html"
+                     title="StructureDefinition/CareConnect-ResearchStudy-1">  •  ResearchStudy-1</a>
+               </td>
+               <td>A process where a researcher or organization plans and then executes a series of steps intended to increase the field of healthcare-related knowledge. </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-RiskAssessment-1.html"
+                     title="StructureDefinition/CareConnect-RiskAssessment-1">  •  RiskAssessment-1</a>
+               </td>
+               <td>An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Slot-1.html"
+                     title="StructureDefinition/CareConnect-Slot-1">  •  Slot-1</a>
+               </td>
+               <td>CareConnectSlot profile.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>HL7 UK Level 3 </h3>
+   <p>UK Level 3 FHIR Profiles</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ACVPU-Observation-1.html"
+                     title="StructureDefinition/CareConnect-ACVPU-Observation-1">  •  ACVPU-Observation-1</a>
+               </td>
+               <td>This profile is used to carry alert, new-onset or worsening confusion, voice, pain, and unresponsiveness observations for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-BloodPressure-Observation-1.html"
+                     title="StructureDefinition/CareConnect-BloodPressure-Observation-1">  •  BloodPressure-Observation-1</a>
+               </td>
+               <td>A Vital Signs profile to carry blood pressure information that contains at least one component for systolic and/or diastolic pressure.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-HeartRate-Observation-1.html"
+                     title="StructureDefinition/CareConnect-HeartRate-Observation-1">  •  HeartRate-Observation-1</a>
+               </td>
+               <td>A Vital Signs profile to carry a patient's heart rate or pulse.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-InspiredOxygen-Observation-1.html"
+                     title="StructureDefinition/CareConnect-InspiredOxygen-Observation-1">  •  InspiredOxygen-Observation-1</a>
+               </td>
+               <td>An Observation resource used to carry observables relating to inspired oxygen for a patient</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Medication-Flag-1.html"
+                     title="StructureDefinition/CareConnect-Medication-Flag-1">  •  Medication-Flag-1</a>
+               </td>
+               <td>This Flag Resource carries prospective warnings of potential issues related to the patient's medications.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-OxygenSaturation-Observation-1.html"
+                     title="StructureDefinition/CareConnect-OxygenSaturation-Observation-1">  •  OxygenSaturation-Observation-1</a>
+               </td>
+               <td>A Vital Signs profile to carry oxygen saturation information.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ProblemHeader-Condition-1.html"
+                     title="StructureDefinition/CareConnect-ProblemHeader-Condition-1">  •  ProblemHeader-Condition-1</a>
+               </td>
+               <td>This Condition resource records detailed information about conditions or diagnoses recognised by a clinician.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-RespiratoryRate-Observation-1.html"
+                     title="StructureDefinition/CareConnect-RespiratoryRate-Observation-1">  •  RespiratoryRate-Observation-1</a>
+               </td>
+               <td>A Vital Signs profile to carry a patient's respiratory rate.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Subscore-Observation-1.html"
+                     title="StructureDefinition/CareConnect-Subscore-Observation-1">  •  Subscore-Observation-1</a>
+               </td>
+               <td>An Observation resource used to carry a subscore calculated for the observation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-VitalSigns-Observation-1.html"
+                     title="StructureDefinition/CareConnect-VitalSigns-Observation-1">  •  VitalSigns-Observation-1</a>
+               </td>
+               <td>A vital signs profile which sets minimum expectations for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>HL7 UK Base Extensions </h3>
+   <p>UK Base FHIR Extensions</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ActualProblem-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ActualProblem-1">  •  ActualProblem-1</a>
+               </td>
+               <td>A reference to a Condition, Observation, FamilyMemberHistory, or AllergyIntolerance that is the actual problem.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-AdmissionMethod-1.html"
+                     title="StructureDefinition/Extension-CareConnect-AdmissionMethod-1">  •  AdmissionMethod-1</a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html"
+                     title="StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1">  •  AllergyIntoleranceEnd-1</a>
+               </td>
+               <td>Supports the date and reason that the allergy was no longer valid.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-AllergySeverity-1.html"
+                     title="StructureDefinition/Extension-CareConnect-AllergySeverity-1">  •  AllergySeverity-1</a>
+               </td>
+               <td>This Extension resource is constrained to support a coded severity of the allergy/intolerance.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-AnaestheticIssues-1.html"
+                     title="StructureDefinition/Extension-CareConnect-AnaestheticIssues-1">  •  AnaestheticIssues-1</a>
+               </td>
+               <td>An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ClinicalSetting-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ClinicalSetting-1">  •  ClinicalSetting-1</a>
+               </td>
+               <td>An extension to record the clinical setting of a problem list.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ConditionEpisode-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ConditionEpisode-1">  •  ConditionEpisode-1</a>
+               </td>
+               <td>The episodicity status of a condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-DateRecorded-1.html"
+                     title="StructureDefinition/Extension-CareConnect-DateRecorded-1">  •  DateRecorded-1</a>
+               </td>
+               <td>This Extension resource is constrained to support the date that an event was recorded on the system.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-DeathNotificationStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1">  •  DeathNotificationStatus-1</a>
+               </td>
+               <td>This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-DischargeMethod-1.html"
+                     title="StructureDefinition/Extension-CareConnect-DischargeMethod-1">  •  DischargeMethod-1</a>
+               </td>
+               <td>An extension to the Encounter resource to record the method of discharge from hospital.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1">  •  EmergencyCareDischargeStatus-1</a>
+               </td>
+               <td>An extension to the Encounter resource which is used indicate the status of the Patient on discharge from an Emergency Care Department.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-EncounterTransport-1.html"
+                     title="StructureDefinition/Extension-CareConnect-EncounterTransport-1">  •  EncounterTransport-1</a>
+               </td>
+               <td>An extension to the Encounter resource to include the Transport used by the subject for an encounter.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-EthnicCategory-1.html"
+                     title="StructureDefinition/Extension-CareConnect-EthnicCategory-1">  •  EthnicCategory-1</a>
+               </td>
+               <td>This extension is constrained to represent the ethnic category for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-Evidence-1.html"
+                     title="StructureDefinition/Extension-CareConnect-Evidence-1">  •  Evidence-1</a>
+               </td>
+               <td>This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-FastingStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-FastingStatus-1">  •  FastingStatus-1</a>
+               </td>
+               <td>This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ListWarningCode-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ListWarningCode-1">  •  ListWarningCode-1</a>
+               </td>
+               <td>This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MainLocation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MainLocation-1">  •  MainLocation-1</a>
+               </td>
+               <td>This extension is constrained to represent a reference to the main location for an organization.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationChangeSummary-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1">  •  MedicationChangeSummary-1</a>
+               </td>
+               <td>Indicates the change information of a medication item.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationFlagAssociation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1">  •  MedicationFlagAssociation-1</a>
+               </td>
+               <td>This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationQuantityText-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationQuantityText-1">  •  MedicationQuantityText-1</a>
+               </td>
+               <td>This Extension resource is constrained to support the textual representation of a medication structured quantity.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationRepeatInformation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1">  •  MedicationRepeatInformation-1</a>
+               </td>
+               <td>Indicates the specific repeat information of a medication item.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1">  •  MedicationStatementLastIssueDate-1</a>
+               </td>
+               <td>Indicates the date a prescription was last issued.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-MedicationStatusReason-1.html"
+                     title="StructureDefinition/Extension-CareConnect-MedicationStatusReason-1">  •  MedicationStatusReason-1</a>
+               </td>
+               <td>To record the reason the medication (plan or order) was stopped and the date this occurred.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-NHSCommunication-1.html"
+                     title="StructureDefinition/Extension-CareConnect-NHSCommunication-1">  •  NHSCommunication-1</a>
+               </td>
+               <td>This extension is constrained to support the communication preferences for a resource in the NHS.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">  •  NHSNumberVerificationStatus-1</a>
+               </td>
+               <td>This extension is constrained to represent the NHS Number Verification Status.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-NominatedPharmacy-1.html"
+                     title="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1">  •  NominatedPharmacy-1</a>
+               </td>
+               <td>This extension is constrained to represent a patient's nominated pharmacy.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-OutcomeOfAttendance-1.html"
+                     title="StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1">  •  OutcomeOfAttendance-1</a>
+               </td>
+               <td>An extension to the Encounter resource to record the outcome of an Out-Patient attendance.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ParentPresent-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ParentPresent-1">  •  ParentPresent-1</a>
+               </td>
+               <td>This Extension resource is constrained to indicate whether a parent was present at the Immunization.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-PrescribedElsewhere-1.html"
+                     title="StructureDefinition/Extension-CareConnect-PrescribedElsewhere-1">  •  PrescribedElsewhere-1</a>
+               </td>
+               <td>An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as "self-prescribed".</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-PrescriptionType-1.html"
+                     title="StructureDefinition/Extension-CareConnect-PrescriptionType-1">  •  PrescriptionType-1</a>
+               </td>
+               <td>To record the type of prescription.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1">  •  ProbabilityOfRecurrence-1</a>
+               </td>
+               <td>This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ReasonCondition-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ReasonCondition-1">  •  ReasonCondition-1</a>
+               </td>
+               <td>The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-RegistrationDetails-1.html"
+                     title="StructureDefinition/Extension-CareConnect-RegistrationDetails-1">  •  RegistrationDetails-1</a>
+               </td>
+               <td>This extension is constrained to represent the additional registration information for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-RelatedClinicalContent-1.html"
+                     title="StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1">  •  RelatedClinicalContent-1</a>
+               </td>
+               <td>An Extension to support a reference to any resource that provides related clinical content to the Condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-RelatedProblemHeader-1.html"
+                     title="StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1">  •  RelatedProblemHeader-1</a>
+               </td>
+               <td>A reference to another related problem header condition (target) whose relationship is defined by the relationship type code.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ReligiousAffiliation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1">  •  ReligiousAffiliation-1</a>
+               </td>
+               <td>This extension is constrained to represent the religious affiliation for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ResidentialStatus-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ResidentialStatus-1">  •  ResidentialStatus-1</a>
+               </td>
+               <td>This extension is constrained to represent the residential status for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-SourceOfReferral-1.html"
+                     title="StructureDefinition/Extension-CareConnect-SourceOfReferral-1">  •  SourceOfReferral-1</a>
+               </td>
+               <td>This extension is constrained to represent the source of the referral of a Referral Request</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-TreatmentCategory-1.html"
+                     title="StructureDefinition/Extension-CareConnect-TreatmentCategory-1">  •  TreatmentCategory-1</a>
+               </td>
+               <td>This extension is constrained to represent the treatment category for a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-VaccinationProcedure-1.html"
+                     title="StructureDefinition/Extension-CareConnect-VaccinationProcedure-1">  •  VaccinationProcedure-1</a>
+               </td>
+               <td>An extension to hold an immunization procedure code.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-CareConnect-ValueApproximation-1.html"
+                     title="StructureDefinition/Extension-CareConnect-ValueApproximation-1">  •  ValueApproximation-1</a>
+               </td>
+               <td>An code to indicate that a given value is only an approximation.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>HL7 UK ValueSets </h3>
+   <p>UK FHIR ValueSets</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ACVPU-1.html"
+                     title="ValueSet/CareConnect-ACVPU-1">  •  ACVPU-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AdministrativeGender-1.html"
+                     title="ValueSet/CareConnect-AdministrativeGender-1">  •  AdministrativeGender-1</a>
+               </td>
+               <td>The gender of a person used for administrative purposes.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergyCertainty-1.html"
+                     title="ValueSet/CareConnect-AllergyCertainty-1">  •  AllergyCertainty-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergyCode-1.html"
+                     title="ValueSet/CareConnect-AllergyCode-1">  •  AllergyCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergyExposureRoute-1.html"
+                     title="ValueSet/CareConnect-AllergyExposureRoute-1">  •  AllergyExposureRoute-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergyManifestation-1.html"
+                     title="ValueSet/CareConnect-AllergyManifestation-1">  •  AllergyManifestation-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergyVerificationStatus-1.html"
+                     title="ValueSet/CareConnect-AllergyVerificationStatus-1">  •  AllergyVerificationStatus-1</a>
+               </td>
+               <td>Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-BodySite-1.html"
+                     title="ValueSet/CareConnect-BodySite-1">  •  BodySite-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (<<442083009 |anatomical or acquired body structure|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-CareSettingType-1.html"
+                     title="ValueSet/CareConnect-CareSettingType-1">  •  CareSettingType-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ClinicalDisciplines-1.html"
+                     title="ValueSet/CareConnect-ClinicalDisciplines-1">  •  ClinicalDisciplines-1</a>
+               </td>
+               <td>A ValueSet to identify the clincial discipline of the care professional or team.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-CompositionSectionCode-1.html"
+                     title="ValueSet/CareConnect-CompositionSectionCode-1">  •  CompositionSectionCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ConditionCategory-1.html"
+                     title="ValueSet/CareConnect-ConditionCategory-1">  •  ConditionCategory-1</a>
+               </td>
+               <td>A ValueSet to identify the category of a condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ConditionCode-1.html"
+                     title="ValueSet/CareConnect-ConditionCode-1">  •  ConditionCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ConditionEpisodeSnCT-1.html"
+                     title="ValueSet/CareConnect-ConditionEpisodeSnCT-1">  •  ConditionEpisodeSnCT-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ConditionEpisodicity-1.html"
+                     title="ValueSet/CareConnect-ConditionEpisodicity-1">  •  ConditionEpisodicity-1</a>
+               </td>
+               <td>A ValueSet to identify the episodicity of a condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ConditionRelationship-1.html"
+                     title="ValueSet/CareConnect-ConditionRelationship-1">  •  ConditionRelationship-1</a>
+               </td>
+               <td>A ValueSet that identifies the kind of relationship that exists with a target condition or problem..</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-DischargeDestination-1.html"
+                     title="ValueSet/CareConnect-DischargeDestination-1">  •  DischargeDestination-1</a>
+               </td>
+               <td>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-DocumentType-1.html"
+                     title="ValueSet/CareConnect-DocumentType-1">  •  DocumentType-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-EncounterType-1.html"
+                     title="ValueSet/CareConnect-EncounterType-1">  •  EncounterType-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-FindingCode-1.html"
+                     title="ValueSet/CareConnect-FindingCode-1">  •  FindingCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system to record a finding code.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-HumanLanguage-1.html"
+                     title="ValueSet/CareConnect-HumanLanguage-1">  •  HumanLanguage-1</a>
+               </td>
+               <td>A ValueSet that identifies the language used by a person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ImmunizationExplanationReason-1.html"
+                     title="ValueSet/CareConnect-ImmunizationExplanationReason-1">  •  ImmunizationExplanationReason-1</a>
+               </td>
+               <td>A code to record the reason why a vaccine was administered.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ImmunizationExplanationReason-2.html"
+                     title="ValueSet/CareConnect-ImmunizationExplanationReason-2">  •  ImmunizationExplanationReason-2</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-InspiredOxygen-1.html"
+                     title="ValueSet/CareConnect-InspiredOxygen-1">  •  InspiredOxygen-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient requires oxygen or is breathing room air.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-InterpretationCode-1.html"
+                     title="ValueSet/CareConnect-InterpretationCode-1">  •  InterpretationCode-1</a>
+               </td>
+               <td>This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-LanguageAbilityMode-1.html"
+                     title="ValueSet/CareConnect-LanguageAbilityMode-1">  •  LanguageAbilityMode-1</a>
+               </td>
+               <td>A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-LanguageAbilityProficiency-1.html"
+                     title="ValueSet/CareConnect-LanguageAbilityProficiency-1">  •  LanguageAbilityProficiency-1</a>
+               </td>
+               <td>A ValueSet to identify the level of proficiency in communicating a language.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ListCode-1.html"
+                     title="ValueSet/CareConnect-ListCode-1">  •  ListCode-1</a>
+               </td>
+               <td>A ValueSet to identify the purpose of a list.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ListEmptyReasonCode-1.html"
+                     title="ValueSet/CareConnect-ListEmptyReasonCode-1">  •  ListEmptyReasonCode-1</a>
+               </td>
+               <td>A ValueSet to identify the reason a list may be empty.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ManufacturedMaterialSnCT-1.html"
+                     title="ValueSet/CareConnect-ManufacturedMaterialSnCT-1">  •  ManufacturedMaterialSnCT-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes a manufactured material (e.g. a pharmaceutical product or personal medical device). These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'Manufactured Material' subset with subset original id 1391000000139; the corresponding SNOMED CT UK Refset fully specified name is 'Manufactured material simple reference set (foundation metadata concept)' with Refset Id 999000031000001105.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MaritalStatus-1.html"
+                     title="ValueSet/CareConnect-MaritalStatus-1">  •  MaritalStatus-1</a>
+               </td>
+               <td>This value set defines the set of codes that can be used to indicate the marital status of a person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationChangeStatus-1.html"
+                     title="ValueSet/CareConnect-MedicationChangeStatus-1">  •  MedicationChangeStatus-1</a>
+               </td>
+               <td>A ValueSet to identify the change status of a medication.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationCode-1.html"
+                     title="ValueSet/CareConnect-MedicationCode-1">  •  MedicationCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system with the expression (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|). </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationDosageRoute-1.html"
+                     title="ValueSet/CareConnect-MedicationDosageRoute-1">  •  MedicationDosageRoute-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationFlag-1.html"
+                     title="ValueSet/CareConnect-MedicationFlag-1">  •  MedicationFlag-1</a>
+               </td>
+               <td>A ValueSet to identify detail codes for flagged medication issues.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationForm-1.html"
+                     title="ValueSet/CareConnect-MedicationForm-1">  •  MedicationForm-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-MedicationSupplyType-1.html"
+                     title="ValueSet/CareConnect-MedicationSupplyType-1">  •  MedicationSupplyType-1</a>
+               </td>
+               <td>A ValueSet to identify the type of medication supply.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+                     title="ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1">  •  NHSDataDictionary-PersonMaritalStatus-1</a>
+               </td>
+               <td>An indicator to identify the legal marital status of a Person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"
+                     title="ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1">  •  NHSDataDictionary-PersonStatedGender-1</a>
+               </td>
+               <td>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-NameUse-1.html"
+                     title="ValueSet/CareConnect-NameUse-1">  •  NameUse-1</a>
+               </td>
+               <td>The use of a human name</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ObservationMethod-1.html"
+                     title="ValueSet/CareConnect-ObservationMethod-1">  •  ObservationMethod-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (<<386053000 | Evaluation procedure|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ObservationType-1.html"
+                     title="ValueSet/CareConnect-ObservationType-1">  •  ObservationType-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (<<363787002 | Observable entity|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-PDS-PersonNameType-1.html"
+                     title="ValueSet/CareConnect-PDS-PersonNameType-1">  •  PDS-PersonNameType-1</a>
+               </td>
+               <td>A code to identify the type of a name of a Person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ProblemSignificance-1.html"
+                     title="ValueSet/CareConnect-ProblemSignificance-1">  •  ProblemSignificance-1</a>
+               </td>
+               <td>A code to record the significance of a Problem Header Condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ProcedureCode-1.html"
+                     title="ValueSet/CareConnect-ProcedureCode-1">  •  ProcedureCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ReactionEventSeverity-1.html"
+                     title="ValueSet/CareConnect-ReactionEventSeverity-1">  •  ReactionEventSeverity-1</a>
+               </td>
+               <td>Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ReasonImmunizationNotAdministered-1.html"
+                     title="ValueSet/CareConnect-ReasonImmunizationNotAdministered-1">  •  ReasonImmunizationNotAdministered-1</a>
+               </td>
+               <td>A ValueSet to identify the reason why an immunization was not administered.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ReferralRequestMethod-1.html"
+                     title="ValueSet/CareConnect-ReferralRequestMethod-1">  •  ReferralRequestMethod-1</a>
+               </td>
+               <td>A ValueSet to identify the form in which a referral is sent and received.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-RegistrationStatus-1.html"
+                     title="ValueSet/CareConnect-RegistrationStatus-1">  •  RegistrationStatus-1</a>
+               </td>
+               <td>A ValueSet that identifies the status of registration for a patient at the healthcare organisation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-RegistrationType-1.html"
+                     title="ValueSet/CareConnect-RegistrationType-1">  •  RegistrationType-1</a>
+               </td>
+               <td>A ValueSet that identifies the type of registration for a patient at a healthcare organisation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ReportCodeSnCT-1.html"
+                     title="ValueSet/CareConnect-ReportCodeSnCT-1">  •  ReportCodeSnCT-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes a diagnotic report</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SDSJobRoleName-1.html"
+                     title="ValueSet/CareConnect-SDSJobRoleName-1">  •  SDSJobRoleName-1</a>
+               </td>
+               <td>A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SaturatedOxygenSp02Scale-1.html"
+                     title="ValueSet/CareConnect-SaturatedOxygenSp02Scale-1">  •  SaturatedOxygenSp02Scale-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SourceOfAdmission-1.html"
+                     title="ValueSet/CareConnect-SourceOfAdmission-1">  •  SourceOfAdmission-1</a>
+               </td>
+               <td>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SpecimenBodySite-1.html"
+                     title="ValueSet/CareConnect-SpecimenBodySite-1">  •  SpecimenBodySite-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system to record a specimen body site.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SpecimenType-1.html"
+                     title="ValueSet/CareConnect-SpecimenType-1">  •  SpecimenType-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system to record a specimen type.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-VaccineCode-1.html"
+                     title="ValueSet/CareConnect-VaccineCode-1">  •  VaccineCode-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AdmissionMethod-1.html"
+                     title="ValueSet/CareConnect-AdmissionMethod-1">  •  vs-AdmissionMethod-1</a>
+               </td>
+               <td>The method of admission to a Hospital Provider Spell.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-AllergySeverity-1.html"
+                     title="ValueSet/CareConnect-AllergySeverity-1">  •  vs-AllergySeverity-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-DeathNotificationStatus-1.html"
+                     title="ValueSet/CareConnect-DeathNotificationStatus-1">  •  vs-DeathNotificationStatus-1</a>
+               </td>
+               <td>A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-DischargeMethod-1.html"
+                     title="ValueSet/CareConnect-DischargeMethod-1">  •  vs-DischargeMethod-1</a>
+               </td>
+               <td>The method of discharge from a Hospital Provider Spell.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-EmergencyCareDischargeStatus-1.html"
+                     title="ValueSet/CareConnect-EmergencyCareDischargeStatus-1">  •  vs-EmergencyCareDischargeStatus-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-EthnicCategory-1.html"
+                     title="ValueSet/CareConnect-EthnicCategory-1">  •  vs-EthnicCategory-1</a>
+               </td>
+               <td>A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ListWarningCode-1.html"
+                     title="ValueSet/CareConnect-ListWarningCode-1">  •  vs-ListWarningCode-1</a>
+               </td>
+               <td>A ValueSet to identify the reason a list may be incomplete.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-NHSNumberVerificationStatus-1.html"
+                     title="ValueSet/CareConnect-NHSNumberVerificationStatus-1">  •  vs-NHSNumberVerificationStatus-1</a>
+               </td>
+               <td>A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-OutcomeOfAttendance-1.html"
+                     title="ValueSet/CareConnect-OutcomeOfAttendance-1">  •  vs-OutcomeOfAttendance-1</a>
+               </td>
+               <td>This records the outcome of an Out-Patient Attendance Consultant.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-PrescribedElsewhere-1.html"
+                     title="ValueSet/CareConnect-PrescribedElsewhere-1">  •  vs-PrescribedElsewhere-1</a>
+               </td>
+               <td>A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-PrescriptionType-1.html"
+                     title="ValueSet/CareConnect-PrescriptionType-1">  •  vs-PrescriptionType-1</a>
+               </td>
+               <td>A ValueSet to identify the type of prescription.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ReligiousAffiliation-1.html"
+                     title="ValueSet/CareConnect-ReligiousAffiliation-1">  •  vs-ReligiousAffiliation-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-ResidentialStatus-1.html"
+                     title="ValueSet/CareConnect-ResidentialStatus-1">  •  vs-ResidentialStatus-1</a>
+               </td>
+               <td>A ValueSet that identifies the residential status of a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-SourceOfReferral-1.html"
+                     title="ValueSet/CareConnect-SourceOfReferral-1">  •  vs-SourceOfReferral-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system that describes the source of the referral.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-TreatmentCategory-1.html"
+                     title="ValueSet/CareConnect-TreatmentCategory-1">  •  vs-TreatmentCategory-1</a>
+               </td>
+               <td>A ValueSet that identifies the treatment category for this patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="valueset-CareConnect-VaccinationProcedure-1.html"
+                     title="ValueSet/CareConnect-VaccinationProcedure-1">  •  vs-VaccinationProcedure-1</a>
+               </td>
+               <td>A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>HL7 UK CodeSystems </h3>
+   <p>UK FHIR CodesSystems</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-AdmissionMethod-1.html"
+                     title="CodeSystem/CareConnect-AdmissionMethod-1">  •  cs-AdmissionMethod-1</a>
+               </td>
+               <td>The method of admission to a Hospital Provider Spell.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ConditionCategory-1.html"
+                     title="CodeSystem/CareConnect-ConditionCategory-1">  •  cs-ConditionCategory-1</a>
+               </td>
+               <td>A CodeSystem to identify the category of a condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ConditionEpisodicity-1.html"
+                     title="CodeSystem/CareConnect-ConditionEpisodicity-1">  •  cs-ConditionEpisodicity-1</a>
+               </td>
+               <td>A CodeSystem to identify the episodicity of a condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ConditionRelationship-1.html"
+                     title="CodeSystem/CareConnect-ConditionRelationship-1">  •  cs-ConditionRelationship-1</a>
+               </td>
+               <td>A CodeSystem that identifies the kind of relationship that exists with a target condition or problem.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-DeathNotificationStatus-1.html"
+                     title="CodeSystem/CareConnect-DeathNotificationStatus-1">  •  cs-DeathNotificationStatus-1</a>
+               </td>
+               <td>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-DischargeDestination-1.html"
+                     title="CodeSystem/CareConnect-DischargeDestination-1">  •  cs-DischargeDestination-1</a>
+               </td>
+               <td>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-DischargeMethod-1.html"
+                     title="CodeSystem/CareConnect-DischargeMethod-1">  •  cs-DischargeMethod-1</a>
+               </td>
+               <td>The method of discharge from a Hospital Provider Spell.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-EthnicCategory-1.html"
+                     title="CodeSystem/CareConnect-EthnicCategory-1">  •  cs-EthnicCategory-1</a>
+               </td>
+               <td>A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-HumanLanguage-1.html"
+                     title="CodeSystem/CareConnect-HumanLanguage-1">  •  cs-HumanLanguage-1</a>
+               </td>
+               <td>A CodeSystem that identifies the language used by a person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ImmunizationExplanationReason-1.html"
+                     title="CodeSystem/CareConnect-ImmunizationExplanationReason-1">  •  cs-ImmunizationExplanationReason-1</a>
+               </td>
+               <td>A CodeSystem that identifies a code to record the reason why a vaccine was administered.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-InterpretationCode-1.html"
+                     title="CodeSystem/CareConnect-InterpretationCode-1">  •  cs-InterpretationCode-1</a>
+               </td>
+               <td>This value set defines the set of codes that can be used to indicate the meaning/use of a reference range.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-LanguageAbilityMode-1.html"
+                     title="CodeSystem/CareConnect-LanguageAbilityMode-1">  •  cs-LanguageAbilityMode-1</a>
+               </td>
+               <td>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-LanguageAbilityProficiency-1.html"
+                     title="CodeSystem/CareConnect-LanguageAbilityProficiency-1">  •  cs-LanguageAbilityProficiency-1</a>
+               </td>
+               <td>A CodeSystem to identify the level of proficiency in communicating a language.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ListEmptyReasonCode-1.html"
+                     title="CodeSystem/CareConnect-ListEmptyReasonCode-1">  •  cs-ListEmptyReasonCode-1</a>
+               </td>
+               <td>A CodeSystem to identify the reason a list may be empty.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ListWarningCode-1.html"
+                     title="CodeSystem/CareConnect-ListWarningCode-1">  •  cs-ListWarningCode-1</a>
+               </td>
+               <td>A CodeSystem to identify the reason a list may be incomplete.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationChangeStatus-1.html"
+                     title="CodeSystem/CareConnect-MedicationChangeStatus-1">  •  cs-MedicationChangeStatus-1</a>
+               </td>
+               <td>A CodeSystem to identify the change status of a medication.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationFlag-1.html"
+                     title="CodeSystem/CareConnect-MedicationFlag-1">  •  cs-MedicationFlag-1</a>
+               </td>
+               <td>A CodeSystem to identify detail codes for flagged medication issues.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MedicationSupplyType-1.html"
+                     title="CodeSystem/CareConnect-MedicationSupplyType-1">  •  cs-MedicationSupplyType-1</a>
+               </td>
+               <td>A CodeSystem to identify the type of medication supply.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"
+                     title="CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1">  •  cs-NHSDataDictionary-PersonMaritalStatus-1</a>
+               </td>
+               <td>An indicator to identify the legal marital status of a Person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-NHSDataDictionary-PersonStatedGender-1.html"
+                     title="CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1">  •  cs-NHSDataDictionary-PersonStatedGender-1</a>
+               </td>
+               <td>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-NHSNumberVerificationStatus-1.html"
+                     title="CodeSystem/CareConnect-NHSNumberVerificationStatus-1">  •  cs-NHSNumberVerificationStatus-1</a>
+               </td>
+               <td>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-OutcomeOfAttendance-1.html"
+                     title="CodeSystem/CareConnect-OutcomeOfAttendance-1">  •  cs-OutcomeOfAttendance-1</a>
+               </td>
+               <td>This records the outcome of an Out-Patient Attendance Consultant.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-PDS-PersonNameType-1.html"
+                     title="CodeSystem/CareConnect-PDS-PersonNameType-1">  •  cs-PDS-PersonNameType-1</a>
+               </td>
+               <td>A code to identify the type of a name of a Person.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-PrescribedElsewhere-1.html"
+                     title="CodeSystem/CareConnect-PrescribedElsewhere-1">  •  cs-PrescribedElsewhere-1</a>
+               </td>
+               <td>A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-PrescriptionType-1.html"
+                     title="CodeSystem/CareConnect-PrescriptionType-1">  •  cs-PrescriptionType-1</a>
+               </td>
+               <td>A CodeSystem to identify the type of prescription</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ProblemSignificance-1.html"
+                     title="CodeSystem/CareConnect-ProblemSignificance-1">  •  cs-ProblemSignificance-1</a>
+               </td>
+               <td>A CodeSystem to record the significance of a Problem Header Condition.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ReferralRequestMethod-1.html"
+                     title="CodeSystem/CareConnect-ReferralRequestMethod-1">  •  cs-ReferralRequestMethod-1</a>
+               </td>
+               <td>A CodeSystem to identify the form in which a referral is sent and received.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-RegistrationStatus-1.html"
+                     title="CodeSystem/CareConnect-RegistrationStatus-1">  •  cs-RegistrationStatus-1</a>
+               </td>
+               <td>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-RegistrationType-1.html"
+                     title="CodeSystem/CareConnect-RegistrationType-1">  •  cs-RegistrationType-1</a>
+               </td>
+               <td>A CodeSystem that identifies the type of registration for a patient at a healthcare organisation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-ResidentialStatus-1.html"
+                     title="CodeSystem/CareConnect-ResidentialStatus-1">  •  cs-ResidentialStatus-1</a>
+               </td>
+               <td>A CodeSystem that identifies the residential status of a patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-SDSJobRoleName-1.html"
+                     title="CodeSystem/CareConnect-SDSJobRoleName-1">  •  cs-SDSJobRoleName-1</a>
+               </td>
+               <td>A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-SourceOfAdmission-1.html"
+                     title="CodeSystem/CareConnect-SourceOfAdmission-1">  •  cs-SourceOfAdmission-1</a>
+               </td>
+               <td>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-TreatmentCategory-1.html"
+                     title="CodeSystem/CareConnect-TreatmentCategory-1">  •  cs-TreatmentCategory-1</a>
+               </td>
+               <td>A CodeSystem that identifies the treatment category for this patient.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
+   <h3>Examples </h3>
+   <p>Example UK Resources</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="patient-1.html" title="Patient/patient-1">  •  Patient example</a>
+               </td>
+               <td>Level 2 Example</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="9084.html" title="Observation/9084">  •  Observation example</a>
+               </td>
+               <td>Level 3 Example</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="4.html" title="Practitioner/4">  •  Practitioner example</a>
+               </td>
+               <td>Level 3 Example</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="2.html" title="Organization/2">  •  Organization example</a>
+               </td>
+               <td>Level 3 Example</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="3.html" title="Organization/3">  •  Organization example</a>
+               </td>
+               <td>Level 3 Example</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Nov 29, 2019 17:03+0000">2019-11-29</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

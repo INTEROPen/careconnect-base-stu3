@@ -1,0 +1,60 @@
+{
+  "resourceType": "Observation",
+  "id": "9084",
+  "meta": {
+    "lastUpdated": "2018-09-14T08:44:09.570+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: 9084</p><p><b>meta</b>: </p><p><b>identifier</b>: CD20170922173803</p><p><b>status</b>: final</p><p><b>category</b>: Cardiovascular observable <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs', given as 'Vital Signs'})</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '364075005' = 'Heart rate', given as 'Heart rate'})</span></p><p><b>subject</b>: <a href=\"Patient/1\">Ms Bernie Kanfeld</a></p><p><b>effective</b>: 22 Sep 2017, 18:38:03</p><p><b>performer</b>: <a href=\"Patient/1\">Ms Bernie Kanfeld</a></p><p><b>value</b>: 98.00 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.health.phr.example.com/Id/observation",
+      "value": "CD20170922173803"
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ],
+      "text": "Cardiovascular observable"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "364075005",
+        "display": "Heart rate"
+      }
+    ],
+    "text": "Heart rate"
+  },
+  "subject": {
+    "reference": "Patient/1",
+    "display": "Ms Bernie Kanfeld"
+  },
+  "effectiveDateTime": "2017-09-22T17:38:03+00:00",
+  "performer": [
+    {
+      "reference": "Patient/1",
+      "display": "Ms Bernie Kanfeld"
+    }
+  ],
+  "valueQuantity": {
+    "value": 98.00,
+    "unit": "/min",
+    "system": "http://unitsofmeasure.org",
+    "code": "/min"
+  }
+}

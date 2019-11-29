@@ -1,0 +1,101 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+	<p>
+        This profile defines a patient administration details structure that includes core localisation concepts for use in a UK context.
+    </p>
+    <h4 id="identifiers">Identifiers</h4>
+    <p>These definitions represent common data held in the Patient.identifier element:</p>
+    <ul>
+        <li>NHS Number - England and Wales</li>
+        <li>CHI Number - Scotland. Not yet specified</li>
+        <li>HSNi - Northern Ireland. Not yet specified</li>
+    </ul>
+    <p><strong>Examples</strong></p>
+
+    <p><a href="patient-1.html">Patient with NHS Number and NHS Trust Identifier</a></p>
+
+    <h2>Search Parameters (Recommended)</h2>
+
+    <p>This implementation guide outlines some suggested search parameters for the Patient resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Patient resource
+    </p>
+    <table style="min-width:100%;width:100%">
+        <tr id="clinical">
+            <th style="width:15%;">Name</th>
+            <th style="width:10%;">Type</th>
+            <th style="width:40%;">Description</th>
+            <th style="width:5%;">Conformance</th>
+            <th style="width:30%;">Path</th>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">address-postalcode</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A postalCode specified in an address</td>
+            <td>MAY</td>
+            <td>Patient.address.postalCode </td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">birthdate</code></td>
+            <td><code class="highlighter-rouge">date</code></td>
+            <td>The patient's date of birth</td>
+            <td>SHALL</td>
+            <td>Patient.birthDate</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">email</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>A value in an email contact</td>
+            <td>MAY</td>
+            <td>Patient.telecom (system=email)</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">family</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A portion of the family name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name.family</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">gender</code></td>
+            <td><code class="highlighter-rouge">token </code></td>
+            <td>Gender of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.gender</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">given</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A portion of the given name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name.given</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">identifier</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>A patient identifier (NHS Number, Hospital Number, etc)</td>
+            <td>SHALL</td>
+            <td>Patient.identifier</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">name </code></td>
+            <td><code class="highlighter-rouge">string </code></td>
+            <td>A portion of either family or given name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">phone </code></td>
+            <td><code class="highlighter-rouge">token </code></td>
+            <td>A value in a phone contact</td>
+            <td>MAY</td>
+            <td>Patient.telecom(system=phone)</td>
+        </tr>
+    </table>
+
+    <p>Client systems SHALL provide at least two parameters of differing types, unless searching on identifier where one parameter is permitted. Systems SHALL support the following search combinations:</p>
+
+    <ul>
+        <li>name + gender</li>
+        <li>name + birthdate</li>
+        <li>family + gender</li>
+        <li>given + gender</li>
+    </ul>
+</div>

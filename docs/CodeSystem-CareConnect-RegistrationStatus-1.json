@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-RegistrationStatus-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Registration Status</h2><div><p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"CareConnect-RegistrationStatus-1-A\"> </a></td><td>Active</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"CareConnect-RegistrationStatus-1-D\"> </a></td><td>Deduction Pending</td><td/></tr><tr><td style=\"white-space:nowrap\">I<a name=\"CareConnect-RegistrationStatus-1-I\"> </a></td><td>Inactive</td><td/></tr><tr><td style=\"white-space:nowrap\">R<a name=\"CareConnect-RegistrationStatus-1-R\"> </a></td><td>Registration Pending</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1",
+  "version": "1.0.0",
+  "name": "Care Connect Registration Status",
+  "status": "draft",
+  "date": "2017-08-01T01:00:00+01:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "A",
+      "display": "Active"
+    },
+    {
+      "code": "D",
+      "display": "Deduction Pending"
+    },
+    {
+      "code": "I",
+      "display": "Inactive"
+    },
+    {
+      "code": "R",
+      "display": "Registration Pending"
+    }
+  ]
+}

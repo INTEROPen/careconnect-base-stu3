@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-MedicationSupplyType-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Medication Supply Type</h2><div><p>A CodeSystem to identify the type of medication supply.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">over-the-counter<a name="CareConnect-MedicationSupplyType-1-over-the-counter"> </a></td><td>Over the counter</td><td/></tr><tr><td style="white-space:nowrap">emergency-supply<a name="CareConnect-MedicationSupplyType-1-emergency-supply"> </a></td><td>Emergency supply</td><td/></tr><tr><td style="white-space:nowrap">patient-group-direction<a name="CareConnect-MedicationSupplyType-1-patient-group-direction"> </a></td><td>Patient group direction</td><td/></tr><tr><td style="white-space:nowrap">minor-ailments-scheme<a name="CareConnect-MedicationSupplyType-1-minor-ailments-scheme"> </a></td><td>Minor ailments scheme</td><td/></tr><tr><td style="white-space:nowrap">prescription-dispensing<a name="CareConnect-MedicationSupplyType-1-prescription-dispensing"> </a></td><td>Prescription dispensing</td><td/></tr><tr><td style="white-space:nowrap">private-prescription-dispensing<a name="CareConnect-MedicationSupplyType-1-private-prescription-dispensing"> </a></td><td>Private prescription dispensing</td><td/></tr><tr><td style="white-space:nowrap">self-declared<a name="CareConnect-MedicationSupplyType-1-self-declared"> </a></td><td>Self declared</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1"/>
+  <version value="1.0.0"/>
+  <name value="Care Connect Medication Supply Type"/>
+  <status value="draft"/>
+  <date value="2018-07-11T01:00:00+01:00"/>
+  <publisher value="HL7 West Riding - Example"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the type of medication supply."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="over-the-counter"/>
+    <display value="Over the counter"/>
+  </concept>
+  <concept>
+    <code value="emergency-supply"/>
+    <display value="Emergency supply"/>
+  </concept>
+  <concept>
+    <code value="patient-group-direction"/>
+    <display value="Patient group direction"/>
+  </concept>
+  <concept>
+    <code value="minor-ailments-scheme"/>
+    <display value="Minor ailments scheme"/>
+  </concept>
+  <concept>
+    <code value="prescription-dispensing"/>
+    <display value="Prescription dispensing"/>
+  </concept>
+  <concept>
+    <code value="private-prescription-dispensing"/>
+    <display value="Private prescription dispensing"/>
+  </concept>
+  <concept>
+    <code value="self-declared"/>
+    <display value="Self declared"/>
+  </concept>
+</CodeSystem>

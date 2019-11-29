@@ -1,0 +1,42 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+    <p>
+        This profile defines a practitioner administration details structure that includes core localisation concepts for use in a UK context.
+    </p>
+    <h4 id="identifiers">Identifiers</h4>
+    <p>These definitions represent common data held in the Practitioner.identifier element:</p>
+    <ul>
+        <li>GMC Number</li>
+        <li>GMP Number</li>
+        <li>SDS ID - England. For spine connected systems</li>
+    </ul>
+    <p><strong>Examples</strong></p>
+    <p><a href="4.html">GP with GMC Code Identifier</a></p>
+
+    <h2>Search Parameters (Recommended)</h2>
+    <p>This implementation guide outlines some suggested search parameters for the Practitioner resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Practitioner resource
+    </p>
+    <table style="min-width:100%;width:100%">
+        <tr id="clinical">
+            <th style="width:15%;">Name</th>
+            <th style="width:10%;">Type</th>
+            <th style="width:40%;">Description</th>
+            <th style="width:5%;">Conformance</th>
+            <th style="width:30%;">Path</th>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">adddress-postcode</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A postalCode specified in an address</td>
+            <td>MAY</td>
+            <td>Practitioner.address.postalCode</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">identifier</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>Any identifier for the practitioner (e.g. GMP/GMC code)</td>
+            <td>MAY</td>
+            <td>Practitioner.identifier</td>
+        </tr>
+    </table>
+</div>
+

@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-InterpretationCode-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CareConnect Interpretation Code</h2><div><p>This value set defines the set of codes that can be used to indicate the meaning/use of a reference range.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2018 NHS Digital</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-InterpretationCode-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">OR<a name=\"CareConnect-InterpretationCode-1-OR\"> </a></td><td>Outside Reference Range</td><td/></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"CareConnect-InterpretationCode-1-PA\"> </a></td><td>Potentially Abnormal</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-InterpretationCode-1",
+  "version": "1.0.0",
+  "name": "CareConnect Interpretation Code",
+  "status": "draft",
+  "date": "2019-03-12T00:00:00+00:00",
+  "publisher": "HL7 West Riding - Example",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "This value set defines the set of codes that can be used to indicate the meaning/use of a reference range.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2018 NHS Digital",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "OR",
+      "display": "Outside Reference Range"
+    },
+    {
+      "code": "PA",
+      "display": "Potentially Abnormal"
+    }
+  ]
+}
