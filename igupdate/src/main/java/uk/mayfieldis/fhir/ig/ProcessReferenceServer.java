@@ -65,6 +65,7 @@ public class ProcessReferenceServer {
                     log.info(entry.getFullUrl());
                     if (entry.getResource() instanceof StructureDefinition) {
                         StructureDefinition sd = (StructureDefinition) entry.getResource();
+                        sd.setSnapshot(null);
                         this.addMapEntry(sd.getUrl(),sd);
                     }
                 }

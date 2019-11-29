@@ -54,6 +54,10 @@
          <name value="HL7 UK CodeSystems"></name>
          <description value="UK FHIR CodesSystems"></description>
       </grouping>
+      <grouping id="uk-6">
+         <name value="Examples"></name>
+         <description value="Example UK Resources"></description>
+      </grouping>
       <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
       <resource>
@@ -63,6 +67,7 @@
          <name value="Patient example"></name>
          <description value="Level 2 Example"></description>
          <exampleCanonical value="StructureDefinition/CareConnect-Patient-1"></exampleCanonical>
+         <groupingId value="uk-6"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -71,6 +76,7 @@
          <name value="Observation example"></name>
          <description value="Level 3 Example"></description>
          <exampleCanonical value="StructureDefinition/CareConnect-Observation-1"></exampleCanonical>
+         <groupingId value="uk-6"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -79,6 +85,7 @@
          <name value="Practitioner example"></name>
          <description value="Level 3 Example"></description>
          <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
+         <groupingId value="uk-6"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -87,6 +94,7 @@
          <name value="Organization example"></name>
          <description value="Level 3 Example"></description>
          <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <groupingId value="uk-6"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -95,6 +103,7 @@
          <name value="Organization example"></name>
          <description value="Level 3 Example"></description>
          <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <groupingId value="uk-6"></groupingId>
       </resource>
       <resource>
          <reference>

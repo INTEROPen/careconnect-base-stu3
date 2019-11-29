@@ -33,7 +33,8 @@ public class IGUpdate implements CommandLineRunner {
 
     VersionConvertor_30_40 convertor = new VersionConvertor_30_40();
 
-    String path = "C:\\Development\\Wildfyre\\UK-STU3\\input\\resources\\";
+    //String path = "C:\\Development\\Wildfyre\\UK-STU3\\input\\resources\\";
+    String path = "input/resources/";
     String igPath = path + "UK-STU3-ImplementationGuide.xml";
 
     ImplementationGuide ig;
@@ -102,7 +103,7 @@ public class IGUpdate implements CommandLineRunner {
                 if (convertsToR5(resource)  && validatesOK(resource)) {
                     String filename = resource.getIdElement().getIdPart();
                     if (resource instanceof ValueSet || resource instanceof CodeSystem) {
-                        filename = resource.getResourceType().name() + "\\" + filename;
+                        filename = resource.getResourceType().name() + "/" + filename;
                     }
 
                     if (filename !=null) {
