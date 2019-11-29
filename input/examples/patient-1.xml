@@ -1,5 +1,5 @@
 <Patient xmlns="http://hl7.org/fhir">
-  <id value="1"/>
+  <id value="patient-1"/>
   <meta>
     <lastUpdated value="2019-11-24T06:25:11.715+00:00"/>
     <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
