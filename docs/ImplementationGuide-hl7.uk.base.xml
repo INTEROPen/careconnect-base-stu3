@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-11-30T10:12:48+00:00"/>
+  <date value="2019-11-30T12:11:45+00:00"/>
   <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
@@ -410,6 +410,20 @@
       <description value="Procedure Request"/>
       <sourceReference>
         <reference value="StructureDefinition/CareConnect-ProcedureRequest-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Quantity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Quantity-1"/>
+      <description value="Enhanced quantity data type that supports an approximation indicator."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Quantity-1"/>
       </sourceReference>
     </resource>
     <resource>

@@ -1,472 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-   <id value="CareConnect-Observation-1"></id>
-   <meta>
-      <lastUpdated value="2017-08-25T14:06:37.813+01:00"></lastUpdated>
-   </meta>
-   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-      <valueCode value="oo"></valueCode>
-   </extension>
-   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"></url>
-   <version value="1.2.0"></version>
-   <name value="CareConnect-Observation-1"></name>
-   <status value="draft"></status>
-   <date value="2019-06-17"></date>
-   <publisher value="HL7 UK"></publisher>
-   <contact>
-      <name value="INTEROPen"></name>
-      <telecom>
-         <system value="email"></system>
-         <value value="admin@interopen.org"></value>
-         <use value="work"></use>
-      </telecom>
-   </contact>
-   <description value="The Observation resource is used for tracking the current and historical observations that have been made for a patient."></description>
-   <copyright value="Copyright © 2018 HL7 UK Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"></copyright>
-   <fhirVersion value="3.0.1"></fhirVersion>
-   <kind value="resource"></kind>
-   <abstract value="false"></abstract>
-   <type value="Observation"></type>
-   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"></baseDefinition>
-   <derivation value="constraint"></derivation>
-   <differential>
-      <element id="Observation.identifier.system">
-         <path value="Observation.identifier.system"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.identifier.value">
-         <path value="Observation.identifier.value"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.identifier.assigner">
-         <path value="Observation.identifier.assigner"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.basedOn">
-         <path value="Observation.basedOn"></path>
-         <short value="Fulfills plan, proposal or order."></short>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.code.coding">
-         <path value="Observation.code.coding"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="code"></path>
-            </discriminator>
-            <ordered value="false"></ordered>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.code.coding:snomedCT">
-         <path value="Observation.code.coding"></path>
-         <sliceName value="snomedCT"></sliceName>
-         <max value="1"></max>
-         <binding>
-            <strength value="extensible"></strength>
-            <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation"></description>
-            <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1"></reference>
-            </valueSetReference>
-         </binding>
-      </element>
-      <element id="Observation.code.coding:snomedCT.extension">
-         <path value="Observation.code.coding.extension"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="url"></path>
-            </discriminator>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.code.coding:snomedCT.extension:snomedCTDescriptionID">
-         <path value="Observation.code.coding.extension"></path>
-         <sliceName value="snomedCTDescriptionID"></sliceName>
-         <type>
-            <code value="Extension"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
-         </type>
-      </element>
-      <element id="Observation.code.coding:snomedCT.system">
-         <path value="Observation.code.coding.system"></path>
-         <min value="1"></min>
-         <fixedUri value="http://snomed.info/sct"></fixedUri>
-      </element>
-      <element id="Observation.code.coding:snomedCT.version">
-         <path value="Observation.code.coding.version"></path>
-         <max value="0"></max>
-      </element>
-      <element id="Observation.code.coding:snomedCT.code">
-         <path value="Observation.code.coding.code"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.code.coding:snomedCT.display">
-         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-            <valueBoolean value="true"></valueBoolean>
-         </extension>
-         <path value="Observation.code.coding.display"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.subject">
-         <path value="Observation.subject"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.context">
-         <path value="Observation.context"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.performer">
-         <path value="Observation.performer"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.value[x]">
-         <path value="Observation.value[x]"></path>
-         <type>
-            <code value="Quantity"></code>
-         </type>
-         <type>
-            <code value="CodeableConcept"></code>
-         </type>
-         <type>
-            <code value="string"></code>
-         </type>
-         <type>
-            <code value="boolean"></code>
-         </type>
-         <type>
-            <code value="Range"></code>
-         </type>
-         <type>
-            <code value="Ratio"></code>
-         </type>
-         <type>
-            <code value="SampledData"></code>
-         </type>
-         <type>
-            <code value="Attachment"></code>
-         </type>
-         <type>
-            <code value="time"></code>
-         </type>
-         <type>
-            <code value="dateTime"></code>
-         </type>
-         <type>
-            <code value="Period"></code>
-         </type>
-         <type>
-            <code value="Quantity"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1"></profile>
-         </type>
-      </element>
-      <element id="Observation.bodySite.coding">
-         <path value="Observation.bodySite.coding"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="system"></path>
-            </discriminator>
-            <ordered value="false"></ordered>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT">
-         <path value="Observation.bodySite.coding"></path>
-         <sliceName value="snomedCT"></sliceName>
-         <max value="1"></max>
-         <binding>
-            <strength value="preferred"></strength>
-            <description value=" A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."></description>
-            <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"></reference>
-            </valueSetReference>
-         </binding>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.extension">
-         <path value="Observation.bodySite.coding.extension"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="url"></path>
-            </discriminator>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.extension:snomedCTDescriptionID">
-         <path value="Observation.bodySite.coding.extension"></path>
-         <sliceName value="snomedCTDescriptionID"></sliceName>
-         <type>
-            <code value="Extension"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
-         </type>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.system">
-         <path value="Observation.bodySite.coding.system"></path>
-         <min value="1"></min>
-         <fixedUri value="http://snomed.info/sct"></fixedUri>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.version">
-         <path value="Observation.bodySite.coding.version"></path>
-         <max value="0"></max>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.code">
-         <path value="Observation.bodySite.coding.code"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.bodySite.coding:snomedCT.display">
-         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-            <valueBoolean value="true"></valueBoolean>
-         </extension>
-         <path value="Observation.bodySite.coding.display"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.method.coding">
-         <path value="Observation.method.coding"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="system"></path>
-            </discriminator>
-            <ordered value="false"></ordered>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.method.coding:snomedCT">
-         <path value="Observation.method.coding"></path>
-         <sliceName value="snomedCT"></sliceName>
-         <max value="1"></max>
-         <binding>
-            <strength value="preferred"></strength>
-            <description value="A code from SNOMED Clinical Terminology UK"></description>
-            <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationMethod-1"></reference>
-            </valueSetReference>
-         </binding>
-      </element>
-      <element id="Observation.method.coding:snomedCT.extension">
-         <path value="Observation.method.coding.extension"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="url"></path>
-            </discriminator>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.method.coding:snomedCT.extension:snomedCTDescriptionID">
-         <path value="Observation.method.coding.extension"></path>
-         <sliceName value="snomedCTDescriptionID"></sliceName>
-         <type>
-            <code value="Extension"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
-         </type>
-      </element>
-      <element id="Observation.method.coding:snomedCT.system">
-         <path value="Observation.method.coding.system"></path>
-         <min value="1"></min>
-         <fixedUri value="http://snomed.info/sct"></fixedUri>
-      </element>
-      <element id="Observation.method.coding:snomedCT.version">
-         <path value="Observation.method.coding.version"></path>
-         <max value="0"></max>
-      </element>
-      <element id="Observation.method.coding:snomedCT.code">
-         <path value="Observation.method.coding.code"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.method.coding:snomedCT.display">
-         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-            <valueBoolean value="true"></valueBoolean>
-         </extension>
-         <path value="Observation.method.coding.display"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.specimen">
-         <path value="Observation.specimen"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.related.target">
-         <path value="Observation.related.target"></path>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Sequence"></targetProfile>
-         </type>
-         <type>
-            <code value="Reference"></code>
-            <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"></targetProfile>
-         </type>
-      </element>
-      <element id="Observation.component.code.coding">
-         <path value="Observation.component.code.coding"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="code"></path>
-            </discriminator>
-            <ordered value="false"></ordered>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT">
-         <path value="Observation.component.code.coding"></path>
-         <sliceName value="snomedCT"></sliceName>
-         <max value="1"></max>
-         <binding>
-            <strength value="extensible"></strength>
-            <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation"></description>
-            <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1"></reference>
-            </valueSetReference>
-         </binding>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.extension">
-         <path value="Observation.component.code.coding.extension"></path>
-         <slicing>
-            <discriminator>
-               <type value="value"></type>
-               <path value="url"></path>
-            </discriminator>
-            <rules value="open"></rules>
-         </slicing>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.extension:snomedCTDescriptionID">
-         <path value="Observation.component.code.coding.extension"></path>
-         <sliceName value="snomedCTDescriptionID"></sliceName>
-         <type>
-            <code value="Extension"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
-         </type>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.system">
-         <path value="Observation.component.code.coding.system"></path>
-         <min value="1"></min>
-         <fixedUri value="http://snomed.info/sct"></fixedUri>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.version">
-         <path value="Observation.component.code.coding.version"></path>
-         <max value="0"></max>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.code">
-         <path value="Observation.component.code.coding.code"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.component.code.coding:snomedCT.display">
-         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
-            <valueBoolean value="true"></valueBoolean>
-         </extension>
-         <path value="Observation.component.code.coding.display"></path>
-         <min value="1"></min>
-      </element>
-      <element id="Observation.component.value[x]">
-         <path value="Observation.component.value[x]"></path>
-         <type>
-            <code value="Quantity"></code>
-         </type>
-         <type>
-            <code value="CodeableConcept"></code>
-         </type>
-         <type>
-            <code value="string"></code>
-         </type>
-         <type>
-            <code value="Range"></code>
-         </type>
-         <type>
-            <code value="Ratio"></code>
-         </type>
-         <type>
-            <code value="SampledData"></code>
-         </type>
-         <type>
-            <code value="Attachment"></code>
-         </type>
-         <type>
-            <code value="time"></code>
-         </type>
-         <type>
-            <code value="dateTime"></code>
-         </type>
-         <type>
-            <code value="Period"></code>
-         </type>
-         <type>
-            <code value="Quantity"></code>
-            <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1"></profile>
-         </type>
-      </element>
-   </differential>
+  <id value="CareConnect-Observation-1" />
+  <meta>
+    <lastUpdated value="2017-08-25T14:06:37.813+01:00" />
+  </meta>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo" />
+  </extension>
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1" />
+  <version value="1.2.0" />
+  <name value="CareConnect-Observation-1" />
+  <status value="draft" />
+  <date value="2019-06-17" />
+  <publisher value="HL7 UK" />
+  <contact>
+    <name value="INTEROPen" />
+    <telecom>
+      <system value="email" />
+      <value value="admin@interopen.org" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="The Observation resource is used for tracking the current and historical observations that have been made for a patient." />
+  <copyright value="Copyright © 2018 HL7 UK Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="3.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Observation" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Observation.identifier.system">
+      <path value="Observation.identifier.system" />
+      <min value="1" />
+    </element>
+    <element id="Observation.identifier.value">
+      <path value="Observation.identifier.value" />
+      <min value="1" />
+    </element>
+    <element id="Observation.identifier.assigner">
+      <path value="Observation.identifier.assigner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+      </type>
+    </element>
+    <element id="Observation.basedOn">
+      <path value="Observation.basedOn" />
+      <short value="Fulfills plan, proposal or order." />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1" />
+      </type>
+    </element>
+    <element id="Observation.code.coding">
+      <path value="Observation.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <ordered value="false" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:snomedCT">
+      <path value="Observation.code.coding" />
+      <sliceName value="snomedCT" />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation" />
+        <valueSetReference>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Observation.code.coding:snomedCT.extension">
+      <path value="Observation.code.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.code.coding:snomedCT.extension:snomedCTDescriptionID">
+      <path value="Observation.code.coding.extension" />
+      <sliceName value="snomedCTDescriptionID" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid" />
+      </type>
+    </element>
+    <element id="Observation.code.coding:snomedCT.system">
+      <path value="Observation.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.code.coding:snomedCT.version">
+      <path value="Observation.code.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Observation.code.coding:snomedCT.code">
+      <path value="Observation.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.code.coding:snomedCT.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.code.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Observation.subject">
+      <path value="Observation.subject" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1" />
+      </type>
+    </element>
+    <element id="Observation.context">
+      <path value="Observation.context" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1" />
+      </type>
+    </element>
+    <element id="Observation.performer">
+      <path value="Observation.performer" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" />
+      </type>
+    </element>
+    <element id="Observation.value[x]">
+      <path value="Observation.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
+      <type>
+        <code value="boolean" />
+      </type>
+      <type>
+        <code value="Range" />
+      </type>
+      <type>
+        <code value="Ratio" />
+      </type>
+      <type>
+        <code value="SampledData" />
+      </type>
+      <type>
+        <code value="Attachment" />
+      </type>
+      <type>
+        <code value="time" />
+      </type>
+      <type>
+        <code value="dateTime" />
+      </type>
+      <type>
+        <code value="Period" />
+      </type>
+      <type>
+        <code value="Quantity" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1" />
+      </type>
+    </element>
+    <element id="Observation.bodySite.coding">
+      <path value="Observation.bodySite.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <ordered value="false" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT">
+      <path value="Observation.bodySite.coding" />
+      <sliceName value="snomedCT" />
+      <max value="1" />
+      <binding>
+        <strength value="preferred" />
+        <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)." />
+        <valueSetReference>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.extension">
+      <path value="Observation.bodySite.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.extension:snomedCTDescriptionID">
+      <path value="Observation.bodySite.coding.extension" />
+      <sliceName value="snomedCTDescriptionID" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid" />
+      </type>
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.system">
+      <path value="Observation.bodySite.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.version">
+      <path value="Observation.bodySite.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.code">
+      <path value="Observation.bodySite.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.bodySite.coding:snomedCT.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.bodySite.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Observation.method.coding">
+      <path value="Observation.method.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <ordered value="false" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.method.coding:snomedCT">
+      <path value="Observation.method.coding" />
+      <sliceName value="snomedCT" />
+      <max value="1" />
+      <binding>
+        <strength value="preferred" />
+        <description value="A code from SNOMED Clinical Terminology UK" />
+        <valueSetReference>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationMethod-1" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Observation.method.coding:snomedCT.extension">
+      <path value="Observation.method.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.method.coding:snomedCT.extension:snomedCTDescriptionID">
+      <path value="Observation.method.coding.extension" />
+      <sliceName value="snomedCTDescriptionID" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid" />
+      </type>
+    </element>
+    <element id="Observation.method.coding:snomedCT.system">
+      <path value="Observation.method.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.method.coding:snomedCT.version">
+      <path value="Observation.method.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Observation.method.coding:snomedCT.code">
+      <path value="Observation.method.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.method.coding:snomedCT.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.method.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Observation.specimen">
+      <path value="Observation.specimen" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1" />
+      </type>
+    </element>
+    <element id="Observation.related.target">
+      <path value="Observation.related.target" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Sequence" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1" />
+      </type>
+    </element>
+    <element id="Observation.component.code.coding">
+      <path value="Observation.component.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="system" />
+        </discriminator>
+        <ordered value="false" />
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.component.code.coding:snomedCT">
+      <path value="Observation.component.code.coding" />
+      <sliceName value="snomedCT" />
+      <max value="1" />
+      <binding>
+        <strength value="extensible" />
+        <description value="A code from the SNOMED Clinical Terminology UK coding system describing a type of observation" />
+        <valueSetReference>
+          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1" />
+        </valueSetReference>
+      </binding>
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.extension">
+      <path value="Observation.component.code.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.extension:snomedCTDescriptionID">
+      <path value="Observation.component.code.coding.extension" />
+      <sliceName value="snomedCTDescriptionID" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid" />
+      </type>
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.system">
+      <path value="Observation.component.code.coding.system" />
+      <min value="1" />
+      <fixedUri value="http://snomed.info/sct" />
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.version">
+      <path value="Observation.component.code.coding.version" />
+      <max value="0" />
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.code">
+      <path value="Observation.component.code.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component.code.coding:snomedCT.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Observation.component.code.coding.display" />
+      <min value="1" />
+    </element>
+    <element id="Observation.component.value[x]">
+      <path value="Observation.component.value[x]" />
+      <type>
+        <code value="Quantity" />
+      </type>
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="string" />
+      </type>
+      <type>
+        <code value="Range" />
+      </type>
+      <type>
+        <code value="Ratio" />
+      </type>
+      <type>
+        <code value="SampledData" />
+      </type>
+      <type>
+        <code value="Attachment" />
+      </type>
+      <type>
+        <code value="time" />
+      </type>
+      <type>
+        <code value="dateTime" />
+      </type>
+      <type>
+        <code value="Period" />
+      </type>
+      <type>
+        <code value="Quantity" />
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1" />
+      </type>
+    </element>
+  </differential>
 </StructureDefinition>

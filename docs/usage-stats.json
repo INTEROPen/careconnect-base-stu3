@@ -2166,6 +2166,9 @@
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-VaccinationProcedure-1": [
       "Immunization"
     ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1": [
+      "Quantity"
+    ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid": [
       "AllergyIntolerance.code.coding",
       "AllergyIntolerance.reaction.exposureRoute.coding",

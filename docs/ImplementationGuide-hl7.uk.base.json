@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-11-30T10:12:48+00:00",
+  "date": "2019-11-30T12:11:45+00:00",
   "publisher": "HL7 UK - Example",
   "contact": [
     {
@@ -529,6 +529,24 @@
           "description": "Procedure Request",
           "sourceReference": {
             "reference": "StructureDefinition/CareConnect-ProcedureRequest-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:complex-type"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-Quantity-1.html"
+            }
+          ],
+          "example": false,
+          "name": "Quantity-1",
+          "description": "Enhanced quantity data type that supports an approximation indicator.",
+          "sourceReference": {
+            "reference": "StructureDefinition/CareConnect-Quantity-1"
           }
         },
         {

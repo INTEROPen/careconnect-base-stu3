@@ -880,6 +880,13 @@
       </resource>
       <resource>
          <reference>
+            <reference value="StructureDefinition/CareConnect-Quantity-1"></reference>
+         </reference>
+         <name value="Quantity-1"></name>
+         <groupingId value="uk-1"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="ValueSet/CareConnect-ReactionEventSeverity-1"></reference>
          </reference>
          <name value="ReactionEventSeverity-1"></name>

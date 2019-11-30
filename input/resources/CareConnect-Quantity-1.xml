@@ -1,0 +1,417 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="CareConnect-Quantity-1"></id>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1"></url>
+    <version value="1.0.0"></version>
+    <name value="CareConnect-Quantity-1"></name>
+    <status value="draft"></status>
+    <date value="2019-04-03"></date>
+    <publisher value="HL7 UK"></publisher>
+    <contact>
+        <name value="INTEROPen"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="admin@interopen.org"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="Enhanced quantity data type that supports an approximation indicator."></description>
+    <copyright value="Copyright © 2019 HL7 UK Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="complex-type"></kind>
+    <abstract value="false"></abstract>
+    <type value="Quantity"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Quantity"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <snapshot>
+        <element id="Quantity">
+            <path value="Quantity"></path>
+            <short value="A measured or measurable amount"></short>
+            <definition value="A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies."></definition>
+            <comment value="The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use may also restrict the values for the comparator."></comment>
+            <min value="0"></min>
+            <max value="*"></max>
+            <base>
+                <path value="Element"></path>
+                <min value="0"></min>
+                <max value="*"></max>
+            </base>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <constraint>
+                <key value="qty-3"></key>
+                <severity value="error"></severity>
+                <human value="If a code for the unit is present, the system SHALL also be present"></human>
+                <expression value="code.empty() or system.exists()"></expression>
+                <xpath value="not(exists(f:code)) or exists(f:system)"></xpath>
+            </constraint>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="SN (see also Range) or CQ"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="PQ, IVL&lt;PQ&gt;, MO, CO, depending on the values"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.id">
+            <path value="Quantity.id"></path>
+            <representation value="xmlAttr"></representation>
+            <short value="xml:id (or equivalent in JSON)"></short>
+            <definition value="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."></definition>
+            <comment value="Note that FHIR strings may not exceed 1MB in size"></comment>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Element.id"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="string"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.extension">
+            <path value="Quantity.extension"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="url"></path>
+                </discriminator>
+                <description value="Extensions are always sliced by (at least) url"></description>
+                <rules value="open"></rules>
+            </slicing>
+            <short value="Additional Content defined by implementations"></short>
+            <definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."></definition>
+            <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."></comment>
+            <alias value="extensions"></alias>
+            <alias value="user content"></alias>
+            <min value="0"></min>
+            <max value="*"></max>
+            <base>
+                <path value="Element.extension"></path>
+                <min value="0"></min>
+                <max value="*"></max>
+            </base>
+            <type>
+                <code value="Extension"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <constraint>
+                <key value="ext-1"></key>
+                <severity value="error"></severity>
+                <human value="Must have either extensions or value[x], not both"></human>
+                <expression value="extension.exists() != value.exists()"></expression>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"></xpath>
+            </constraint>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="N/A"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.extension:valueApproximation">
+            <path value="Quantity.extension"></path>
+            <sliceName value="valueApproximation"></sliceName>
+            <short value="Value Approximation"></short>
+            <definition value="Value Approximation"></definition>
+            <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."></comment>
+            <alias value="extensions"></alias>
+            <alias value="user content"></alias>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Element.extension"></path>
+                <min value="0"></min>
+                <max value="*"></max>
+            </base>
+            <type>
+                <code value="Extension"></code>
+                <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1"></profile>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <constraint>
+                <key value="ext-1"></key>
+                <severity value="error"></severity>
+                <human value="Must have either extensions or value[x], not both"></human>
+                <expression value="extension.exists() != value.exists()"></expression>
+                <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])"></xpath>
+            </constraint>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="N/A"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.value">
+            <path value="Quantity.value"></path>
+            <short value="Numerical value (with implicit precision)"></short>
+            <definition value="The value of the measured amount. The value includes an implicit precision in the presentation of the value."></definition>
+            <comment value="The implicit precision in the value should always be honored. Monetary values have their own rules for handling precision (refer to standard accounting text books)."></comment>
+            <requirements value="Precision is handled implicitly in almost all cases of measurement."></requirements>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Quantity.value"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="decimal"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <isSummary value="true"></isSummary>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="SN.2  / CQ - N/A"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="PQ.value, CO.value, MO.value, IVL.high or IVL.low depending on the value"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.comparator">
+            <path value="Quantity.comparator"></path>
+            <short value="&lt; | &lt;= | &gt;= | &gt; - how to understand the value"></short>
+            <definition value="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value."></definition>
+            <comment value="This is labeled as &quot;Is Modifier&quot; because the comparator modifies the interpretation of the value significantly. If there is no comparator, then there is no modification of the value."></comment>
+            <requirements value="Need a framework for handling measures where the value is &lt;5ug/L or &gt;400mg/L due to the limitations of measuring methodology."></requirements>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Quantity.comparator"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="code"></code>
+            </type>
+            <meaningWhenMissing value="If there is no comparator, then there is no modification of the value"></meaningWhenMissing>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <isModifier value="true"></isModifier>
+            <isSummary value="true"></isSummary>
+            <binding>
+                <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+                    <valueString value="QuantityComparator"></valueString>
+                </extension>
+                <strength value="required"></strength>
+                <description value="How the Quantity should be understood and represented."></description>
+                <valueSetReference>
+                    <reference value="http://hl7.org/fhir/ValueSet/quantity-comparator"></reference>
+                </valueSetReference>
+            </binding>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="SN.1  / CQ.1"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="IVL properties"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.unit">
+            <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+                <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <path value="Quantity.unit"></path>
+            <short value="Unit representation"></short>
+            <definition value="A human-readable form of the unit."></definition>
+            <comment value="Note that FHIR strings may not exceed 1MB in size"></comment>
+            <requirements value="There are many representations for units of measure and in many contexts, particular representations are fixed and required. I.e. mcg for micrograms."></requirements>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Quantity.unit"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="string"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <isSummary value="true"></isSummary>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="(see OBX.6 etc.) / CQ.2"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="PQ.unit"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.system">
+            <path value="Quantity.system"></path>
+            <short value="System that defines coded unit form"></short>
+            <definition value="The identification of the system that provides the coded form of the unit."></definition>
+            <comment value="see http://en.wikipedia.org/wiki/Uniform_resource_identifier"></comment>
+            <requirements value="Need to know the system that defines the coded form of the unit."></requirements>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Quantity.system"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="uri"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <condition value="qty-3"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <isSummary value="true"></isSummary>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="(see OBX.6 etc.) / CQ.2"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="CO.codeSystem, PQ.translation.codeSystem"></map>
+            </mapping>
+        </element>
+        <element id="Quantity.code">
+            <path value="Quantity.code"></path>
+            <short value="Coded form of the unit"></short>
+            <definition value="A computer processable form of the unit in some unit representation system."></definition>
+            <comment value="The preferred system is UCUM, but SNOMED CT can also be used (for customary units) or ISO 4217 for currency.  The context of use may additionally require a code from a particular system."></comment>
+            <requirements value="Need a computable form of the unit that is fixed across all forms. UCUM provides this for quantities, but SNOMED CT provides many units of interest."></requirements>
+            <min value="0"></min>
+            <max value="1"></max>
+            <base>
+                <path value="Quantity.code"></path>
+                <min value="0"></min>
+                <max value="1"></max>
+            </base>
+            <type>
+                <code value="code"></code>
+            </type>
+            <condition value="ele-1"></condition>
+            <constraint>
+                <key value="ele-1"></key>
+                <severity value="error"></severity>
+                <human value="All FHIR elements must have a @value or children"></human>
+                <expression value="hasValue() | (children().count() &gt; id.count())"></expression>
+                <xpath value="@value|f:*|h:div"></xpath>
+            </constraint>
+            <isSummary value="true"></isSummary>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="n/a"></map>
+            </mapping>
+            <mapping>
+                <identity value="v2"></identity>
+                <map value="(see OBX.6 etc.) / CQ.2"></map>
+            </mapping>
+            <mapping>
+                <identity value="rim"></identity>
+                <map value="PQ.code, MO.currency, PQ.translation.code"></map>
+            </mapping>
+        </element>
+    </snapshot>
+    <differential>
+        <element id="Quantity.extension">
+            <path value="Quantity.extension"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="url"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Quantity.extension:valueApproximation">
+            <path value="Quantity.extension"></path>
+            <sliceName value="valueApproximation"></sliceName>
+            <short value="Value Approximation"></short>
+            <definition value="Value Approximation"></definition>
+            <max value="1"></max>
+            <type>
+                <code value="Extension"></code>
+                <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1"></profile>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>
