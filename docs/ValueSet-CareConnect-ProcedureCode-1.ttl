@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Procedure Code</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|).</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)</li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1"];
-  fhir:ValueSet.version [ fhir:value "1.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "Care Connect Procedure Code"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:ValueSet.publisher [ fhir:value "HL7 UK - Example"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -32,7 +32,7 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
   fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."];

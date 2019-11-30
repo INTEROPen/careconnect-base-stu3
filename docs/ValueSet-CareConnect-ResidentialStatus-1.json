@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Residential Status</h2><div><p>A ValueSet that identifies the residential status of a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ResidentialStatus-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1</code></a></li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "name": "Care Connect Residential Status",
   "status": "draft",
   "date": "2018-11-02T00:00:00+00:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -27,7 +27,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

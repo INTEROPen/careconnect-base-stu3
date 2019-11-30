@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Treatment Category</h2><div><p>A CodeSystem that identifies the treatment category for this patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CareConnect-TreatmentCategory-1-1\"> </a></td><td>Exempt from payment - subject to reciprocal health agreement</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CareConnect-TreatmentCategory-1-2\"> </a></td><td>Exempt from payment - other</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CareConnect-TreatmentCategory-1-3\"> </a></td><td>To pay hotel fees only</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CareConnect-TreatmentCategory-1-4\"> </a></td><td>To pay all fees</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CareConnect-TreatmentCategory-1-9\"> </a></td><td>Charging rate not known</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CareConnect-TreatmentCategory-1-8\"> </a></td><td>Not applicable</td><td>Not an Overseas Visitor</td></tr></table></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "name": "Care Connect Treatment Category",
   "status": "draft",
   "date": "2018-11-02T00:00:00+00:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -27,7 +27,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

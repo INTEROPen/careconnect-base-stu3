@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>CARE-CONNECT-STU3\Artifacts Summary - FHIR v3.0.2</title>
+    <title>HL7.UK.BASE\Artifacts Summary - FHIR v3.0.2</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -36,14 +36,14 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"6"}
-    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK Base (Example)</span><br/>0.1.0 - CI Build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -64,42 +64,9 @@
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">Care Connect Implementation Guide</a></li>
+  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li><a href="artifacts.html">Profiles and Terminology</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Care Connect Background<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="background.html">Background</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Specification<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="spec.html">Detailed Specification</a>
-      </li>
-    </ul>
-  </li>
-  <li><a href="artifacts.html">Artifact Index</a></li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a target="_blank" href="http://hl7.org/fhir/STU3/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
-      </li>
-      <li>
-        <a href="downloads.html">Downloads</a>
-      </li>
-    </ul>
-  </li>
 </ul>      
 
             </div>  <!-- /.nav-collapse -->
@@ -138,10 +105,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <div class="itoc">
       <p>Artifact Packages</p>
       <p class="link">-
-            <a href="#1">HL7 UK Base</a>
+            <a href="#1">HL7 UK Base Profiles</a>
       </p>
       <p class="link">-
-            <a href="#2">HL7 UK Level 3</a>
+            <a href="#2">HL7 UK Level 3 Profiles</a>
       </p>
       <p class="link">-
             <a href="#3">HL7 UK Base Extensions</a>
@@ -153,12 +120,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <a href="#5">HL7 UK CodeSystems</a>
       </p>
       <p class="link">-
-            <a href="#6">Examples</a>
+            <a href="#6">UK Examples</a>
       </p>
    </div>
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>HL7 UK Base </h3>
+   <h3>HL7 UK Base Profiles </h3>
    <p>UK Base FHIR Profiles</p>
    <p>
       <table>
@@ -183,6 +150,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/CareConnect-CarePlan-1">  •  CarePlan-1</a>
                </td>
                <td>Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-CareTeam-1.html"
+                     title="StructureDefinition/CareConnect-CareTeam-1">  •  CareTeam-1</a>
+               </td>
+               <td>The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.</td>
             </tr>
             <tr>
                <td style="column-width:30%">
@@ -221,6 +195,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CareConnect-EpisodeOfCare-1.html"
+                     title="StructureDefinition/CareConnect-EpisodeOfCare-1">  •  EpisodeOfCare-1</a>
+               </td>
+               <td>An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CareConnect-FamilyMemberHistory-1.html"
                      title="StructureDefinition/CareConnect-FamilyMemberHistory-1">  •  FamilyMemberHistory-1</a>
                </td>
@@ -232,6 +213,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/CareConnect-Flag-1">  •  Flag-1</a>
                </td>
                <td>Prospective warnings of potential issues when providing care to the patient.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-HealthcareService-1.html"
+                     title="StructureDefinition/CareConnect-HealthcareService-1">  •  HealthcareService-1</a>
+               </td>
+               <td>CareConnect HealthCareService Profile</td>
             </tr>
             <tr>
                <td style="column-width:30%">
@@ -361,16 +349,30 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CareConnect-Schedule-1.html"
+                     title="StructureDefinition/CareConnect-Schedule-1">  •  Schedule-1</a>
+               </td>
+               <td>CareConnect Schedule profile.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CareConnect-Slot-1.html"
                      title="StructureDefinition/CareConnect-Slot-1">  •  Slot-1</a>
                </td>
                <td>CareConnectSlot profile.</td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-Specimen-1.html"
+                     title="StructureDefinition/CareConnect-Specimen-1">  •  Specimen-1</a>
+               </td>
+               <td>Specimen</td>
+            </tr>
          </tbody>
       </table>
    </p>
    <a name="2"> </a>
-   <h3>HL7 UK Level 3 </h3>
+   <h3>HL7 UK Level 3 Profiles </h3>
    <p>UK Level 3 FHIR Profiles</p>
    <p>
       <table>
@@ -495,6 +497,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                      title="StructureDefinition/Extension-CareConnect-ClinicalSetting-1">  •  ClinicalSetting-1</a>
                </td>
                <td>An extension to record the clinical setting of a problem list.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="extension-Extension-coding-sctdescid.html"
+                     title="StructureDefinition/Extension-coding-sctdescid">  •  coding-sctdescid</a>
+               </td>
+               <td>This Extension resource is constrained to support SNOMED CT Description ID for the display.</td>
             </tr>
             <tr>
                <td style="column-width:30%">
@@ -1505,8 +1514,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="6"> </a>
-   <h3>Examples </h3>
-   <p>Example UK Resources</p>
+   <h3>UK Examples </h3>
+   <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
    <p>
       <table>
          <tbody>
@@ -1518,25 +1527,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="9084.html" title="Observation/9084">  •  Observation example</a>
+                  <a href="observation-9084.html" title="Observation/observation-9084">  •  Observation example</a>
                </td>
                <td>Level 3 Example</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="4.html" title="Practitioner/4">  •  Practitioner example</a>
+                  <a href="practitioner-4.html" title="Practitioner/practitioner-4">  •  Practitioner example</a>
                </td>
                <td>Level 3 Example</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="2.html" title="Organization/2">  •  Organization example</a>
+                  <a href="organization-2.html" title="Organization/organization-2">  •  Organization example</a>
                </td>
                <td>Level 3 Example</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="3.html" title="Organization/3">  •  Organization example</a>
+                  <a href="organization-3.html" title="Organization/organization-3">  •  Organization example</a>
                </td>
                <td>Level 3 Example</td>
             </tr>
@@ -1556,7 +1565,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Nov 29, 2019 17:03+0000">2019-11-29</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK - Example</a>.  Package hl7.uk.base#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Nov 30, 2019 10:12+0000">2019-11-30</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

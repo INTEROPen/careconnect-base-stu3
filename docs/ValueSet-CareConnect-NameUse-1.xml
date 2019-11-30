@@ -28,11 +28,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.3.58"/>
   </identifier>
-  <version value="3.0.1"/>
+  <version value="0.1.0"/>
   <name value="NameUse"/>
   <status value="draft"/>
   <date value="2017-04-18T22:44:47+01:00"/>
-  <publisher value="HL7 West Riding - Example"/>
+  <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -43,7 +43,7 @@
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <code value="826"/>
     </coding>
   </jurisdiction>
   <copyright value="Copyright &#xA9; HL7.org 2011+"/>

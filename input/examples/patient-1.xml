@@ -64,11 +64,11 @@
     </coding>
   </maritalStatus>
   <generalPractitioner>
-    <reference value="Practitioner/1"/>
+    <reference value="Practitioner/practitioner-4"/>
     <display value="Dr. AA Bhatia"/>
   </generalPractitioner>
   <managingOrganization>
-    <reference value="Organization/1"/>
+    <reference value="Organization/organization-2"/>
     <display value="The Moir Medical Centre"/>
   </managingOrganization>
 </Patient>

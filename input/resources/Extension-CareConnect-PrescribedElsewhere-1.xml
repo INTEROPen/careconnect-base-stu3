@@ -51,7 +51,7 @@
             <strength value="required"></strength>
             <description value="A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system."></description>
             <valueSetReference>
-               <reference value="https://fhir.nhs.uk/STU3/ValueSet/CareConnect-PrescribedElsewhere-1"></reference>
+               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PrescribedElsewhere-1"></reference>
             </valueSetReference>
          </binding>
       </element>

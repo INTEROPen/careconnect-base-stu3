@@ -7,11 +7,11 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">do-not-discontinue<a name="CareConnect-MedicationFlag-1-do-not-discontinue"> </a></td><td>Do Not discontinue Medication</td><td/></tr><tr><td style="white-space:nowrap">continue-indefinitely<a name="CareConnect-MedicationFlag-1-continue-indefinitely"> </a></td><td>Continue Indefinitely</td><td/></tr></table></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"/>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="Care Connect Medication Flag"/>
   <status value="draft"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 West Riding - Example"/>
+  <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -22,7 +22,7 @@
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <code value="826"/>
     </coding>
   </jurisdiction>
   <copyright value="Copyright &#xA9; 2016 HL7 UK"/>

@@ -1,0 +1,77 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="CareConnect-EpisodeOfCare-1"></id>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"></url>
+    <version value="1.0.0"></version>
+    <name value="CareConnect-EpisodeOfCare-1"></name>
+    <status value="draft"></status>
+    <date value="2019-03-04T14:44:34.123+00:00"></date>
+    <publisher value="NHS Digital"></publisher>
+    <contact>
+        <name value="Interoperability Team"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="interoperabilityteam@nhs.net"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time."></description>
+    <purpose value="[NOT CURATED BY INTEROPEN see: http://www.interopen.org/careconnect-curation-methodology/] Initial development for the Digital Maternity programme"></purpose>
+    <copyright value="Copyright © 2016 HL7 UK    Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at    http://www.apache.org/licenses/LICENSE-2.0    Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.    HL7® FHIR® standard Copyright © 2011+ HL7    The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at    https://www.hl7.org/fhir/license.html"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="resource"></kind>
+    <abstract value="false"></abstract>
+    <type value="EpisodeOfCare"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="EpisodeOfCare.identifier.assigner">
+            <path value="EpisodeOfCare.identifier.assigner"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.diagnosis.condition">
+            <path value="EpisodeOfCare.diagnosis.condition"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.patient">
+            <path value="EpisodeOfCare.patient"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.managingOrganization">
+            <path value="EpisodeOfCare.managingOrganization"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.referralRequest">
+            <path value="EpisodeOfCare.referralRequest"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.careManager">
+            <path value="EpisodeOfCare.careManager"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></targetProfile>
+            </type>
+        </element>
+        <element id="EpisodeOfCare.team">
+            <path value="EpisodeOfCare.team"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CareTeam-1"></targetProfile>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>

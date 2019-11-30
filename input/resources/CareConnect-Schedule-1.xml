@@ -1,0 +1,33 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="CareConnect-Schedule-1"></id>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1"></url>
+    <version value="1.0.0"></version>
+    <name value="CareConnect-Schedule-1"></name>
+    <status value="draft"></status>
+    <date value="2018-09-27T15:25:34.428+01:00"></date>
+    <publisher value="NHS Digital"></publisher>
+    <contact>
+        <name value="Interoperability Team"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="interoperabilityteam@nhs.net"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="CareConnect Schedule profile."></description>
+    <purpose value="NOT CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/"></purpose>
+    <copyright value="Copyright © 2018 NHS Digital"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="resource"></kind>
+    <abstract value="false"></abstract>
+    <type value="Schedule"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Schedule"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="Schedule.identifier">
+            <path value="Schedule.identifier"></path>
+            <min value="1"></min>
+            <max value="1"></max>
+        </element>
+    </differential>
+</StructureDefinition>

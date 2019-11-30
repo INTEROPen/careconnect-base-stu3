@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Prescribed Elsewhere</h2><div><p>A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">out-of-hours<a name=\"CareConnect-PrescribedElsewhere-1-out-of-hours\"> </a></td><td>Out of Hours</td><td/></tr><tr><td style=\"white-space:nowrap\">hospital<a name=\"CareConnect-PrescribedElsewhere-1-hospital\"> </a></td><td>Hospital</td><td/></tr><tr><td style=\"white-space:nowrap\">dental<a name=\"CareConnect-PrescribedElsewhere-1-dental\"> </a></td><td>Dental</td><td/></tr><tr><td style=\"white-space:nowrap\">other-organisation<a name=\"CareConnect-PrescribedElsewhere-1-other-organisation\"> </a></td><td>Other Organisation</td><td/></tr><tr><td style=\"white-space:nowrap\">hand-written<a name=\"CareConnect-PrescribedElsewhere-1-hand-written\"> </a></td><td>Hand Written</td><td/></tr><tr><td style=\"white-space:nowrap\">self-prescribed<a name=\"CareConnect-PrescribedElsewhere-1-self-prescribed\"> </a></td><td>Self Prescribed</td><td/></tr><tr><td style=\"white-space:nowrap\">private<a name=\"CareConnect-PrescribedElsewhere-1-private\"> </a></td><td>Private</td><td/></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1"];
-  fhir:CodeSystem.version [ fhir:value "1.0.0"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "Care Connect Prescribed Elsewhere"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2018-05-14T01:00:00+01:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK - Example"];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -32,7 +32,7 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
   fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];

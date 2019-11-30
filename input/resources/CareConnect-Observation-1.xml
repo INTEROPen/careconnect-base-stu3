@@ -245,7 +245,7 @@
             <strength value="preferred"></strength>
             <description value=" A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."></description>
             <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "></reference>
+               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"></reference>
             </valueSetReference>
          </binding>
       </element>

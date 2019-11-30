@@ -36,11 +36,11 @@
       "value": "urn:oid:2.16.840.1.113883.4.642.3.115"
     }
   ],
-  "version": "3.0.1",
+  "version": "0.1.0",
   "name": "AllergyIntoleranceVerificationStatus",
   "status": "active",
   "date": "2017-04-18T22:44:47+01:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -57,7 +57,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

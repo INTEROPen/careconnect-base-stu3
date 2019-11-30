@@ -1,0 +1,252 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="CareConnect-Specimen-1"></id>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"></url>
+    <version value="1.1.0"></version>
+    <name value="CareConnect-Specimen-1"></name>
+    <status value="draft"></status>
+    <date value="2019-06-19"></date>
+    <publisher value="HL7 UK"></publisher>
+    <contact>
+        <name value="INTEROPen"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="admin@interopen.org"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="Specimen"></description>
+    <copyright value="Copyright © 2019 HL7 UK   Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at   http://www.apache.org/licenses/LICENSE-2.0   Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.   HL7® FHIR® standard Copyright © 2011+ HL7   The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at   https://www.hl7.org/fhir/license.html"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="resource"></kind>
+    <abstract value="false"></abstract>
+    <type value="Specimen"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Specimen"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="Specimen.identifier.system">
+            <path value="Specimen.identifier.system"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.identifier.value">
+            <path value="Specimen.identifier.value"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.identifier.assigner">
+            <path value="Specimen.identifier.assigner"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.accessionIdentifier.assigner">
+            <path value="Specimen.accessionIdentifier.assigner"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.type.coding">
+            <path value="Specimen.type.coding"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="system"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Specimen.type.coding:snomedCT">
+            <path value="Specimen.type.coding"></path>
+            <sliceName value="snomedCT"></sliceName>
+            <binding>
+                <strength value="extensible"></strength>
+                <description value="A code from the SNOMED Clinical Terminology UK"></description>
+                <valueSetReference>
+                    <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenType-1"></reference>
+                </valueSetReference>
+            </binding>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.extension">
+            <path value="Specimen.type.coding.extension"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="url"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.extension:snomedCTDescriptionID">
+            <path value="Specimen.type.coding.extension"></path>
+            <sliceName value="snomedCTDescriptionID"></sliceName>
+            <type>
+                <code value="Extension"></code>
+                <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
+            </type>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.system">
+            <path value="Specimen.type.coding.system"></path>
+            <min value="1"></min>
+            <fixedUri value="http://snomed.info/sct"></fixedUri>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.version">
+            <path value="Specimen.type.coding.version"></path>
+            <max value="0"></max>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.code">
+            <path value="Specimen.type.coding.code"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.type.coding:snomedCT.display">
+            <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+                <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <path value="Specimen.type.coding.display"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.subject">
+            <path value="Specimen.subject"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"></targetProfile>
+            </type>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"></targetProfile>
+            </type>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"></targetProfile>
+            </type>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.parent">
+            <path value="Specimen.parent"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.request">
+            <path value="Specimen.request"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.collection.extension">
+            <path value="Specimen.collection.extension"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="url"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Specimen.collection.extension:fastingStatus">
+            <path value="Specimen.collection.extension"></path>
+            <sliceName value="fastingStatus"></sliceName>
+            <max value="1"></max>
+            <type>
+                <code value="Extension"></code>
+                <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1"></profile>
+            </type>
+        </element>
+        <element id="Specimen.collection.collector">
+            <path value="Specimen.collection.collector"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.collection.bodySite.coding">
+            <path value="Specimen.collection.bodySite.coding"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="system"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT">
+            <path value="Specimen.collection.bodySite.coding"></path>
+            <sliceName value="snomedCT"></sliceName>
+            <max value="1"></max>
+            <binding>
+                <strength value="extensible"></strength>
+                <description value="A code from the SNOMED Clinical Terminology UK"></description>
+                <valueSetReference>
+                    <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SpecimenBodySite-1"></reference>
+                </valueSetReference>
+            </binding>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.extension">
+            <path value="Specimen.collection.bodySite.coding.extension"></path>
+            <slicing>
+                <discriminator>
+                    <type value="value"></type>
+                    <path value="url"></path>
+                </discriminator>
+                <rules value="open"></rules>
+            </slicing>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.extension:snomedCTDescriptionID">
+            <path value="Specimen.collection.bodySite.coding.extension"></path>
+            <sliceName value="snomedCTDescriptionID"></sliceName>
+            <type>
+                <code value="Extension"></code>
+                <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid"></profile>
+            </type>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.system">
+            <path value="Specimen.collection.bodySite.coding.system"></path>
+            <min value="1"></min>
+            <fixedUri value="http://snomed.info/sct"></fixedUri>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.version">
+            <path value="Specimen.collection.bodySite.coding.version"></path>
+            <max value="0"></max>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.code">
+            <path value="Specimen.collection.bodySite.coding.code"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.collection.bodySite.coding:snomedCT.display">
+            <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+                <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <path value="Specimen.collection.bodySite.coding.display"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Specimen.container.identifier.assigner">
+            <path value="Specimen.container.identifier.assigner"></path>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></targetProfile>
+            </type>
+        </element>
+        <element id="Specimen.note">
+            <path value="Specimen.note"></path>
+            <max value="1"></max>
+        </element>
+        <element id="Specimen.note.author[x]">
+            <path value="Specimen.note.author[x]"></path>
+            <type>
+                <code value="string"></code>
+            </type>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></targetProfile>
+            </type>
+            <type>
+                <code value="Reference"></code>
+                <targetProfile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></targetProfile>
+            </type>
+        </element>
+    </differential>
+</StructureDefinition>

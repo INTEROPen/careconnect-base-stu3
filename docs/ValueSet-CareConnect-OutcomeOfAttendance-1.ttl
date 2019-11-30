@@ -18,11 +18,11 @@
      fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/out/outcome_of_attendance_de.asp?shownav=1" ]
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-OutcomeOfAttendance-1"];
-  fhir:ValueSet.version [ fhir:value "1.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "NHS Data Model and Dictionary Outcome Of Attendance"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:ValueSet.publisher [ fhir:value "HL7 UK - Example"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -37,7 +37,7 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
   fhir:ValueSet.copyright [ fhir:value "Copyright © 2016 HL7 UK"];

@@ -12,11 +12,11 @@
     }
   ],
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeMethod-1",
-  "version": "1.1.0",
+  "version": "0.1.0",
   "name": "NHS Data Model and Dictionary Discharge Method",
   "status": "draft",
   "date": "2018-11-14T00:00:00+00:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -33,7 +33,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

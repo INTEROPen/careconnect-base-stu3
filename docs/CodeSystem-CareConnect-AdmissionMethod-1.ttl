@@ -18,11 +18,11 @@
      fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1" ]
   ];
   fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1"];
-  fhir:CodeSystem.version [ fhir:value "1.1.0"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "NHS Data Model and Dictionary Admission Method"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK - Example"];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -37,7 +37,7 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
   fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];

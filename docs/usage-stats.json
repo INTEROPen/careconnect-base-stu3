@@ -1,7 +1,8 @@
 {
-  "package": "fhir.hl7.org.uk/STU3",
+  "package": "hl7.uk.base",
+  "version": "0.1.0",
   "fhirVersion": "3.0.2",
-  "jurisdiction": "001",
+  "jurisdiction": "826",
   "extensions": [
     {
       "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1",
@@ -1715,6 +1716,51 @@
         "boolean",
         "boolean"
       ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid",
+      "title": "Extension-coding-sctdescid",
+      "types": [
+        "id",
+        "string",
+        "base64Binary",
+        "boolean",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing"
+      ]
     }
   ],
   "profiles": {
@@ -1744,6 +1790,12 @@
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1",
         "title": "CareConnect-CarePlan-1"
+      }
+    ],
+    "CareTeam": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CareTeam-1",
+        "title": "CareConnect-CareTeam-1"
       }
     ],
     "Composition": [
@@ -1776,6 +1828,12 @@
         "title": "CareConnect-Encounter-1"
       }
     ],
+    "EpisodeOfCare": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1",
+        "title": "CareConnect-EpisodeOfCare-1"
+      }
+    ],
     "FamilyMemberHistory": [
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-FamilyMemberHistory-1",
@@ -1786,6 +1844,12 @@
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-Flag-1",
         "title": "CareConnect-Medication-Flag-1"
+      }
+    ],
+    "HealthcareService": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HealthcareService-1",
+        "title": "CareConnect-HealthcareService-1"
       }
     ],
     "Immunization": [
@@ -1890,10 +1954,22 @@
         "title": "CareConnect-RiskAssessment-1"
       }
     ],
+    "Schedule": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1",
+        "title": "CareConnect-Schedule-1"
+      }
+    ],
     "Slot": [
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1",
         "title": "CareConnect-Slot-1"
+      }
+    ],
+    "Specimen": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1",
+        "title": "CareConnect-Specimen-1"
       }
     ]
   },
@@ -2013,6 +2089,9 @@
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Evidence-1": [
       "AllergyIntolerance"
     ],
+    "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1": [
+      "Specimen.collection"
+    ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ListWarningCode-1": [
       "List"
     ],
@@ -2124,7 +2203,9 @@
       "ProcedureRequest.bodySite.coding",
       "ProcedureRequest.category.coding",
       "ProcedureRequest.code.coding",
-      "ProcedureRequest.reasonCode.coding"
+      "ProcedureRequest.reasonCode.coding",
+      "Specimen.collection.bodySite.coding",
+      "Specimen.type.coding"
     ]
   }
 }

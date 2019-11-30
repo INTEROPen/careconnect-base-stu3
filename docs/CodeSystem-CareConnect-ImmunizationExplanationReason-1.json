@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Immunization Explanation Reason</h2><div><p>A CodeSystem that identifies a code to record the reason why a vaccine was administered.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CareConnect-ImmunizationExplanationReason-1-1\"> </a></td><td>Routine mass immunisation</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CareConnect-ImmunizationExplanationReason-1-2\"> </a></td><td>Travel to endemic area</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CareConnect-ImmunizationExplanationReason-1-3\"> </a></td><td>Planned travel to high risk area</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CareConnect-ImmunizationExplanationReason-1-4\"> </a></td><td>Recent travel to high risk area</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CareConnect-ImmunizationExplanationReason-1-5\"> </a></td><td>Subpopulation at special or unusual risk</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CareConnect-ImmunizationExplanationReason-1-6\"> </a></td><td>High risk due to occupation</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CareConnect-ImmunizationExplanationReason-1-7\"> </a></td><td>High risk due to lifestyle</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CareConnect-ImmunizationExplanationReason-1-8\"> </a></td><td>High risk due to existing medical condition</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CareConnect-ImmunizationExplanationReason-1-9\"> </a></td><td>Control of known sporadic outbreak</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CareConnect-ImmunizationExplanationReason-1-10\"> </a></td><td>Patient request</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CareConnect-ImmunizationExplanationReason-1-11\"> </a></td><td>Post-exposure prophyaxis</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"CareConnect-ImmunizationExplanationReason-1-12\"> </a></td><td>Other</td><td/></tr></table></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "Care Connect Immunization Explanation Reason",
   "status": "draft",
   "date": "2018-05-03T01:00:00+01:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -27,7 +27,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

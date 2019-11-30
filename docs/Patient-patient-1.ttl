@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: patient-1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><b>generalPractitioner</b>: <a href=\"Practitioner/1\">Dr. AA Bhatia</a></p><p><b>managingOrganization</b>: <a href=\"Organization/1\">The Moir Medical Centre</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: patient-1</p><p><b>meta</b>: </p><p><b>identifier</b>: 9876543210, ABC8650149</p><p><b>name</b>: Bernie Kanfeld (OFFICIAL)</p><p><b>telecom</b>: ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1998-03-19</p><p><b>address</b>: Field Jardin Long Eaton Nottingham NG10 1ZZ (WORK)</p><p><b>maritalStatus</b>: Never Married <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/v3/MaritalStatus code 'S' = 'Never Married', given as 'Never Married'})</span></p><p><b>generalPractitioner</b>: <a href=\"{{[id]}}.html\">Dr. AA Bhatia. Generated Summary: id: practitioner-4; G8133438; active; AA Bhatia ; abhatia@nhs.skynet(WORK), ph: 0115 9737320(WORK); gender: male</a></p><p><b>managingOrganization</b>: <a href=\"{{[id]}}.html\">The Moir Medical Centre. Generated Summary: id: organization-2; C81010; active; name: The Moir Medical Centre; ph: 0115 9737320(WORK)</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -102,13 +102,13 @@
   ];
   fhir:Patient.generalPractitioner [
      fhir:index 0;
-     fhir:link <https://fhir.hl7.org.uk/STU3/Practitioner/1>;
-     fhir:Reference.reference [ fhir:value "Practitioner/1" ];
+     fhir:link <https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-4>;
+     fhir:Reference.reference [ fhir:value "Practitioner/practitioner-4" ];
      fhir:Reference.display [ fhir:value "Dr. AA Bhatia" ]
   ];
   fhir:Patient.managingOrganization [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Organization/1>;
-     fhir:Reference.reference [ fhir:value "Organization/1" ];
+     fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-2>;
+     fhir:Reference.reference [ fhir:value "Organization/organization-2" ];
      fhir:Reference.display [ fhir:value "The Moir Medical Centre" ]
   ] .
 

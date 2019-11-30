@@ -5,7 +5,7 @@
     <h4 id="identifiers">Identifiers</h4>
     <p>These definitions represent common data held in the Patient.identifier element:</p>
     <ul>
-        <li>NHS Number - England and Wales</li>
+        <li>NHS Number - England and Wales <i>https://fhir.nhs.uk/Id/nhs-number</i></li>
         <li>CHI Number - Scotland. Not yet specified</li>
         <li>HSNi - Northern Ireland. Not yet specified</li>
     </ul>

@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Relationship</h2><div><p>A ValueSet that identifies the kind of relationship that exists with a target condition or problem..</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ConditionRelationship-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1</code></a></li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionRelationship-1",
-  "version": "1.2.0",
+  "version": "0.1.0",
   "name": "Care Connect Condition Relationship",
   "status": "draft",
   "date": "2019-09-04T15:30:00+01:00",
-  "publisher": "HL7 West Riding - Example",
+  "publisher": "HL7 UK - Example",
   "contact": [
     {
       "telecom": [
@@ -27,7 +27,7 @@
       "coding": [
         {
           "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "code": "826"
         }
       ]
     }

@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/Observation/observation-9084> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "observation-9084"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2018-09-14T08:44:09.570+00:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: observation-9084</p><p><b>meta</b>: </p><p><b>identifier</b>: CD20170922173803</p><p><b>status</b>: final</p><p><b>category</b>: Cardiovascular observable <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/observation-category code 'vital-signs' = 'Vital Signs', given as 'Vital Signs'})</span></p><p><b>code</b>: Heart rate <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '364075005' = 'Heart rate', given as 'Heart rate'})</span></p><p><b>subject</b>: <a href=\"{{[id]}}.html\">Ms Bernie Kanfeld. Generated Summary: id: patient-1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title=\"Codes: {http://hl7.org/fhir/v3/MaritalStatus S}\">Never Married</span></a></p><p><b>effective</b>: 22 Sep 2017, 18:38:03</p><p><b>performer</b>: <a href=\"{{[id]}}.html\">Dr Bhatia. Generated Summary: id: practitioner-4; G8133438; active; AA Bhatia ; abhatia@nhs.skynet(WORK), ph: 0115 9737320(WORK); gender: male</a></p><p><b>value</b>: 98.00 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code /min = '/min')</span></p></div>"
+  ];
+  fhir:Observation.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://fhir.health.phr.example.com/Id/observation" ];
+     fhir:Identifier.value [ fhir:value "CD20170922173803" ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/observation-category" ];
+       fhir:Coding.code [ fhir:value "vital-signs" ];
+       fhir:Coding.display [ fhir:value "Vital Signs" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Cardiovascular observable" ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:364075005;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "364075005" ];
+       fhir:Coding.display [ fhir:value "Heart rate" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Heart rate" ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/patient-1>;
+     fhir:Reference.reference [ fhir:value "Patient/patient-1" ];
+     fhir:Reference.display [ fhir:value "Ms Bernie Kanfeld" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2017-09-22T17:38:03+00:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-4>;
+     fhir:Reference.reference [ fhir:value "Practitioner/practitioner-4" ];
+     fhir:Reference.display [ fhir:value "Dr Bhatia" ]
+  ];
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "98.00"^^xsd:decimal ];
+     fhir:Quantity.unit [ fhir:value "/min" ];
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+     fhir:Quantity.code [ fhir:value "/min" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/Observation/observation-9084.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

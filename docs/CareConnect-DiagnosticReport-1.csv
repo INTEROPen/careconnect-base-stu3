@@ -73,7 +73,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
 "DiagnosticReport.category.coding.extension","snomedCTDescriptionID","","",0,*,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
+","The SNOMED CT Description ID for the display","The SNOMED CT Description ID for the display.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","","n/a","N/A"
 "DiagnosticReport.category.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"","","C*E.3","./codeSystem"
 "DiagnosticReport.category.coding.version","","","",0,1,"","","Y","string {[]} {[]}
@@ -106,7 +106,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
 "DiagnosticReport.code.coding.extension","snomedCTDescriptionID","","",0,*,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
+","The SNOMED CT Description ID for the display","The SNOMED CT Description ID for the display.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","","n/a","N/A"
 "DiagnosticReport.code.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"","","C*E.3","./codeSystem"
 "DiagnosticReport.code.coding.version","","","",0,1,"","","Y","string {[]} {[]}
@@ -192,7 +192,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
 "DiagnosticReport.codedDiagnosis.coding.extension","snomedCTDescriptionID","","",0,*,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"",""
+","The SNOMED CT Description ID for the display","The SNOMED CT Description ID for the display.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","","n/a","N/A"
 "DiagnosticReport.codedDiagnosis.coding.system","","","",1,1,"","","Y","uri {[]} {[]}
 ","Identity of the terminology system","The identification of the code system that defines the meaning of the symbol in the code.","The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should de-reference to some definition that establish the system clearly and unambiguously.","Need to be unambiguous about the source of the definition of the symbol.","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://snomed.info/sct""/>","","","","",,,,,"",,,,"Coding.system",0,1,"","","C*E.3","./codeSystem"
 "DiagnosticReport.codedDiagnosis.coding.version","","","",0,1,"","","Y","string {[]} {[]}

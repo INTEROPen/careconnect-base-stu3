@@ -11,11 +11,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.15.11.36"/>
   </identifier>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="Care Connect Manufactured Material SnCT"/>
   <status value="draft"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 West Riding - Example"/>
+  <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -26,7 +26,7 @@
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <code value="826"/>
     </coding>
   </jurisdiction>
   <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>CARE-CONNECT-STU3\MedicationDispense-1 - Definitions - FHIR v3.0.2</title>
+    <title>HL7.UK.BASE\MedicationDispense-1 - Definitions - FHIR v3.0.2</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -36,14 +36,14 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"6.15"}
-    h3,h4,h5,h6{--heading-prefix:"6.15"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.18"}
+    h3,h4,h5,h6{--heading-prefix:"4.18"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">An example implementation guide for Care Connect</span><br/> - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK Base (Example)</span><br/>0.1.0 - CI Build</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -64,42 +64,9 @@
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">Care Connect Implementation Guide</a></li>
+  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li><a href="artifacts.html">Profiles and Terminology</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Care Connect Background<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="background.html">Background</a>
-      </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Specification<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="spec.html">Detailed Specification</a>
-      </li>
-    </ul>
-  </li>
-  <li><a href="artifacts.html">Artifact Index</a></li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
-      </b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a target="_blank" href="http://hl7.org/fhir/STU3/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
-      </li>
-      <li>
-        <a href="downloads.html">Downloads</a>
-      </li>
-    </ul>
-  </li>
 </ul>      
 
             </div>  <!-- /.nav-collapse -->
@@ -126,7 +93,7 @@
 
 
 <div style="counter-reset: section 4" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">An example implementation guide for Care Connect - Local Development build (vnull). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">HL7 UK Base (Example) - Local Development build (v0.1.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <ul class="nav nav-tabs">
     <li>
       <a href="CareConnect-MedicationDispense-1.html">Content</a>
@@ -356,7 +323,7 @@
   <tr><td>Definition</td><td><p>The encounter or episode of care that establishes the context for this event.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/STU3/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/references.html#Reference">Reference</a>(https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1 | <a href="CareConnect-Encounter-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1">CareConnect-Encounter-1</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/STU3/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/STU3/references.html#Reference">Reference</a>(<a href="CareConnect-EpisodeOfCare-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1">CareConnect-EpisodeOfCare-1</a> | <a href="CareConnect-Encounter-1.html" title="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1">CareConnect-Encounter-1</a>)</td></tr>
   <tr><td colspan="2" class="structure"><span class="self-link-parent"><a name="MedicationDispense.supportingInformation"> </a><span style="color: grey">26.</span> <b>MedicationDispense.supportingInformation</b><a href="#MedicationDispense.supportingInformation" title="link to here" class="self-link"><svg viewBox="0 0 1792 1792" width="16" class="self-link" height="16"><path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z" fill="navy"></path></svg></a></span></td></tr>
   <tr><td>Definition</td><td><p>Additional information that supports the medication being dispensed.</p>
 </td></tr>
@@ -667,7 +634,7 @@ The pharmacist reviews the medication order prior to dispense and updates the do
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 West Riding - Example</a>.  Package fhir.hl7.org.uk/STU3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Nov 29, 2019 17:03+0000">2019-11-29</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK - Example</a>.  Package hl7.uk.base#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Nov 30, 2019 10:12+0000">2019-11-30</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

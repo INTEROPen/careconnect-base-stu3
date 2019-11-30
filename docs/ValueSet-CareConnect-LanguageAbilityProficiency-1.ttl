@@ -18,11 +18,11 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.61" ]
   ];
-  fhir:ValueSet.version [ fhir:value "1.1.0"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "Care Connect Language Ability Proficiency"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 West Riding - Example"];
+  fhir:ValueSet.publisher [ fhir:value "HL7 UK - Example"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -37,7 +37,7 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
   fhir:ValueSet.copyright [ fhir:value "Copyright © 2016 HL7 UK"];

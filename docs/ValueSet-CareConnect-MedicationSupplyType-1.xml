@@ -7,11 +7,11 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-MedicationSupplyType-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1</code></a></li></ul></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationSupplyType-1"/>
-  <version value="1.0.0"/>
+  <version value="0.1.0"/>
   <name value="Care Connect Medication Supply Type"/>
   <status value="draft"/>
   <date value="2018-07-11T01:00:00+01:00"/>
-  <publisher value="HL7 West Riding - Example"/>
+  <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -22,7 +22,7 @@
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <code value="826"/>
     </coding>
   </jurisdiction>
   <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
