@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-02T16:42:55+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-02T21:42:12+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK - Example"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3675,16 +3675,11 @@
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
      ], [
        fhir:index 1;
-       fhir:ImplementationGuide.page.source [ fhir:value "terminology.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "UK CodeSystems and ValueSets" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 2;
        fhir:ImplementationGuide.page.source [ fhir:value "changes.html" ];
        fhir:ImplementationGuide.page.title [ fhir:value "IG Change History" ];
        fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:ImplementationGuide.page.source [ fhir:value "patient-search.html" ];
        fhir:ImplementationGuide.page.title [ fhir:value "Patient Search" ];
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]

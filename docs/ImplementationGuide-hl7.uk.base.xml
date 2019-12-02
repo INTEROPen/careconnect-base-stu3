@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-02T16:42:55+00:00"/>
+  <date value="2019-12-02T21:42:12+00:00"/>
   <publisher value="HL7 UK - Example"/>
   <contact>
     <telecom>
@@ -2849,11 +2849,6 @@
     <page>
       <source value="index.html"/>
       <title value="HL7 UK Home Page"/>
-      <kind value="resource"/>
-    </page>
-    <page>
-      <source value="terminology.html"/>
-      <title value="UK CodeSystems and ValueSets"/>
       <kind value="resource"/>
     </page>
     <page>

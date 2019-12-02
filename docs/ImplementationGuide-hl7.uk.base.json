@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-02T16:42:55+00:00",
+  "date": "2019-12-02T21:42:12+00:00",
   "publisher": "HL7 UK - Example",
   "contact": [
     {
@@ -3673,11 +3673,6 @@
       {
         "source": "index.html",
         "title": "HL7 UK Home Page",
-        "kind": "resource"
-      },
-      {
-        "source": "terminology.html",
-        "title": "UK CodeSystems and ValueSets",
         "kind": "resource"
       },
       {
