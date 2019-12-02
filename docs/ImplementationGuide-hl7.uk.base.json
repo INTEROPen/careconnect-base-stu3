@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-11-30T12:11:45+00:00",
+  "date": "2019-12-02T16:11:47+00:00",
   "publisher": "HL7 UK - Example",
   "contact": [
     {
@@ -678,9 +678,9 @@
       ]
     },
     {
-      "id": "uk-2",
-      "name": "HL7 UK Level 3 Profiles",
-      "description": "UK Level 3 FHIR Profiles",
+      "id": "uk-vs",
+      "name": "HL7 UK Vital Signs",
+      "description": "UK Level 3 FHIR Profiles, CodeSystems and ValueSets for the support of NEWS2",
       "resource": [
         {
           "extension": [
@@ -762,24 +762,6 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "CareConnect-Medication-Flag-1.html"
-            }
-          ],
-          "example": false,
-          "name": "Medication-Flag-1",
-          "description": "This Flag Resource carries prospective warnings of potential issues related to the patient's medications.",
-          "sourceReference": {
-            "reference": "StructureDefinition/CareConnect-Medication-Flag-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "StructureDefinition:resource"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "CareConnect-OxygenSaturation-Observation-1.html"
             }
           ],
@@ -798,24 +780,6 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "CareConnect-ProblemHeader-Condition-1.html"
-            }
-          ],
-          "example": false,
-          "name": "ProblemHeader-Condition-1",
-          "description": "This Condition resource records detailed information about conditions or diagnoses recognised by a clinician.",
-          "sourceReference": {
-            "reference": "StructureDefinition/CareConnect-ProblemHeader-Condition-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "StructureDefinition:resource"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "CareConnect-RespiratoryRate-Observation-1.html"
             }
           ],
@@ -824,6 +788,24 @@
           "description": "A Vital Signs profile to carry a patient's respiratory rate.",
           "sourceReference": {
             "reference": "StructureDefinition/CareConnect-RespiratoryRate-Observation-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ValueSet"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "valueset-CareConnect-SaturatedOxygenSp02Scale-1.html"
+            }
+          ],
+          "example": false,
+          "name": "SaturatedOxygenSp02Scale-1",
+          "description": "A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)",
+          "sourceReference": {
+            "reference": "ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"
           }
         },
         {
@@ -860,6 +842,49 @@
           "description": "A vital signs profile which sets minimum expectations for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI.",
           "sourceReference": {
             "reference": "StructureDefinition/CareConnect-VitalSigns-Observation-1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "uk-2",
+      "name": "HL7 UK Level 3 Profiles",
+      "description": "UK Level 3 FHIR Profiles",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:resource"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-Medication-Flag-1.html"
+            }
+          ],
+          "example": false,
+          "name": "Medication-Flag-1",
+          "description": "This Flag Resource carries prospective warnings of potential issues related to the patient's medications.",
+          "sourceReference": {
+            "reference": "StructureDefinition/CareConnect-Medication-Flag-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:resource"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-ProblemHeader-Condition-1.html"
+            }
+          ],
+          "example": false,
+          "name": "ProblemHeader-Condition-1",
+          "description": "This Condition resource records detailed information about conditions or diagnoses recognised by a clinician.",
+          "sourceReference": {
+            "reference": "StructureDefinition/CareConnect-ProblemHeader-Condition-1"
           }
         }
       ]
@@ -2575,24 +2600,6 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "valueset-CareConnect-SaturatedOxygenSp02Scale-1.html"
-            }
-          ],
-          "example": false,
-          "name": "SaturatedOxygenSp02Scale-1",
-          "description": "A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)",
-          "sourceReference": {
-            "reference": "ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "ValueSet"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "valueset-CareConnect-SourceOfAdmission-1.html"
             }
           ],
@@ -3666,6 +3673,11 @@
       {
         "source": "index.html",
         "title": "HL7 UK Home Page",
+        "kind": "resource"
+      },
+      {
+        "source": "terminology.html",
+        "title": "UK CodeSystems and ValueSets",
         "kind": "resource"
       },
       {

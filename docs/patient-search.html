@@ -18,8 +18,6 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-
-      <!-- Placeholder for child template CSS declarations -->
   
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -36,13 +34,23 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
-        
-
-        <div id="ig-status">
+        <div id="hl7-nav">
+          <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/STU3/">
+            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+        <div id="hl7-status">
           <p><span style="font-size:12pt;font-weight:bold">HL7 UK Base (Example)</span><br/>0.1.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
@@ -66,9 +74,9 @@
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">HL7 UK Implementation Guide</a></li>
   <li><a href="artifacts.html">Profiles and Terminology</a></li>
+    <!-- <li><a href="terminology.html">Terminology </a></li> -->
   <li><a href="toc.html">Table of Contents</a></li>
-</ul>      
-
+</ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
         </nav>    <!-- /.navbar -->
@@ -144,7 +152,7 @@ etc.</li>
 
 <p><img src="images/PDQ Actor Diagram.jpg" alt="Patient Search FHIR Actor Diagram"/></p>
 
-<p><a name="3a568c31-21db-4fd0-9ef2-0765d9e64d14">​</a>The patient search can use any of the search parameters defined in the <a href="api_entity_patient.html">Patient</a> API. For example if the patient informs the nurse of their date of birth and part of the name (i.e. 19th Mar 1998 and Bernie) and surname the query would be.</p>
+<p><a name="b9191d31-49fa-4e40-8e69-7b5fb59fe2f2">​</a>The patient search can use any of the search parameters defined in the <a href="api_entity_patient.html">Patient</a> API. For example if the patient informs the nurse of their date of birth and part of the name (i.e. 19th Mar 1998 and Bernie) and surname the query would be.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [baseUrl]/Patient?birthdate=1998-03-13&amp;name=bernie
 </code></pre></div></div>
@@ -309,11 +317,15 @@ etc.</li>
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 UK - Example.  Package hl7.uk.base#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Nov 30, 2019 12:11+0000">2019-11-30</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 UK - Example.  Package hl7.uk.base#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 2, 2019 16:11+0000">2019-12-02</span>
           <br/>
           <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
+                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
+                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

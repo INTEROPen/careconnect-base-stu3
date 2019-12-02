@@ -34,6 +34,10 @@
          <name value="HL7 UK Base Profiles"></name>
          <description value="UK Base FHIR Profiles"></description>
       </grouping>
+      <grouping id="uk-vs">
+         <name value="HL7 UK Vital Signs"></name>
+         <description value="UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)"></description>
+      </grouping>
       <grouping id="uk-2">
          <name value="HL7 UK Level 3 Profiles"></name>
          <description value="UK Level 3 FHIR Profiles"></description>
@@ -113,7 +117,7 @@
             <reference value="StructureDefinition/CareConnect-ACVPU-Observation-1"></reference>
          </reference>
          <name value="ACVPU-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -211,7 +215,7 @@
             <reference value="StructureDefinition/CareConnect-BloodPressure-Observation-1"></reference>
          </reference>
          <name value="BloodPressure-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -463,7 +467,7 @@
             <reference value="StructureDefinition/CareConnect-HeartRate-Observation-1"></reference>
          </reference>
          <name value="HeartRate-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -505,7 +509,7 @@
             <reference value="StructureDefinition/CareConnect-InspiredOxygen-Observation-1"></reference>
          </reference>
          <name value="InspiredOxygen-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -785,7 +789,7 @@
             <reference value="StructureDefinition/CareConnect-OxygenSaturation-Observation-1"></reference>
          </reference>
          <name value="OxygenSaturation-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -995,7 +999,7 @@
             <reference value="StructureDefinition/CareConnect-RespiratoryRate-Observation-1"></reference>
          </reference>
          <name value="RespiratoryRate-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -1023,7 +1027,7 @@
             <reference value="ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"></reference>
          </reference>
          <name value="SaturatedOxygenSp02Scale-1"></name>
-         <groupingId value="uk-4"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -1072,7 +1076,7 @@
             <reference value="StructureDefinition/CareConnect-Subscore-Observation-1"></reference>
          </reference>
          <name value="Subscore-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -1107,7 +1111,7 @@
             <reference value="StructureDefinition/CareConnect-VitalSigns-Observation-1"></reference>
          </reference>
          <name value="VitalSigns-Observation-1"></name>
-         <groupingId value="uk-2"></groupingId>
+         <groupingId value="uk-vs"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -1463,6 +1467,11 @@
          <page>
             <nameUrl value="index.html"></nameUrl>
             <title value="HL7 UK Home Page"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="terminology.html"></nameUrl>
+            <title value="UK CodeSystems and ValueSets"></title>
             <generation value="markdown"></generation>
          </page>
          <page>
