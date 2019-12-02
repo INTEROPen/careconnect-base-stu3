@@ -33,11 +33,11 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.4.642.3.28"/>
   </identifier>
-  <version value="0.1.0"/>
+  <version value="3.0.0"/>
   <name value="Marital Status Codes"/>
   <status value="draft"/>
   <date value="2017-04-18T22:44:47+01:00"/>
-  <publisher value="HL7 UK - Example"/>
+  <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>

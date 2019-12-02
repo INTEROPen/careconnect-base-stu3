@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Procedure Code</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|).</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)</li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Procedure Code",
   "status": "draft",
   "date": "2018-11-01T00:00:00+00:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

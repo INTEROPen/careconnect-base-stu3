@@ -7,9 +7,9 @@ to enable feedback to improve the content of this guide.
 ## Scope
 
 This document presents UK use concepts defined via FHIR processable artefacts; these are collaborative outputs with agreed approaches to varied kinds of healthcare related information based on the core FHIR STU3 specification. 
-* [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatype for UK use
-* [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed UK concepts
-* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for UK context
+* **Profiles** - are useful constraints of core FHIR resources and datatype for UK use
+* **Extensions** - are FHIR extensions that are added for local use, covering needed UK concepts
+* **Terminologies** - are defined or referenced code systems and value sets for UK context
 
 ## Usage
 

@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Observation Type</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;363787002 | Observable entity|).</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;363787002 | Observable entity|)</li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Observation Type",
   "status": "draft",
   "date": "2018-10-16T01:00:00+01:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

@@ -9,11 +9,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/STU3/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/STU3/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1"/>
-  <version value="0.1.0"/>
+  <version value="3.0.0"/>
   <name value="CareConnect-Quantity-1"/>
   <status value="draft"/>
   <date value="2019-04-03T00:00:00+01:00"/>
-  <publisher value="HL7 UK - Example"/>
+  <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>

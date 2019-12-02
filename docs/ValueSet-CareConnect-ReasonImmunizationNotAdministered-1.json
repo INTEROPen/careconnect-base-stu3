@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Reason Immunization Not Administered</h2><div><p>A ValueSet to identify the reason why an immunization was not administered.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102\">201741000000102</a></td><td>Did not attend child immunisation (finding)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006\">281399006</a></td><td>Did not attend (finding)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006\">213257006</a></td><td>Generally unwell (finding)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009\">266758009</a></td><td>Immunization contraindicated (situation)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006\">310376006</a></td><td>Immunization consent not given (finding)</td><td/></tr></table></li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Reason Immunization Not Administered",
   "status": "draft",
   "date": "2019-11-22T17:17:00+00:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

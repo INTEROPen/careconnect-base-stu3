@@ -7,11 +7,11 @@
 </div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-ResidentialStatus-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1</code></a></li></ul></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1"/>
-  <version value="0.1.0"/>
+  <version value="3.0.0"/>
   <name value="Care Connect Residential Status"/>
   <status value="draft"/>
   <date value="2018-11-02T00:00:00+00:00"/>
-  <publisher value="HL7 UK - Example"/>
+  <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>

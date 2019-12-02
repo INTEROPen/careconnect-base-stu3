@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect List Empty Reason Code</h2><div><p>A CodeSystem to identify the reason a list may be empty.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">no-content-recorded<a name=\"CareConnect-ListEmptyReasonCode-1-no-content-recorded\"> </a></td><td>No Content Recorded</td><td/></tr></table></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect List Empty Reason Code",
   "status": "draft",
   "date": "2018-11-01T00:00:00+00:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

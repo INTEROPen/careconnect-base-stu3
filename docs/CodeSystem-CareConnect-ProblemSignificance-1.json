@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Problem Significance</h2><div><p>A CodeSystem to record the significance of a Problem Header Condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">major<a name=\"CareConnect-ProblemSignificance-1-major\"> </a></td><td>Major</td><td/></tr><tr><td style=\"white-space:nowrap\">minor<a name=\"CareConnect-ProblemSignificance-1-minor\"> </a></td><td>Minor</td><td/></tr></table></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Problem Significance",
   "status": "draft",
   "date": "2018-04-16T01:00:00+01:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

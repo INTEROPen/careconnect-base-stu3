@@ -7,11 +7,11 @@
 </div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  in  999000391000000109</li></ul></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1"/>
-  <version value="0.1.0"/>
+  <version value="3.0.0"/>
   <name value="Care Connect Document Type"/>
   <status value="draft"/>
   <date value="2018-11-05T00:00:00+00:00"/>
-  <publisher value="HL7 UK - Example"/>
+  <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>

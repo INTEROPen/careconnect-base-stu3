@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Relationship</h2><div><p>A CodeSystem that identifies the kind of relationship that exists with a target condition or problem.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">merge-combine<a name=\"CareConnect-ConditionRelationship-1-merge-combine\"> </a></td><td>Merge/Combine</td><td>This condition is merged/combined with the target condition to form a single logical condition.</td></tr><tr><td style=\"white-space:nowrap\">nesting<a name=\"CareConnect-ConditionRelationship-1-nesting\"> </a></td><td>Nesting</td><td>This target condition is a component problem of this condition.</td></tr><tr><td style=\"white-space:nowrap\">evolve<a name=\"CareConnect-ConditionRelationship-1-evolve\"> </a></td><td>Evolve</td><td>This condition has evolved from the target condition.</td></tr><tr><td style=\"white-space:nowrap\">parent<a name=\"CareConnect-ConditionRelationship-1-parent\"> </a></td><td>Parent</td><td>The problem referenced is the parent of the problem/item in the resource.</td></tr><tr><td style=\"white-space:nowrap\">child<a name=\"CareConnect-ConditionRelationship-1-child\"> </a></td><td>Child</td><td>The problem referenced is the child of the problem/item in the resource.</td></tr><tr><td style=\"white-space:nowrap\">sibling<a name=\"CareConnect-ConditionRelationship-1-sibling\"> </a></td><td>Sibling</td><td>The problem referenced is a sibling of the problem/item in the resource.</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"];
-  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
   fhir:CodeSystem.name [ fhir:value "Care Connect Condition Relationship"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2019-10-24T19:50:00+01:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "HL7 UK - Example"];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [

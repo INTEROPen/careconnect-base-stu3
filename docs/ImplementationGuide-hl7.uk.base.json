@@ -6,12 +6,12 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-02T21:42:12+00:00",
-  "publisher": "HL7 UK - Example",
+  "date": "2019-12-02T22:14:03+00:00",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [
@@ -3679,6 +3679,16 @@
         "source": "changes.html",
         "title": "IG Change History",
         "kind": "page"
+      },
+      {
+        "source": "guidance.html",
+        "title": "Guidance",
+        "kind": "resource"
+      },
+      {
+        "source": "history.html",
+        "title": "IG History",
+        "kind": "resource"
       },
       {
         "source": "patient-search.html",

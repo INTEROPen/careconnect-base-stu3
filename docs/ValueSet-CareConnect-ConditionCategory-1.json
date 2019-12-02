@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Category</h2><div><p>A ValueSet to identify the category of a condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ConditionCategory-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1</code></a></li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionCategory-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Condition Category",
   "status": "draft",
   "date": "2018-11-14T00:00:00+00:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

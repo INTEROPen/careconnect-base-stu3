@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0427eecd-09b4-4c6b-901a-90725f9e0ee3"/>
+  <id value="0834ed09-4a14-45a3-b68b-256b7b2633bb"/>
   <meta>
-    <lastUpdated value="2019-12-02T21:42:12.896+00:00"/>
+    <lastUpdated value="2019-12-02T22:14:03.458+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -88,11 +88,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.4.642.3.1"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Administrative Gender"/>
         <status value="draft"/>
         <date value="2017-04-18T22:46:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -108,8 +108,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:5e97c4c8-a7ad-488c-974e-a344489ade5f"/>
-          <timestamp value="2019-12-02T21:42:53+00:00"/>
+          <identifier value="urn:uuid:b0515a57-2dfc-4525-8489-d0d30658c5f9"/>
+          <timestamp value="2019-12-02T22:14:33+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -209,11 +209,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.4.642.3.115"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="AllergyIntoleranceVerificationStatus"/>
         <status value="active"/>
         <date value="2017-04-18T22:44:47+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -229,8 +229,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:6add7acb-f259-46eb-8296-b318ac4ea9a4"/>
-          <timestamp value="2019-12-02T21:43:02+00:00"/>
+          <identifier value="urn:uuid:bf1d1e3a-127d-44b4-9414-ffb94922ef48"/>
+          <timestamp value="2019-12-02T22:14:36+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -263,7 +263,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ConditionCategory-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1</code>
@@ -325,11 +325,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionCategory-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Condition Category"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -345,8 +345,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:6a5d62d2-da25-4bac-8472-94e7e393586f"/>
-          <timestamp value="2019-12-02T21:43:18+00:00"/>
+          <identifier value="urn:uuid:9d928505-908e-41e3-86eb-a1a5da628198"/>
+          <timestamp value="2019-12-02T22:14:48+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -354,7 +354,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1"/>
@@ -502,7 +502,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ConditionEpisodicity-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1</code>
@@ -559,11 +559,11 @@
           <valueCanonical value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-ConditionEpisodicity-1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Condition Episodicity"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -579,8 +579,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:f25955dc-26e2-4154-a910-2c6c919c810f"/>
-          <timestamp value="2019-12-02T21:43:18+00:00"/>
+          <identifier value="urn:uuid:a64f3848-73d9-4989-9e0d-f303239855f3"/>
+          <timestamp value="2019-12-02T22:14:48+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -588,7 +588,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1"/>
@@ -623,7 +623,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ConditionRelationship-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1</code>
@@ -693,11 +693,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionRelationship-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Condition Relationship"/>
         <status value="draft"/>
         <date value="2019-09-04T15:30:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -713,8 +713,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:ad67ccd0-db4c-4c2e-90a1-fcebbafe3b6b"/>
-          <timestamp value="2019-12-02T21:43:18+00:00"/>
+          <identifier value="urn:uuid:89e97549-488a-4b8f-b0c1-5a5650ba10bb"/>
+          <timestamp value="2019-12-02T22:14:48+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -722,7 +722,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionRelationship-1"/>
@@ -767,7 +767,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 19 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-DischargeDestination-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1</code>
@@ -944,11 +944,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_destination_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeDestination-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Discharge Destination"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -964,8 +964,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:cd5b2301-2934-407d-9745-0a3d67b9d28b"/>
-          <timestamp value="2019-12-02T21:43:21+00:00"/>
+          <identifier value="urn:uuid:8940a337-5bc1-42e8-b844-0cd6465a19ba"/>
+          <timestamp value="2019-12-02T22:14:51+00:00"/>
           <total value="19"/>
           <parameter>
             <name value="excludeNested"/>
@@ -973,7 +973,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"/>
@@ -1083,7 +1083,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 189 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-HumanLanguage-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1</code>
@@ -2621,11 +2621,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.17.70"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Human Language"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -2641,8 +2641,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:2779d11c-9582-44f5-b79f-2bf3c2e6fcd5"/>
-          <timestamp value="2019-12-02T21:43:33+00:00"/>
+          <identifier value="urn:uuid:43164be3-931c-4de4-92f7-2c644d2fb6e0"/>
+          <timestamp value="2019-12-02T22:15:06+00:00"/>
           <total value="189"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2650,7 +2650,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1"/>
@@ -3610,7 +3610,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 12 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ImmunizationExplanationReason-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1</code>
@@ -3728,11 +3728,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ImmunizationExplanationReason-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Immunization Explanation Reason"/>
         <status value="draft"/>
         <date value="2018-05-03T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -3748,8 +3748,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:037adc00-396f-4f9b-a969-5f26bc13ac1d"/>
-          <timestamp value="2019-12-02T21:43:35+00:00"/>
+          <identifier value="urn:uuid:cb7b7a31-1630-4023-aae6-464176351938"/>
+          <timestamp value="2019-12-02T22:15:08+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3757,7 +3757,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ImmunizationExplanationReason-1"/>
@@ -4031,7 +4031,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-LanguageAbilityMode-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1</code>
@@ -4105,11 +4105,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.5.60"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Language Ability Mode"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -4125,8 +4125,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:1dbe3171-83c9-46c6-8db2-26798aa719e9"/>
-          <timestamp value="2019-12-02T21:43:37+00:00"/>
+          <identifier value="urn:uuid:c2dbd7af-270d-4f36-aa8c-6b9bf4aa2e2c"/>
+          <timestamp value="2019-12-02T22:15:10+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4134,7 +4134,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityMode-1"/>
@@ -4179,7 +4179,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-LanguageAbilityProficiency-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1</code>
@@ -4237,11 +4237,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.5.61"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Language Ability Proficiency"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -4257,8 +4257,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:fa584498-fab8-46ea-93b2-1ad6739913c1"/>
-          <timestamp value="2019-12-02T21:43:37+00:00"/>
+          <identifier value="urn:uuid:8f2bcc66-77c7-40f9-807f-bf183d98825a"/>
+          <timestamp value="2019-12-02T22:15:10+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4266,7 +4266,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-LanguageAbilityProficiency-1"/>
@@ -4552,7 +4552,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ListEmptyReasonCode-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1</code>
@@ -4582,11 +4582,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListEmptyReasonCode-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect List Empty Reason Code"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -4602,8 +4602,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:e71acb7b-3925-4774-b1cf-83384a686483"/>
-          <timestamp value="2019-12-02T21:43:38+00:00"/>
+          <identifier value="urn:uuid:b1443e6b-f4b8-4197-bb7c-e1a0ad903eec"/>
+          <timestamp value="2019-12-02T22:15:11+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4611,7 +4611,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListEmptyReasonCode-1"/>
@@ -4779,11 +4779,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.4.642.3.28"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Marital Status Codes"/>
         <status value="draft"/>
         <date value="2017-04-18T22:44:47+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -4799,8 +4799,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:c85fef00-b77a-40e0-adc8-f67e091dd9c0"/>
-          <timestamp value="2019-12-02T21:43:39+00:00"/>
+          <identifier value="urn:uuid:acac3128-06eb-4c32-9de0-155289519562"/>
+          <timestamp value="2019-12-02T22:15:12+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4882,7 +4882,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-MedicationChangeStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1</code>
@@ -4936,11 +4936,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationChangeStatus-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Medication Change Status"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -4956,8 +4956,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:ae981221-2f16-402f-9aa5-cda5712130e6"/>
-          <timestamp value="2019-12-02T21:43:41+00:00"/>
+          <identifier value="urn:uuid:c9a98376-b93e-4565-915c-7527d1f6b459"/>
+          <timestamp value="2019-12-02T22:15:14+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4965,7 +4965,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1"/>
@@ -4996,7 +4996,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-MedicationFlag-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1</code>
@@ -5034,11 +5034,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationFlag-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Medication Flag"/>
         <status value="draft"/>
         <date value="2017-08-01T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5054,8 +5054,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:a8940f3b-eb0d-419b-adf6-af00d1624906"/>
-          <timestamp value="2019-12-02T21:43:43+00:00"/>
+          <identifier value="urn:uuid:58758044-8a1c-4b8d-b98b-accda3dc5c3c"/>
+          <timestamp value="2019-12-02T22:15:16+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5063,7 +5063,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationFlag-1"/>
@@ -5088,7 +5088,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-MedicationSupplyType-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1</code>
@@ -5166,11 +5166,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationSupplyType-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Medication Supply Type"/>
         <status value="draft"/>
         <date value="2018-07-11T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5186,8 +5186,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:9a697bef-f961-4188-adc6-adff27978c6c"/>
-          <timestamp value="2019-12-02T21:43:48+00:00"/>
+          <identifier value="urn:uuid:c443c226-1827-461c-a17f-3cfddf7e5f29"/>
+          <timestamp value="2019-12-02T22:15:21+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5195,7 +5195,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationSupplyType-1"/>
@@ -5245,7 +5245,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code>
@@ -5318,11 +5318,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Person Marital Status Code"/>
         <status value="active"/>
         <date value="2016-08-03T00:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5338,8 +5338,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:8435598b-dc9b-4d12-8c8a-4a30ec73b998"/>
-          <timestamp value="2019-12-02T21:43:49+00:00"/>
+          <identifier value="urn:uuid:09dc23ae-4925-48f5-a008-033a9ea06a36"/>
+          <timestamp value="2019-12-02T22:15:21+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5347,7 +5347,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
@@ -5392,7 +5392,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-NHSDataDictionary-PersonStatedGender-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1</code>
@@ -5449,11 +5449,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_stated_gender_code_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Person Stated Gender Code"/>
         <status value="active"/>
         <date value="2017-08-21T13:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5469,8 +5469,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:8b44c0ae-44c1-435e-8547-9b55b4178bcd"/>
-          <timestamp value="2019-12-02T21:43:49+00:00"/>
+          <identifier value="urn:uuid:0cc97a74-6bd0-4510-9dbb-8ca61853f2cb"/>
+          <timestamp value="2019-12-02T22:15:21+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5478,7 +5478,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
@@ -5610,11 +5610,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.4.642.3.58"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NameUse"/>
         <status value="draft"/>
         <date value="2017-04-18T22:44:47+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5630,8 +5630,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:c64fac4f-0ecd-4d85-94c1-114f65a96315"/>
-          <timestamp value="2019-12-02T21:43:49+00:00"/>
+          <identifier value="urn:uuid:18bb9641-cd8f-48ec-bb6a-3fa04e770035"/>
+          <timestamp value="2019-12-02T22:15:21+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5689,7 +5689,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-PDS-PersonNameType-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1</code>
@@ -5767,11 +5767,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="PDS Person Name Type"/>
         <status value="draft"/>
         <date value="2018-11-02T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5787,8 +5787,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:a4598071-b468-4c6f-8b5b-a275cfb6e0ad"/>
-          <timestamp value="2019-12-02T21:43:55+00:00"/>
+          <identifier value="urn:uuid:15a11241-8c53-4c92-8852-5d2ad50711f9"/>
+          <timestamp value="2019-12-02T22:15:27+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5796,7 +5796,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
@@ -5846,7 +5846,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ProblemSignificance-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1</code>
@@ -5884,11 +5884,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProblemSignificance-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Problem Significance"/>
         <status value="draft"/>
         <date value="2018-04-16T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -5904,8 +5904,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:318e65fb-f26f-4317-b982-411634c74244"/>
-          <timestamp value="2019-12-02T21:44:01+00:00"/>
+          <identifier value="urn:uuid:19d944fc-0160-4977-85d4-6efe52091c9d"/>
+          <timestamp value="2019-12-02T22:15:34+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -5913,7 +5913,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1"/>
@@ -6003,11 +6003,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.4.642.3.125"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="AllergyIntoleranceSeverity"/>
         <status value="draft"/>
         <date value="2017-04-18T22:44:47+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -6023,8 +6023,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; HL7.org 2011+"/>
         <expansion>
-          <identifier value="urn:uuid:59a85718-c4a9-4920-96c1-0a32b1f6ebc3"/>
-          <timestamp value="2019-12-02T21:44:04+00:00"/>
+          <identifier value="urn:uuid:080f90b1-6a6c-45cc-8e59-af24a0d4b498"/>
+          <timestamp value="2019-12-02T22:15:38+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6170,7 +6170,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ReferralRequestMethod-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1</code>
@@ -6248,11 +6248,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Referral Request Method"/>
         <status value="draft"/>
         <date value="2019-07-16T18:43:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -6268,8 +6268,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2019 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:18698afc-578a-4b41-a291-7e5b4a8f28cd"/>
-          <timestamp value="2019-12-02T21:44:05+00:00"/>
+          <identifier value="urn:uuid:e4b257cf-97ae-403a-8585-1641a390a31d"/>
+          <timestamp value="2019-12-02T22:15:39+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6277,7 +6277,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
@@ -6327,7 +6327,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-RegistrationStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1</code>
@@ -6381,11 +6381,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-RegistrationStatus-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Registration Status"/>
         <status value="draft"/>
         <date value="2017-08-01T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -6401,8 +6401,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:7cd67982-17bf-4e79-964d-7cd3f924b739"/>
-          <timestamp value="2019-12-02T21:44:06+00:00"/>
+          <identifier value="urn:uuid:d3a01ec5-ea3d-4357-875d-f4055d0c5b2a"/>
+          <timestamp value="2019-12-02T22:15:39+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6410,7 +6410,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1"/>
@@ -6445,7 +6445,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-RegistrationType-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1</code>
@@ -6523,11 +6523,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-RegistrationType-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Registration Type"/>
         <status value="draft"/>
         <date value="2017-08-01T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -6543,8 +6543,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:dd1e1bc8-56fb-45a3-a6c2-ad8fa07b0d95"/>
-          <timestamp value="2019-12-02T21:44:06+00:00"/>
+          <identifier value="urn:uuid:1e904152-f841-4fc1-9ae5-3ac6b553cd60"/>
+          <timestamp value="2019-12-02T22:15:39+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6552,7 +6552,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1"/>
@@ -6602,7 +6602,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 392 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-SDSJobRoleName-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1</code>
@@ -9760,11 +9760,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SDSJobRoleName-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect SDS Job Role Name"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -9780,8 +9780,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:7a1378fd-b77a-4b9b-b2a8-794b9bc588aa"/>
-          <timestamp value="2019-12-02T21:44:12+00:00"/>
+          <identifier value="urn:uuid:0ce3bd0d-7019-4592-9ac8-7bdfcc2a3bf4"/>
+          <timestamp value="2019-12-02T22:15:46+00:00"/>
           <total value="392"/>
           <parameter>
             <name value="excludeNested"/>
@@ -9789,7 +9789,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1"/>
@@ -11764,7 +11764,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 14 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-SourceOfAdmission-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1</code>
@@ -11901,11 +11901,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/s/smo/source_of_admission_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SourceOfAdmission-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Source Of Admission"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -11921,8 +11921,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:5670fb65-79e3-431c-9bd2-fd41113996d3"/>
-          <timestamp value="2019-12-02T21:44:12+00:00"/>
+          <identifier value="urn:uuid:d4ee1d40-1853-42f0-bc31-011dfe3503ca"/>
+          <timestamp value="2019-12-02T22:15:46+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -11930,7 +11930,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SourceOfAdmission-1"/>
@@ -12015,7 +12015,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 18 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-AdmissionMethod-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1</code>
@@ -12184,11 +12184,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdmissionMethod-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Admission Method"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -12204,8 +12204,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:9f97c69f-5f92-4f12-89d9-864820b1595b"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:7b163ac2-d22e-4e9a-a366-2fc0eaec4824"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="18"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12213,7 +12213,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1"/>
@@ -12318,7 +12318,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-DeathNotificationStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1</code>
@@ -12364,11 +12364,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DeathNotificationStatus-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Death Notification Status"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -12384,8 +12384,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:469f76a3-0173-4280-a7e8-4eb8c900cb79"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:ea8f6154-8ca7-45c4-b32b-97895cc13c90"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12393,7 +12393,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1"/>
@@ -12423,7 +12423,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-DischargeMethod-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1</code>
@@ -12504,11 +12504,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_method_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DischargeMethod-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Discharge Method"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -12524,8 +12524,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:d9d8532e-c045-4fcf-9e28-94e8164d5c9a"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:95904488-5028-404c-9368-1e6bcb337c54"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12533,7 +12533,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeMethod-1"/>
@@ -12583,7 +12583,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 68 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-EthnicCategory-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</code>
@@ -13156,11 +13156,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.6"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Ethnic Category"/>
         <status value="draft"/>
         <date value="2018-11-02T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -13176,8 +13176,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:62a1300c-ae4f-4d57-9754-6c3472141f7e"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:e9ce183f-aeeb-4205-90a8-7718248fa67e"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13185,7 +13185,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"/>
@@ -13540,7 +13540,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ListWarningCode-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1</code>
@@ -13586,11 +13586,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListWarningCode-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect List Warning Code"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -13606,8 +13606,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:63f8b3cd-55af-4515-a7b3-fe3d79d5a4cd"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:724a05cd-f165-4b30-9f32-4ff4ff445911"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13615,7 +13615,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1"/>
@@ -13645,7 +13645,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 8 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-NHSNumberVerificationStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1</code>
@@ -13738,11 +13738,11 @@
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.17.70"/>
         </identifier>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect NHS Number Verification Status"/>
         <status value="draft"/>
         <date value="2018-11-02T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -13758,8 +13758,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:6ca30c7c-235d-4448-85eb-2fd883cd0f92"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:f0b796f1-ac1a-47db-a195-fbb1bc9efe69"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13767,7 +13767,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
@@ -13822,7 +13822,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-OutcomeOfAttendance-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1</code>
@@ -13871,11 +13871,11 @@
           <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/out/outcome_of_attendance_de.asp?shownav=1"/>
         </extension>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-OutcomeOfAttendance-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="NHS Data Model and Dictionary Outcome Of Attendance"/>
         <status value="draft"/>
         <date value="2018-11-14T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -13891,8 +13891,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:35e170b8-04e9-4e87-9726-f1c90662e503"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:a12f1014-a414-4ea6-9fca-a78643887b80"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13900,7 +13900,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-OutcomeOfAttendance-1"/>
@@ -13930,7 +13930,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-PrescribedElsewhere-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1</code>
@@ -14008,11 +14008,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PrescribedElsewhere-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Prescribed Elsewhere"/>
         <status value="draft"/>
         <date value="2018-05-14T01:00:00+01:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -14028,8 +14028,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:65e54337-142a-43b1-9566-2531df13fb52"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:1d0a3c16-856e-4757-a699-2da9585291bb"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14037,7 +14037,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescribedElsewhere-1"/>
@@ -14087,7 +14087,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-PrescriptionType-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1</code>
@@ -14141,11 +14141,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PrescriptionType-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Prescription Type"/>
         <status value="draft"/>
         <date value="2018-11-01T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -14161,8 +14161,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:bd111107-301f-41ab-908b-dec8d719eeba"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:7d13b27f-2b65-49fa-a8e9-46db9148d70b"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14170,7 +14170,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1"/>
@@ -14205,7 +14205,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-ResidentialStatus-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1</code>
@@ -14243,11 +14243,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Residential Status"/>
         <status value="draft"/>
         <date value="2018-11-02T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -14263,8 +14263,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:9cb819f0-dad0-48a5-8ee8-b0f59832f6e6"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:a9558ae0-0c78-4f53-985e-a98ab6b41d09"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14272,7 +14272,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1"/>
@@ -14297,7 +14297,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 6 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1 version 0.1.0</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1 version 3.0.0</p>
             <p>All codes from system 
               <a href="CareConnect-TreatmentCategory-1.html">
                 <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1</code>
@@ -14367,11 +14367,11 @@
           </div>
         </text>
         <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-TreatmentCategory-1"/>
-        <version value="0.1.0"/>
+        <version value="3.0.0"/>
         <name value="Care Connect Treatment Category"/>
         <status value="draft"/>
         <date value="2018-11-02T00:00:00+00:00"/>
-        <publisher value="HL7 UK - Example"/>
+        <publisher value="HL7 UK"/>
         <contact>
           <telecom>
             <system value="other"/>
@@ -14387,8 +14387,8 @@
         </jurisdiction>
         <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
         <expansion>
-          <identifier value="urn:uuid:d1094c9b-f593-4539-8b10-13a464421c9a"/>
-          <timestamp value="2019-12-02T21:44:19+00:00"/>
+          <identifier value="urn:uuid:ee3fa23d-604b-474f-aee4-294970dae48c"/>
+          <timestamp value="2019-12-02T22:15:53+00:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14396,7 +14396,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1|0.1.0"/>
+            <valueUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1|3.0.0"/>
           </parameter>
           <contains>
             <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-TreatmentCategory-1"/>

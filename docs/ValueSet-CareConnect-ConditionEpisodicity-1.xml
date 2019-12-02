@@ -12,11 +12,11 @@
     </valueReference>
   </extension>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1"/>
-  <version value="0.1.0"/>
+  <version value="3.0.0"/>
   <name value="Care Connect Condition Episodicity"/>
   <status value="draft"/>
   <date value="2018-11-14T00:00:00+00:00"/>
-  <publisher value="HL7 UK - Example"/>
+  <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>

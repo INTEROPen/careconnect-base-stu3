@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Referral Request Method</h2><div><p>A ValueSet to identify the form in which a referral is sent and received.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ReferralRequestMethod-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1</code></a></li></ul></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "name": "Care Connect Referral Request Method",
   "status": "draft",
   "date": "2019-07-16T18:43:00+01:00",
-  "publisher": "HL7 UK - Example",
+  "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [

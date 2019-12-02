@@ -1,12 +1,12 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="uk-base"></id>
    <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3"></url>
-   <version value="0.1.0"/>
+   <version value="3.0.0"/>
    <name value="HL7 UK Implementation Guide"></name>
-   <title value="HL7 UK Base (Example)"></title>
+   <title value="HL7 UK Base"></title>
    <status value="draft"></status>
    <experimental value="true"></experimental>
-   <publisher value="HL7 UK - Example"></publisher>
+   <publisher value="HL7 UK"></publisher>
    <contact>
       <telecom>
          <!-- Or whatever URL and/or email address(es) are appropriate -->
@@ -1473,6 +1473,16 @@
             <nameUrl value="changes.html"></nameUrl>
             <title value="IG Change History"></title>
             <generation value="html"></generation>
+         </page>
+         <page>
+            <nameUrl value="guidance.html"></nameUrl>
+            <title value="Guidance"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="history.html"></nameUrl>
+            <title value="IG History"></title>
+            <generation value="markdown"></generation>
          </page>
          <page>
             <nameUrl value="patient-search.html"></nameUrl>
