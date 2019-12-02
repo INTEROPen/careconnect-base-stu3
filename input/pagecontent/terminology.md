@@ -1,11 +1,11 @@
 # Value Sets
 
 Value sets used in this implementation guide.
-{% include list-simple-valuesets.xhtml %}
 
+NOT YET IMPLEMENTED
 
 # Code Systems
 
 Code systems used in this implementation guide.
 
-{% include list-simple-codesystems.xhtml %}
+NOT YET IMPLEMENTED
