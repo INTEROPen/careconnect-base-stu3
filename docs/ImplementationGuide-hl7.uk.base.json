@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-02T16:11:47+00:00",
+  "date": "2019-12-02T16:42:55+00:00",
   "publisher": "HL7 UK - Example",
   "contact": [
     {
@@ -680,7 +680,7 @@
     {
       "id": "uk-vs",
       "name": "HL7 UK Vital Signs",
-      "description": "UK Level 3 FHIR Profiles, CodeSystems and ValueSets for the support of NEWS2",
+      "description": "UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)",
       "resource": [
         {
           "extension": [
