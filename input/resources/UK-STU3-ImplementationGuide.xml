@@ -58,6 +58,14 @@
          <name value="UK Examples"></name>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"></description>
       </grouping>
+      <grouping id="uk-7">
+         <name value="Capability Statement"></name>
+         <description value="Minimal recommended Capability Statement for UK RESTful implementations"></description>
+      </grouping>
+      <grouping id="uk-8">
+         <name value="Naming Systems"></name>
+         <description value="Represents a 'System' used within Identifier and Coding data types."></description>
+      </grouping>
       <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
       <resource>
@@ -1455,6 +1463,36 @@
          </reference>
          <name value="vs-VaccinationProcedure-1"></name>
          <groupingId value="uk-4"></groupingId>
+      </resource>
+      <!-- Capability Statement -->
+      <resource>
+         <reference>
+            <reference value="CapabilityStatement/careconnect-api"></reference>
+         </reference>
+         <name value="careconnect-api"></name>
+         <groupingId value="uk-7"></groupingId>
+      </resource>
+      <!-- Naming System -->
+      <resource>
+         <reference>
+            <reference value="NamingSystem/uk-nhs-number"></reference>
+         </reference>
+         <name value="uk-nhs-number"></name>
+         <groupingId value="uk-8"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/uk-gmp-number"></reference>
+         </reference>
+         <name value="uk-gmp-number"></name>
+         <groupingId value="uk-8"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/uk-gmc-number"></reference>
+         </reference>
+         <name value="uk-gmc-number"></name>
+         <groupingId value="uk-8"></groupingId>
       </resource>
       <!-- END OF EXAMPLES
 

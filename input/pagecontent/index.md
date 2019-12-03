@@ -20,9 +20,6 @@ using FHIR. This includes code systems, extensions and profiles on base FHIR typ
 general in nature and seeks to provide a ‘how-to’ guide when representing concepts, it includes core base
 profiles that can be further constrained for a particular usage.
 
-FHIR<sup>&reg;&copy;</sup> connectathon events are key to the verification of the guide as being suitable for 
-implementation. This implementation guide will be used as the basis for UK connectathon events.
-
 ## Collaboration
 This guide is the product of collaborative work undertaken with participants from:
 

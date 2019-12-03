@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-02T22:14:03+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-03T08:45:43+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3661,6 +3661,90 @@
        fhir:ImplementationGuide.package.resource.exampleFor [
          fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Organization-1" ]
+       ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Element.id [ fhir:value "uk-7" ];
+     fhir:ImplementationGuide.package.name [ fhir:value "Capability Statement" ];
+     fhir:ImplementationGuide.package.description [ fhir:value "Minimal recommended Capability Statement for UK RESTful implementations" ];
+     fhir:ImplementationGuide.package.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "careconnect-api.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "careconnect-api" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Care Connect RESTful APIs within this site have been developed collaboratively by NHS Digital and the INTEROPen community. These APIs aim to better support the delivery of care by opening up information and data held across different clinical care settings through the use of nationally defined INTEROPen FHIR® resources." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/CapabilityStatement/careconnect-api>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/careconnect-api" ]
+       ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Element.id [ fhir:value "uk-8" ];
+     fhir:ImplementationGuide.package.name [ fhir:value "Naming Systems" ];
+     fhir:ImplementationGuide.package.description [ fhir:value "Represents a 'System' used within Identifier and Coding data types." ];
+     fhir:ImplementationGuide.package.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "uk-nhs-number.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-nhs-number" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "NHS Number allocated to the patient." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-nhs-number>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/uk-nhs-number" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "uk-gmp-number.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-gmp-number" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "General Practitioner (GMP) number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-gmp-number>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmp-number" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "uk-gmc-number.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-gmc-number" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-gmc-number>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmc-number" ]
        ]
      ]
   ];

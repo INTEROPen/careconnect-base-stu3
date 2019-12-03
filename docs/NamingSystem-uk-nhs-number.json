@@ -1,0 +1,48 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "uk-nhs-number",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: uk-nhs-number</p><p><b>name</b>: NHS Number</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 1 May 2015, 00:00:00</p><p><b>publisher</b>: HL7 UK</p><p><b>contact</b>: </p><p><b>responsible</b>: NHS Digital</p><p><b>description</b>: NHS Number allocated to the patient.</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style=\"background: LightGoldenRodYellow\">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: A unique patient identifier for everyone registered with the NHS.</p><blockquote><p><b>uniqueId</b></p><p><b>type</b>: uri</p><p><b>value</b>: https://fhir.nhs.uk/Id/nhs-number</p><p><b>preferred</b>: true</p></blockquote><blockquote><p><b>uniqueId</b></p><p><b>type</b>: oid</p><p><b>value</b>: 2.16.840.1.113883.2.1.4.1</p><p><b>preferred</b>: false</p></blockquote></div>"
+  },
+  "name": "NHS Number",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2015-05-01T00:00:00+01:00",
+  "publisher": "HL7 UK",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "responsible": "NHS Digital",
+  "description": "NHS Number allocated to the patient.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "usage": "A unique patient identifier for everyone registered with the NHS.",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://fhir.nhs.uk/Id/nhs-number",
+      "preferred": true
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.1.4.1",
+      "preferred": false
+    }
+  ]
+}
