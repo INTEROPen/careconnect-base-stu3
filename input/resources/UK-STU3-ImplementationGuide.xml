@@ -1524,13 +1524,13 @@
          <name value="cm-AllergyVerificationStatus-1"></name>
          <groupingId value="uk-cm"></groupingId>
       </resource>
-     <!-- <resource>
+      <resource>
          <reference>
-            <reference value="ConceptMap/CareConnect-ConditionEpisodicity-1"></reference>
+            <reference value="ConceptMap/cm-ConditionEpisodicity-1"></reference>
          </reference>
          <name value="cm-ConditionEpisodicity-1"></name>
          <groupingId value="uk-cm"></groupingId>
-      </resource> -->
+      </resource>
       <resource>
          <reference>
             <reference value="ConceptMap/CareConnect-MaritalStatus-1"></reference>

@@ -152,7 +152,7 @@ etc.</li>
 
 <p><img src="images/PDQ Actor Diagram.jpg" alt="Patient Search FHIR Actor Diagram"/></p>
 
-<p><a name="407dde1a-479c-4cc6-b9c6-f386c2c3ef08">​</a>The patient search can use any of the search parameters defined in the <a href="api_entity_patient.html">Patient</a> API. For example if the patient informs the nurse of their date of birth and part of the name (i.e. 19th Mar 1998 and Bernie) and surname the query would be.</p>
+<p><a name="4e73b912-5b8b-4b45-8bf8-22a80700b97f">​</a>The patient search can use any of the search parameters defined in the <a href="api_entity_patient.html">Patient</a> API. For example if the patient informs the nurse of their date of birth and part of the name (i.e. 19th Mar 1998 and Bernie) and surname the query would be.</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GET [baseUrl]/Patient?birthdate=1998-03-13&amp;name=bernie
 </code></pre></div></div>
@@ -245,23 +245,23 @@ etc.</li>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
 <span class="c1">// Create a FHIR Context</span>
 
-     <span class="n">FhirContext</span> <span class="n">ctx</span> <span class="o">=</span> <span class="n">FhirContext</span><span class="o">.</span><span class="na">forDstu3</span><span class="o">();</span>
-     <span class="n">IParser</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">newXmlParser</span><span class="o">();</span>
+     <span class="nc">FhirContext</span> <span class="n">ctx</span> <span class="o">=</span> <span class="nc">FhirContext</span><span class="o">.</span><span class="na">forDstu3</span><span class="o">();</span>
+     <span class="nc">IParser</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">newXmlParser</span><span class="o">();</span>
 
 <span class="c1">// Create a client and post the transaction to the server</span>
 
-     <span class="n">IGenericClient</span> <span class="n">client</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">newRestfulGenericClient</span><span class="o">(</span><span class="s">"https://data.developer.nhs.uk/ccri/STU3/"</span><span class="o">);</span>
+     <span class="nc">IGenericClient</span> <span class="n">client</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="na">newRestfulGenericClient</span><span class="o">(</span><span class="s">"https://data.developer.nhs.uk/ccri/STU3/"</span><span class="o">);</span>
 
 </code></pre></div></div>
 
 <p>Next we need to specify the search parameters, as we mentioned in the earlier section the results from a search will be returned as Bundle.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-     <span class="n">Bundle</span> <span class="n">results</span> <span class="o">=</span> <span class="n">client</span>
+     <span class="nc">Bundle</span> <span class="n">results</span> <span class="o">=</span> <span class="n">client</span>
                 <span class="o">.</span><span class="na">search</span><span class="o">()</span>
-                <span class="o">.</span><span class="na">forResource</span><span class="o">(</span><span class="n">Patient</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
-                <span class="o">.</span><span class="na">where</span><span class="o">(</span><span class="n">Patient</span><span class="o">.</span><span class="na">IDENTIFIER</span><span class="o">.</span><span class="na">exactly</span><span class="o">().</span><span class="na">systemAndCode</span><span class="o">(</span><span class="s">"https://fhir.nhs.uk/Id/nhs-number"</span><span class="o">,</span> <span class="s">"9876543210"</span><span class="o">))</span>
-                <span class="o">.</span><span class="na">returnBundle</span><span class="o">(</span><span class="n">Bundle</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">forResource</span><span class="o">(</span><span class="nc">Patient</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+                <span class="o">.</span><span class="na">where</span><span class="o">(</span><span class="nc">Patient</span><span class="o">.</span><span class="na">IDENTIFIER</span><span class="o">.</span><span class="na">exactly</span><span class="o">().</span><span class="na">systemAndCode</span><span class="o">(</span><span class="s">"https://fhir.nhs.uk/Id/nhs-number"</span><span class="o">,</span> <span class="s">"9876543210"</span><span class="o">))</span>
+                <span class="o">.</span><span class="na">returnBundle</span><span class="o">(</span><span class="nc">Bundle</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
                 <span class="o">.</span><span class="na">execute</span><span class="o">();</span>
 
 </code></pre></div></div>
@@ -269,35 +269,35 @@ etc.</li>
 <p>We now have references to the Patient Practice and GP. The method of retrieving these is the same as we did earlier with postman.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-<span class="k">for</span> <span class="o">(</span><span class="n">Bundle</span><span class="o">.</span><span class="na">BundleEntryComponent</span> <span class="n">entry</span> <span class="o">:</span> <span class="n">results</span><span class="o">.</span><span class="na">getEntry</span><span class="o">())</span> <span class="o">{</span>
+<span class="k">for</span> <span class="o">(</span><span class="nc">Bundle</span><span class="o">.</span><span class="na">BundleEntryComponent</span> <span class="n">entry</span> <span class="o">:</span> <span class="n">results</span><span class="o">.</span><span class="na">getEntry</span><span class="o">())</span> <span class="o">{</span>
 
-    <span class="k">if</span> <span class="o">(</span><span class="n">entry</span><span class="o">.</span><span class="na">getResource</span><span class="o">()</span> <span class="k">instanceof</span> <span class="n">Patient</span><span class="o">)</span> <span class="o">{</span>
-        <span class="n">Patient</span> <span class="n">patient</span> <span class="o">=</span> <span class="o">(</span><span class="n">Patient</span><span class="o">)</span> <span class="n">entry</span><span class="o">.</span><span class="na">getResource</span><span class="o">();</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">entry</span><span class="o">.</span><span class="na">getResource</span><span class="o">()</span> <span class="k">instanceof</span> <span class="nc">Patient</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Patient</span> <span class="n">patient</span> <span class="o">=</span> <span class="o">(</span><span class="nc">Patient</span><span class="o">)</span> <span class="n">entry</span><span class="o">.</span><span class="na">getResource</span><span class="o">();</span>
 
         <span class="c1">// Retrieve the Practice</span>
 
         <span class="k">if</span> <span class="o">(</span><span class="n">patient</span><span class="o">.</span><span class="na">getManagingOrganization</span><span class="o">()</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
 
-            <span class="n">Organization</span> <span class="n">surgery</span> <span class="o">=</span> <span class="n">client</span>
+            <span class="nc">Organization</span> <span class="n">surgery</span> <span class="o">=</span> <span class="n">client</span>
                     <span class="o">.</span><span class="na">read</span><span class="o">()</span>
-                    <span class="o">.</span><span class="na">resource</span><span class="o">(</span><span class="n">Organization</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+                    <span class="o">.</span><span class="na">resource</span><span class="o">(</span><span class="nc">Organization</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
                     <span class="o">.</span><span class="na">withId</span><span class="o">(</span><span class="n">patient</span><span class="o">.</span><span class="na">getManagingOrganization</span><span class="o">().</span><span class="na">getReference</span><span class="o">())</span>
                     <span class="o">.</span><span class="na">execute</span><span class="o">();</span>
 
-            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">parser</span><span class="o">.</span><span class="na">setPrettyPrint</span><span class="o">(</span><span class="kc">true</span><span class="o">).</span><span class="na">encodeResourceToString</span><span class="o">(</span><span class="n">surgery</span><span class="o">));</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">parser</span><span class="o">.</span><span class="na">setPrettyPrint</span><span class="o">(</span><span class="kc">true</span><span class="o">).</span><span class="na">encodeResourceToString</span><span class="o">(</span><span class="n">surgery</span><span class="o">));</span>
         <span class="o">}</span>
 
         <span class="c1">// Retrieve the GP</span>
 
         <span class="k">if</span> <span class="o">(</span><span class="n">patient</span><span class="o">.</span><span class="na">getGeneralPractitioner</span><span class="o">().</span><span class="na">size</span><span class="o">()</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="o">)</span> <span class="o">{</span>
 
-            <span class="n">Practitioner</span> <span class="n">gp</span> <span class="o">=</span> <span class="n">client</span>
+            <span class="nc">Practitioner</span> <span class="n">gp</span> <span class="o">=</span> <span class="n">client</span>
                     <span class="o">.</span><span class="na">read</span><span class="o">()</span>
-                    <span class="o">.</span><span class="na">resource</span><span class="o">(</span><span class="n">Practitioner</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
+                    <span class="o">.</span><span class="na">resource</span><span class="o">(</span><span class="nc">Practitioner</span><span class="o">.</span><span class="na">class</span><span class="o">)</span>
                     <span class="o">.</span><span class="na">withId</span><span class="o">(</span><span class="n">patient</span><span class="o">.</span><span class="na">getGeneralPractitioner</span><span class="o">().</span><span class="na">get</span><span class="o">(</span><span class="mi">0</span><span class="o">).</span><span class="na">getReference</span><span class="o">())</span>
                     <span class="o">.</span><span class="na">execute</span><span class="o">();</span>
 
-            <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">parser</span><span class="o">.</span><span class="na">setPrettyPrint</span><span class="o">(</span><span class="kc">true</span><span class="o">).</span><span class="na">encodeResourceToString</span><span class="o">(</span><span class="n">gp</span><span class="o">));</span>
+            <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">parser</span><span class="o">.</span><span class="na">setPrettyPrint</span><span class="o">(</span><span class="kc">true</span><span class="o">).</span><span class="na">encodeResourceToString</span><span class="o">(</span><span class="n">gp</span><span class="o">));</span>
         <span class="o">}</span>
     <span class="o">}</span>
 
@@ -317,7 +317,7 @@ etc.</li>
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 UK.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Wed, Dec 4, 2019 08:50+0000">2019-12-04</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"></a>HL7 UK.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Wed, Dec 4, 2019 11:10+0000">2019-12-04</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

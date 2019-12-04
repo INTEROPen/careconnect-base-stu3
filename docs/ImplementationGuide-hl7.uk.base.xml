@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-04T08:50:38+00:00"/>
+  <date value="2019-12-04T11:10:13+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -2945,6 +2945,20 @@
       <description value="A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."/>
       <sourceReference>
         <reference value="ConceptMap/CareConnect-AllergyVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="cm-ConditionEpisodicity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-ConditionEpisodicity-1"/>
+      <description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"/>
+      <sourceReference>
+        <reference value="ConceptMap/cm-ConditionEpisodicity-1"/>
       </sourceReference>
     </resource>
     <resource>

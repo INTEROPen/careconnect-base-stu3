@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-04T08:50:38+00:00",
+  "date": "2019-12-04T11:10:13+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -3800,6 +3800,24 @@
           "description": "A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.",
           "sourceReference": {
             "reference": "ConceptMap/CareConnect-AllergyVerificationStatus-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "cm-ConditionEpisodicity-1.html"
+            }
+          ],
+          "example": false,
+          "name": "cm-ConditionEpisodicity-1",
+          "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes",
+          "sourceReference": {
+            "reference": "ConceptMap/cm-ConditionEpisodicity-1"
           }
         },
         {
