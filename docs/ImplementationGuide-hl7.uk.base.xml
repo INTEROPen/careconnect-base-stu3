@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.uk.base"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>
 </div></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"/>
@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-03T08:45:43+00:00"/>
+  <date value="2019-12-04T08:50:38+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -19,7 +19,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="A brief description of what MyIG is about (probably the same text as in your readme)"/>
+  <description value="UK Base FHIR Resources."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -27,11 +27,7 @@
     </coding>
   </jurisdiction>
   <fhirVersion value="3.0.2"/>
-  <package id="cc">
-    <name value="HL7 UK"/>
-    <description value="Core UK FHIR Resources"/>
-  </package>
-  <package id="uk-1">
+  <package id="uk-base">
     <name value="HL7 UK Base Profiles"/>
     <description value="UK Base FHIR Profiles"/>
     <resource>
@@ -525,7 +521,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-vs">
+  <package id="uk-news2">
     <name value="HL7 UK Vital Signs"/>
     <description value="UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)"/>
     <resource>
@@ -655,7 +651,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-2">
+  <package id="uk-level3">
     <name value="HL7 UK Level 3 Profiles"/>
     <description value="UK Level 3 FHIR Profiles"/>
     <resource>
@@ -687,7 +683,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-3">
+  <package id="uk-ext">
     <name value="HL7 UK Base Extensions"/>
     <description value="UK Base FHIR Extensions"/>
     <resource>
@@ -1278,7 +1274,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-4">
+  <package id="uk-vs">
     <name value="HL7 UK ValueSets"/>
     <description value="UK FHIR ValueSets"/>
     <resource>
@@ -2290,7 +2286,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-5">
+  <package id="uk-cs">
     <name value="HL7 UK CodeSystems"/>
     <description value="UK FHIR CodesSystems"/>
     <resource>
@@ -2756,7 +2752,7 @@
       </sourceReference>
     </resource>
   </package>
-  <package id="uk-6">
+  <package id="uk-examples">
     <name value="UK Examples"/>
     <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
     <resource>
@@ -2842,25 +2838,11 @@
       </exampleFor>
     </resource>
   </package>
-  <package id="uk-7">
+  <package id="uk-capability">
     <name value="Capability Statement"/>
     <description value="Minimal recommended Capability Statement for UK RESTful implementations"/>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CapabilityStatement"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="careconnect-api.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="careconnect-api"/>
-      <description value="The Care Connect RESTful APIs within this site have been developed collaboratively by NHS Digital and the INTEROPen community. These APIs aim to better support the delivery of care by opening up information and data held across different clinical care settings through the use of nationally defined INTEROPen FHIR&#xAE; resources."/>
-      <sourceReference>
-        <reference value="CapabilityStatement/careconnect-api"/>
-      </sourceReference>
-    </resource>
   </package>
-  <package id="uk-8">
+  <package id="uk-ns">
     <name value="Naming Systems"/>
     <description value="Represents a &#39;System&#39; used within Identifier and Coding data types."/>
     <resource>
@@ -2903,6 +2885,80 @@
       <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)"/>
       <sourceReference>
         <reference value="NamingSystem/uk-gmc-number"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-cm">
+    <name value="HL7 UK ConceptMap"/>
+    <description value="UK FHIR ConceptMaps"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PersonNameType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PersonNameType-1"/>
+      <description value="A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-PersonNameType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AdministrativeGender-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AdministrativeGender-1"/>
+      <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AdministrativeGender-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AllergySeverity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AllergySeverity-1"/>
+      <description value="A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AllergySeverity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AllergyVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AllergyVerificationStatus-1"/>
+      <description value="A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AllergyVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MaritalStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-MaritalStatus-1"/>
+      <description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-MaritalStatus-1"/>
       </sourceReference>
     </resource>
   </package>

@@ -1,0 +1,57 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-AdministrativeGender-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AdministrativeGender-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Concept Map - Care Connect Administrative Gender"></name>
+   <status value="active"></status>
+   <date value="2017-08-01T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <sourceReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AdministrativeGender-1"></reference>
+   </sourceReference>
+   <targetReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"></reference>
+   </targetReference>
+   <group>
+      <source value="http://hl7.org/fhir/administrative-gender"></source>
+      <target value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"></target>
+      <element>
+         <code value="male"></code>
+         <display value="Male"></display>
+         <target>
+            <code value="1"></code>
+            <display value="Male"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="female"></code>
+         <display value="Female"></display>
+         <target>
+            <code value="2"></code>
+            <display value="Female"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="other"></code>
+         <display value="Other"></display>
+         <target>
+            <code value="9"></code>
+            <display value="Indeterminate (unable to be classified as either male or female)"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="unknown"></code>
+         <display value="Unknown"></display>
+         <target>
+            <code value="X"></code>
+            <display value="Not Known (not recorded)"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

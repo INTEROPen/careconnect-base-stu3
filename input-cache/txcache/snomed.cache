@@ -1698,3 +1698,123 @@ v: {
   "error" : "The filter \"constraint = (<<363787002 | Observable entity|)\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Mild",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Moderate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "24484000"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Severe",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "442452003"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Life threatening severity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385434005"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Improbable diagnosis (contextual qualifier) (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Probable diagnosis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255545003"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Definite",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410605003"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Confirmed present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255217005"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "First episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "288527008"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "New episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "303350001"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Ongoing episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "272131007"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Old episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

@@ -1,0 +1,57 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-ConditionEpisodicity-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-ConditionEpisodicity-1"></url>
+   <version value="1.1.0"></version>
+   <name value="Concept Map - Condition Episodicity"></name>
+   <status value="draft"></status>
+   <date value="2018-11-14T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <sourceReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1"></reference>
+   </sourceReference>
+   <targetReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1"></reference>
+   </targetReference>
+   <group>
+      <source value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1"></source>
+      <target value="http://snomed.info/sct"></target>
+      <element>
+         <code value="first"></code>
+         <display value="First"></display>
+         <target>
+            <code value="255217005"></code>
+            <display value="First episode"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="new"></code>
+         <display value="New"></display>
+         <target>
+            <code value="288527008"></code>
+            <display value="New episode"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="review"></code>
+         <display value="Review"></display>
+         <target>
+            <code value="303350001"></code>
+            <display value="Ongoing episode"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="end"></code>
+         <display value="End"></display>
+         <target>
+            <code value="272131007"></code>
+            <display value="Old episode"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

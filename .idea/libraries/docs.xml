@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="docs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/docs/definitions.ttl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/registry.fhir.org.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/csvs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/definitions.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/examples.json.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/expansions.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/expansions.json.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/definitions.json.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/examples.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/excels.zip!/" />
+      <root url="jar://$PROJECT_DIR$/docs/examples.ttl.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

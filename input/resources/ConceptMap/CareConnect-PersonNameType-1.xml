@@ -1,0 +1,84 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+   <id value="CareConnect-PersonNameType-1"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1"></url>
+   <version value="1.1.0"></version>
+   <name value="Concept Map - Care Connect Person Name Type"></name>
+   <status value="draft"></status>
+   <date value="2018-11-02T00:00:00+00:00"></date>
+   <publisher value="HL7 UK"></publisher>
+   <description value="A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation."></description>
+   <copyright value="Copyright © 2016 HL7 UK"></copyright>
+   <sourceReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1"></reference>
+   </sourceReference>
+   <targetReference>
+      <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1"></reference>
+   </targetReference>
+   <group>
+      <source value="http://hl7.org/fhir/name-use"></source>
+      <target value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"></target>
+      <element>
+         <code value="official"></code>
+         <display value="Official"></display>
+         <target>
+            <code value="L"></code>
+            <display value="Usual (current) name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="nickname"></code>
+         <display value="Nickname"></display>
+         <target>
+            <code value="A"></code>
+            <display value="Alias name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="usual"></code>
+         <display value="Usual"></display>
+         <target>
+            <code value="PREFERRED"></code>
+            <display value="Preferred name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="old"></code>
+         <display value="Old"></display>
+         <target>
+            <code value="PREVIOUS"></code>
+            <display value="Other previous name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="old"></code>
+         <display value="Old"></display>
+         <target>
+            <code value="PREVIOUS-BACHELOR"></code>
+            <display value="Bachelor name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="old"></code>
+         <display value="Old"></display>
+         <target>
+            <code value="PREVIOUS-BIRTH"></code>
+            <display value="Birth name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+      <element>
+         <code value="old"></code>
+         <display value="Old"></display>
+         <target>
+            <code value="PREVIOUS-MAIDEN"></code>
+            <display value="Maiden name"></display>
+            <equivalence value="equivalent"></equivalence>
+         </target>
+      </element>
+   </group>
+</ConceptMap>

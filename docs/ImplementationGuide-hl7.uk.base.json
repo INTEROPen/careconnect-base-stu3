@@ -3,14 +3,14 @@
   "id": "hl7.uk.base",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>\n</div></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base",
   "version": "3.0.0",
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-03T08:45:43+00:00",
+  "date": "2019-12-04T08:50:38+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "A brief description of what MyIG is about (probably the same text as in your readme)",
+  "description": "UK Base FHIR Resources.",
   "jurisdiction": [
     {
       "coding": [
@@ -36,12 +36,7 @@
   "fhirVersion": "3.0.2",
   "package": [
     {
-      "id": "cc",
-      "name": "HL7 UK",
-      "description": "Core UK FHIR Resources"
-    },
-    {
-      "id": "uk-1",
+      "id": "uk-base",
       "name": "HL7 UK Base Profiles",
       "description": "UK Base FHIR Profiles",
       "resource": [
@@ -678,7 +673,7 @@
       ]
     },
     {
-      "id": "uk-vs",
+      "id": "uk-news2",
       "name": "HL7 UK Vital Signs",
       "description": "UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)",
       "resource": [
@@ -847,7 +842,7 @@
       ]
     },
     {
-      "id": "uk-2",
+      "id": "uk-level3",
       "name": "HL7 UK Level 3 Profiles",
       "description": "UK Level 3 FHIR Profiles",
       "resource": [
@@ -890,7 +885,7 @@
       ]
     },
     {
-      "id": "uk-3",
+      "id": "uk-ext",
       "name": "HL7 UK Base Extensions",
       "description": "UK Base FHIR Extensions",
       "resource": [
@@ -1652,7 +1647,7 @@
       ]
     },
     {
-      "id": "uk-4",
+      "id": "uk-vs",
       "name": "HL7 UK ValueSets",
       "description": "UK FHIR ValueSets",
       "resource": [
@@ -2955,7 +2950,7 @@
       ]
     },
     {
-      "id": "uk-5",
+      "id": "uk-cs",
       "name": "HL7 UK CodeSystems",
       "description": "UK FHIR CodesSystems",
       "resource": [
@@ -3556,7 +3551,7 @@
       ]
     },
     {
-      "id": "uk-6",
+      "id": "uk-examples",
       "name": "UK Examples",
       "description": "These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like",
       "resource": [
@@ -3665,32 +3660,12 @@
       ]
     },
     {
-      "id": "uk-7",
+      "id": "uk-capability",
       "name": "Capability Statement",
-      "description": "Minimal recommended Capability Statement for UK RESTful implementations",
-      "resource": [
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "CapabilityStatement"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "careconnect-api.html"
-            }
-          ],
-          "example": false,
-          "name": "careconnect-api",
-          "description": "The Care Connect RESTful APIs within this site have been developed collaboratively by NHS Digital and the INTEROPen community. These APIs aim to better support the delivery of care by opening up information and data held across different clinical care settings through the use of nationally defined INTEROPen FHIR® resources.",
-          "sourceReference": {
-            "reference": "CapabilityStatement/careconnect-api"
-          }
-        }
-      ]
+      "description": "Minimal recommended Capability Statement for UK RESTful implementations"
     },
     {
-      "id": "uk-8",
+      "id": "uk-ns",
       "name": "Naming Systems",
       "description": "Represents a 'System' used within Identifier and Coding data types.",
       "resource": [
@@ -3746,6 +3721,103 @@
           "description": "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)",
           "sourceReference": {
             "reference": "NamingSystem/uk-gmc-number"
+          }
+        }
+      ]
+    },
+    {
+      "id": "uk-cm",
+      "name": "HL7 UK ConceptMap",
+      "description": "UK FHIR ConceptMaps",
+      "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-PersonNameType-1.html"
+            }
+          ],
+          "example": false,
+          "name": "PersonNameType-1",
+          "description": "A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.",
+          "sourceReference": {
+            "reference": "ConceptMap/CareConnect-PersonNameType-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-AdministrativeGender-1.html"
+            }
+          ],
+          "example": false,
+          "name": "cm-AdministrativeGender-1",
+          "description": "A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.",
+          "sourceReference": {
+            "reference": "ConceptMap/CareConnect-AdministrativeGender-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-AllergySeverity-1.html"
+            }
+          ],
+          "example": false,
+          "name": "cm-AllergySeverity-1",
+          "description": "A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.",
+          "sourceReference": {
+            "reference": "ConceptMap/CareConnect-AllergySeverity-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-AllergyVerificationStatus-1.html"
+            }
+          ],
+          "example": false,
+          "name": "cm-AllergyVerificationStatus-1",
+          "description": "A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.",
+          "sourceReference": {
+            "reference": "ConceptMap/CareConnect-AllergyVerificationStatus-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "ConceptMap"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "CareConnect-MaritalStatus-1.html"
+            }
+          ],
+          "example": false,
+          "name": "cm-MaritalStatus-1",
+          "description": "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.",
+          "sourceReference": {
+            "reference": "ConceptMap/CareConnect-MaritalStatus-1"
           }
         }
       ]

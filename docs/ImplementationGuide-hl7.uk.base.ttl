@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "hl7.uk.base"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"];
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-03T08:45:43+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-04T08:50:38+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "A brief description of what MyIG is about (probably the same text as in your readme)"];
+  fhir:ImplementationGuide.description [ fhir:value "UK Base FHIR Resources."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -39,12 +39,7 @@
   fhir:ImplementationGuide.fhirVersion [ fhir:value "3.0.2"];
   fhir:ImplementationGuide.package [
      fhir:index 0;
-     fhir:Element.id [ fhir:value "cc" ];
-     fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK" ];
-     fhir:ImplementationGuide.package.description [ fhir:value "Core UK FHIR Resources" ]
-  ], [
-     fhir:index 1;
-     fhir:Element.id [ fhir:value "uk-1" ];
+     fhir:Element.id [ fhir:value "uk-base" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK Base Profiles" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK Base FHIR Profiles" ];
      fhir:ImplementationGuide.package.resource [
@@ -679,8 +674,8 @@
        ]
      ]
   ], [
-     fhir:index 2;
-     fhir:Element.id [ fhir:value "uk-vs" ];
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "uk-news2" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK Vital Signs" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)" ];
      fhir:ImplementationGuide.package.resource [
@@ -847,8 +842,8 @@
        ]
      ]
   ], [
-     fhir:index 3;
-     fhir:Element.id [ fhir:value "uk-2" ];
+     fhir:index 2;
+     fhir:Element.id [ fhir:value "uk-level3" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK Level 3 Profiles" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK Level 3 FHIR Profiles" ];
      fhir:ImplementationGuide.package.resource [
@@ -889,8 +884,8 @@
        ]
      ]
   ], [
-     fhir:index 4;
-     fhir:Element.id [ fhir:value "uk-3" ];
+     fhir:index 3;
+     fhir:Element.id [ fhir:value "uk-ext" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK Base Extensions" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK Base FHIR Extensions" ];
      fhir:ImplementationGuide.package.resource [
@@ -1650,8 +1645,8 @@
        ]
      ]
   ], [
-     fhir:index 5;
-     fhir:Element.id [ fhir:value "uk-4" ];
+     fhir:index 4;
+     fhir:Element.id [ fhir:value "uk-vs" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK ValueSets" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK FHIR ValueSets" ];
      fhir:ImplementationGuide.package.resource [
@@ -2952,8 +2947,8 @@
        ]
      ]
   ], [
-     fhir:index 6;
-     fhir:Element.id [ fhir:value "uk-5" ];
+     fhir:index 5;
+     fhir:Element.id [ fhir:value "uk-cs" ];
      fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK CodeSystems" ];
      fhir:ImplementationGuide.package.description [ fhir:value "UK FHIR CodesSystems" ];
      fhir:ImplementationGuide.package.resource [
@@ -3552,8 +3547,8 @@
        ]
      ]
   ], [
-     fhir:index 7;
-     fhir:Element.id [ fhir:value "uk-6" ];
+     fhir:index 6;
+     fhir:Element.id [ fhir:value "uk-examples" ];
      fhir:ImplementationGuide.package.name [ fhir:value "UK Examples" ];
      fhir:ImplementationGuide.package.description [ fhir:value "These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like" ];
      fhir:ImplementationGuide.package.resource [
@@ -3664,32 +3659,13 @@
        ]
      ]
   ], [
-     fhir:index 8;
-     fhir:Element.id [ fhir:value "uk-7" ];
+     fhir:index 7;
+     fhir:Element.id [ fhir:value "uk-capability" ];
      fhir:ImplementationGuide.package.name [ fhir:value "Capability Statement" ];
-     fhir:ImplementationGuide.package.description [ fhir:value "Minimal recommended Capability Statement for UK RESTful implementations" ];
-     fhir:ImplementationGuide.package.resource [
-       fhir:index 0;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "careconnect-api.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "careconnect-api" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Care Connect RESTful APIs within this site have been developed collaboratively by NHS Digital and the INTEROPen community. These APIs aim to better support the delivery of care by opening up information and data held across different clinical care settings through the use of nationally defined INTEROPen FHIR® resources." ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/CapabilityStatement/careconnect-api>;
-         fhir:Reference.reference [ fhir:value "CapabilityStatement/careconnect-api" ]
-       ]
-     ]
+     fhir:ImplementationGuide.package.description [ fhir:value "Minimal recommended Capability Statement for UK RESTful implementations" ]
   ], [
-     fhir:index 9;
-     fhir:Element.id [ fhir:value "uk-8" ];
+     fhir:index 8;
+     fhir:Element.id [ fhir:value "uk-ns" ];
      fhir:ImplementationGuide.package.name [ fhir:value "Naming Systems" ];
      fhir:ImplementationGuide.package.description [ fhir:value "Represents a 'System' used within Identifier and Coding data types." ];
      fhir:ImplementationGuide.package.resource [
@@ -3745,6 +3721,102 @@
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-gmc-number>;
          fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmc-number" ]
+       ]
+     ]
+  ], [
+     fhir:index 9;
+     fhir:Element.id [ fhir:value "uk-cm" ];
+     fhir:ImplementationGuide.package.name [ fhir:value "HL7 UK ConceptMap" ];
+     fhir:ImplementationGuide.package.description [ fhir:value "UK FHIR ConceptMaps" ];
+     fhir:ImplementationGuide.package.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CareConnect-PersonNameType-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "PersonNameType-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/CareConnect-PersonNameType-1" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CareConnect-AdministrativeGender-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AdministrativeGender-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AdministrativeGender-1>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/CareConnect-AdministrativeGender-1" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CareConnect-AllergySeverity-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AllergySeverity-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/CareConnect-AllergySeverity-1" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CareConnect-AllergyVerificationStatus-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AllergyVerificationStatus-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/CareConnect-AllergyVerificationStatus-1" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ConceptMap" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CareConnect-MaritalStatus-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-MaritalStatus-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1>;
+         fhir:Reference.reference [ fhir:value "ConceptMap/CareConnect-MaritalStatus-1" ]
        ]
      ]
   ];

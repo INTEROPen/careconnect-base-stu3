@@ -1,0 +1,121 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/v3/NullFlavor",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "NI"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/v3/NullFlavor",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "UNC"
+      },
+      {
+        "property" : "concept",
+        "op" : "=",
+        "value" : "ASKU"
+      },
+      {
+        "property" : "concept",
+        "op" : "=",
+        "value" : "NI"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 404684003 is not a reference set"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000811000001105"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "12465201000001105"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000831000001104"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000841000001106"
+      },
+      {
+        "property" : "concept",
+        "op" : "in",
+        "value" : "999000821000001101"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/v3/NullFlavor",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "NAVU"
+      },
+      {
+        "property" : "concept",
+        "op" : "=",
+        "value" : "UNC"
+      },
+      {
+        "property" : "concept",
+        "op" : "=",
+        "value" : "UNK"
+      },
+      {
+        "property" : "concept",
+        "op" : "=",
+        "value" : "NA"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The Snomed Concept 999000811000001105 was not known"
+}
+-------------------------------------------------------------------------------------

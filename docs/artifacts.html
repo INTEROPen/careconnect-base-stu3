@@ -134,10 +134,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <a href="#7">UK Examples</a>
       </p>
       <p class="link">-
-            <a href="#8">Capability Statement</a>
+            <a href="#8">Naming Systems</a>
       </p>
       <p class="link">-
-            <a href="#9">Naming Systems</a>
+            <a href="#9">HL7 UK ConceptMap</a>
       </p>
    </div>
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
@@ -1586,21 +1586,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="8"> </a>
-   <h3>Capability Statement </h3>
-   <p>Minimal recommended Capability Statement for UK RESTful implementations</p>
-   <p>
-      <table>
-         <tbody>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="careconnect-api.html" title="CapabilityStatement/careconnect-api">  •  careconnect-api</a>
-               </td>
-               <td>The Care Connect RESTful APIs within this site have been developed collaboratively by NHS Digital and the INTEROPen community. These APIs aim to better support the delivery of care by opening up information and data held across different clinical care settings through the use of nationally defined INTEROPen FHIR® resources.</td>
-            </tr>
-         </tbody>
-      </table>
-   </p>
-   <a name="9"> </a>
    <h3>Naming Systems </h3>
    <p>Represents a 'System' used within Identifier and Coding data types.</p>
    <p>
@@ -1627,6 +1612,50 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
+   <a name="9"> </a>
+   <h3>HL7 UK ConceptMap </h3>
+   <p>UK FHIR ConceptMaps</p>
+   <p>
+      <table>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-PersonNameType-1.html"
+                     title="ConceptMap/CareConnect-PersonNameType-1">  •  PersonNameType-1</a>
+               </td>
+               <td>A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-AdministrativeGender-1.html"
+                     title="ConceptMap/CareConnect-AdministrativeGender-1">  •  cm-AdministrativeGender-1</a>
+               </td>
+               <td>A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-AllergySeverity-1.html"
+                     title="ConceptMap/CareConnect-AllergySeverity-1">  •  cm-AllergySeverity-1</a>
+               </td>
+               <td>A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-AllergyVerificationStatus-1.html"
+                     title="ConceptMap/CareConnect-AllergyVerificationStatus-1">  •  cm-AllergyVerificationStatus-1</a>
+               </td>
+               <td>A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CareConnect-MaritalStatus-1.html"
+                     title="ConceptMap/CareConnect-MaritalStatus-1">  •  cm-MaritalStatus-1</a>
+               </td>
+               <td>A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
 </div>
 
 </div>
@@ -1640,7 +1669,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Dec 3, 2019 08:45+0000">2019-12-03</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Wed, Dec 4, 2019 08:50+0000">2019-12-04</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
