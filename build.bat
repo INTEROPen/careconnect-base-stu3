@@ -1,3 +1,3 @@
-JAVA -Xms64m -Xmx8g -jar input-cache/org.hl7.fhir.publisher.jar -ig ig.ini
-rmdir /q /s docs
-rename output docs
+JAVA -Xms64m -Xmx2g -jar input-cache/org.hl7.fhir.publisher.jar -ig ig.ini -destination docs
+#rmdir /q /s docs
+#rename output docs
