@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-05T09:30:46+00:00"/>
+  <date value="2019-12-05T17:31:59+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -2986,6 +2986,26 @@
       <kind value="resource"/>
     </page>
     <page>
+      <source value="profiles.html"/>
+      <title value="Profiles"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="extensions.html"/>
+      <title value="Extensions"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="terminology.html"/>
+      <title value="Terminology"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="examples.html"/>
+      <title value="Examples"/>
+      <kind value="resource"/>
+    </page>
+    <page>
       <source value="changes.html"/>
       <title value="IG Change History"/>
       <kind value="page"/>
@@ -3003,6 +3023,16 @@
     <page>
       <source value="patient-search.html"/>
       <title value="Patient Search"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="codesystems.html"/>
+      <title value="CodeSystems"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="valuesets.html"/>
+      <title value="ValueSets"/>
       <kind value="resource"/>
     </page>
   </page>

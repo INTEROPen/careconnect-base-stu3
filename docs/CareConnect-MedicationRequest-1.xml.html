@@ -35,8 +35,8 @@
   <body>
 
 
-    <style type="text/css">h2{--heading-prefix:"6.19"}
-    h3,h4,h5,h6{--heading-prefix:"6.19"}</style>
+    <style type="text/css">h2{--heading-prefix:"12.19"}
+    h3,h4,h5,h6{--heading-prefix:"12.19"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
@@ -73,9 +73,11 @@
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">HL7 UK Implementation Guide</a></li>
-  <li><a href="artifacts.html">Profiles and Terminology</a></li>
-  <!--<li><a href="terminology.html">Terminology </a></li>-->
-  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="profiles.html">Profiles</a></li>
+  <li><a href="extensions.html">Extensions</a></li>
+  <li><a href="terminology.html">Terminology</a></li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+  <li><a href="artifacts.html">Contents</a></li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -1355,9 +1357,7 @@ Where the system is known, a type is unnecessary because the type is always part
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;Whether the request is a proposal, plan, or an original order.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.
-
-An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.
+               <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;It is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.An instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.
 
 This element is labeled as a modifier because the intent alters when and how the resource is actually applicable.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
@@ -1429,11 +1429,7 @@ This element is labeled as a modifier because the intent alters when and how the
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;script10.6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribed/Directions
-
-or 
-
-Message/Body/NewRx/MedicationPrescribed/StructuredSIG&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribed/Directionsor Message/Body/NewRx/MedicationPrescribed/StructuredSIG&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -1520,13 +1516,7 @@ Message/Body/NewRx/MedicationPrescribed/StructuredSIG&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;script10.6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribed
-
-Medication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCode
-
-Medication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifier
-
-Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribedMedication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeMedication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifierMedication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;v2&quot;/&gt;
@@ -1570,13 +1560,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;script10.6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribed
-
-Medication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCode
-
-Medication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifier
-
-Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/MedicationPrescribedMedication.code.coding.code = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeMedication.code.coding.system = Message/Body/NewRx/MedicationPrescribed/DrugCoded/ProductCodeQualifierMedication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDescription&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;v2&quot;/&gt;
@@ -1623,9 +1607,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;script10.6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/Patient
-
-(need detail to link to specific patient … Patient.Identification in SCRIPT)&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/Patient(need detail to link to specific patient … Patient.Identification in SCRIPT)&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;v2&quot;/&gt;
@@ -1914,9 +1896,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;script10.6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/Prescriber
-
-(need detail to link to specific prescriber … Prescriber.Identification in SCRIPT)&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Message/Body/NewRx/Prescriber(need detail to link to specific prescriber … Prescriber.Identification in SCRIPT)&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;v2&quot;/&gt;
@@ -4948,7 +4928,7 @@ Medication.code.coding.display = Message/Body/NewRx/MedicationPrescribed/DrugDes
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 5, 2019 09:30+0000">2019-12-05</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 5, 2019 17:31+0000">2019-12-05</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.UK.BASE\Terminology - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+        <div id="hl7-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK Base</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li><a href="profiles.html">Profiles</a></li>
+  <li><a href="extensions.html">Extensions</a></li>
+  <li><a href="terminology.html">Terminology</a></li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+  <li><a href="artifacts.html">Contents</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Terminology</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">HL7 UK Base - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Terminology</h2>
+  
+  
+  
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#code-systems" id="markdown-toc-code-systems">Code Systems</a></li>
+  <li><a href="#value-sets" id="markdown-toc-value-sets">Value Sets</a></li>
+</ul>
+
+</div>
+<h1 id="code-systems">Code Systems</h1>
+
+<p>Codesystems used in this implementation guide.</p>
+
+<tr><td><a href="CareConnect-AdmissionMethod-1.html">NHS Data Model and Dictionary Admission Method</a> </td><td><p>The method of admission to a Hospital Provider Spell.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ConditionCategory-1.html">Care Connect Condition Category</a> </td><td><p>A CodeSystem to identify the category of a condition.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ConditionEpisodicity-1.html">Care Connect Condition Episodicity</a> </td><td><p>A CodeSystem to identify the episodicity of a condition.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ConditionRelationship-1.html">Care Connect Condition Relationship</a> </td><td><p>A CodeSystem that identifies the kind of relationship that exists with a target condition or problem.</p>
+</td></tr>
+<tr><td><a href="CareConnect-DeathNotificationStatus-1.html">Care Connect Death Notification Status</a> </td><td><p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p>
+</td></tr>
+<tr><td><a href="CareConnect-DischargeDestination-1.html">NHS Data Model and Dictionary Discharge Destination</a> </td><td><p>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</p>
+</td></tr>
+<tr><td><a href="CareConnect-DischargeMethod-1.html">NHS Data Model and Dictionary Discharge Method</a> </td><td><p>The method of discharge from a Hospital Provider Spell.</p>
+</td></tr>
+<tr><td><a href="CareConnect-EthnicCategory-1.html">Care Connect Ethnic Category</a> </td><td><p>A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>
+</td></tr>
+<tr><td><a href="CareConnect-HumanLanguage-1.html">Care Connect Human Language</a> </td><td><p>A CodeSystem that identifies the language used by a person.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ImmunizationExplanationReason-1.html">Care Connect Immunization Explanation Reason</a> </td><td><p>A CodeSystem that identifies a code to record the reason why a vaccine was administered.</p>
+</td></tr>
+<tr><td><a href="CareConnect-InterpretationCode-1.html">CareConnect Interpretation Code</a> </td><td><p>This value set defines the set of codes that can be used to indicate the meaning/use of a reference range.</p>
+</td></tr>
+<tr><td><a href="CareConnect-LanguageAbilityMode-1.html">Care Connect Language Ability Mode</a> </td><td><p>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
+</td></tr>
+<tr><td><a href="CareConnect-LanguageAbilityProficiency-1.html">Care Connect Language Ability Proficiency</a> </td><td><p>A CodeSystem to identify the level of proficiency in communicating a language.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ListEmptyReasonCode-1.html">Care Connect List Empty Reason Code</a> </td><td><p>A CodeSystem to identify the reason a list may be empty.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ListWarningCode-1.html">Care Connect List Warning Code</a> </td><td><p>A CodeSystem to identify the reason a list may be incomplete.</p>
+</td></tr>
+<tr><td><a href="CareConnect-MedicationChangeStatus-1.html">Care Connect Medication Change Status</a> </td><td><p>A CodeSystem to identify the change status of a medication.</p>
+</td></tr>
+<tr><td><a href="CareConnect-MedicationFlag-1.html">Care Connect Medication Flag</a> </td><td><p>A CodeSystem to identify detail codes for flagged medication issues.</p>
+</td></tr>
+<tr><td><a href="CareConnect-MedicationSupplyType-1.html">Care Connect Medication Supply Type</a> </td><td><p>A CodeSystem to identify the type of medication supply.</p>
+</td></tr>
+<tr><td><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">NHS Data Model and Dictionary Person Marital Status Code</a> </td><td><p>An indicator to identify the legal marital status of a Person.</p>
+</td></tr>
+<tr><td><a href="CareConnect-NHSDataDictionary-PersonStatedGender-1.html">NHS Data Model and Dictionary Person Stated Gender Code</a> </td><td><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
+</td></tr>
+<tr><td><a href="CareConnect-NHSNumberVerificationStatus-1.html">Care Connect NHS Number Verification Status</a> </td><td><p>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>
+</td></tr>
+<tr><td><a href="CareConnect-OutcomeOfAttendance-1.html">NHS Data Model and Dictionary Outcome of Attendance</a> </td><td><p>This records the outcome of an Out-Patient Attendance Consultant.</p>
+</td></tr>
+<tr><td><a href="CareConnect-PDS-PersonNameType-1.html">PDS Person Name Type</a> </td><td><p>A code to identify the type of a name of a Person.</p>
+</td></tr>
+<tr><td><a href="CareConnect-PrescribedElsewhere-1.html">Care Connect Prescribed Elsewhere</a> </td><td><p>A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</p>
+</td></tr>
+<tr><td><a href="CareConnect-PrescriptionType-1.html">Care Connect Prescription Type</a> </td><td><p>A CodeSystem to identify the type of prescription</p>
+</td></tr>
+<tr><td><a href="CareConnect-ProblemSignificance-1.html">Care Connect Problem Significance</a> </td><td><p>A CodeSystem to record the significance of a Problem Header Condition.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ReferralRequestMethod-1.html">Care Connect Referral Request Method</a> </td><td><p>A CodeSystem to identify the form in which a referral is sent and received.</p>
+</td></tr>
+<tr><td><a href="CareConnect-RegistrationStatus-1.html">Care Connect Registration Status</a> </td><td><p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p>
+</td></tr>
+<tr><td><a href="CareConnect-RegistrationType-1.html">Care Connect Registration Type</a> </td><td><p>A CodeSystem that identifies the type of registration for a patient at a healthcare organisation.</p>
+</td></tr>
+<tr><td><a href="CareConnect-ResidentialStatus-1.html">Care Connect Residential Status</a> </td><td><p>A CodeSystem that identifies the residential status of a patient.</p>
+</td></tr>
+<tr><td><a href="CareConnect-SDSJobRoleName-1.html">Care Connect SDS Job Role Name</a> </td><td><p>A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>
+</td></tr>
+<tr><td><a href="CareConnect-SourceOfAdmission-1.html">NHS Data Model and Dictionary Source Of Admission</a> </td><td><p>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</p>
+</td></tr>
+<tr><td><a href="CareConnect-TreatmentCategory-1.html">Care Connect Treatment Category</a> </td><td><p>A CodeSystem that identifies the treatment category for this patient.</p>
+</td></tr>
+
+<h1 id="value-sets">Value Sets</h1>
+
+<p>Valuesets used in this implementation guide.</p>
+
+<tr><td><a href="valueset-CareConnect-ACVPU-1.html">Care Connect ACVPU</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AdministrativeGender-1.html">Administrative Gender</a> </td><td><p>The gender of a person used for administrative purposes.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergyCertainty-1.html">Care Connect Allergy Certainty</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergyCode-1.html">Care Connect Allergy Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergyExposureRoute-1.html">Care Connect Allergy Exposure Route</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergyManifestation-1.html">Care Connect Allergy Manifestation</a> </td><td><p>A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergyVerificationStatus-1.html">AllergyIntoleranceVerificationStatus</a> </td><td><p>Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-BodySite-1.html">Care Connect Body Site</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-CareSettingType-1.html">Care Connect Care Setting Type</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ClinicalDisciplines-1.html">Care Connect Clinical Disciplinesy</a> </td><td><p>A ValueSet to identify the clincial discipline of the care professional or team.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-CompositionSectionCode-1.html">Care Connect Composition Section Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ConditionCategory-1.html">Care Connect Condition Category</a> </td><td><p>A ValueSet to identify the category of a condition.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ConditionCode-1.html">Care Connect Condition Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ConditionEpisodeSnCT-1.html">Care Connect Condition Episode SnCT</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ConditionEpisodicity-1.html">Care Connect Condition Episodicity</a> </td><td><p>A ValueSet to identify the episodicity of a condition.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ConditionRelationship-1.html">Care Connect Condition Relationship</a> </td><td><p>A ValueSet that identifies the kind of relationship that exists with a target condition or problem..</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-DischargeDestination-1.html">NHS Data Model and Dictionary Discharge Destination</a> </td><td><p>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-DocumentType-1.html">Care Connect Document Type</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-EncounterType-1.html">Care Connect Encounter Type</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-FindingCode-1.html">Care Connect Finding Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system to record a finding code.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-HumanLanguage-1.html">Care Connect Human Language</a> </td><td><p>A ValueSet that identifies the language used by a person.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ImmunizationExplanationReason-1.html">Care Connect Immunization Explanation Reason</a> </td><td><p>A code to record the reason why a vaccine was administered.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ImmunizationExplanationReason-2.html">Care Connect Immunization Explanation Reason</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-InspiredOxygen-1.html">Care Connect Inspired Oxygen</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient requires oxygen or is breathing room air.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-InterpretationCode-1.html">Care Connect Extended Interpretation Code</a> </td><td><p>This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-LanguageAbilityMode-1.html">Care Connect Language Ability Mode</a> </td><td><p>A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-LanguageAbilityProficiency-1.html">Care Connect Language Ability Proficiency</a> </td><td><p>A ValueSet to identify the level of proficiency in communicating a language.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ListCode-1.html">Care Connect List Code</a> </td><td><p>A ValueSet to identify the purpose of a list.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ListEmptyReasonCode-1.html">Care Connect List Empty Reason Code</a> </td><td><p>A ValueSet to identify the reason a list may be empty.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ManufacturedMaterialSnCT-1.html">Care Connect Manufactured Material SnCT</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a manufactured material (e.g. a pharmaceutical product or personal medical device). These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'Manufactured Material' subset with subset original id 1391000000139; the corresponding SNOMED CT UK Refset fully specified name is 'Manufactured material simple reference set (foundation metadata concept)' with Refset Id 999000031000001105.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MaritalStatus-1.html">Marital Status Codes</a> </td><td><p>This value set defines the set of codes that can be used to indicate the marital status of a person.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationChangeStatus-1.html">Care Connect Medication Change Status</a> </td><td><p>A ValueSet to identify the change status of a medication.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationCode-1.html">Care Connect Medication Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system with the expression (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationDosageRoute-1.html">Care Connect Medication Dosage Route</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationFlag-1.html">Care Connect Medication Flag</a> </td><td><p>A ValueSet to identify detail codes for flagged medication issues.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationForm-1.html">Care Connect Medication Form</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-MedicationSupplyType-1.html">Care Connect Medication Supply Type</a> </td><td><p>A ValueSet to identify the type of medication supply.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">NHS Data Model and Dictionary Person Marital Status Code</a> </td><td><p>An indicator to identify the legal marital status of a Person.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-NHSDataDictionary-PersonStatedGender-1.html">NHS Data Model and Dictionary Person Stated Gender Code</a> </td><td><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-NameUse-1.html">NameUse</a> </td><td><p>The use of a human name</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ObservationMethod-1.html">Care Connect Observation Method</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;386053000 | Evaluation procedure|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ObservationType-1.html">Care Connect Observation Type</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;363787002 | Observable entity|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-PDS-PersonNameType-1.html">PDS Person Name Type</a> </td><td><p>A code to identify the type of a name of a Person.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ProblemSignificance-1.html">Care Connect Problem Significance</a> </td><td><p>A code to record the significance of a Problem Header Condition.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ProcedureCode-1.html">Care Connect Procedure Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ReactionEventSeverity-1.html">AllergyIntoleranceSeverity</a> </td><td><p>Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ReasonImmunizationNotAdministered-1.html">Care Connect Reason Immunization Not Administered</a> </td><td><p>A ValueSet to identify the reason why an immunization was not administered.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ReferralRequestMethod-1.html">Care Connect Referral Request Method</a> </td><td><p>A ValueSet to identify the form in which a referral is sent and received.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-RegistrationStatus-1.html">Care Connect Registration Status</a> </td><td><p>A ValueSet that identifies the status of registration for a patient at the healthcare organisation.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-RegistrationType-1.html">Care Connect Registration Type</a> </td><td><p>A ValueSet that identifies the type of registration for a patient at a healthcare organisation.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ReportCodeSnCT-1.html">Care Connect Report Code SnCT</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a diagnotic report</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SDSJobRoleName-1.html">Care Connect SDS Job Role Name</a> </td><td><p>A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SaturatedOxygenSp02Scale-1.html">Care Connect Saturated Oxygen Sp02 Scale</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SourceOfAdmission-1.html">NHS Data Model and Dictionary Source Of Admission</a> </td><td><p>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SpecimenBodySite-1.html">Care Connect Specimen Body Site</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system to record a specimen body site.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SpecimenType-1.html">Care Connect Specimen Type</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system to record a specimen type.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-VaccineCode-1.html">Care Connect Vaccine Code</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AdmissionMethod-1.html">NHS Data Model and Dictionary Admission Method</a> </td><td><p>The method of admission to a Hospital Provider Spell.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-AllergySeverity-1.html">Care Connect Allergy Severity</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-DeathNotificationStatus-1.html">Care Connect Death Notification Status</a> </td><td><p>A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-DischargeMethod-1.html">NHS Data Model and Dictionary Discharge Method</a> </td><td><p>The method of discharge from a Hospital Provider Spell.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-EmergencyCareDischargeStatus-1.html">Care Connect Emergency Care Discharge Status</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-EthnicCategory-1.html">Care Connect Ethnic Category</a> </td><td><p>A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ListWarningCode-1.html">Care Connect List Warning Code</a> </td><td><p>A ValueSet to identify the reason a list may be incomplete.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-NHSNumberVerificationStatus-1.html">Care Connect NHS Number Verification Status</a> </td><td><p>A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-OutcomeOfAttendance-1.html">NHS Data Model and Dictionary Outcome Of Attendance</a> </td><td><p>This records the outcome of an Out-Patient Attendance Consultant.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-PrescribedElsewhere-1.html">Care Connect Prescribed Elsewhere</a> </td><td><p>A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-PrescriptionType-1.html">Care Connect Prescription Type</a> </td><td><p>A ValueSet to identify the type of prescription.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ReligiousAffiliation-1.html">Care Connect Religious Affiliation</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-ResidentialStatus-1.html">Care Connect Residential Status</a> </td><td><p>A ValueSet that identifies the residential status of a patient.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-SourceOfReferral-1.html">Care Connect Source of Referral</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the source of the referral.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-TreatmentCategory-1.html">Care Connect Treatment Category</a> </td><td><p>A ValueSet that identifies the treatment category for this patient.</p>
+</td></tr>
+<tr><td><a href="valueset-CareConnect-VaccinationProcedure-1.html">Care Connect Vaccination Procedure</a> </td><td><p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure.</p>
+</td></tr>
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 5, 2019 17:31+0000">2019-12-05</span>
+          <br/>
+          <span style="color: #FFFF77">
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

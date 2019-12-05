@@ -41,7 +41,7 @@ A sample response is shown below
 
 #### XML Example - Bundle Patient ####
 
-<script src="https://gist.github.com/KevinMayfield/df1eafd6f4b730ba027566219c7fdc83.js"></script>
+TODO Add in example here
 
 What we have just described is shown in the diagram below. When entered the url we did a Patient Search FHIR Query and the response is called Patient Search FHIR Query Response.
 

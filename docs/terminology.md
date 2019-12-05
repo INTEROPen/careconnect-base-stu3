@@ -1,11 +1,12 @@
-# Value Sets
-
-Value sets used in this implementation guide.
-
-NOT YET IMPLEMENTED
-
 # Code Systems
 
-Code systems used in this implementation guide.
+Codesystems used in this implementation guide.
 
-NOT YET IMPLEMENTED
+{% include table-codesystems.xhtml %}
+
+# Value Sets
+
+Valuesets used in this implementation guide.
+
+{% include table-valuesets.xhtml %}
+

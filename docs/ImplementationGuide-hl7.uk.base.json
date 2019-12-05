@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-05T09:30:46+00:00",
+  "date": "2019-12-05T17:31:59+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -3852,6 +3852,26 @@
         "kind": "resource"
       },
       {
+        "source": "profiles.html",
+        "title": "Profiles",
+        "kind": "resource"
+      },
+      {
+        "source": "extensions.html",
+        "title": "Extensions",
+        "kind": "resource"
+      },
+      {
+        "source": "terminology.html",
+        "title": "Terminology",
+        "kind": "resource"
+      },
+      {
+        "source": "examples.html",
+        "title": "Examples",
+        "kind": "resource"
+      },
+      {
         "source": "changes.html",
         "title": "IG Change History",
         "kind": "page"
@@ -3869,6 +3889,16 @@
       {
         "source": "patient-search.html",
         "title": "Patient Search",
+        "kind": "resource"
+      },
+      {
+        "source": "codesystems.html",
+        "title": "CodeSystems",
+        "kind": "resource"
+      },
+      {
+        "source": "valuesets.html",
+        "title": "ValueSets",
         "kind": "resource"
       }
     ]
