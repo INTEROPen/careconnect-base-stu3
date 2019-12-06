@@ -1,58 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-   <id value="Extension-CareConnect-FastingStatus-1"></id>
-   <meta>
-      <lastUpdated value="2018-02-27T12:06:00.185+00:00"></lastUpdated>
-   </meta>
-   <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1"></url>
-   <version value="1.0.1"></version>
-   <name value="Extension-CareConnect-FastingStatus-1"></name>
-   <status value="draft"></status>
-   <date value="2017-07-13T10:41:53.9272632+01:00"></date>
-   <publisher value="HL7 UK"></publisher>
-   <contact>
-      <name value="INTEROPen"></name>
-      <telecom>
-         <system value="email"></system>
-         <value value="admin@interopen.org"></value>
-         <use value="work"></use>
-      </telecom>
-   </contact>
-   <description value="This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected."></description>
-   <purpose value="CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/"></purpose>
-   <copyright value="Copyright © 2016 HL7 UK  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"></copyright>
-   <fhirVersion value="3.0.1"></fhirVersion>
-   <kind value="complex-type"></kind>
-   <abstract value="false"></abstract>
-   <contextType value="resource"></contextType>
-   <context value="Specimen.collection"></context>
-   <type value="Extension"></type>
-   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
-   <derivation value="constraint"></derivation>
-   <differential>
-      <element id="Extension">
-         <path value="Extension"></path>
-         <short value="A coded value of the fasting status when the specimen was collected."></short>
-         <definition value="A coded value of the fasting status when the specimen was collected."></definition>
-      </element>
-      <element id="Extension.url">
-         <path value="Extension.url"></path>
-         <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1"></fixedUri>
-      </element>
-      <element id="Extension.value[x]">
-         <path value="Extension.value[x]"></path>
-         <short value="A coded value that inidcates the fasting status of the patient at the time the sample was collected."></short>
-         <definition value="A coded value that inidcates the fasting status of the patient at the time the sample was collected."></definition>
-         <type>
-            <code value="CodeableConcept"></code>
-         </type>
-         <type>
-            <code value="Duration"></code>
-         </type>
-         <binding>
-            <strength value="extensible"></strength>
-            <description value=" v2 Relevant Clincial Information"></description>
-            <valueSetUri value="http://terminology.hl7.org/ValueSet/v2-0916"></valueSetUri>
-         </binding>
-      </element>
-   </differential>
+  <id value="Extension-CareConnect-FastingStatus-1" />
+  <meta>
+    <lastUpdated value="2018-02-27T12:06:00.185+00:00" />
+  </meta>
+  <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1" />
+  <version value="1.0.1" />
+  <name value="Extension-CareConnect-FastingStatus-1" />
+  <status value="draft" />
+  <date value="2017-07-13T10:41:53.9272632+01:00" />
+  <publisher value="HL7 UK" />
+  <contact>
+    <name value="INTEROPen" />
+    <telecom>
+      <system value="email" />
+      <value value="admin@interopen.org" />
+      <use value="work" />
+    </telecom>
+  </contact>
+  <description value="This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected." />
+  <purpose value="CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/" />
+  <copyright value="Copyright © 2016 HL7 UK  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="3.0.1" />
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <contextType value="resource" />
+  <context value="Specimen.collection" />
+  <type value="Extension" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="A coded value of the fasting status when the specimen was collected." />
+      <definition value="A coded value of the fasting status when the specimen was collected." />
+    </element>
+    <element id="Extension.url">
+      <path value="Extension.url" />
+      <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1" />
+    </element>
+    <element id="Extension.value[x]">
+      <path value="Extension.value[x]" />
+      <short value="A coded value that inidcates the fasting status of the patient at the time the sample was collected." />
+      <definition value="A coded value that inidcates the fasting status of the patient at the time the sample was collected." />
+      <type>
+        <code value="CodeableConcept" />
+      </type>
+      <type>
+        <code value="Duration" />
+      </type>
+      <binding>
+        <strength value="extensible" />
+        <description value="v2 Relevant Clincial Information" />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/v2-0916" />
+        </valueSetReference>
+      </binding>
+    </element>
+  </differential>
 </StructureDefinition>

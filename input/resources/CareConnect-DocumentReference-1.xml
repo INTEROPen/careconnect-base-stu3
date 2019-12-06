@@ -56,7 +56,7 @@
       </element>
       <element id="DocumentReference.type">
          <path value="DocumentReference.type"></path>
-         <short value="Type of document "></short>
+         <short value="Type of document"></short>
          <binding>
             <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
                <valueString value="DocumentC80Type"></valueString>

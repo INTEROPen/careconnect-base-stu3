@@ -1,9 +1,9 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 84, warn = 28, info = 4
+err = 80, warn = 26, info = 4
 IG Publisher Version: v1.0.14-SNAPSHOT
-Generated Fri Dec 06 15:23:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Fri Dec 06 15:52:34 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 7 / 0
  C:\Development\HL7UK\fhir-uk-base\input\examples\observation-9084 : 0 / 1
@@ -11,7 +11,7 @@ Generated Fri Dec 06 15:23:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  C:\Development\HL7UK\fhir-uk-base\input\examples\organization-3 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\examples\patient-1 : 0 / 1
  C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-4 : 0 / 1
- C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ACVPU-Observation-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ACVPU-Observation-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-AllergyIntolerance-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Appointment-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-BloodPressure-Observation-1 : 0 / 0
@@ -71,7 +71,7 @@ Generated Fri Dec 06 15:23:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EncounterTransport-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EthnicCategory-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Evidence-1 : 0 / 0
- C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-FastingStatus-1 : 1 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-FastingStatus-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ListWarningCode-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MainLocation-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationChangeSummary-1 : 0 / 0
@@ -234,7 +234,6 @@ INFORMATION: Patient/patient-1: Patient.identifier[1]: This element does not mat
 == C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-4.xml ==
 INFORMATION: Practitioner/practitioner-4: Practitioner.identifier[0]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ACVPU-Observation-1.xml ==
-ERROR: StructureDefinition/CareConnect-ACVPU-Observation-1: StructureDefinition.differential.element[6].binding.valueSet.ofType(Reference): Invalid Resource target type. Found CodeSystem, but expected one of (ValueSet)
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-AllergyIntolerance-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Appointment-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-BloodPressure-Observation-1.xml ==
@@ -301,8 +300,6 @@ WARNING: StructureDefinition/CareConnect-RespiratoryRate-Observation-1: Structur
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EthnicCategory-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Evidence-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-FastingStatus-1.xml ==
-WARNING: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefinition.differential.element[2].binding.description: value should not start or finish with whitespace
-ERROR: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefinition.differential.element[2].binding.valueSet.ofType(Reference): Unable to resolve resource 'http://terminology.hl7.org/ValueSet/v2-0916'
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ListWarningCode-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MainLocation-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationChangeSummary-1.xml ==
