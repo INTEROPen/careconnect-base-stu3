@@ -35,8 +35,8 @@
   <body>
 
 
-    <style type="text/css">h2{--heading-prefix:"12.207"}
-    h3,h4,h5,h6{--heading-prefix:"12.207"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.207"}
+    h3,h4,h5,h6{--heading-prefix:"7.207"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
@@ -75,9 +75,24 @@
   <li><a href="index.html">HL7 UK Implementation Guide</a></li>
   <li><a href="profiles.html">Profiles</a></li>
   <li><a href="extensions.html">Extensions</a></li>
-  <li><a href="terminology.html">Terminology</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+    </ul>
+  </li>
   <!--<li><a href="examples.html">Examples</a></li>-->
-  <li><a href="artifacts.html">Contents</a></li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -117,7 +132,7 @@
   "<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.id">id</a>" : "CareConnect-AllergyVerificationStatus-1",
   "<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.text">text</a>" : {
     "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Concept Map - Allergy Verification Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=\&quot;valueset-CareConnect-AllergyVerificationStatus-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1&lt;/a&gt; to &lt;a href=\&quot;valueset-CareConnect-AllergyCertainty-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on 14-Nov-2018 00:00:00 by HL7 UK (). Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unconfirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unconfirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;2931005 (Probable diagnosis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;255545003 (Definite)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;410605003 (Confirmed present (qualifier value))&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Concept Map - Allergy Verification Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=\&quot;valueset-CareConnect-AllergyVerificationStatus-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1&lt;/a&gt; to &lt;a href=\&quot;valueset-CareConnect-AllergyCertainty-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on 14 Nov 2018, 00:00:00 by HL7 UK (). Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unconfirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unconfirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;2931005 (Probable diagnosis)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;255545003 (Definite)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;confirmed&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;410605003 (Confirmed present (qualifier value))&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.url">url</a>" : "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1",
   "<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.version">version</a>" : "3.0.0",
@@ -217,7 +232,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 6, 2019 15:49+0000">2019-12-06</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 6, 2019 22:30+0000">2019-12-06</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

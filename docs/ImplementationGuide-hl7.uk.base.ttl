@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-06T15:49:16+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-06T22:30:24+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3895,43 +3895,18 @@
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
      ], [
        fhir:index 3;
-       fhir:ImplementationGuide.page.source [ fhir:value "terminology.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "Terminology" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 4;
-       fhir:ImplementationGuide.page.source [ fhir:value "examples.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "Examples" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 5;
-       fhir:ImplementationGuide.page.source [ fhir:value "changes.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "IG Change History" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "page" ]
-     ], [
-       fhir:index 6;
-       fhir:ImplementationGuide.page.source [ fhir:value "guidance.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "Guidance" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 7;
-       fhir:ImplementationGuide.page.source [ fhir:value "history.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "IG History" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 8;
-       fhir:ImplementationGuide.page.source [ fhir:value "patient-search.html" ];
-       fhir:ImplementationGuide.page.title [ fhir:value "Patient Search" ];
-       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
-     ], [
-       fhir:index 9;
        fhir:ImplementationGuide.page.source [ fhir:value "codesystems.html" ];
        fhir:ImplementationGuide.page.title [ fhir:value "CodeSystems" ];
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
      ], [
-       fhir:index 10;
+       fhir:index 4;
        fhir:ImplementationGuide.page.source [ fhir:value "valuesets.html" ];
        fhir:ImplementationGuide.page.title [ fhir:value "ValueSets" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.page.source [ fhir:value "conceptmaps.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "ConceptMaps" ];
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
      ]
   ] .

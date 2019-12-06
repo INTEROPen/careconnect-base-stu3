@@ -1590,36 +1590,11 @@
             <title value="Extensions"></title>
             <generation value="markdown"></generation>
          </page>
-         <page>
+      <!--   <page>
             <nameUrl value="terminology.html"></nameUrl>
             <title value="Terminology"></title>
             <generation value="markdown"></generation>
-         </page>
-         <page>
-            <nameUrl value="examples.html"></nameUrl>
-            <title value="Examples"></title>
-            <generation value="markdown"></generation>
-         </page>
-         <page>
-            <nameUrl value="changes.html"></nameUrl>
-            <title value="IG Change History"></title>
-            <generation value="html"></generation>
-         </page>
-         <page>
-            <nameUrl value="guidance.html"></nameUrl>
-            <title value="Guidance"></title>
-            <generation value="markdown"></generation>
-         </page>
-         <page>
-            <nameUrl value="history.html"></nameUrl>
-            <title value="IG History"></title>
-            <generation value="markdown"></generation>
-         </page>
-         <page>
-            <nameUrl value="patient-search.html"></nameUrl>
-            <title value="Patient Search"></title>
-            <generation value="markdown"></generation>
-         </page>
+         </page> -->
          <page>
             <nameUrl value="codesystems.html"></nameUrl>
             <title value="CodeSystems"></title>
@@ -1628,6 +1603,11 @@
          <page>
             <nameUrl value="valuesets.html"></nameUrl>
             <title value="ValueSets"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="conceptmaps.html"></nameUrl>
+            <title value="ConceptMaps"></title>
             <generation value="markdown"></generation>
          </page>
       </page>
