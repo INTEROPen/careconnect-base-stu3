@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-05T17:31:59+00:00"/>
+  <date value="2019-12-05T23:55:00+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -760,6 +760,20 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-CareSettingType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-CareSettingType-1"/>
+      <description value="Extension for a Care Setting which provides the originating care setting for the document."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-CareSettingType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="extension-Extension-CareConnect-ClinicalSetting-1.html"/>
       </extension>
       <example value="false"/>
@@ -1138,6 +1152,20 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ProblemSignificance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-ProblemSignificance-1"/>
+      <description value="An extension to record the significance of the problem header condition."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ProblemSignificance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="extension-Extension-CareConnect-ReasonCondition-1.html"/>
       </extension>
       <example value="false"/>
@@ -1145,6 +1173,20 @@
       <description value="The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text."/>
       <sourceReference>
         <reference value="StructureDefinition/Extension-CareConnect-ReasonCondition-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-Recorder-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Recorder-1"/>
+      <description value="This Extension is used to specify who recorded the event."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-Recorder-1"/>
       </sourceReference>
     </resource>
     <resource>
@@ -1201,6 +1243,20 @@
       <description value="This extension is constrained to represent the religious affiliation for a patient."/>
       <sourceReference>
         <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ReferralRequestMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-ReferralRequestMethod-1"/>
+      <description value="This extension is constrained to represent the method used to send or receive a Referral Request."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"/>
       </sourceReference>
     </resource>
     <resource>

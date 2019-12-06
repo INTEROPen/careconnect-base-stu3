@@ -1,0 +1,75 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Extension-CareConnect-ReferralRequestMethod-1"></id>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"></url>
+    <version value="1.0.0"></version>
+    <name value="Extension-CareConnect-ReferralRequestMethod-1"></name>
+    <status value="draft"></status>
+    <date value="2019-07-17"></date>
+    <publisher value="HL7 UK"></publisher>
+    <contact>
+        <name value="INTEROPen"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="admin@interopen.org"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="This extension is constrained to represent the method used to send or receive a Referral Request."></description>
+    <purpose value="CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/ "></purpose>
+    <copyright value="Copyright © 2019 HL7 UK  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="complex-type"></kind>
+    <abstract value="false"></abstract>
+    <contextType value="resource"></contextType>
+    <context value="ReferralRequest"></context>
+    <type value="Extension"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"></path>
+            <short value="The method used to communicate the referral such as fax, NHS e-Referral Service, secure email, etc..."></short>
+            <definition value="The method used to send or receive a Referral Request."></definition>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"></path>
+            <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"></fixedUri>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept">
+            <path value="Extension.valueCodeableConcept"></path>
+            <sliceName value="valueCodeableConcept"></sliceName>
+            <min value="1"></min>
+            <type>
+                <code value="CodeableConcept"></code>
+            </type>
+            <binding>
+                <strength value="required"></strength>
+                <description value="The form in which a referral is sent and received"></description>
+                <valueSetUri value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1"></valueSetUri>
+            </binding>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding">
+            <path value="Extension.valueCodeableConcept.coding"></path>
+            <max value="1"></max>
+            <binding>
+                <strength value="required"></strength>
+                <description value="The method used to send or receive a Referral Request"></description>
+                <valueSetReference>
+                    <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReferralRequestMethod-1"></reference>
+                </valueSetReference>
+            </binding>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.system">
+            <path value="Extension.valueCodeableConcept.coding.system"></path>
+            <fixedUri value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"></fixedUri>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.version">
+            <path value="Extension.valueCodeableConcept.coding.version"></path>
+            <max value="0"></max>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.userSelected">
+            <path value="Extension.valueCodeableConcept.coding.userSelected"></path>
+            <max value="0"></max>
+        </element>
+    </differential>
+</StructureDefinition>

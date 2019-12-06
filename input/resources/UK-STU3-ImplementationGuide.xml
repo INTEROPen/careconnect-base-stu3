@@ -255,6 +255,13 @@
       </resource>
       <resource>
          <reference>
+            <reference value="StructureDefinition/Extension-CareConnect-CareSettingType-1"></reference>
+         </reference>
+         <name value="ext-CareSettingType-1"></name>
+         <groupingId value="uk-ext"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"></reference>
          </reference>
          <name value="ClinicalDisciplines-1"></name>
@@ -871,6 +878,13 @@
       </resource>
       <resource>
          <reference>
+            <reference value="StructureDefinition/Extension-CareConnect-ProblemSignificance-1"></reference>
+         </reference>
+         <name value="ext-ProblemSignificance-1"></name>
+         <groupingId value="uk-ext"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="StructureDefinition/CareConnect-Procedure-1"></reference>
          </reference>
          <name value="Procedure-1"></name>
@@ -917,6 +931,13 @@
          </reference>
          <name value="ReasonImmunizationNotAdministered-1"></name>
          <groupingId value="uk-vs"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-CareConnect-Recorder-1"></reference>
+         </reference>
+         <name value="Recorder-1"></name>
+         <groupingId value="uk-ext"></groupingId>
       </resource>
       <resource>
          <reference>
@@ -979,6 +1000,13 @@
             <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"></reference>
          </reference>
          <name value="ReligiousAffiliation-1"></name>
+         <groupingId value="uk-ext"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"></reference>
+         </reference>
+         <name value="ext-ReferralRequestMethod-1"></name>
          <groupingId value="uk-ext"></groupingId>
       </resource>
       <resource>

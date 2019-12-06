@@ -1,11 +1,11 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 136, warn = 46, info = 4
-IG Publisher Version: v1.0.13-SNAPSHOT
-Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+err = 120, warn = 46, info = 4
+IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.14-SNAPSHOT
+Generated Fri Dec 06 00:02:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
- Build Errors : 7 / 0
+ Build Errors : 7 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3 : 0 / 0
@@ -17,13 +17,13 @@ Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1 : 7 / 2
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1 : 2 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DocumentReference-1 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Encounter-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1 : 2 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1 : 2 / 3
@@ -42,11 +42,11 @@ Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Practitioner-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1 : 2 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Quantity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1 : 2 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1 : 2 / 3
@@ -61,6 +61,7 @@ Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1 : 0 / 0
@@ -87,7 +88,10 @@ Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1 : 0 / 0
@@ -216,7 +220,8 @@ Generated Thu Dec 05 17:38:13 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-VaccineCode-1 : 1 / 0
 </table>
 == n/a ==
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 830 column 99
+WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 858 column 99
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/patient-search.html#/html/body/div/div/div/div/div/p/a at Line 157, column 76: The link 'api_entity_patient.html' for "Patient" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 121, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 121, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
@@ -250,8 +255,6 @@ ERROR: StructureDefinition/CareConnect-BloodPressure-Observation-1: StructureDef
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1.xml ==
-ERROR: CareConnect-Composition-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Composition-1 differential Composition.extension (careSettingTypeExtension)
-ERROR: CareConnect-Composition-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Composition-1 snapshot Composition.extension (careSettingTypeExtension)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DocumentReference-1.xml ==
@@ -259,8 +262,6 @@ WARNING: StructureDefinition/CareConnect-DocumentReference-1: StructureDefinitio
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Encounter-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1.xml ==
-ERROR: CareConnect-FamilyMemberHistory-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Recorder-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-FamilyMemberHistory-1 differential FamilyMemberHistory.extension (recorder)
-ERROR: CareConnect-FamilyMemberHistory-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Recorder-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-FamilyMemberHistory-1 snapshot FamilyMemberHistory.extension (recorder)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1.xml ==
@@ -291,14 +292,10 @@ ERROR: StructureDefinition/CareConnect-OxygenSaturation-Observation-1: Structure
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1.xml ==
 WARNING: StructureDefinition/CareConnect-ProblemHeader-Condition-1: StructureDefinition.differential.element[12].fixed.ofType(string): value should not start or finish with whitespace
-ERROR: CareConnect-ProblemHeader-Condition-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1 differential Condition.extension (problemSignificance)
-ERROR: CareConnect-ProblemHeader-Condition-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1 snapshot Condition.extension (problemSignificance)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Quantity-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1.xml ==
-ERROR: CareConnect-ReferralRequest-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1 differential ReferralRequest.extension (referralRequestMethod)
-ERROR: CareConnect-ReferralRequest-1: Unable to find Extension 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1' referenced at https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1 snapshot ReferralRequest.extension (referralRequestMethod)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1.xml ==
@@ -321,6 +318,7 @@ ERROR: StructureDefinition/CareConnect-VitalSigns-Observation-1: StructureDefini
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1.xml ==
@@ -349,7 +347,10 @@ ERROR: StructureDefinition/Extension-CareConnect-FastingStatus-1: StructureDefin
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1.xml ==

@@ -26,6 +26,13 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>Composition.extension</sch:title>
+    <sch:rule context="f:Composition/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>f:Composition/f:identifier</sch:title>
     <sch:rule context="f:Composition/f:identifier">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>

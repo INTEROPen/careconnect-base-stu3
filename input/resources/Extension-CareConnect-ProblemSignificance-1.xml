@@ -1,0 +1,59 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Extension-CareConnect-ProblemSignificance-1"></id>
+    <meta>
+        <lastUpdated value="2018-04-16T15:26:01.999+01:00"></lastUpdated>
+    </meta>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1"></url>
+    <version value="1.0.0"></version>
+    <name value="Extension-CareConnect-ProblemSignificance-1"></name>
+    <status value="draft"></status>
+    <date value="2018-04-16T15:08:59.201+01:00"></date>
+    <publisher value="HL7 UK"></publisher>
+    <contact>
+        <name value="INTEROPen"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="admin@interopen.org"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="An extension to record the significance of the problem header condition."></description>
+    <purpose value="CURATED BY INTEROPen see: http://www.interopen.org/careconnect-curation-methodology/ "></purpose>
+    <copyright value="Copyright © 2016 HL7 UK  Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  HL7® FHIR® standard Copyright © 2011+ HL7  The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at  https://www.hl7.org/fhir/license.html"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="complex-type"></kind>
+    <abstract value="false"></abstract>
+    <contextType value="resource"></contextType>
+    <context value="Condition"></context>
+    <type value="Extension"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"></path>
+            <short value="An extension to record the significance of the problem header condition"></short>
+            <definition value="An extension to record the significance of the problem header condition."></definition>
+            <max value="1"></max>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"></path>
+            <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1"></fixedUri>
+        </element>
+        <element id="Extension.value[x]:valueCode">
+            <path value="Extension.valueCode"></path>
+            <sliceName value="valueCode"></sliceName>
+            <short value="major | minor"></short>
+            <definition value="A code to record the significance of a Problem Header Condition."></definition>
+            <type>
+                <code value="code"></code>
+            </type>
+            <binding>
+                <strength value="required"></strength>
+                <description value="A code to record the significance of a Problem Header Condition."></description>
+                <valueSetReference>
+                    <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProblemSignificance-1"></reference>
+                </valueSetReference>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

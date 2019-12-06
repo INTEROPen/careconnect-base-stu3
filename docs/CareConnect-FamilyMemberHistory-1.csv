@@ -22,7 +22,9 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"",""
 "FamilyMemberHistory.extension","recorder","","",0,1,"","","","Extension {[CanonicalType[https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Recorder-1]]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"",""
+","Who recorded the event","Who recorded the event.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "FamilyMemberHistory.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter]]} {[]}
 ","Associated Encounter","This encounter occurs within the scope of the referenced encounter.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}

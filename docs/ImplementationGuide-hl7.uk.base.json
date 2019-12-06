@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-05T17:31:59+00:00",
+  "date": "2019-12-05T23:55:00+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -986,6 +986,24 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "extension-Extension-CareConnect-CareSettingType-1.html"
+            }
+          ],
+          "example": false,
+          "name": "ext-CareSettingType-1",
+          "description": "Extension for a Care Setting which provides the originating care setting for the document.",
+          "sourceReference": {
+            "reference": "StructureDefinition/Extension-CareConnect-CareSettingType-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:extension"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "extension-Extension-CareConnect-ClinicalSetting-1.html"
             }
           ],
@@ -1472,6 +1490,24 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "extension-Extension-CareConnect-ProblemSignificance-1.html"
+            }
+          ],
+          "example": false,
+          "name": "ext-ProblemSignificance-1",
+          "description": "An extension to record the significance of the problem header condition.",
+          "sourceReference": {
+            "reference": "StructureDefinition/Extension-CareConnect-ProblemSignificance-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:extension"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "extension-Extension-CareConnect-ReasonCondition-1.html"
             }
           ],
@@ -1480,6 +1516,24 @@
           "description": "The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text.",
           "sourceReference": {
             "reference": "StructureDefinition/Extension-CareConnect-ReasonCondition-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:extension"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "extension-Extension-CareConnect-Recorder-1.html"
+            }
+          ],
+          "example": false,
+          "name": "Recorder-1",
+          "description": "This Extension is used to specify who recorded the event.",
+          "sourceReference": {
+            "reference": "StructureDefinition/Extension-CareConnect-Recorder-1"
           }
         },
         {
@@ -1552,6 +1606,24 @@
           "description": "This extension is constrained to represent the religious affiliation for a patient.",
           "sourceReference": {
             "reference": "StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "StructureDefinition:extension"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "extension-Extension-CareConnect-ReferralRequestMethod-1.html"
+            }
+          ],
+          "example": false,
+          "name": "ext-ReferralRequestMethod-1",
+          "description": "This extension is constrained to represent the method used to send or receive a Referral Request.",
+          "sourceReference": {
+            "reference": "StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"
           }
         },
         {

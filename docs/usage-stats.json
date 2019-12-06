@@ -160,6 +160,25 @@
       ]
     },
     {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1",
+      "title": "Extension-CareConnect-CareSettingType-1",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
       "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1",
       "title": "Extension-CareConnect-ClinicalSetting-1",
       "types": [
@@ -1355,11 +1374,46 @@
       ]
     },
     {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1",
+      "title": "Extension-CareConnect-ProblemSignificance-1",
+      "types": [
+        "code",
+        "code"
+      ]
+    },
+    {
       "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReasonCondition-1",
       "title": "Extension-CareConnect-ReasonCondition-1",
       "types": [
         "CodeableConcept",
         "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Recorder-1",
+      "title": "Extension-CareConnect-Recorder-1",
+      "types": [
+        "Reference",
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1",
+      "title": "Extension-CareConnect-ReferralRequestMethod-1",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
       ]
     },
     {

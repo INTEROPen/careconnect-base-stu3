@@ -1,0 +1,92 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="Extension-CareConnect-CareSettingType-1"></id>
+    <meta>
+        <lastUpdated value="2018-05-24T10:41:55.932+01:00"></lastUpdated>
+    </meta>
+    <url value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1"></url>
+    <version value="1.2.0"></version>
+    <name value="Extension-CareConnect-CareSettingType-1"></name>
+    <status value="draft"></status>
+    <date value="2018-11-05"></date>
+    <publisher value="NHS Digital"></publisher>
+    <contact>
+        <name value="Interoperability Team"></name>
+        <telecom>
+            <system value="email"></system>
+            <value value="interoperabilityteam@nhs.net"></value>
+            <use value="work"></use>
+        </telecom>
+    </contact>
+    <description value="Extension for a Care Setting which provides the originating care setting for the document."></description>
+    <purpose value="The Care Setting type provides the originating care setting for the document."></purpose>
+    <copyright value="Copyright © 2017 NHS Digital"></copyright>
+    <fhirVersion value="3.0.1"></fhirVersion>
+    <kind value="complex-type"></kind>
+    <abstract value="false"></abstract>
+    <contextType value="resource"></contextType>
+    <context value="Composition"></context>
+    <type value="Extension"></type>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension"></baseDefinition>
+    <derivation value="constraint"></derivation>
+    <differential>
+        <element id="Extension">
+            <path value="Extension"></path>
+            <short value="An extension to carry the Care setting type of the document"></short>
+        </element>
+        <element id="Extension.url">
+            <path value="Extension.url"></path>
+            <fixedUri value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1"></fixedUri>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept">
+            <path value="Extension.valueCodeableConcept"></path>
+            <sliceName value="valueCodeableConcept"></sliceName>
+            <min value="1"></min>
+            <type>
+                <code value="CodeableConcept"></code>
+            </type>
+            <binding>
+                <strength value="required"></strength>
+                <description value="Correspondence care setting type"></description>
+                <valueSetReference>
+                    <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1"></reference>
+                </valueSetReference>
+            </binding>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding">
+            <path value="Extension.valueCodeableConcept.coding"></path>
+            <min value="1"></min>
+            <max value="1"></max>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.system">
+            <path value="Extension.valueCodeableConcept.coding.system"></path>
+            <min value="1"></min>
+            <fixedUri value="http://snomed.info/sct"></fixedUri>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.version">
+            <path value="Extension.valueCodeableConcept.coding.version"></path>
+            <max value="0"></max>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.code">
+            <path value="Extension.valueCodeableConcept.coding.code"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.display">
+            <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+                <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <path value="Extension.valueCodeableConcept.coding.display"></path>
+            <min value="1"></min>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.coding.userSelected">
+            <path value="Extension.valueCodeableConcept.coding.userSelected"></path>
+            <max value="0"></max>
+        </element>
+        <element id="Extension.valueCodeableConcept:valueCodeableConcept.text">
+            <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+                <valueBoolean value="true"></valueBoolean>
+            </extension>
+            <path value="Extension.valueCodeableConcept.text"></path>
+            <max value="0"></max>
+        </element>
+    </differential>
+</StructureDefinition>
