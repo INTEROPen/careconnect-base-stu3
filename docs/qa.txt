@@ -1,9 +1,9 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 86, warn = 28, info = 4
+err = 84, warn = 28, info = 4
 IG Publisher Version: v1.0.14-SNAPSHOT
-Generated Fri Dec 06 12:35:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Fri Dec 06 15:23:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 7 / 0
  C:\Development\HL7UK\fhir-uk-base\input\examples\observation-9084 : 0 / 1
@@ -113,7 +113,6 @@ Generated Fri Dec 06 12:35:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-EthnicCategory-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-HumanLanguage-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ImmunizationExplanationReason-1 : 0 / 0
- C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-InterpretationCode-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-LanguageAbilityMode-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-LanguageAbilityProficiency-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ListEmptyReasonCode-1 : 0 / 0
@@ -175,7 +174,6 @@ Generated Fri Dec 06 12:35:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ImmunizationExplanationReason-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ImmunizationExplanationReason-2 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-InspiredOxygen-1 : 1 / 0
- C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-InterpretationCode-1 : 1 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-LanguageAbilityMode-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-LanguageAbilityProficiency-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ListCode-1 : 0 / 0
@@ -344,7 +342,7 @@ ERROR: /f:ImplementationGuide: Undefined element 'definition'
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[6].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[18].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[30].description: value should not start or finish with whitespace
-WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resource[32].description: value should not start or finish with whitespace
+WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resource[31].description: value should not start or finish with whitespace
 ERROR: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[7]: Profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide, Element 'ImplementationGuide.package[7].resource': minimum required = 1, but only found 0
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-AdmissionMethod-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ConditionCategory-1.xml ==
@@ -356,7 +354,6 @@ ERROR: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[7]: Profile 
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-EthnicCategory-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-HumanLanguage-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ImmunizationExplanationReason-1.xml ==
-== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-InterpretationCode-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-LanguageAbilityMode-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-LanguageAbilityProficiency-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ListEmptyReasonCode-1.xml ==
@@ -438,8 +435,6 @@ ERROR: CareConnect-FindingCode-1: Error from server: The filter "constraint = (<
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ImmunizationExplanationReason-2.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-InspiredOxygen-1.xml ==
 ERROR: CareConnect-InspiredOxygen-1: Error from server: The filter "constraint = (722742002 |Breathing room air| OR 371825009 |Patient on oxygen|)" was not understood in the context of http://snomed.info/sct
-== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-InterpretationCode-1.xml ==
-ERROR: CareConnect-InterpretationCode-1: Error from server: Unable to provide support for code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-LanguageAbilityMode-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-LanguageAbilityProficiency-1.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ListCode-1.xml ==

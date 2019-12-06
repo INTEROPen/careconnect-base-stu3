@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-06T12:31:38+00:00",
+  "date": "2019-12-06T15:19:43+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -2163,24 +2163,6 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "valueset-CareConnect-InterpretationCode-1.html"
-            }
-          ],
-          "example": false,
-          "name": "InterpretationCode-1",
-          "description": "This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.",
-          "sourceReference": {
-            "reference": "ValueSet/CareConnect-InterpretationCode-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "ValueSet"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "valueset-CareConnect-LanguageAbilityMode-1.html"
             }
           ],
@@ -3204,24 +3186,6 @@
           "description": "A CodeSystem that identifies a code to record the reason why a vaccine was administered.",
           "sourceReference": {
             "reference": "CodeSystem/CareConnect-ImmunizationExplanationReason-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "CodeSystem"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "CareConnect-InterpretationCode-1.html"
-            }
-          ],
-          "example": false,
-          "name": "cs-InterpretationCode-1",
-          "description": "This value set defines the set of codes that can be used to indicate the meaning/use of a reference range.",
-          "sourceReference": {
-            "reference": "CodeSystem/CareConnect-InterpretationCode-1"
           }
         },
         {

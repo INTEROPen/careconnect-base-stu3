@@ -3,7 +3,7 @@
    <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3"></url>
    <version value="3.0.0"/>
    <name value="HL7 UK Implementation Guide"></name>
-   <title value="HL7 UK Base"></title>
+   <title value="HL7 UK INTEROPen CareConnect Base"></title>
    <status value="draft"></status>
    <experimental value="true"></experimental>
    <publisher value="HL7 UK"></publisher>
@@ -526,13 +526,13 @@
          <name value="InspiredOxygen-Observation-1"></name>
          <groupingId value="uk-news2"></groupingId>
       </resource>
-      <resource>
+ <!--     <resource>
          <reference>
             <reference value="ValueSet/CareConnect-InterpretationCode-1"></reference>
          </reference>
          <name value="InterpretationCode-1"></name>
          <groupingId value="uk-vs"></groupingId>
-      </resource>
+      </resource> -->
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-LanguageAbilityMode-1"></reference>
@@ -1219,13 +1219,14 @@
          <name value="cs-ImmunizationExplanationReason-1"></name>
          <groupingId value="uk-cs"></groupingId>
       </resource>
+      <!--
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-InterpretationCode-1"></reference>
          </reference>
          <name value="cs-InterpretationCode-1"></name>
          <groupingId value="uk-cs"></groupingId>
-      </resource>
+      </resource> -->
       <resource>
          <reference>
             <reference value="CodeSystem/CareConnect-LanguageAbilityMode-1"></reference>

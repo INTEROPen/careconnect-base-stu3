@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-06T12:31:38+00:00"/>
+  <date value="2019-12-06T15:19:43+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -1674,20 +1674,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-InterpretationCode-1.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="InterpretationCode-1"/>
-      <description value="This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range."/>
-      <sourceReference>
-        <reference value="ValueSet/CareConnect-InterpretationCode-1"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="valueset-CareConnect-LanguageAbilityMode-1.html"/>
       </extension>
       <example value="false"/>
@@ -2483,20 +2469,6 @@
       <description value="A CodeSystem that identifies a code to record the reason why a vaccine was administered."/>
       <sourceReference>
         <reference value="CodeSystem/CareConnect-ImmunizationExplanationReason-1"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-InterpretationCode-1.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="cs-InterpretationCode-1"/>
-      <description value="This value set defines the set of codes that can be used to indicate the meaning/use of a reference range."/>
-      <sourceReference>
-        <reference value="CodeSystem/CareConnect-InterpretationCode-1"/>
       </sourceReference>
     </resource>
     <resource>

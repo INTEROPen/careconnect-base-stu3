@@ -11,7 +11,7 @@
    <extensible value="true"></extensible>
    <compose>
       <include>
-         <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1"></system>
+         <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-InterpretationCode-1"></system>
          <concept>
             <code value="OR"></code>
             <display value="Outside Reference Range"></display>

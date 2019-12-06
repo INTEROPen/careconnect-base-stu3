@@ -47,7 +47,7 @@
   POSSIBILITY OF SUCH DAMAGE.
   
 
-  Generated on Thu, Dec 5, 2019 21:41+0000 for FHIR v4.1.0 
+  Generated on Fri, Dec 6, 2019 13:07+0000 for FHIR v4.1.0 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://hl7.org/fhir" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" targetNamespace="http://hl7.org/fhir" elementFormDefault="qualified" version="4.1.0">
   <!-- Note: When using this schema with some tools, it may also be necessary to declare xmlns:xml="http://www.w3.org/XML/1998/namespace", however this causes performance issues with other tools and thus is not in the base schemas. -->
@@ -30865,7 +30865,7 @@ The primary difference between a medicationusage and a medicationadministration 
               <xs:documentation xml:lang="en">If this medicine applies to human or veterinary uses.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="description" minOccurs="0" maxOccurs="1" type="string">
+          <xs:element name="description" minOccurs="0" maxOccurs="1" type="markdown">
             <xs:annotation>
               <xs:documentation xml:lang="en">General description of this product.</xs:documentation>
            </xs:annotation>
@@ -31093,24 +31093,16 @@ The primary difference between a medicationusage and a medicationadministration 
     <xs:complexContent>
       <xs:extension base="BackboneElement">
         <xs:sequence>
-          <xs:element name="operationType" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+          <xs:choice minOccurs="0" maxOccurs="1" >
             <xs:annotation>
-              <xs:documentation xml:lang="en">The type of manufacturing operation e.g. manufacturing itself, re-packaging.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="authorisationReferenceNumber" minOccurs="0" maxOccurs="1" type="Identifier">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">Regulatory authorization reference number.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
+              <xs:documentation xml:lang="en">The type of manufacturing operation e.g. manufacturing itself, re-packaging. This may be a subtype of some other wider scope of authorized operation, referenced by the authorization attribute.</xs:documentation>
+            </xs:annotation>
+            <xs:element name="typeCoding" type="Coding"/>
+            <xs:element name="typeReference" type="Reference"/>
+          </xs:choice>
           <xs:element name="effectiveDate" minOccurs="0" maxOccurs="1" type="Period">
             <xs:annotation>
-              <xs:documentation xml:lang="en">Regulatory authorization date.</xs:documentation>
-           </xs:annotation>
-          </xs:element>
-          <xs:element name="confidentialityIndicator" minOccurs="0" maxOccurs="1" type="CodeableConcept">
-            <xs:annotation>
-              <xs:documentation xml:lang="en">To indicate if this proces is commercially confidential.</xs:documentation>
+              <xs:documentation xml:lang="en">Date range of applicability.</xs:documentation>
            </xs:annotation>
           </xs:element>
           <xs:element name="manufacturer" minOccurs="0" maxOccurs="unbounded" type="Reference">
@@ -31118,9 +31110,14 @@ The primary difference between a medicationusage and a medicationadministration 
               <xs:documentation xml:lang="en">The manufacturer or establishment associated with the process.</xs:documentation>
            </xs:annotation>
           </xs:element>
-          <xs:element name="regulator" minOccurs="0" maxOccurs="1" type="Reference">
+          <xs:element name="authorization" minOccurs="0" maxOccurs="1" type="Reference">
             <xs:annotation>
-              <xs:documentation xml:lang="en">A regulator which oversees the operation.</xs:documentation>
+              <xs:documentation xml:lang="en">An authorization for this process, either as a logical reference, holding just an identifier, or a full refererence to a resource that captures the details. The authorization mayu possibly apply to several products or a wider scope of process of which this is a part.</xs:documentation>
+           </xs:annotation>
+          </xs:element>
+          <xs:element name="confidentialityIndicator" minOccurs="0" maxOccurs="1" type="CodeableConcept">
+            <xs:annotation>
+              <xs:documentation xml:lang="en">To indicate if this proces is commercially confidential.</xs:documentation>
            </xs:annotation>
           </xs:element>
         </xs:sequence>

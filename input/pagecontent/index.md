@@ -24,4 +24,3 @@ profiles that can be further constrained for a particular usage.
 This guide is the product of collaborative work undertaken with participants from:
 
 * [INTEROPen](https://www.interopen.org/)
-* [NHS Digital](https://digital.nhs.uk/)
