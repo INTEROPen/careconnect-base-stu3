@@ -1,9 +1,9 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 86, warn = 30, info = 4
+err = 86, warn = 28, info = 4
 IG Publisher Version: v1.0.14-SNAPSHOT
-Generated Fri Dec 06 10:56:25 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Fri Dec 06 12:35:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 7 / 0
  C:\Development\HL7UK\fhir-uk-base\input\examples\observation-9084 : 0 / 1
@@ -142,7 +142,7 @@ Generated Fri Dec 06 10:56:25 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-MaritalStatus-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-PersonNameType-1 : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\cm-ConditionEpisodicity-1 : 3 / 0
- C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-gmc-number : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-gmc-number : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-gmp-number : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-nhs-number : 0 / 0
  C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ACVPU-1 : 1 / 0
@@ -389,7 +389,6 @@ ERROR: https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-ConditionEpisodicity-
 ERROR: ConceptMap.url: Resource id/url mismatch: cm-ConditionEpisodicity-1/https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-ConditionEpisodicity-1
 ERROR: C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\cm-ConditionEpisodicity-1: URL Mismatch https://fhir.hl7.org.uk/STU3/ConceptMap/cm-ConditionEpisodicity-1 vs https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-ConditionEpisodicity-1
 == C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-gmc-number.xml ==
-WARNING: NamingSystem/uk-gmc-number: NamingSystem.responsible: value should not start or finish with whitespace
 == C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-gmp-number.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-nhs-number.xml ==
 == C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ACVPU-1.xml ==

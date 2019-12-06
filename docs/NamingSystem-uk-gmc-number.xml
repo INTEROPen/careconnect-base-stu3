@@ -3,7 +3,7 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="uk-gmc-number"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: uk-gmc-number</p><p><b>name</b>: GMC Number</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 03-Dec-2019 00:00:00</p><p><b>publisher</b>: HL7 UK</p><p><b>contact</b>: </p><p><b>responsible</b>: General Medical Council </p><p><b>description</b>: General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: A unique reference number, used to identify consultants</p><h3>UniqueIds</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>uri</td><td>https://fhir.hl7.org.uk/Id/gmc-number</td><td>true</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: uk-gmc-number</p><p><b>name</b>: GMC Number</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 03-Dec-2019 00:00:00</p><p><b>publisher</b>: HL7 UK</p><p><b>contact</b>: </p><p><b>responsible</b>: General Medical Council</p><p><b>description</b>: General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: A unique reference number, used to identify consultants</p><blockquote><p><b>uniqueId</b></p><p><b>type</b>: uri</p><p><b>value</b>: https://fhir.hl7.org.uk/Id/gmc-number</p><p><b>preferred</b>: true</p></blockquote><blockquote><p><b>uniqueId</b></p><p><b>type</b>: oid</p><p><b>value</b>: 2.16.840.1.113883.2.1.3.2.4.16.63</p><p><b>preferred</b>: false</p></blockquote><blockquote><p><b>uniqueId</b></p><p><b>type</b>: other</p><p><b>value</b>: GMC</p><p><b>preferred</b>: false</p><p><b>comment</b>: XCN.9 HSCIC HL7 V2 ADT</p></blockquote></div>
   </text>
   <name value="GMC Number"/>
   <status value="draft"/>
@@ -16,7 +16,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <responsible value="General Medical Council "/>
+  <responsible value="General Medical Council"/>
   <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)"/>
   <jurisdiction>
     <coding>
@@ -29,5 +29,16 @@
     <type value="uri"/>
     <value value="https://fhir.hl7.org.uk/Id/gmc-number"/>
     <preferred value="true"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.840.1.113883.2.1.3.2.4.16.63"/>
+    <preferred value="false"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="other"/>
+    <value value="GMC"/>
+    <preferred value="false"/>
+    <comment value="XCN.9 HSCIC HL7 V2 ADT"/>
   </uniqueId>
 </NamingSystem>

@@ -19,4 +19,10 @@
         <value value="2.16.840.1.113883.2.1.4.1"/>
         <preferred value="false"/>
     </uniqueId>
+    <uniqueId>
+        <type value="other"/>
+        <value value="NHS"/>
+        <preferred value="false"/>
+        <comment value="PID.3 (CX.4) HSCIC HL7 V2 ADT"/>
+    </uniqueId>
 </NamingSystem>
