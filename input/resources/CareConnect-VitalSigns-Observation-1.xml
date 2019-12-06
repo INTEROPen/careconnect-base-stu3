@@ -329,7 +329,7 @@
             <strength value="preferred"></strength>
             <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."></description>
             <valueSetReference>
-               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1 "></reference>
+               <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-BodySite-1"></reference>
             </valueSetReference>
          </binding>
       </element>
@@ -499,7 +499,7 @@
             <strength value="extensible"></strength>
             <description value="This value set indicates the allowed vital sign result types"></description>
             <valueSetReference>
-               <reference value="http://hl7.org/fhir/stu3/valueset-observation-vitalsignresult.html"></reference>
+               <reference value="http://hl7.org/fhir/ValueSet/observation-vitalsignresult"></reference>
             </valueSetReference>
          </binding>
       </element>
