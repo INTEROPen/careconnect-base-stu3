@@ -1,0 +1,1617 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-SDSJobRoleName-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect SDS Job Role Name</h2><div><p>A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">R0010<a name=\"CareConnect-SDSJobRoleName-1-R0010\"> </a></td><td>Medical Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R0020<a name=\"CareConnect-SDSJobRoleName-1-R0020\"> </a></td><td>Clinical Director - Medical</td><td/></tr><tr><td style=\"white-space:nowrap\">R0210<a name=\"CareConnect-SDSJobRoleName-1-R0210\"> </a></td><td>Director of Public Health</td><td/></tr><tr><td style=\"white-space:nowrap\">R0030<a name=\"CareConnect-SDSJobRoleName-1-R0030\"> </a></td><td>Professor</td><td/></tr><tr><td style=\"white-space:nowrap\">R0040<a name=\"CareConnect-SDSJobRoleName-1-R0040\"> </a></td><td>Senior Lecturer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0050<a name=\"CareConnect-SDSJobRoleName-1-R0050\"> </a></td><td>Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0060<a name=\"CareConnect-SDSJobRoleName-1-R0060\"> </a></td><td>Special Salary Scale in Public Health Medicine</td><td/></tr><tr><td style=\"white-space:nowrap\">R0070<a name=\"CareConnect-SDSJobRoleName-1-R0070\"> </a></td><td>Associate Specialist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0080<a name=\"CareConnect-SDSJobRoleName-1-R0080\"> </a></td><td>Staff Grade</td><td/></tr><tr><td style=\"white-space:nowrap\">R0090<a name=\"CareConnect-SDSJobRoleName-1-R0090\"> </a></td><td>Hospital Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0100<a name=\"CareConnect-SDSJobRoleName-1-R0100\"> </a></td><td>Clinical Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0110<a name=\"CareConnect-SDSJobRoleName-1-R0110\"> </a></td><td>Specialist Registrar</td><td/></tr><tr><td style=\"white-space:nowrap\">R0120<a name=\"CareConnect-SDSJobRoleName-1-R0120\"> </a></td><td>Senior Registrar (Closed)</td><td/></tr><tr><td style=\"white-space:nowrap\">R0130<a name=\"CareConnect-SDSJobRoleName-1-R0130\"> </a></td><td>Registrar (Closed)</td><td/></tr><tr><td style=\"white-space:nowrap\">R0140<a name=\"CareConnect-SDSJobRoleName-1-R0140\"> </a></td><td>Senior House Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0150<a name=\"CareConnect-SDSJobRoleName-1-R0150\"> </a></td><td>House Officer - Pre Registration</td><td/></tr><tr><td style=\"white-space:nowrap\">R0160<a name=\"CareConnect-SDSJobRoleName-1-R0160\"> </a></td><td>House Officer - Post Registration</td><td/></tr><tr><td style=\"white-space:nowrap\">R0170<a name=\"CareConnect-SDSJobRoleName-1-R0170\"> </a></td><td>Trust Grade Doctor - House Officer level</td><td/></tr><tr><td style=\"white-space:nowrap\">R0180<a name=\"CareConnect-SDSJobRoleName-1-R0180\"> </a></td><td>Trust Grade Doctor - SHO level</td><td/></tr><tr><td style=\"white-space:nowrap\">R0190<a name=\"CareConnect-SDSJobRoleName-1-R0190\"> </a></td><td>Trust Grade Doctor - Specialist Registrar level</td><td/></tr><tr><td style=\"white-space:nowrap\">R0200<a name=\"CareConnect-SDSJobRoleName-1-R0200\"> </a></td><td>Trust Grade Doctor - Career Grade level</td><td/></tr><tr><td style=\"white-space:nowrap\">R0260<a name=\"CareConnect-SDSJobRoleName-1-R0260\"> </a></td><td>General Medical Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0270<a name=\"CareConnect-SDSJobRoleName-1-R0270\"> </a></td><td>Salaried General Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1981<a name=\"CareConnect-SDSJobRoleName-1-R1981\"> </a></td><td>Psychiatrist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1984<a name=\"CareConnect-SDSJobRoleName-1-R1984\"> </a></td><td>Health Records Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R6200<a name=\"CareConnect-SDSJobRoleName-1-R6200\"> </a></td><td>GP Registrar</td><td/></tr><tr><td style=\"white-space:nowrap\">R6300<a name=\"CareConnect-SDSJobRoleName-1-R6300\"> </a></td><td>Sessional GP</td><td/></tr><tr><td style=\"white-space:nowrap\">R7140<a name=\"CareConnect-SDSJobRoleName-1-R7140\"> </a></td><td>ODP</td><td/></tr><tr><td style=\"white-space:nowrap\">R7150<a name=\"CareConnect-SDSJobRoleName-1-R7150\"> </a></td><td>SODP</td><td/></tr><tr><td style=\"white-space:nowrap\">R9100<a name=\"CareConnect-SDSJobRoleName-1-R9100\"> </a></td><td>A&amp;E Staff Nurse (Temporary)  London Cluster Only</td><td/></tr><tr><td style=\"white-space:nowrap\">R9101<a name=\"CareConnect-SDSJobRoleName-1-R9101\"> </a></td><td>A&amp;E Manager (Temporary) London Cluster Only</td><td/></tr><tr><td style=\"white-space:nowrap\">R9102<a name=\"CareConnect-SDSJobRoleName-1-R9102\"> </a></td><td>A&amp;E Doctor  (Temporary) London Cluster only</td><td/></tr><tr><td style=\"white-space:nowrap\">R9103<a name=\"CareConnect-SDSJobRoleName-1-R9103\"> </a></td><td>A&amp;E Student (Temporary) London Cluster Only</td><td/></tr><tr><td style=\"white-space:nowrap\">R9104<a name=\"CareConnect-SDSJobRoleName-1-R9104\"> </a></td><td>A&amp;E Clerk (Temporary) London Cluster Only</td><td/></tr><tr><td style=\"white-space:nowrap\">R0215<a name=\"CareConnect-SDSJobRoleName-1-R0215\"> </a></td><td>Assistant Clinical Medical Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0220<a name=\"CareConnect-SDSJobRoleName-1-R0220\"> </a></td><td>Clinical Medical Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0230<a name=\"CareConnect-SDSJobRoleName-1-R0230\"> </a></td><td>Senior Clinical Medical Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0240<a name=\"CareConnect-SDSJobRoleName-1-R0240\"> </a></td><td>Other Community Health Service</td><td/></tr><tr><td style=\"white-space:nowrap\">R0243<a name=\"CareConnect-SDSJobRoleName-1-R0243\"> </a></td><td>Other Community Health Service - Social Care Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R0247<a name=\"CareConnect-SDSJobRoleName-1-R0247\"> </a></td><td>Other Community Health Service - Admin Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R0055<a name=\"CareConnect-SDSJobRoleName-1-R0055\"> </a></td><td>Dental Surgeon acting as Hospital Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0250<a name=\"CareConnect-SDSJobRoleName-1-R0250\"> </a></td><td>General Dental Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0280<a name=\"CareConnect-SDSJobRoleName-1-R0280\"> </a></td><td>Regional Dental Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0290<a name=\"CareConnect-SDSJobRoleName-1-R0290\"> </a></td><td>Dental Clinical Director - Dental</td><td/></tr><tr><td style=\"white-space:nowrap\">R0295<a name=\"CareConnect-SDSJobRoleName-1-R0295\"> </a></td><td>Dental Assistant Clinical Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R0300<a name=\"CareConnect-SDSJobRoleName-1-R0300\"> </a></td><td>Dental Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0310<a name=\"CareConnect-SDSJobRoleName-1-R0310\"> </a></td><td>Senior Dental Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0320<a name=\"CareConnect-SDSJobRoleName-1-R0320\"> </a></td><td>Salaried Dental Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0006<a name=\"CareConnect-SDSJobRoleName-1-R0006\"> </a></td><td>Student Community Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0330<a name=\"CareConnect-SDSJobRoleName-1-R0330\"> </a></td><td>Student Nurse - Adult Branch</td><td/></tr><tr><td style=\"white-space:nowrap\">R0340<a name=\"CareConnect-SDSJobRoleName-1-R0340\"> </a></td><td>Student Nurse - Child Branch</td><td/></tr><tr><td style=\"white-space:nowrap\">R0350<a name=\"CareConnect-SDSJobRoleName-1-R0350\"> </a></td><td>Student Nurse - Mental Health Branch</td><td/></tr><tr><td style=\"white-space:nowrap\">R0360<a name=\"CareConnect-SDSJobRoleName-1-R0360\"> </a></td><td>Student Nurse - Learning Disabilities Branch</td><td/></tr><tr><td style=\"white-space:nowrap\">R0370<a name=\"CareConnect-SDSJobRoleName-1-R0370\"> </a></td><td>Student Midwife</td><td/></tr><tr><td style=\"white-space:nowrap\">R0380<a name=\"CareConnect-SDSJobRoleName-1-R0380\"> </a></td><td>Student Health Visitor</td><td/></tr><tr><td style=\"white-space:nowrap\">R0390<a name=\"CareConnect-SDSJobRoleName-1-R0390\"> </a></td><td>Student District Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0400<a name=\"CareConnect-SDSJobRoleName-1-R0400\"> </a></td><td>Student School Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0410<a name=\"CareConnect-SDSJobRoleName-1-R0410\"> </a></td><td>Student Practice Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0420<a name=\"CareConnect-SDSJobRoleName-1-R0420\"> </a></td><td>Student Occupational Health Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0430<a name=\"CareConnect-SDSJobRoleName-1-R0430\"> </a></td><td>Student Community Paediatric Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0440<a name=\"CareConnect-SDSJobRoleName-1-R0440\"> </a></td><td>Student Community Mental Health Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0450<a name=\"CareConnect-SDSJobRoleName-1-R0450\"> </a></td><td>Student Community Learning Disabilities Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0460<a name=\"CareConnect-SDSJobRoleName-1-R0460\"> </a></td><td>Student Chiropodist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0470<a name=\"CareConnect-SDSJobRoleName-1-R0470\"> </a></td><td>Student Dietitian</td><td/></tr><tr><td style=\"white-space:nowrap\">R0480<a name=\"CareConnect-SDSJobRoleName-1-R0480\"> </a></td><td>Student Occupational Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0490<a name=\"CareConnect-SDSJobRoleName-1-R0490\"> </a></td><td>Student Orthoptist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0500<a name=\"CareConnect-SDSJobRoleName-1-R0500\"> </a></td><td>Student Physiotherapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0510<a name=\"CareConnect-SDSJobRoleName-1-R0510\"> </a></td><td>Student Radiographer - Diagnostic</td><td/></tr><tr><td style=\"white-space:nowrap\">R0520<a name=\"CareConnect-SDSJobRoleName-1-R0520\"> </a></td><td>Student Radiographer - Therapeutic</td><td/></tr><tr><td style=\"white-space:nowrap\">R0530<a name=\"CareConnect-SDSJobRoleName-1-R0530\"> </a></td><td>Student Speech &amp; Language Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0540<a name=\"CareConnect-SDSJobRoleName-1-R0540\"> </a></td><td>Art, Music &amp; Drama Student</td><td/></tr><tr><td style=\"white-space:nowrap\">R0550<a name=\"CareConnect-SDSJobRoleName-1-R0550\"> </a></td><td>Student Psychotherapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R6400<a name=\"CareConnect-SDSJobRoleName-1-R6400\"> </a></td><td>Medical Student</td><td/></tr><tr><td style=\"white-space:nowrap\">R0560<a name=\"CareConnect-SDSJobRoleName-1-R0560\"> </a></td><td>Director of Nursing</td><td/></tr><tr><td style=\"white-space:nowrap\">R0580<a name=\"CareConnect-SDSJobRoleName-1-R0580\"> </a></td><td>Nurse Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0610<a name=\"CareConnect-SDSJobRoleName-1-R0610\"> </a></td><td>Sister/Charge Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R1976<a name=\"CareConnect-SDSJobRoleName-1-R1976\"> </a></td><td>Community Team Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0570<a name=\"CareConnect-SDSJobRoleName-1-R0570\"> </a></td><td>Nurse Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0600<a name=\"CareConnect-SDSJobRoleName-1-R0600\"> </a></td><td>Specialist Nurse Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0620<a name=\"CareConnect-SDSJobRoleName-1-R0620\"> </a></td><td>Staff Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0630<a name=\"CareConnect-SDSJobRoleName-1-R0630\"> </a></td><td>Enrolled Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0690<a name=\"CareConnect-SDSJobRoleName-1-R0690\"> </a></td><td>Community Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0700<a name=\"CareConnect-SDSJobRoleName-1-R0700\"> </a></td><td>Community Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R1974<a name=\"CareConnect-SDSJobRoleName-1-R1974\"> </a></td><td>Community Learning Disabilities Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R1975<a name=\"CareConnect-SDSJobRoleName-1-R1975\"> </a></td><td>Community Mental Health Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0590<a name=\"CareConnect-SDSJobRoleName-1-R0590\"> </a></td><td>Modern Matron</td><td/></tr><tr><td style=\"white-space:nowrap\">R1972<a name=\"CareConnect-SDSJobRoleName-1-R1972\"> </a></td><td>Clinical Team Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0640<a name=\"CareConnect-SDSJobRoleName-1-R0640\"> </a></td><td>Midwife - Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0650<a name=\"CareConnect-SDSJobRoleName-1-R0650\"> </a></td><td>Midwife - Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0660<a name=\"CareConnect-SDSJobRoleName-1-R0660\"> </a></td><td>Midwife - Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0670<a name=\"CareConnect-SDSJobRoleName-1-R0670\"> </a></td><td>Midwife - Sister/Charge Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R0680<a name=\"CareConnect-SDSJobRoleName-1-R0680\"> </a></td><td>Midwife</td><td/></tr><tr><td style=\"white-space:nowrap\">R0018<a name=\"CareConnect-SDSJobRoleName-1-R0018\"> </a></td><td>Audiologist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0750<a name=\"CareConnect-SDSJobRoleName-1-R0750\"> </a></td><td>Chiropodist/Podiatrist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0760<a name=\"CareConnect-SDSJobRoleName-1-R0760\"> </a></td><td>Chiropodist/Podiatrist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0770<a name=\"CareConnect-SDSJobRoleName-1-R0770\"> </a></td><td>Chiropodist/Podiatrist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0780<a name=\"CareConnect-SDSJobRoleName-1-R0780\"> </a></td><td>Chiropodist/Podiatrist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0790<a name=\"CareConnect-SDSJobRoleName-1-R0790\"> </a></td><td>Dietitian</td><td/></tr><tr><td style=\"white-space:nowrap\">R0800<a name=\"CareConnect-SDSJobRoleName-1-R0800\"> </a></td><td>Dietitian Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0810<a name=\"CareConnect-SDSJobRoleName-1-R0810\"> </a></td><td>Dietitian Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0820<a name=\"CareConnect-SDSJobRoleName-1-R0820\"> </a></td><td>Dietitian Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0950<a name=\"CareConnect-SDSJobRoleName-1-R0950\"> </a></td><td>Occupational Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0960<a name=\"CareConnect-SDSJobRoleName-1-R0960\"> </a></td><td>Occupational Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0970<a name=\"CareConnect-SDSJobRoleName-1-R0970\"> </a></td><td>Occupational Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0980<a name=\"CareConnect-SDSJobRoleName-1-R0980\"> </a></td><td>Occupational Therapy Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0990<a name=\"CareConnect-SDSJobRoleName-1-R0990\"> </a></td><td>Orthoptist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1000<a name=\"CareConnect-SDSJobRoleName-1-R1000\"> </a></td><td>Orthoptist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1010<a name=\"CareConnect-SDSJobRoleName-1-R1010\"> </a></td><td>Orthoptist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1020<a name=\"CareConnect-SDSJobRoleName-1-R1020\"> </a></td><td>Orthoptist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1110<a name=\"CareConnect-SDSJobRoleName-1-R1110\"> </a></td><td>Physiotherapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1120<a name=\"CareConnect-SDSJobRoleName-1-R1120\"> </a></td><td>Physiotherapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1130<a name=\"CareConnect-SDSJobRoleName-1-R1130\"> </a></td><td>Physiotherapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1140<a name=\"CareConnect-SDSJobRoleName-1-R1140\"> </a></td><td>Physiotherapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1070<a name=\"CareConnect-SDSJobRoleName-1-R1070\"> </a></td><td>Paramedic</td><td/></tr><tr><td style=\"white-space:nowrap\">R1080<a name=\"CareConnect-SDSJobRoleName-1-R1080\"> </a></td><td>Paramedic Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1090<a name=\"CareConnect-SDSJobRoleName-1-R1090\"> </a></td><td>Paramedic Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1100<a name=\"CareConnect-SDSJobRoleName-1-R1100\"> </a></td><td>Paramedic Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0003<a name=\"CareConnect-SDSJobRoleName-1-R0003\"> </a></td><td>Clinical Application Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R0012<a name=\"CareConnect-SDSJobRoleName-1-R0012\"> </a></td><td>Radiographer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0013<a name=\"CareConnect-SDSJobRoleName-1-R0013\"> </a></td><td>Student Radiographer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0014<a name=\"CareConnect-SDSJobRoleName-1-R0014\"> </a></td><td>Radiologist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0015<a name=\"CareConnect-SDSJobRoleName-1-R0015\"> </a></td><td>PACS Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R0016<a name=\"CareConnect-SDSJobRoleName-1-R0016\"> </a></td><td>Reporting Radiographer</td><td/></tr><tr><td style=\"white-space:nowrap\">R0017<a name=\"CareConnect-SDSJobRoleName-1-R0017\"> </a></td><td>Assistant Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1190<a name=\"CareConnect-SDSJobRoleName-1-R1190\"> </a></td><td>Radiographer - Diagnostic</td><td/></tr><tr><td style=\"white-space:nowrap\">R1200<a name=\"CareConnect-SDSJobRoleName-1-R1200\"> </a></td><td>Radiographer - Diagnostic, Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1210<a name=\"CareConnect-SDSJobRoleName-1-R1210\"> </a></td><td>Radiographer - Diagnostic, Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1220<a name=\"CareConnect-SDSJobRoleName-1-R1220\"> </a></td><td>Radiographer - Diagnostic, Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1230<a name=\"CareConnect-SDSJobRoleName-1-R1230\"> </a></td><td>Radiographer - Therapeutic</td><td/></tr><tr><td style=\"white-space:nowrap\">R1240<a name=\"CareConnect-SDSJobRoleName-1-R1240\"> </a></td><td>Radiographer - Therapeutic, Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1250<a name=\"CareConnect-SDSJobRoleName-1-R1250\"> </a></td><td>Radiographer - Therapeutic, Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1260<a name=\"CareConnect-SDSJobRoleName-1-R1260\"> </a></td><td>Radiographer - Therapeutic, Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1030<a name=\"CareConnect-SDSJobRoleName-1-R1030\"> </a></td><td>Orthotist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1040<a name=\"CareConnect-SDSJobRoleName-1-R1040\"> </a></td><td>Orthotist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1050<a name=\"CareConnect-SDSJobRoleName-1-R1050\"> </a></td><td>Orthotist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1060<a name=\"CareConnect-SDSJobRoleName-1-R1060\"> </a></td><td>Orthotist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1150<a name=\"CareConnect-SDSJobRoleName-1-R1150\"> </a></td><td>Prosthetist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1160<a name=\"CareConnect-SDSJobRoleName-1-R1160\"> </a></td><td>Prosthetist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1170<a name=\"CareConnect-SDSJobRoleName-1-R1170\"> </a></td><td>Prosthetist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1180<a name=\"CareConnect-SDSJobRoleName-1-R1180\"> </a></td><td>Prosthetist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0710<a name=\"CareConnect-SDSJobRoleName-1-R0710\"> </a></td><td>Art Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0720<a name=\"CareConnect-SDSJobRoleName-1-R0720\"> </a></td><td>Art Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0730<a name=\"CareConnect-SDSJobRoleName-1-R0730\"> </a></td><td>Art Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0740<a name=\"CareConnect-SDSJobRoleName-1-R0740\"> </a></td><td>Art Therapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0830<a name=\"CareConnect-SDSJobRoleName-1-R0830\"> </a></td><td>Drama Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0840<a name=\"CareConnect-SDSJobRoleName-1-R0840\"> </a></td><td>Drama Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0850<a name=\"CareConnect-SDSJobRoleName-1-R0850\"> </a></td><td>Drama Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0860<a name=\"CareConnect-SDSJobRoleName-1-R0860\"> </a></td><td>Drama Therapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0870<a name=\"CareConnect-SDSJobRoleName-1-R0870\"> </a></td><td>Multi Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0880<a name=\"CareConnect-SDSJobRoleName-1-R0880\"> </a></td><td>Multi Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0890<a name=\"CareConnect-SDSJobRoleName-1-R0890\"> </a></td><td>Multi Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0900<a name=\"CareConnect-SDSJobRoleName-1-R0900\"> </a></td><td>Multi Therapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0910<a name=\"CareConnect-SDSJobRoleName-1-R0910\"> </a></td><td>Music Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0920<a name=\"CareConnect-SDSJobRoleName-1-R0920\"> </a></td><td>Music Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0930<a name=\"CareConnect-SDSJobRoleName-1-R0930\"> </a></td><td>Music Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0940<a name=\"CareConnect-SDSJobRoleName-1-R0940\"> </a></td><td>Music Therapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0955<a name=\"CareConnect-SDSJobRoleName-1-R0955\"> </a></td><td>Speech &amp; Language Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0965<a name=\"CareConnect-SDSJobRoleName-1-R0965\"> </a></td><td>Speech &amp; Language Therapist Consultant</td><td/></tr><tr><td style=\"white-space:nowrap\">R0975<a name=\"CareConnect-SDSJobRoleName-1-R0975\"> </a></td><td>Speech &amp; Language Therapist Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R0985<a name=\"CareConnect-SDSJobRoleName-1-R0985\"> </a></td><td>Speech &amp; Language Therapist Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R9500<a name=\"CareConnect-SDSJobRoleName-1-R9500\"> </a></td><td>Social Services Senior Management</td><td/></tr><tr><td style=\"white-space:nowrap\">R9505<a name=\"CareConnect-SDSJobRoleName-1-R9505\"> </a></td><td>Social Services Policy and Planning</td><td/></tr><tr><td style=\"white-space:nowrap\">R9510<a name=\"CareConnect-SDSJobRoleName-1-R9510\"> </a></td><td>Social Services Information Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9515<a name=\"CareConnect-SDSJobRoleName-1-R9515\"> </a></td><td>Social Work Team Manager (Children)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9520<a name=\"CareConnect-SDSJobRoleName-1-R9520\"> </a></td><td>Senior Social Worker (Children)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9525<a name=\"CareConnect-SDSJobRoleName-1-R9525\"> </a></td><td>Social Services Care Manager (Children)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9530<a name=\"CareConnect-SDSJobRoleName-1-R9530\"> </a></td><td>Social Work Assistant (Children)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9535<a name=\"CareConnect-SDSJobRoleName-1-R9535\"> </a></td><td>Child Protection Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9540<a name=\"CareConnect-SDSJobRoleName-1-R9540\"> </a></td><td>Family Placement Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9545<a name=\"CareConnect-SDSJobRoleName-1-R9545\"> </a></td><td>Community Worker (Children)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9550<a name=\"CareConnect-SDSJobRoleName-1-R9550\"> </a></td><td>Occupational Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R9555<a name=\"CareConnect-SDSJobRoleName-1-R9555\"> </a></td><td>Occupational Therapist Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R9560<a name=\"CareConnect-SDSJobRoleName-1-R9560\"> </a></td><td>Occupational Therapy Team Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9565<a name=\"CareConnect-SDSJobRoleName-1-R9565\"> </a></td><td>Social Work Team Manager (Adults)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9570<a name=\"CareConnect-SDSJobRoleName-1-R9570\"> </a></td><td>Senior Social Worker (Adults)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9575<a name=\"CareConnect-SDSJobRoleName-1-R9575\"> </a></td><td>Social Services Care Manager (Adults)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9580<a name=\"CareConnect-SDSJobRoleName-1-R9580\"> </a></td><td>Social Work Assistant (Adults)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9585<a name=\"CareConnect-SDSJobRoleName-1-R9585\"> </a></td><td>Social Work Team Manager (Mental Health)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9590<a name=\"CareConnect-SDSJobRoleName-1-R9590\"> </a></td><td>Senior Social Worker (Mental Health)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9595<a name=\"CareConnect-SDSJobRoleName-1-R9595\"> </a></td><td>Social Services Care Manager (Mental Health)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9600<a name=\"CareConnect-SDSJobRoleName-1-R9600\"> </a></td><td>Social Work Assistant (Mental Health)</td><td/></tr><tr><td style=\"white-space:nowrap\">R9605<a name=\"CareConnect-SDSJobRoleName-1-R9605\"> </a></td><td>Emergency Duty Social Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9615<a name=\"CareConnect-SDSJobRoleName-1-R9615\"> </a></td><td>Social Services Driver</td><td/></tr><tr><td style=\"white-space:nowrap\">R9620<a name=\"CareConnect-SDSJobRoleName-1-R9620\"> </a></td><td>Home Care Organiser</td><td/></tr><tr><td style=\"white-space:nowrap\">R9625<a name=\"CareConnect-SDSJobRoleName-1-R9625\"> </a></td><td>Home Care Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R9630<a name=\"CareConnect-SDSJobRoleName-1-R9630\"> </a></td><td>Home Help</td><td/></tr><tr><td style=\"white-space:nowrap\">R9635<a name=\"CareConnect-SDSJobRoleName-1-R9635\"> </a></td><td>Warden</td><td/></tr><tr><td style=\"white-space:nowrap\">R9640<a name=\"CareConnect-SDSJobRoleName-1-R9640\"> </a></td><td>Meals on Wheels Organiser</td><td/></tr><tr><td style=\"white-space:nowrap\">R9645<a name=\"CareConnect-SDSJobRoleName-1-R9645\"> </a></td><td>Meals Delivery</td><td/></tr><tr><td style=\"white-space:nowrap\">R9650<a name=\"CareConnect-SDSJobRoleName-1-R9650\"> </a></td><td>Day Centre Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9655<a name=\"CareConnect-SDSJobRoleName-1-R9655\"> </a></td><td>Day Centre Deputy</td><td/></tr><tr><td style=\"white-space:nowrap\">R9660<a name=\"CareConnect-SDSJobRoleName-1-R9660\"> </a></td><td>Day Centre Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R9665<a name=\"CareConnect-SDSJobRoleName-1-R9665\"> </a></td><td>Day Centre Care Staff</td><td/></tr><tr><td style=\"white-space:nowrap\">R9670<a name=\"CareConnect-SDSJobRoleName-1-R9670\"> </a></td><td>Family Centre Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9675<a name=\"CareConnect-SDSJobRoleName-1-R9675\"> </a></td><td>Family Centre Deputy</td><td/></tr><tr><td style=\"white-space:nowrap\">R9680<a name=\"CareConnect-SDSJobRoleName-1-R9680\"> </a></td><td>Family Centre Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9685<a name=\"CareConnect-SDSJobRoleName-1-R9685\"> </a></td><td>Nursery Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9690<a name=\"CareConnect-SDSJobRoleName-1-R9690\"> </a></td><td>Nursery Deputy</td><td/></tr><tr><td style=\"white-space:nowrap\">R9695<a name=\"CareConnect-SDSJobRoleName-1-R9695\"> </a></td><td>Nursery Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9700<a name=\"CareConnect-SDSJobRoleName-1-R9700\"> </a></td><td>Playgroup Leader</td><td/></tr><tr><td style=\"white-space:nowrap\">R9705<a name=\"CareConnect-SDSJobRoleName-1-R9705\"> </a></td><td>Playgroup Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R9710<a name=\"CareConnect-SDSJobRoleName-1-R9710\"> </a></td><td>Residential Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9715<a name=\"CareConnect-SDSJobRoleName-1-R9715\"> </a></td><td>Residential Deputy</td><td/></tr><tr><td style=\"white-space:nowrap\">R9720<a name=\"CareConnect-SDSJobRoleName-1-R9720\"> </a></td><td>Residential Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9725<a name=\"CareConnect-SDSJobRoleName-1-R9725\"> </a></td><td>Residential Care Staff</td><td/></tr><tr><td style=\"white-space:nowrap\">R9730<a name=\"CareConnect-SDSJobRoleName-1-R9730\"> </a></td><td>Intermediate Care Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R9735<a name=\"CareConnect-SDSJobRoleName-1-R9735\"> </a></td><td>Intermediate Care Deputy</td><td/></tr><tr><td style=\"white-space:nowrap\">R9740<a name=\"CareConnect-SDSJobRoleName-1-R9740\"> </a></td><td>Intermediate Care Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R9745<a name=\"CareConnect-SDSJobRoleName-1-R9745\"> </a></td><td>Intermediate Care Staff</td><td/></tr><tr><td style=\"white-space:nowrap\">R9750<a name=\"CareConnect-SDSJobRoleName-1-R9750\"> </a></td><td>Social Care SAP User</td><td/></tr><tr><td style=\"white-space:nowrap\">R9755<a name=\"CareConnect-SDSJobRoleName-1-R9755\"> </a></td><td>Social Care SAP Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1270<a name=\"CareConnect-SDSJobRoleName-1-R1270\"> </a></td><td>Clinical Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R1280<a name=\"CareConnect-SDSJobRoleName-1-R1280\"> </a></td><td>Optometrist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1290<a name=\"CareConnect-SDSJobRoleName-1-R1290\"> </a></td><td>Pharmacist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1979<a name=\"CareConnect-SDSJobRoleName-1-R1979\"> </a></td><td>Medical Technical Officer - Pharmacy</td><td/></tr><tr><td style=\"white-space:nowrap\">R1300<a name=\"CareConnect-SDSJobRoleName-1-R1300\"> </a></td><td>Psychotherapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1310<a name=\"CareConnect-SDSJobRoleName-1-R1310\"> </a></td><td>Clinical Psychologist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1320<a name=\"CareConnect-SDSJobRoleName-1-R1320\"> </a></td><td>Chaplain</td><td/></tr><tr><td style=\"white-space:nowrap\">R1330<a name=\"CareConnect-SDSJobRoleName-1-R1330\"> </a></td><td>Social Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1340<a name=\"CareConnect-SDSJobRoleName-1-R1340\"> </a></td><td>Approved Social Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1350<a name=\"CareConnect-SDSJobRoleName-1-R1350\"> </a></td><td>Youth Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1360<a name=\"CareConnect-SDSJobRoleName-1-R1360\"> </a></td><td>Specialist Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1370<a name=\"CareConnect-SDSJobRoleName-1-R1370\"> </a></td><td>Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R0011<a name=\"CareConnect-SDSJobRoleName-1-R0011\"> </a></td><td>Dispenser</td><td/></tr><tr><td style=\"white-space:nowrap\">R1380<a name=\"CareConnect-SDSJobRoleName-1-R1380\"> </a></td><td>Technician - PS&amp;T</td><td/></tr><tr><td style=\"white-space:nowrap\">R1390<a name=\"CareConnect-SDSJobRoleName-1-R1390\"> </a></td><td>Osteopath</td><td/></tr><tr><td style=\"white-space:nowrap\">R1400<a name=\"CareConnect-SDSJobRoleName-1-R1400\"> </a></td><td>Healthcare Scientist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1410<a name=\"CareConnect-SDSJobRoleName-1-R1410\"> </a></td><td>Consultant Healthcare Scientist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1420<a name=\"CareConnect-SDSJobRoleName-1-R1420\"> </a></td><td>Biomedical Scientist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0019<a name=\"CareConnect-SDSJobRoleName-1-R0019\"> </a></td><td>Medical Technical Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R1430<a name=\"CareConnect-SDSJobRoleName-1-R1430\"> </a></td><td>Technician - Healthcare Scientists</td><td/></tr><tr><td style=\"white-space:nowrap\">R1440<a name=\"CareConnect-SDSJobRoleName-1-R1440\"> </a></td><td>Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1540<a name=\"CareConnect-SDSJobRoleName-1-R1540\"> </a></td><td>Associate Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1543<a name=\"CareConnect-SDSJobRoleName-1-R1543\"> </a></td><td>Associate Practitioner - Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R1547<a name=\"CareConnect-SDSJobRoleName-1-R1547\"> </a></td><td>Associate Practitioner - General Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1560<a name=\"CareConnect-SDSJobRoleName-1-R1560\"> </a></td><td>Helper/Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1600<a name=\"CareConnect-SDSJobRoleName-1-R1600\"> </a></td><td>Cytoscreener</td><td/></tr><tr><td style=\"white-space:nowrap\">R1570<a name=\"CareConnect-SDSJobRoleName-1-R1570\"> </a></td><td>Dental Surgery Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1450<a name=\"CareConnect-SDSJobRoleName-1-R1450\"> </a></td><td>Health Care Support Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1580<a name=\"CareConnect-SDSJobRoleName-1-R1580\"> </a></td><td>Medical Laboratory Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1550<a name=\"CareConnect-SDSJobRoleName-1-R1550\"> </a></td><td>Counsellor</td><td/></tr><tr><td style=\"white-space:nowrap\">R0002<a name=\"CareConnect-SDSJobRoleName-1-R0002\"> </a></td><td>Porter</td><td/></tr><tr><td style=\"white-space:nowrap\">R1690<a name=\"CareConnect-SDSJobRoleName-1-R1690\"> </a></td><td>Call Operator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1700<a name=\"CareConnect-SDSJobRoleName-1-R1700\"> </a></td><td>Gateway Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1710<a name=\"CareConnect-SDSJobRoleName-1-R1710\"> </a></td><td>Support, Time, Recovery Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1480<a name=\"CareConnect-SDSJobRoleName-1-R1480\"> </a></td><td>Healthcare Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1490<a name=\"CareConnect-SDSJobRoleName-1-R1490\"> </a></td><td>Nursery Nurse</td><td/></tr><tr><td style=\"white-space:nowrap\">R1590<a name=\"CareConnect-SDSJobRoleName-1-R1590\"> </a></td><td>Phlebotomist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1460<a name=\"CareConnect-SDSJobRoleName-1-R1460\"> </a></td><td>Social Care Support Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1470<a name=\"CareConnect-SDSJobRoleName-1-R1470\"> </a></td><td>Home Help</td><td/></tr><tr><td style=\"white-space:nowrap\">R1520<a name=\"CareConnect-SDSJobRoleName-1-R1520\"> </a></td><td>Technician - Additional Clinical Services</td><td/></tr><tr><td style=\"white-space:nowrap\">R1530<a name=\"CareConnect-SDSJobRoleName-1-R1530\"> </a></td><td>Technical Instructor</td><td/></tr><tr><td style=\"white-space:nowrap\">R1980<a name=\"CareConnect-SDSJobRoleName-1-R1980\"> </a></td><td>Patient Welfare Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R1500<a name=\"CareConnect-SDSJobRoleName-1-R1500\"> </a></td><td>Play Therapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1510<a name=\"CareConnect-SDSJobRoleName-1-R1510\"> </a></td><td>Play Specialist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1610<a name=\"CareConnect-SDSJobRoleName-1-R1610\"> </a></td><td>Student Technician</td><td/></tr><tr><td style=\"white-space:nowrap\">R1620<a name=\"CareConnect-SDSJobRoleName-1-R1620\"> </a></td><td>Trainee Scientist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1630<a name=\"CareConnect-SDSJobRoleName-1-R1630\"> </a></td><td>Trainee Practitioner</td><td/></tr><tr><td style=\"white-space:nowrap\">R1640<a name=\"CareConnect-SDSJobRoleName-1-R1640\"> </a></td><td>Nursing Cadet</td><td/></tr><tr><td style=\"white-space:nowrap\">R1650<a name=\"CareConnect-SDSJobRoleName-1-R1650\"> </a></td><td>Healthcare Cadet</td><td/></tr><tr><td style=\"white-space:nowrap\">R1660<a name=\"CareConnect-SDSJobRoleName-1-R1660\"> </a></td><td>Pre-reg Pharmacist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1670<a name=\"CareConnect-SDSJobRoleName-1-R1670\"> </a></td><td>Assistant Psychologist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1680<a name=\"CareConnect-SDSJobRoleName-1-R1680\"> </a></td><td>Assistant Psychotherapist</td><td/></tr><tr><td style=\"white-space:nowrap\">R0007<a name=\"CareConnect-SDSJobRoleName-1-R0007\"> </a></td><td>ERS SDS Organisation Reporting Analyst</td><td/></tr><tr><td style=\"white-space:nowrap\">R0008<a name=\"CareConnect-SDSJobRoleName-1-R0008\"> </a></td><td>Demographic Supervisor</td><td/></tr><tr><td style=\"white-space:nowrap\">R0021<a name=\"CareConnect-SDSJobRoleName-1-R0021\"> </a></td><td>DSA NHS Number Manager (Temporary)</td><td/></tr><tr><td style=\"white-space:nowrap\">R0022<a name=\"CareConnect-SDSJobRoleName-1-R0022\"> </a></td><td>DSA National Clinical Supervisor (Temporary)</td><td/></tr><tr><td style=\"white-space:nowrap\">R0023<a name=\"CareConnect-SDSJobRoleName-1-R0023\"> </a></td><td>DSA National Clinical Administrator (Temporary)</td><td/></tr><tr><td style=\"white-space:nowrap\">R1720<a name=\"CareConnect-SDSJobRoleName-1-R1720\"> </a></td><td>Clerical Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R1730<a name=\"CareConnect-SDSJobRoleName-1-R1730\"> </a></td><td>Receptionist</td><td/></tr><tr><td style=\"white-space:nowrap\">R1740<a name=\"CareConnect-SDSJobRoleName-1-R1740\"> </a></td><td>Secretary</td><td/></tr><tr><td style=\"white-space:nowrap\">R1750<a name=\"CareConnect-SDSJobRoleName-1-R1750\"> </a></td><td>Personal Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1751<a name=\"CareConnect-SDSJobRoleName-1-R1751\"> </a></td><td>Demographic Administrator (Sensitive Records) Temporary</td><td/></tr><tr><td style=\"white-space:nowrap\">R1760<a name=\"CareConnect-SDSJobRoleName-1-R1760\"> </a></td><td>Medical Secretary</td><td/></tr><tr><td style=\"white-space:nowrap\">R1770<a name=\"CareConnect-SDSJobRoleName-1-R1770\"> </a></td><td>Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R1971<a name=\"CareConnect-SDSJobRoleName-1-R1971\"> </a></td><td>Map of Medicine Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1973<a name=\"CareConnect-SDSJobRoleName-1-R1973\"> </a></td><td>Community Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1977<a name=\"CareConnect-SDSJobRoleName-1-R1977\"> </a></td><td>ECC/CPA Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1978<a name=\"CareConnect-SDSJobRoleName-1-R1978\"> </a></td><td>Information Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R1985<a name=\"CareConnect-SDSJobRoleName-1-R1985\"> </a></td><td>Health Records Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R1995<a name=\"CareConnect-SDSJobRoleName-1-R1995\"> </a></td><td>End Point Approver</td><td/></tr><tr><td style=\"white-space:nowrap\">R5010<a name=\"CareConnect-SDSJobRoleName-1-R5010\"> </a></td><td>Network Technician</td><td/></tr><tr><td style=\"white-space:nowrap\">R5040<a name=\"CareConnect-SDSJobRoleName-1-R5040\"> </a></td><td>Desktop Support Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5090<a name=\"CareConnect-SDSJobRoleName-1-R5090\"> </a></td><td>Registration Authority Agent</td><td/></tr><tr><td style=\"white-space:nowrap\">R5110<a name=\"CareConnect-SDSJobRoleName-1-R5110\"> </a></td><td>Demographic Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5120<a name=\"CareConnect-SDSJobRoleName-1-R5120\"> </a></td><td>ISP Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5130<a name=\"CareConnect-SDSJobRoleName-1-R5130\"> </a></td><td>Technical Codes Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5140<a name=\"CareConnect-SDSJobRoleName-1-R5140\"> </a></td><td>OSS Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5170<a name=\"CareConnect-SDSJobRoleName-1-R5170\"> </a></td><td>End Point Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5175<a name=\"CareConnect-SDSJobRoleName-1-R5175\"> </a></td><td>End Point Viewer</td><td/></tr><tr><td style=\"white-space:nowrap\">R5181<a name=\"CareConnect-SDSJobRoleName-1-R5181\"> </a></td><td>RTS Dashboard User</td><td/></tr><tr><td style=\"white-space:nowrap\">R5183<a name=\"CareConnect-SDSJobRoleName-1-R5183\"> </a></td><td>RTS BT Dashboard User</td><td/></tr><tr><td style=\"white-space:nowrap\">R5186<a name=\"CareConnect-SDSJobRoleName-1-R5186\"> </a></td><td>ERS BT Customer SLA User</td><td/></tr><tr><td style=\"white-space:nowrap\">R5188<a name=\"CareConnect-SDSJobRoleName-1-R5188\"> </a></td><td>ERS BT Supplier SLA User</td><td/></tr><tr><td style=\"white-space:nowrap\">R5189<a name=\"CareConnect-SDSJobRoleName-1-R5189\"> </a></td><td>ERS LogicaCMG SLA User</td><td/></tr><tr><td style=\"white-space:nowrap\">R5190<a name=\"CareConnect-SDSJobRoleName-1-R5190\"> </a></td><td>Content Creator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5195<a name=\"CareConnect-SDSJobRoleName-1-R5195\"> </a></td><td>Content Publisher</td><td/></tr><tr><td style=\"white-space:nowrap\">R5210<a name=\"CareConnect-SDSJobRoleName-1-R5210\"> </a></td><td>User Details Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5250<a name=\"CareConnect-SDSJobRoleName-1-R5250\"> </a></td><td>EBS Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R6010<a name=\"CareConnect-SDSJobRoleName-1-R6010\"> </a></td><td>Appointments Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R6030<a name=\"CareConnect-SDSJobRoleName-1-R6030\"> </a></td><td>Ward Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R6050<a name=\"CareConnect-SDSJobRoleName-1-R6050\"> </a></td><td>Clinical Coder</td><td/></tr><tr><td style=\"white-space:nowrap\">R6060<a name=\"CareConnect-SDSJobRoleName-1-R6060\"> </a></td><td>Medical Records Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R6080<a name=\"CareConnect-SDSJobRoleName-1-R6080\"> </a></td><td>Waiting List Clerk</td><td/></tr><tr><td style=\"white-space:nowrap\">R7100<a name=\"CareConnect-SDSJobRoleName-1-R7100\"> </a></td><td>Trainer</td><td/></tr><tr><td style=\"white-space:nowrap\">R7110<a name=\"CareConnect-SDSJobRoleName-1-R7110\"> </a></td><td>Training Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R7120<a name=\"CareConnect-SDSJobRoleName-1-R7120\"> </a></td><td>Directory of Services Coordinator</td><td/></tr><tr><td style=\"white-space:nowrap\">R9756<a name=\"CareConnect-SDSJobRoleName-1-R9756\"> </a></td><td>ETP System Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1780<a name=\"CareConnect-SDSJobRoleName-1-R1780\"> </a></td><td>Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1790<a name=\"CareConnect-SDSJobRoleName-1-R1790\"> </a></td><td>Senior Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1910<a name=\"CareConnect-SDSJobRoleName-1-R1910\"> </a></td><td>Chair</td><td/></tr><tr><td style=\"white-space:nowrap\">R1920<a name=\"CareConnect-SDSJobRoleName-1-R1920\"> </a></td><td>Chief Executive</td><td/></tr><tr><td style=\"white-space:nowrap\">R1930<a name=\"CareConnect-SDSJobRoleName-1-R1930\"> </a></td><td>Finance Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R1940<a name=\"CareConnect-SDSJobRoleName-1-R1940\"> </a></td><td>Other Executive Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R1950<a name=\"CareConnect-SDSJobRoleName-1-R1950\"> </a></td><td>Board Level Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R1960<a name=\"CareConnect-SDSJobRoleName-1-R1960\"> </a></td><td>Non Executive Director</td><td/></tr><tr><td style=\"white-space:nowrap\">R1970<a name=\"CareConnect-SDSJobRoleName-1-R1970\"> </a></td><td>Childcare Co-ordinator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1982<a name=\"CareConnect-SDSJobRoleName-1-R1982\"> </a></td><td>Senior Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1983<a name=\"CareConnect-SDSJobRoleName-1-R1983\"> </a></td><td>Ward Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1986<a name=\"CareConnect-SDSJobRoleName-1-R1986\"> </a></td><td>Workgroup Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1987<a name=\"CareConnect-SDSJobRoleName-1-R1987\"> </a></td><td>National RBAC Attribute Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1988<a name=\"CareConnect-SDSJobRoleName-1-R1988\"> </a></td><td>National RBAC Baseline Policy Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1989<a name=\"CareConnect-SDSJobRoleName-1-R1989\"> </a></td><td>Complaints Coordinator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1990<a name=\"CareConnect-SDSJobRoleName-1-R1990\"> </a></td><td>Complaints Investigator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1996<a name=\"CareConnect-SDSJobRoleName-1-R1996\"> </a></td><td>End Point DNS Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1997<a name=\"CareConnect-SDSJobRoleName-1-R1997\"> </a></td><td>End Point Spine Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R1998<a name=\"CareConnect-SDSJobRoleName-1-R1998\"> </a></td><td>End Point Super User</td><td/></tr><tr><td style=\"white-space:nowrap\">R1999<a name=\"CareConnect-SDSJobRoleName-1-R1999\"> </a></td><td>End Point Service Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5000<a name=\"CareConnect-SDSJobRoleName-1-R5000\"> </a></td><td>Network Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5003<a name=\"CareConnect-SDSJobRoleName-1-R5003\"> </a></td><td>Cluster System Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5007<a name=\"CareConnect-SDSJobRoleName-1-R5007\"> </a></td><td>System Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5020<a name=\"CareConnect-SDSJobRoleName-1-R5020\"> </a></td><td>Helpdesk Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5060<a name=\"CareConnect-SDSJobRoleName-1-R5060\"> </a></td><td>Security Policy Controller</td><td/></tr><tr><td style=\"white-space:nowrap\">R5070<a name=\"CareConnect-SDSJobRoleName-1-R5070\"> </a></td><td>Senior Security Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5072<a name=\"CareConnect-SDSJobRoleName-1-R5072\"> </a></td><td>Root Registration Authority Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5080<a name=\"CareConnect-SDSJobRoleName-1-R5080\"> </a></td><td>Registration Authority Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5100<a name=\"CareConnect-SDSJobRoleName-1-R5100\"> </a></td><td>Audit Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5105<a name=\"CareConnect-SDSJobRoleName-1-R5105\"> </a></td><td>Caldicott Guardian</td><td/></tr><tr><td style=\"white-space:nowrap\">R5180<a name=\"CareConnect-SDSJobRoleName-1-R5180\"> </a></td><td>NASP Service Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5182<a name=\"CareConnect-SDSJobRoleName-1-R5182\"> </a></td><td>ERS ETP System Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5184<a name=\"CareConnect-SDSJobRoleName-1-R5184\"> </a></td><td>ERS Spine SLA Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5185<a name=\"CareConnect-SDSJobRoleName-1-R5185\"> </a></td><td>ERS BT Customer SLA Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5187<a name=\"CareConnect-SDSJobRoleName-1-R5187\"> </a></td><td>ERS BT Supplier SLA Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R5191<a name=\"CareConnect-SDSJobRoleName-1-R5191\"> </a></td><td>ERS Support Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5192<a name=\"CareConnect-SDSJobRoleName-1-R5192\"> </a></td><td>ECS Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5300<a name=\"CareConnect-SDSJobRoleName-1-R5300\"> </a></td><td>Portal Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5310<a name=\"CareConnect-SDSJobRoleName-1-R5310\"> </a></td><td>LiquidLogic Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5320<a name=\"CareConnect-SDSJobRoleName-1-R5320\"> </a></td><td>i.EPR Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5330<a name=\"CareConnect-SDSJobRoleName-1-R5330\"> </a></td><td>Synergy Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R5340<a name=\"CareConnect-SDSJobRoleName-1-R5340\"> </a></td><td>SystmOne Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R6020<a name=\"CareConnect-SDSJobRoleName-1-R6020\"> </a></td><td>Outpatient Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R6040<a name=\"CareConnect-SDSJobRoleName-1-R6040\"> </a></td><td>Bed Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R6070<a name=\"CareConnect-SDSJobRoleName-1-R6070\"> </a></td><td>Medical Records Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R6090<a name=\"CareConnect-SDSJobRoleName-1-R6090\"> </a></td><td>Waiting List Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R6100<a name=\"CareConnect-SDSJobRoleName-1-R6100\"> </a></td><td>Mental Health Act Administrator</td><td/></tr><tr><td style=\"white-space:nowrap\">R6160<a name=\"CareConnect-SDSJobRoleName-1-R6160\"> </a></td><td>Ad-hoc Report Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R7130<a name=\"CareConnect-SDSJobRoleName-1-R7130\"> </a></td><td>PAS Manager</td><td/></tr><tr><td style=\"white-space:nowrap\">R1800<a name=\"CareConnect-SDSJobRoleName-1-R1800\"> </a></td><td>Technician - Admin &amp; Clerical</td><td/></tr><tr><td style=\"white-space:nowrap\">R1810<a name=\"CareConnect-SDSJobRoleName-1-R1810\"> </a></td><td>Accountant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1820<a name=\"CareConnect-SDSJobRoleName-1-R1820\"> </a></td><td>Librarian</td><td/></tr><tr><td style=\"white-space:nowrap\">R1830<a name=\"CareConnect-SDSJobRoleName-1-R1830\"> </a></td><td>Interpreter</td><td/></tr><tr><td style=\"white-space:nowrap\">R1840<a name=\"CareConnect-SDSJobRoleName-1-R1840\"> </a></td><td>Analyst</td><td/></tr><tr><td style=\"white-space:nowrap\">R1850<a name=\"CareConnect-SDSJobRoleName-1-R1850\"> </a></td><td>Adviser</td><td/></tr><tr><td style=\"white-space:nowrap\">R1860<a name=\"CareConnect-SDSJobRoleName-1-R1860\"> </a></td><td>Researcher</td><td/></tr><tr><td style=\"white-space:nowrap\">R1870<a name=\"CareConnect-SDSJobRoleName-1-R1870\"> </a></td><td>Control Assistant</td><td/></tr><tr><td style=\"white-space:nowrap\">R1880<a name=\"CareConnect-SDSJobRoleName-1-R1880\"> </a></td><td>Architect</td><td/></tr><tr><td style=\"white-space:nowrap\">R1890<a name=\"CareConnect-SDSJobRoleName-1-R1890\"> </a></td><td>Lawyer</td><td/></tr><tr><td style=\"white-space:nowrap\">R1900<a name=\"CareConnect-SDSJobRoleName-1-R1900\"> </a></td><td>Surveyor</td><td/></tr><tr><td style=\"white-space:nowrap\">R5030<a name=\"CareConnect-SDSJobRoleName-1-R5030\"> </a></td><td>Helpdesk Technician</td><td/></tr><tr><td style=\"white-space:nowrap\">R5050<a name=\"CareConnect-SDSJobRoleName-1-R5050\"> </a></td><td>Desktop Support Technician</td><td/></tr><tr><td style=\"white-space:nowrap\">R5150<a name=\"CareConnect-SDSJobRoleName-1-R5150\"> </a></td><td>System Worker</td><td/></tr><tr><td style=\"white-space:nowrap\">R5400<a name=\"CareConnect-SDSJobRoleName-1-R5400\"> </a></td><td>Availability  Monitor</td><td/></tr><tr><td style=\"white-space:nowrap\">R8000<a name=\"CareConnect-SDSJobRoleName-1-R8000\"> </a></td><td>Clinical Practitioner Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8001<a name=\"CareConnect-SDSJobRoleName-1-R8001\"> </a></td><td>Nurse Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8002<a name=\"CareConnect-SDSJobRoleName-1-R8002\"> </a></td><td>Nurse Manager Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8003<a name=\"CareConnect-SDSJobRoleName-1-R8003\"> </a></td><td>Health Professional Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8004<a name=\"CareConnect-SDSJobRoleName-1-R8004\"> </a></td><td>Healthcare Student Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8016<a name=\"CareConnect-SDSJobRoleName-1-R8016\"> </a></td><td>Midwife Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8017<a name=\"CareConnect-SDSJobRoleName-1-R8017\"> </a></td><td>Midwife Manager Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8024<a name=\"CareConnect-SDSJobRoleName-1-R8024\"> </a></td><td>Bank Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8005<a name=\"CareConnect-SDSJobRoleName-1-R8005\"> </a></td><td>Biomedical Scientist Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8006<a name=\"CareConnect-SDSJobRoleName-1-R8006\"> </a></td><td>Medical Secretary Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8007<a name=\"CareConnect-SDSJobRoleName-1-R8007\"> </a></td><td>Clinical Coder Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8008<a name=\"CareConnect-SDSJobRoleName-1-R8008\"> </a></td><td>Admin/Clinical Support Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8015<a name=\"CareConnect-SDSJobRoleName-1-R8015\"> </a></td><td>Systems Support Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R0001<a name=\"CareConnect-SDSJobRoleName-1-R0001\"> </a></td><td>Privacy Officer</td><td/></tr><tr><td style=\"white-space:nowrap\">R8009<a name=\"CareConnect-SDSJobRoleName-1-R8009\"> </a></td><td>Receptionist Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8010<a name=\"CareConnect-SDSJobRoleName-1-R8010\"> </a></td><td>Clerical Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8011<a name=\"CareConnect-SDSJobRoleName-1-R8011\"> </a></td><td>Clerical Manager Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8012<a name=\"CareConnect-SDSJobRoleName-1-R8012\"> </a></td><td>Information Officer Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8013<a name=\"CareConnect-SDSJobRoleName-1-R8013\"> </a></td><td>Health Records Manager Access Role</td><td/></tr><tr><td style=\"white-space:nowrap\">R8014<a name=\"CareConnect-SDSJobRoleName-1-R8014\"> </a></td><td>Social Worker Access Role</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.name [ fhir:value "Care Connect SDS Job Role Name"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "R0010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Director" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "R0020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Director - Medical" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "R0210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Director of Public Health" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "R0030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Professor" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "R0040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Lecturer" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "R0050" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Consultant" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "R0060" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Special Salary Scale in Public Health Medicine" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "R0070" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Associate Specialist" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "R0080" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Staff Grade" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "R0090" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Hospital Practitioner" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "R0100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Assistant" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "R0110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Specialist Registrar" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "R0120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Registrar (Closed)" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "R0130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registrar (Closed)" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "R0140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior House Officer" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "R0150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "House Officer - Pre Registration" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "R0160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "House Officer - Post Registration" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "R0170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trust Grade Doctor - House Officer level" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "R0180" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trust Grade Doctor - SHO level" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "R0190" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trust Grade Doctor - Specialist Registrar level" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "R0200" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trust Grade Doctor - Career Grade level" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "R0260" ];
+     fhir:CodeSystem.concept.display [ fhir:value "General Medical Practitioner" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "R0270" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Salaried General Practitioner" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "R1981" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Psychiatrist" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "R1984" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Health Records Administrator" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "R6200" ];
+     fhir:CodeSystem.concept.display [ fhir:value "GP Registrar" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "R6300" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sessional GP" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "R7140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ODP" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "R7150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "SODP" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "R9100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A&E Staff Nurse (Temporary)  London Cluster Only" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "R9101" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A&E Manager (Temporary) London Cluster Only" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "R9102" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A&E Doctor  (Temporary) London Cluster only" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "R9103" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A&E Student (Temporary) London Cluster Only" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "R9104" ];
+     fhir:CodeSystem.concept.display [ fhir:value "A&E Clerk (Temporary) London Cluster Only" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "R0215" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Assistant Clinical Medical Officer" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "R0220" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Medical Officer" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "R0230" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Clinical Medical Officer" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "R0240" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Community Health Service" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "R0243" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Community Health Service - Social Care Worker" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "R0247" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Community Health Service - Admin Clerk" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "R0055" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Surgeon acting as Hospital Consultant" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "R0250" ];
+     fhir:CodeSystem.concept.display [ fhir:value "General Dental Practitioner" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "R0280" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Regional Dental Officer" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "R0290" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Clinical Director - Dental" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "R0295" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Assistant Clinical Director" ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "R0300" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Officer" ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "R0310" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Dental Officer" ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "R0320" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Salaried Dental Practitioner" ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "R0006" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Community Practitioner" ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "R0330" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Nurse - Adult Branch" ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "R0340" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Nurse - Child Branch" ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "R0350" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Nurse - Mental Health Branch" ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "R0360" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Nurse - Learning Disabilities Branch" ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "R0370" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Midwife" ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "R0380" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Health Visitor" ]
+  ], [
+     fhir:index 55;
+     fhir:CodeSystem.concept.code [ fhir:value "R0390" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student District Nurse" ]
+  ], [
+     fhir:index 56;
+     fhir:CodeSystem.concept.code [ fhir:value "R0400" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student School Nurse" ]
+  ], [
+     fhir:index 57;
+     fhir:CodeSystem.concept.code [ fhir:value "R0410" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Practice Nurse" ]
+  ], [
+     fhir:index 58;
+     fhir:CodeSystem.concept.code [ fhir:value "R0420" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Occupational Health Nurse" ]
+  ], [
+     fhir:index 59;
+     fhir:CodeSystem.concept.code [ fhir:value "R0430" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Community Paediatric Nurse" ]
+  ], [
+     fhir:index 60;
+     fhir:CodeSystem.concept.code [ fhir:value "R0440" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Community Mental Health Nurse" ]
+  ], [
+     fhir:index 61;
+     fhir:CodeSystem.concept.code [ fhir:value "R0450" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Community Learning Disabilities Nurse" ]
+  ], [
+     fhir:index 62;
+     fhir:CodeSystem.concept.code [ fhir:value "R0460" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Chiropodist" ]
+  ], [
+     fhir:index 63;
+     fhir:CodeSystem.concept.code [ fhir:value "R0470" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Dietitian" ]
+  ], [
+     fhir:index 64;
+     fhir:CodeSystem.concept.code [ fhir:value "R0480" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Occupational Therapist" ]
+  ], [
+     fhir:index 65;
+     fhir:CodeSystem.concept.code [ fhir:value "R0490" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Orthoptist" ]
+  ], [
+     fhir:index 66;
+     fhir:CodeSystem.concept.code [ fhir:value "R0500" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Physiotherapist" ]
+  ], [
+     fhir:index 67;
+     fhir:CodeSystem.concept.code [ fhir:value "R0510" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Radiographer - Diagnostic" ]
+  ], [
+     fhir:index 68;
+     fhir:CodeSystem.concept.code [ fhir:value "R0520" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Radiographer - Therapeutic" ]
+  ], [
+     fhir:index 69;
+     fhir:CodeSystem.concept.code [ fhir:value "R0530" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Speech & Language Therapist" ]
+  ], [
+     fhir:index 70;
+     fhir:CodeSystem.concept.code [ fhir:value "R0540" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Art, Music & Drama Student" ]
+  ], [
+     fhir:index 71;
+     fhir:CodeSystem.concept.code [ fhir:value "R0550" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Psychotherapist" ]
+  ], [
+     fhir:index 72;
+     fhir:CodeSystem.concept.code [ fhir:value "R6400" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Student" ]
+  ], [
+     fhir:index 73;
+     fhir:CodeSystem.concept.code [ fhir:value "R0560" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Director of Nursing" ]
+  ], [
+     fhir:index 74;
+     fhir:CodeSystem.concept.code [ fhir:value "R0580" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Manager" ]
+  ], [
+     fhir:index 75;
+     fhir:CodeSystem.concept.code [ fhir:value "R0610" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sister/Charge Nurse" ]
+  ], [
+     fhir:index 76;
+     fhir:CodeSystem.concept.code [ fhir:value "R1976" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Team Manager" ]
+  ], [
+     fhir:index 77;
+     fhir:CodeSystem.concept.code [ fhir:value "R0570" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Consultant" ]
+  ], [
+     fhir:index 78;
+     fhir:CodeSystem.concept.code [ fhir:value "R0600" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Specialist Nurse Practitioner" ]
+  ], [
+     fhir:index 79;
+     fhir:CodeSystem.concept.code [ fhir:value "R0620" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Staff Nurse" ]
+  ], [
+     fhir:index 80;
+     fhir:CodeSystem.concept.code [ fhir:value "R0630" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Enrolled Nurse" ]
+  ], [
+     fhir:index 81;
+     fhir:CodeSystem.concept.code [ fhir:value "R0690" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Practitioner" ]
+  ], [
+     fhir:index 82;
+     fhir:CodeSystem.concept.code [ fhir:value "R0700" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Nurse" ]
+  ], [
+     fhir:index 83;
+     fhir:CodeSystem.concept.code [ fhir:value "R1974" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Learning Disabilities Nurse" ]
+  ], [
+     fhir:index 84;
+     fhir:CodeSystem.concept.code [ fhir:value "R1975" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Mental Health Nurse" ]
+  ], [
+     fhir:index 85;
+     fhir:CodeSystem.concept.code [ fhir:value "R0590" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Modern Matron" ]
+  ], [
+     fhir:index 86;
+     fhir:CodeSystem.concept.code [ fhir:value "R1972" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Team Manager" ]
+  ], [
+     fhir:index 87;
+     fhir:CodeSystem.concept.code [ fhir:value "R0640" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife - Consultant" ]
+  ], [
+     fhir:index 88;
+     fhir:CodeSystem.concept.code [ fhir:value "R0650" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife - Specialist Practitioner" ]
+  ], [
+     fhir:index 89;
+     fhir:CodeSystem.concept.code [ fhir:value "R0660" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife - Manager" ]
+  ], [
+     fhir:index 90;
+     fhir:CodeSystem.concept.code [ fhir:value "R0670" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife - Sister/Charge Nurse" ]
+  ], [
+     fhir:index 91;
+     fhir:CodeSystem.concept.code [ fhir:value "R0680" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife" ]
+  ], [
+     fhir:index 92;
+     fhir:CodeSystem.concept.code [ fhir:value "R0018" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Audiologist" ]
+  ], [
+     fhir:index 93;
+     fhir:CodeSystem.concept.code [ fhir:value "R0750" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chiropodist/Podiatrist" ]
+  ], [
+     fhir:index 94;
+     fhir:CodeSystem.concept.code [ fhir:value "R0760" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chiropodist/Podiatrist Consultant" ]
+  ], [
+     fhir:index 95;
+     fhir:CodeSystem.concept.code [ fhir:value "R0770" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chiropodist/Podiatrist Manager" ]
+  ], [
+     fhir:index 96;
+     fhir:CodeSystem.concept.code [ fhir:value "R0780" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chiropodist/Podiatrist Specialist Practitioner" ]
+  ], [
+     fhir:index 97;
+     fhir:CodeSystem.concept.code [ fhir:value "R0790" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dietitian" ]
+  ], [
+     fhir:index 98;
+     fhir:CodeSystem.concept.code [ fhir:value "R0800" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dietitian Consultant" ]
+  ], [
+     fhir:index 99;
+     fhir:CodeSystem.concept.code [ fhir:value "R0810" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dietitian Manager" ]
+  ], [
+     fhir:index 100;
+     fhir:CodeSystem.concept.code [ fhir:value "R0820" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dietitian Specialist Practitioner" ]
+  ], [
+     fhir:index 101;
+     fhir:CodeSystem.concept.code [ fhir:value "R0950" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist" ]
+  ], [
+     fhir:index 102;
+     fhir:CodeSystem.concept.code [ fhir:value "R0960" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist Consultant" ]
+  ], [
+     fhir:index 103;
+     fhir:CodeSystem.concept.code [ fhir:value "R0970" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist Manager" ]
+  ], [
+     fhir:index 104;
+     fhir:CodeSystem.concept.code [ fhir:value "R0980" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapy Specialist Practitioner" ]
+  ], [
+     fhir:index 105;
+     fhir:CodeSystem.concept.code [ fhir:value "R0990" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthoptist" ]
+  ], [
+     fhir:index 106;
+     fhir:CodeSystem.concept.code [ fhir:value "R1000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthoptist Consultant" ]
+  ], [
+     fhir:index 107;
+     fhir:CodeSystem.concept.code [ fhir:value "R1010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthoptist Manager" ]
+  ], [
+     fhir:index 108;
+     fhir:CodeSystem.concept.code [ fhir:value "R1020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthoptist Specialist Practitioner" ]
+  ], [
+     fhir:index 109;
+     fhir:CodeSystem.concept.code [ fhir:value "R1110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Physiotherapist" ]
+  ], [
+     fhir:index 110;
+     fhir:CodeSystem.concept.code [ fhir:value "R1120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Physiotherapist Consultant" ]
+  ], [
+     fhir:index 111;
+     fhir:CodeSystem.concept.code [ fhir:value "R1130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Physiotherapist Manager" ]
+  ], [
+     fhir:index 112;
+     fhir:CodeSystem.concept.code [ fhir:value "R1140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Physiotherapist Specialist Practitioner" ]
+  ], [
+     fhir:index 113;
+     fhir:CodeSystem.concept.code [ fhir:value "R1070" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paramedic" ]
+  ], [
+     fhir:index 114;
+     fhir:CodeSystem.concept.code [ fhir:value "R1080" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paramedic Consultant" ]
+  ], [
+     fhir:index 115;
+     fhir:CodeSystem.concept.code [ fhir:value "R1090" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paramedic Manager" ]
+  ], [
+     fhir:index 116;
+     fhir:CodeSystem.concept.code [ fhir:value "R1100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Paramedic Specialist Practitioner" ]
+  ], [
+     fhir:index 117;
+     fhir:CodeSystem.concept.code [ fhir:value "R0003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Application Administrator" ]
+  ], [
+     fhir:index 118;
+     fhir:CodeSystem.concept.code [ fhir:value "R0012" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer" ]
+  ], [
+     fhir:index 119;
+     fhir:CodeSystem.concept.code [ fhir:value "R0013" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Radiographer" ]
+  ], [
+     fhir:index 120;
+     fhir:CodeSystem.concept.code [ fhir:value "R0014" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiologist" ]
+  ], [
+     fhir:index 121;
+     fhir:CodeSystem.concept.code [ fhir:value "R0015" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PACS Administrator" ]
+  ], [
+     fhir:index 122;
+     fhir:CodeSystem.concept.code [ fhir:value "R0016" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reporting Radiographer" ]
+  ], [
+     fhir:index 123;
+     fhir:CodeSystem.concept.code [ fhir:value "R0017" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Assistant Practitioner" ]
+  ], [
+     fhir:index 124;
+     fhir:CodeSystem.concept.code [ fhir:value "R1190" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Diagnostic" ]
+  ], [
+     fhir:index 125;
+     fhir:CodeSystem.concept.code [ fhir:value "R1200" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Diagnostic, Consultant" ]
+  ], [
+     fhir:index 126;
+     fhir:CodeSystem.concept.code [ fhir:value "R1210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Diagnostic, Manager" ]
+  ], [
+     fhir:index 127;
+     fhir:CodeSystem.concept.code [ fhir:value "R1220" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Diagnostic, Specialist Practitioner" ]
+  ], [
+     fhir:index 128;
+     fhir:CodeSystem.concept.code [ fhir:value "R1230" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Therapeutic" ]
+  ], [
+     fhir:index 129;
+     fhir:CodeSystem.concept.code [ fhir:value "R1240" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Therapeutic, Consultant" ]
+  ], [
+     fhir:index 130;
+     fhir:CodeSystem.concept.code [ fhir:value "R1250" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Therapeutic, Manager" ]
+  ], [
+     fhir:index 131;
+     fhir:CodeSystem.concept.code [ fhir:value "R1260" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Radiographer - Therapeutic, Specialist Practitioner" ]
+  ], [
+     fhir:index 132;
+     fhir:CodeSystem.concept.code [ fhir:value "R1030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthotist" ]
+  ], [
+     fhir:index 133;
+     fhir:CodeSystem.concept.code [ fhir:value "R1040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthotist Consultant" ]
+  ], [
+     fhir:index 134;
+     fhir:CodeSystem.concept.code [ fhir:value "R1050" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthotist Manager" ]
+  ], [
+     fhir:index 135;
+     fhir:CodeSystem.concept.code [ fhir:value "R1060" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Orthotist Specialist Practitioner" ]
+  ], [
+     fhir:index 136;
+     fhir:CodeSystem.concept.code [ fhir:value "R1150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prosthetist" ]
+  ], [
+     fhir:index 137;
+     fhir:CodeSystem.concept.code [ fhir:value "R1160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prosthetist Consultant" ]
+  ], [
+     fhir:index 138;
+     fhir:CodeSystem.concept.code [ fhir:value "R1170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prosthetist Manager" ]
+  ], [
+     fhir:index 139;
+     fhir:CodeSystem.concept.code [ fhir:value "R1180" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Prosthetist Specialist Practitioner" ]
+  ], [
+     fhir:index 140;
+     fhir:CodeSystem.concept.code [ fhir:value "R0710" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Art Therapist" ]
+  ], [
+     fhir:index 141;
+     fhir:CodeSystem.concept.code [ fhir:value "R0720" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Art Therapist Consultant" ]
+  ], [
+     fhir:index 142;
+     fhir:CodeSystem.concept.code [ fhir:value "R0730" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Art Therapist Manager" ]
+  ], [
+     fhir:index 143;
+     fhir:CodeSystem.concept.code [ fhir:value "R0740" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Art Therapist Specialist Practitioner" ]
+  ], [
+     fhir:index 144;
+     fhir:CodeSystem.concept.code [ fhir:value "R0830" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Drama Therapist" ]
+  ], [
+     fhir:index 145;
+     fhir:CodeSystem.concept.code [ fhir:value "R0840" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Drama Therapist Consultant" ]
+  ], [
+     fhir:index 146;
+     fhir:CodeSystem.concept.code [ fhir:value "R0850" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Drama Therapist Manager" ]
+  ], [
+     fhir:index 147;
+     fhir:CodeSystem.concept.code [ fhir:value "R0860" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Drama Therapist Specialist Practitioner" ]
+  ], [
+     fhir:index 148;
+     fhir:CodeSystem.concept.code [ fhir:value "R0870" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Multi Therapist" ]
+  ], [
+     fhir:index 149;
+     fhir:CodeSystem.concept.code [ fhir:value "R0880" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Multi Therapist Consultant" ]
+  ], [
+     fhir:index 150;
+     fhir:CodeSystem.concept.code [ fhir:value "R0890" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Multi Therapist Manager" ]
+  ], [
+     fhir:index 151;
+     fhir:CodeSystem.concept.code [ fhir:value "R0900" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Multi Therapist Specialist Practitioner" ]
+  ], [
+     fhir:index 152;
+     fhir:CodeSystem.concept.code [ fhir:value "R0910" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Music Therapist" ]
+  ], [
+     fhir:index 153;
+     fhir:CodeSystem.concept.code [ fhir:value "R0920" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Music Therapist Consultant" ]
+  ], [
+     fhir:index 154;
+     fhir:CodeSystem.concept.code [ fhir:value "R0930" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Music Therapist Manager" ]
+  ], [
+     fhir:index 155;
+     fhir:CodeSystem.concept.code [ fhir:value "R0940" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Music Therapist Specialist Practitioner" ]
+  ], [
+     fhir:index 156;
+     fhir:CodeSystem.concept.code [ fhir:value "R0955" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Speech & Language Therapist" ]
+  ], [
+     fhir:index 157;
+     fhir:CodeSystem.concept.code [ fhir:value "R0965" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Speech & Language Therapist Consultant" ]
+  ], [
+     fhir:index 158;
+     fhir:CodeSystem.concept.code [ fhir:value "R0975" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Speech & Language Therapist Manager" ]
+  ], [
+     fhir:index 159;
+     fhir:CodeSystem.concept.code [ fhir:value "R0985" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Speech & Language Therapist Specialist Practitioner" ]
+  ], [
+     fhir:index 160;
+     fhir:CodeSystem.concept.code [ fhir:value "R9500" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Senior Management" ]
+  ], [
+     fhir:index 161;
+     fhir:CodeSystem.concept.code [ fhir:value "R9505" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Policy and Planning" ]
+  ], [
+     fhir:index 162;
+     fhir:CodeSystem.concept.code [ fhir:value "R9510" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Information Manager" ]
+  ], [
+     fhir:index 163;
+     fhir:CodeSystem.concept.code [ fhir:value "R9515" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Team Manager (Children)" ]
+  ], [
+     fhir:index 164;
+     fhir:CodeSystem.concept.code [ fhir:value "R9520" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Social Worker (Children)" ]
+  ], [
+     fhir:index 165;
+     fhir:CodeSystem.concept.code [ fhir:value "R9525" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Care Manager (Children)" ]
+  ], [
+     fhir:index 166;
+     fhir:CodeSystem.concept.code [ fhir:value "R9530" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Assistant (Children)" ]
+  ], [
+     fhir:index 167;
+     fhir:CodeSystem.concept.code [ fhir:value "R9535" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Child Protection Worker" ]
+  ], [
+     fhir:index 168;
+     fhir:CodeSystem.concept.code [ fhir:value "R9540" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Family Placement Worker" ]
+  ], [
+     fhir:index 169;
+     fhir:CodeSystem.concept.code [ fhir:value "R9545" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Worker (Children)" ]
+  ], [
+     fhir:index 170;
+     fhir:CodeSystem.concept.code [ fhir:value "R9550" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist" ]
+  ], [
+     fhir:index 171;
+     fhir:CodeSystem.concept.code [ fhir:value "R9555" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapist Assistant" ]
+  ], [
+     fhir:index 172;
+     fhir:CodeSystem.concept.code [ fhir:value "R9560" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Occupational Therapy Team Manager" ]
+  ], [
+     fhir:index 173;
+     fhir:CodeSystem.concept.code [ fhir:value "R9565" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Team Manager (Adults)" ]
+  ], [
+     fhir:index 174;
+     fhir:CodeSystem.concept.code [ fhir:value "R9570" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Social Worker (Adults)" ]
+  ], [
+     fhir:index 175;
+     fhir:CodeSystem.concept.code [ fhir:value "R9575" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Care Manager (Adults)" ]
+  ], [
+     fhir:index 176;
+     fhir:CodeSystem.concept.code [ fhir:value "R9580" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Assistant (Adults)" ]
+  ], [
+     fhir:index 177;
+     fhir:CodeSystem.concept.code [ fhir:value "R9585" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Team Manager (Mental Health)" ]
+  ], [
+     fhir:index 178;
+     fhir:CodeSystem.concept.code [ fhir:value "R9590" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Social Worker (Mental Health)" ]
+  ], [
+     fhir:index 179;
+     fhir:CodeSystem.concept.code [ fhir:value "R9595" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Care Manager (Mental Health)" ]
+  ], [
+     fhir:index 180;
+     fhir:CodeSystem.concept.code [ fhir:value "R9600" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Work Assistant (Mental Health)" ]
+  ], [
+     fhir:index 181;
+     fhir:CodeSystem.concept.code [ fhir:value "R9605" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Emergency Duty Social Worker" ]
+  ], [
+     fhir:index 182;
+     fhir:CodeSystem.concept.code [ fhir:value "R9615" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Services Driver" ]
+  ], [
+     fhir:index 183;
+     fhir:CodeSystem.concept.code [ fhir:value "R9620" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Home Care Organiser" ]
+  ], [
+     fhir:index 184;
+     fhir:CodeSystem.concept.code [ fhir:value "R9625" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Home Care Administrator" ]
+  ], [
+     fhir:index 185;
+     fhir:CodeSystem.concept.code [ fhir:value "R9630" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Home Help" ]
+  ], [
+     fhir:index 186;
+     fhir:CodeSystem.concept.code [ fhir:value "R9635" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Warden" ]
+  ], [
+     fhir:index 187;
+     fhir:CodeSystem.concept.code [ fhir:value "R9640" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Meals on Wheels Organiser" ]
+  ], [
+     fhir:index 188;
+     fhir:CodeSystem.concept.code [ fhir:value "R9645" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Meals Delivery" ]
+  ], [
+     fhir:index 189;
+     fhir:CodeSystem.concept.code [ fhir:value "R9650" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day Centre Manager" ]
+  ], [
+     fhir:index 190;
+     fhir:CodeSystem.concept.code [ fhir:value "R9655" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day Centre Deputy" ]
+  ], [
+     fhir:index 191;
+     fhir:CodeSystem.concept.code [ fhir:value "R9660" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day Centre Officer" ]
+  ], [
+     fhir:index 192;
+     fhir:CodeSystem.concept.code [ fhir:value "R9665" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Day Centre Care Staff" ]
+  ], [
+     fhir:index 193;
+     fhir:CodeSystem.concept.code [ fhir:value "R9670" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Family Centre Manager" ]
+  ], [
+     fhir:index 194;
+     fhir:CodeSystem.concept.code [ fhir:value "R9675" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Family Centre Deputy" ]
+  ], [
+     fhir:index 195;
+     fhir:CodeSystem.concept.code [ fhir:value "R9680" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Family Centre Worker" ]
+  ], [
+     fhir:index 196;
+     fhir:CodeSystem.concept.code [ fhir:value "R9685" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursery Manager" ]
+  ], [
+     fhir:index 197;
+     fhir:CodeSystem.concept.code [ fhir:value "R9690" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursery Deputy" ]
+  ], [
+     fhir:index 198;
+     fhir:CodeSystem.concept.code [ fhir:value "R9695" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursery Worker" ]
+  ], [
+     fhir:index 199;
+     fhir:CodeSystem.concept.code [ fhir:value "R9700" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Playgroup Leader" ]
+  ], [
+     fhir:index 200;
+     fhir:CodeSystem.concept.code [ fhir:value "R9705" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Playgroup Assistant" ]
+  ], [
+     fhir:index 201;
+     fhir:CodeSystem.concept.code [ fhir:value "R9710" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Residential Manager" ]
+  ], [
+     fhir:index 202;
+     fhir:CodeSystem.concept.code [ fhir:value "R9715" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Residential Deputy" ]
+  ], [
+     fhir:index 203;
+     fhir:CodeSystem.concept.code [ fhir:value "R9720" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Residential Worker" ]
+  ], [
+     fhir:index 204;
+     fhir:CodeSystem.concept.code [ fhir:value "R9725" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Residential Care Staff" ]
+  ], [
+     fhir:index 205;
+     fhir:CodeSystem.concept.code [ fhir:value "R9730" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Intermediate Care Manager" ]
+  ], [
+     fhir:index 206;
+     fhir:CodeSystem.concept.code [ fhir:value "R9735" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Intermediate Care Deputy" ]
+  ], [
+     fhir:index 207;
+     fhir:CodeSystem.concept.code [ fhir:value "R9740" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Intermediate Care Worker" ]
+  ], [
+     fhir:index 208;
+     fhir:CodeSystem.concept.code [ fhir:value "R9745" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Intermediate Care Staff" ]
+  ], [
+     fhir:index 209;
+     fhir:CodeSystem.concept.code [ fhir:value "R9750" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Care SAP User" ]
+  ], [
+     fhir:index 210;
+     fhir:CodeSystem.concept.code [ fhir:value "R9755" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Care SAP Manager" ]
+  ], [
+     fhir:index 211;
+     fhir:CodeSystem.concept.code [ fhir:value "R1270" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Director" ]
+  ], [
+     fhir:index 212;
+     fhir:CodeSystem.concept.code [ fhir:value "R1280" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Optometrist" ]
+  ], [
+     fhir:index 213;
+     fhir:CodeSystem.concept.code [ fhir:value "R1290" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pharmacist" ]
+  ], [
+     fhir:index 214;
+     fhir:CodeSystem.concept.code [ fhir:value "R1979" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Technical Officer - Pharmacy" ]
+  ], [
+     fhir:index 215;
+     fhir:CodeSystem.concept.code [ fhir:value "R1300" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Psychotherapist" ]
+  ], [
+     fhir:index 216;
+     fhir:CodeSystem.concept.code [ fhir:value "R1310" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Psychologist" ]
+  ], [
+     fhir:index 217;
+     fhir:CodeSystem.concept.code [ fhir:value "R1320" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chaplain" ]
+  ], [
+     fhir:index 218;
+     fhir:CodeSystem.concept.code [ fhir:value "R1330" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Worker" ]
+  ], [
+     fhir:index 219;
+     fhir:CodeSystem.concept.code [ fhir:value "R1340" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Approved Social Worker" ]
+  ], [
+     fhir:index 220;
+     fhir:CodeSystem.concept.code [ fhir:value "R1350" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Youth Worker" ]
+  ], [
+     fhir:index 221;
+     fhir:CodeSystem.concept.code [ fhir:value "R1360" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Specialist Practitioner" ]
+  ], [
+     fhir:index 222;
+     fhir:CodeSystem.concept.code [ fhir:value "R1370" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Practitioner" ]
+  ], [
+     fhir:index 223;
+     fhir:CodeSystem.concept.code [ fhir:value "R0011" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dispenser" ]
+  ], [
+     fhir:index 224;
+     fhir:CodeSystem.concept.code [ fhir:value "R1380" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technician - PS&T" ]
+  ], [
+     fhir:index 225;
+     fhir:CodeSystem.concept.code [ fhir:value "R1390" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Osteopath" ]
+  ], [
+     fhir:index 226;
+     fhir:CodeSystem.concept.code [ fhir:value "R1400" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Healthcare Scientist" ]
+  ], [
+     fhir:index 227;
+     fhir:CodeSystem.concept.code [ fhir:value "R1410" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Consultant Healthcare Scientist" ]
+  ], [
+     fhir:index 228;
+     fhir:CodeSystem.concept.code [ fhir:value "R1420" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biomedical Scientist" ]
+  ], [
+     fhir:index 229;
+     fhir:CodeSystem.concept.code [ fhir:value "R0019" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Technical Officer" ]
+  ], [
+     fhir:index 230;
+     fhir:CodeSystem.concept.code [ fhir:value "R1430" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technician - Healthcare Scientists" ]
+  ], [
+     fhir:index 231;
+     fhir:CodeSystem.concept.code [ fhir:value "R1440" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Therapist" ]
+  ], [
+     fhir:index 232;
+     fhir:CodeSystem.concept.code [ fhir:value "R1540" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Associate Practitioner" ]
+  ], [
+     fhir:index 233;
+     fhir:CodeSystem.concept.code [ fhir:value "R1543" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Associate Practitioner - Nurse" ]
+  ], [
+     fhir:index 234;
+     fhir:CodeSystem.concept.code [ fhir:value "R1547" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Associate Practitioner - General Practitioner" ]
+  ], [
+     fhir:index 235;
+     fhir:CodeSystem.concept.code [ fhir:value "R1560" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Helper/Assistant" ]
+  ], [
+     fhir:index 236;
+     fhir:CodeSystem.concept.code [ fhir:value "R1600" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cytoscreener" ]
+  ], [
+     fhir:index 237;
+     fhir:CodeSystem.concept.code [ fhir:value "R1570" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Dental Surgery Assistant" ]
+  ], [
+     fhir:index 238;
+     fhir:CodeSystem.concept.code [ fhir:value "R1450" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Health Care Support Worker" ]
+  ], [
+     fhir:index 239;
+     fhir:CodeSystem.concept.code [ fhir:value "R1580" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Laboratory Assistant" ]
+  ], [
+     fhir:index 240;
+     fhir:CodeSystem.concept.code [ fhir:value "R1550" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Counsellor" ]
+  ], [
+     fhir:index 241;
+     fhir:CodeSystem.concept.code [ fhir:value "R0002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Porter" ]
+  ], [
+     fhir:index 242;
+     fhir:CodeSystem.concept.code [ fhir:value "R1690" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Call Operator" ]
+  ], [
+     fhir:index 243;
+     fhir:CodeSystem.concept.code [ fhir:value "R1700" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gateway Worker" ]
+  ], [
+     fhir:index 244;
+     fhir:CodeSystem.concept.code [ fhir:value "R1710" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Support, Time, Recovery Worker" ]
+  ], [
+     fhir:index 245;
+     fhir:CodeSystem.concept.code [ fhir:value "R1480" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Healthcare Assistant" ]
+  ], [
+     fhir:index 246;
+     fhir:CodeSystem.concept.code [ fhir:value "R1490" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursery Nurse" ]
+  ], [
+     fhir:index 247;
+     fhir:CodeSystem.concept.code [ fhir:value "R1590" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Phlebotomist" ]
+  ], [
+     fhir:index 248;
+     fhir:CodeSystem.concept.code [ fhir:value "R1460" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Care Support Worker" ]
+  ], [
+     fhir:index 249;
+     fhir:CodeSystem.concept.code [ fhir:value "R1470" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Home Help" ]
+  ], [
+     fhir:index 250;
+     fhir:CodeSystem.concept.code [ fhir:value "R1520" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technician - Additional Clinical Services" ]
+  ], [
+     fhir:index 251;
+     fhir:CodeSystem.concept.code [ fhir:value "R1530" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technical Instructor" ]
+  ], [
+     fhir:index 252;
+     fhir:CodeSystem.concept.code [ fhir:value "R1980" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Patient Welfare Officer" ]
+  ], [
+     fhir:index 253;
+     fhir:CodeSystem.concept.code [ fhir:value "R1500" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Play Therapist" ]
+  ], [
+     fhir:index 254;
+     fhir:CodeSystem.concept.code [ fhir:value "R1510" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Play Specialist" ]
+  ], [
+     fhir:index 255;
+     fhir:CodeSystem.concept.code [ fhir:value "R1610" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Student Technician" ]
+  ], [
+     fhir:index 256;
+     fhir:CodeSystem.concept.code [ fhir:value "R1620" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Scientist" ]
+  ], [
+     fhir:index 257;
+     fhir:CodeSystem.concept.code [ fhir:value "R1630" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trainee Practitioner" ]
+  ], [
+     fhir:index 258;
+     fhir:CodeSystem.concept.code [ fhir:value "R1640" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nursing Cadet" ]
+  ], [
+     fhir:index 259;
+     fhir:CodeSystem.concept.code [ fhir:value "R1650" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Healthcare Cadet" ]
+  ], [
+     fhir:index 260;
+     fhir:CodeSystem.concept.code [ fhir:value "R1660" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pre-reg Pharmacist" ]
+  ], [
+     fhir:index 261;
+     fhir:CodeSystem.concept.code [ fhir:value "R1670" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Assistant Psychologist" ]
+  ], [
+     fhir:index 262;
+     fhir:CodeSystem.concept.code [ fhir:value "R1680" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Assistant Psychotherapist" ]
+  ], [
+     fhir:index 263;
+     fhir:CodeSystem.concept.code [ fhir:value "R0007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS SDS Organisation Reporting Analyst" ]
+  ], [
+     fhir:index 264;
+     fhir:CodeSystem.concept.code [ fhir:value "R0008" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Demographic Supervisor" ]
+  ], [
+     fhir:index 265;
+     fhir:CodeSystem.concept.code [ fhir:value "R0021" ];
+     fhir:CodeSystem.concept.display [ fhir:value "DSA NHS Number Manager (Temporary)" ]
+  ], [
+     fhir:index 266;
+     fhir:CodeSystem.concept.code [ fhir:value "R0022" ];
+     fhir:CodeSystem.concept.display [ fhir:value "DSA National Clinical Supervisor (Temporary)" ]
+  ], [
+     fhir:index 267;
+     fhir:CodeSystem.concept.code [ fhir:value "R0023" ];
+     fhir:CodeSystem.concept.display [ fhir:value "DSA National Clinical Administrator (Temporary)" ]
+  ], [
+     fhir:index 268;
+     fhir:CodeSystem.concept.code [ fhir:value "R1720" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clerical Worker" ]
+  ], [
+     fhir:index 269;
+     fhir:CodeSystem.concept.code [ fhir:value "R1730" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Receptionist" ]
+  ], [
+     fhir:index 270;
+     fhir:CodeSystem.concept.code [ fhir:value "R1740" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Secretary" ]
+  ], [
+     fhir:index 271;
+     fhir:CodeSystem.concept.code [ fhir:value "R1750" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Personal Assistant" ]
+  ], [
+     fhir:index 272;
+     fhir:CodeSystem.concept.code [ fhir:value "R1751" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Demographic Administrator (Sensitive Records) Temporary" ]
+  ], [
+     fhir:index 273;
+     fhir:CodeSystem.concept.code [ fhir:value "R1760" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Secretary" ]
+  ], [
+     fhir:index 274;
+     fhir:CodeSystem.concept.code [ fhir:value "R1770" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Officer" ]
+  ], [
+     fhir:index 275;
+     fhir:CodeSystem.concept.code [ fhir:value "R1971" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Map of Medicine Administrator" ]
+  ], [
+     fhir:index 276;
+     fhir:CodeSystem.concept.code [ fhir:value "R1973" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Community Administrator" ]
+  ], [
+     fhir:index 277;
+     fhir:CodeSystem.concept.code [ fhir:value "R1977" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECC/CPA Administrator" ]
+  ], [
+     fhir:index 278;
+     fhir:CodeSystem.concept.code [ fhir:value "R1978" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Information Officer" ]
+  ], [
+     fhir:index 279;
+     fhir:CodeSystem.concept.code [ fhir:value "R1985" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Health Records Clerk" ]
+  ], [
+     fhir:index 280;
+     fhir:CodeSystem.concept.code [ fhir:value "R1995" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Approver" ]
+  ], [
+     fhir:index 281;
+     fhir:CodeSystem.concept.code [ fhir:value "R5010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Network Technician" ]
+  ], [
+     fhir:index 282;
+     fhir:CodeSystem.concept.code [ fhir:value "R5040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Desktop Support Administrator" ]
+  ], [
+     fhir:index 283;
+     fhir:CodeSystem.concept.code [ fhir:value "R5090" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registration Authority Agent" ]
+  ], [
+     fhir:index 284;
+     fhir:CodeSystem.concept.code [ fhir:value "R5110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Demographic Administrator" ]
+  ], [
+     fhir:index 285;
+     fhir:CodeSystem.concept.code [ fhir:value "R5120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ISP Administrator" ]
+  ], [
+     fhir:index 286;
+     fhir:CodeSystem.concept.code [ fhir:value "R5130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technical Codes Administrator" ]
+  ], [
+     fhir:index 287;
+     fhir:CodeSystem.concept.code [ fhir:value "R5140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "OSS Administrator" ]
+  ], [
+     fhir:index 288;
+     fhir:CodeSystem.concept.code [ fhir:value "R5170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Administrator" ]
+  ], [
+     fhir:index 289;
+     fhir:CodeSystem.concept.code [ fhir:value "R5175" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Viewer" ]
+  ], [
+     fhir:index 290;
+     fhir:CodeSystem.concept.code [ fhir:value "R5181" ];
+     fhir:CodeSystem.concept.display [ fhir:value "RTS Dashboard User" ]
+  ], [
+     fhir:index 291;
+     fhir:CodeSystem.concept.code [ fhir:value "R5183" ];
+     fhir:CodeSystem.concept.display [ fhir:value "RTS BT Dashboard User" ]
+  ], [
+     fhir:index 292;
+     fhir:CodeSystem.concept.code [ fhir:value "R5186" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS BT Customer SLA User" ]
+  ], [
+     fhir:index 293;
+     fhir:CodeSystem.concept.code [ fhir:value "R5188" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS BT Supplier SLA User" ]
+  ], [
+     fhir:index 294;
+     fhir:CodeSystem.concept.code [ fhir:value "R5189" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS LogicaCMG SLA User" ]
+  ], [
+     fhir:index 295;
+     fhir:CodeSystem.concept.code [ fhir:value "R5190" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Content Creator" ]
+  ], [
+     fhir:index 296;
+     fhir:CodeSystem.concept.code [ fhir:value "R5195" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Content Publisher" ]
+  ], [
+     fhir:index 297;
+     fhir:CodeSystem.concept.code [ fhir:value "R5210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "User Details Administrator" ]
+  ], [
+     fhir:index 298;
+     fhir:CodeSystem.concept.code [ fhir:value "R5250" ];
+     fhir:CodeSystem.concept.display [ fhir:value "EBS Administrator" ]
+  ], [
+     fhir:index 299;
+     fhir:CodeSystem.concept.code [ fhir:value "R6010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Appointments Clerk" ]
+  ], [
+     fhir:index 300;
+     fhir:CodeSystem.concept.code [ fhir:value "R6030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ward Clerk" ]
+  ], [
+     fhir:index 301;
+     fhir:CodeSystem.concept.code [ fhir:value "R6050" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Coder" ]
+  ], [
+     fhir:index 302;
+     fhir:CodeSystem.concept.code [ fhir:value "R6060" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Records Clerk" ]
+  ], [
+     fhir:index 303;
+     fhir:CodeSystem.concept.code [ fhir:value "R6080" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Waiting List Clerk" ]
+  ], [
+     fhir:index 304;
+     fhir:CodeSystem.concept.code [ fhir:value "R7100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trainer" ]
+  ], [
+     fhir:index 305;
+     fhir:CodeSystem.concept.code [ fhir:value "R7110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Training Manager" ]
+  ], [
+     fhir:index 306;
+     fhir:CodeSystem.concept.code [ fhir:value "R7120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Directory of Services Coordinator" ]
+  ], [
+     fhir:index 307;
+     fhir:CodeSystem.concept.code [ fhir:value "R9756" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ETP System Administrator" ]
+  ], [
+     fhir:index 308;
+     fhir:CodeSystem.concept.code [ fhir:value "R1780" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Manager" ]
+  ], [
+     fhir:index 309;
+     fhir:CodeSystem.concept.code [ fhir:value "R1790" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Manager" ]
+  ], [
+     fhir:index 310;
+     fhir:CodeSystem.concept.code [ fhir:value "R1910" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chair" ]
+  ], [
+     fhir:index 311;
+     fhir:CodeSystem.concept.code [ fhir:value "R1920" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chief Executive" ]
+  ], [
+     fhir:index 312;
+     fhir:CodeSystem.concept.code [ fhir:value "R1930" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Finance Director" ]
+  ], [
+     fhir:index 313;
+     fhir:CodeSystem.concept.code [ fhir:value "R1940" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Executive Director" ]
+  ], [
+     fhir:index 314;
+     fhir:CodeSystem.concept.code [ fhir:value "R1950" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Board Level Director" ]
+  ], [
+     fhir:index 315;
+     fhir:CodeSystem.concept.code [ fhir:value "R1960" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Non Executive Director" ]
+  ], [
+     fhir:index 316;
+     fhir:CodeSystem.concept.code [ fhir:value "R1970" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Childcare Co-ordinator" ]
+  ], [
+     fhir:index 317;
+     fhir:CodeSystem.concept.code [ fhir:value "R1982" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Administrator" ]
+  ], [
+     fhir:index 318;
+     fhir:CodeSystem.concept.code [ fhir:value "R1983" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ward Manager" ]
+  ], [
+     fhir:index 319;
+     fhir:CodeSystem.concept.code [ fhir:value "R1986" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Workgroup Administrator" ]
+  ], [
+     fhir:index 320;
+     fhir:CodeSystem.concept.code [ fhir:value "R1987" ];
+     fhir:CodeSystem.concept.display [ fhir:value "National RBAC Attribute Administrator" ]
+  ], [
+     fhir:index 321;
+     fhir:CodeSystem.concept.code [ fhir:value "R1988" ];
+     fhir:CodeSystem.concept.display [ fhir:value "National RBAC Baseline Policy Administrator" ]
+  ], [
+     fhir:index 322;
+     fhir:CodeSystem.concept.code [ fhir:value "R1989" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Complaints Coordinator" ]
+  ], [
+     fhir:index 323;
+     fhir:CodeSystem.concept.code [ fhir:value "R1990" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Complaints Investigator" ]
+  ], [
+     fhir:index 324;
+     fhir:CodeSystem.concept.code [ fhir:value "R1996" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point DNS Administrator" ]
+  ], [
+     fhir:index 325;
+     fhir:CodeSystem.concept.code [ fhir:value "R1997" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Spine Administrator" ]
+  ], [
+     fhir:index 326;
+     fhir:CodeSystem.concept.code [ fhir:value "R1998" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Super User" ]
+  ], [
+     fhir:index 327;
+     fhir:CodeSystem.concept.code [ fhir:value "R1999" ];
+     fhir:CodeSystem.concept.display [ fhir:value "End Point Service Administrator" ]
+  ], [
+     fhir:index 328;
+     fhir:CodeSystem.concept.code [ fhir:value "R5000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Network Administrator" ]
+  ], [
+     fhir:index 329;
+     fhir:CodeSystem.concept.code [ fhir:value "R5003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cluster System Administrator" ]
+  ], [
+     fhir:index 330;
+     fhir:CodeSystem.concept.code [ fhir:value "R5007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "System Administrator" ]
+  ], [
+     fhir:index 331;
+     fhir:CodeSystem.concept.code [ fhir:value "R5020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Helpdesk Administrator" ]
+  ], [
+     fhir:index 332;
+     fhir:CodeSystem.concept.code [ fhir:value "R5060" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Security Policy Controller" ]
+  ], [
+     fhir:index 333;
+     fhir:CodeSystem.concept.code [ fhir:value "R5070" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Senior Security Manager" ]
+  ], [
+     fhir:index 334;
+     fhir:CodeSystem.concept.code [ fhir:value "R5072" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Root Registration Authority Manager" ]
+  ], [
+     fhir:index 335;
+     fhir:CodeSystem.concept.code [ fhir:value "R5080" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Registration Authority Manager" ]
+  ], [
+     fhir:index 336;
+     fhir:CodeSystem.concept.code [ fhir:value "R5100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Audit Manager" ]
+  ], [
+     fhir:index 337;
+     fhir:CodeSystem.concept.code [ fhir:value "R5105" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Caldicott Guardian" ]
+  ], [
+     fhir:index 338;
+     fhir:CodeSystem.concept.code [ fhir:value "R5180" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NASP Service Manager" ]
+  ], [
+     fhir:index 339;
+     fhir:CodeSystem.concept.code [ fhir:value "R5182" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS ETP System Administrator" ]
+  ], [
+     fhir:index 340;
+     fhir:CodeSystem.concept.code [ fhir:value "R5184" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS Spine SLA Manager" ]
+  ], [
+     fhir:index 341;
+     fhir:CodeSystem.concept.code [ fhir:value "R5185" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS BT Customer SLA Manager" ]
+  ], [
+     fhir:index 342;
+     fhir:CodeSystem.concept.code [ fhir:value "R5187" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS BT Supplier SLA Manager" ]
+  ], [
+     fhir:index 343;
+     fhir:CodeSystem.concept.code [ fhir:value "R5191" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ERS Support Administrator" ]
+  ], [
+     fhir:index 344;
+     fhir:CodeSystem.concept.code [ fhir:value "R5192" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ECS Administrator" ]
+  ], [
+     fhir:index 345;
+     fhir:CodeSystem.concept.code [ fhir:value "R5300" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Portal Administrator" ]
+  ], [
+     fhir:index 346;
+     fhir:CodeSystem.concept.code [ fhir:value "R5310" ];
+     fhir:CodeSystem.concept.display [ fhir:value "LiquidLogic Administrator" ]
+  ], [
+     fhir:index 347;
+     fhir:CodeSystem.concept.code [ fhir:value "R5320" ];
+     fhir:CodeSystem.concept.display [ fhir:value "i.EPR Administrator" ]
+  ], [
+     fhir:index 348;
+     fhir:CodeSystem.concept.code [ fhir:value "R5330" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Synergy Administrator" ]
+  ], [
+     fhir:index 349;
+     fhir:CodeSystem.concept.code [ fhir:value "R5340" ];
+     fhir:CodeSystem.concept.display [ fhir:value "SystmOne Administrator" ]
+  ], [
+     fhir:index 350;
+     fhir:CodeSystem.concept.code [ fhir:value "R6020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Outpatient Manager" ]
+  ], [
+     fhir:index 351;
+     fhir:CodeSystem.concept.code [ fhir:value "R6040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bed Manager" ]
+  ], [
+     fhir:index 352;
+     fhir:CodeSystem.concept.code [ fhir:value "R6070" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Records Manager" ]
+  ], [
+     fhir:index 353;
+     fhir:CodeSystem.concept.code [ fhir:value "R6090" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Waiting List Manager" ]
+  ], [
+     fhir:index 354;
+     fhir:CodeSystem.concept.code [ fhir:value "R6100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mental Health Act Administrator" ]
+  ], [
+     fhir:index 355;
+     fhir:CodeSystem.concept.code [ fhir:value "R6160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Ad-hoc Report Manager" ]
+  ], [
+     fhir:index 356;
+     fhir:CodeSystem.concept.code [ fhir:value "R7130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PAS Manager" ]
+  ], [
+     fhir:index 357;
+     fhir:CodeSystem.concept.code [ fhir:value "R1800" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Technician - Admin & Clerical" ]
+  ], [
+     fhir:index 358;
+     fhir:CodeSystem.concept.code [ fhir:value "R1810" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Accountant" ]
+  ], [
+     fhir:index 359;
+     fhir:CodeSystem.concept.code [ fhir:value "R1820" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Librarian" ]
+  ], [
+     fhir:index 360;
+     fhir:CodeSystem.concept.code [ fhir:value "R1830" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Interpreter" ]
+  ], [
+     fhir:index 361;
+     fhir:CodeSystem.concept.code [ fhir:value "R1840" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Analyst" ]
+  ], [
+     fhir:index 362;
+     fhir:CodeSystem.concept.code [ fhir:value "R1850" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Adviser" ]
+  ], [
+     fhir:index 363;
+     fhir:CodeSystem.concept.code [ fhir:value "R1860" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Researcher" ]
+  ], [
+     fhir:index 364;
+     fhir:CodeSystem.concept.code [ fhir:value "R1870" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Control Assistant" ]
+  ], [
+     fhir:index 365;
+     fhir:CodeSystem.concept.code [ fhir:value "R1880" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Architect" ]
+  ], [
+     fhir:index 366;
+     fhir:CodeSystem.concept.code [ fhir:value "R1890" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Lawyer" ]
+  ], [
+     fhir:index 367;
+     fhir:CodeSystem.concept.code [ fhir:value "R1900" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Surveyor" ]
+  ], [
+     fhir:index 368;
+     fhir:CodeSystem.concept.code [ fhir:value "R5030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Helpdesk Technician" ]
+  ], [
+     fhir:index 369;
+     fhir:CodeSystem.concept.code [ fhir:value "R5050" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Desktop Support Technician" ]
+  ], [
+     fhir:index 370;
+     fhir:CodeSystem.concept.code [ fhir:value "R5150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "System Worker" ]
+  ], [
+     fhir:index 371;
+     fhir:CodeSystem.concept.code [ fhir:value "R5400" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Availability  Monitor" ]
+  ], [
+     fhir:index 372;
+     fhir:CodeSystem.concept.code [ fhir:value "R8000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Practitioner Access Role" ]
+  ], [
+     fhir:index 373;
+     fhir:CodeSystem.concept.code [ fhir:value "R8001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Access Role" ]
+  ], [
+     fhir:index 374;
+     fhir:CodeSystem.concept.code [ fhir:value "R8002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nurse Manager Access Role" ]
+  ], [
+     fhir:index 375;
+     fhir:CodeSystem.concept.code [ fhir:value "R8003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Health Professional Access Role" ]
+  ], [
+     fhir:index 376;
+     fhir:CodeSystem.concept.code [ fhir:value "R8004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Healthcare Student Access Role" ]
+  ], [
+     fhir:index 377;
+     fhir:CodeSystem.concept.code [ fhir:value "R8016" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife Access Role" ]
+  ], [
+     fhir:index 378;
+     fhir:CodeSystem.concept.code [ fhir:value "R8017" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Midwife Manager Access Role" ]
+  ], [
+     fhir:index 379;
+     fhir:CodeSystem.concept.code [ fhir:value "R8024" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bank Access Role" ]
+  ], [
+     fhir:index 380;
+     fhir:CodeSystem.concept.code [ fhir:value "R8005" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biomedical Scientist Access Role" ]
+  ], [
+     fhir:index 381;
+     fhir:CodeSystem.concept.code [ fhir:value "R8006" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medical Secretary Access Role" ]
+  ], [
+     fhir:index 382;
+     fhir:CodeSystem.concept.code [ fhir:value "R8007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clinical Coder Access Role" ]
+  ], [
+     fhir:index 383;
+     fhir:CodeSystem.concept.code [ fhir:value "R8008" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Admin/Clinical Support Access Role" ]
+  ], [
+     fhir:index 384;
+     fhir:CodeSystem.concept.code [ fhir:value "R8015" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Systems Support Access Role" ]
+  ], [
+     fhir:index 385;
+     fhir:CodeSystem.concept.code [ fhir:value "R0001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Privacy Officer" ]
+  ], [
+     fhir:index 386;
+     fhir:CodeSystem.concept.code [ fhir:value "R8009" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Receptionist Access Role" ]
+  ], [
+     fhir:index 387;
+     fhir:CodeSystem.concept.code [ fhir:value "R8010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clerical Access Role" ]
+  ], [
+     fhir:index 388;
+     fhir:CodeSystem.concept.code [ fhir:value "R8011" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Clerical Manager Access Role" ]
+  ], [
+     fhir:index 389;
+     fhir:CodeSystem.concept.code [ fhir:value "R8012" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Information Officer Access Role" ]
+  ], [
+     fhir:index 390;
+     fhir:CodeSystem.concept.code [ fhir:value "R8013" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Health Records Manager Access Role" ]
+  ], [
+     fhir:index 391;
+     fhir:CodeSystem.concept.code [ fhir:value "R8014" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Social Worker Access Role" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-SDSJobRoleName-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-InterpretationCode-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Extended Interpretation Code</h2><div><p>This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.</p>
+</div><p><b>Copyright Statement:</b> HL7</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>OR</td><td>Outside Reference Range</td><td/></tr><tr><td>PA</td><td>Potentially Abnormal</td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-InterpretationCode-1"/>
+  <version value="3.0.0"/>
+  <name value="Care Connect Extended Interpretation Code"/>
+  <status value="draft"/>
+  <date value="2019-03-12T00:00:00+00:00"/>
+  <publisher value="HL7 UK"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="HL7"/>
+  <extensible value="true"/>
+  <compose>
+    <include>
+      <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1"/>
+      <concept>
+        <code value="OR"/>
+        <display value="Outside Reference Range"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="Potentially Abnormal"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-NHSNumberVerificationStatus-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect NHS Number Verification Status</h2><div><p>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"CareConnect-NHSNumberVerificationStatus-1-01\"> </a></td><td>Number present and verified</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"CareConnect-NHSNumberVerificationStatus-1-02\"> </a></td><td>Number present but not traced</td><td/></tr><tr><td style=\"white-space:nowrap\">03<a name=\"CareConnect-NHSNumberVerificationStatus-1-03\"> </a></td><td>Trace required</td><td/></tr><tr><td style=\"white-space:nowrap\">04<a name=\"CareConnect-NHSNumberVerificationStatus-1-04\"> </a></td><td>Trace attempted - No match or multiple match found</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"CareConnect-NHSNumberVerificationStatus-1-05\"> </a></td><td>Trace needs to be resolved - (NHS number or patient detail conflict)</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"CareConnect-NHSNumberVerificationStatus-1-06\"> </a></td><td>Trace in progress</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"CareConnect-NHSNumberVerificationStatus-1-07\"> </a></td><td>Number not present and trace not required</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"CareConnect-NHSNumberVerificationStatus-1-08\"> </a></td><td>Trace postponed (baby under six weeks old)</td><td/></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference" ];
+     fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/n/nhs/nhs_number_status_indicator_code_de.asp?shownav=1" ]
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.name [ fhir:value "Care Connect NHS Number Verification Status"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2018-11-02T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Number present and verified" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Number present but not traced" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trace required" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trace attempted - No match or multiple match found" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "05" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trace needs to be resolved - (NHS number or patient detail conflict)" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "06" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trace in progress" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "07" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Number not present and trace not required" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "08" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Trace postponed (baby under six weeks old)" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

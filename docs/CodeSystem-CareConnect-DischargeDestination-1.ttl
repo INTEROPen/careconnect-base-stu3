@@ -1,0 +1,129 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-DischargeDestination-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Discharge Destination</h2><div><p>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"CareConnect-DischargeDestination-1-19\"> </a></td><td>Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode.</td><td/></tr><tr><td style=\"white-space:nowrap\">29<a name=\"CareConnect-DischargeDestination-1-29\"> </a></td><td>Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"CareConnect-DischargeDestination-1-30\"> </a></td><td>Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"CareConnect-DischargeDestination-1-37\"> </a></td><td>Court</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"CareConnect-DischargeDestination-1-38\"> </a></td><td>Penal establishment or police station</td><td/></tr><tr><td style=\"white-space:nowrap\">48<a name=\"CareConnect-DischargeDestination-1-48\"> </a></td><td>High Security Psychiatric Hospital, Scotland</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"CareConnect-DischargeDestination-1-49\"> </a></td><td>NHS other Hospital Provider - high security psychiatric accommodation</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"CareConnect-DischargeDestination-1-50\"> </a></td><td>NHS other Hospital Provider - medium secure unit</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"CareConnect-DischargeDestination-1-51\"> </a></td><td>NHS other Hospital Provider - Ward for general Patients or the younger physically disabled</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"CareConnect-DischargeDestination-1-52\"> </a></td><td>NHS other Hospital Provider - Ward for maternity Patients or Neonates</td><td/></tr><tr><td style=\"white-space:nowrap\">53<a name=\"CareConnect-DischargeDestination-1-53\"> </a></td><td>NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"CareConnect-DischargeDestination-1-54\"> </a></td><td>NHS run Care Home</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"CareConnect-DischargeDestination-1-65\"> </a></td><td>Local Authority residential accommodation i.e. where care is provided</td><td/></tr><tr><td style=\"white-space:nowrap\">66<a name=\"CareConnect-DischargeDestination-1-66\"> </a></td><td>Local Authority foster care</td><td/></tr><tr><td style=\"white-space:nowrap\">79<a name=\"CareConnect-DischargeDestination-1-79\"> </a></td><td>Not applicable - Patient died or still birth</td><td/></tr><tr><td style=\"white-space:nowrap\">84<a name=\"CareConnect-DischargeDestination-1-84\"> </a></td><td>Non-NHS run hospital - medium secure unit</td><td/></tr><tr><td style=\"white-space:nowrap\">85<a name=\"CareConnect-DischargeDestination-1-85\"> </a></td><td>Non-NHS (other than Local Authority) run Care Home</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"CareConnect-DischargeDestination-1-87\"> </a></td><td>Non NHS run hospital</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"CareConnect-DischargeDestination-1-88\"> </a></td><td>Non-NHS (other than Local Authority) run Hospice</td><td/></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference" ];
+     fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/attributes/d/disc/discharge_destination_de.asp?shownav=1" ]
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.name [ fhir:value "NHS Data Model and Dictionary Discharge Destination"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "19" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Usual place of residence unless listed below, for example, a private dwelling whether owner occupied or owned by Local Authority, housing association or other landlord. This includes wardened accommodation but not residential accommodation where health care is provided. It also includes Patients with no fixed abode." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "29" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Temporary place of residence when usually resident elsewhere (e.g. hotels, residential Educational Establishment)" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "30" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Repatriation from high security psychiatric accommodation in an NHS Hospital Provider (NHS Trust or NHS Foundation Trust)" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "37" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Court" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "38" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Penal establishment or police station" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "48" ];
+     fhir:CodeSystem.concept.display [ fhir:value "High Security Psychiatric Hospital, Scotland" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "49" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS other Hospital Provider - high security psychiatric accommodation" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "50" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS other Hospital Provider - medium secure unit" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "51" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS other Hospital Provider - Ward for general Patients or the younger physically disabled" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "52" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS other Hospital Provider - Ward for maternity Patients or Neonates" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "53" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS other Hospital Provider - Ward for Patients who are mentally ill or have Learning Disabilities" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "54" ];
+     fhir:CodeSystem.concept.display [ fhir:value "NHS run Care Home" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "65" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Local Authority residential accommodation i.e. where care is provided" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "66" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Local Authority foster care" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "79" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Not applicable - Patient died or still birth" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "84" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Non-NHS run hospital - medium secure unit" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "85" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Non-NHS (other than Local Authority) run Care Home" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "87" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Non NHS run hospital" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "88" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Non-NHS (other than Local Authority) run Hospice" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DischargeDestination-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

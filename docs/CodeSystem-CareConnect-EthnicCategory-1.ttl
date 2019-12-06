@@ -1,0 +1,325 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-EthnicCategory-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Ethnic Category</h2><div><p>A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>\n</div><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"CareConnect-EthnicCategory-1-A\"> </a></td><td>British, Mixed British</td><td/></tr><tr><td style=\"white-space:nowrap\">B<a name=\"CareConnect-EthnicCategory-1-B\"> </a></td><td>Irish</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"CareConnect-EthnicCategory-1-C\"> </a></td><td>Any other White background</td><td/></tr><tr><td style=\"white-space:nowrap\">C2<a name=\"CareConnect-EthnicCategory-1-C2\"> </a></td><td>Northern Irish</td><td/></tr><tr><td style=\"white-space:nowrap\">C3<a name=\"CareConnect-EthnicCategory-1-C3\"> </a></td><td>Other white, white unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\">CA<a name=\"CareConnect-EthnicCategory-1-CA\"> </a></td><td>English</td><td/></tr><tr><td style=\"white-space:nowrap\">CB<a name=\"CareConnect-EthnicCategory-1-CB\"> </a></td><td>Scottish</td><td/></tr><tr><td style=\"white-space:nowrap\">CC<a name=\"CareConnect-EthnicCategory-1-CC\"> </a></td><td>Welsh</td><td/></tr><tr><td style=\"white-space:nowrap\">CD<a name=\"CareConnect-EthnicCategory-1-CD\"> </a></td><td>Cornish</td><td/></tr><tr><td style=\"white-space:nowrap\">CE<a name=\"CareConnect-EthnicCategory-1-CE\"> </a></td><td>Cypriot (part not stated)</td><td/></tr><tr><td style=\"white-space:nowrap\">CF<a name=\"CareConnect-EthnicCategory-1-CF\"> </a></td><td>Greek</td><td/></tr><tr><td style=\"white-space:nowrap\">CG<a name=\"CareConnect-EthnicCategory-1-CG\"> </a></td><td>Greek Cypriot</td><td/></tr><tr><td style=\"white-space:nowrap\">CH<a name=\"CareConnect-EthnicCategory-1-CH\"> </a></td><td>Turkish</td><td/></tr><tr><td style=\"white-space:nowrap\">CJ<a name=\"CareConnect-EthnicCategory-1-CJ\"> </a></td><td>Turkish Cypriot</td><td/></tr><tr><td style=\"white-space:nowrap\">CK<a name=\"CareConnect-EthnicCategory-1-CK\"> </a></td><td>Italian</td><td/></tr><tr><td style=\"white-space:nowrap\">CL<a name=\"CareConnect-EthnicCategory-1-CL\"> </a></td><td>Irish Traveller</td><td/></tr><tr><td style=\"white-space:nowrap\">CM<a name=\"CareConnect-EthnicCategory-1-CM\"> </a></td><td>Traveller</td><td/></tr><tr><td style=\"white-space:nowrap\">CN<a name=\"CareConnect-EthnicCategory-1-CN\"> </a></td><td>Gypsy/Romany</td><td/></tr><tr><td style=\"white-space:nowrap\">CP<a name=\"CareConnect-EthnicCategory-1-CP\"> </a></td><td>Polish</td><td/></tr><tr><td style=\"white-space:nowrap\">CQ<a name=\"CareConnect-EthnicCategory-1-CQ\"> </a></td><td>All republics which made up the former USSR</td><td/></tr><tr><td style=\"white-space:nowrap\">CR<a name=\"CareConnect-EthnicCategory-1-CR\"> </a></td><td>Kosovan</td><td/></tr><tr><td style=\"white-space:nowrap\">CS<a name=\"CareConnect-EthnicCategory-1-CS\"> </a></td><td>Albanian</td><td/></tr><tr><td style=\"white-space:nowrap\">CT<a name=\"CareConnect-EthnicCategory-1-CT\"> </a></td><td>Bosnian</td><td/></tr><tr><td style=\"white-space:nowrap\">CU<a name=\"CareConnect-EthnicCategory-1-CU\"> </a></td><td>Croatian</td><td/></tr><tr><td style=\"white-space:nowrap\">CV<a name=\"CareConnect-EthnicCategory-1-CV\"> </a></td><td>Serbian</td><td/></tr><tr><td style=\"white-space:nowrap\">CW<a name=\"CareConnect-EthnicCategory-1-CW\"> </a></td><td>Other republics which made up the former Yugoslavia</td><td/></tr><tr><td style=\"white-space:nowrap\">CX<a name=\"CareConnect-EthnicCategory-1-CX\"> </a></td><td>Mixed white</td><td/></tr><tr><td style=\"white-space:nowrap\">CY<a name=\"CareConnect-EthnicCategory-1-CY\"> </a></td><td>Other white European, European unspecified, European mixed</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"CareConnect-EthnicCategory-1-D\"> </a></td><td>White and Black Caribbean</td><td/></tr><tr><td style=\"white-space:nowrap\">E<a name=\"CareConnect-EthnicCategory-1-E\"> </a></td><td>White and Black African</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"CareConnect-EthnicCategory-1-F\"> </a></td><td>White and Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"CareConnect-EthnicCategory-1-G\"> </a></td><td>Any other mixed background</td><td/></tr><tr><td style=\"white-space:nowrap\">GA<a name=\"CareConnect-EthnicCategory-1-GA\"> </a></td><td>Black and Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">GB<a name=\"CareConnect-EthnicCategory-1-GB\"> </a></td><td>Black and Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\">GC<a name=\"CareConnect-EthnicCategory-1-GC\"> </a></td><td>Black and White</td><td/></tr><tr><td style=\"white-space:nowrap\">GD<a name=\"CareConnect-EthnicCategory-1-GD\"> </a></td><td>Chinese and White</td><td/></tr><tr><td style=\"white-space:nowrap\">GE<a name=\"CareConnect-EthnicCategory-1-GE\"> </a></td><td>Asian and Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\">GF<a name=\"CareConnect-EthnicCategory-1-GF\"> </a></td><td>Other Mixed, Mixed Unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\">H<a name=\"CareConnect-EthnicCategory-1-H\"> </a></td><td>Indian or British Indian</td><td/></tr><tr><td style=\"white-space:nowrap\">J<a name=\"CareConnect-EthnicCategory-1-J\"> </a></td><td>Pakistani or British Pakistani</td><td/></tr><tr><td style=\"white-space:nowrap\">K<a name=\"CareConnect-EthnicCategory-1-K\"> </a></td><td>Bangladeshi or British Bangladeshi</td><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"CareConnect-EthnicCategory-1-L\"> </a></td><td>Any other Asian background</td><td/></tr><tr><td style=\"white-space:nowrap\">LA<a name=\"CareConnect-EthnicCategory-1-LA\"> </a></td><td>Mixed Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">LB<a name=\"CareConnect-EthnicCategory-1-LB\"> </a></td><td>Punjabi</td><td/></tr><tr><td style=\"white-space:nowrap\">LC<a name=\"CareConnect-EthnicCategory-1-LC\"> </a></td><td>Kashmiri</td><td/></tr><tr><td style=\"white-space:nowrap\">LD<a name=\"CareConnect-EthnicCategory-1-LD\"> </a></td><td>East African Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"CareConnect-EthnicCategory-1-LE\"> </a></td><td>Sri Lanka</td><td/></tr><tr><td style=\"white-space:nowrap\">LF<a name=\"CareConnect-EthnicCategory-1-LF\"> </a></td><td>Tamil</td><td/></tr><tr><td style=\"white-space:nowrap\">LG<a name=\"CareConnect-EthnicCategory-1-LG\"> </a></td><td>Sinhalese</td><td/></tr><tr><td style=\"white-space:nowrap\">LH<a name=\"CareConnect-EthnicCategory-1-LH\"> </a></td><td>British Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">LJ<a name=\"CareConnect-EthnicCategory-1-LJ\"> </a></td><td>Caribbean Asian</td><td/></tr><tr><td style=\"white-space:nowrap\">LK<a name=\"CareConnect-EthnicCategory-1-LK\"> </a></td><td>Other Asian, Asian unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\">M<a name=\"CareConnect-EthnicCategory-1-M\"> </a></td><td>Caribbean</td><td/></tr><tr><td style=\"white-space:nowrap\">N<a name=\"CareConnect-EthnicCategory-1-N\"> </a></td><td>African</td><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"CareConnect-EthnicCategory-1-P\"> </a></td><td>Any other Black background</td><td/></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"CareConnect-EthnicCategory-1-PA\"> </a></td><td>Somali</td><td/></tr><tr><td style=\"white-space:nowrap\">PB<a name=\"CareConnect-EthnicCategory-1-PB\"> </a></td><td>Mixed Black</td><td/></tr><tr><td style=\"white-space:nowrap\">PC<a name=\"CareConnect-EthnicCategory-1-PC\"> </a></td><td>Nigerian</td><td/></tr><tr><td style=\"white-space:nowrap\">PD<a name=\"CareConnect-EthnicCategory-1-PD\"> </a></td><td>Black British</td><td/></tr><tr><td style=\"white-space:nowrap\">PE<a name=\"CareConnect-EthnicCategory-1-PE\"> </a></td><td>Other Black, Black unspecified</td><td/></tr><tr><td style=\"white-space:nowrap\">R<a name=\"CareConnect-EthnicCategory-1-R\"> </a></td><td>Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\">S<a name=\"CareConnect-EthnicCategory-1-S\"> </a></td><td>Any other ethnic group</td><td/></tr><tr><td style=\"white-space:nowrap\">SA<a name=\"CareConnect-EthnicCategory-1-SA\"> </a></td><td>Vietnamese</td><td/></tr><tr><td style=\"white-space:nowrap\">SB<a name=\"CareConnect-EthnicCategory-1-SB\"> </a></td><td>Japanese</td><td/></tr><tr><td style=\"white-space:nowrap\">SC<a name=\"CareConnect-EthnicCategory-1-SC\"> </a></td><td>Filipino</td><td/></tr><tr><td style=\"white-space:nowrap\">SD<a name=\"CareConnect-EthnicCategory-1-SD\"> </a></td><td>Malaysian</td><td/></tr><tr><td style=\"white-space:nowrap\">SE<a name=\"CareConnect-EthnicCategory-1-SE\"> </a></td><td>Any Other Group</td><td/></tr><tr><td style=\"white-space:nowrap\">Z<a name=\"CareConnect-EthnicCategory-1-Z\"> </a></td><td>Not stated</td><td/></tr></table></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference" ];
+     fhir:Extension.valueUri [ fhir:value "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0" ]
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.name [ fhir:value "Care Connect Ethnic Category"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2018-11-02T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "A" ];
+     fhir:CodeSystem.concept.display [ fhir:value "British, Mixed British" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "B" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Irish" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "C" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any other White background" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "C2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Northern Irish" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "C3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other white, white unspecified" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "CA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "English" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "CB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Scottish" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "CC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Welsh" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "CD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cornish" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "CE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cypriot (part not stated)" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "CF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Greek" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "CG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Greek Cypriot" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "CH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Turkish" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "CJ" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Turkish Cypriot" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "CK" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Italian" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "CL" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Irish Traveller" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "CM" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Traveller" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "CN" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gypsy/Romany" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "CP" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Polish" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "CQ" ];
+     fhir:CodeSystem.concept.display [ fhir:value "All republics which made up the former USSR" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "CR" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Kosovan" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "CS" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Albanian" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "CT" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bosnian" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "CU" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Croatian" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "CV" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Serbian" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "CW" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other republics which made up the former Yugoslavia" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "CX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mixed white" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "CY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other white European, European unspecified, European mixed" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "D" ];
+     fhir:CodeSystem.concept.display [ fhir:value "White and Black Caribbean" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "E" ];
+     fhir:CodeSystem.concept.display [ fhir:value "White and Black African" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "F" ];
+     fhir:CodeSystem.concept.display [ fhir:value "White and Asian" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "G" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any other mixed background" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "GA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Black and Asian" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "GB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Black and Chinese" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "GC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Black and White" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "GD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese and White" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "GE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Asian and Chinese" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "GF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Mixed, Mixed Unspecified" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "H" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Indian or British Indian" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "J" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pakistani or British Pakistani" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "K" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bangladeshi or British Bangladeshi" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "L" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any other Asian background" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "LA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mixed Asian" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "LB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Punjabi" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "LC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Kashmiri" ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "LD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "East African Asian" ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "LE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sri Lanka" ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "LF" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tamil" ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "LG" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sinhalese" ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "LH" ];
+     fhir:CodeSystem.concept.display [ fhir:value "British Asian" ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "LJ" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Caribbean Asian" ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "LK" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Asian, Asian unspecified" ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Caribbean" ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ];
+     fhir:CodeSystem.concept.display [ fhir:value "African" ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any other Black background" ]
+  ], [
+     fhir:index 55;
+     fhir:CodeSystem.concept.code [ fhir:value "PA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Somali" ]
+  ], [
+     fhir:index 56;
+     fhir:CodeSystem.concept.code [ fhir:value "PB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Mixed Black" ]
+  ], [
+     fhir:index 57;
+     fhir:CodeSystem.concept.code [ fhir:value "PC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Nigerian" ]
+  ], [
+     fhir:index 58;
+     fhir:CodeSystem.concept.code [ fhir:value "PD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Black British" ]
+  ], [
+     fhir:index 59;
+     fhir:CodeSystem.concept.code [ fhir:value "PE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Other Black, Black unspecified" ]
+  ], [
+     fhir:index 60;
+     fhir:CodeSystem.concept.code [ fhir:value "R" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chinese" ]
+  ], [
+     fhir:index 61;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any other ethnic group" ]
+  ], [
+     fhir:index 62;
+     fhir:CodeSystem.concept.code [ fhir:value "SA" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Vietnamese" ]
+  ], [
+     fhir:index 63;
+     fhir:CodeSystem.concept.code [ fhir:value "SB" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Japanese" ]
+  ], [
+     fhir:index 64;
+     fhir:CodeSystem.concept.code [ fhir:value "SC" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Filipino" ]
+  ], [
+     fhir:index 65;
+     fhir:CodeSystem.concept.code [ fhir:value "SD" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Malaysian" ]
+  ], [
+     fhir:index 66;
+     fhir:CodeSystem.concept.code [ fhir:value "SE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Any Other Group" ]
+  ], [
+     fhir:index 67;
+     fhir:CodeSystem.concept.code [ fhir:value "Z" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Not stated" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

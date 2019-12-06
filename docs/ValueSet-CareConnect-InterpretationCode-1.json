@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-InterpretationCode-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Extended Interpretation Code</h2><div><p>This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.</p>\n</div><p><b>Copyright Statement:</b> HL7</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>OR</td><td>Outside Reference Range</td><td/></tr><tr><td>PA</td><td>Potentially Abnormal</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-InterpretationCode-1",
+  "version": "3.0.0",
+  "name": "Care Connect Extended Interpretation Code",
+  "status": "draft",
+  "date": "2019-03-12T00:00:00+00:00",
+  "publisher": "HL7 UK",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7",
+  "extensible": true,
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ExtendedInterpretationCode-1",
+        "concept": [
+          {
+            "code": "OR",
+            "display": "Outside Reference Range"
+          },
+          {
+            "code": "PA",
+            "display": "Potentially Abnormal"
+          }
+        ]
+      }
+    ]
+  }
+}

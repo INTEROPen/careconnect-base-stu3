@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Person Marital Status Code</h2><div><p>An indicator to identify the legal marital status of a Person.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">S<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S"> </a></td><td>Single</td><td/></tr><tr><td style="white-space:nowrap">M<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M"> </a></td><td>Married/Civil Partner</td><td/></tr><tr><td style="white-space:nowrap">D<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D"> </a></td><td>Divorced/Person whose Civil Partnership has been dissolved</td><td/></tr><tr><td style="white-space:nowrap">W<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W"> </a></td><td>Widowed/Surviving Civil Partner</td><td/></tr><tr><td style="white-space:nowrap">P<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P"> </a></td><td>Separated</td><td/></tr><tr><td style="white-space:nowrap">N<a name="CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N"> </a></td><td>Not disclosed</td><td/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+    <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_marital_status_code_de.asp?shownav=1"/>
+  </extension>
+  <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
+  <version value="3.0.0"/>
+  <name value="NHS Data Model and Dictionary Person Marital Status Code"/>
+  <status value="active"/>
+  <date value="2016-08-03T00:00:00+01:00"/>
+  <publisher value="HL7 UK"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="An indicator to identify the legal marital status of a Person."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="S"/>
+    <display value="Single"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="Married/Civil Partner"/>
+  </concept>
+  <concept>
+    <code value="D"/>
+    <display value="Divorced/Person whose Civil Partnership has been dissolved"/>
+  </concept>
+  <concept>
+    <code value="W"/>
+    <display value="Widowed/Surviving Civil Partner"/>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <display value="Separated"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="Not disclosed"/>
+  </concept>
+</CodeSystem>

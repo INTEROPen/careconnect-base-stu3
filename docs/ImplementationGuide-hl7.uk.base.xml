@@ -1,0 +1,3095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.uk.base"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>
+</div></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"/>
+  <version value="3.0.0"/>
+  <name value="HL7 UK Implementation Guide"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2019-12-06T10:53:28+00:00"/>
+  <publisher value="HL7 UK"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="UK Base FHIR Resources."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="3.0.2"/>
+  <package id="uk-base">
+    <name value="HL7 UK Base Profiles"/>
+    <description value="UK Base FHIR Profiles"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AllergyIntolerance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyIntolerance-1"/>
+      <description value="This AllergyIntolerance Resource records Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-AllergyIntolerance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Appointment-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Appointment-1"/>
+      <description value="CareConnect Appointment profile."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Appointment-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-CarePlan-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CarePlan-1"/>
+      <description value="Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-CarePlan-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-CareTeam-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CareTeam-1"/>
+      <description value="The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-CareTeam-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Composition-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Composition-1"/>
+      <description value="A set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Composition-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Condition-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Condition-1"/>
+      <description value="This Condition resource records detailed information about conditions or diagnoses recognised by a clinician."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Condition-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-DiagnosticReport-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DiagnosticReport-1"/>
+      <description value="A test report for National Pathology that contains data on the pathology tests performed on patients specimens populated by the performing organisation. "/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-DiagnosticReport-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-DocumentReference-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DocumentReference-1"/>
+      <description value="The DocumentReference resource is used to describe a document that is made available to a healthcare system."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-DocumentReference-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Encounter-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Encounter-1"/>
+      <description value="The encounter resource represents an encounter between a care professional and the patient (or patient&#39;s record)."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-EpisodeOfCare-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="EpisodeOfCare-1"/>
+      <description value="An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-EpisodeOfCare-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-FamilyMemberHistory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="FamilyMemberHistory-1"/>
+      <description value="Significant health events and conditions for a person related to the patient relevant in the context of care for the patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-FamilyMemberHistory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Flag-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Flag-1"/>
+      <description value="Prospective warnings of potential issues when providing care to the patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Flag-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-HealthcareService-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="HealthcareService-1"/>
+      <description value="CareConnect HealthCareService Profile"/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-HealthcareService-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Immunization-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Immunization-1"/>
+      <description value="This Immunization Resource describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party, and may include vaccine reaction information and what vaccination protocol was followed."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Immunization-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-List-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="List-1"/>
+      <description value="The List resource is a flat, possibly ordered collection of records. List resources are used in many places, including allergies, medications, alerts, family history, medical history, etc. List resources can be used to support patient-specific clinical lists as well as lists that manage workflows such as tracking patients, managing teaching cases, etc."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-List-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Location-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Location-1"/>
+      <description value="The Location resource provides information and details on the physical location and the services provided."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Location-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Medication-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Medication-1"/>
+      <description value="This Medication Resource is primarily used for the identification and definition of a medication."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Medication-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationDispense-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationDispense-1"/>
+      <description value="Indicates that a medication product is to be or has been dispensed for a named person/patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-MedicationDispense-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationRequest-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationRequest-1"/>
+      <description value="This MedicationRequest Resource represents an order for both supply of the medication and the instructions for administration of the medication to a patient. "/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-MedicationRequest-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationStatement-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationStatement-1"/>
+      <description value="This MedicationStatement Resource is a record of a medication that is being consumed by a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-MedicationStatement-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Observation-1"/>
+      <description value="The Observation resource is used for tracking the current and historical observations that have been made for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Organization-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Organization-1"/>
+      <description value="The Organization resource represents the organisation that employs the healthcare professional."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Organization-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Patient-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Patient-1"/>
+      <description value="The patient resource represents the patient involved in the provision of healthcare related services."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Patient-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Practitioner-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Practitioner-1"/>
+      <description value="The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Practitioner-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PractitionerRole-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PractitionerRole-1"/>
+      <description value="The PractitionerRole resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-PractitionerRole-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Procedure-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Procedure-1"/>
+      <description value="An action that is or was performed on a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Procedure-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ProcedureRequest-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ProcedureRequest-1"/>
+      <description value="Procedure Request"/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-ProcedureRequest-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Quantity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Quantity-1"/>
+      <description value="Enhanced quantity data type that supports an approximation indicator."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Quantity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ReferralRequest-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReferralRequest-1"/>
+      <description value="Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-ReferralRequest-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-RelatedPerson-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RelatedPerson-1"/>
+      <description value="Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-RelatedPerson-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ResearchStudy-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ResearchStudy-1"/>
+      <description value="A process where a researcher or organization plans and then executes a series of steps intended to increase the field of healthcare-related knowledge. "/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-ResearchStudy-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-RiskAssessment-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RiskAssessment-1"/>
+      <description value="An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-RiskAssessment-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Schedule-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Schedule-1"/>
+      <description value="CareConnect Schedule profile."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Schedule-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Slot-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Slot-1"/>
+      <description value="CareConnectSlot profile."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Slot-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Specimen-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Specimen-1"/>
+      <description value="Specimen"/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Specimen-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-news2">
+    <name value="HL7 UK Vital Signs"/>
+    <description value="UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ACVPU-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ACVPU-Observation-1"/>
+      <description value="This profile is used to carry alert, new-onset or worsening confusion, voice, pain, and unresponsiveness observations for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-ACVPU-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-BloodPressure-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="BloodPressure-Observation-1"/>
+      <description value="A Vital Signs profile to carry blood pressure information that contains at least one component for systolic and/or diastolic pressure."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-BloodPressure-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-HeartRate-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="HeartRate-Observation-1"/>
+      <description value="A Vital Signs profile to carry a patient&#39;s heart rate or pulse."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-HeartRate-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-InspiredOxygen-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="InspiredOxygen-Observation-1"/>
+      <description value="An Observation resource used to carry observables relating to inspired oxygen for a patient"/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-InspiredOxygen-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-OxygenSaturation-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="OxygenSaturation-Observation-1"/>
+      <description value="A Vital Signs profile to carry oxygen saturation information."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-OxygenSaturation-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-RespiratoryRate-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RespiratoryRate-Observation-1"/>
+      <description value="A Vital Signs profile to carry a patient&#39;s respiratory rate."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-RespiratoryRate-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SaturatedOxygenSp02Scale-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SaturatedOxygenSp02Scale-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)"/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Subscore-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Subscore-Observation-1"/>
+      <description value="An Observation resource used to carry a subscore calculated for the observation."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Subscore-Observation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-VitalSigns-Observation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="VitalSigns-Observation-1"/>
+      <description value="A vital signs profile which sets minimum expectations for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-VitalSigns-Observation-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-level3">
+    <name value="HL7 UK Level 3 Profiles"/>
+    <description value="UK Level 3 FHIR Profiles"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-Medication-Flag-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Medication-Flag-1"/>
+      <description value="This Flag Resource carries prospective warnings of potential issues related to the patient&#39;s medications."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-Medication-Flag-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ProblemHeader-Condition-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ProblemHeader-Condition-1"/>
+      <description value="This Condition resource records detailed information about conditions or diagnoses recognised by a clinician."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-ProblemHeader-Condition-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-ext">
+    <name value="HL7 UK Base Extensions"/>
+    <description value="UK Base FHIR Extensions"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ActualProblem-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ActualProblem-1"/>
+      <description value="A reference to a Condition, Observation, FamilyMemberHistory, or AllergyIntolerance that is the actual problem."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ActualProblem-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-AdmissionMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AdmissionMethod-1"/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-AdmissionMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyIntoleranceEnd-1"/>
+      <description value="Supports the date and reason that the allergy was no longer valid."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-AllergySeverity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergySeverity-1"/>
+      <description value="This Extension resource is constrained to support a coded severity of the allergy/intolerance."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-AllergySeverity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-AnaestheticIssues-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AnaestheticIssues-1"/>
+      <description value="An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-AnaestheticIssues-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-CareSettingType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-CareSettingType-1"/>
+      <description value="Extension for a Care Setting which provides the originating care setting for the document."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-CareSettingType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ClinicalSetting-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ClinicalSetting-1"/>
+      <description value="An extension to record the clinical setting of a problem list."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ClinicalSetting-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-coding-sctdescid.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="coding-sctdescid"/>
+      <description value="This Extension resource is constrained to support SNOMED CT Description ID for the display."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-coding-sctdescid"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ConditionEpisode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionEpisode-1"/>
+      <description value="The episodicity status of a condition."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ConditionEpisode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-DateRecorded-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DateRecorded-1"/>
+      <description value="This Extension resource is constrained to support the date that an event was recorded on the system."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-DateRecorded-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-DeathNotificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DeathNotificationStatus-1"/>
+      <description value="This extension is constrained to represent a patient&#x2019;s death notification (as held on Personal Demographics Service (PDS))."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-DischargeMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DischargeMethod-1"/>
+      <description value="An extension to the Encounter resource to record the method of discharge from hospital."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-DischargeMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="EmergencyCareDischargeStatus-1"/>
+      <description value="An extension to the Encounter resource which is used indicate the status of the Patient on discharge from an Emergency Care Department."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-EncounterTransport-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="EncounterTransport-1"/>
+      <description value="An extension to the Encounter resource to include the Transport used by the subject for an encounter."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-EncounterTransport-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-EthnicCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="EthnicCategory-1"/>
+      <description value="This extension is constrained to represent the ethnic category for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-EthnicCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-Evidence-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Evidence-1"/>
+      <description value="This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-Evidence-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-FastingStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="FastingStatus-1"/>
+      <description value="This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-FastingStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ListWarningCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ListWarningCode-1"/>
+      <description value="This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ListWarningCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MainLocation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MainLocation-1"/>
+      <description value="This extension is constrained to represent a reference to the main location for an organization."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MainLocation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationChangeSummary-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationChangeSummary-1"/>
+      <description value="Indicates the change information of a medication item."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationFlagAssociation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationFlagAssociation-1"/>
+      <description value="This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s)."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationQuantityText-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationQuantityText-1"/>
+      <description value="This Extension resource is constrained to support the textual representation of a medication structured quantity."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationQuantityText-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationRepeatInformation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationRepeatInformation-1"/>
+      <description value="Indicates the specific repeat information of a medication item."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationStatementLastIssueDate-1"/>
+      <description value="Indicates the date a prescription was last issued."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-MedicationStatusReason-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationStatusReason-1"/>
+      <description value="To record the reason the medication (plan or order) was stopped and the date this occurred."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-MedicationStatusReason-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-NHSCommunication-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NHSCommunication-1"/>
+      <description value="This extension is constrained to support the communication preferences for a resource in the NHS."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-NHSCommunication-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NHSNumberVerificationStatus-1"/>
+      <description value="This extension is constrained to represent the NHS Number Verification Status."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-NominatedPharmacy-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NominatedPharmacy-1"/>
+      <description value="This extension is constrained to represent a patient&#39;s nominated pharmacy."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-NominatedPharmacy-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-OutcomeOfAttendance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="OutcomeOfAttendance-1"/>
+      <description value="An extension to the Encounter resource to record the outcome of an Out-Patient attendance."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ParentPresent-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ParentPresent-1"/>
+      <description value="This Extension resource is constrained to indicate whether a parent was present at the Immunization."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ParentPresent-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-PrescribedElsewhere-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PrescribedElsewhere-1"/>
+      <description value="An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as &quot;self-prescribed&quot;."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-PrescribedElsewhere-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-PrescriptionType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PrescriptionType-1"/>
+      <description value="To record the type of prescription."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-PrescriptionType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ProbabilityOfRecurrence-1"/>
+      <description value="This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ProblemSignificance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-ProblemSignificance-1"/>
+      <description value="An extension to record the significance of the problem header condition."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ProblemSignificance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ReasonCondition-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReasonCondition-1"/>
+      <description value="The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ReasonCondition-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-Recorder-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Recorder-1"/>
+      <description value="This Extension is used to specify who recorded the event."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-Recorder-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-RegistrationDetails-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RegistrationDetails-1"/>
+      <description value="This extension is constrained to represent the additional registration information for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-RegistrationDetails-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-RelatedClinicalContent-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RelatedClinicalContent-1"/>
+      <description value="An Extension to support a reference to any resource that provides related clinical content to the Condition."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-RelatedProblemHeader-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RelatedProblemHeader-1"/>
+      <description value="A reference to another related problem header condition (target) whose relationship is defined by the relationship type code."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ReligiousAffiliation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReligiousAffiliation-1"/>
+      <description value="This extension is constrained to represent the religious affiliation for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ReferralRequestMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ext-ReferralRequestMethod-1"/>
+      <description value="This extension is constrained to represent the method used to send or receive a Referral Request."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ResidentialStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ResidentialStatus-1"/>
+      <description value="This extension is constrained to represent the residential status for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ResidentialStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-SourceOfReferral-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SourceOfReferral-1"/>
+      <description value="This extension is constrained to represent the source of the referral of a Referral Request"/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-SourceOfReferral-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-TreatmentCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="TreatmentCategory-1"/>
+      <description value="This extension is constrained to represent the treatment category for a patient."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-TreatmentCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-VaccinationProcedure-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="VaccinationProcedure-1"/>
+      <description value="An extension to hold an immunization procedure code."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-VaccinationProcedure-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="extension-Extension-CareConnect-ValueApproximation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ValueApproximation-1"/>
+      <description value="An code to indicate that a given value is only an approximation."/>
+      <sourceReference>
+        <reference value="StructureDefinition/Extension-CareConnect-ValueApproximation-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-vs">
+    <name value="HL7 UK ValueSets"/>
+    <description value="UK FHIR ValueSets"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ACVPU-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ACVPU-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ACVPU-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AdministrativeGender-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AdministrativeGender-1"/>
+      <description value="The gender of a person used for administrative purposes."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AdministrativeGender-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergyCertainty-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyCertainty-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergyCertainty-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergyCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;105590001 |Substance OR &lt;373873005 |Pharmaceutical / biologic product| OR &lt;716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergyCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergyExposureRoute-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyExposureRoute-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK &#39;NHS e-Prescribing route of administration subset&#39; with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is &#39;ePrescribing route of administration simple reference set (foundation metadata concept)&#39; with Refset Id 999000051000001100."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergyExposureRoute-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergyManifestation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyManifestation-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK hierarchy with concept id &#39;404684003&#39; to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergyManifestation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergyVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="AllergyVerificationStatus-1"/>
+      <description value="Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergyVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-BodySite-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="BodySite-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;442083009 |anatomical or acquired body structure|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-BodySite-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-CareSettingType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CareSettingType-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK &#39;Correspondence Care setting type&#39; subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence care setting type simple reference set (foundation metadata concept)&#39; with Refset Id 999000381000000107"/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-CareSettingType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ClinicalDisciplines-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ClinicalDisciplines-1"/>
+      <description value="A ValueSet to identify the clincial discipline of the care professional or team."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-CompositionSectionCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="CompositionSectionCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-CompositionSectionCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ConditionCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionCategory-1"/>
+      <description value="A ValueSet to identify the category of a condition."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ConditionCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ConditionCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt; 404684003 |Clinical finding| OR &lt; 413350009 |Finding with explicit context| OR &lt; 272379006 |Event|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ConditionCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ConditionEpisodeSnCT-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionEpisodeSnCT-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the episodicity of a Condition."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ConditionEpisodeSnCT-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ConditionEpisodicity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionEpisodicity-1"/>
+      <description value="A ValueSet to identify the episodicity of a condition."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ConditionEpisodicity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ConditionRelationship-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ConditionRelationship-1"/>
+      <description value="A ValueSet that identifies the kind of relationship that exists with a target condition or problem.."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ConditionRelationship-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-DischargeDestination-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DischargeDestination-1"/>
+      <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-DischargeDestination-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-DocumentType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="DocumentType-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK &#39;Document Type&#39; subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence document type simple reference set (foundation metadata concept)&#39; with Refset Id 999000391000000109."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-DocumentType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-EncounterType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="EncounterType-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient&#39;s record)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-EncounterType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-FindingCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="FindingCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system to record a finding code."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-FindingCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-HumanLanguage-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="HumanLanguage-1"/>
+      <description value="A ValueSet that identifies the language used by a person."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-HumanLanguage-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ImmunizationExplanationReason-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ImmunizationExplanationReason-1"/>
+      <description value="A code to record the reason why a vaccine was administered."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ImmunizationExplanationReason-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ImmunizationExplanationReason-2.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ImmunizationExplanationReason-2"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ImmunizationExplanationReason-2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-InspiredOxygen-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="InspiredOxygen-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient requires oxygen or is breathing room air."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-InspiredOxygen-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-InterpretationCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="InterpretationCode-1"/>
+      <description value="This value set defines the set of extended codes that can be used to indicate the meaning/use of a reference range."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-InterpretationCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-LanguageAbilityMode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="LanguageAbilityMode-1"/>
+      <description value="A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-LanguageAbilityMode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-LanguageAbilityProficiency-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="LanguageAbilityProficiency-1"/>
+      <description value="A ValueSet to identify the level of proficiency in communicating a language."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-LanguageAbilityProficiency-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ListCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ListCode-1"/>
+      <description value="A ValueSet to identify the purpose of a list."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ListCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ListEmptyReasonCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ListEmptyReasonCode-1"/>
+      <description value="A ValueSet to identify the reason a list may be empty."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ListEmptyReasonCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ManufacturedMaterialSnCT-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ManufacturedMaterialSnCT-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a manufactured material (e.g. a pharmaceutical product or personal medical device). These will form part of the NHS dm+d. Any code from the SNOMED CT UK &#39;Manufactured Material&#39; subset with subset original id 1391000000139; the corresponding SNOMED CT UK Refset fully specified name is &#39;Manufactured material simple reference set (foundation metadata concept)&#39; with Refset Id 999000031000001105."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ManufacturedMaterialSnCT-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MaritalStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MaritalStatus-1"/>
+      <description value="This value set defines the set of codes that can be used to indicate the marital status of a person."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MaritalStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationChangeStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationChangeStatus-1"/>
+      <description value="A ValueSet to identify the change status of a medication."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationChangeStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system with the expression (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|). "/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationDosageRoute-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationDosageRoute-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK &#39;NHS e-Prescribing route of administration subset&#39; with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is &#39;ePrescribing route of administration simple reference set (foundation metadata concept)&#39; with Refset Id 999000051000001100."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationDosageRoute-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationFlag-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationFlag-1"/>
+      <description value="A ValueSet to identify detail codes for flagged medication issues."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationFlag-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationForm-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationForm-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK &#39;NHS dm+d Dose Form&#39; subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is &#39;National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)&#39; with Refset Id 999000781000001107."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationForm-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-MedicationSupplyType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationSupplyType-1"/>
+      <description value="A ValueSet to identify the type of medication supply."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-MedicationSupplyType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NHSDataDictionary-PersonMaritalStatus-1"/>
+      <description value="An indicator to identify the legal marital status of a Person."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NHSDataDictionary-PersonStatedGender-1"/>
+      <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-NameUse-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="NameUse-1"/>
+      <description value="The use of a human name"/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-NameUse-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ObservationMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ObservationMethod-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;386053000 | Evaluation procedure|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ObservationMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ObservationType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ObservationType-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;363787002 | Observable entity|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ObservationType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-PDS-PersonNameType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PDS-PersonNameType-1"/>
+      <description value="A code to identify the type of a name of a Person."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-PDS-PersonNameType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ProblemSignificance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ProblemSignificance-1"/>
+      <description value="A code to record the significance of a Problem Header Condition."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ProblemSignificance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ProcedureCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ProcedureCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ProcedureCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ReactionEventSeverity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReactionEventSeverity-1"/>
+      <description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ReactionEventSeverity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ReasonImmunizationNotAdministered-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReasonImmunizationNotAdministered-1"/>
+      <description value="A ValueSet to identify the reason why an immunization was not administered."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ReferralRequestMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReferralRequestMethod-1"/>
+      <description value="A ValueSet to identify the form in which a referral is sent and received."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ReferralRequestMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-RegistrationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RegistrationStatus-1"/>
+      <description value="A ValueSet that identifies the status of registration for a patient at the healthcare organisation."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-RegistrationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-RegistrationType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="RegistrationType-1"/>
+      <description value="A ValueSet that identifies the type of registration for a patient at a healthcare organisation."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-RegistrationType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ReportCodeSnCT-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ReportCodeSnCT-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a diagnotic report"/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ReportCodeSnCT-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SDSJobRoleName-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SDSJobRoleName-1"/>
+      <description value="A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SDSJobRoleName-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SourceOfAdmission-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SourceOfAdmission-1"/>
+      <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SourceOfAdmission-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SpecimenBodySite-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SpecimenBodySite-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system to record a specimen body site."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SpecimenBodySite-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SpecimenType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="SpecimenType-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system to record a specimen type."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SpecimenType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-VaccineCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="VaccineCode-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-VaccineCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AdmissionMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-AdmissionMethod-1"/>
+      <description value="The method of admission to a Hospital Provider Spell."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AdmissionMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-AllergySeverity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-AllergySeverity-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-AllergySeverity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-DeathNotificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-DeathNotificationStatus-1"/>
+      <description value="A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-DeathNotificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-DischargeMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-DischargeMethod-1"/>
+      <description value="The method of discharge from a Hospital Provider Spell."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-DischargeMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-EmergencyCareDischargeStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-EmergencyCareDischargeStatus-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK &#39;Emergency care discharge status&#39; subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is &#39;Emergency care discharge status simple reference set (foundation metadata concept)&#39; with Refset Id 999003021000000104."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-EmergencyCareDischargeStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-EthnicCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-EthnicCategory-1"/>
+      <description value="A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-EthnicCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ListWarningCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-ListWarningCode-1"/>
+      <description value="A ValueSet to identify the reason a list may be incomplete."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ListWarningCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-NHSNumberVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-NHSNumberVerificationStatus-1"/>
+      <description value="A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-NHSNumberVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-OutcomeOfAttendance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-OutcomeOfAttendance-1"/>
+      <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-OutcomeOfAttendance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-PrescribedElsewhere-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-PrescribedElsewhere-1"/>
+      <description value="A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-PrescribedElsewhere-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-PrescriptionType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-PrescriptionType-1"/>
+      <description value="A ValueSet to identify the type of prescription."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-PrescriptionType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ReligiousAffiliation-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-ReligiousAffiliation-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK &#39;Religious Affiliation SnCT&#39; subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Religious or other belief system affiliation simple reference set (foundation metadata concept)&#39; with Refset Id 999000531000000100."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ReligiousAffiliation-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-ResidentialStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-ResidentialStatus-1"/>
+      <description value="A ValueSet that identifies the residential status of a patient."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-ResidentialStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-SourceOfReferral-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-SourceOfReferral-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the source of the referral."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-SourceOfReferral-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-TreatmentCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-TreatmentCategory-1"/>
+      <description value="A ValueSet that identifies the treatment category for this patient."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-TreatmentCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="valueset-CareConnect-VaccinationProcedure-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="vs-VaccinationProcedure-1"/>
+      <description value="A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure."/>
+      <sourceReference>
+        <reference value="ValueSet/CareConnect-VaccinationProcedure-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-cs">
+    <name value="HL7 UK CodeSystems"/>
+    <description value="UK FHIR CodesSystems"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AdmissionMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-AdmissionMethod-1"/>
+      <description value="The method of admission to a Hospital Provider Spell."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-AdmissionMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ConditionCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ConditionCategory-1"/>
+      <description value="A CodeSystem to identify the category of a condition."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ConditionCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ConditionEpisodicity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ConditionEpisodicity-1"/>
+      <description value="A CodeSystem to identify the episodicity of a condition."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ConditionEpisodicity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ConditionRelationship-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ConditionRelationship-1"/>
+      <description value="A CodeSystem that identifies the kind of relationship that exists with a target condition or problem."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ConditionRelationship-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-DeathNotificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-DeathNotificationStatus-1"/>
+      <description value="A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS)."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-DeathNotificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-DischargeDestination-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-DischargeDestination-1"/>
+      <description value="The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-DischargeDestination-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-DischargeMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-DischargeMethod-1"/>
+      <description value="The method of discharge from a Hospital Provider Spell."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-DischargeMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-EthnicCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-EthnicCategory-1"/>
+      <description value="A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-EthnicCategory-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-HumanLanguage-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-HumanLanguage-1"/>
+      <description value="A CodeSystem that identifies the language used by a person."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-HumanLanguage-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ImmunizationExplanationReason-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ImmunizationExplanationReason-1"/>
+      <description value="A CodeSystem that identifies a code to record the reason why a vaccine was administered."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ImmunizationExplanationReason-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-InterpretationCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-InterpretationCode-1"/>
+      <description value="This value set defines the set of codes that can be used to indicate the meaning/use of a reference range."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-InterpretationCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-LanguageAbilityMode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-LanguageAbilityMode-1"/>
+      <description value="A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-LanguageAbilityMode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-LanguageAbilityProficiency-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-LanguageAbilityProficiency-1"/>
+      <description value="A CodeSystem to identify the level of proficiency in communicating a language."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-LanguageAbilityProficiency-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ListEmptyReasonCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ListEmptyReasonCode-1"/>
+      <description value="A CodeSystem to identify the reason a list may be empty."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ListEmptyReasonCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ListWarningCode-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ListWarningCode-1"/>
+      <description value="A CodeSystem to identify the reason a list may be incomplete."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ListWarningCode-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationChangeStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-MedicationChangeStatus-1"/>
+      <description value="A CodeSystem to identify the change status of a medication."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-MedicationChangeStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationFlag-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-MedicationFlag-1"/>
+      <description value="A CodeSystem to identify detail codes for flagged medication issues."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-MedicationFlag-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MedicationSupplyType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-MedicationSupplyType-1"/>
+      <description value="A CodeSystem to identify the type of medication supply."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-MedicationSupplyType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-NHSDataDictionary-PersonMaritalStatus-1"/>
+      <description value="An indicator to identify the legal marital status of a Person."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-NHSDataDictionary-PersonStatedGender-1"/>
+      <description value="The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-NHSNumberVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-NHSNumberVerificationStatus-1"/>
+      <description value="A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-NHSNumberVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-OutcomeOfAttendance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-OutcomeOfAttendance-1"/>
+      <description value="This records the outcome of an Out-Patient Attendance Consultant."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-OutcomeOfAttendance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PDS-PersonNameType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-PDS-PersonNameType-1"/>
+      <description value="A code to identify the type of a name of a Person."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PrescribedElsewhere-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-PrescribedElsewhere-1"/>
+      <description value="A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-PrescribedElsewhere-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PrescriptionType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-PrescriptionType-1"/>
+      <description value="A CodeSystem to identify the type of prescription"/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-PrescriptionType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ProblemSignificance-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ProblemSignificance-1"/>
+      <description value="A CodeSystem to record the significance of a Problem Header Condition."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ProblemSignificance-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ReferralRequestMethod-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ReferralRequestMethod-1"/>
+      <description value="A CodeSystem to identify the form in which a referral is sent and received."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-RegistrationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-RegistrationStatus-1"/>
+      <description value="A CodeSystem that identifies the status of registration for a patient at the healthcare organisation."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-RegistrationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-RegistrationType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-RegistrationType-1"/>
+      <description value="A CodeSystem that identifies the type of registration for a patient at a healthcare organisation."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-RegistrationType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-ResidentialStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-ResidentialStatus-1"/>
+      <description value="A CodeSystem that identifies the residential status of a patient."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-ResidentialStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-SDSJobRoleName-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-SDSJobRoleName-1"/>
+      <description value="A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-SDSJobRoleName-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-SourceOfAdmission-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-SourceOfAdmission-1"/>
+      <description value="The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-SourceOfAdmission-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-TreatmentCategory-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cs-TreatmentCategory-1"/>
+      <description value="A CodeSystem that identifies the treatment category for this patient."/>
+      <sourceReference>
+        <reference value="CodeSystem/CareConnect-TreatmentCategory-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-examples">
+    <name value="UK Examples"/>
+    <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="patient-1.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Patient example"/>
+      <description value="Level 2 Example"/>
+      <sourceReference>
+        <reference value="Patient/patient-1"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Patient-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="observation-9084.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Observation example"/>
+      <description value="Level 3 Example"/>
+      <sourceReference>
+        <reference value="Observation/observation-9084"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Observation-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="practitioner-4.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Practitioner example"/>
+      <description value="Level 3 Example"/>
+      <sourceReference>
+        <reference value="Practitioner/practitioner-4"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="organization-2.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Organization example"/>
+      <description value="Level 3 Example"/>
+      <sourceReference>
+        <reference value="Organization/organization-2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="organization-3.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Organization example"/>
+      <description value="Level 3 Example"/>
+      <sourceReference>
+        <reference value="Organization/organization-3"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Organization-1"/>
+      </exampleFor>
+    </resource>
+  </package>
+  <package id="uk-capability">
+    <name value="Capability Statement"/>
+    <description value="Minimal recommended Capability Statement for UK RESTful implementations"/>
+  </package>
+  <package id="uk-ns">
+    <name value="Naming Systems"/>
+    <description value="Represents a &#39;System&#39; used within Identifier and Coding data types."/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="uk-nhs-number.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="uk-nhs-number"/>
+      <description value="NHS Number allocated to the patient."/>
+      <sourceReference>
+        <reference value="NamingSystem/uk-nhs-number"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="uk-gmp-number.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="uk-gmp-number"/>
+      <description value="General Practitioner (GMP) number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)"/>
+      <sourceReference>
+        <reference value="NamingSystem/uk-gmp-number"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="uk-gmc-number.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="uk-gmc-number"/>
+      <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)"/>
+      <sourceReference>
+        <reference value="NamingSystem/uk-gmc-number"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <package id="uk-cm">
+    <name value="HL7 UK ConceptMap"/>
+    <description value="UK FHIR ConceptMaps"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-PersonNameType-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="PersonNameType-1"/>
+      <description value="A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-PersonNameType-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AdministrativeGender-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AdministrativeGender-1"/>
+      <description value="A Concept Map from ValueSet Administrative Gender to NHS Data Dictionary Person Stated Gender to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AdministrativeGender-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AllergySeverity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AllergySeverity-1"/>
+      <description value="A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AllergySeverity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-AllergyVerificationStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-AllergyVerificationStatus-1"/>
+      <description value="A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-AllergyVerificationStatus-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="cm-ConditionEpisodicity-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-ConditionEpisodicity-1"/>
+      <description value="A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes"/>
+      <sourceReference>
+        <reference value="ConceptMap/cm-ConditionEpisodicity-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CareConnect-MaritalStatus-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="cm-MaritalStatus-1"/>
+      <description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."/>
+      <sourceReference>
+        <reference value="ConceptMap/CareConnect-MaritalStatus-1"/>
+      </sourceReference>
+    </resource>
+  </package>
+  <page>
+    <source value="toc.html"/>
+    <title value="Table of Contents"/>
+    <kind value="page"/>
+    <page>
+      <source value="index.html"/>
+      <title value="HL7 UK Home Page"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="profiles.html"/>
+      <title value="Profiles"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="extensions.html"/>
+      <title value="Extensions"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="terminology.html"/>
+      <title value="Terminology"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="examples.html"/>
+      <title value="Examples"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="changes.html"/>
+      <title value="IG Change History"/>
+      <kind value="page"/>
+    </page>
+    <page>
+      <source value="guidance.html"/>
+      <title value="Guidance"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="history.html"/>
+      <title value="IG History"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="patient-search.html"/>
+      <title value="Patient Search"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="codesystems.html"/>
+      <title value="CodeSystems"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="valuesets.html"/>
+      <title value="ValueSets"/>
+      <kind value="resource"/>
+    </page>
+  </page>
+</ImplementationGuide>

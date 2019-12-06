@@ -1,0 +1,796 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-HumanLanguage-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Human Language</h2><div><p>A CodeSystem that identifies the language used by a person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">q1<a name=\"CareConnect-HumanLanguage-1-q1\"> </a></td><td>Braille</td><td/></tr><tr><td style=\"white-space:nowrap\">q2<a name=\"CareConnect-HumanLanguage-1-q2\"> </a></td><td>American Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\">q3<a name=\"CareConnect-HumanLanguage-1-q3\"> </a></td><td>Australian Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\">q4<a name=\"CareConnect-HumanLanguage-1-q4\"> </a></td><td>British Sign Language</td><td/></tr><tr><td style=\"white-space:nowrap\">q5<a name=\"CareConnect-HumanLanguage-1-q5\"> </a></td><td>Makaton</td><td/></tr><tr><td style=\"white-space:nowrap\">aa<a name=\"CareConnect-HumanLanguage-1-aa\"> </a></td><td>Afar</td><td/></tr><tr><td style=\"white-space:nowrap\">ab<a name=\"CareConnect-HumanLanguage-1-ab\"> </a></td><td>Abkhazian</td><td/></tr><tr><td style=\"white-space:nowrap\">af<a name=\"CareConnect-HumanLanguage-1-af\"> </a></td><td>Afrikaans</td><td/></tr><tr><td style=\"white-space:nowrap\">ak<a name=\"CareConnect-HumanLanguage-1-ak\"> </a></td><td>Akan</td><td/></tr><tr><td style=\"white-space:nowrap\">sq<a name=\"CareConnect-HumanLanguage-1-sq\"> </a></td><td>Albanian</td><td/></tr><tr><td style=\"white-space:nowrap\">am<a name=\"CareConnect-HumanLanguage-1-am\"> </a></td><td>Amharic</td><td/></tr><tr><td style=\"white-space:nowrap\">ar<a name=\"CareConnect-HumanLanguage-1-ar\"> </a></td><td>Arabic</td><td/></tr><tr><td style=\"white-space:nowrap\">an<a name=\"CareConnect-HumanLanguage-1-an\"> </a></td><td>Aragonese</td><td/></tr><tr><td style=\"white-space:nowrap\">hy<a name=\"CareConnect-HumanLanguage-1-hy\"> </a></td><td>Armenian</td><td/></tr><tr><td style=\"white-space:nowrap\">as<a name=\"CareConnect-HumanLanguage-1-as\"> </a></td><td>Assamese</td><td/></tr><tr><td style=\"white-space:nowrap\">av<a name=\"CareConnect-HumanLanguage-1-av\"> </a></td><td>Avaric</td><td/></tr><tr><td style=\"white-space:nowrap\">ae<a name=\"CareConnect-HumanLanguage-1-ae\"> </a></td><td>Avestan</td><td/></tr><tr><td style=\"white-space:nowrap\">ay<a name=\"CareConnect-HumanLanguage-1-ay\"> </a></td><td>Aymara</td><td/></tr><tr><td style=\"white-space:nowrap\">az<a name=\"CareConnect-HumanLanguage-1-az\"> </a></td><td>Azerbaijani</td><td/></tr><tr><td style=\"white-space:nowrap\">ba<a name=\"CareConnect-HumanLanguage-1-ba\"> </a></td><td>Bashkir</td><td/></tr><tr><td style=\"white-space:nowrap\">bm<a name=\"CareConnect-HumanLanguage-1-bm\"> </a></td><td>Bambara</td><td/></tr><tr><td style=\"white-space:nowrap\">eu<a name=\"CareConnect-HumanLanguage-1-eu\"> </a></td><td>Basque</td><td/></tr><tr><td style=\"white-space:nowrap\">be<a name=\"CareConnect-HumanLanguage-1-be\"> </a></td><td>Belarusian</td><td/></tr><tr><td style=\"white-space:nowrap\">bn<a name=\"CareConnect-HumanLanguage-1-bn\"> </a></td><td>Bengali</td><td/></tr><tr><td style=\"white-space:nowrap\">bh<a name=\"CareConnect-HumanLanguage-1-bh\"> </a></td><td>Bihari languages</td><td/></tr><tr><td style=\"white-space:nowrap\">bi<a name=\"CareConnect-HumanLanguage-1-bi\"> </a></td><td>Bislama</td><td/></tr><tr><td style=\"white-space:nowrap\">bo<a name=\"CareConnect-HumanLanguage-1-bo\"> </a></td><td>Tibetan</td><td/></tr><tr><td style=\"white-space:nowrap\">bs<a name=\"CareConnect-HumanLanguage-1-bs\"> </a></td><td>Bosnian</td><td/></tr><tr><td style=\"white-space:nowrap\">br<a name=\"CareConnect-HumanLanguage-1-br\"> </a></td><td>Breton</td><td/></tr><tr><td style=\"white-space:nowrap\">bg<a name=\"CareConnect-HumanLanguage-1-bg\"> </a></td><td>Bulgarian</td><td/></tr><tr><td style=\"white-space:nowrap\">my<a name=\"CareConnect-HumanLanguage-1-my\"> </a></td><td>Burmese</td><td/></tr><tr><td style=\"white-space:nowrap\">ca<a name=\"CareConnect-HumanLanguage-1-ca\"> </a></td><td>Catalan; Valencian</td><td/></tr><tr><td style=\"white-space:nowrap\">cs<a name=\"CareConnect-HumanLanguage-1-cs\"> </a></td><td>Czech</td><td/></tr><tr><td style=\"white-space:nowrap\">ch<a name=\"CareConnect-HumanLanguage-1-ch\"> </a></td><td>Chamorro</td><td/></tr><tr><td style=\"white-space:nowrap\">ce<a name=\"CareConnect-HumanLanguage-1-ce\"> </a></td><td>Chechen</td><td/></tr><tr><td style=\"white-space:nowrap\">zh<a name=\"CareConnect-HumanLanguage-1-zh\"> </a></td><td>Chinese</td><td/></tr><tr><td style=\"white-space:nowrap\">cu<a name=\"CareConnect-HumanLanguage-1-cu\"> </a></td><td>Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic</td><td/></tr><tr><td style=\"white-space:nowrap\">cv<a name=\"CareConnect-HumanLanguage-1-cv\"> </a></td><td>Chuvash</td><td/></tr><tr><td style=\"white-space:nowrap\">kw<a name=\"CareConnect-HumanLanguage-1-kw\"> </a></td><td>Cornish</td><td/></tr><tr><td style=\"white-space:nowrap\">co<a name=\"CareConnect-HumanLanguage-1-co\"> </a></td><td>Corsican</td><td/></tr><tr><td style=\"white-space:nowrap\">cr<a name=\"CareConnect-HumanLanguage-1-cr\"> </a></td><td>Cree</td><td/></tr><tr><td style=\"white-space:nowrap\">cy<a name=\"CareConnect-HumanLanguage-1-cy\"> </a></td><td>Welsh</td><td/></tr><tr><td style=\"white-space:nowrap\">da<a name=\"CareConnect-HumanLanguage-1-da\"> </a></td><td>Danish</td><td/></tr><tr><td style=\"white-space:nowrap\">de<a name=\"CareConnect-HumanLanguage-1-de\"> </a></td><td>German</td><td/></tr><tr><td style=\"white-space:nowrap\">dv<a name=\"CareConnect-HumanLanguage-1-dv\"> </a></td><td>Divehi; Dhivehi; Maldivian</td><td/></tr><tr><td style=\"white-space:nowrap\">nl<a name=\"CareConnect-HumanLanguage-1-nl\"> </a></td><td>Dutch; Flemish</td><td/></tr><tr><td style=\"white-space:nowrap\">dz<a name=\"CareConnect-HumanLanguage-1-dz\"> </a></td><td>Dzongkha</td><td/></tr><tr><td style=\"white-space:nowrap\">el<a name=\"CareConnect-HumanLanguage-1-el\"> </a></td><td>Greek, Modern (1453-)</td><td/></tr><tr><td style=\"white-space:nowrap\">en<a name=\"CareConnect-HumanLanguage-1-en\"> </a></td><td>English</td><td/></tr><tr><td style=\"white-space:nowrap\">eo<a name=\"CareConnect-HumanLanguage-1-eo\"> </a></td><td>Esperanto</td><td/></tr><tr><td style=\"white-space:nowrap\">et<a name=\"CareConnect-HumanLanguage-1-et\"> </a></td><td>Estonian</td><td/></tr><tr><td style=\"white-space:nowrap\">ee<a name=\"CareConnect-HumanLanguage-1-ee\"> </a></td><td>Ewe</td><td/></tr><tr><td style=\"white-space:nowrap\">fo<a name=\"CareConnect-HumanLanguage-1-fo\"> </a></td><td>Faroese</td><td/></tr><tr><td style=\"white-space:nowrap\">fa<a name=\"CareConnect-HumanLanguage-1-fa\"> </a></td><td>Persian</td><td/></tr><tr><td style=\"white-space:nowrap\">fj<a name=\"CareConnect-HumanLanguage-1-fj\"> </a></td><td>Fijian</td><td/></tr><tr><td style=\"white-space:nowrap\">fi<a name=\"CareConnect-HumanLanguage-1-fi\"> </a></td><td>Finnish</td><td/></tr><tr><td style=\"white-space:nowrap\">fr<a name=\"CareConnect-HumanLanguage-1-fr\"> </a></td><td>French</td><td/></tr><tr><td style=\"white-space:nowrap\">fy<a name=\"CareConnect-HumanLanguage-1-fy\"> </a></td><td>Western Frisian</td><td/></tr><tr><td style=\"white-space:nowrap\">ff<a name=\"CareConnect-HumanLanguage-1-ff\"> </a></td><td>Fulah</td><td/></tr><tr><td style=\"white-space:nowrap\">ka<a name=\"CareConnect-HumanLanguage-1-ka\"> </a></td><td>Georgian</td><td/></tr><tr><td style=\"white-space:nowrap\">gd<a name=\"CareConnect-HumanLanguage-1-gd\"> </a></td><td>Gaelic; Scottish Gaelic</td><td/></tr><tr><td style=\"white-space:nowrap\">ga<a name=\"CareConnect-HumanLanguage-1-ga\"> </a></td><td>Irish</td><td/></tr><tr><td style=\"white-space:nowrap\">gl<a name=\"CareConnect-HumanLanguage-1-gl\"> </a></td><td>Galician</td><td/></tr><tr><td style=\"white-space:nowrap\">gv<a name=\"CareConnect-HumanLanguage-1-gv\"> </a></td><td>Manx</td><td/></tr><tr><td style=\"white-space:nowrap\">gn<a name=\"CareConnect-HumanLanguage-1-gn\"> </a></td><td>Guarani</td><td/></tr><tr><td style=\"white-space:nowrap\">gu<a name=\"CareConnect-HumanLanguage-1-gu\"> </a></td><td>Gujarati</td><td/></tr><tr><td style=\"white-space:nowrap\">ht<a name=\"CareConnect-HumanLanguage-1-ht\"> </a></td><td>Haitian; Haitian Creole</td><td/></tr><tr><td style=\"white-space:nowrap\">ha<a name=\"CareConnect-HumanLanguage-1-ha\"> </a></td><td>Hausa</td><td/></tr><tr><td style=\"white-space:nowrap\">he<a name=\"CareConnect-HumanLanguage-1-he\"> </a></td><td>Hebrew</td><td/></tr><tr><td style=\"white-space:nowrap\">hz<a name=\"CareConnect-HumanLanguage-1-hz\"> </a></td><td>Herero</td><td/></tr><tr><td style=\"white-space:nowrap\">hi<a name=\"CareConnect-HumanLanguage-1-hi\"> </a></td><td>Hindi</td><td/></tr><tr><td style=\"white-space:nowrap\">ho<a name=\"CareConnect-HumanLanguage-1-ho\"> </a></td><td>Hiri Motu</td><td/></tr><tr><td style=\"white-space:nowrap\">hr<a name=\"CareConnect-HumanLanguage-1-hr\"> </a></td><td>Croatian</td><td/></tr><tr><td style=\"white-space:nowrap\">hu<a name=\"CareConnect-HumanLanguage-1-hu\"> </a></td><td>Hungarian</td><td/></tr><tr><td style=\"white-space:nowrap\">ig<a name=\"CareConnect-HumanLanguage-1-ig\"> </a></td><td>Igbo</td><td/></tr><tr><td style=\"white-space:nowrap\">is<a name=\"CareConnect-HumanLanguage-1-is\"> </a></td><td>Icelandic</td><td/></tr><tr><td style=\"white-space:nowrap\">io<a name=\"CareConnect-HumanLanguage-1-io\"> </a></td><td>Ido</td><td/></tr><tr><td style=\"white-space:nowrap\">ii<a name=\"CareConnect-HumanLanguage-1-ii\"> </a></td><td>Sichuan Yi; Nuosu</td><td/></tr><tr><td style=\"white-space:nowrap\">iu<a name=\"CareConnect-HumanLanguage-1-iu\"> </a></td><td>Inuktitut</td><td/></tr><tr><td style=\"white-space:nowrap\">ie<a name=\"CareConnect-HumanLanguage-1-ie\"> </a></td><td>Interlingue; Occidental</td><td/></tr><tr><td style=\"white-space:nowrap\">ia<a name=\"CareConnect-HumanLanguage-1-ia\"> </a></td><td>Interlingua (International Auxiliary Language Association)</td><td/></tr><tr><td style=\"white-space:nowrap\">id<a name=\"CareConnect-HumanLanguage-1-id\"> </a></td><td>Indonesian</td><td/></tr><tr><td style=\"white-space:nowrap\">ik<a name=\"CareConnect-HumanLanguage-1-ik\"> </a></td><td>Inupiaq</td><td/></tr><tr><td style=\"white-space:nowrap\">it<a name=\"CareConnect-HumanLanguage-1-it\"> </a></td><td>Italian</td><td/></tr><tr><td style=\"white-space:nowrap\">jv<a name=\"CareConnect-HumanLanguage-1-jv\"> </a></td><td>Javanese</td><td/></tr><tr><td style=\"white-space:nowrap\">ja<a name=\"CareConnect-HumanLanguage-1-ja\"> </a></td><td>Japanese</td><td/></tr><tr><td style=\"white-space:nowrap\">kl<a name=\"CareConnect-HumanLanguage-1-kl\"> </a></td><td>Kalaallisut; Greenlandic</td><td/></tr><tr><td style=\"white-space:nowrap\">kn<a name=\"CareConnect-HumanLanguage-1-kn\"> </a></td><td>Kannada</td><td/></tr><tr><td style=\"white-space:nowrap\">ks<a name=\"CareConnect-HumanLanguage-1-ks\"> </a></td><td>Kashmiri</td><td/></tr><tr><td style=\"white-space:nowrap\">kr<a name=\"CareConnect-HumanLanguage-1-kr\"> </a></td><td>Kanuri</td><td/></tr><tr><td style=\"white-space:nowrap\">kk<a name=\"CareConnect-HumanLanguage-1-kk\"> </a></td><td>Kazakh</td><td/></tr><tr><td style=\"white-space:nowrap\">km<a name=\"CareConnect-HumanLanguage-1-km\"> </a></td><td>Central Khmer</td><td/></tr><tr><td style=\"white-space:nowrap\">ki<a name=\"CareConnect-HumanLanguage-1-ki\"> </a></td><td>Kikuyu; Gikuyu</td><td/></tr><tr><td style=\"white-space:nowrap\">rw<a name=\"CareConnect-HumanLanguage-1-rw\"> </a></td><td>Kinyarwanda</td><td/></tr><tr><td style=\"white-space:nowrap\">ky<a name=\"CareConnect-HumanLanguage-1-ky\"> </a></td><td>Kirghiz; Kyrgyz</td><td/></tr><tr><td style=\"white-space:nowrap\">kv<a name=\"CareConnect-HumanLanguage-1-kv\"> </a></td><td>Komi</td><td/></tr><tr><td style=\"white-space:nowrap\">kg<a name=\"CareConnect-HumanLanguage-1-kg\"> </a></td><td>Kongo</td><td/></tr><tr><td style=\"white-space:nowrap\">ko<a name=\"CareConnect-HumanLanguage-1-ko\"> </a></td><td>Korean</td><td/></tr><tr><td style=\"white-space:nowrap\">kj<a name=\"CareConnect-HumanLanguage-1-kj\"> </a></td><td>Kuanyama; Kwanyama</td><td/></tr><tr><td style=\"white-space:nowrap\">ku<a name=\"CareConnect-HumanLanguage-1-ku\"> </a></td><td>Kurdish</td><td/></tr><tr><td style=\"white-space:nowrap\">lo<a name=\"CareConnect-HumanLanguage-1-lo\"> </a></td><td>Lao</td><td/></tr><tr><td style=\"white-space:nowrap\">la<a name=\"CareConnect-HumanLanguage-1-la\"> </a></td><td>Latin</td><td/></tr><tr><td style=\"white-space:nowrap\">lv<a name=\"CareConnect-HumanLanguage-1-lv\"> </a></td><td>Latvian</td><td/></tr><tr><td style=\"white-space:nowrap\">li<a name=\"CareConnect-HumanLanguage-1-li\"> </a></td><td>Limburgan; Limburger; Limburgish</td><td/></tr><tr><td style=\"white-space:nowrap\">ln<a name=\"CareConnect-HumanLanguage-1-ln\"> </a></td><td>Lingala</td><td/></tr><tr><td style=\"white-space:nowrap\">lt<a name=\"CareConnect-HumanLanguage-1-lt\"> </a></td><td>Lithuanian</td><td/></tr><tr><td style=\"white-space:nowrap\">lb<a name=\"CareConnect-HumanLanguage-1-lb\"> </a></td><td>Luxembourgish; Letzeburgesch</td><td/></tr><tr><td style=\"white-space:nowrap\">lu<a name=\"CareConnect-HumanLanguage-1-lu\"> </a></td><td>Luba-Katanga</td><td/></tr><tr><td style=\"white-space:nowrap\">lg<a name=\"CareConnect-HumanLanguage-1-lg\"> </a></td><td>Ganda</td><td/></tr><tr><td style=\"white-space:nowrap\">mk<a name=\"CareConnect-HumanLanguage-1-mk\"> </a></td><td>Macedonian</td><td/></tr><tr><td style=\"white-space:nowrap\">mh<a name=\"CareConnect-HumanLanguage-1-mh\"> </a></td><td>Marshallese</td><td/></tr><tr><td style=\"white-space:nowrap\">ml<a name=\"CareConnect-HumanLanguage-1-ml\"> </a></td><td>Malayalam</td><td/></tr><tr><td style=\"white-space:nowrap\">mi<a name=\"CareConnect-HumanLanguage-1-mi\"> </a></td><td>Maori</td><td/></tr><tr><td style=\"white-space:nowrap\">mr<a name=\"CareConnect-HumanLanguage-1-mr\"> </a></td><td>Marathi</td><td/></tr><tr><td style=\"white-space:nowrap\">ms<a name=\"CareConnect-HumanLanguage-1-ms\"> </a></td><td>Malay</td><td/></tr><tr><td style=\"white-space:nowrap\">mg<a name=\"CareConnect-HumanLanguage-1-mg\"> </a></td><td>Malagasy</td><td/></tr><tr><td style=\"white-space:nowrap\">mt<a name=\"CareConnect-HumanLanguage-1-mt\"> </a></td><td>Maltese</td><td/></tr><tr><td style=\"white-space:nowrap\">mn<a name=\"CareConnect-HumanLanguage-1-mn\"> </a></td><td>Mongolian</td><td/></tr><tr><td style=\"white-space:nowrap\">na<a name=\"CareConnect-HumanLanguage-1-na\"> </a></td><td>Nauru</td><td/></tr><tr><td style=\"white-space:nowrap\">nv<a name=\"CareConnect-HumanLanguage-1-nv\"> </a></td><td>Navajo; Navaho</td><td/></tr><tr><td style=\"white-space:nowrap\">nr<a name=\"CareConnect-HumanLanguage-1-nr\"> </a></td><td>Ndebele, South; South Ndebele</td><td/></tr><tr><td style=\"white-space:nowrap\">nd<a name=\"CareConnect-HumanLanguage-1-nd\"> </a></td><td>Ndebele, North; North Ndebele</td><td/></tr><tr><td style=\"white-space:nowrap\">ng<a name=\"CareConnect-HumanLanguage-1-ng\"> </a></td><td>Ndonga</td><td/></tr><tr><td style=\"white-space:nowrap\">ne<a name=\"CareConnect-HumanLanguage-1-ne\"> </a></td><td>Nepali</td><td/></tr><tr><td style=\"white-space:nowrap\">nn<a name=\"CareConnect-HumanLanguage-1-nn\"> </a></td><td>Norwegian Nynorsk; Nynorsk, Norwegian</td><td/></tr><tr><td style=\"white-space:nowrap\">nb<a name=\"CareConnect-HumanLanguage-1-nb\"> </a></td><td>Bokmal, Norwegian; Norwegian Bokmal</td><td/></tr><tr><td style=\"white-space:nowrap\">no<a name=\"CareConnect-HumanLanguage-1-no\"> </a></td><td>Norwegian</td><td/></tr><tr><td style=\"white-space:nowrap\">ny<a name=\"CareConnect-HumanLanguage-1-ny\"> </a></td><td>Chichewa; Chewa; Nyanja</td><td/></tr><tr><td style=\"white-space:nowrap\">oc<a name=\"CareConnect-HumanLanguage-1-oc\"> </a></td><td>Occitan (post1500)</td><td/></tr><tr><td style=\"white-space:nowrap\">oj<a name=\"CareConnect-HumanLanguage-1-oj\"> </a></td><td>Ojibwa</td><td/></tr><tr><td style=\"white-space:nowrap\">or<a name=\"CareConnect-HumanLanguage-1-or\"> </a></td><td>Oriya</td><td/></tr><tr><td style=\"white-space:nowrap\">om<a name=\"CareConnect-HumanLanguage-1-om\"> </a></td><td>Oromo</td><td/></tr><tr><td style=\"white-space:nowrap\">os<a name=\"CareConnect-HumanLanguage-1-os\"> </a></td><td>Ossetian; Ossetic</td><td/></tr><tr><td style=\"white-space:nowrap\">pa<a name=\"CareConnect-HumanLanguage-1-pa\"> </a></td><td>Panjabi; Punjabi</td><td/></tr><tr><td style=\"white-space:nowrap\">pi<a name=\"CareConnect-HumanLanguage-1-pi\"> </a></td><td>Pali</td><td/></tr><tr><td style=\"white-space:nowrap\">pl<a name=\"CareConnect-HumanLanguage-1-pl\"> </a></td><td>Polish</td><td/></tr><tr><td style=\"white-space:nowrap\">pt<a name=\"CareConnect-HumanLanguage-1-pt\"> </a></td><td>Portuguese</td><td/></tr><tr><td style=\"white-space:nowrap\">ps<a name=\"CareConnect-HumanLanguage-1-ps\"> </a></td><td>Pushto; Pashto</td><td/></tr><tr><td style=\"white-space:nowrap\">qu<a name=\"CareConnect-HumanLanguage-1-qu\"> </a></td><td>Quechua</td><td/></tr><tr><td style=\"white-space:nowrap\">rm<a name=\"CareConnect-HumanLanguage-1-rm\"> </a></td><td>Romansh</td><td/></tr><tr><td style=\"white-space:nowrap\">ro<a name=\"CareConnect-HumanLanguage-1-ro\"> </a></td><td>Romanian; Moldavian; Moldovan</td><td/></tr><tr><td style=\"white-space:nowrap\">rn<a name=\"CareConnect-HumanLanguage-1-rn\"> </a></td><td>Rundi</td><td/></tr><tr><td style=\"white-space:nowrap\">ru<a name=\"CareConnect-HumanLanguage-1-ru\"> </a></td><td>Russian</td><td/></tr><tr><td style=\"white-space:nowrap\">sg<a name=\"CareConnect-HumanLanguage-1-sg\"> </a></td><td>Sango</td><td/></tr><tr><td style=\"white-space:nowrap\">sa<a name=\"CareConnect-HumanLanguage-1-sa\"> </a></td><td>Sanskrit</td><td/></tr><tr><td style=\"white-space:nowrap\">sr<a name=\"CareConnect-HumanLanguage-1-sr\"> </a></td><td>Serbian</td><td/></tr><tr><td style=\"white-space:nowrap\">si<a name=\"CareConnect-HumanLanguage-1-si\"> </a></td><td>Sinhala; Sinhalese</td><td/></tr><tr><td style=\"white-space:nowrap\">sk<a name=\"CareConnect-HumanLanguage-1-sk\"> </a></td><td>Slovak</td><td/></tr><tr><td style=\"white-space:nowrap\">sl<a name=\"CareConnect-HumanLanguage-1-sl\"> </a></td><td>Slovenian</td><td/></tr><tr><td style=\"white-space:nowrap\">se<a name=\"CareConnect-HumanLanguage-1-se\"> </a></td><td>Northern Sami</td><td/></tr><tr><td style=\"white-space:nowrap\">sm<a name=\"CareConnect-HumanLanguage-1-sm\"> </a></td><td>Samoan</td><td/></tr><tr><td style=\"white-space:nowrap\">sn<a name=\"CareConnect-HumanLanguage-1-sn\"> </a></td><td>Shona</td><td/></tr><tr><td style=\"white-space:nowrap\">sd<a name=\"CareConnect-HumanLanguage-1-sd\"> </a></td><td>Sindhi</td><td/></tr><tr><td style=\"white-space:nowrap\">so<a name=\"CareConnect-HumanLanguage-1-so\"> </a></td><td>Somali</td><td/></tr><tr><td style=\"white-space:nowrap\">st<a name=\"CareConnect-HumanLanguage-1-st\"> </a></td><td>Sotho, Southern</td><td/></tr><tr><td style=\"white-space:nowrap\">es<a name=\"CareConnect-HumanLanguage-1-es\"> </a></td><td>Spanish; Castilian</td><td/></tr><tr><td style=\"white-space:nowrap\">sc<a name=\"CareConnect-HumanLanguage-1-sc\"> </a></td><td>Sardinian</td><td/></tr><tr><td style=\"white-space:nowrap\">ss<a name=\"CareConnect-HumanLanguage-1-ss\"> </a></td><td>Swati</td><td/></tr><tr><td style=\"white-space:nowrap\">su<a name=\"CareConnect-HumanLanguage-1-su\"> </a></td><td>Sundanese</td><td/></tr><tr><td style=\"white-space:nowrap\">sw<a name=\"CareConnect-HumanLanguage-1-sw\"> </a></td><td>Swahili</td><td/></tr><tr><td style=\"white-space:nowrap\">sv<a name=\"CareConnect-HumanLanguage-1-sv\"> </a></td><td>Swedish</td><td/></tr><tr><td style=\"white-space:nowrap\">ty<a name=\"CareConnect-HumanLanguage-1-ty\"> </a></td><td>Tahitian</td><td/></tr><tr><td style=\"white-space:nowrap\">ta<a name=\"CareConnect-HumanLanguage-1-ta\"> </a></td><td>Tamil</td><td/></tr><tr><td style=\"white-space:nowrap\">tt<a name=\"CareConnect-HumanLanguage-1-tt\"> </a></td><td>Tatar</td><td/></tr><tr><td style=\"white-space:nowrap\">te<a name=\"CareConnect-HumanLanguage-1-te\"> </a></td><td>Telugu</td><td/></tr><tr><td style=\"white-space:nowrap\">tg<a name=\"CareConnect-HumanLanguage-1-tg\"> </a></td><td>Tajik</td><td/></tr><tr><td style=\"white-space:nowrap\">tl<a name=\"CareConnect-HumanLanguage-1-tl\"> </a></td><td>Tagalog</td><td/></tr><tr><td style=\"white-space:nowrap\">th<a name=\"CareConnect-HumanLanguage-1-th\"> </a></td><td>Thai</td><td/></tr><tr><td style=\"white-space:nowrap\">ti<a name=\"CareConnect-HumanLanguage-1-ti\"> </a></td><td>Tigrinya</td><td/></tr><tr><td style=\"white-space:nowrap\">to<a name=\"CareConnect-HumanLanguage-1-to\"> </a></td><td>Tonga (Tonga Islands)</td><td/></tr><tr><td style=\"white-space:nowrap\">tn<a name=\"CareConnect-HumanLanguage-1-tn\"> </a></td><td>Tswana</td><td/></tr><tr><td style=\"white-space:nowrap\">ts<a name=\"CareConnect-HumanLanguage-1-ts\"> </a></td><td>Tsonga</td><td/></tr><tr><td style=\"white-space:nowrap\">tk<a name=\"CareConnect-HumanLanguage-1-tk\"> </a></td><td>Turkmen</td><td/></tr><tr><td style=\"white-space:nowrap\">tr<a name=\"CareConnect-HumanLanguage-1-tr\"> </a></td><td>Turkish</td><td/></tr><tr><td style=\"white-space:nowrap\">tw<a name=\"CareConnect-HumanLanguage-1-tw\"> </a></td><td>Twi</td><td/></tr><tr><td style=\"white-space:nowrap\">ug<a name=\"CareConnect-HumanLanguage-1-ug\"> </a></td><td>Uighur; Uyghur</td><td/></tr><tr><td style=\"white-space:nowrap\">uk<a name=\"CareConnect-HumanLanguage-1-uk\"> </a></td><td>Ukrainian</td><td/></tr><tr><td style=\"white-space:nowrap\">ur<a name=\"CareConnect-HumanLanguage-1-ur\"> </a></td><td>Urdu</td><td/></tr><tr><td style=\"white-space:nowrap\">uz<a name=\"CareConnect-HumanLanguage-1-uz\"> </a></td><td>Uzbek</td><td/></tr><tr><td style=\"white-space:nowrap\">ve<a name=\"CareConnect-HumanLanguage-1-ve\"> </a></td><td>Venda</td><td/></tr><tr><td style=\"white-space:nowrap\">vi<a name=\"CareConnect-HumanLanguage-1-vi\"> </a></td><td>Vietnamese</td><td/></tr><tr><td style=\"white-space:nowrap\">vo<a name=\"CareConnect-HumanLanguage-1-vo\"> </a></td><td>Volapuk</td><td/></tr><tr><td style=\"white-space:nowrap\">wa<a name=\"CareConnect-HumanLanguage-1-wa\"> </a></td><td>Walloon</td><td/></tr><tr><td style=\"white-space:nowrap\">wo<a name=\"CareConnect-HumanLanguage-1-wo\"> </a></td><td>Wolof</td><td/></tr><tr><td style=\"white-space:nowrap\">xh<a name=\"CareConnect-HumanLanguage-1-xh\"> </a></td><td>Xhosa</td><td/></tr><tr><td style=\"white-space:nowrap\">yi<a name=\"CareConnect-HumanLanguage-1-yi\"> </a></td><td>Yiddish</td><td/></tr><tr><td style=\"white-space:nowrap\">yo<a name=\"CareConnect-HumanLanguage-1-yo\"> </a></td><td>Yoruba</td><td/></tr><tr><td style=\"white-space:nowrap\">za<a name=\"CareConnect-HumanLanguage-1-za\"> </a></td><td>Zhuang; Chuang</td><td/></tr><tr><td style=\"white-space:nowrap\">zu<a name=\"CareConnect-HumanLanguage-1-zu\"> </a></td><td>Zulu</td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1",
+  "version": "3.0.0",
+  "name": "Care Connect Human Language",
+  "status": "draft",
+  "date": "2019-03-01T00:00:00+00:00",
+  "publisher": "HL7 UK",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem that identifies the language used by a person.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "q1",
+      "display": "Braille"
+    },
+    {
+      "code": "q2",
+      "display": "American Sign Language"
+    },
+    {
+      "code": "q3",
+      "display": "Australian Sign Language"
+    },
+    {
+      "code": "q4",
+      "display": "British Sign Language"
+    },
+    {
+      "code": "q5",
+      "display": "Makaton"
+    },
+    {
+      "code": "aa",
+      "display": "Afar"
+    },
+    {
+      "code": "ab",
+      "display": "Abkhazian"
+    },
+    {
+      "code": "af",
+      "display": "Afrikaans"
+    },
+    {
+      "code": "ak",
+      "display": "Akan"
+    },
+    {
+      "code": "sq",
+      "display": "Albanian"
+    },
+    {
+      "code": "am",
+      "display": "Amharic"
+    },
+    {
+      "code": "ar",
+      "display": "Arabic"
+    },
+    {
+      "code": "an",
+      "display": "Aragonese"
+    },
+    {
+      "code": "hy",
+      "display": "Armenian"
+    },
+    {
+      "code": "as",
+      "display": "Assamese"
+    },
+    {
+      "code": "av",
+      "display": "Avaric"
+    },
+    {
+      "code": "ae",
+      "display": "Avestan"
+    },
+    {
+      "code": "ay",
+      "display": "Aymara"
+    },
+    {
+      "code": "az",
+      "display": "Azerbaijani"
+    },
+    {
+      "code": "ba",
+      "display": "Bashkir"
+    },
+    {
+      "code": "bm",
+      "display": "Bambara"
+    },
+    {
+      "code": "eu",
+      "display": "Basque"
+    },
+    {
+      "code": "be",
+      "display": "Belarusian"
+    },
+    {
+      "code": "bn",
+      "display": "Bengali"
+    },
+    {
+      "code": "bh",
+      "display": "Bihari languages"
+    },
+    {
+      "code": "bi",
+      "display": "Bislama"
+    },
+    {
+      "code": "bo",
+      "display": "Tibetan"
+    },
+    {
+      "code": "bs",
+      "display": "Bosnian"
+    },
+    {
+      "code": "br",
+      "display": "Breton"
+    },
+    {
+      "code": "bg",
+      "display": "Bulgarian"
+    },
+    {
+      "code": "my",
+      "display": "Burmese"
+    },
+    {
+      "code": "ca",
+      "display": "Catalan; Valencian"
+    },
+    {
+      "code": "cs",
+      "display": "Czech"
+    },
+    {
+      "code": "ch",
+      "display": "Chamorro"
+    },
+    {
+      "code": "ce",
+      "display": "Chechen"
+    },
+    {
+      "code": "zh",
+      "display": "Chinese"
+    },
+    {
+      "code": "cu",
+      "display": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
+    },
+    {
+      "code": "cv",
+      "display": "Chuvash"
+    },
+    {
+      "code": "kw",
+      "display": "Cornish"
+    },
+    {
+      "code": "co",
+      "display": "Corsican"
+    },
+    {
+      "code": "cr",
+      "display": "Cree"
+    },
+    {
+      "code": "cy",
+      "display": "Welsh"
+    },
+    {
+      "code": "da",
+      "display": "Danish"
+    },
+    {
+      "code": "de",
+      "display": "German"
+    },
+    {
+      "code": "dv",
+      "display": "Divehi; Dhivehi; Maldivian"
+    },
+    {
+      "code": "nl",
+      "display": "Dutch; Flemish"
+    },
+    {
+      "code": "dz",
+      "display": "Dzongkha"
+    },
+    {
+      "code": "el",
+      "display": "Greek, Modern (1453-)"
+    },
+    {
+      "code": "en",
+      "display": "English"
+    },
+    {
+      "code": "eo",
+      "display": "Esperanto"
+    },
+    {
+      "code": "et",
+      "display": "Estonian"
+    },
+    {
+      "code": "ee",
+      "display": "Ewe"
+    },
+    {
+      "code": "fo",
+      "display": "Faroese"
+    },
+    {
+      "code": "fa",
+      "display": "Persian"
+    },
+    {
+      "code": "fj",
+      "display": "Fijian"
+    },
+    {
+      "code": "fi",
+      "display": "Finnish"
+    },
+    {
+      "code": "fr",
+      "display": "French"
+    },
+    {
+      "code": "fy",
+      "display": "Western Frisian"
+    },
+    {
+      "code": "ff",
+      "display": "Fulah"
+    },
+    {
+      "code": "ka",
+      "display": "Georgian"
+    },
+    {
+      "code": "gd",
+      "display": "Gaelic; Scottish Gaelic"
+    },
+    {
+      "code": "ga",
+      "display": "Irish"
+    },
+    {
+      "code": "gl",
+      "display": "Galician"
+    },
+    {
+      "code": "gv",
+      "display": "Manx"
+    },
+    {
+      "code": "gn",
+      "display": "Guarani"
+    },
+    {
+      "code": "gu",
+      "display": "Gujarati"
+    },
+    {
+      "code": "ht",
+      "display": "Haitian; Haitian Creole"
+    },
+    {
+      "code": "ha",
+      "display": "Hausa"
+    },
+    {
+      "code": "he",
+      "display": "Hebrew"
+    },
+    {
+      "code": "hz",
+      "display": "Herero"
+    },
+    {
+      "code": "hi",
+      "display": "Hindi"
+    },
+    {
+      "code": "ho",
+      "display": "Hiri Motu"
+    },
+    {
+      "code": "hr",
+      "display": "Croatian"
+    },
+    {
+      "code": "hu",
+      "display": "Hungarian"
+    },
+    {
+      "code": "ig",
+      "display": "Igbo"
+    },
+    {
+      "code": "is",
+      "display": "Icelandic"
+    },
+    {
+      "code": "io",
+      "display": "Ido"
+    },
+    {
+      "code": "ii",
+      "display": "Sichuan Yi; Nuosu"
+    },
+    {
+      "code": "iu",
+      "display": "Inuktitut"
+    },
+    {
+      "code": "ie",
+      "display": "Interlingue; Occidental"
+    },
+    {
+      "code": "ia",
+      "display": "Interlingua (International Auxiliary Language Association)"
+    },
+    {
+      "code": "id",
+      "display": "Indonesian"
+    },
+    {
+      "code": "ik",
+      "display": "Inupiaq"
+    },
+    {
+      "code": "it",
+      "display": "Italian"
+    },
+    {
+      "code": "jv",
+      "display": "Javanese"
+    },
+    {
+      "code": "ja",
+      "display": "Japanese"
+    },
+    {
+      "code": "kl",
+      "display": "Kalaallisut; Greenlandic"
+    },
+    {
+      "code": "kn",
+      "display": "Kannada"
+    },
+    {
+      "code": "ks",
+      "display": "Kashmiri"
+    },
+    {
+      "code": "kr",
+      "display": "Kanuri"
+    },
+    {
+      "code": "kk",
+      "display": "Kazakh"
+    },
+    {
+      "code": "km",
+      "display": "Central Khmer"
+    },
+    {
+      "code": "ki",
+      "display": "Kikuyu; Gikuyu"
+    },
+    {
+      "code": "rw",
+      "display": "Kinyarwanda"
+    },
+    {
+      "code": "ky",
+      "display": "Kirghiz; Kyrgyz"
+    },
+    {
+      "code": "kv",
+      "display": "Komi"
+    },
+    {
+      "code": "kg",
+      "display": "Kongo"
+    },
+    {
+      "code": "ko",
+      "display": "Korean"
+    },
+    {
+      "code": "kj",
+      "display": "Kuanyama; Kwanyama"
+    },
+    {
+      "code": "ku",
+      "display": "Kurdish"
+    },
+    {
+      "code": "lo",
+      "display": "Lao"
+    },
+    {
+      "code": "la",
+      "display": "Latin"
+    },
+    {
+      "code": "lv",
+      "display": "Latvian"
+    },
+    {
+      "code": "li",
+      "display": "Limburgan; Limburger; Limburgish"
+    },
+    {
+      "code": "ln",
+      "display": "Lingala"
+    },
+    {
+      "code": "lt",
+      "display": "Lithuanian"
+    },
+    {
+      "code": "lb",
+      "display": "Luxembourgish; Letzeburgesch"
+    },
+    {
+      "code": "lu",
+      "display": "Luba-Katanga"
+    },
+    {
+      "code": "lg",
+      "display": "Ganda"
+    },
+    {
+      "code": "mk",
+      "display": "Macedonian"
+    },
+    {
+      "code": "mh",
+      "display": "Marshallese"
+    },
+    {
+      "code": "ml",
+      "display": "Malayalam"
+    },
+    {
+      "code": "mi",
+      "display": "Maori"
+    },
+    {
+      "code": "mr",
+      "display": "Marathi"
+    },
+    {
+      "code": "ms",
+      "display": "Malay"
+    },
+    {
+      "code": "mg",
+      "display": "Malagasy"
+    },
+    {
+      "code": "mt",
+      "display": "Maltese"
+    },
+    {
+      "code": "mn",
+      "display": "Mongolian"
+    },
+    {
+      "code": "na",
+      "display": "Nauru"
+    },
+    {
+      "code": "nv",
+      "display": "Navajo; Navaho"
+    },
+    {
+      "code": "nr",
+      "display": "Ndebele, South; South Ndebele"
+    },
+    {
+      "code": "nd",
+      "display": "Ndebele, North; North Ndebele"
+    },
+    {
+      "code": "ng",
+      "display": "Ndonga"
+    },
+    {
+      "code": "ne",
+      "display": "Nepali"
+    },
+    {
+      "code": "nn",
+      "display": "Norwegian Nynorsk; Nynorsk, Norwegian"
+    },
+    {
+      "code": "nb",
+      "display": "Bokmal, Norwegian; Norwegian Bokmal"
+    },
+    {
+      "code": "no",
+      "display": "Norwegian"
+    },
+    {
+      "code": "ny",
+      "display": "Chichewa; Chewa; Nyanja"
+    },
+    {
+      "code": "oc",
+      "display": "Occitan (post1500)"
+    },
+    {
+      "code": "oj",
+      "display": "Ojibwa"
+    },
+    {
+      "code": "or",
+      "display": "Oriya"
+    },
+    {
+      "code": "om",
+      "display": "Oromo"
+    },
+    {
+      "code": "os",
+      "display": "Ossetian; Ossetic"
+    },
+    {
+      "code": "pa",
+      "display": "Panjabi; Punjabi"
+    },
+    {
+      "code": "pi",
+      "display": "Pali"
+    },
+    {
+      "code": "pl",
+      "display": "Polish"
+    },
+    {
+      "code": "pt",
+      "display": "Portuguese"
+    },
+    {
+      "code": "ps",
+      "display": "Pushto; Pashto"
+    },
+    {
+      "code": "qu",
+      "display": "Quechua"
+    },
+    {
+      "code": "rm",
+      "display": "Romansh"
+    },
+    {
+      "code": "ro",
+      "display": "Romanian; Moldavian; Moldovan"
+    },
+    {
+      "code": "rn",
+      "display": "Rundi"
+    },
+    {
+      "code": "ru",
+      "display": "Russian"
+    },
+    {
+      "code": "sg",
+      "display": "Sango"
+    },
+    {
+      "code": "sa",
+      "display": "Sanskrit"
+    },
+    {
+      "code": "sr",
+      "display": "Serbian"
+    },
+    {
+      "code": "si",
+      "display": "Sinhala; Sinhalese"
+    },
+    {
+      "code": "sk",
+      "display": "Slovak"
+    },
+    {
+      "code": "sl",
+      "display": "Slovenian"
+    },
+    {
+      "code": "se",
+      "display": "Northern Sami"
+    },
+    {
+      "code": "sm",
+      "display": "Samoan"
+    },
+    {
+      "code": "sn",
+      "display": "Shona"
+    },
+    {
+      "code": "sd",
+      "display": "Sindhi"
+    },
+    {
+      "code": "so",
+      "display": "Somali"
+    },
+    {
+      "code": "st",
+      "display": "Sotho, Southern"
+    },
+    {
+      "code": "es",
+      "display": "Spanish; Castilian"
+    },
+    {
+      "code": "sc",
+      "display": "Sardinian"
+    },
+    {
+      "code": "ss",
+      "display": "Swati"
+    },
+    {
+      "code": "su",
+      "display": "Sundanese"
+    },
+    {
+      "code": "sw",
+      "display": "Swahili"
+    },
+    {
+      "code": "sv",
+      "display": "Swedish"
+    },
+    {
+      "code": "ty",
+      "display": "Tahitian"
+    },
+    {
+      "code": "ta",
+      "display": "Tamil"
+    },
+    {
+      "code": "tt",
+      "display": "Tatar"
+    },
+    {
+      "code": "te",
+      "display": "Telugu"
+    },
+    {
+      "code": "tg",
+      "display": "Tajik"
+    },
+    {
+      "code": "tl",
+      "display": "Tagalog"
+    },
+    {
+      "code": "th",
+      "display": "Thai"
+    },
+    {
+      "code": "ti",
+      "display": "Tigrinya"
+    },
+    {
+      "code": "to",
+      "display": "Tonga (Tonga Islands)"
+    },
+    {
+      "code": "tn",
+      "display": "Tswana"
+    },
+    {
+      "code": "ts",
+      "display": "Tsonga"
+    },
+    {
+      "code": "tk",
+      "display": "Turkmen"
+    },
+    {
+      "code": "tr",
+      "display": "Turkish"
+    },
+    {
+      "code": "tw",
+      "display": "Twi"
+    },
+    {
+      "code": "ug",
+      "display": "Uighur; Uyghur"
+    },
+    {
+      "code": "uk",
+      "display": "Ukrainian"
+    },
+    {
+      "code": "ur",
+      "display": "Urdu"
+    },
+    {
+      "code": "uz",
+      "display": "Uzbek"
+    },
+    {
+      "code": "ve",
+      "display": "Venda"
+    },
+    {
+      "code": "vi",
+      "display": "Vietnamese"
+    },
+    {
+      "code": "vo",
+      "display": "Volapuk"
+    },
+    {
+      "code": "wa",
+      "display": "Walloon"
+    },
+    {
+      "code": "wo",
+      "display": "Wolof"
+    },
+    {
+      "code": "xh",
+      "display": "Xhosa"
+    },
+    {
+      "code": "yi",
+      "display": "Yiddish"
+    },
+    {
+      "code": "yo",
+      "display": "Yoruba"
+    },
+    {
+      "code": "za",
+      "display": "Zhuang; Chuang"
+    },
+    {
+      "code": "zu",
+      "display": "Zulu"
+    }
+  ]
+}

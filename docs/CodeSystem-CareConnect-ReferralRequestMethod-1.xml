@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ReferralRequestMethod-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Referral Request Method</h2><div><p>A CodeSystem to identify the form in which a referral is sent and received.</p>
+</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="CareConnect-ReferralRequestMethod-1-1"> </a></td><td>Fax</td><td/></tr><tr><td style="white-space:nowrap">2<a name="CareConnect-ReferralRequestMethod-1-2"> </a></td><td>Phone</td><td/></tr><tr><td style="white-space:nowrap">3<a name="CareConnect-ReferralRequestMethod-1-3"> </a></td><td>Secure Messaging</td><td/></tr><tr><td style="white-space:nowrap">4<a name="CareConnect-ReferralRequestMethod-1-4"> </a></td><td>Secure Email</td><td/></tr><tr><td style="white-space:nowrap">5<a name="CareConnect-ReferralRequestMethod-1-5"> </a></td><td>Letter</td><td/></tr><tr><td style="white-space:nowrap">6<a name="CareConnect-ReferralRequestMethod-1-6"> </a></td><td>NHS E-Referral Service</td><td/></tr><tr><td style="white-space:nowrap">7<a name="CareConnect-ReferralRequestMethod-1-7"> </a></td><td>Self Referral</td><td/></tr></table></div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ReferralRequestMethod-1"/>
+  <version value="3.0.0"/>
+  <name value="Care Connect Referral Request Method"/>
+  <status value="draft"/>
+  <date value="2019-07-16T18:43:00+01:00"/>
+  <publisher value="HL7 UK"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="A CodeSystem to identify the form in which a referral is sent and received."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 HL7 UK"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Fax"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Phone"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Secure Messaging"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Secure Email"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Letter"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="NHS E-Referral Service"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Self Referral"/>
+  </concept>
+</CodeSystem>

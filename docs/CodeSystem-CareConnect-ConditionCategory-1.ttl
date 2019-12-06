@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-ConditionCategory-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Category</h2><div><p>A CodeSystem to identify the category of a condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">problem-list-item<a name=\"CareConnect-ConditionCategory-1-problem-list-item\"> </a></td><td>Problem List Item</td><td>An item on a problem list which can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td></tr><tr><td style=\"white-space:nowrap\">encounter-diagnosis<a name=\"CareConnect-ConditionCategory-1-encounter-diagnosis\"> </a></td><td>Encounter Diagnosis</td><td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td></tr><tr><td style=\"white-space:nowrap\">presenting-complaint<a name=\"CareConnect-ConditionCategory-1-presenting-complaint\"> </a></td><td>Presenting Complaint</td><td/></tr><tr><td style=\"white-space:nowrap\">co-morbidity<a name=\"CareConnect-ConditionCategory-1-co-morbidity\"> </a></td><td>Co-morbidity</td><td/></tr><tr><td style=\"white-space:nowrap\">issue<a name=\"CareConnect-ConditionCategory-1-issue\"> </a></td><td>Issue</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1"];
+  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.name [ fhir:value "Care Connect Condition Category"];
+  fhir:CodeSystem.status [ fhir:value "draft"];
+  fhir:CodeSystem.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "A CodeSystem to identify the category of a condition."];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:CodeSystem.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "problem-list-item" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Problem List Item" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "An item on a problem list which can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "encounter-diagnosis" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Encounter Diagnosis" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "presenting-complaint" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Presenting Complaint" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "co-morbidity" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Co-morbidity" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "issue" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Issue" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionCategory-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.UK.BASE\Extensions - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+        <div id="hl7-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK Base</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li><a href="profiles.html">Profiles</a></li>
+  <li><a href="extensions.html">Extensions</a></li>
+  <li><a href="terminology.html">Terminology</a></li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+  <li><a href="artifacts.html">Contents</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Extensions</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">HL7 UK Base - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Extensions</h2>
+  
+  
+  
+<div class="markdown-toc">
+
+</div>
+<tr><td><a href="extension-Extension-CareConnect-ActualProblem-1.html">Extension-CareConnect-ActualProblem-1</a> </td><td><p>A reference to a Condition, Observation, FamilyMemberHistory, or AllergyIntolerance that is the actual problem.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-AdmissionMethod-1.html">Extension-CareConnect-AdmissionMethod-1</a> </td><td><p>Extension-CareConnect-AdmissionMethod-1</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html">Extension-CareConnect-AllergyIntoleranceEnd-1</a> </td><td><p>Supports the date and reason that the allergy was no longer valid.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-AllergySeverity-1.html">Extension-CareConnect-AllergySeverity-1</a> </td><td><p>This Extension resource is constrained to support a coded severity of the allergy/intolerance.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-AnaestheticIssues-1.html">Extension-CareConnect-AnaestheticIssues-1</a> </td><td><p>An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-CareSettingType-1.html">Extension-CareConnect-CareSettingType-1</a> </td><td><p>Extension for a Care Setting which provides the originating care setting for the document.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ClinicalSetting-1.html">Extension-CareConnect-ClinicalSetting-1</a> </td><td><p>An extension to record the clinical setting of a problem list.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-coding-sctdescid.html">Extension-coding-sctdescid</a> </td><td><p>This Extension resource is constrained to support SNOMED CT Description ID for the display.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ConditionEpisode-1.html">Extension-CareConnect-ConditionEpisode-1</a> </td><td><p>The episodicity status of a condition.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-DateRecorded-1.html">Extension-CareConnect-DateRecorded-1</a> </td><td><p>This Extension resource is constrained to support the date that an event was recorded on the system.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-DeathNotificationStatus-1.html">Extension-CareConnect-DeathNotificationStatus-1</a> </td><td><p>This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-DischargeMethod-1.html">Extension-CareConnect-DischargeMethod-1</a> </td><td><p>An extension to the Encounter resource to record the method of discharge from hospital.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html">Extension-CareConnect-EmergencyCareDischargeStatus-1</a> </td><td><p>An extension to the Encounter resource which is used indicate the status of the Patient on discharge from an Emergency Care Department.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-EncounterTransport-1.html">Extension-CareConnect-EncounterTransport-1</a> </td><td><p>An extension to the Encounter resource to include the Transport used by the subject for an encounter.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-EthnicCategory-1.html">Extension-CareConnect-EthnicCategory-1</a> </td><td><p>This extension is constrained to represent the ethnic category for a patient.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-Evidence-1.html">Extension-CareConnect-Evidence-1</a> </td><td><p>This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-FastingStatus-1.html">Extension-CareConnect-FastingStatus-1</a> </td><td><p>This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ListWarningCode-1.html">Extension-CareConnect-ListWarningCode-1</a> </td><td><p>This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MainLocation-1.html">Extension-CareConnect-MainLocation-1</a> </td><td><p>This extension is constrained to represent a reference to the main location for an organization.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationChangeSummary-1.html">Extension-CareConnect-MedicationChangeSummary-1</a> </td><td><p>Indicates the change information of a medication item.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationFlagAssociation-1.html">Extension-CareConnect-MedicationFlagAssociation-1</a> </td><td><p>This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s).</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationQuantityText-1.html">Extension-CareConnect-MedicationQuantityText-1</a> </td><td><p>This Extension resource is constrained to support the textual representation of a medication structured quantity.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationRepeatInformation-1.html">Extension-CareConnect-MedicationRepeatInformation-1</a> </td><td><p>Indicates the specific repeat information of a medication item.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html">Extension-CareConnect-MedicationStatementLastIssueDate-1</a> </td><td><p>Indicates the date a prescription was last issued.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-MedicationStatusReason-1.html">Extension-CareConnect-MedicationStatusReason-1</a> </td><td><p>To record the reason the medication (plan or order) was stopped and the date this occurred.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-NHSCommunication-1.html">Extension-CareConnect-NHSCommunication-1</a> </td><td><p>This extension is constrained to support the communication preferences for a resource in the NHS.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html">Extension-CareConnect-NHSNumberVerificationStatus-1</a> </td><td><p>This extension is constrained to represent the NHS Number Verification Status.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-NominatedPharmacy-1.html">Extension-CareConnect-NominatedPharmacy-1</a> </td><td><p>This extension is constrained to represent a patient's nominated pharmacy.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-OutcomeOfAttendance-1.html">Extension-CareConnect-OutcomeOfAttendance-1</a> </td><td><p>An extension to the Encounter resource to record the outcome of an Out-Patient attendance.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ParentPresent-1.html">Extension-CareConnect-ParentPresent-1</a> </td><td><p>This Extension resource is constrained to indicate whether a parent was present at the Immunization.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-PrescribedElsewhere-1.html">Extension-CareConnect-PrescribedElsewhere-1</a> </td><td><p>An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as &quot;self-prescribed&quot;.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-PrescriptionType-1.html">Extension-CareConnect-PrescriptionType-1</a> </td><td><p>To record the type of prescription.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html">Extension-CareConnect-ProbabilityOfRecurrence-1</a> </td><td><p>This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ProblemSignificance-1.html">Extension-CareConnect-ProblemSignificance-1</a> </td><td><p>An extension to record the significance of the problem header condition.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ReasonCondition-1.html">Extension-CareConnect-ReasonCondition-1</a> </td><td><p>The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-Recorder-1.html">Extension-CareConnect-Recorder-1</a> </td><td><p>This Extension is used to specify who recorded the event.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-RegistrationDetails-1.html">Extension-CareConnect-RegistrationDetails-1</a> </td><td><p>This extension is constrained to represent the additional registration information for a patient.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-RelatedClinicalContent-1.html">Extension-CareConnect-RelatedClinicalContent-1</a> </td><td><p>An Extension to support a reference to any resource that provides related clinical content to the Condition.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-RelatedProblemHeader-1.html">Extension-CareConnect-RelatedProblemHeader-1</a> </td><td><p>A reference to another related problem header condition (target) whose relationship is defined by the relationship type code.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ReligiousAffiliation-1.html">Extension-CareConnect-ReligiousAffiliation-1</a> </td><td><p>This extension is constrained to represent the religious affiliation for a patient.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ReferralRequestMethod-1.html">Extension-CareConnect-ReferralRequestMethod-1</a> </td><td><p>This extension is constrained to represent the method used to send or receive a Referral Request.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ResidentialStatus-1.html">Extension-CareConnect-ResidentialStatus-1</a> </td><td><p>This extension is constrained to represent the residential status for a patient.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-SourceOfReferral-1.html">Extension-CareConnect-SourceOfReferral-1</a> </td><td><p>This extension is constrained to represent the source of the referral of a Referral Request</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-TreatmentCategory-1.html">Extension-CareConnect-TreatmentCategory-1</a> </td><td><p>This extension is constrained to represent the treatment category for a patient.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-VaccinationProcedure-1.html">Extension-CareConnect-VaccinationProcedure-1</a> </td><td><p>An extension to hold an immunization procedure code.</p>
+</td></tr>
+<tr><td><a href="extension-Extension-CareConnect-ValueApproximation-1.html">Extension-CareConnect-ValueApproximation-1</a> </td><td><p>An code to indicate that a given value is only an approximation.</p>
+</td></tr>
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 6, 2019 10:53+0000">2019-12-06</span>
+          <br/>
+          <span style="color: #FFFF77">
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

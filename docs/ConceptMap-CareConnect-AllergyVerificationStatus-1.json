@@ -1,0 +1,90 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "CareConnect-AllergyVerificationStatus-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Concept Map - Allergy Verification Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1)</h2><p>Mapping from <a href=\"valueset-CareConnect-AllergyVerificationStatus-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1</a> to <a href=\"valueset-CareConnect-AllergyCertainty-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1</a></p><p>DRAFT. Published on 14-Nov-2018 00:00:00 by HL7 UK (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>unconfirmed</td><td>equivalent</td><td>385434005 (Improbable diagnosis (contextual qualifier) (qualifier value))</td></tr><tr><td>unconfirmed</td><td>equivalent</td><td>2931005 (Probable diagnosis)</td></tr><tr><td>confirmed</td><td>equivalent</td><td>255545003 (Definite)</td></tr><tr><td>confirmed</td><td>equivalent</td><td>410605003 (Confirmed present (qualifier value))</td></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1",
+  "version": "3.0.0",
+  "name": "Concept Map - Allergy Verification Status",
+  "status": "draft",
+  "date": "2018-11-14T00:00:00+00:00",
+  "publisher": "HL7 UK",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A Concept Map from ValueSet Allergy Verification Status to Allergy Certainity to aid interpretation.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "sourceUri": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1",
+  "targetUri": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1",
+  "group": [
+    {
+      "source": "http://hl7.org/fhir/allergy-verification-status",
+      "target": "http://snomed.info/sct",
+      "element": [
+        {
+          "code": "unconfirmed",
+          "display": "Unconfirmed",
+          "target": [
+            {
+              "code": "385434005",
+              "display": "Improbable diagnosis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "unconfirmed",
+          "display": "Unconfirmed",
+          "target": [
+            {
+              "code": "2931005",
+              "display": "Probable diagnosis",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "confirmed",
+          "display": "Confirmed",
+          "target": [
+            {
+              "code": "255545003",
+              "display": "Definite",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "confirmed",
+          "display": "Confirmed",
+          "target": [
+            {
+              "code": "410605003",
+              "display": "Confirmed present",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CareConnect-MedicationChangeStatus-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Medication Change Status</h2><div><p>A CodeSystem to identify the change status of a medication.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Continued<a name=\"CareConnect-MedicationChangeStatus-1-Continued\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">Added<a name=\"CareConnect-MedicationChangeStatus-1-Added\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">Amended<a name=\"CareConnect-MedicationChangeStatus-1-Amended\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">On-hold<a name=\"CareConnect-MedicationChangeStatus-1-On-hold\"> </a></td><td/></tr></table></div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1",
+  "version": "3.0.0",
+  "name": "Care Connect Medication Change Status",
+  "status": "draft",
+  "date": "2018-11-14T00:00:00+00:00",
+  "publisher": "HL7 UK",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "A CodeSystem to identify the change status of a medication.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "Continued"
+    },
+    {
+      "code": "Added"
+    },
+    {
+      "code": "Amended"
+    },
+    {
+      "code": "On-hold"
+    }
+  ]
+}
