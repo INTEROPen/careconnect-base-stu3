@@ -14,7 +14,7 @@
          <filter>
             <property value="constraint"></property>
             <op value="="></op>
-            <value value="(&lt;&lt;404684003 | clinical findings)"></value>
+            <value value="(&lt;&lt;404684003 | clinical findings|)"></value>
          </filter>
       </include>
    </compose>

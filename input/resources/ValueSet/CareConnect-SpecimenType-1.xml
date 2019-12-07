@@ -14,7 +14,7 @@
          <filter>
             <property value="constraint"></property>
             <op value="="></op>
-            <value value="(&lt;105590001 |Substance (substance)|(in which case method and site should also be populated)OR &lt;49755003 |Morphologically abnormal structure (morphologic abnormality)|OR &lt; 260787004 |Physical object (physical object))"></value>
+            <value value="(&lt;105590001 |Substance (substance)| OR &lt;49755003 |Morphologically abnormal structure (morphologic abnormality)| OR &lt;260787004 |Physical object (physical object))|"></value>
          </filter>
       </include>
    </compose>
