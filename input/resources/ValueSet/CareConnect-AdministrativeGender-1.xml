@@ -2,7 +2,7 @@
    <id value="CareConnect-AdministrativeGender-1"></id>
    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-map">
       <valueReference>
-         <reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1"></reference>
+         <reference value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AdministrativeGender-1"></reference>
       </valueReference>
    </extension>
    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
