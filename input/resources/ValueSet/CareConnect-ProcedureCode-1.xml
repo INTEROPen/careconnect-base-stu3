@@ -6,7 +6,7 @@
    <status value="draft"></status>
    <date value="2018-11-01T00:00:00+00:00"></date>
    <publisher value="HL7 UK"></publisher>
-   <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)."></description>
+   <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)."></description>
    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
    <compose>
       <include>
@@ -14,7 +14,7 @@
          <filter>
             <property value="constraint"></property>
             <op value="="></op>
-            <value value="(&lt;&lt;71388002 |Procedure|&lt;&lt;129125009 |Procedure with explicit context|)"></value>
+            <value value="(&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)"></value>
          </filter>
       </include>
    </compose>
