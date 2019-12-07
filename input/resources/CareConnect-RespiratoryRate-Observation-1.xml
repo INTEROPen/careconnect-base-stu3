@@ -149,7 +149,7 @@
          <max value="1"></max>
          <binding>
             <strength value="extensible"></strength>
-            <description value="This value set indicates the allowed vital sign result types. "></description>
+            <description value="This value set indicates the allowed vital sign result types."></description>
             <valueSetReference>
                <reference value="http://hl7.org/fhir/ValueSet/observation-vitalsignresult"></reference>
             </valueSetReference>
@@ -482,7 +482,7 @@
                <valueString value="ObservationCode"></valueString>
             </extension>
             <strength value="extensible"></strength>
-            <description value="This value set indicates the allowed vital sign result types. "></description>
+            <description value="This value set indicates the allowed vital sign result types."></description>
             <valueSetReference>
                <reference value="http://hl7.org/fhir/ValueSet/observation-vitalsignresult"></reference>
             </valueSetReference>

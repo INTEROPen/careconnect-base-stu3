@@ -31,7 +31,7 @@
    <differential>
       <element id="Extension">
          <path value="Extension"></path>
-         <short value="The residential status of the patient "></short>
+         <short value="The residential status of the patient"></short>
          <definition value="The residential status of the patient. For example if this patient is a UK resident."></definition>
          <max value="1"></max>
       </element>
@@ -42,7 +42,7 @@
       <element id="Extension.valueCodeableConcept:valueCodeableConcept">
          <path value="Extension.valueCodeableConcept"></path>
          <sliceName value="valueCodeableConcept"></sliceName>
-         <short value="The residential status of the patient "></short>
+         <short value="The residential status of the patient"></short>
          <definition value="The residential status of the patient. For example if this patient is a UK resident."></definition>
          <min value="1"></min>
          <type>
