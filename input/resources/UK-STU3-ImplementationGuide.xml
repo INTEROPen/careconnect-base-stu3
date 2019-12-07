@@ -54,6 +54,10 @@
          <name value="UK Examples"></name>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"></description>
       </grouping>
+      <grouping id="uk-capability">
+         <name value="Capability Statement"></name>
+         <description value="Minimal recommended Capability Statement for UK RESTful implementations"></description>
+      </grouping>
       <grouping id="uk-ns">
          <name value="Naming Systems"></name>
          <description value="Represents a 'System' used within Identifier and Coding data types."></description>
@@ -1489,7 +1493,15 @@
          <name value="vs-VaccinationProcedure-1"></name>
          <groupingId value="uk-vs"></groupingId>
       </resource>
-   
+      <!-- Capability Statement 
+      <resource>
+         <reference>
+            <reference value="CapabilityStatement/careconnect-api"></reference>
+         </reference>
+         <name value="careconnect-api"></name>
+         <groupingId value="uk-capability"></groupingId>
+      </resource>
+      -->
       <!-- Naming System -->
       <resource>
          <reference>
