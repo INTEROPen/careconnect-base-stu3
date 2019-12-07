@@ -22,7 +22,7 @@
   ], [
      fhir:index 1;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference" ];
-     fhir:Extension.valueUri [ fhir:value "http://hl7.org/fhir/valueset-reaction-event-severity" ]
+     fhir:Extension.valueUri [ fhir:value " http://hl7.org/fhir/ValueSet/reaction-event-severity" ]
   ], [
      fhir:index 2;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ];

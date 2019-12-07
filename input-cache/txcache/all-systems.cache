@@ -119,3 +119,28 @@ e: {
   "error" : "Error from server: The Snomed Concept 999000811000001105 was not known"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<<105590001 |Substance| OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/v3/NullFlavor",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "=",
+        "value" : "NI"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<<105590001 |Substance| OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------

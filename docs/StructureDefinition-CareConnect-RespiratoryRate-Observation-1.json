@@ -1492,7 +1492,7 @@
         "isSummary": true,
         "binding": {
           "strength": "extensible",
-          "description": "This value set indicates the allowed vital sign result types. ",
+          "description": "This value set indicates the allowed vital sign result types.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/observation-vitalsignresult"
           }
@@ -4995,7 +4995,7 @@
             }
           ],
           "strength": "extensible",
-          "description": "This value set indicates the allowed vital sign result types. ",
+          "description": "This value set indicates the allowed vital sign result types.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/observation-vitalsignresult"
           }
@@ -6787,7 +6787,7 @@
         "max": "1",
         "binding": {
           "strength": "extensible",
-          "description": "This value set indicates the allowed vital sign result types. ",
+          "description": "This value set indicates the allowed vital sign result types.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/observation-vitalsignresult"
           }
@@ -7212,7 +7212,7 @@
             }
           ],
           "strength": "extensible",
-          "description": "This value set indicates the allowed vital sign result types. ",
+          "description": "This value set indicates the allowed vital sign result types.",
           "valueSetReference": {
             "reference": "http://hl7.org/fhir/ValueSet/observation-vitalsignresult"
           }

@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-07T18:52:42+00:00",
+  "date": "2019-12-07T22:28:41+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -1790,7 +1790,7 @@
           ],
           "example": false,
           "name": "AllergyCode-1",
-          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <373873005 |Pharmaceutical / biologic product| OR <716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.",
+          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<105590001 |Substance OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy), or a code from the v3 Code System NullFlavor specifying why a valid value is not present.",
           "sourceReference": {
             "reference": "ValueSet/CareConnect-AllergyCode-1"
           }
@@ -2510,7 +2510,7 @@
           ],
           "example": false,
           "name": "ProcedureCode-1",
-          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure|<<129125009 |Procedure with explicit context|).",
+          "description": "A code from the SNOMED Clinical Terminology UK with the expression (<<71388002 |Procedure| OR <<129125009 |Procedure with explicit context|).",
           "sourceReference": {
             "reference": "ValueSet/CareConnect-ProcedureCode-1"
           }
@@ -3846,14 +3846,14 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "cm-ConditionEpisodicity-1.html"
+              "valueUri": "ConditionEpisodicity-1.html"
             }
           ],
           "example": false,
-          "name": "cm-ConditionEpisodicity-1",
+          "name": "ConditionEpisodicity-1",
           "description": "A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes",
           "sourceReference": {
-            "reference": "ConceptMap/cm-ConditionEpisodicity-1"
+            "reference": "ConceptMap/ConditionEpisodicity-1"
           }
         },
         {
