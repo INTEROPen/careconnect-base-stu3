@@ -14,7 +14,7 @@
          <filter>
             <property value="constraint"></property>
             <op value="="></op>
-            <value value="(&lt; 442083009 Anatomical or acquired body structure OR &lt; 49755003 Morphologically abnormal structure)"></value>
+            <value value="(&lt;442083009 |Anatomical or acquired body structure| OR &lt;49755003 |Morphologically abnormal structure|)"></value>
          </filter>
       </include>
    </compose>
