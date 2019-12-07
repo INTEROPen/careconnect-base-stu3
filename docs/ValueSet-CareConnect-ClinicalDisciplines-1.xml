@@ -3,12 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-ClinicalDisciplines-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Clinical Disciplinesy</h2><div><p>A ValueSet to identify the clincial discipline of the care professional or team.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Clinical Disciplines</h2><div><p>A ValueSet to identify the clincial discipline of the care professional or team.</p>
 </div><p><b>Copyright Statement:</b> Copyright © 2019 NHS Digital</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ClinicalDisciplines-1</code></li></ul></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ClinicalDisciplines-1"/>
   <version value="3.0.0"/>
-  <name value="Care Connect Clinical Disciplinesy"/>
+  <name value="Care Connect Clinical Disciplines"/>
   <status value="draft"/>
   <date value="2019-03-21T00:00:00+00:00"/>
   <publisher value="HL7 UK"/>
