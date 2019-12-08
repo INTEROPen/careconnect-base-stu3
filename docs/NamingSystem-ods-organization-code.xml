@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="ods-organization-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: ods-organization-code</p><p><b>name</b>: ODS Organisation Code</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 1 May 2019, 00:00:00</p><p><b>publisher</b>: HL7 UK</p><p><b>contact</b>: </p><p><b>responsible</b>: NHS Digital</p><p><b>description</b>: The identifier system for an Organisation registered with the Organisation Data Service (ODS).</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: To be used to identify an Organisation registered with the Organisation Data Service (ODS).</p><blockquote><p><b>uniqueId</b></p><p><b>type</b>: uri</p><p><b>value</b>: https://fhir.nhs.uk/Id/ods-organization-code</p><p><b>preferred</b>: true</p></blockquote><blockquote><p><b>uniqueId</b></p><p><b>type</b>: oid</p><p><b>value</b>: 2.16.840.1.113883.2.1.4.3</p><p><b>preferred</b>: false</p></blockquote></div>
+  </text>
+  <name value="ODS Organisation Code"/>
+  <status value="draft"/>
+  <kind value="identifier"/>
+  <date value="2019-05-01T00:00:00+01:00"/>
+  <publisher value="HL7 UK"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <responsible value="NHS Digital"/>
+  <description value="The identifier system for an Organisation registered with the Organisation Data Service (ODS)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <usage value="To be used to identify an Organisation registered with the Organisation Data Service (ODS)."/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+    <preferred value="true"/>
+  </uniqueId>
+  <uniqueId>
+    <type value="oid"/>
+    <value value="2.16.840.1.113883.2.1.4.3"/>
+    <preferred value="false"/>
+  </uniqueId>
+</NamingSystem>

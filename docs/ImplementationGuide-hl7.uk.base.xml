@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-08T18:55:36+00:00"/>
+  <date value="2019-12-08T21:51:40+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -2802,19 +2802,70 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
+        <valueString value="Encounter"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="patient-1.html"/>
+        <valueUri value="encounter-1.html"/>
       </extension>
       <example value="true"/>
-      <name value="Patient example"/>
-      <description value="Level 2 Example"/>
+      <name value="Encounter admission example"/>
+      <description value="Hospital Inpatient Admission"/>
       <sourceReference>
-        <reference value="Patient/patient-1"/>
+        <reference value="Encounter/encounter-1"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Patient-1"/>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="encounter-2.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Encounter transfer example"/>
+      <description value="Hospital Inpatient Transfer"/>
+      <sourceReference>
+        <reference value="Encounter/encounter-2"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="encounter-735.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Encounter emergency example"/>
+      <description value="Hospital emergency encounter"/>
+      <sourceReference>
+        <reference value="Encounter/encounter-735"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="location-200014.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Location example"/>
+      <description value="Hospital Emergency Department"/>
+      <sourceReference>
+        <reference value="Location/location-200014"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Location-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2832,40 +2883,6 @@
       </sourceReference>
       <exampleFor>
         <reference value="StructureDefinition/CareConnect-Observation-1"/>
-      </exampleFor>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="practitioner-4.html"/>
-      </extension>
-      <example value="true"/>
-      <name value="Practitioner example"/>
-      <description value="General Practitioner"/>
-      <sourceReference>
-        <reference value="Practitioner/practitioner-4"/>
-      </sourceReference>
-      <exampleFor>
-        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
-      </exampleFor>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="practitioner-3.html"/>
-      </extension>
-      <example value="true"/>
-      <name value="Practitioner example"/>
-      <description value="Hospital Consultant"/>
-      <sourceReference>
-        <reference value="Practitioner/practitioner-3"/>
-      </sourceReference>
-      <exampleFor>
-        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2918,76 +2935,101 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
+        <valueString value="Patient"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="location-200014.html"/>
+        <valueUri value="patient-1.html"/>
       </extension>
       <example value="true"/>
-      <name value="Location example"/>
-      <description value="Hospital Emergency Department"/>
+      <name value="Patient example"/>
+      <description value="Level 2 Example"/>
       <sourceReference>
-        <reference value="Location/location-200014"/>
+        <reference value="Patient/patient-1"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Location-1"/>
+        <reference value="StructureDefinition/CareConnect-Patient-1"/>
       </exampleFor>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
+        <valueString value="Practitioner"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-1.html"/>
+        <valueUri value="practitioner-4.html"/>
       </extension>
       <example value="true"/>
-      <name value="Encounter admission example"/>
-      <description value="Hospital Inpatient Admission"/>
+      <name value="Practitioner example"/>
+      <description value="General Practitioner"/>
       <sourceReference>
-        <reference value="Encounter/encounter-1"/>
+        <reference value="Practitioner/practitioner-4"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
       </exampleFor>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
+        <valueString value="Practitioner"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-2.html"/>
+        <valueUri value="practitioner-3.html"/>
       </extension>
       <example value="true"/>
-      <name value="Encounter transfer example"/>
-      <description value="Hospital Inpatient Transfer"/>
+      <name value="Practitioner example"/>
+      <description value="Hospital Consultant"/>
       <sourceReference>
-        <reference value="Encounter/encounter-2"/>
+        <reference value="Practitioner/practitioner-3"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
-      </exampleFor>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-735.html"/>
-      </extension>
-      <example value="true"/>
-      <name value="Encounter emergency example"/>
-      <description value="Hospital emergency encounter"/>
-      <sourceReference>
-        <reference value="Encounter/encounter-735"/>
-      </sourceReference>
-      <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
       </exampleFor>
     </resource>
   </package>
   <package id="uk-ns">
     <name value="Naming Systems"/>
     <description value="Represents a &#39;System&#39; used within Identifier and Coding data types."/>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ods-organization-code.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ods-organization-code"/>
+      <description value="The identifier system for an Organisation registered with the Organisation Data Service (ODS)."/>
+      <sourceReference>
+        <reference value="NamingSystem/ods-organization-code"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="ods-site-code.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ods-site-code"/>
+      <description value="The identifier system for an Organisation site registered with the Organisation Data Service (ODS)."/>
+      <sourceReference>
+        <reference value="NamingSystem/ods-site-code"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="sds-user-id.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="sds-user-id"/>
+      <description value="The user&#39;s unique identifier on the NHS Spine Directory Service."/>
+      <sourceReference>
+        <reference value="NamingSystem/sds-user-id"/>
+      </sourceReference>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
@@ -3011,7 +3053,7 @@
       </extension>
       <example value="false"/>
       <name value="uk-nhs-number"/>
-      <description value="NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)"/>
+      <description value="NHS Number allocated to the patient in England and Wales    . [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)"/>
       <sourceReference>
         <reference value="NamingSystem/uk-nhs-number"/>
       </sourceReference>
@@ -3175,6 +3217,11 @@
     <page>
       <source value="namingsystems.html"/>
       <title value="NamingSystems"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="examples.html"/>
+      <title value="Examples"/>
       <kind value="resource"/>
     </page>
   </page>

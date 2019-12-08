@@ -10,8 +10,15 @@
       </li>
     </ul>
   </li>
-  <li><a href="profiles.html">Profiles</a></li>
-  <li><a href="extensions.html">Extensions</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">Care Connect Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+    </ul>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
     </b>
@@ -32,5 +39,5 @@
     </ul>
   </li>
   <!--<li><a href="examples.html">Examples</a></li>-->
-  <li><a href="artifacts.html">Artifact Index</a></li>
+  <!--<li><a href="artifacts.html">Artifact Index</a></li>-->
 </ul>

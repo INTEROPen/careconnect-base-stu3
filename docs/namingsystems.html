@@ -83,8 +83,15 @@
       </li>
     </ul>
   </li>
-  <li><a href="profiles.html">Profiles</a></li>
-  <li><a href="extensions.html">Extensions</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">Care Connect Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+    </ul>
+  </li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
     </b>
@@ -105,7 +112,7 @@
     </ul>
   </li>
   <!--<li><a href="examples.html">Examples</a></li>-->
-  <li><a href="artifacts.html">Artifact Index</a></li>
+  <!--<li><a href="artifacts.html">Artifact Index</a></li>-->
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -145,9 +152,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Naming Systems used in this implementation guide.</p>
 
+<tr><td><a href="ods-organization-code.html">ODS Organisation Code</a> </td><td><p>The identifier system for an Organisation registered with the Organisation Data Service (ODS).</p>
+</td></tr>
+<tr><td><a href="ods-site-code.html">ODS Organisation Site Code</a> </td><td><p>The identifier system for an Organisation site registered with the Organisation Data Service (ODS).</p>
+</td></tr>
+<tr><td><a href="sds-user-id.html">SDS User ID</a> </td><td><p>The user's unique identifier on the NHS Spine Directory Service.</p>
+</td></tr>
 <tr><td><a href="uk-chi-number.html">CHI Number</a> </td><td><p>Community Health Index Number allocated to the patient in Scotland. <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp">CHI Number</a></p>
 </td></tr>
-<tr><td><a href="uk-nhs-number.html">NHS Number</a> </td><td><p>NHS Number allocated to the patient in England and Wales. <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp">NHS Number</a></p>
+<tr><td><a href="uk-nhs-number.html">NHS Number</a> </td><td><p>NHS Number allocated to the patient in England and Wales    . <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp">NHS Number</a></p>
 </td></tr>
 <tr><td><a href="uk-gmp-number.html">GMP Number</a> </td><td><p>General Practitioner (GMP) number. See <a href="https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp">NHS Data Dictionary</a></p>
 </td></tr>
@@ -166,7 +179,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 18:55+0000">2019-12-08</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 21:51+0000">2019-12-08</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

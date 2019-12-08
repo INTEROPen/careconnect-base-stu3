@@ -3,9 +3,9 @@
 
 err = 70, warn = 16, info = 12
 IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.15-SNAPSHOT
-Generated Sun Dec 08 19:00:39 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Sun Dec 08 21:56:58 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
- Build Errors : 7 / 1
+ Build Errors : 6 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1 : 0 / 2
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2 : 0 / 1
@@ -148,6 +148,9 @@ Generated Sun Dec 08 19:00:39 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-MaritalStatus-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-PersonNameType-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/ConditionEpisodicity-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/ods-organization-code : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/ods-site-code : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/sds-user-id : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-chi-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmc-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmp-number : 0 / 0
@@ -227,13 +230,12 @@ Generated Sun Dec 08 19:00:39 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
 </table>
 == n/a ==
 WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 886 column 99
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/CareConnect-Location-1.html#/html/body/div/div/div/div/div/div/div/p/a at Line 183, column 9: The link 'location-1.html' for "Emergency Department Example" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 893 column 99
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json ==
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.type: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#734163000)
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.context.practiceSetting: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708168004)
@@ -393,6 +395,9 @@ WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resourc
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-MaritalStatus-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-PersonNameType-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/ConditionEpisodicity-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/ods-organization-code.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/ods-site-code.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/sds-user-id.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-chi-number.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmc-number.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmp-number.xml ==
