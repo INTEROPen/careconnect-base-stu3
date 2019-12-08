@@ -35,8 +35,8 @@
   <body>
 
 
-    <style type="text/css">h2{--heading-prefix:"8"}
-    h3,h4,h5,h6{--heading-prefix:"8.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"9"}
+    h3,h4,h5,h6{--heading-prefix:"9.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
@@ -98,6 +98,9 @@
       </li>
       <li>
         <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+      <li>
+        <a href="namingsystems.html">NamingSystems</a>
       </li>
     </ul>
   </li>
@@ -1616,19 +1619,56 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <td style="column-width:30%">
                   <a href="practitioner-4.html" title="Practitioner/practitioner-4">  •  Practitioner example</a>
                </td>
-               <td>Level 3 Example</td>
+               <td>General Practitioner</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="organization-2.html" title="Organization/organization-2">  •  Organization example</a>
+                  <a href="practitioner-3.html" title="Practitioner/practitioner-3">  •  Practitioner example</a>
                </td>
-               <td>Level 3 Example</td>
+               <td>Hospital Consultant</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="organization-3.html" title="Organization/organization-3">  •  Organization example</a>
+                  <a href="organization-2.html" title="Organization/organization-2">  •  Organization GP Surgery example</a>
                </td>
-               <td>Level 3 Example</td>
+               <td>GP Surgery</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="organization-3.html" title="Organization/organization-3">  •  Organization CCG example</a>
+               </td>
+               <td>Clinical Commissioning Group</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="organization-200001.html"
+                     title="Organization/organization-200001">  •  Organization NHS Trust example</a>
+               </td>
+               <td>NHS Hospital Trust</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="location-200014.html" title="Location/location-200014">  •  Location example</a>
+               </td>
+               <td>Hospital Emergency Department</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="encounter-1.html" title="Encounter/encounter-1">  •  Encounter admission example</a>
+               </td>
+               <td>Hospital Inpatient Admission</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="encounter-2.html" title="Encounter/encounter-2">  •  Encounter transfer example</a>
+               </td>
+               <td>Hospital Inpatient Transfer</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="encounter-735.html" title="Encounter/encounter-735">  •  Encounter emergency example</a>
+               </td>
+               <td>Hospital emergency encounter</td>
             </tr>
          </tbody>
       </table>
@@ -1641,9 +1681,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="uk-chi-number.html" title="NamingSystem/uk-chi-number">  •  uk-chi-number</a>
+               </td>
+               <td>Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="uk-nhs-number.html" title="NamingSystem/uk-nhs-number">  •  uk-nhs-number</a>
                </td>
-               <td>NHS Number allocated to the patient.</td>
+               <td>NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)</td>
             </tr>
             <tr>
                <td style="column-width:30%">
@@ -1655,7 +1701,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                <td style="column-width:30%">
                   <a href="uk-gmc-number.html" title="NamingSystem/uk-gmc-number">  •  uk-gmc-number</a>
                </td>
-               <td>General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)</td>
+               <td>General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)</td>
             </tr>
          </tbody>
       </table>
@@ -1724,7 +1770,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 13:06+0000">2019-12-08</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 16:02+0000">2019-12-08</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

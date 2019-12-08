@@ -1,0 +1,41 @@
+{
+  "resourceType": "Location",
+  "id": "location-200014",
+  "meta": {
+    "lastUpdated": "2018-10-18T16:04:38.978+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.yas.nhs.uk/Location/Identifier",
+      "value": "RC8-EDP"
+    }
+  ],
+  "name": "Pinderfields: Emergency Department",
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/RoleCode",
+        "code": "ETU",
+        "display": "Emergency trauma unit"
+      }
+    ]
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "airwave-87351940",
+      "use": "mobile"
+    }
+  ],
+  "position": {
+    "longitude": -1.4885550000,
+    "latitude": 53.6924180000
+  },
+  "managingOrganization": {
+    "reference": "Organization/organization-200001",
+    "display": "Mid Yorkshire Hospitals Nhs Trust"
+  }
+}

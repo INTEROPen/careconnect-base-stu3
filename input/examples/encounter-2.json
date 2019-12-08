@@ -1,0 +1,46 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-2",
+  "meta": {
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+    ]
+  },
+  "status": "in-progress",
+  "class": {
+    "system": "http://hl7.org/fhir/v3/ActCode",
+    "code": "IMP",
+    "display": "inpatient encounter"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "308292007",
+          "display": "Transfer of care"
+        }
+      ]
+    }
+  ],
+  "priority": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/ActPriority",
+        "code": "R",
+        "display": "routine"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patient-1",
+    "display": "Miss Bernie Kanfeld"
+  },
+  "period": {
+    "start": "2010-10-21T13:15:00+00:00"
+  },
+  "serviceProvider": {
+    "reference": "Organization/organization-200001",
+    "display": "North Riding NHS Trust"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType": "Location",
+  "id": "location-200014",
+  "meta": {
+    "lastUpdated": "2018-10-18T16:04:38.978+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: location-200014</p><p><b>meta</b>: </p><p><b>identifier</b>: RC8-EDP</p><p><b>name</b>: Pinderfields: Emergency Department</p><p><b>type</b>: Emergency trauma unit <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/v3/RoleCode code 'ETU' = 'Emergency trauma unit', given as 'Emergency trauma unit'})</span></p><p><b>telecom</b>: ph: airwave-87351940(MOBILE)</p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>-1.4885550000</td><td>53.6924180000</td></tr></table><p><b>managingOrganization</b>: <a href=\"{{[id]}}.html\">Mid Yorkshire Hospitals Nhs Trust. Generated Summary: id: organization-200001; RC8; name: North Riding NHS Trust</a></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.yas.nhs.uk/Location/Identifier",
+      "value": "RC8-EDP"
+    }
+  ],
+  "name": "Pinderfields: Emergency Department",
+  "type": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/RoleCode",
+        "code": "ETU",
+        "display": "Emergency trauma unit"
+      }
+    ]
+  },
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "airwave-87351940",
+      "use": "mobile"
+    }
+  ],
+  "position": {
+    "longitude": -1.4885550000,
+    "latitude": 53.6924180000
+  },
+  "managingOrganization": {
+    "reference": "Organization/organization-200001",
+    "display": "Mid Yorkshire Hospitals Nhs Trust"
+  }
+}

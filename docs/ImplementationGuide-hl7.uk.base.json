@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-08T13:06:15+00:00",
+  "date": "2019-12-08T16:02:11+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -3667,9 +3667,30 @@
           ],
           "example": true,
           "name": "Practitioner example",
-          "description": "Level 3 Example",
+          "description": "General Practitioner",
           "sourceReference": {
             "reference": "Practitioner/practitioner-4"
+          },
+          "exampleFor": {
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Practitioner"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "practitioner-3.html"
+            }
+          ],
+          "example": true,
+          "name": "Practitioner example",
+          "description": "Hospital Consultant",
+          "sourceReference": {
+            "reference": "Practitioner/practitioner-3"
           },
           "exampleFor": {
             "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"
@@ -3687,8 +3708,8 @@
             }
           ],
           "example": true,
-          "name": "Organization example",
-          "description": "Level 3 Example",
+          "name": "Organization GP Surgery example",
+          "description": "GP Surgery",
           "sourceReference": {
             "reference": "Organization/organization-2"
           }
@@ -3705,13 +3726,118 @@
             }
           ],
           "example": true,
-          "name": "Organization example",
-          "description": "Level 3 Example",
+          "name": "Organization CCG example",
+          "description": "Clinical Commissioning Group",
           "sourceReference": {
             "reference": "Organization/organization-3"
           },
           "exampleFor": {
             "reference": "StructureDefinition/CareConnect-Organization-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Organization"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "organization-200001.html"
+            }
+          ],
+          "example": true,
+          "name": "Organization NHS Trust example",
+          "description": "NHS Hospital Trust",
+          "sourceReference": {
+            "reference": "Organization/organization-200001"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-Organization-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Location"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "location-200014.html"
+            }
+          ],
+          "example": true,
+          "name": "Location example",
+          "description": "Hospital Emergency Department",
+          "sourceReference": {
+            "reference": "Location/location-200014"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-Location-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Encounter"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "encounter-1.html"
+            }
+          ],
+          "example": true,
+          "name": "Encounter admission example",
+          "description": "Hospital Inpatient Admission",
+          "sourceReference": {
+            "reference": "Encounter/encounter-1"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-Encounter-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Encounter"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "encounter-2.html"
+            }
+          ],
+          "example": true,
+          "name": "Encounter transfer example",
+          "description": "Hospital Inpatient Transfer",
+          "sourceReference": {
+            "reference": "Encounter/encounter-2"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-Encounter-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Encounter"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "encounter-735.html"
+            }
+          ],
+          "example": true,
+          "name": "Encounter emergency example",
+          "description": "Hospital emergency encounter",
+          "sourceReference": {
+            "reference": "Encounter/encounter-735"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-Encounter-1"
           }
         }
       ]
@@ -3729,12 +3855,30 @@
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "uk-chi-number.html"
+            }
+          ],
+          "example": false,
+          "name": "uk-chi-number",
+          "description": "Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)",
+          "sourceReference": {
+            "reference": "NamingSystem/uk-chi-number"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
               "valueUri": "uk-nhs-number.html"
             }
           ],
           "example": false,
           "name": "uk-nhs-number",
-          "description": "NHS Number allocated to the patient.",
+          "description": "NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)",
           "sourceReference": {
             "reference": "NamingSystem/uk-nhs-number"
           }
@@ -3770,7 +3914,7 @@
           ],
           "example": false,
           "name": "uk-gmc-number",
-          "description": "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)",
+          "description": "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)",
           "sourceReference": {
             "reference": "NamingSystem/uk-gmc-number"
           }
@@ -3931,6 +4075,11 @@
       {
         "source": "conceptmaps.html",
         "title": "ConceptMaps",
+        "kind": "resource"
+      },
+      {
+        "source": "namingsystems.html",
+        "title": "NamingSystems",
         "kind": "resource"
       }
     ]

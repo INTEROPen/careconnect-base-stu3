@@ -10,6 +10,7 @@ This document presents UK use concepts defined via FHIR processable artefacts; t
 * [Profiles](profiles.html) - are useful constraints of core FHIR resources and datatype for UK use
 * [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed UK concepts
 * **Terminologies** - are defined or referenced in [code systems](codesystems.html), [value sets](valuesets.html) and [concept maps](conceptmaps.html) for UK context
+* [NamingSystems](namingsystems.html) - represents a "System" used within the Identifier and Coding data types, e.g. NHS Number.
 
 ### Usage
 

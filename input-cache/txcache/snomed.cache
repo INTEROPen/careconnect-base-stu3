@@ -2058,3 +2058,135 @@ v: {
   "error" : "The Snomed Concept 999000381000000107 was not known"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Admission for care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Transfer of care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Ambulance-based care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003",
+  "display" : "Admission for care"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Admission for care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003",
+  "display" : "Admission for care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007",
+  "display" : "Transfer of care"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Transfer of care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007",
+  "display" : "Transfer of care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001",
+  "display" : "Ambulance-based care"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Ambulance-based care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001",
+  "display" : "Ambulance-based care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------

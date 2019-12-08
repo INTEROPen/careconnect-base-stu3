@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-08T13:06:15+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-08T16:02:11+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3666,7 +3666,7 @@
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner example" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "Level 3 Example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "General Practitioner" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-4>;
          fhir:Reference.reference [ fhir:value "Practitioner/practitioner-4" ]
@@ -3680,18 +3680,22 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "organization-2.html" ]
+         fhir:Extension.valueUri [ fhir:value "practitioner-3.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization example" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "Level 3 Example" ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Hospital Consultant" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-2>;
-         fhir:Reference.reference [ fhir:value "Organization/organization-2" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-3>;
+         fhir:Reference.reference [ fhir:value "Practitioner/practitioner-3" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1>;
+         fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" ]
        ]
      ], [
        fhir:index 5;
@@ -3702,11 +3706,29 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "organization-2.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization GP Surgery example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "GP Surgery" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-2>;
+         fhir:Reference.reference [ fhir:value "Organization/organization-2" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "organization-3.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization example" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "Level 3 Example" ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization CCG example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Clinical Commissioning Group" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-3>;
          fhir:Reference.reference [ fhir:value "Organization/organization-3" ]
@@ -3714,6 +3736,116 @@
        fhir:ImplementationGuide.package.resource.exampleFor [
          fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Organization-1" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "organization-200001.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization NHS Trust example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "NHS Hospital Trust" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-200001>;
+         fhir:Reference.reference [ fhir:value "Organization/organization-200001" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Organization-1" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "location-200014.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Location example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Hospital Emergency Department" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Location/location-200014>;
+         fhir:Reference.reference [ fhir:value "Location/location-200014" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Location-1" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "encounter-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter admission example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Hospital Inpatient Admission" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Encounter/encounter-1>;
+         fhir:Reference.reference [ fhir:value "Encounter/encounter-1" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Encounter-1" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "encounter-2.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter transfer example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Hospital Inpatient Transfer" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Encounter/encounter-2>;
+         fhir:Reference.reference [ fhir:value "Encounter/encounter-2" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Encounter-1" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "encounter-735.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter emergency example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Hospital emergency encounter" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/Encounter/encounter-735>;
+         fhir:Reference.reference [ fhir:value "Encounter/encounter-735" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Encounter-1" ]
        ]
      ]
   ], [
@@ -3730,17 +3862,35 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "uk-chi-number.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-chi-number" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-chi-number>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/uk-chi-number" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "uk-nhs-number.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-nhs-number" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "NHS Number allocated to the patient." ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-nhs-number>;
          fhir:Reference.reference [ fhir:value "NamingSystem/uk-nhs-number" ]
        ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3758,7 +3908,7 @@
          fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmp-number" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3770,7 +3920,7 @@
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-gmc-number" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-gmc-number>;
          fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmc-number" ]
@@ -3929,6 +4079,11 @@
        fhir:index 6;
        fhir:ImplementationGuide.page.source [ fhir:value "conceptmaps.html" ];
        fhir:ImplementationGuide.page.title [ fhir:value "ConceptMaps" ];
+       fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.page.source [ fhir:value "namingsystems.html" ];
+       fhir:ImplementationGuide.page.title [ fhir:value "NamingSystems" ];
        fhir:ImplementationGuide.page.kind [ fhir:value "resource" ]
      ]
   ] .

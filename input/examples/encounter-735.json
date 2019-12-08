@@ -1,0 +1,56 @@
+{
+  "resourceType": "Encounter",
+  "id": "encounter-735",
+  "meta": {
+    "lastUpdated": "2018-12-06T13:44:10.257+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://fhir.yas.nhs.uk/Encounter/Identifier",
+      "value": "663"
+    }
+  ],
+  "status": "in-progress",
+  "class": {
+    "system": "http://hl7.org/fhir/v3/ActCode",
+    "code": "EMER",
+    "display": "emergency"
+  },
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "11424001",
+          "display": "Ambulance-based care"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patient-1",
+    "display": "Miss Bernie Kanfeld"
+  },
+  "period": {
+    "start": "2018-12-06T13:39:04+00:00"
+  },
+  "location": [
+    {
+      "location": {
+        "reference": "Location/location-200014",
+        "display": "Pinderfields: Emergency Department"
+      },
+      "status": "planned"
+    }
+  ],
+  "serviceProvider": {
+    "reference": "Organization/organization-200001",
+    "display": "North Riding NHS Trust"
+  },
+  "partOf": {
+    "reference": "Encounter/encounter-1"
+  }
+}

@@ -1,6 +1,6 @@
 This is a UK supplement to [HL7 FHIR Validating Resources](https://www.hl7.org/fhir/stu3/validation.html) 
 
-### Using the FHIR Validator (UK)
+### Using the FHIR Validator
 
 [Using the FHIR Validator](https://wiki.hl7.org/Using_the_FHIR_Validator). 
 
@@ -23,7 +23,7 @@ The **FHIR Validator** does not currently work 100% with the [Beta Version - NHS
 > java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3 -tx https://ontoserver.dataproducts.nhs.uk/fhir/
 
 
-### Asking a FHIR Server (UK)
+### Asking a FHIR Server
 
 The [operation validate](https://www.hl7.org/fhir/stu3/resource-operations.html#2.28.7.1) is supported by a number of servers. These include:
 
@@ -41,6 +41,7 @@ Request:
 
 ```
 POST https://fhir.airelogic.com/ccri-fhir/STU3/$validate?profile=https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
+Content-Type application/fhir+json
 [other headers]
 ```
 Body:

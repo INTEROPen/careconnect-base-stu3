@@ -99,6 +99,9 @@
       <li>
         <a href="conceptmaps.html">ConceptMaps</a>
       </li>
+      <li>
+        <a href="namingsystems.html">NamingSystems</a>
+      </li>
     </ul>
   </li>
   <!--<li><a href="examples.html">Examples</a></li>-->
@@ -138,12 +141,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#using-the-fhir-validator-uk" id="markdown-toc-using-the-fhir-validator-uk">Using the FHIR Validator (UK)</a>    <ul>
+  <li><a href="#using-the-fhir-validator" id="markdown-toc-using-the-fhir-validator">Using the FHIR Validator</a>    <ul>
       <li><a href="#example" id="markdown-toc-example">Example</a></li>
       <li><a href="#terminology-support" id="markdown-toc-terminology-support">Terminology Support</a></li>
     </ul>
   </li>
-  <li><a href="#asking-a-fhir-server-uk" id="markdown-toc-asking-a-fhir-server-uk">Asking a FHIR Server (UK)</a>    <ul>
+  <li><a href="#asking-a-fhir-server" id="markdown-toc-asking-a-fhir-server">Asking a FHIR Server</a>    <ul>
       <li><a href="#example-1" id="markdown-toc-example-1">Example</a></li>
     </ul>
   </li>
@@ -153,7 +156,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <p>This is a UK supplement to <a href="https://www.hl7.org/fhir/stu3/validation.html">HL7 FHIR Validating Resources</a></p>
 
-<h3 id="using-the-fhir-validator-uk">Using the FHIR Validator (UK)</h3>
+<h3 id="using-the-fhir-validator">Using the FHIR Validator</h3>
 
 <p><a href="https://wiki.hl7.org/Using_the_FHIR_Validator">Using the FHIR Validator</a>.</p>
 
@@ -179,7 +182,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p>java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3 -tx https://ontoserver.dataproducts.nhs.uk/fhir/</p>
 </blockquote>
 
-<h3 id="asking-a-fhir-server-uk">Asking a FHIR Server (UK)</h3>
+<h3 id="asking-a-fhir-server">Asking a FHIR Server</h3>
 
 <p>The <a href="https://www.hl7.org/fhir/stu3/resource-operations.html#2.28.7.1">operation validate</a> is supported by a number of servers. These include:</p>
 
@@ -198,6 +201,7 @@ The code for both FHIR servers can be found on the <a href="https://github.com/n
 <p>Request:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://fhir.airelogic.com/ccri-fhir/STU3/$validate?profile=https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
+Content-Type application/fhir+json
 [other headers]
 </code></pre></div></div>
 <p>Body:</p>
@@ -327,7 +331,7 @@ The code for both FHIR servers can be found on the <a href="https://github.com/n
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 13:06+0000">2019-12-08</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 16:02+0000">2019-12-08</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

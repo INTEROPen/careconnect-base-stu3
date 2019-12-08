@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="encounter-1"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: encounter-1</p><p><b>meta</b>: </p><p><b>status</b>: arrived</p><p><b>class</b>: inpatient encounter (Details: http://hl7.org/fhir/v3/ActCode code IMP = 'inpatient encounter', stated as 'inpatient encounter')</p><p><b>type</b>: Admission for care <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '281685003' = 'Admission for care', given as 'Admission for care'})</span></p><p><b>priority</b>: routine <span style="background: LightGoldenRodYellow">(Details : {http://hl7.org/fhir/v3/ActPriority code 'R' = 'routine', given as 'routine'})</span></p><p><b>subject</b>: <a href="{{[id]}}.html">Miss Bernie Kanfeld. Generated Summary: id: patient-1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title="Codes: {http://hl7.org/fhir/v3/MaritalStatus S}">Never Married</span></a></p><p><b>period</b>: 20 Oct 2010, 18:16:00 --&gt; (ongoing)</p><p><b>serviceProvider</b>: <a href="{{[id]}}.html">North Riding NHS Trust. Generated Summary: id: organization-200001; RC8; name: North Riding NHS Trust</a></p></div>
+  </text>
+  <status value="arrived"/>
+  <class>
+    <system value="http://hl7.org/fhir/v3/ActCode"/>
+    <code value="IMP"/>
+    <display value="inpatient encounter"/>
+  </class>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="281685003"/>
+      <display value="Admission for care"/>
+    </coding>
+  </type>
+  <priority>
+    <coding>
+      <system value="http://hl7.org/fhir/v3/ActPriority"/>
+      <code value="R"/>
+      <display value="routine"/>
+    </coding>
+  </priority>
+  <subject>
+    <reference value="Patient/patient-1"/>
+    <display value="Miss Bernie Kanfeld"/>
+  </subject>
+  <period>
+    <start value="2010-10-20T17:16:00+00:00"/>
+  </period>
+  <serviceProvider>
+    <reference value="Organization/organization-200001"/>
+    <display value="North Riding NHS Trust"/>
+  </serviceProvider>
+</Encounter>

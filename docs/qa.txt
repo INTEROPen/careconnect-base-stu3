@@ -1,16 +1,22 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 70, warn = 10, info = 8
+err = 70, warn = 16, info = 12
 IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.15-SNAPSHOT
-Generated Sun Dec 08 13:10:41 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Sun Dec 08 16:10:11 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
- Build Errors : 6 / 1
+ Build Errors : 7 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1 : 0 / 2
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1 : 0 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2 : 0 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735 : 0 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-200001 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1 : 0 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1 : 0 / 0
@@ -142,6 +148,7 @@ Generated Sun Dec 08 13:10:41 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-MaritalStatus-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-PersonNameType-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/ConditionEpisodicity-1 : 0 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-chi-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmc-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmp-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-nhs-number : 0 / 0
@@ -220,21 +227,33 @@ Generated Sun Dec 08 13:10:41 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
 </table>
 == n/a ==
 WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 883 column 99
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 886 column 99
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/CareConnect-Location-1.html#/html/body/div/div/div/div/div/div/div/p/a at Line 183, column 9: The link 'location-1.html' for "Emergency Department Example" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 149, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json ==
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.type: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#734163000)
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.context.practiceSetting: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708168004)
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1.json ==
+WARNING: Encounter/encounter-1: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2.json ==
+WARNING: Encounter/encounter-2: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735.json ==
+WARNING: Encounter/encounter-735: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014.json ==
+INFORMATION: Location/location-200014: Location.identifier[0]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml ==
 WARNING: Observation/observation-9084: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-200001.json ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1.xml ==
 INFORMATION: Patient/patient-1: Patient.identifier[1]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3.json ==
+INFORMATION: Practitioner/practitioner-3: Practitioner.identifier[1]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4.xml ==
 INFORMATION: Practitioner/practitioner-4: Practitioner.identifier[0]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1.xml ==
@@ -374,6 +393,7 @@ WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resourc
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-MaritalStatus-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-PersonNameType-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/ConditionEpisodicity-1.xml ==
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-chi-number.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmc-number.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmp-number.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-nhs-number.xml ==

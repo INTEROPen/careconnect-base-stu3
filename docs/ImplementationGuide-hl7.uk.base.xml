@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-08T13:06:15+00:00"/>
+  <date value="2019-12-08T16:02:11+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -2843,9 +2843,26 @@
       </extension>
       <example value="true"/>
       <name value="Practitioner example"/>
-      <description value="Level 3 Example"/>
+      <description value="General Practitioner"/>
       <sourceReference>
         <reference value="Practitioner/practitioner-4"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="practitioner-3.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Practitioner example"/>
+      <description value="Hospital Consultant"/>
+      <sourceReference>
+        <reference value="Practitioner/practitioner-3"/>
       </sourceReference>
       <exampleFor>
         <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
@@ -2859,8 +2876,8 @@
         <valueUri value="organization-2.html"/>
       </extension>
       <example value="true"/>
-      <name value="Organization example"/>
-      <description value="Level 3 Example"/>
+      <name value="Organization GP Surgery example"/>
+      <description value="GP Surgery"/>
       <sourceReference>
         <reference value="Organization/organization-2"/>
       </sourceReference>
@@ -2873,13 +2890,98 @@
         <valueUri value="organization-3.html"/>
       </extension>
       <example value="true"/>
-      <name value="Organization example"/>
-      <description value="Level 3 Example"/>
+      <name value="Organization CCG example"/>
+      <description value="Clinical Commissioning Group"/>
       <sourceReference>
         <reference value="Organization/organization-3"/>
       </sourceReference>
       <exampleFor>
         <reference value="StructureDefinition/CareConnect-Organization-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="organization-200001.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Organization NHS Trust example"/>
+      <description value="NHS Hospital Trust"/>
+      <sourceReference>
+        <reference value="Organization/organization-200001"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Organization-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="location-200014.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Location example"/>
+      <description value="Hospital Emergency Department"/>
+      <sourceReference>
+        <reference value="Location/location-200014"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Location-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="encounter-1.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Encounter admission example"/>
+      <description value="Hospital Inpatient Admission"/>
+      <sourceReference>
+        <reference value="Encounter/encounter-1"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="encounter-2.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Encounter transfer example"/>
+      <description value="Hospital Inpatient Transfer"/>
+      <sourceReference>
+        <reference value="Encounter/encounter-2"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="encounter-735.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Encounter emergency example"/>
+      <description value="Hospital emergency encounter"/>
+      <sourceReference>
+        <reference value="Encounter/encounter-735"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
       </exampleFor>
     </resource>
   </package>
@@ -2891,11 +2993,25 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="uk-chi-number.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="uk-chi-number"/>
+      <description value="Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)"/>
+      <sourceReference>
+        <reference value="NamingSystem/uk-chi-number"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
         <valueUri value="uk-nhs-number.html"/>
       </extension>
       <example value="false"/>
       <name value="uk-nhs-number"/>
-      <description value="NHS Number allocated to the patient."/>
+      <description value="NHS Number allocated to the patient in England and Wales. [NHS Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp)"/>
       <sourceReference>
         <reference value="NamingSystem/uk-nhs-number"/>
       </sourceReference>
@@ -2923,7 +3039,7 @@
       </extension>
       <example value="false"/>
       <name value="uk-gmc-number"/>
-      <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_council_reference_number_de.asp)"/>
+      <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)"/>
       <sourceReference>
         <reference value="NamingSystem/uk-gmc-number"/>
       </sourceReference>
@@ -3054,6 +3170,11 @@
     <page>
       <source value="conceptmaps.html"/>
       <title value="ConceptMaps"/>
+      <kind value="resource"/>
+    </page>
+    <page>
+      <source value="namingsystems.html"/>
+      <title value="NamingSystems"/>
       <kind value="resource"/>
     </page>
   </page>

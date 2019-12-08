@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="practitioner-3"/>
+  <meta>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: practitioner-3</p><p><b>meta</b>: </p><p><b>identifier</b>: PT1357, C9999998</p><p><b>name</b>: Ripley Amber </p><p><b>telecom</b>: ripley.amber@nhs.skynet(WORK), ph: 0115 9876543(WORK)</p><p><b>address</b>: Kirkgate Derby DE7 1QQ </p><p><b>gender</b>: female</p></div>
+  </text>
+  <identifier>
+    <system value="https://fhir.nhs.uk/Id/sds-user-id"/>
+    <value value="PT1357"/>
+  </identifier>
+  <identifier>
+    <system value="https://fhir.hl7.org.uk/Id/gmp-number"/>
+    <value value="C9999998"/>
+  </identifier>
+  <name>
+    <family value="Amber"/>
+    <given value="Ripley"/>
+    <prefix value="Dr."/>
+  </name>
+  <telecom>
+    <system value="email"/>
+    <value value="ripley.amber@nhs.skynet"/>
+    <use value="work"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="0115 9876543"/>
+    <use value="work"/>
+  </telecom>
+  <address>
+    <line value="Kirkgate"/>
+    <city value="Derby"/>
+    <postalCode value="DE7 1QQ"/>
+  </address>
+  <gender value="female"/>
+</Practitioner>

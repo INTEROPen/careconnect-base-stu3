@@ -100,7 +100,16 @@
             <reference value="Practitioner/practitioner-4"></reference>
          </reference>
          <name value="Practitioner example"></name>
-         <description value="Level 3 Example"></description>
+         <description value="General Practitioner"></description>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Practitioner/practitioner-3"></reference>
+         </reference>
+         <name value="Practitioner example"></name>
+         <description value="Hospital Consultant"></description>
          <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
@@ -108,8 +117,8 @@
          <reference>
             <reference value="Organization/organization-2"></reference>
          </reference>
-         <name value="Organization example"></name>
-         <description value="Level 3 Example"></description>
+         <name value="Organization GP Surgery example"></name>
+         <description value="GP Surgery"></description>
          <exampleBoolean value="true"/>
          <groupingId value="uk-examples"></groupingId>
       </resource>
@@ -117,9 +126,55 @@
          <reference>
             <reference value="Organization/organization-3"></reference>
          </reference>
-         <name value="Organization example"></name>
-         <description value="Level 3 Example"></description>
+         <name value="Organization CCG example"></name>
+         <description value="Clinical Commissioning Group"></description>
          <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+
+      <resource>
+         <reference>
+            <reference value="Organization/organization-200001"></reference>
+         </reference>
+         <name value="Organization NHS Trust example"></name>
+         <description value="NHS Hospital Trust"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Location/location-200014"></reference>
+         </reference>
+         <name value="Location example"></name>
+         <description value="Hospital Emergency Department"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-Location-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Encounter/encounter-1"></reference>
+         </reference>
+         <name value="Encounter admission example"></name>
+         <description value="Hospital Inpatient Admission"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Encounter/encounter-2"></reference>
+         </reference>
+         <name value="Encounter transfer example"></name>
+         <description value="Hospital Inpatient Transfer"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="Encounter/encounter-735"></reference>
+         </reference>
+         <name value="Encounter emergency example"></name>
+         <description value="Hospital emergency encounter"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -1505,6 +1560,13 @@
       <!-- Naming System -->
       <resource>
          <reference>
+            <reference value="NamingSystem/uk-chi-number"></reference>
+         </reference>
+         <name value="uk-chi-number"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="NamingSystem/uk-nhs-number"></reference>
          </reference>
          <name value="uk-nhs-number"></name>
@@ -1613,6 +1675,11 @@
          <page>
             <nameUrl value="conceptmaps.html"></nameUrl>
             <title value="ConceptMaps"></title>
+            <generation value="markdown"></generation>
+         </page>
+         <page>
+            <nameUrl value="namingsystems.html"></nameUrl>
+            <title value="NamingSystems"></title>
             <generation value="markdown"></generation>
          </page>
       </page>
