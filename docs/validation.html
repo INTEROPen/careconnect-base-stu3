@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.UK.BASE\Testing/Validation - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+        <div id="hl7-status">
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK INTEROPen CareConnect Base</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="validation.html">Testing/Validation</a>
+      </li>
+    </ul>
+  </li>
+  <li><a href="profiles.html">Profiles</a></li>
+  <li><a href="extensions.html">Extensions</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+    </ul>
+  </li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+  <li><a href="artifacts.html">Artifact Index</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Testing/Validation</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">HL7 UK INTEROPen CareConnect Base - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Testing/Validation</h2>
+  
+  
+  
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#using-the-fhir-validator-uk" id="markdown-toc-using-the-fhir-validator-uk">Using the FHIR Validator (UK)</a>    <ul>
+      <li><a href="#example" id="markdown-toc-example">Example</a></li>
+      <li><a href="#terminology-support" id="markdown-toc-terminology-support">Terminology Support</a></li>
+    </ul>
+  </li>
+  <li><a href="#asking-a-fhir-server-uk" id="markdown-toc-asking-a-fhir-server-uk">Asking a FHIR Server (UK)</a>    <ul>
+      <li><a href="#example-1" id="markdown-toc-example-1">Example</a></li>
+    </ul>
+  </li>
+  <li><a href="#online-validation" id="markdown-toc-online-validation">Online Validation</a></li>
+</ul>
+
+</div>
+<p>This is a UK supplement to <a href="https://www.hl7.org/fhir/stu3/validation.html">HL7 FHIR Validating Resources</a></p>
+
+<h3 id="using-the-fhir-validator-uk">Using the FHIR Validator (UK)</h3>
+
+<p><a href="https://wiki.hl7.org/Using_the_FHIR_Validator">Using the FHIR Validator</a>.</p>
+
+<p>To validate against CareConnect resources you need to use this ImplementationGuide. This guide contains technical corrections to conformance resources held on the <a href="https://fhir.hl7.org.uk/">HL7 UK Care Connect INTEROPen - Reference Server</a></p>
+
+<h4 id="example">Example</h4>
+
+<p>To use this IG with the <strong>FHIR Validator</strong>  you need to specify <strong>https://hl7-uk.github.io/UK-STU3</strong> in the <strong>-ig</strong> parameter.</p>
+
+<blockquote>
+  <p>java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3</p>
+</blockquote>
+
+<p>If you wish to use a local copy of this IG’s conformance resources they are available on <a href="https://github.com/HL7-UK/UK-STU3/tree/master/input/resources">HL7 UK GitHib</a></p>
+
+<h4 id="terminology-support">Terminology Support</h4>
+
+<p>By default, the terminology server used by the <strong>FHIR Validator</strong> is tx.fhir.org, which supports most terminologies.</p>
+
+<p>The <strong>FHIR Validator</strong> does not currently work 100% with the <a href="https://ontoserver.dataproducts.nhs.uk/fhir/">Beta Version - NHS Digital Ontology Server</a>. Example</p>
+
+<blockquote>
+  <p>java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3 -tx https://ontoserver.dataproducts.nhs.uk/fhir/</p>
+</blockquote>
+
+<h3 id="asking-a-fhir-server-uk">Asking a FHIR Server (UK)</h3>
+
+<p>The <a href="https://www.hl7.org/fhir/stu3/resource-operations.html#2.28.7.1">operation validate</a> is supported by a number of servers. These include:</p>
+
+<ul>
+  <li><a href="https://data.developer.nhs.uk/ccri-fhir/STU3/[Resource]/$validate">https://data.developer.nhs.uk/ccri-fhir/STU3/{Resource}/$validate</a> - resource must be specified</li>
+  <li><a href="https://fhir.airelogic.com/ccri-fhir/STU3/[Resource]/$validate">https://fhir.airelogic.com/ccri-fhir/STU3/{Resource}/$validate</a> - resource is optional, this server also supports the profile parameter.</li>
+</ul>
+
+<p>Both servers will validate against Care Connect Profiles, CodeSystems and ValueSets. The AireLogic server uses <a href="https://ontoserver.dataproducts.nhs.uk/fhir/">Beta Version - NHS Digital Ontology Server</a> for terminology verification.<br />
+The code for both FHIR servers can be found on the <a href="https://github.com/nhsconnect/careconnect-reference-implementation">Care Connect Reference Implementation</a></p>
+
+<h4 id="example-1">Example</h4>
+
+<p>Validate a (GP Connect) Patient against the Care Connect patient profile using POST directly. 
+Request:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://fhir.airelogic.com/ccri-fhir/STU3/$validate?profile=https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
+[other headers]
+</code></pre></div></div>
+<p>Body:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="s2">"resourceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"meta"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"versionId"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1469448000000"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"profile"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-GPC-Patient-1"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="s2">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-RegistrationDetails-1"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"preferredBranchSurgery"</span><span class="p">,</span><span class="w">
+          </span><span class="s2">"valueReference"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"reference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Location/785b4ff5-aced-4bdf-b7ed-34f92131ce97"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-NHSCommunication-1"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"language"</span><span class="p">,</span><span class="w">
+          </span><span class="s2">"valueCodeableConcept"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+              </span><span class="p">{</span><span class="w">
+                </span><span class="s2">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-HumanLanguage-1"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"bn"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Bengali"</span><span class="w">
+              </span><span class="p">}</span><span class="w">
+            </span><span class="p">]</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"interpreterRequired"</span><span class="p">,</span><span class="w">
+          </span><span class="s2">"valueBoolean"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="p">{</span><span class="w">
+          </span><span class="s2">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/STU3/StructureDefinition/Extension-CareConnect-GPC-NHSNumberVerificationStatus-1"</span><span class="p">,</span><span class="w">
+          </span><span class="s2">"valueCodeableConcept"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+            </span><span class="s2">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+              </span><span class="p">{</span><span class="w">
+                </span><span class="s2">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/CareConnect-NHSNumberVerificationStatus-1"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01"</span><span class="p">,</span><span class="w">
+                </span><span class="s2">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Number present and verified"</span><span class="w">
+              </span><span class="p">}</span><span class="w">
+            </span><span class="p">]</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="s2">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://fhir.nhs.uk/Id/nhs-number"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"9476719931"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"active"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"use"</span><span class="p">:</span><span class="w"> </span><span class="s2">"official"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"text"</span><span class="p">:</span><span class="w"> </span><span class="s2">"JACKSON Jane (Miss)"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"family"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Jackson"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"given"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"Jane"</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="s2">"prefix"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"Miss"</span><span class="w">
+      </span><span class="p">]</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"telecom"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"phone"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"01454587554"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"use"</span><span class="p">:</span><span class="w"> </span><span class="s2">"home"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"gender"</span><span class="p">:</span><span class="w"> </span><span class="s2">"female"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"birthDate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1952-05-31"</span><span class="p">,</span><span class="w">
+  </span><span class="s2">"address"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="s2">"use"</span><span class="p">:</span><span class="w"> </span><span class="s2">"home"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"physical"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"line"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+          </span><span class="s2">"Trevelyan Square"</span><span class="p">,</span><span class="w">
+          </span><span class="s2">"Boar Ln"</span><span class="w">
+      </span><span class="p">],</span><span class="w">
+      </span><span class="s2">"city"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Leeds"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"district"</span><span class="p">:</span><span class="w"> </span><span class="s2">"West Yorkshire"</span><span class="p">,</span><span class="w">
+      </span><span class="s2">"postalCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"LS1 6AE"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"managingOrganization"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="s2">"reference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Organization/14"</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="online-validation">Online Validation</h3>
+
+<p>Alternatively you may validate resources using an online validation application. Validators include:</p>
+
+<ul>
+  <li><a href="https://fhir.airelogic.com/">AireLogic FHIR Validator</a></li>
+  <li><a href="https://data.developer.nhs.uk/ccri/term/validate">Care Connect Reference Implementation FHIR Validation</a></li>
+</ul>
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Dec 8, 2019 11:30+0000">2019-12-08</span>
+          <br/>
+          <span style="color: #FFFF77">
+          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

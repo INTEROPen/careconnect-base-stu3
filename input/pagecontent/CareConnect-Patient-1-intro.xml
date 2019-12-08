@@ -2,18 +2,18 @@
 	<p>
         This profile defines a patient administration details structure that includes core localisation concepts for use in a UK context.
     </p>
-    <h4 id="identifiers">Identifiers</h4>
+    <h3 id="identifiers">Identifiers</h3>
     <p>These definitions represent common data held in the Patient.identifier element:</p>
     <ul>
         <li>NHS Number - England and Wales <i>https://fhir.nhs.uk/Id/nhs-number</i></li>
         <li>CHI Number - Scotland. Not yet specified</li>
         <li>HSNi - Northern Ireland. Not yet specified</li>
     </ul>
-    <p><strong>Examples</strong></p>
+    <h3><strong>Examples</strong></h3>
 
     <p><a href="patient-1.html">Patient with NHS Number and NHS Trust Identifier</a></p>
 
-    <h2>Search Parameters (Recommended)</h2>
+   <!-- <h2>Search Parameters (Recommended)</h2>
 
     <p>This implementation guide outlines some suggested search parameters for the Patient resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Patient resource
     </p>
@@ -97,5 +97,5 @@
         <li>name + birthdate</li>
         <li>family + gender</li>
         <li>given + gender</li>
-    </ul>
+    </ul> -->
 </div>

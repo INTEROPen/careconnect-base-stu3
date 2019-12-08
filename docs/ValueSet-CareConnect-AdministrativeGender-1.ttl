@@ -16,8 +16,8 @@
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-map" ];
      fhir:Extension.valueReference [
-       fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1>;
-       fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1" ]
+       fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AdministrativeGender-1>;
+       fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AdministrativeGender-1" ]
      ]
   ], [
      fhir:index 1;

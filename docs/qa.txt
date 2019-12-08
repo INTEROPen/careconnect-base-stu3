@@ -1,9 +1,9 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 74, warn = 10, info = 4
+err = 70, warn = 10, info = 4
 IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.15-SNAPSHOT
-Generated Sat Dec 07 22:36:05 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Sun Dec 08 11:34:20 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 6 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
@@ -102,7 +102,7 @@ Generated Sat Dec 07 22:36:05 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/UK-STU3-ImplementationGuide : 4 / 4
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/UK-STU3-ImplementationGuide : 3 / 4
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-AdmissionMethod-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ConditionCategory-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ConditionEpisodicity-1 : 0 / 0
@@ -145,7 +145,7 @@ Generated Sat Dec 07 22:36:05 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmp-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-nhs-number : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ACVPU-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AdministrativeGender-1 : 1 / 0
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AdministrativeGender-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AdmissionMethod-1 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyCertainty-1 : 1 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyCode-1 : 1 / 0
@@ -219,12 +219,12 @@ Generated Sat Dec 07 22:36:05 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0
 </table>
 == n/a ==
 WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 873 column 99
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 136, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 883 column 99
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml ==
 WARNING: Observation/observation-9084: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2.xml ==
@@ -332,7 +332,6 @@ WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resourc
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[18].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[30].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resource[31].description: value should not start or finish with whitespace
-ERROR: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[7]: Profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide, Element 'ImplementationGuide.package[7].resource': minimum required = 1, but only found 0
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-AdmissionMethod-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ConditionCategory-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ConditionEpisodicity-1.xml ==
@@ -377,7 +376,6 @@ ERROR: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[7]: Profile 
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ACVPU-1.xml ==
 ERROR: CareConnect-ACVPU-1: Error from server: The filter "constraint = (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)" was not understood in the context of http://snomed.info/sct
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AdministrativeGender-1.xml ==
-ERROR: ValueSet/CareConnect-AdministrativeGender-1: ValueSet.extension[0].value.ofType(Reference): Unable to resolve resource 'https://fhir.hl7.org.uk/STU3/ConceptMap/AdministrativeGender-1'
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AdmissionMethod-1.xml ==
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyCertainty-1.xml ==
 ERROR: CareConnect-AllergyCertainty-1: Error from server: The filter "constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)" was not understood in the context of http://snomed.info/sct
