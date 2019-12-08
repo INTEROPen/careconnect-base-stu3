@@ -1,0 +1,72 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "documentreference-1",
+  "meta": {
+    "lastUpdated": "2018-12-11T12:11:39.650+00:00",
+    "profile": [
+      "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:uuid",
+      "value": "urn:uuid:663eae45-1434-4cea-918e-30438a1bcbc4"
+    }
+  ],
+  "status": "current",
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "734163000",
+        "display": "Care Plan"
+      }
+    ]
+  },
+  "subject": {
+    "identifier": 
+      {
+        "system": "https://fhir.nhs.uk/Id/nhs-number",
+        "value": "9876543210"
+      },
+    "display": "Miss Bernie Kanfeld"
+  },
+  "indexed": "2018-12-11T12:11:36.582+00:00",
+  "author": [
+    {
+      "identifier": 
+        {
+          "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+          "value": "C81010"
+        },
+      "display": "The Moir Medical Centre"
+    }
+  ],
+  "custodian": {
+    "identifier": 
+      {
+        "system": "https://fhir.nhs.uk/Id/ods-organization-code",
+        "value": "C81010"
+      },
+    "display": "The Moir Medical Centre"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "text/html",
+        "url": "https://data.developer.nhs.uk/ccri-fhir/STU3/Binary/5c0fa97bbad14700014a01be"
+      }
+    }
+  ],
+  "context": {
+    "practiceSetting": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "708168004",
+          "display": "Mental health service"
+        }
+      ]
+    }
+  }
+}

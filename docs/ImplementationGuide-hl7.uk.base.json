@@ -10,7 +10,7 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-08T11:30:07+00:00",
+  "date": "2019-12-08T13:06:15+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -3591,6 +3591,27 @@
       "name": "UK Examples",
       "description": "These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like",
       "resource": [
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "DocumentReference"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "documentreference-1.html"
+            }
+          ],
+          "example": true,
+          "name": "DocumentReference example",
+          "description": "Level 2 Example",
+          "sourceReference": {
+            "reference": "DocumentReference/documentreference-1"
+          },
+          "exampleFor": {
+            "reference": "StructureDefinition/CareConnect-DocumentReference-1"
+          }
+        },
         {
           "extension": [
             {

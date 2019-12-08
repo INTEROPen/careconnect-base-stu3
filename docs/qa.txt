@@ -1,11 +1,12 @@
 ﻿HL7 UK Implementation Guide : Validation Results
 =========================================
 
-err = 70, warn = 10, info = 4
+err = 70, warn = 10, info = 8
 IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.15-SNAPSHOT
-Generated Sun Dec 08 11:34:20 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+Generated Sun Dec 08 13:10:41 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 6 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1 : 0 / 2
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3 : 0 / 0
@@ -225,6 +226,9 @@ ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConne
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 146, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json ==
+INFORMATION: DocumentReference/documentreference-1: DocumentReference.type: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#734163000)
+INFORMATION: DocumentReference/documentreference-1: DocumentReference.context.practiceSetting: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708168004)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml ==
 WARNING: Observation/observation-9084: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2.xml ==

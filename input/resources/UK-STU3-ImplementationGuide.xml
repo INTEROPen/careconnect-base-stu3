@@ -70,6 +70,15 @@
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
       <resource>
          <reference>
+            <reference value="DocumentReference/documentreference-1"></reference>
+         </reference>
+         <name value="DocumentReference example"></name>
+         <description value="Level 2 Example"></description>
+         <exampleCanonical value="StructureDefinition/CareConnect-DocumentReference-1"></exampleCanonical>
+         <groupingId value="uk-examples"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="Patient/patient-1"></reference>
          </reference>
          <name value="Patient example"></name>

@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/DocumentReference/documentreference-1> a fhir:DocumentReference;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "documentreference-1"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2018-12-11T12:11:39.650+00:00"^^xsd:dateTime ];
+     fhir:Meta.profile [
+       fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1";
+       fhir:index 0
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: documentreference-1</p><p><b>meta</b>: </p><p><b>identifier</b>: urn:uuid:663eae45-1434-4cea-918e-30438a1bcbc4</p><p><b>status</b>: current</p><p><b>type</b>: Care Plan <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '734163000' = 'Care plan (record artifact)', given as 'Care Plan'})</span></p><p><b>subject</b>: Miss Bernie Kanfeld</p><p><b>indexed</b>: 11 Dec 2018, 12:11:36</p><p><b>author</b>: The Moir Medical Centre</p><p><b>custodian</b>: The Moir Medical Centre</p><h3>Contents</h3><table class=\"grid\"><tr><td>-</td><td><b>Attachment</b></td></tr><tr><td>*</td><td/></tr></table><h3>Contexts</h3><table class=\"grid\"><tr><td>-</td><td><b>PracticeSetting</b></td></tr><tr><td>*</td><td>Mental health service <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '708168004' = 'Mental health service', given as 'Mental health service'})</span></td></tr></table></div>"
+  ];
+  fhir:DocumentReference.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:uuid" ];
+     fhir:Identifier.value [ fhir:value "urn:uuid:663eae45-1434-4cea-918e-30438a1bcbc4" ]
+  ];
+  fhir:DocumentReference.status [ fhir:value "current"];
+  fhir:DocumentReference.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:734163000;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "734163000" ];
+       fhir:Coding.display [ fhir:value "Care Plan" ]
+     ]
+  ];
+  fhir:DocumentReference.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/nhs-number" ];
+       fhir:Identifier.value [ fhir:value "9876543210" ]
+     ];
+     fhir:Reference.display [ fhir:value "Miss Bernie Kanfeld" ]
+  ];
+  fhir:DocumentReference.indexed [ fhir:value "2018-12-11T12:11:36.582+00:00"^^xsd:dateTime];
+  fhir:DocumentReference.author [
+     fhir:index 0;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/ods-organization-code" ];
+       fhir:Identifier.value [ fhir:value "C81010" ]
+     ];
+     fhir:Reference.display [ fhir:value "The Moir Medical Centre" ]
+  ];
+  fhir:DocumentReference.custodian [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "https://fhir.nhs.uk/Id/ods-organization-code" ];
+       fhir:Identifier.value [ fhir:value "C81010" ]
+     ];
+     fhir:Reference.display [ fhir:value "The Moir Medical Centre" ]
+  ];
+  fhir:DocumentReference.content [
+     fhir:index 0;
+     fhir:DocumentReference.content.attachment [
+       fhir:Attachment.contentType [ fhir:value "text/html" ];
+       fhir:Attachment.url [ fhir:value "https://data.developer.nhs.uk/ccri-fhir/STU3/Binary/5c0fa97bbad14700014a01be" ]
+     ]
+  ];
+  fhir:DocumentReference.context [
+     fhir:DocumentReference.context.practiceSetting [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:708168004;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "708168004" ];
+         fhir:Coding.display [ fhir:value "Mental health service" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/DocumentReference/documentreference-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

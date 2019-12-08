@@ -144,3 +144,19 @@ e: {
   "error" : "Error from server: The filter \"constraint = (<<105590001 |Substance| OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/html"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "text/html",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

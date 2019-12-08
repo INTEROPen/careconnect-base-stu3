@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-08T11:30:07+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-08T13:06:15+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3592,6 +3592,28 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "documentreference-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "DocumentReference example" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Level 2 Example" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/DocumentReference/documentreference-1>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/documentreference-1" ]
+       ];
+       fhir:ImplementationGuide.package.resource.exampleFor [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-DocumentReference-1" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ], [
          fhir:index 1;
@@ -3610,7 +3632,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Patient-1" ]
        ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3632,7 +3654,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Observation-1" ]
        ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3654,7 +3676,7 @@
          fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1" ]
        ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3672,7 +3694,7 @@
          fhir:Reference.reference [ fhir:value "Organization/organization-2" ]
        ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

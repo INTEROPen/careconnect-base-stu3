@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DocumentReference xmlns="http://hl7.org/fhir">
+  <id value="documentreference-1"/>
+  <meta>
+    <lastUpdated value="2018-12-11T12:11:39.650+00:00"/>
+    <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: documentreference-1</p><p><b>meta</b>: </p><p><b>identifier</b>: urn:uuid:663eae45-1434-4cea-918e-30438a1bcbc4</p><p><b>status</b>: current</p><p><b>type</b>: Care Plan <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '734163000' = 'Care plan (record artifact)', given as 'Care Plan'})</span></p><p><b>subject</b>: Miss Bernie Kanfeld</p><p><b>indexed</b>: 11 Dec 2018, 12:11:36</p><p><b>author</b>: The Moir Medical Centre</p><p><b>custodian</b>: The Moir Medical Centre</p><h3>Contents</h3><table class="grid"><tr><td>-</td><td><b>Attachment</b></td></tr><tr><td>*</td><td/></tr></table><h3>Contexts</h3><table class="grid"><tr><td>-</td><td><b>PracticeSetting</b></td></tr><tr><td>*</td><td>Mental health service <span style="background: LightGoldenRodYellow">(Details : {SNOMED CT code '708168004' = 'Mental health service', given as 'Mental health service'})</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="urn:uuid"/>
+    <value value="urn:uuid:663eae45-1434-4cea-918e-30438a1bcbc4"/>
+  </identifier>
+  <status value="current"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="734163000"/>
+      <display value="Care Plan"/>
+    </coding>
+  </type>
+  <subject>
+    <identifier>
+      <system value="https://fhir.nhs.uk/Id/nhs-number"/>
+      <value value="9876543210"/>
+    </identifier>
+    <display value="Miss Bernie Kanfeld"/>
+  </subject>
+  <indexed value="2018-12-11T12:11:36.582+00:00"/>
+  <author>
+    <identifier>
+      <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+      <value value="C81010"/>
+    </identifier>
+    <display value="The Moir Medical Centre"/>
+  </author>
+  <custodian>
+    <identifier>
+      <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+      <value value="C81010"/>
+    </identifier>
+    <display value="The Moir Medical Centre"/>
+  </custodian>
+  <content>
+    <attachment>
+      <contentType value="text/html"/>
+      <url value="https://data.developer.nhs.uk/ccri-fhir/STU3/Binary/5c0fa97bbad14700014a01be"/>
+    </attachment>
+  </content>
+  <context>
+    <practiceSetting>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="708168004"/>
+        <display value="Mental health service"/>
+      </coding>
+    </practiceSetting>
+  </context>
+</DocumentReference>
