@@ -299,6 +299,36 @@
         <valueString value="GBR" />
       </example>
     </element>
+    <element id="Patient.maritalStatus">
+      <path value="Patient.maritalStatus" />
+      <binding>
+        <strength value="required" />
+      </binding>
+    </element>
+    <element id="Patient.maritalStatus.coding">
+      <path value="Patient.maritalStatus.coding" />
+      <min value="1" />
+      <max value="1" />
+    </element>
+    <element id="Patient.maritalStatus.coding.system">
+      <path value="Patient.maritalStatus.coding.system" />
+      <min value="1" />
+      <example>
+        <label value="General" />
+        <valueUri value="http://hl7.org/fhir/v3/MaritalStatus" />
+      </example>
+    </element>
+    <element id="Patient.maritalStatus.coding.code">
+      <path value="Patient.maritalStatus.coding.code" />
+      <min value="1" />
+    </element>
+    <element id="Patient.maritalStatus.coding.display">
+      <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
+        <valueBoolean value="true" />
+      </extension>
+      <path value="Patient.maritalStatus.coding.display" />
+      <min value="1" />
+    </element>
     <element id="Patient.contact.name">
       <path value="Patient.contact.name" />
       <min value="1" />
