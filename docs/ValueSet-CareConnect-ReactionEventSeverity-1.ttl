@@ -52,7 +52,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."];

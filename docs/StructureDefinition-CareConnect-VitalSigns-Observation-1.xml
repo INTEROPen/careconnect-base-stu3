@@ -94,7 +94,7 @@
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
   <description value="A vital signs profile which sets minimum expectations for the Observation resource to record, search and fetch the vital signs associated with a patient that include the primary vital signs plus additional measurements such as height, weight and BMI."/>

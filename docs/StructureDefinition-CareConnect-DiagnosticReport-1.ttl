@@ -23,7 +23,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "A test report for National Pathology that contains data on the pathology tests performed on patients specimens populated by the performing organisation. "];

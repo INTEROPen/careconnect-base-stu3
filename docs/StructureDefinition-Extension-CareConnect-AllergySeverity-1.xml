@@ -82,7 +82,7 @@ https://www.hl7.org/fhir/license.html&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
   <description value="This Extension resource is constrained to support a coded severity of the allergy/intolerance."/>

@@ -1,7 +1,7 @@
 {
  "package-id" : "hl7.uk.base",
  "title" : "HL7 UK Base",
- "canonical" : "https://hl7-uk.github.io/UK-STU3",
+ "canonical" : "https://fhir.hl7.org.uk/STU3",
  "introduction" : "HL7 UK Base",
  "list" : [{
   "version" : "current",
@@ -14,8 +14,8 @@
   "version" : "3.0.0",
   "fhirVersion" : "3.0.2",
   "date" : "2019-12-05",
-  "desc" : "Initial STU ballot (Mmm yyyy Ballot)",   
-  "path" : "https://hl7-uk.github.io/UK-STU3",
+  "desc" : "Initial Draft (Dec 2019 Ballot)",
+  "path" : "https://fhir.hl7.org.uk/STU3",
   "status" : "draft",
   "sequence" : "STU3"
  }]

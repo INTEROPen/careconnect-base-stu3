@@ -36,7 +36,7 @@
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
   <description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."/>

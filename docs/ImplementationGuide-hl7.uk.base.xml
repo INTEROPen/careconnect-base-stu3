@@ -11,12 +11,12 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-10T11:53:31+00:00"/>
+  <date value="2019-12-10T12:27:20+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
   <description value="HL7 UK Care Connect FHIR Conformance Resources."/>
@@ -2797,7 +2797,7 @@
         <reference value="DocumentReference/documentreference-1"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-DocumentReference-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2814,7 +2814,7 @@
         <reference value="Encounter/encounter-1"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2831,7 +2831,7 @@
         <reference value="Encounter/encounter-2"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2848,7 +2848,7 @@
         <reference value="Encounter/encounter-735"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Encounter-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2865,7 +2865,7 @@
         <reference value="Location/location-200014"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Location-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2882,7 +2882,7 @@
         <reference value="Observation/observation-9084"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Observation-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2913,7 +2913,7 @@
         <reference value="Organization/organization-3"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Organization-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2930,7 +2930,7 @@
         <reference value="Organization/organization-200001"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Organization-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
       </exampleFor>
     </resource>
     <resource>
@@ -2947,7 +2947,7 @@
         <reference value="Patient/patient-1"/>
       </sourceReference>
       <exampleFor>
-        <reference value="StructureDefinition/CareConnect-Patient-1"/>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
       </exampleFor>
     </resource>
     <resource>

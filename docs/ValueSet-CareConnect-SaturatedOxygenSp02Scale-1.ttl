@@ -23,7 +23,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)"];

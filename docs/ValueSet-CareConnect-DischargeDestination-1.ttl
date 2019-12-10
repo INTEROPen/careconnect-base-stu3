@@ -28,7 +28,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth."];

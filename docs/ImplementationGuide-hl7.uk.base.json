@@ -10,14 +10,14 @@
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-10T11:53:31+00:00",
+  "date": "2019-12-10T12:27:20+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
       "telecom": [
         {
           "system": "other",
-          "value": "http://hl7.org/Special/committees/[something]"
+          "value": "https://chat.fhir.org/#narrow/stream/179189-uk"
         }
       ]
     }
@@ -3609,7 +3609,7 @@
             "reference": "DocumentReference/documentreference-1"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-DocumentReference-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"
           }
         },
         {
@@ -3630,7 +3630,7 @@
             "reference": "Encounter/encounter-1"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Encounter-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
           }
         },
         {
@@ -3651,7 +3651,7 @@
             "reference": "Encounter/encounter-2"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Encounter-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
           }
         },
         {
@@ -3672,7 +3672,7 @@
             "reference": "Encounter/encounter-735"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Encounter-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
           }
         },
         {
@@ -3693,7 +3693,7 @@
             "reference": "Location/location-200014"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Location-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"
           }
         },
         {
@@ -3714,7 +3714,7 @@
             "reference": "Observation/observation-9084"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Observation-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"
           }
         },
         {
@@ -3753,7 +3753,7 @@
             "reference": "Organization/organization-3"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Organization-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
           }
         },
         {
@@ -3774,7 +3774,7 @@
             "reference": "Organization/organization-200001"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Organization-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
           }
         },
         {
@@ -3795,7 +3795,7 @@
             "reference": "Patient/patient-1"
           },
           "exampleFor": {
-            "reference": "StructureDefinition/CareConnect-Patient-1"
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"
           }
         },
         {

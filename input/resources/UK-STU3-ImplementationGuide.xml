@@ -1,6 +1,6 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="uk-base"></id>
-   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3"></url>
+   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"></url>
    <version value="3.0.0"/>
    <name value="HL7 UK Implementation Guide"></name>
    <title value="HL7 UK INTEROPen CareConnect"></title>
@@ -11,7 +11,7 @@
       <telecom>
          <!-- Or whatever URL and/or email address(es) are appropriate -->
          <system value="other"></system>
-         <value value="http://hl7.org/Special/committees/[something]"></value>
+         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
       </telecom>
    </contact>
    <description value="HL7 UK Care Connect FHIR Conformance Resources."></description>
@@ -74,7 +74,7 @@
          </reference>
          <name value="DocumentReference example"></name>
          <description value="Level 2 Example"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-DocumentReference-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -83,7 +83,7 @@
          </reference>
          <name value="Encounter admission example"></name>
          <description value="Hospital Inpatient Admission"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -92,7 +92,7 @@
          </reference>
          <name value="Encounter transfer example"></name>
          <description value="Hospital Inpatient Transfer"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -101,7 +101,7 @@
          </reference>
          <name value="Encounter emergency example"></name>
          <description value="Hospital emergency encounter"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -110,7 +110,7 @@
          </reference>
          <name value="Location example"></name>
          <description value="Hospital Emergency Department"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Location-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -119,7 +119,7 @@
          </reference>
          <name value="Observation example"></name>
          <description value="Level 3 Example"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Observation-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -137,7 +137,7 @@
          </reference>
          <name value="Organization CCG example"></name>
          <description value="Clinical Commissioning Group"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -146,7 +146,7 @@
          </reference>
          <name value="Organization NHS Trust example"></name>
          <description value="NHS Hospital Trust"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -155,7 +155,7 @@
          </reference>
          <name value="Patient example"></name>
          <description value="Level 2 Example"></description>
-         <exampleCanonical value="StructureDefinition/CareConnect-Patient-1"></exampleCanonical>
+         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>

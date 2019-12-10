@@ -24,7 +24,7 @@
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
   <description value="An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time."/>

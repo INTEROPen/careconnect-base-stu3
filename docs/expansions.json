@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "4fbdc6ca-0cdf-4b77-82b9-3eeb148b91ac",
+  "id" : "b430cdfd-8692-4139-8d15-210c0fdbcb26",
   "meta" : {
-    "lastUpdated" : "2019-12-10T11:53:31.431+00:00"
+    "lastUpdated" : "2019-12-10T12:27:20.459+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -47,7 +47,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The gender of a person used for administrative purposes.",
@@ -59,8 +59,8 @@
       }],
       "copyright" : "Copyright © HL7.org 2011+",
       "expansion" : {
-        "identifier" : "urn:uuid:66108b2b-c0ca-47aa-a717-9e77b2ee22f7",
-        "timestamp" : "2019-12-10T11:53:48+00:00",
+        "identifier" : "urn:uuid:97d17d20-240c-432d-96dd-427b5132a348",
+        "timestamp" : "2019-12-10T12:27:35+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -135,7 +135,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.",
@@ -147,8 +147,8 @@
       }],
       "copyright" : "Copyright © HL7.org 2011+",
       "expansion" : {
-        "identifier" : "urn:uuid:a1cf15b9-9b54-4a55-97d6-5efcb2f8deec",
-        "timestamp" : "2019-12-10T11:53:51+00:00",
+        "identifier" : "urn:uuid:32d68537-cbba-4552-9a38-92de6234a06b",
+        "timestamp" : "2019-12-10T12:27:37+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -189,7 +189,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the category of a condition.",
@@ -201,8 +201,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:45aaa050-2782-4e5e-a6ee-4977f0b24d9f",
-        "timestamp" : "2019-12-10T11:53:58+00:00",
+        "identifier" : "urn:uuid:04424613-5dbd-431d-95f1-4a3c0da5517a",
+        "timestamp" : "2019-12-10T12:27:43+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -308,7 +308,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the episodicity of a condition.",
@@ -320,8 +320,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:90279812-4588-4d3f-b142-ef0277d5337b",
-        "timestamp" : "2019-12-10T11:53:58+00:00",
+        "identifier" : "urn:uuid:5b95bf71-db37-473a-926a-f51f87f8d0f2",
+        "timestamp" : "2019-12-10T12:27:43+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -372,7 +372,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the kind of relationship that exists with a target condition or problem..",
@@ -384,8 +384,8 @@
       }],
       "copyright" : "Copyright © 2019 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:88b47267-d057-459f-8126-a744f97d9297",
-        "timestamp" : "2019-12-10T11:53:58+00:00",
+        "identifier" : "urn:uuid:089202b2-2100-4de7-9a13-f6661aad296b",
+        "timestamp" : "2019-12-10T12:27:43+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -450,7 +450,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.",
@@ -462,8 +462,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:6f30be89-a24f-48a5-840e-e74f19b90836",
-        "timestamp" : "2019-12-10T11:53:59+00:00",
+        "identifier" : "urn:uuid:9108b711-14b2-47b6-99d0-d8a05eb19073",
+        "timestamp" : "2019-12-10T12:27:45+00:00",
         "total" : 19,
         "parameter" : [{
           "name" : "excludeNested",
@@ -593,7 +593,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the language used by a person.",
@@ -605,8 +605,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:579158aa-a3d3-46b0-8a72-cf444d405468",
-        "timestamp" : "2019-12-10T11:54:06+00:00",
+        "identifier" : "urn:uuid:7ab1200b-95ce-44b3-9cb3-6799ecf9f58a",
+        "timestamp" : "2019-12-10T12:27:51+00:00",
         "total" : 189,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1582,7 +1582,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A code to record the reason why a vaccine was administered.",
@@ -1594,8 +1594,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:7aceeab7-6fe7-4937-a74d-c96236e10e92",
-        "timestamp" : "2019-12-10T11:54:07+00:00",
+        "identifier" : "urn:uuid:48e8cea2-c035-467e-8db3-1e21f9123606",
+        "timestamp" : "2019-12-10T12:27:52+00:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1771,7 +1771,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the mode the patient can communicate in, representing the method of expression of the language.",
@@ -1783,8 +1783,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:f4d73119-ad95-48c3-aca1-b607459b1fdb",
-        "timestamp" : "2019-12-10T11:54:08+00:00",
+        "identifier" : "urn:uuid:79c30b41-5022-438f-88b2-d798245a53a8",
+        "timestamp" : "2019-12-10T12:27:54+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1849,7 +1849,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the level of proficiency in communicating a language.",
@@ -1861,8 +1861,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:a41692e0-0fc2-407e-bbc6-78507eee80ba",
-        "timestamp" : "2019-12-10T11:54:08+00:00",
+        "identifier" : "urn:uuid:21b62a90-9375-48dd-aae4-703141084ae0",
+        "timestamp" : "2019-12-10T12:27:54+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2014,7 +2014,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the reason a list may be empty.",
@@ -2026,8 +2026,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:a249e31b-1e07-4dd0-81a4-637a88c3f923",
-        "timestamp" : "2019-12-10T11:54:09+00:00",
+        "identifier" : "urn:uuid:abb08077-fb4b-4010-9d7b-6c0b03d78742",
+        "timestamp" : "2019-12-10T12:27:54+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2091,7 +2091,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
@@ -2103,8 +2103,8 @@
       }],
       "copyright" : "Copyright © HL7.org 2011+",
       "expansion" : {
-        "identifier" : "urn:uuid:4e2b5033-745f-4d0b-9b10-7cd44b1ba053",
-        "timestamp" : "2019-12-10T11:54:10+00:00",
+        "identifier" : "urn:uuid:319b2238-fbbc-4e57-a768-e882f4975a46",
+        "timestamp" : "2019-12-10T12:27:55+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2194,7 +2194,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the change status of a medication.",
@@ -2206,8 +2206,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:4f8fa227-7dc4-4685-b876-0c8022047268",
-        "timestamp" : "2019-12-10T11:54:11+00:00",
+        "identifier" : "urn:uuid:c86a250d-b175-44f3-9428-2e34542b32e6",
+        "timestamp" : "2019-12-10T12:27:56+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2254,7 +2254,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify detail codes for flagged medication issues.",
@@ -2266,8 +2266,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:04bfc3a4-08aa-4a45-a16f-3dbbbad811cd",
-        "timestamp" : "2019-12-10T11:54:12+00:00",
+        "identifier" : "urn:uuid:3791aa42-1415-474f-bfd8-3e3c9db483a3",
+        "timestamp" : "2019-12-10T12:27:57+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2308,7 +2308,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the type of medication supply.",
@@ -2320,8 +2320,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:078d288a-5ee6-453b-8e1d-4744d139f98a",
-        "timestamp" : "2019-12-10T11:54:15+00:00",
+        "identifier" : "urn:uuid:a0a9011c-eda1-4e26-8d04-eeec90d5435d",
+        "timestamp" : "2019-12-10T12:28:01+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2391,7 +2391,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "An indicator to identify the legal marital status of a Person.",
@@ -2403,8 +2403,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:cfb8d6e7-4860-4c50-8674-ada2fd472816",
-        "timestamp" : "2019-12-10T11:54:15+00:00",
+        "identifier" : "urn:uuid:51e90901-709c-40e5-813c-49a83ea16268",
+        "timestamp" : "2019-12-10T12:28:02+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2469,7 +2469,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.",
@@ -2481,8 +2481,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:17b39a05-6b7b-4519-93d6-47c26323df20",
-        "timestamp" : "2019-12-10T11:54:15+00:00",
+        "identifier" : "urn:uuid:7bdd32fe-745c-4c0a-abfe-d042235d7579",
+        "timestamp" : "2019-12-10T12:28:02+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2557,7 +2557,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The use of a human name",
@@ -2569,8 +2569,8 @@
       }],
       "copyright" : "Copyright © HL7.org 2011+",
       "expansion" : {
-        "identifier" : "urn:uuid:78413453-9975-4967-9b87-da92ebfd8160",
-        "timestamp" : "2019-12-10T11:54:15+00:00",
+        "identifier" : "urn:uuid:79f8119d-2ffa-4368-b4b5-60d4c79a46ed",
+        "timestamp" : "2019-12-10T12:28:02+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2636,7 +2636,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A code to identify the type of a name of a Person.",
@@ -2648,8 +2648,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:18ea860f-f67f-4f14-bd9a-02a2fb080ce2",
-        "timestamp" : "2019-12-10T11:54:19+00:00",
+        "identifier" : "urn:uuid:82636454-e94a-487d-a355-52232580a75c",
+        "timestamp" : "2019-12-10T12:28:08+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2715,7 +2715,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A code to record the significance of a Problem Header Condition.",
@@ -2727,8 +2727,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:a7b2ceb7-76d5-407e-95e3-d731693884a7",
-        "timestamp" : "2019-12-10T11:54:23+00:00",
+        "identifier" : "urn:uuid:84e38346-97e9-4d68-9aff-ce274a09415a",
+        "timestamp" : "2019-12-10T12:28:13+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2793,7 +2793,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
@@ -2805,8 +2805,8 @@
       }],
       "copyright" : "Copyright © HL7.org 2011+",
       "expansion" : {
-        "identifier" : "urn:uuid:045e3b79-c6c8-45b6-81c0-1d3b95c00940",
-        "timestamp" : "2019-12-10T11:54:25+00:00",
+        "identifier" : "urn:uuid:4c276c15-88ba-4718-9c69-da1ebca987d9",
+        "timestamp" : "2019-12-10T12:28:16+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2898,7 +2898,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the form in which a referral is sent and received.",
@@ -2910,8 +2910,8 @@
       }],
       "copyright" : "Copyright © 2019 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:a2c78d0a-230e-4a4a-b1e4-72f949bdbc64",
-        "timestamp" : "2019-12-10T11:54:26+00:00",
+        "identifier" : "urn:uuid:6697c922-9c32-4db9-b99b-de6e4f798c13",
+        "timestamp" : "2019-12-10T12:28:17+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2977,7 +2977,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the status of registration for a patient at the healthcare organisation.",
@@ -2989,8 +2989,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:da5ee047-4335-4b45-bb09-edeba1fdd1cb",
-        "timestamp" : "2019-12-10T11:54:26+00:00",
+        "identifier" : "urn:uuid:eaac978f-537c-43c8-88a7-9b6ee07ac498",
+        "timestamp" : "2019-12-10T12:28:18+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3041,7 +3041,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the type of registration for a patient at a healthcare organisation.",
@@ -3053,8 +3053,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:e87d1f5b-6f5a-4a9a-88de-965ef66f560c",
-        "timestamp" : "2019-12-10T11:54:26+00:00",
+        "identifier" : "urn:uuid:c3da5c7d-c52f-43ab-9313-f492730818ea",
+        "timestamp" : "2019-12-10T12:28:18+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3120,7 +3120,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.",
@@ -3132,8 +3132,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:89631799-c02d-4dc5-9da7-c7ef5709f738",
-        "timestamp" : "2019-12-10T11:54:31+00:00",
+        "identifier" : "urn:uuid:387e4b48-f1d9-4907-8b49-4979a0e6c63f",
+        "timestamp" : "2019-12-10T12:28:24+00:00",
         "total" : 392,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5128,7 +5128,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.",
@@ -5140,8 +5140,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:7d01832e-285e-4d2e-8710-b7ba03c22a87",
-        "timestamp" : "2019-12-10T11:54:31+00:00",
+        "identifier" : "urn:uuid:042a107e-4347-443c-97f4-b807c4247d2e",
+        "timestamp" : "2019-12-10T12:28:25+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5246,7 +5246,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The method of admission to a Hospital Provider Spell.",
@@ -5258,8 +5258,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:883a6f2c-a357-4c6c-a434-a6db34227fe9",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:a1ccf898-7cba-4b70-9028-d444acc60d9d",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 18,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5380,7 +5380,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the type of death notice as held on Personal Demographics Service (PDS).",
@@ -5392,8 +5392,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:235df68b-e105-47e1-90ad-446f49932a87",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:a0ef5f2b-a74c-40d9-9fe8-a20853236b85",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5443,7 +5443,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "The method of discharge from a Hospital Provider Spell.",
@@ -5455,8 +5455,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:70b6d41e-cca7-4b00-98f7-df2707632bb6",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:5bacfda2-ca85-4662-8e81-00f6eb6308b8",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5530,7 +5530,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
@@ -5542,8 +5542,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:16905d87-f8ae-4bc0-897c-cd0eee19f839",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:e4f3ad05-e7bc-4a04-b202-4ef86f5a9bd1",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5914,7 +5914,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the reason a list may be incomplete.",
@@ -5926,8 +5926,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:d6d36819-8fa2-4b2d-99a3-8d219aedd4e6",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:dfdf5477-3884-44dd-aa6c-248781b1b570",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5981,7 +5981,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the trace status of the NHS number.  The CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.",
@@ -5993,8 +5993,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:c61845ba-daa3-4df6-85c9-874f965456c5",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:dec894f9-d542-4506-8946-255576611433",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 8,
         "parameter" : [{
           "name" : "excludeNested",
@@ -6069,7 +6069,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "This records the outcome of an Out-Patient Attendance Consultant.",
@@ -6081,8 +6081,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:c4f8a9dd-e85c-4158-825d-d791395fc532",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:a984190b-6cda-4934-865a-bbe5ce4b8b20",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -6128,7 +6128,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.",
@@ -6140,8 +6140,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:7a0ae982-f842-4298-81f4-b4ea65822455",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:8b6a9949-f960-4eef-becc-0e250a7178d5",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -6207,7 +6207,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet to identify the type of prescription.",
@@ -6219,8 +6219,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:b209acfd-9def-4e11-982e-2030fd1dff19",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:fcc3261e-c453-4821-9b48-9a5d2d6a0895",
+        "timestamp" : "2019-12-10T12:28:32+00:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -6271,7 +6271,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the residential status of a patient.",
@@ -6283,8 +6283,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:9900e114-32bf-4efc-97ae-7bddfc260f83",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:1f22daac-7450-49b5-af37-613eed0d8a54",
+        "timestamp" : "2019-12-10T12:28:33+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -6325,7 +6325,7 @@
       "contact" : [{
         "telecom" : [{
           "system" : "other",
-          "value" : "http://hl7.org/Special/committees/[something]"
+          "value" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }]
       }],
       "description" : "A ValueSet that identifies the treatment category for this patient.",
@@ -6337,8 +6337,8 @@
       }],
       "copyright" : "Copyright © 2016 HL7 UK",
       "expansion" : {
-        "identifier" : "urn:uuid:6fcb1273-5e4e-4643-8c47-286ad9c60f55",
-        "timestamp" : "2019-12-10T11:54:36+00:00",
+        "identifier" : "urn:uuid:3804c25b-298d-4581-aa17-fb50a99319d6",
+        "timestamp" : "2019-12-10T12:28:33+00:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
