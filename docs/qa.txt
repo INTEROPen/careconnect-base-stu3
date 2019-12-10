@@ -2,354 +2,353 @@
 =========================================
 
 err = 70, warn = 16, info = 12
-IG Publisher Version: v1.0.13-SNAPSHOT Out of date - current version is v1.0.17-SNAPSHOT
-Generated Tue Dec 10 08:31:26 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+IG Publisher Version: v1.0.17-SNAPSHOT
+Generated Tue Dec 10 09:53:27 GMT 2019. FHIR version 3.0.2 for hl7.uk.base#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
- Build Errors : 6 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1 : 0 / 2
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-200001 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4 : 0 / 1
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Appointment-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DocumentReference-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Encounter-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Immunization-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-InspiredOxygen-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-List-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Location-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-Flag-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationDispense-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationRequest-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationStatement-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Organization-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-OxygenSaturation-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Practitioner-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Quantity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RiskAssessment-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Schedule-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Slot-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Specimen-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Subscore-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-VitalSigns-Observation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ActualProblem-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AdmissionMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DeathNotificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DischargeMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EmergencyCareDischargeStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EncounterTransport-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Evidence-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-FastingStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ListWarningCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MainLocation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationChangeSummary-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationFlagAssociation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationQuantityText-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationRepeatInformation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatementLastIssueDate-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatusReason-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSCommunication-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NominatedPharmacy-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-OutcomeOfAttendance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ParentPresent-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReligiousAffiliation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ResidentialStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-SourceOfReferral-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-TreatmentCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/UK-STU3-ImplementationGuide : 3 / 4
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-AdmissionMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ConditionCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ConditionEpisodicity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ConditionRelationship-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-DeathNotificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-DischargeDestination-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-DischargeMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-EthnicCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-HumanLanguage-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ImmunizationExplanationReason-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-LanguageAbilityMode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-LanguageAbilityProficiency-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ListEmptyReasonCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ListWarningCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-MedicationChangeStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-MedicationFlag-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-MedicationSupplyType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-NHSDataDictionary-PersonStatedGender-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-OutcomeOfAttendance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-PDS-PersonNameType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-PrescribedElsewhere-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-PrescriptionType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ProblemSignificance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ReferralRequestMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-RegistrationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-RegistrationType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-ResidentialStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-SDSJobRoleName-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-SourceOfAdmission-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/codesystem/CareConnect-TreatmentCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-AdministrativeGender-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-AllergySeverity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-AllergyVerificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-MaritalStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/CareConnect-PersonNameType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/conceptmap/ConditionEpisodicity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/ods-organization-code : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/ods-site-code : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/sds-user-id : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-chi-number : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmc-number : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-gmp-number : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/namingsystem/uk-nhs-number : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ACVPU-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AdministrativeGender-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AdmissionMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyCertainty-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyExposureRoute-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyManifestation-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergySeverity-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-AllergyVerificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-BodySite-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-CareSettingType-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ClinicalDisciplines-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-CompositionSectionCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ConditionCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ConditionCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ConditionEpisodeSnCT-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ConditionEpisodicity-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ConditionRelationship-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-DeathNotificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-DischargeDestination-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-DischargeMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-DocumentType-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-EmergencyCareDischargeStatus-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-EncounterType-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-EthnicCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-FindingCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-HumanLanguage-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ImmunizationExplanationReason-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ImmunizationExplanationReason-2 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-InspiredOxygen-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-LanguageAbilityMode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-LanguageAbilityProficiency-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ListCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ListEmptyReasonCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ListWarningCode-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ManufacturedMaterialSnCT-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MaritalStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationChangeStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationDosageRoute-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationFlag-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationForm-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-MedicationSupplyType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-NHSDataDictionary-PersonStatedGender-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-NameUse-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ObservationMethod-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ObservationType-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-OutcomeOfAttendance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-PDS-PersonNameType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-PrescribedElsewhere-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-PrescriptionType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ProblemSignificance-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ProcedureCode-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ReactionEventSeverity-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ReasonImmunizationNotAdministered-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ReferralRequestMethod-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-RegistrationStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-RegistrationType-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ReligiousAffiliation-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ReportCodeSnCT-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-ResidentialStatus-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SDSJobRoleName-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SaturatedOxygenSp02Scale-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SourceOfAdmission-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SourceOfReferral-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SpecimenBodySite-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-SpecimenType-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-TreatmentCategory-1 : 0 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-VaccinationProcedure-1 : 1 / 0
- /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/valueset/CareConnect-VaccineCode-1 : 1 / 0
+ Build Errors : 6 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\examples\documentreference-1 : 0 / 2
+ C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-1 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-2 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-735 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\location-200014 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\observation-9084 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\organization-2 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\examples\organization-200001 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\examples\organization-3 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\examples\patient-1 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-3 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-4 : 0 / 1
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ACVPU-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-AllergyIntolerance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Appointment-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-BloodPressure-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-CarePlan-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-CareTeam-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Composition-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Condition-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-DiagnosticReport-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-DocumentReference-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Encounter-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-EpisodeOfCare-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-FamilyMemberHistory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Flag-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-HealthcareService-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-HeartRate-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Immunization-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-InspiredOxygen-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-List-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Location-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Medication-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Medication-Flag-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationDispense-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationRequest-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationStatement-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Organization-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-OxygenSaturation-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Patient-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Practitioner-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-PractitionerRole-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ProblemHeader-Condition-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Procedure-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ProcedureRequest-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Quantity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ReferralRequest-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RelatedPerson-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ResearchStudy-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RespiratoryRate-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RiskAssessment-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Schedule-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Slot-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Specimen-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Subscore-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-VitalSigns-Observation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ActualProblem-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AdmissionMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AllergyIntoleranceEnd-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AllergySeverity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AnaestheticIssues-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-CareSettingType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ClinicalSetting-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ConditionEpisode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DateRecorded-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DeathNotificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DischargeMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EmergencyCareDischargeStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EncounterTransport-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EthnicCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Evidence-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-FastingStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ListWarningCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MainLocation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationChangeSummary-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationFlagAssociation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationQuantityText-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationRepeatInformation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationStatementLastIssueDate-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationStatusReason-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NHSCommunication-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NominatedPharmacy-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-OutcomeOfAttendance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ParentPresent-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-PrescribedElsewhere-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-PrescriptionType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ProbabilityOfRecurrence-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ProblemSignificance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReasonCondition-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Recorder-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReferralRequestMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RegistrationDetails-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RelatedClinicalContent-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RelatedProblemHeader-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReligiousAffiliation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ResidentialStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-SourceOfReferral-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-TreatmentCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-VaccinationProcedure-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ValueApproximation-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-coding-sctdescid : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\UK-STU3-ImplementationGuide : 3 / 4
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-AdmissionMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ConditionCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ConditionEpisodicity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ConditionRelationship-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-DeathNotificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-DischargeDestination-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-DischargeMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-EthnicCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-HumanLanguage-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ImmunizationExplanationReason-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-LanguageAbilityMode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-LanguageAbilityProficiency-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ListEmptyReasonCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ListWarningCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-MedicationChangeStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-MedicationFlag-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-MedicationSupplyType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-NHSDataDictionary-PersonMaritalStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-NHSDataDictionary-PersonStatedGender-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-OutcomeOfAttendance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-PDS-PersonNameType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-PrescribedElsewhere-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-PrescriptionType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ProblemSignificance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ReferralRequestMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-RegistrationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-RegistrationType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-ResidentialStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-SDSJobRoleName-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-SourceOfAdmission-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\codesystem\CareConnect-TreatmentCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-AdministrativeGender-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-AllergySeverity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-AllergyVerificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-MaritalStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\CareConnect-PersonNameType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\conceptmap\ConditionEpisodicity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\ods-organization-code : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\ods-site-code : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\sds-user-id : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-chi-number : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-gmc-number : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-gmp-number : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\namingsystem\uk-nhs-number : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ACVPU-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AdministrativeGender-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AdmissionMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergyCertainty-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergyCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergyExposureRoute-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergyManifestation-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergySeverity-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-AllergyVerificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-BodySite-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-CareSettingType-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ClinicalDisciplines-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-CompositionSectionCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ConditionCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ConditionCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ConditionEpisodeSnCT-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ConditionEpisodicity-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ConditionRelationship-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-DeathNotificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-DischargeDestination-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-DischargeMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-DocumentType-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-EmergencyCareDischargeStatus-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-EncounterType-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-EthnicCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-FindingCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-HumanLanguage-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ImmunizationExplanationReason-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ImmunizationExplanationReason-2 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-InspiredOxygen-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-LanguageAbilityMode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-LanguageAbilityProficiency-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ListCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ListEmptyReasonCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ListWarningCode-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ManufacturedMaterialSnCT-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MaritalStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationChangeStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationDosageRoute-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationFlag-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationForm-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-MedicationSupplyType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-NHSDataDictionary-PersonMaritalStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-NHSDataDictionary-PersonStatedGender-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-NHSNumberVerificationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-NameUse-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ObservationMethod-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ObservationType-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-OutcomeOfAttendance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-PDS-PersonNameType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-PrescribedElsewhere-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-PrescriptionType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ProblemSignificance-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ProcedureCode-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ReactionEventSeverity-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ReasonImmunizationNotAdministered-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ReferralRequestMethod-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-RegistrationStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-RegistrationType-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ReligiousAffiliation-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ReportCodeSnCT-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-ResidentialStatus-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SDSJobRoleName-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SaturatedOxygenSp02Scale-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SourceOfAdmission-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SourceOfReferral-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SpecimenBodySite-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-SpecimenType-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-TreatmentCategory-1 : 0 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-VaccinationProcedure-1 : 1 / 0
+ C:\Development\HL7UK\fhir-uk-base\input\resources\valueset\CareConnect-VaccineCode-1 : 1 / 0
 </table>
 == n/a ==
-WARNING: The IGPublisher used is not up-to-date.  Published content might not be properly checked and/or rendered.
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/artifacts.html: Unable to read attribute on <105590001> at line 893 column 99
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json ==
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\artifacts.html: Unable to read attribute on <105590001> at line 893 column 99
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\valueset-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\valueset-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\valueset-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\valueset-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: C:\Development\HL7UK\fhir-uk-base\output\valueset-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 156, column 11: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+== C:\Development\HL7UK\fhir-uk-base\input\examples\documentreference-1.json ==
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.type: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#734163000)
 INFORMATION: DocumentReference/documentreference-1: DocumentReference.context.practiceSetting: None of the codes provided are in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1, and a code is recommended to come from this value set) (codes = http://snomed.info/sct#708168004)
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-1.json ==
 WARNING: Encounter/encounter-1: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-2.json ==
 WARNING: Encounter/encounter-2: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\encounter-735.json ==
 WARNING: Encounter/encounter-735: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\location-200014.json ==
 INFORMATION: Location/location-200014: Location.identifier[0]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\observation-9084.xml ==
 WARNING: Observation/observation-9084: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-200001.json ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\organization-2.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\organization-200001.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\organization-3.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\patient-1.xml ==
 INFORMATION: Patient/patient-1: Patient.identifier[1]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3.json ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-3.json ==
 INFORMATION: Practitioner/practitioner-3: Practitioner.identifier[1]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\examples\practitioner-4.xml ==
 INFORMATION: Practitioner/practitioner-4: Practitioner.identifier[0]: This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Appointment-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DocumentReference-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Encounter-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Immunization-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-InspiredOxygen-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-List-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Location-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-Flag-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationDispense-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationRequest-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationStatement-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Organization-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-OxygenSaturation-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Practitioner-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Quantity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RiskAssessment-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Schedule-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Slot-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Specimen-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Subscore-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-VitalSigns-Observation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ActualProblem-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AdmissionMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DeathNotificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DischargeMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EmergencyCareDischargeStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EncounterTransport-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Evidence-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-FastingStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ListWarningCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MainLocation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationChangeSummary-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationFlagAssociation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationQuantityText-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationRepeatInformation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatementLastIssueDate-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatusReason-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSCommunication-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NominatedPharmacy-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-OutcomeOfAttendance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ParentPresent-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReligiousAffiliation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ResidentialStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-SourceOfReferral-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-TreatmentCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/UK-STU3-ImplementationGuide.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ACVPU-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-AllergyIntolerance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Appointment-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-BloodPressure-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-CarePlan-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-CareTeam-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Composition-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Condition-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-DiagnosticReport-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-DocumentReference-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Encounter-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-EpisodeOfCare-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-FamilyMemberHistory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Flag-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-HealthcareService-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-HeartRate-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Immunization-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-InspiredOxygen-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-List-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Location-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Medication-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Medication-Flag-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationDispense-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationRequest-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-MedicationStatement-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Organization-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-OxygenSaturation-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Patient-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Practitioner-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-PractitionerRole-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ProblemHeader-Condition-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Procedure-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ProcedureRequest-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Quantity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ReferralRequest-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RelatedPerson-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-ResearchStudy-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RespiratoryRate-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-RiskAssessment-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Schedule-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Slot-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Specimen-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-Subscore-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CareConnect-VitalSigns-Observation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ActualProblem-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AdmissionMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AllergyIntoleranceEnd-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AllergySeverity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-AnaestheticIssues-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-CareSettingType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ClinicalSetting-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ConditionEpisode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DateRecorded-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DeathNotificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-DischargeMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EmergencyCareDischargeStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EncounterTransport-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-EthnicCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Evidence-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-FastingStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ListWarningCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MainLocation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationChangeSummary-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationFlagAssociation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationQuantityText-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationRepeatInformation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationStatementLastIssueDate-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-MedicationStatusReason-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NHSCommunication-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NHSNumberVerificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-NominatedPharmacy-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-OutcomeOfAttendance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ParentPresent-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-PrescribedElsewhere-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-PrescriptionType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ProbabilityOfRecurrence-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ProblemSignificance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReasonCondition-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-Recorder-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReferralRequestMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RegistrationDetails-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RelatedClinicalContent-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-RelatedProblemHeader-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ReligiousAffiliation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ResidentialStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-SourceOfReferral-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-TreatmentCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-VaccinationProcedure-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-CareConnect-ValueApproximation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\Extension-coding-sctdescid.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\UK-STU3-ImplementationGuide.xml ==
 ERROR: /f:ImplementationGuide: Undefined element 'title'
 ERROR: /f:ImplementationGuide: Undefined element 'packageId'
 ERROR: /f:ImplementationGuide: Undefined element 'definition'
@@ -357,152 +356,152 @@ WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resourc
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[18].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[0].resource[30].description: value should not start or finish with whitespace
 WARNING: ImplementationGuide/hl7.uk.base: ImplementationGuide.package[4].resource[31].description: value should not start or finish with whitespace
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-AdmissionMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ConditionCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ConditionEpisodicity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ConditionRelationship-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-DeathNotificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-DischargeDestination-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-DischargeMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-EthnicCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-HumanLanguage-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ImmunizationExplanationReason-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-LanguageAbilityMode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-LanguageAbilityProficiency-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ListEmptyReasonCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ListWarningCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-MedicationChangeStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-MedicationFlag-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-MedicationSupplyType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-NHSNumberVerificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-OutcomeOfAttendance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-PDS-PersonNameType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-PrescribedElsewhere-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-PrescriptionType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ProblemSignificance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ReferralRequestMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-RegistrationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-RegistrationType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-ResidentialStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-SDSJobRoleName-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-SourceOfAdmission-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CodeSystem/CareConnect-TreatmentCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-AdministrativeGender-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-AllergySeverity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-AllergyVerificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-MaritalStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/CareConnect-PersonNameType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ConceptMap/ConditionEpisodicity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/ods-organization-code.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/ods-site-code.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/sds-user-id.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-chi-number.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmc-number.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-gmp-number.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/NamingSystem/uk-nhs-number.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ACVPU-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-AdmissionMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ConditionCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ConditionEpisodicity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ConditionRelationship-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-DeathNotificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-DischargeDestination-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-DischargeMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-EthnicCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-HumanLanguage-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ImmunizationExplanationReason-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-LanguageAbilityMode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-LanguageAbilityProficiency-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ListEmptyReasonCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ListWarningCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-MedicationChangeStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-MedicationFlag-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-MedicationSupplyType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-NHSDataDictionary-PersonStatedGender-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-NHSNumberVerificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-OutcomeOfAttendance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-PDS-PersonNameType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-PrescribedElsewhere-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-PrescriptionType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ProblemSignificance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ReferralRequestMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-RegistrationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-RegistrationType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-ResidentialStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-SDSJobRoleName-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-SourceOfAdmission-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\CodeSystem\CareConnect-TreatmentCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\CareConnect-AdministrativeGender-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\CareConnect-AllergySeverity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\CareConnect-AllergyVerificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\CareConnect-MaritalStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\CareConnect-PersonNameType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ConceptMap\ConditionEpisodicity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\ods-organization-code.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\ods-site-code.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\sds-user-id.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-chi-number.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-gmc-number.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-gmp-number.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\NamingSystem\uk-nhs-number.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ACVPU-1.xml ==
 ERROR: CareConnect-ACVPU-1: Error from server: The filter "constraint = (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AdministrativeGender-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AdmissionMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyCertainty-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AdministrativeGender-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AdmissionMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergyCertainty-1.xml ==
 ERROR: CareConnect-AllergyCertainty-1: Error from server: The filter "constraint = (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergyCode-1.xml ==
 ERROR: CareConnect-AllergyCode-1: Error from server: The filter "constraint = (<<105590001 |Substance| OR <<373873005 |Pharmaceutical / biologic product| OR <<716186003 |No known allergy| OR 196461000000101 |Transfer-degraded drug allergy| OR 196471000000108 |Transfer-degraded non-drug allergy|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyExposureRoute-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergyExposureRoute-1.xml ==
 ERROR: CareConnect-AllergyExposureRoute-1: Error from server: The filter "constraint = ^999000051000001100 |ePrescribing route of administration simple reference set|" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyManifestation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergyManifestation-1.xml ==
 ERROR: CareConnect-AllergyManifestation-1: Error from server: The Snomed Concept 404684003 is not a reference set
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergySeverity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergySeverity-1.xml ==
 ERROR: CareConnect-AllergySeverity-1: Error from server: The filter "constraint = (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-AllergyVerificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-BodySite-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-AllergyVerificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-BodySite-1.xml ==
 ERROR: CareConnect-BodySite-1: Error from server: The filter "constraint = (<<442083009 |anatomical or acquired body structure|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-CareSettingType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-CareSettingType-1.xml ==
 ERROR: CareConnect-CareSettingType-1: Error from server: The Snomed Concept 999000381000000107 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ClinicalDisciplines-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ClinicalDisciplines-1.xml ==
 ERROR: CareConnect-ClinicalDisciplines-1: Error from server: Unable to provide support for code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ClinicalDisciplines-1
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-CompositionSectionCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-CompositionSectionCode-1.xml ==
 ERROR: CareConnect-CompositionSectionCode-1: Error from server: The filter "constraint = (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ConditionCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ConditionCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ConditionCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ConditionCode-1.xml ==
 ERROR: CareConnect-ConditionCode-1: Error from server: The filter "constraint = (< 404684003 |Clinical finding| OR < 413350009 |Finding with explicit context| OR < 272379006 |Event|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ConditionEpisodeSnCT-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ConditionEpisodicity-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ConditionRelationship-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-DeathNotificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-DischargeDestination-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-DischargeMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-DocumentType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ConditionEpisodeSnCT-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ConditionEpisodicity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ConditionRelationship-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-DeathNotificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-DischargeDestination-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-DischargeMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-DocumentType-1.xml ==
 ERROR: CareConnect-DocumentType-1: Error from server: The Snomed Concept 999000391000000109 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-EmergencyCareDischargeStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-EmergencyCareDischargeStatus-1.xml ==
 ERROR: CareConnect-EmergencyCareDischargeStatus-1: Error from server: The Snomed Concept 999003021000000104 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-EncounterType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-EncounterType-1.xml ==
 ERROR: CareConnect-EncounterType-1: Error from server: The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-EthnicCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-FindingCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-EthnicCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-FindingCode-1.xml ==
 ERROR: CareConnect-FindingCode-1: Error from server: The filter "constraint = (<<404684003 | clinical findings|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-HumanLanguage-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ImmunizationExplanationReason-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ImmunizationExplanationReason-2.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-InspiredOxygen-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-HumanLanguage-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ImmunizationExplanationReason-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ImmunizationExplanationReason-2.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-InspiredOxygen-1.xml ==
 ERROR: CareConnect-InspiredOxygen-1: Error from server: The filter "constraint = (722742002 |Breathing room air| OR 371825009 |Patient on oxygen|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-LanguageAbilityMode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-LanguageAbilityProficiency-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ListCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ListEmptyReasonCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ListWarningCode-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ManufacturedMaterialSnCT-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-LanguageAbilityMode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-LanguageAbilityProficiency-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ListCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ListEmptyReasonCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ListWarningCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ManufacturedMaterialSnCT-1.xml ==
 ERROR: CareConnect-ManufacturedMaterialSnCT-1: Error from server: The Snomed Concept 999000031000001105 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MaritalStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationChangeStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MaritalStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationChangeStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationCode-1.xml ==
 ERROR: CareConnect-MedicationCode-1: Error from server: The filter "constraint = (^999000541000001108 |National Health Service dictionary of medicines and devices actual medicinal product simple reference set| OR ^999000551000001106 |National Health Service dictionary of medicines and devices actual medicinal product pack simple reference set| OR ^999000561000001109 |National Health Service dictionary of medicines and devices virtual medicinal product simple reference set| OR ^999000571000001104 |National Health Service dictionary of medicines and devices virtual medicinal product pack simple reference set| OR ^999000581000001102 |National Health Service dictionary of medicines and devices virtual therapeutic moiety simple reference set|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationDosageRoute-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationDosageRoute-1.xml ==
 ERROR: CareConnect-MedicationDosageRoute-1: Error from server: The Snomed Concept 999000051000001100 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationFlag-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationForm-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationFlag-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationForm-1.xml ==
 ERROR: CareConnect-MedicationForm-1: Error from server: The filter "constraint = ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-MedicationSupplyType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-NHSNumberVerificationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-NameUse-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ObservationMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-MedicationSupplyType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-NHSDataDictionary-PersonStatedGender-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-NHSNumberVerificationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-NameUse-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ObservationMethod-1.xml ==
 ERROR: CareConnect-ObservationMethod-1: Error from server: The filter "constraint = (<<386053000 | Evaluation procedure|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ObservationType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ObservationType-1.xml ==
 ERROR: CareConnect-ObservationType-1: Error from server: The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-OutcomeOfAttendance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-PDS-PersonNameType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-PrescribedElsewhere-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-PrescriptionType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ProblemSignificance-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ProcedureCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-OutcomeOfAttendance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-PDS-PersonNameType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-PrescribedElsewhere-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-PrescriptionType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ProblemSignificance-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ProcedureCode-1.xml ==
 ERROR: CareConnect-ProcedureCode-1: Error from server: The filter "constraint = (<<71388002 |Procedure| OR <<129125009 |Procedure with explicit context|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ReactionEventSeverity-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ReactionEventSeverity-1.xml ==
 ERROR: ValueSet/CareConnect-ReactionEventSeverity-1: ValueSet.extension[1].value.ofType(uri): URI values cannot have whitespace
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ReferralRequestMethod-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-RegistrationStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-RegistrationType-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ReligiousAffiliation-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ReasonImmunizationNotAdministered-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ReferralRequestMethod-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-RegistrationStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-RegistrationType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ReligiousAffiliation-1.xml ==
 ERROR: CareConnect-ReligiousAffiliation-1: Error from server: The Snomed Concept 999000531000000100 was not known
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ReportCodeSnCT-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ReportCodeSnCT-1.xml ==
 ERROR: CareConnect-ReportCodeSnCT-1: Error from server: The filter "constraint = (<<371525003 | Clinical procedure report (record artifact))" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-ResidentialStatus-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SDSJobRoleName-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SaturatedOxygenSp02Scale-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-ResidentialStatus-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SDSJobRoleName-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SaturatedOxygenSp02Scale-1.xml ==
 ERROR: CareConnect-SaturatedOxygenSp02Scale-1: Error from server: The filter "constraint = (1104311000000102 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 1 score| OR 1104321000000108 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 2 score|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SourceOfAdmission-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SourceOfReferral-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SourceOfAdmission-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SourceOfReferral-1.xml ==
 ERROR: CareConnect-SourceOfReferral-1: Error from server: The filter "concept = < 309013001 |Referred by person (finding)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SpecimenBodySite-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SpecimenBodySite-1.xml ==
 ERROR: CareConnect-SpecimenBodySite-1: Error from server: The filter "constraint = (<442083009 |Anatomical or acquired body structure| OR <49755003 |Morphologically abnormal structure|)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-SpecimenType-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-SpecimenType-1.xml ==
 ERROR: CareConnect-SpecimenType-1: Error from server: The filter "constraint = (<105590001 |Substance (substance)| OR <49755003 |Morphologically abnormal structure (morphologic abnormality)| OR <260787004 |Physical object (physical object))|" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-TreatmentCategory-1.xml ==
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-VaccinationProcedure-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-TreatmentCategory-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-VaccinationProcedure-1.xml ==
 ERROR: CareConnect-VaccinationProcedure-1: Error from server: The filter "constraint = (<<33879002 OR <<713404003 OR <<955641000000103 OR <<955691000000108 OR <<955701000000108 OR <<957581000000102 OR <<957751000000103 OR <<1066171000000108 OR <<140611000119104 OR <<15483003 OR <<39343008 OR <<34631000 OR <<72093006 OR <<425897001 OR <<8605003 OR <<428502009 OR <<283451000000105 OR <<308753004 OR <<572481000119103 OR <<965851000000105 OR <<761841000 OR <<16300531000119107 OR <<14747002 OR <<283431000000103 OR <<427633002) MINUS (<<304250009 OR <<51116004 OR <<296811004 OR <<294631000 OR <<425457005 OR <<291705006 OR <<417451006 OR <<47988006 OR <<293095001 OR <<601000000100 OR <<123471000119103 OR <<266758009 OR <<223464006 OR <<185324002 OR <<416064006 OR <<428119001 OR <<308433002 OR <<183944003 OR <<408864009 OR <<202111000000106 OR <<708538000 OR <<418019003 OR <<416237000 OR <<400999005 OR <<309370004)" was not understood in the context of http://snomed.info/sct
-== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ValueSet/CareConnect-VaccineCode-1.xml ==
+== C:\Development\HL7UK\fhir-uk-base\input\resources\ValueSet\CareConnect-VaccineCode-1.xml ==
 ERROR: CareConnect-VaccineCode-1: Error from server: The Snomed Concept 999000811000001105 was not known
