@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.uk.base"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect FHIR Conformance Resources.</p>
 </div></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"/>
@@ -11,7 +11,7 @@
   <name value="HL7 UK Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-09T13:04:32+00:00"/>
+  <date value="2019-12-10T08:25:07+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -19,7 +19,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="UK Base FHIR Resources."/>
+  <description value="HL7 UK Care Connect FHIR Conformance Resources."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

@@ -1,4 +1,5 @@
 ### Introduction
+
 This implementation guide is provided to support the use of FHIR<sup>&reg;&copy;</sup> in a United Kingdom context.
 
 This document is a working specification that is expected to be implemented and tested by FHIR<sup>&reg;&copy;</sup> system producers
@@ -22,10 +23,16 @@ general in nature and seeks to provide a ‘how-to’ guide when representing co
 profiles that can be further constrained for a particular usage.
 
 ### Collaboration
+
 This guide is the product of collaborative work undertaken with participants from:
 
 * [INTEROPen](https://www.interopen.org/)
 
-### Issues
+### Support and Issues
 
-Issues with this Immplementation Guide can be logged on [HL7 UK GitHub Repository](https://github.com/HL7-UK/UK-STU3/issues). 
+There are several ways to provide feedback or ask supprt questions.
+
+* [HL7 FHIR Chat Forum - UK Stream](https://chat.fhir.org/#narrow/stream/179189-uk) - Questions/Discussion about the HL7 UK FHIR ImplementationGuide and the implementation process. Interactive discussion about FHIR issues
+* [INTEROPen](https://interopen.ryver.com/) - Questions/Discussions on Care Connect and INTEROpen
+* [StackOverflow](https://stackoverflow.com/questions/tagged/hl7_fhir) - Developer/Programming type questions, mainly about the reference implementations - see [StackOverflow guidance](https://meta.stackexchange.com/questions/3966/is-it-okay-to-use-stack-overflow-as-the-support-forum-for-a-product-or-project)
+* [HL7 UK GitHub Repository](https://github.com/HL7-UK/UK-STU3/issues) - Issues reporting for this Implementation Guide. 

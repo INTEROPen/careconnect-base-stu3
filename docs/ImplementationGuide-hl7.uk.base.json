@@ -3,14 +3,14 @@
   "id": "hl7.uk.base",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>UK Base FHIR Resources.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect FHIR Conformance Resources.</p>\n</div></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base",
   "version": "3.0.0",
   "name": "HL7 UK Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-09T13:04:32+00:00",
+  "date": "2019-12-10T08:25:07+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "UK Base FHIR Resources.",
+  "description": "HL7 UK Care Connect FHIR Conformance Resources.",
   "jurisdiction": [
     {
       "coding": [

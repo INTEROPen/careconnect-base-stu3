@@ -51,7 +51,7 @@
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
         <div id="hl7-status">
-          <p><span style="font-size:12pt;font-weight:bold">HL7 UK INTEROPen CareConnect Base</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 UK INTEROPen CareConnect</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -141,14 +141,123 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">HL7 UK INTEROPen CareConnect Base - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">HL7 UK INTEROPen CareConnect - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Profiles</h2>
   
   
   
 <div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#care-connect-api" id="markdown-toc-care-connect-api">Care Connect API</a></li>
+  <li><a href="#vital-signs" id="markdown-toc-vital-signs">Vital Signs</a></li>
+  <li><a href="#all-care-connect-profiles" id="markdown-toc-all-care-connect-profiles">All Care Connect Profiles</a></li>
+</ul>
 
 </div>
+<h3 id="care-connect-api">Care Connect API</h3>
+
+<p>See also the guide <a href="https://nhsconnect.github.io/CareConnectAPI/">INTEROPen - Care Connect API</a>
+and the examples ‘sandbox’ <a href="https://data.developer.nhs.uk/ccri">Care Connect Reference Implementation</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Individuals</th>
+      <th>Entities</th>
+      <th>Management</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="CareConnect-Patient-1.html">Patient</a></td>
+      <td><a href="CareConnect-Location-1.html">Location</a></td>
+      <td><a href="CareConnect-Encounter-1.html">Encounter</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-Practitioner-1.html">Practitioner</a></td>
+      <td><a href="CareConnect-Organization-1.html">Organisation</a></td>
+      <td><a href="CareConnect-Flag-1.html">Flag</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-PractitionerRole-1.html">PractitionerRole</a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Summary</th>
+      <th>Diagnostics</th>
+      <th>Medications</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="CareConnect-AllergyIntolerance-1.html">AllergyIntolerance</a></td>
+      <td><a href="CareConnect-DiagnosticReport-1.html">DiagnosticReport</a></td>
+      <td><a href="CareConnect-Medication-1.html">Medication</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-Condition-1.html">Condition</a></td>
+      <td><a href="CareConnect-Observation-1.html">Observation</a></td>
+      <td><a href="CareConnect-MedicationRequest-1.html">MedicationRequest</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-Procedure-1.html">Procedure</a></td>
+      <td> </td>
+      <td><a href="CareConnect-MedicationStatement-1.html">MedicationStatement</a></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td><a href="CareConnect-Immunization-1.html">Immunisation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="vital-signs">Vital Signs</h3>
+
+<p>See also <a href="https://nhsconnect.github.io/FHIR-NEWS2/index.html">INTEROPen - National Early Warning Score (NEWS)2</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>NEWS2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="CareConnect-ACVPU-Observation-1.html">ACVPU</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-BloodPressure-Observation-1.html">Blood Pressure</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-HeartRate-Observation-1.html">Heart Rate</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-InspiredOxygen-Observation-1.html">Inspired Oxygen</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-OxygenSaturation-Observation-1.html">Oxygen Saturation</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-RespiratoryRate-Observation-1.html">Respiratory Rate</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-Subscore-Observation-1.html">Sub Score</a></td>
+    </tr>
+    <tr>
+      <td><a href="CareConnect-VitalSigns-Observation-1.html">Vital Signs</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="all-care-connect-profiles">All Care Connect Profiles</h3>
+
 <tr><td><a href="CareConnect-ACVPU-Observation-1.html">CareConnect-ACVPU-Observation-1</a> </td><td><p>This profile is used to carry alert, new-onset or worsening confusion, voice, pain, and unresponsiveness observations for a patient.</p>
 </td></tr>
 <tr><td><a href="CareConnect-AllergyIntolerance-1.html">CareConnect-AllergyIntolerance-1</a> </td><td><p>This AllergyIntolerance Resource records Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.</p>
@@ -250,7 +359,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 9, 2019 13:04+0000">2019-12-09</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="http://hl7.org/Special/committees/[something]"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Dec 10, 2019 08:25+0000">2019-12-10</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

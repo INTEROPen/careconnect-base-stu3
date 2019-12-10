@@ -3,7 +3,7 @@
    <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/Care-Connect-STU3"></url>
    <version value="3.0.0"/>
    <name value="HL7 UK Implementation Guide"></name>
-   <title value="HL7 UK INTEROPen CareConnect Base"></title>
+   <title value="HL7 UK INTEROPen CareConnect"></title>
    <status value="draft"></status>
    <experimental value="true"></experimental>
    <publisher value="HL7 UK"></publisher>
@@ -14,7 +14,7 @@
          <value value="http://hl7.org/Special/committees/[something]"></value>
       </telecom>
    </contact>
-   <description value="UK Base FHIR Resources."></description>
+   <description value="HL7 UK Care Connect FHIR Conformance Resources."></description>
    <jurisdiction>
       <!-- This will drive SNOMED release used -->
       <coding>
