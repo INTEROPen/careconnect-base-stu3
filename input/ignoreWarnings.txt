@@ -6,3 +6,5 @@ This element does not match any known slice for the profile https://fhir.hl7.org
 This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1
 This element does not match any known slice for the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1
 [Unable to resolve system http://snomed.info/sct - system is not complete]
+The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1 (https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code) (error message = Unknown Code http://snomed.info/sct#364075005 in http://snomed.info/sct)
+value should not start or finish with whitespace
