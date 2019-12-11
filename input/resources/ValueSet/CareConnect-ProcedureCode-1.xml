@@ -14,7 +14,7 @@
          <filter>
             <property value="constraint"></property>
             <op value="="></op>
-            <value value="(<<71388002 |Procedure| OR <<129125009 |Procedure with explicit context|)"></value>
+            <value value="(&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)"></value>
          </filter>
       </include>
    </compose>
