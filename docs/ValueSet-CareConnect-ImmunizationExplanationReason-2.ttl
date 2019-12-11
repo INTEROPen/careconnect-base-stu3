@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-ImmunizationExplanationReason-2"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Immunization Explanation Reason</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008\">171279008</a></td><td>Immunization due</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007\">414448007</a></td><td>Identified as high risk for travel</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004\">161096004</a></td><td>Going to travel abroad</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109\">506931000000109</a></td><td>Recent travel to disease affected area</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007\">78648007</a></td><td>At risk for infection</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004\">14679004</a></td><td>Occupation</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002\">134436002</a></td><td>Lifestyle</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003\">398192003</a></td><td>Co-morbid conditions</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005\">443684005</a></td><td>Disease outbreak</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001\">183995001</a></td><td>Patient requested procedure</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005\">444107005</a></td><td>Exposure to communicable disease</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004\">723620004</a></td><td>Requires vaccination</td><td/></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Immunization Explanation Reason</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include these codes as defined in \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a>\n               <table class=\"none\">\n                  <tr>\n                     <td style=\"white-space:nowrap\">\n                        <b>Code</b>\n                     </td>\n                     <td>\n                        <b>Display</b>\n                     </td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008\">171279008</a>\n                     </td>\n                     <td>Immunization due</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007\">414448007</a>\n                     </td>\n                     <td>Identified as high risk for travel</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004\">161096004</a>\n                     </td>\n                     <td>Going to travel abroad</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109\">506931000000109</a>\n                     </td>\n                     <td>Recent travel to disease affected area</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007\">78648007</a>\n                     </td>\n                     <td>At risk for infection</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004\">14679004</a>\n                     </td>\n                     <td>Occupation</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002\">134436002</a>\n                     </td>\n                     <td>Lifestyle</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003\">398192003</a>\n                     </td>\n                     <td>Co-morbid conditions</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005\">443684005</a>\n                     </td>\n                     <td>Disease outbreak</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001\">183995001</a>\n                     </td>\n                     <td>Patient requested procedure</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005\">444107005</a>\n                     </td>\n                     <td>Exposure to communicable disease</td>\n                     <td/>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004\">723620004</a>\n                     </td>\n                     <td>Requires vaccination</td>\n                     <td/>\n                  </tr>\n               </table>\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ImmunizationExplanationReason-2"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -89,6 +89,80 @@
          fhir:ValueSet.compose.include.concept.code [ fhir:value "723620004" ];
          fhir:ValueSet.compose.include.concept.display [ fhir:value "Requires vaccination" ]
        ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "90810fe6-6e68-4e3a-b908-1c2dc20454f3" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:17+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "11"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "398192003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Co-morbid conditions" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "414448007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Identified as high risk for travel" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "183995001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Patient requested procedure" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "134436002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Lifestyle" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "443684005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Disease outbreak" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "171279008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunization due" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "161096004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Going to travel abroad" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "78648007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "At risk for infection" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "723620004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Requires vaccination" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "444107005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Exposure to communicable disease" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "14679004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Occupation" ]
      ]
   ] .
 

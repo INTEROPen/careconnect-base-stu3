@@ -3,8 +3,68 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-ReasonImmunizationNotAdministered-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Reason Immunization Not Administered</h2><div><p>A ValueSet to identify the reason why an immunization was not administered.</p>
-</div><p><b>Copyright Statement:</b> Copyright © 2019 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102">201741000000102</a></td><td>Did not attend child immunisation (finding)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006">281399006</a></td><td>Did not attend (finding)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006">213257006</a></td><td>Generally unwell (finding)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009">266758009</a></td><td>Immunization contraindicated (situation)</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006">310376006</a></td><td>Immunization consent not given (finding)</td><td/></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Reason Immunization Not Administered</h2>
+         <div>
+            <p>A ValueSet to identify the reason why an immunization was not administered.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include these codes as defined in 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a>
+               <table class="none">
+                  <tr>
+                     <td style="white-space:nowrap">
+                        <b>Code</b>
+                     </td>
+                     <td>
+                        <b>Display</b>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102">201741000000102</a>
+                     </td>
+                     <td>Did not attend child immunisation (finding)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006">281399006</a>
+                     </td>
+                     <td>Did not attend (finding)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006">213257006</a>
+                     </td>
+                     <td>Generally unwell (finding)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009">266758009</a>
+                     </td>
+                     <td>Immunization contraindicated (situation)</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006">310376006</a>
+                     </td>
+                     <td>Immunization consent not given (finding)</td>
+                     <td/>
+                  </tr>
+               </table>
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"/>
   <version value="3.0.0"/>
@@ -51,4 +111,41 @@
       </concept>
     </include>
   </compose>
+  <expansion>
+    <identifier value="272fb591-1083-4912-9ad9-99cd1c0c5633"/>
+    <timestamp value="2019-12-11T15:35:10+00:00"/>
+    <total value="4"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="281399006"/>
+      <display value="Did not attend (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="213257006"/>
+      <display value="Generally unwell (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="310376006"/>
+      <display value="Immunization consent not given (finding)"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="266758009"/>
+      <display value="Immunization contraindicated (situation)"/>
+    </contains>
+  </expansion>
 </ValueSet>

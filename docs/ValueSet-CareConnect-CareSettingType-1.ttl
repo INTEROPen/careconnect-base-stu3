@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-CareSettingType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Care Setting Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  999000381000000107</li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Care Setting Type</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where concept  in  999000381000000107\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -46,6 +46,1115 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "in" ];
          fhir:ValueSet.compose.include.filter.value [ fhir:value "999000381000000107" ]
        ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "e1e494a6-4446-4a2f-a1f2-dad8a5b684e4" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:17+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "218"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310165002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Transplant surgery service" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310034009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric intensive care service" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310033003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Adult intensive care service" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708188000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Serology service" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310166001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Trauma surgery service" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310167005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Urology service" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "2351000175106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Sports medicine service" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310141000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Thoracic surgery service" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310010004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Distraction test audiological screening service" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310019003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tinnitus management service" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "706902008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mycology service" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3801000175108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric pulmonology service" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "699650006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community based physiotherapy service" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310121005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Psychogeriatric service" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700436003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical pharmacology service" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310120006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mental handicap psychiatry service" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722424008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Physical medicine and rehabilitation service" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310016005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Adult hearing aid service" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310148006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Restorative dentistry service" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310080006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pharmacy service" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310018006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Speech-reading training service" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "2421000175108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Acute care inpatient service" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310123008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Psychology service" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "706901001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Bacteriology service" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310084002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dance therapy service" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310082003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Arts therapy services" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310083008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Art therapy service" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310122003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rehabilitation psychiatry service" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310015009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hearing aid service" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310147001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric dentistry service" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700435004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical physiology service" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708169007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Respiratory therapy service" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310168000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vascular surgery service" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310142007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiac surgery service" ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310143002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dental surgery service" ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310014008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric cochlear implant service" ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "408452007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Behavioural intervention team" ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "706900000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Parasitology service" ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "710028007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Maxillofacial surgery service" ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310017001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric hearing aid service" ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310149003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ear, nose and throat service" ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310146005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthodontics service" ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700434000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endocrinology service" ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "408451000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community learning disabilities team" ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "408458006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Specialist multidisciplinary team" ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310144008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General dental surgery service" ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310013002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Adult cochlear implant service" ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310012007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cochlear implant service" ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310145009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oral surgery service" ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700433006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gastroenterology service" ]
+     ], [
+       fhir:index 50;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310140004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiothoracic surgery service" ]
+     ], [
+       fhir:index 51;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310109006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthotics service" ]
+     ], [
+       fhir:index 52;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310150003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endocrine surgery service" ]
+     ], [
+       fhir:index 53;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310138009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical service" ]
+     ], [
+       fhir:index 54;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708171007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vascular ultrasound service" ]
+     ], [
+       fhir:index 55;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310169008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ultrasonography service" ]
+     ], [
+       fhir:index 56;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708175003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diagnostic imaging service" ]
+     ], [
+       fhir:index 57;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708170008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nursing service" ]
+     ], [
+       fhir:index 58;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3761000175103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric endocrinology service" ]
+     ], [
+       fhir:index 59;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310023006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiotherapy service" ]
+     ], [
+       fhir:index 60;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310022001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical oncology service" ]
+     ], [
+       fhir:index 61;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395086005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community specialist palliative care" ]
+     ], [
+       fhir:index 62;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310073009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Palliative care service" ]
+     ], [
+       fhir:index 63;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708173005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Obstetric ultrasound service" ]
+     ], [
+       fhir:index 64;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310067008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community paediatric service" ]
+     ], [
+       fhir:index 65;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722175001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Psychosomatic medicine service" ]
+     ], [
+       fhir:index 66;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722174002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pulmonary medicine service" ]
+     ], [
+       fhir:index 67;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708194008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Blood bank service" ]
+     ], [
+       fhir:index 68;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310108003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community orthoptics service" ]
+     ], [
+       fhir:index 69;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310107008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital orthoptics service" ]
+     ], [
+       fhir:index 70;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3751000175100" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric emergency medical service" ]
+     ], [
+       fhir:index 71;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310020009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hearing therapy service" ]
+     ], [
+       fhir:index 72;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310011000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Aural rehabilitation service" ]
+     ], [
+       fhir:index 73;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310004004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Audiological service" ]
+     ], [
+       fhir:index 74;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310152006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General gastrointestinal surgery service" ]
+     ], [
+       fhir:index 75;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310151004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gastrointestinal surgery service" ]
+     ], [
+       fhir:index 76;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708174004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Interventional radiology service" ]
+     ], [
+       fhir:index 77;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310125001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiology service" ]
+     ], [
+       fhir:index 78;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310155008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Colorectal surgery service" ]
+     ], [
+       fhir:index 79;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708196005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haematology service" ]
+     ], [
+       fhir:index 80;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310069006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric oncology service" ]
+     ], [
+       fhir:index 81;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3621000175101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rheumatology service" ]
+     ], [
+       fhir:index 82;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708172000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiac ultrasound service" ]
+     ], [
+       fhir:index 83;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "409971007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Emergency medical services" ]
+     ], [
+       fhir:index 84;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310021008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Assistive listening device service" ]
+     ], [
+       fhir:index 85;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310153001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Upper gastrointestinal surgery service" ]
+     ], [
+       fhir:index 86;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708178001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cytogenetics service" ]
+     ], [
+       fhir:index 87;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310068003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric neurology service" ]
+     ], [
+       fhir:index 88;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722170006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Chiropractic service" ]
+     ], [
+       fhir:index 89;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708193002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Coagulation service" ]
+     ], [
+       fhir:index 90;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310119000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Liaison psychiatry service" ]
+     ], [
+       fhir:index 91;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310079008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neuropathology service" ]
+     ], [
+       fhir:index 92;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708183009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anatomic pathology service" ]
+     ], [
+       fhir:index 93;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3791000175107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric nephrology service" ]
+     ], [
+       fhir:index 94;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310162004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pancreatic surgery service" ]
+     ], [
+       fhir:index 95;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708185002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Virology service" ]
+     ], [
+       fhir:index 96;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310161006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthopaedic service" ]
+     ], [
+       fhir:index 97;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310030000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endoscopy service" ]
+     ], [
+       fhir:index 98;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708182004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Histology service" ]
+     ], [
+       fhir:index 99;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310160007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ophthalmology service" ]
+     ], [
+       fhir:index 100;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "705150003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Domiciliary physiotherapy service" ]
+     ], [
+       fhir:index 101;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310118008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Forensic psychiatry service" ]
+     ], [
+       fhir:index 102;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3781000175109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric infectious disease service" ]
+     ], [
+       fhir:index 103;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310164003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Plastic surgery service" ]
+     ], [
+       fhir:index 104;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310031001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Family planning service" ]
+     ], [
+       fhir:index 105;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708187005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical pathology service" ]
+     ], [
+       fhir:index 106;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734863003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Prosthodontic service" ]
+     ], [
+       fhir:index 107;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3531000175102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Geriatric service" ]
+     ], [
+       fhir:index 108;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708180007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dermatopathology service" ]
+     ], [
+       fhir:index 109;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "699478002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical oncology service" ]
+     ], [
+       fhir:index 110;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "444933003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Home hospice service" ]
+     ], [
+       fhir:index 111;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734862008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endodontic service" ]
+     ], [
+       fhir:index 112;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700241009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dermatology service" ]
+     ], [
+       fhir:index 113;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310088004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community-based podiatry service" ]
+     ], [
+       fhir:index 114;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310087009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Podiatry service" ]
+     ], [
+       fhir:index 115;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310127009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Magnetic resonance imaging service" ]
+     ], [
+       fhir:index 116;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310126000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Breast screening service" ]
+     ], [
+       fhir:index 117;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310062002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pregnancy termination service" ]
+     ], [
+       fhir:index 118;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310061009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gynaecology service" ]
+     ], [
+       fhir:index 119;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310128004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Computerised tomography service" ]
+     ], [
+       fhir:index 120;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310089007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital-based podiatry service" ]
+     ], [
+       fhir:index 121;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310100005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Play therapy service" ]
+     ], [
+       fhir:index 122;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310124002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Psychotherapy service" ]
+     ], [
+       fhir:index 123;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310085001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Drama therapy service" ]
+     ], [
+       fhir:index 124;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310086000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Music therapy service" ]
+     ], [
+       fhir:index 125;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "706903003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mycobacteriology service" ]
+     ], [
+       fhir:index 126;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "741073001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neonatal intensive care service" ]
+     ], [
+       fhir:index 127;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310032008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intensive care service" ]
+     ], [
+       fhir:index 128;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "278032008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Preventive service" ]
+     ], [
+       fhir:index 129;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310158005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hepatobiliary surgical service" ]
+     ], [
+       fhir:index 130;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310091004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community-based dietetics service" ]
+     ], [
+       fhir:index 131;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310090003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dietetics service" ]
+     ], [
+       fhir:index 132;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310024000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Colposcopy service" ]
+     ], [
+       fhir:index 133;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310156009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General surgical service" ]
+     ], [
+       fhir:index 134;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310130002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Head injury rehabilitation service" ]
+     ], [
+       fhir:index 135;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310129007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rehabilitation service" ]
+     ], [
+       fhir:index 136;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310027007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mental health counselling service" ]
+     ], [
+       fhir:index 137;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310026003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Counselling service" ]
+     ], [
+       fhir:index 138;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "714089006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community midwifery service" ]
+     ], [
+       fhir:index 139;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "714088003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Midwifery service" ]
+     ], [
+       fhir:index 140;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3771000175106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric gastroenterology service" ]
+     ], [
+       fhir:index 141;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310095008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Social services occupational therapy service" ]
+     ], [
+       fhir:index 142;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310005003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diagnostic audiology service" ]
+     ], [
+       fhir:index 143;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310137004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Stroke service" ]
+     ], [
+       fhir:index 144;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "711332004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Allergy service" ]
+     ], [
+       fhir:index 145;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310094007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community-based occupational therapy service" ]
+     ], [
+       fhir:index 146;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310072004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Acute pain service" ]
+     ], [
+       fhir:index 147;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310071006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pain management service" ]
+     ], [
+       fhir:index 148;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310007006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric diagnostic audiology service" ]
+     ], [
+       fhir:index 149;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310139001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Breast surgery service" ]
+     ], [
+       fhir:index 150;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310098005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital-based physiotherapy service" ]
+     ], [
+       fhir:index 151;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722140001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Physiotherapy service" ]
+     ], [
+       fhir:index 152;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310099002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Child physiotherapy service" ]
+     ], [
+       fhir:index 153;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310000008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Accident and Emergency service" ]
+     ], [
+       fhir:index 154;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310132005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Young disabled service" ]
+     ], [
+       fhir:index 155;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310096009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital-based occupational therapy service" ]
+     ], [
+       fhir:index 156;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "413294000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community health services" ]
+     ], [
+       fhir:index 157;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310092006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital-based dietetics service" ]
+     ], [
+       fhir:index 158;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310003005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Child assessment service" ]
+     ], [
+       fhir:index 159;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395104009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cancer primary healthcare multidisciplinary team" ]
+     ], [
+       fhir:index 160;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310159002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neurosurgical service" ]
+     ], [
+       fhir:index 161;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310028002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diagnostic investigation service" ]
+     ], [
+       fhir:index 162;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310093001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Occupational therapy service" ]
+     ], [
+       fhir:index 163;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "2451000175103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Perinatology service" ]
+     ], [
+       fhir:index 164;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310029005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Domiciliary visit service" ]
+     ], [
+       fhir:index 165;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310001007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anaesthetic service" ]
+     ], [
+       fhir:index 166;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "413299005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Early years services" ]
+     ], [
+       fhir:index 167;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734920002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diabetic education service" ]
+     ], [
+       fhir:index 168;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "444913002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diabetes mellitus service" ]
+     ], [
+       fhir:index 169;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310114005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community surgical fitting service" ]
+     ], [
+       fhir:index 170;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310076001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical biochemistry service" ]
+     ], [
+       fhir:index 171;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "733459009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiac rehabilitation service" ]
+     ], [
+       fhir:index 172;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310009009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neonatal audiological screening service" ]
+     ], [
+       fhir:index 173;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700232004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General medical service" ]
+     ], [
+       fhir:index 174;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310115006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Public health service" ]
+     ], [
+       fhir:index 175;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700231006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Critical care physician service" ]
+     ], [
+       fhir:index 176;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310117003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Child and adolescent psychiatry service" ]
+     ], [
+       fhir:index 177;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310116007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Psychiatry service" ]
+     ], [
+       fhir:index 178;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708168004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mental health service" ]
+     ], [
+       fhir:index 179;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722352000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vascular medicine service" ]
+     ], [
+       fhir:index 180;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "2461000175101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pulmonary rehabilitation service" ]
+     ], [
+       fhir:index 181;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310078000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical microbiology service" ]
+     ], [
+       fhir:index 182;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310008001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Audiological screening service" ]
+     ], [
+       fhir:index 183;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310006002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Adult diagnostic audiology service" ]
+     ], [
+       fhir:index 184;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310070007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Special care baby service" ]
+     ], [
+       fhir:index 185;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310111002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community orthotics service" ]
+     ], [
+       fhir:index 186;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310113004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital surgical fitting service" ]
+     ], [
+       fhir:index 187;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310112009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical fitting service" ]
+     ], [
+       fhir:index 188;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310110001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital orthotics service" ]
+     ], [
+       fhir:index 189;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310025004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Complementary therapy service" ]
+     ], [
+       fhir:index 190;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310157000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hand surgery service" ]
+     ], [
+       fhir:index 191;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708179009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Molecular pathology service" ]
+     ], [
+       fhir:index 192;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310131003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community rehabilitation service" ]
+     ], [
+       fhir:index 193;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "2471000175109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Employee health service" ]
+     ], [
+       fhir:index 194;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395092004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Specialist palliative care" ]
+     ], [
+       fhir:index 195;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310163009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paediatric surgical service" ]
+     ], [
+       fhir:index 196;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310200001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cytology service" ]
+     ], [
+       fhir:index 197;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310133000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Swallow clinic" ]
+     ], [
+       fhir:index 198;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "373654008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical referral service" ]
+     ], [
+       fhir:index 199;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722393008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Legal medicine service" ]
+     ], [
+       fhir:index 200;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722176000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dentistry service" ]
+     ], [
+       fhir:index 201;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700221004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Care of elderly service" ]
+     ], [
+       fhir:index 202;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310104001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Child speech and language therapy service" ]
+     ], [
+       fhir:index 203;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310065000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Open access service" ]
+     ], [
+       fhir:index 204;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310105000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Optometry service" ]
+     ], [
+       fhir:index 205;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "445449000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Acute care hospice service" ]
+     ], [
+       fhir:index 206;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708190004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunology service" ]
+     ], [
+       fhir:index 207;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708184003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical pathology service" ]
+     ], [
+       fhir:index 208;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310074003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pathology service" ]
+     ], [
+       fhir:index 209;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310103007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hospital-based speech and language therapy service" ]
+     ], [
+       fhir:index 210;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310101009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Speech and language therapy service" ]
+     ], [
+       fhir:index 211;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310081005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Professional allied to medicine service" ]
+     ], [
+       fhir:index 212;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310064001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Occupational health service" ]
+     ], [
+       fhir:index 213;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310102002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Community-based speech and language therapy service" ]
+     ], [
+       fhir:index 214;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310106004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthoptics service" ]
+     ], [
+       fhir:index 215;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310063007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Obstetrics service" ]
+     ], [
+       fhir:index 216;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310060005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Obstetrics and gynaecology service" ]
+     ], [
+       fhir:index 217;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "708191000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Toxicology service" ]
      ]
   ] .
 

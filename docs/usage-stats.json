@@ -2101,6 +2101,9 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.package.resource"
     ],
+    "http://ontoserver.csiro.au/profiles/expansion": [
+      "ValueSet.expansion.contains"
+    ],
     "https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1": [
       "Condition"
     ],

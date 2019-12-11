@@ -160,7 +160,7 @@
   <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#id">fhir:value</a> &quot;CareConnect-AllergyCertainty-1&quot;];
   <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Care Connect Allergy Certainty&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&lt;/p&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt; where constraint  =  (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n         &lt;h2&gt;Care Connect Allergy Certainty&lt;/h2&gt;\n         &lt;div&gt;\n            &lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.&lt;/p&gt; \n         &lt;/div&gt;\n         &lt;p&gt;\n            &lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         &lt;/p&gt;\n         &lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;\n         &lt;ul&gt;\n            &lt;li&gt;Include codes from \n               &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;\n                  &lt;code&gt;http://snomed.info/sct&lt;/code&gt;\n               &lt;/a&gt; where constraint  =  (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)\n            &lt;/li&gt;\n         &lt;/ul&gt;\n      &lt;/div&gt;&quot;
   ];
   <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1&quot;];
   <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;3.0.0&quot;];
@@ -193,6 +193,38 @@
          <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.property">fhir:ValueSet.compose.include.filter.property</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;constraint&quot; ];
          <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.op">fhir:ValueSet.compose.include.filter.op</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;=&quot; ];
          <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">fhir:ValueSet.compose.include.filter.value</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;(385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)&quot; ]       ]     ]
+  ];
+  <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion">fhir:ValueSet.expansion</a> [
+     <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.identifier">fhir:ValueSet.expansion.identifier</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;a756227c-fa68-4325-8456-899c6841e0a7&quot; ];
+     <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.timestamp">fhir:ValueSet.expansion.timestamp</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">fhir:value</a> &quot;2019-12-11T15:35:17+00:00&quot;^^xsd:dateTime ];
+     <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.total">fhir:ValueSet.expansion.total</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#integer">fhir:value</a> &quot;4&quot;^^xsd:integer ];
+     <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter">fhir:ValueSet.expansion.parameter</a> [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;version&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">fhir:ValueSet.expansion.parameter.valueUri</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807&quot; ]     ], [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 1;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;count&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">fhir:ValueSet.expansion.parameter.valueInteger</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#integer">fhir:value</a> &quot;2147483647&quot;^^xsd:integer ]     ], [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 2;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">fhir:ValueSet.expansion.parameter.name</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;offset&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">fhir:ValueSet.expansion.parameter.valueInteger</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#integer">fhir:value</a> &quot;0&quot;^^xsd:integer ]     ];
+     <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains">fhir:ValueSet.expansion.contains</a> [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;385434005&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;Improbable diagnosis&quot; ]     ], [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 1;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;255545003&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;Definite&quot; ]     ], [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 2;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;410605003&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;Confirmed present&quot; ]     ], [
+       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 3;
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;http://snomed.info/sct&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;2931005&quot; ];
+       <a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;Probable diagnosis&quot; ]     ]
   ].
 
 # - ontology header ------------------------------------------------------------
@@ -217,7 +249,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Dec 10, 2019 21:05+0000">2019-12-10</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Wed, Dec 11, 2019 15:43+0000">2019-12-11</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

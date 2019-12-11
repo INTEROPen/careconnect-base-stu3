@@ -3,7 +3,7 @@
   "id": "CareConnect-EmergencyCareDischargeStatus-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Emergency Care Discharge Status</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  999003021000000104</li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Emergency Care Discharge Status</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where concept  in  999003021000000104\n            </li>\n         </ul>\n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1",
   "version": "3.0.0",
@@ -44,6 +44,42 @@
             "value": "999003021000000104"
           }
         ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "a292f5f6-078e-46fc-bdde-49d3fd65d2e9",
+    "timestamp": "2019-12-11T15:35:11+00:00",
+    "total": 3,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "63238001",
+        "display": "Dead on arrival at hospital"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "75004002",
+        "display": "Emergency room admission, died in emergency room"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "182992009",
+        "display": "Treatment completed"
       }
     ]
   }

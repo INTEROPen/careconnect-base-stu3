@@ -1,12 +1,44 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="CareConnect-AllergyCertainty-1"></id>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Allergy Certainty</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where constraint  =  (385434005 |Improbable diagnosis| OR 2931005 |Probable diagnosis| OR 255545003 |Definite| OR 410605003 |Confirmed present|)
+            </li>
+         </ul>
+      </div>
+   </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyCertainty-1"></url>
-   <version value="1.0.0"></version>
+   <version value="3.0.0"></version>
    <name value="Care Connect Allergy Certainty"></name>
    <status value="draft"></status>
    <date value="2018-03-05T00:00:00+00:00"></date>
    <publisher value="HL7 UK"></publisher>
+   <contact>
+      <telecom>
+         <system value="other"></system>
+         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+      </telecom>
+   </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the certainty of an allergy."></description>
+   <jurisdiction>
+      <coding>
+         <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"></system>
+         <code value="826"></code>
+      </coding>
+   </jurisdiction>
    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
    <compose>
       <include>
@@ -18,4 +50,41 @@
          </filter>
       </include>
    </compose>
+   <expansion>
+      <identifier value="a756227c-fa68-4325-8456-899c6841e0a7"></identifier>
+      <timestamp value="2019-12-11T15:35:17+00:00"></timestamp>
+      <total value="4"></total>
+      <parameter>
+         <name value="version"></name>
+         <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"></valueUri>
+      </parameter>
+      <parameter>
+         <name value="count"></name>
+         <valueInteger value="2147483647"></valueInteger>
+      </parameter>
+      <parameter>
+         <name value="offset"></name>
+         <valueInteger value="0"></valueInteger>
+      </parameter>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="385434005"></code>
+         <display value="Improbable diagnosis"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="255545003"></code>
+         <display value="Definite"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="410605003"></code>
+         <display value="Confirmed present"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="2931005"></code>
+         <display value="Probable diagnosis"></display>
+      </contains>
+   </expansion>
 </ValueSet>

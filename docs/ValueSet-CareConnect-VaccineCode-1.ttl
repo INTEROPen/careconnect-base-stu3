@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-VaccineCode-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Vaccine Code</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  999000811000001105, concept  in  12465201000001105, concept  in  999000831000001104, concept  in  999000841000001106 and concept  in  999000821000001101</li><li>Include codes from <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html\"><code>http://hl7.org/fhir/v3/NullFlavor</code></a> where concept  =  <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NAVU\">NAVU</a>, concept  =  <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNC\">UNC</a>, concept  =  <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK\">UNK</a> and concept  =  <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NA\">NA</a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Vaccine Code</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where concept  in  999000811000001105, concept  in  12465201000001105, concept  in  999000831000001104, concept  in  999000841000001106 and concept  in  999000821000001101\n            </li>\n            <li>Include codes from \n               <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html\">\n                  <code>http://hl7.org/fhir/v3/NullFlavor</code>\n               </a> where concept  = \n               <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NAVU\">NAVU</a>, concept  = \n               <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNC\">UNC</a>, concept  = \n               <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK\">UNK</a> and concept  = \n               <a href=\"http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NA\">NA</a>\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccineCode-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -90,6 +90,28 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ];
          fhir:ValueSet.compose.include.filter.value [ fhir:value "NA" ]
        ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "23aaf8d8-282e-4b00-bbbc-ea93dc28362e" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:13+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "0"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
      ]
   ] .
 

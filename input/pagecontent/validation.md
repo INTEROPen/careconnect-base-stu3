@@ -107,7 +107,7 @@ Body:
           "valueCodeableConcept": {
             "coding": [
               {
-                "system": "https://fhir.nhs.uk/CareConnect-NHSNumberVerificationStatus-1",
+                "system": "https://fhir.nhs.uk/STU3/CodeSystem/CareConnect-NHSNumberVerificationStatus-1",
                 "code": "01",
                 "display": "Number present and verified"
               }

@@ -1,12 +1,52 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="CareConnect-AllergyManifestation-1"></id>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Allergy Manifestation</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where concept  in  404684003 (Clinical finding (finding))
+            </li>
+            <li>Include codes from 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html">
+                  <code>http://hl7.org/fhir/v3/NullFlavor</code>
+               </a> where concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNC">UNC</a>, concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-ASKU">ASKU</a> and concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NI">NI</a>
+            </li>
+         </ul>
+      </div>
+   </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyManifestation-1"></url>
-   <version value="1.2.0"></version>
+   <version value="3.0.0"></version>
    <name value="Care Connect Allergy Manifestation"></name>
    <status value="draft"></status>
    <date value="2018-11-14T00:00:00+00:00"></date>
    <publisher value="HL7 UK"></publisher>
+   <contact>
+      <telecom>
+         <system value="other"></system>
+         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+      </telecom>
+   </contact>
    <description value="A code from the SNOMED Clinical Terminology UK hierarchy with concept id '404684003' to record an allergy manifestation or a value from the HL7 FHIR nullFlavors code system."></description>
+   <jurisdiction>
+      <coding>
+         <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"></system>
+         <code value="826"></code>
+      </coding>
+   </jurisdiction>
    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
    <compose>
       <include>
@@ -36,4 +76,25 @@
          </filter>
       </include>
    </compose>
+   <expansion>
+      <identifier value="a2f70f32-33bd-4721-8367-b3f404460824"></identifier>
+      <timestamp value="2019-12-11T15:35:10+00:00"></timestamp>
+      <total value="0"></total>
+      <parameter>
+         <name value="version"></name>
+         <valueUri value="http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11"></valueUri>
+      </parameter>
+      <parameter>
+         <name value="version"></name>
+         <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"></valueUri>
+      </parameter>
+      <parameter>
+         <name value="count"></name>
+         <valueInteger value="2147483647"></valueInteger>
+      </parameter>
+      <parameter>
+         <name value="offset"></name>
+         <valueInteger value="0"></valueInteger>
+      </parameter>
+   </expansion>
 </ValueSet>

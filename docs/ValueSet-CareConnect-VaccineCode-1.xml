@@ -3,8 +3,32 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-VaccineCode-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Vaccine Code</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  in  999000811000001105, concept  in  12465201000001105, concept  in  999000831000001104, concept  in  999000841000001106 and concept  in  999000821000001101</li><li>Include codes from <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html"><code>http://hl7.org/fhir/v3/NullFlavor</code></a> where concept  =  <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NAVU">NAVU</a>, concept  =  <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNC">UNC</a>, concept  =  <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a> and concept  =  <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NA">NA</a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Vaccine Code</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccine or a null flavor value.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where concept  in  999000811000001105, concept  in  12465201000001105, concept  in  999000831000001104, concept  in  999000841000001106 and concept  in  999000821000001101
+            </li>
+            <li>Include codes from 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html">
+                  <code>http://hl7.org/fhir/v3/NullFlavor</code>
+               </a> where concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NAVU">NAVU</a>, concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNC">UNC</a>, concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a> and concept  = 
+               <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-NA">NA</a>
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccineCode-1"/>
   <version value="3.0.0"/>
@@ -79,4 +103,25 @@
       </filter>
     </include>
   </compose>
+  <expansion>
+    <identifier value="23aaf8d8-282e-4b00-bbbc-ea93dc28362e"/>
+    <timestamp value="2019-12-11T15:35:13+00:00"/>
+    <total value="0"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11"/>
+    </parameter>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+  </expansion>
 </ValueSet>

@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-DocumentType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Document Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  in  999000391000000109</li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Document Type</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where concept  in  999000391000000109\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -46,6 +46,175 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "in" ];
          fhir:ValueSet.compose.include.filter.value [ fhir:value "999000391000000109" ]
        ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "a0bbd58f-f221-4326-9971-59b6e9c58ce7" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:16+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "30"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308585003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DS 1500 report" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "736367008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anticipatory care plan" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4331000179104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Clinical immunology report" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4271000179106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nuclear medicine report" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4211000179102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Bone density scan report" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310854009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Housing report" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "736372004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Discharge care plan" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4231000179109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mammography report" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "371527006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiology report" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "307930005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Death certificate" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "408403008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Patient held record" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "736373009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "End of life care plan" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4321000179101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haematology report" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4261000179100" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Computed tomography imaging report" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308621001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "RM10-DHSS DMO report" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "445300006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Emergency department record" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "373942005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Discharge summary" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308575004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Employment report" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "307881004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DSS RMO RM2 report" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270372007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Disabled driver orange badge report" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416779005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anaesthesia record" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "714340009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Implanted device maintenance report" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308619006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "War pensions report" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270370004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Driving licence fitness report" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "4311000179106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Chemical pathology report" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308584004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "DLA 370 report" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "714337009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Upper gastrointestinal tract endoscopy report" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "229059009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Report" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734163000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Care plan" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "714335001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Lower gastrointestinal tract endoscopy report" ]
      ]
   ] .
 

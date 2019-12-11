@@ -3,8 +3,23 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-AllergySeverity-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Allergy Severity</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where constraint  =  (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Allergy Severity</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where constraint  =  (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1"/>
   <version value="3.0.0"/>
@@ -36,4 +51,46 @@
       </filter>
     </include>
   </compose>
+  <expansion>
+    <identifier value="e49e6aa6-fef2-4a17-a80f-82b3afacfdda"/>
+    <timestamp value="2019-12-11T15:35:11+00:00"/>
+    <total value="5"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="442452003"/>
+      <display value="Life threatening severity"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="399166001"/>
+      <display value="Fatal"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="6736007"/>
+      <display value="Moderate"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="255604002"/>
+      <display value="Mild"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="24484000"/>
+      <display value="Severe"/>
+    </contains>
+  </expansion>
 </ValueSet>

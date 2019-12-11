@@ -1,12 +1,44 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="CareConnect-DocumentType-1"></id>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Document Type</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where concept  in  999000391000000109
+            </li>
+         </ul>
+      </div>
+   </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1"></url>
-   <version value="1.1.0"></version>
+   <version value="3.0.0"></version>
    <name value="Care Connect Document Type"></name>
    <status value="draft"></status>
    <date value="2018-11-05T00:00:00+00:00"></date>
    <publisher value="HL7 UK"></publisher>
+   <contact>
+      <telecom>
+         <system value="other"></system>
+         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+      </telecom>
+   </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109."></description>
+   <jurisdiction>
+      <coding>
+         <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"></system>
+         <code value="826"></code>
+      </coding>
+   </jurisdiction>
    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
    <compose>
       <include>
@@ -18,4 +50,171 @@
          </filter>
       </include>
    </compose>
+   <expansion>
+      <identifier value="a0bbd58f-f221-4326-9971-59b6e9c58ce7"></identifier>
+      <timestamp value="2019-12-11T15:35:16+00:00"></timestamp>
+      <total value="30"></total>
+      <parameter>
+         <name value="version"></name>
+         <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"></valueUri>
+      </parameter>
+      <parameter>
+         <name value="count"></name>
+         <valueInteger value="2147483647"></valueInteger>
+      </parameter>
+      <parameter>
+         <name value="offset"></name>
+         <valueInteger value="0"></valueInteger>
+      </parameter>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308585003"></code>
+         <display value="DS 1500 report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="736367008"></code>
+         <display value="Anticipatory care plan"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4331000179104"></code>
+         <display value="Clinical immunology report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4271000179106"></code>
+         <display value="Nuclear medicine report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4211000179102"></code>
+         <display value="Bone density scan report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="310854009"></code>
+         <display value="Housing report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="736372004"></code>
+         <display value="Discharge care plan"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4231000179109"></code>
+         <display value="Mammography report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="371527006"></code>
+         <display value="Radiology report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="307930005"></code>
+         <display value="Death certificate"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="408403008"></code>
+         <display value="Patient held record"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="736373009"></code>
+         <display value="End of life care plan"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4321000179101"></code>
+         <display value="Haematology report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4261000179100"></code>
+         <display value="Computed tomography imaging report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308621001"></code>
+         <display value="RM10-DHSS DMO report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="445300006"></code>
+         <display value="Emergency department record"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="373942005"></code>
+         <display value="Discharge summary"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308575004"></code>
+         <display value="Employment report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="307881004"></code>
+         <display value="DSS RMO RM2 report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270372007"></code>
+         <display value="Disabled driver orange badge report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="416779005"></code>
+         <display value="Anaesthesia record"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="714340009"></code>
+         <display value="Implanted device maintenance report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308619006"></code>
+         <display value="War pensions report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270370004"></code>
+         <display value="Driving licence fitness report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="4311000179106"></code>
+         <display value="Chemical pathology report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308584004"></code>
+         <display value="DLA 370 report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="714337009"></code>
+         <display value="Upper gastrointestinal tract endoscopy report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="229059009"></code>
+         <display value="Report"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="734163000"></code>
+         <display value="Care plan"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="714335001"></code>
+         <display value="Lower gastrointestinal tract endoscopy report"></display>
+      </contains>
+   </expansion>
 </ValueSet>

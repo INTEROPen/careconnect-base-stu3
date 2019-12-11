@@ -3,7 +3,7 @@
   "id": "CareConnect-ACVPU-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect ACVPU</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused.</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)</li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect ACVPU</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)\n            </li>\n         </ul>\n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ACVPU-1",
   "version": "3.0.0",
@@ -44,6 +44,52 @@
             "value": "(248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)"
           }
         ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "be77a090-1c6c-4f65-a140-af32568e5180",
+    "timestamp": "2019-12-11T15:35:06+00:00",
+    "total": 5,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422768004",
+        "display": "Unresponsive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "248234008",
+        "display": "Mentally alert"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "300202002",
+        "display": "Responds to voice"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "450847001",
+        "display": "Responds to pain"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "130987000",
+        "display": "Acute confusion"
       }
     ]
   }

@@ -153,7 +153,7 @@
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.id">id</a>" : "CareConnect-AllergyExposureRoute-1",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Care Connect Allergy Exposure Route&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.&lt;/p&gt;&lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Include codes from &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;&lt;code&gt;http://snomed.info/sct&lt;/code&gt;&lt;/a&gt; where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set|&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n         &lt;h2&gt;Care Connect Allergy Exposure Route&lt;/h2&gt;\n         &lt;div&gt;\n            &lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.&lt;/p&gt; \n         &lt;/div&gt;\n         &lt;p&gt;\n            &lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         &lt;/p&gt;\n         &lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt;\n         &lt;ul&gt;\n            &lt;li&gt;Include codes from \n               &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt;\n                  &lt;code&gt;http://snomed.info/sct&lt;/code&gt;\n               &lt;/a&gt; where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set|\n            &lt;/li&gt;\n         &lt;/ul&gt;\n      &lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.url">url</a>" : "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1",
   "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">version</a>" : "3.0.0",
@@ -196,6 +196,451 @@
         ]
       }
     ]
+  },
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "05d76a90-855c-4c7c-99c1-d3341873d2b1",
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2019-12-11T15:35:03+00:00",
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.total">total</a>" : 80,
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter">parameter</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "version",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueUri</a>" : "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "count",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueInteger</a>" : 2147483647
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "offset",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueInteger</a>" : 0
+      }
+    ],
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372475000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Perineural"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372476004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Subconjunctival"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "11564311000001109",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Regional perfusion"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372451000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endosinusial"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418730005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Nasojejunal route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372458006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraamniotic"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418586008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intratendinous route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "404815008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transmucosal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372459003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrabursal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3594011000001102",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Route of administration not applicable"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418321004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Retrobulbar route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372453002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Extraamniotic"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "54471007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Buccal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372450004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endocervical"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418821007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracameral"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372468001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraocular"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372457001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Gingival"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "6064005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Topical"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "26643006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Oral"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "18679011000001101",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Inhalation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372460008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracardiac"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "9191501000001101",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Percutaneous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "47625008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravenous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "11564211000001101",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Submucosal rectal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372449004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dental"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "10364101000001103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Subdermal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "19537211000001108",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracervical route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "62226000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrauterine"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372464004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intradermal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372463005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracoronary"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "58100008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraarterial"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "417255000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraosseous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "10547007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Ear"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "72607000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrathecal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372466002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intralesional"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372452007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endotracheopulmonary"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "10334211000001103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Haemofiltration"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "447122006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intratumoral"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372461007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracavernous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "419874009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Submucosal route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "90028008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Urethral"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "9191401000001100",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Haemodiafiltration"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "18246711000001107",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Epilesional"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
+                "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : true
+              }
+            ],
+            "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "417946008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pericardial route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418401004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravitreal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "38239002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraperitoneal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "21856811000001103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Iontophoresis"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372470005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrasternal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.extension">extension</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.url">url</a>" : "inactive",
+                "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : true
+              }
+            ],
+            "<a href="http://hl7.org/fhir/STU3/extensibility.html#Extension#Extension.url">url</a>" : "http://ontoserver.csiro.au/profiles/expansion"
+          }
+        ],
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.inactive">inactive</a>" : true,
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "15881211000001104",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraepidermal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "45890007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transdermal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "420719007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracerebroventricular"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372471009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravesical"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "46713006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Nasal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "16857009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vaginal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "33770711000001104",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Subretinal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372467006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intralymphatic"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "404820008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Epidural"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372474001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Periarticular"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3323001000001107",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pericardial route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "11478901000001102",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Periosseous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "37839007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sublingual"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372473007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Oromucosal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372469009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrapleural"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "11479001000001107",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Translingual"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "18682911000001103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Haemodialysis"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "418722009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Peribulbar route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "34206005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Subcutaneous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "419762003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Peritendinous route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "12130007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intra-articular"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "420287000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraventricular cardiac"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372465003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intradiscal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "448077001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intraepidermal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "78421000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intramuscular"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "127492001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Nasogastric route"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "34777511000001106",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intestinal use"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "37161004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rectal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "372454008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Gastroenteral"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "54485002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Eye"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "420254004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Body cavity"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "127491008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Jejunostomy route"
+      }
+    ]
   }
 }</pre>
 
@@ -213,7 +658,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Dec 10, 2019 21:05+0000">2019-12-10</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Wed, Dec 11, 2019 15:43+0000">2019-12-11</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -3,8 +3,23 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-EmergencyCareDischargeStatus-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Emergency Care Discharge Status</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  in  999003021000000104</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Emergency Care Discharge Status</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where concept  in  999003021000000104
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1"/>
   <version value="3.0.0"/>
@@ -36,4 +51,36 @@
       </filter>
     </include>
   </compose>
+  <expansion>
+    <identifier value="a292f5f6-078e-46fc-bdde-49d3fd65d2e9"/>
+    <timestamp value="2019-12-11T15:35:11+00:00"/>
+    <total value="3"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="63238001"/>
+      <display value="Dead on arrival at hospital"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="75004002"/>
+      <display value="Emergency room admission, died in emergency room"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="182992009"/>
+      <display value="Treatment completed"/>
+    </contains>
+  </expansion>
 </ValueSet>

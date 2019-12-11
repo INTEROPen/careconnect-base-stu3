@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-EncounterType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Encounter Type</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007</li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Encounter Type</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -46,6 +46,830 @@
          fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ];
          fhir:ValueSet.compose.include.filter.value [ fhir:value "<<185316007 OR <<308467007 OR <<185201007" ]
        ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "4b8ad74b-e5e8-43b6-a0aa-a7bdf8f7ca9a" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:13+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "161"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185209009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in recreation place" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185272004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in psychogeriatric clinic" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185208001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in work place" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313151003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in paediatric surgery clinic" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700154005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in weight management clinic" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313152005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hearing aid clinic" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314774003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in open access surgery" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270420001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in own home" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185230000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in neurology clinic" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "763184009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telepractice consultation" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "438516005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "E-mail encounter to carer" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185190009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in audiology clinic" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "431957001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in mental health clinic" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "698528008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in nuclear medicine clinic" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "442454002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in burn clinic" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185253004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in oral surgery clinic" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416717003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in heart failure clinic" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185275002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in rehabilitation clinic" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "429279006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in epilepsy clinic" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185254005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in child orthopaedic clinic" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "735260000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in early pregnancy assessment unit" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "698529000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in cystic fibrosis clinic" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "438515009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "E-mail encounter from carer" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185255006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in endocrine clinic" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417566006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in diabetic nurse consultant clinic" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185252009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in orthopaedic clinic" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "315014005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in rapid access chest pain clinic" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185250001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in nephrology clinic" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185251002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in EMG clinic" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "407672007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in diabetic foot clinic" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185276001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in physiotherapy department" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185274003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in radiotherapy clinic" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185273009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in homoeopathy clinic" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185218006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in nursing home" ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416554009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in community diabetes specialist clinic" ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185229005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in diabetic clinic" ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185179004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in orthodontic clinic" ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185321005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Letter encounter to patient" ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308720009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Letter encounter" ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185178007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in cholesterol clinic" ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314849005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone contact by consultant" ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185176006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in dietician clinic" ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185175005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in primary care centre" ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "307778003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in primary care establishment" ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "713776001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Email encounter from third party" ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185318008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third party encounter" ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "391037000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in osteoporosis clinic" ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "427933004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in musculoskeletal clinic" ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185177002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in lipid clinic" ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "429519002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in liver clinic" ]
+     ], [
+       fhir:index 50;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185214008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in warden-supervised house" ]
+     ], [
+       fhir:index 51;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "439021005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in community anticoagulation clinic" ]
+     ], [
+       fhir:index 52;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185219003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in elderly mentally infirm home" ]
+     ], [
+       fhir:index 53;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305906009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in primary health care clinic" ]
+     ], [
+       fhir:index 54;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305907000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in day hospital" ]
+     ], [
+       fhir:index 55;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305908005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in psychiatry day hospital" ]
+     ], [
+       fhir:index 56;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700187009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in drug misuse clinic" ]
+     ], [
+       fhir:index 57;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "442005004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in chemical pathology department" ]
+     ], [
+       fhir:index 58;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185182009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in pathology department" ]
+     ], [
+       fhir:index 59;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11797002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone call by physician to patient or for consultation" ]
+     ], [
+       fhir:index 60;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "386472008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone consultation" ]
+     ], [
+       fhir:index 61;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185317003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone encounter" ]
+     ], [
+       fhir:index 62;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185212007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hospital ward" ]
+     ], [
+       fhir:index 63;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185228002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in cardiac clinic" ]
+     ], [
+       fhir:index 64;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185187003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen child psychology clinic" ]
+     ], [
+       fhir:index 65;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185226003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in antenatal clinic" ]
+     ], [
+       fhir:index 66;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185186007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in well child clinic" ]
+     ], [
+       fhir:index 67;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185225004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in psychology clinic" ]
+     ], [
+       fhir:index 68;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185207006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in institution" ]
+     ], [
+       fhir:index 69;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "315599008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in young person clinic" ]
+     ], [
+       fhir:index 70;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185202000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in GP's surgery" ]
+     ], [
+       fhir:index 71;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313104000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in drug rehabilitation centre" ]
+     ], [
+       fhir:index 72;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313340009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in diabetic eye clinic" ]
+     ], [
+       fhir:index 73;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185203005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in Health Centre" ]
+     ], [
+       fhir:index 74;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185201007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Site of encounter" ]
+     ], [
+       fhir:index 75;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185185006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in well person clinic" ]
+     ], [
+       fhir:index 76;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "705063007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in paediatric endocrinology clinic" ]
+     ], [
+       fhir:index 77;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185234009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in paediatric clinic" ]
+     ], [
+       fhir:index 78;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185223006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in ENT clinic" ]
+     ], [
+       fhir:index 79;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "705064001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in sickle cell and thalassaemia clinic" ]
+     ], [
+       fhir:index 80;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "440678006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hospital anticoagulation clinic" ]
+     ], [
+       fhir:index 81;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185271006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in breast clinic" ]
+     ], [
+       fhir:index 82;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "401267002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone triage encounter" ]
+     ], [
+       fhir:index 83;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185270007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in oncology clinic" ]
+     ], [
+       fhir:index 84;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185188008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in family planning clinic" ]
+     ], [
+       fhir:index 85;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "386479004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Triage: telephone" ]
+     ], [
+       fhir:index 86;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416696002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in community diabetic specialist nurse clinic" ]
+     ], [
+       fhir:index 87;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305910007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in care of the elderly day hospital" ]
+     ], [
+       fhir:index 88;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428120007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in cardiothoracic surgery clinic" ]
+     ], [
+       fhir:index 89;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305911006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hospice" ]
+     ], [
+       fhir:index 90;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313103006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in baby clinic" ]
+     ], [
+       fhir:index 91;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185189000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in varicose vein clinic" ]
+     ], [
+       fhir:index 92;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270422009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in dermatology clinic" ]
+     ], [
+       fhir:index 93;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185233003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in elderly assessment clinic" ]
+     ], [
+       fhir:index 94;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "440168007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Provision of copy of letter from specialist to patient" ]
+     ], [
+       fhir:index 95;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270424005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Letter encounter from patient" ]
+     ], [
+       fhir:index 96;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "441828004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in child and adolescent psychiatry clinic" ]
+     ], [
+       fhir:index 97;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185235005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Site of encounter: street" ]
+     ], [
+       fhir:index 98;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185232008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in psychiatry clinic" ]
+     ], [
+       fhir:index 99;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270421002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in warden-supervised home" ]
+     ], [
+       fhir:index 100;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "439362007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in community paediatric clinic" ]
+     ], [
+       fhir:index 101;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428889007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in sleep clinic" ]
+     ], [
+       fhir:index 102;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185191008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in fracture clinic" ]
+     ], [
+       fhir:index 103;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185236006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen at doctors house" ]
+     ], [
+       fhir:index 104;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185266004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in postnatal clinic" ]
+     ], [
+       fhir:index 105;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "275693003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Letter from consultant" ]
+     ], [
+       fhir:index 106;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270425006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Letter from specialist" ]
+     ], [
+       fhir:index 107;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185265000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in emergency clinic" ]
+     ], [
+       fhir:index 108;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314803001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in open access nurse clinic" ]
+     ], [
+       fhir:index 109;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185243000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in colposcopy clinic" ]
+     ], [
+       fhir:index 110;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "445450000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Encounter by short message service text messaging" ]
+     ], [
+       fhir:index 111;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "440580005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in foetal medicine clinic" ]
+     ], [
+       fhir:index 112;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185242005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in asthma clinic" ]
+     ], [
+       fhir:index 113;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185183004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in developmental clinic" ]
+     ], [
+       fhir:index 114;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185244006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in colorectal clinic" ]
+     ], [
+       fhir:index 115;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313148005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in vascular clinic" ]
+     ], [
+       fhir:index 116;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "439437006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in eating disorder clinic" ]
+     ], [
+       fhir:index 117;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185269006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in chiropody clinic" ]
+     ], [
+       fhir:index 118;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185241003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in general medical clinic" ]
+     ], [
+       fhir:index 119;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "442163005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in microbiology department" ]
+     ], [
+       fhir:index 120;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185268003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in fertility clinic" ]
+     ], [
+       fhir:index 121;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185240002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in chest clinic" ]
+     ], [
+       fhir:index 122;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185267008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in thoracic surgery clinic" ]
+     ], [
+       fhir:index 123;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185249001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in prostate clinic" ]
+     ], [
+       fhir:index 124;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185221008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in gynaecology clinic" ]
+     ], [
+       fhir:index 125;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185222001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in ophthalmology clinic" ]
+     ], [
+       fhir:index 126;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "448337001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telemedicine consultation with patient" ]
+     ], [
+       fhir:index 127;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185184005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in speech and language clinic" ]
+     ], [
+       fhir:index 128;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185247004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in neurosurgery clinic" ]
+     ], [
+       fhir:index 129;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185220009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in urology clinic" ]
+     ], [
+       fhir:index 130;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185181002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in radiology department" ]
+     ], [
+       fhir:index 131;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185180001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in GU medicine clinic" ]
+     ], [
+       fhir:index 132;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185246008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in haematology clinic" ]
+     ], [
+       fhir:index 133;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185245007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in gastroenterology clinic" ]
+     ], [
+       fhir:index 134;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "705062002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in bariatric surgery clinic" ]
+     ], [
+       fhir:index 135;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185248009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in pain clinic" ]
+     ], [
+       fhir:index 136;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185263007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in geriatric clinic" ]
+     ], [
+       fhir:index 137;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "305909002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in psychogeriatric day hospital" ]
+     ], [
+       fhir:index 138;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185264001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hypertension clinic" ]
+     ], [
+       fhir:index 139;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185262002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in general surgery clinic" ]
+     ], [
+       fhir:index 140;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "275691001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in old people's home" ]
+     ], [
+       fhir:index 141;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428658005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in community respiratory clinic" ]
+     ], [
+       fhir:index 142;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428489000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in respiratory clinic" ]
+     ], [
+       fhir:index 143;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "431962000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in urogynaecology clinic" ]
+     ], [
+       fhir:index 144;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185227007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in rheumatology clinic" ]
+     ], [
+       fhir:index 145;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "386473003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone follow-up" ]
+     ], [
+       fhir:index 146;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "432806004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in memory clinic" ]
+     ], [
+       fhir:index 147;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185215009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in warden-supervised flat" ]
+     ], [
+       fhir:index 148;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "307779006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in supervised accommodation" ]
+     ], [
+       fhir:index 149;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185211000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hospital outpatient department" ]
+     ], [
+       fhir:index 150;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "440681001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in genetic clinic" ]
+     ], [
+       fhir:index 151;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308021002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in clinic" ]
+     ], [
+       fhir:index 152;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308467007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in establishment" ]
+     ], [
+       fhir:index 153;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185237002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in gastroscopy clinic" ]
+     ], [
+       fhir:index 154;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185210004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in hospital casualty" ]
+     ], [
+       fhir:index 155;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308031009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in department" ]
+     ], [
+       fhir:index 156;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313375009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in private clinic" ]
+     ], [
+       fhir:index 157;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185239004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Seen in plastic surgery clinic" ]
+     ], [
+       fhir:index 158;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "401271004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "E-mail sent to patient" ]
+     ], [
+       fhir:index 159;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185320006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Encounter by computer link" ]
+     ], [
+       fhir:index 160;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "185316007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Indirect encounter" ]
      ]
   ] .
 

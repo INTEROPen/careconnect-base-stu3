@@ -1,12 +1,44 @@
 <ValueSet xmlns="http://hl7.org/fhir">
    <id value="CareConnect-EncounterType-1"></id>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Encounter Type</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include codes from 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a> where constraint  = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007
+            </li>
+         </ul>
+      </div>
+   </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1"></url>
-   <version value="1.1.0"></version>
+   <version value="3.0.0"></version>
    <name value="Care Connect Encounter Type"></name>
    <status value="draft"></status>
    <date value="2018-11-21T00:00:00+00:00"></date>
    <publisher value="HL7 UK"></publisher>
+   <contact>
+      <telecom>
+         <system value="other"></system>
+         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+      </telecom>
+   </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record)."></description>
+   <jurisdiction>
+      <coding>
+         <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"></system>
+         <code value="826"></code>
+      </coding>
+   </jurisdiction>
    <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."></copyright>
    <compose>
       <include>
@@ -18,4 +50,826 @@
          </filter>
       </include>
    </compose>
+   <expansion>
+      <identifier value="4b8ad74b-e5e8-43b6-a0aa-a7bdf8f7ca9a"></identifier>
+      <timestamp value="2019-12-11T15:35:13+00:00"></timestamp>
+      <total value="161"></total>
+      <parameter>
+         <name value="version"></name>
+         <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"></valueUri>
+      </parameter>
+      <parameter>
+         <name value="count"></name>
+         <valueInteger value="2147483647"></valueInteger>
+      </parameter>
+      <parameter>
+         <name value="offset"></name>
+         <valueInteger value="0"></valueInteger>
+      </parameter>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185209009"></code>
+         <display value="Seen in recreation place"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185272004"></code>
+         <display value="Seen in psychogeriatric clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185208001"></code>
+         <display value="Seen in work place"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313151003"></code>
+         <display value="Seen in paediatric surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="700154005"></code>
+         <display value="Seen in weight management clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313152005"></code>
+         <display value="Seen in hearing aid clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="314774003"></code>
+         <display value="Seen in open access surgery"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270420001"></code>
+         <display value="Seen in own home"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185230000"></code>
+         <display value="Seen in neurology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="763184009"></code>
+         <display value="Telepractice consultation"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="438516005"></code>
+         <display value="E-mail encounter to carer"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185190009"></code>
+         <display value="Seen in audiology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="431957001"></code>
+         <display value="Seen in mental health clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="698528008"></code>
+         <display value="Seen in nuclear medicine clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="442454002"></code>
+         <display value="Seen in burn clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185253004"></code>
+         <display value="Seen in oral surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="416717003"></code>
+         <display value="Seen in heart failure clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185275002"></code>
+         <display value="Seen in rehabilitation clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="429279006"></code>
+         <display value="Seen in epilepsy clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185254005"></code>
+         <display value="Seen in child orthopaedic clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="735260000"></code>
+         <display value="Seen in early pregnancy assessment unit"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="698529000"></code>
+         <display value="Seen in cystic fibrosis clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="438515009"></code>
+         <display value="E-mail encounter from carer"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185255006"></code>
+         <display value="Seen in endocrine clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="417566006"></code>
+         <display value="Seen in diabetic nurse consultant clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185252009"></code>
+         <display value="Seen in orthopaedic clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="315014005"></code>
+         <display value="Seen in rapid access chest pain clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185250001"></code>
+         <display value="Seen in nephrology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185251002"></code>
+         <display value="Seen in EMG clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="407672007"></code>
+         <display value="Seen in diabetic foot clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185276001"></code>
+         <display value="Seen in physiotherapy department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185274003"></code>
+         <display value="Seen in radiotherapy clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185273009"></code>
+         <display value="Seen in homoeopathy clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185218006"></code>
+         <display value="Seen in nursing home"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="416554009"></code>
+         <display value="Seen in community diabetes specialist clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185229005"></code>
+         <display value="Seen in diabetic clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185179004"></code>
+         <display value="Seen in orthodontic clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185321005"></code>
+         <display value="Letter encounter to patient"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308720009"></code>
+         <display value="Letter encounter"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185178007"></code>
+         <display value="Seen in cholesterol clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="314849005"></code>
+         <display value="Telephone contact by consultant"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185176006"></code>
+         <display value="Seen in dietician clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185175005"></code>
+         <display value="Seen in primary care centre"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="307778003"></code>
+         <display value="Seen in primary care establishment"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="713776001"></code>
+         <display value="Email encounter from third party"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185318008"></code>
+         <display value="Third party encounter"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="391037000"></code>
+         <display value="Seen in osteoporosis clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="427933004"></code>
+         <display value="Seen in musculoskeletal clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185177002"></code>
+         <display value="Seen in lipid clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="429519002"></code>
+         <display value="Seen in liver clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185214008"></code>
+         <display value="Seen in warden-supervised house"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="439021005"></code>
+         <display value="Seen in community anticoagulation clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185219003"></code>
+         <display value="Seen in elderly mentally infirm home"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305906009"></code>
+         <display value="Seen in primary health care clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305907000"></code>
+         <display value="Seen in day hospital"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305908005"></code>
+         <display value="Seen in psychiatry day hospital"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="700187009"></code>
+         <display value="Seen in drug misuse clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="442005004"></code>
+         <display value="Seen in chemical pathology department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185182009"></code>
+         <display value="Seen in pathology department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="11797002"></code>
+         <display value="Telephone call by physician to patient or for consultation"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="386472008"></code>
+         <display value="Telephone consultation"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185317003"></code>
+         <display value="Telephone encounter"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185212007"></code>
+         <display value="Seen in hospital ward"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185228002"></code>
+         <display value="Seen in cardiac clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185187003"></code>
+         <display value="Seen child psychology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185226003"></code>
+         <display value="Seen in antenatal clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185186007"></code>
+         <display value="Seen in well child clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185225004"></code>
+         <display value="Seen in psychology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185207006"></code>
+         <display value="Seen in institution"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="315599008"></code>
+         <display value="Seen in young person clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185202000"></code>
+         <display value="Seen in GP's surgery"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313104000"></code>
+         <display value="Seen in drug rehabilitation centre"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313340009"></code>
+         <display value="Seen in diabetic eye clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185203005"></code>
+         <display value="Seen in Health Centre"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185201007"></code>
+         <display value="Site of encounter"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185185006"></code>
+         <display value="Seen in well person clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="705063007"></code>
+         <display value="Seen in paediatric endocrinology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185234009"></code>
+         <display value="Seen in paediatric clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185223006"></code>
+         <display value="Seen in ENT clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="705064001"></code>
+         <display value="Seen in sickle cell and thalassaemia clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="440678006"></code>
+         <display value="Seen in hospital anticoagulation clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185271006"></code>
+         <display value="Seen in breast clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="401267002"></code>
+         <display value="Telephone triage encounter"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185270007"></code>
+         <display value="Seen in oncology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185188008"></code>
+         <display value="Seen in family planning clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="386479004"></code>
+         <display value="Triage: telephone"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="416696002"></code>
+         <display value="Seen in community diabetic specialist nurse clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305910007"></code>
+         <display value="Seen in care of the elderly day hospital"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="428120007"></code>
+         <display value="Seen in cardiothoracic surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305911006"></code>
+         <display value="Seen in hospice"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313103006"></code>
+         <display value="Seen in baby clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185189000"></code>
+         <display value="Seen in varicose vein clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270422009"></code>
+         <display value="Seen in dermatology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185233003"></code>
+         <display value="Seen in elderly assessment clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="440168007"></code>
+         <display value="Provision of copy of letter from specialist to patient"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270424005"></code>
+         <display value="Letter encounter from patient"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="441828004"></code>
+         <display value="Seen in child and adolescent psychiatry clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185235005"></code>
+         <display value="Site of encounter: street"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185232008"></code>
+         <display value="Seen in psychiatry clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270421002"></code>
+         <display value="Seen in warden-supervised home"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="439362007"></code>
+         <display value="Seen in community paediatric clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="428889007"></code>
+         <display value="Seen in sleep clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185191008"></code>
+         <display value="Seen in fracture clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185236006"></code>
+         <display value="Seen at doctors house"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185266004"></code>
+         <display value="Seen in postnatal clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="275693003"></code>
+         <display value="Letter from consultant"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="270425006"></code>
+         <display value="Letter from specialist"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185265000"></code>
+         <display value="Seen in emergency clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="314803001"></code>
+         <display value="Seen in open access nurse clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185243000"></code>
+         <display value="Seen in colposcopy clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="445450000"></code>
+         <display value="Encounter by short message service text messaging"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="440580005"></code>
+         <display value="Seen in foetal medicine clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185242005"></code>
+         <display value="Seen in asthma clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185183004"></code>
+         <display value="Seen in developmental clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185244006"></code>
+         <display value="Seen in colorectal clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313148005"></code>
+         <display value="Seen in vascular clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="439437006"></code>
+         <display value="Seen in eating disorder clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185269006"></code>
+         <display value="Seen in chiropody clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185241003"></code>
+         <display value="Seen in general medical clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="442163005"></code>
+         <display value="Seen in microbiology department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185268003"></code>
+         <display value="Seen in fertility clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185240002"></code>
+         <display value="Seen in chest clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185267008"></code>
+         <display value="Seen in thoracic surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185249001"></code>
+         <display value="Seen in prostate clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185221008"></code>
+         <display value="Seen in gynaecology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185222001"></code>
+         <display value="Seen in ophthalmology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="448337001"></code>
+         <display value="Telemedicine consultation with patient"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185184005"></code>
+         <display value="Seen in speech and language clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185247004"></code>
+         <display value="Seen in neurosurgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185220009"></code>
+         <display value="Seen in urology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185181002"></code>
+         <display value="Seen in radiology department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185180001"></code>
+         <display value="Seen in GU medicine clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185246008"></code>
+         <display value="Seen in haematology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185245007"></code>
+         <display value="Seen in gastroenterology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="705062002"></code>
+         <display value="Seen in bariatric surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185248009"></code>
+         <display value="Seen in pain clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185263007"></code>
+         <display value="Seen in geriatric clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="305909002"></code>
+         <display value="Seen in psychogeriatric day hospital"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185264001"></code>
+         <display value="Seen in hypertension clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185262002"></code>
+         <display value="Seen in general surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="275691001"></code>
+         <display value="Seen in old people's home"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="428658005"></code>
+         <display value="Seen in community respiratory clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="428489000"></code>
+         <display value="Seen in respiratory clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="431962000"></code>
+         <display value="Seen in urogynaecology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185227007"></code>
+         <display value="Seen in rheumatology clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="386473003"></code>
+         <display value="Telephone follow-up"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="432806004"></code>
+         <display value="Seen in memory clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185215009"></code>
+         <display value="Seen in warden-supervised flat"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="307779006"></code>
+         <display value="Seen in supervised accommodation"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185211000"></code>
+         <display value="Seen in hospital outpatient department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="440681001"></code>
+         <display value="Seen in genetic clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308021002"></code>
+         <display value="Seen in clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308467007"></code>
+         <display value="Seen in establishment"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185237002"></code>
+         <display value="Seen in gastroscopy clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185210004"></code>
+         <display value="Seen in hospital casualty"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="308031009"></code>
+         <display value="Seen in department"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="313375009"></code>
+         <display value="Seen in private clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185239004"></code>
+         <display value="Seen in plastic surgery clinic"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="401271004"></code>
+         <display value="E-mail sent to patient"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185320006"></code>
+         <display value="Encounter by computer link"></display>
+      </contains>
+      <contains>
+         <system value="http://snomed.info/sct"></system>
+         <code value="185316007"></code>
+         <display value="Indirect encounter"></display>
+      </contains>
+   </expansion>
 </ValueSet>

@@ -3,8 +3,117 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-ImmunizationExplanationReason-2"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Immunization Explanation Reason</h2><div><p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p>
-</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008">171279008</a></td><td>Immunization due</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007">414448007</a></td><td>Identified as high risk for travel</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004">161096004</a></td><td>Going to travel abroad</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109">506931000000109</a></td><td>Recent travel to disease affected area</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007">78648007</a></td><td>At risk for infection</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004">14679004</a></td><td>Occupation</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002">134436002</a></td><td>Lifestyle</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003">398192003</a></td><td>Co-morbid conditions</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005">443684005</a></td><td>Disease outbreak</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001">183995001</a></td><td>Patient requested procedure</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005">444107005</a></td><td>Exposure to communicable disease</td><td/></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004">723620004</a></td><td>Requires vaccination</td><td/></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Immunization Explanation Reason</h2>
+         <div>
+            <p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include these codes as defined in 
+               <a href="http://www.snomed.org/">
+                  <code>http://snomed.info/sct</code>
+               </a>
+               <table class="none">
+                  <tr>
+                     <td style="white-space:nowrap">
+                        <b>Code</b>
+                     </td>
+                     <td>
+                        <b>Display</b>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008">171279008</a>
+                     </td>
+                     <td>Immunization due</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007">414448007</a>
+                     </td>
+                     <td>Identified as high risk for travel</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004">161096004</a>
+                     </td>
+                     <td>Going to travel abroad</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109">506931000000109</a>
+                     </td>
+                     <td>Recent travel to disease affected area</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007">78648007</a>
+                     </td>
+                     <td>At risk for infection</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004">14679004</a>
+                     </td>
+                     <td>Occupation</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002">134436002</a>
+                     </td>
+                     <td>Lifestyle</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003">398192003</a>
+                     </td>
+                     <td>Co-morbid conditions</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005">443684005</a>
+                     </td>
+                     <td>Disease outbreak</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001">183995001</a>
+                     </td>
+                     <td>Patient requested procedure</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005">444107005</a>
+                     </td>
+                     <td>Exposure to communicable disease</td>
+                     <td/>
+                  </tr>
+                  <tr>
+                     <td>
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004">723620004</a>
+                     </td>
+                     <td>Requires vaccination</td>
+                     <td/>
+                  </tr>
+               </table>
+            </li>
+         </ul>
+      </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ImmunizationExplanationReason-2"/>
   <version value="3.0.0"/>
@@ -79,4 +188,76 @@
       </concept>
     </include>
   </compose>
+  <expansion>
+    <identifier value="90810fe6-6e68-4e3a-b908-1c2dc20454f3"/>
+    <timestamp value="2019-12-11T15:35:17+00:00"/>
+    <total value="11"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="398192003"/>
+      <display value="Co-morbid conditions"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="414448007"/>
+      <display value="Identified as high risk for travel"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="183995001"/>
+      <display value="Patient requested procedure"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="134436002"/>
+      <display value="Lifestyle"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="443684005"/>
+      <display value="Disease outbreak"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="171279008"/>
+      <display value="Immunization due"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="161096004"/>
+      <display value="Going to travel abroad"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="78648007"/>
+      <display value="At risk for infection"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="723620004"/>
+      <display value="Requires vaccination"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="444107005"/>
+      <display value="Exposure to communicable disease"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="14679004"/>
+      <display value="Occupation"/>
+    </contains>
+  </expansion>
 </ValueSet>
