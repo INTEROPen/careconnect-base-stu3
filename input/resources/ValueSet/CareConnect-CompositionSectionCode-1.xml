@@ -2,22 +2,22 @@
    <id value="CareConnect-CompositionSectionCode-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Composition Section Code</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Composition Section Code</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|).</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where constraint  =  (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|) 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CompositionSectionCode-1"></url>
@@ -51,8 +51,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="d0236a19-1d66-43ab-b9b6-c353934f6d61"></identifier>
-      <timestamp value="2019-12-11T15:35:10+00:00"></timestamp>
+      <identifier value="f63d35cf-8df1-4f38-ac78-4d0d06e58754"></identifier>
+      <timestamp value="2019-12-11T16:50:32+00:00"></timestamp>
       <total value="0"></total>
       <parameter>
          <name value="version"></name>

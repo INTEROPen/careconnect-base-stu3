@@ -2,22 +2,22 @@
    <id value="CareConnect-MedicationForm-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Medication Form</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Medication Form</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set| 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1"></url>
@@ -51,8 +51,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="81520e0d-6cd4-4c27-b65b-445f5f2f4482"></identifier>
-      <timestamp value="2019-12-11T15:35:10+00:00"></timestamp>
+      <identifier value="4d4cd89f-46f8-4435-8ad5-1f8aa20c8405"></identifier>
+      <timestamp value="2019-12-11T16:50:32+00:00"></timestamp>
       <total value="180"></total>
       <parameter>
          <name value="version"></name>
@@ -72,11 +72,6 @@
          <display value="Solution for iontophoresis"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="3092611000001103"></code>
@@ -143,11 +138,6 @@
          <display value="Powder for solution for infusion"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="14955111000001100"></code>
@@ -234,11 +224,6 @@
          <display value="Aerosol generator"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="3092811000001104"></code>
@@ -250,11 +235,6 @@
          <display value="Powder for solution for injection"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="15621311000001106"></code>
@@ -286,11 +266,6 @@
          <display value="Poultice"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="32860611000001109"></code>
@@ -372,11 +347,6 @@
          <display value="Living tissue equivalent"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="35367511000001105"></code>
@@ -513,11 +483,6 @@
          <display value="Ophthalmic insert"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="15850011000001106"></code>
@@ -819,11 +784,6 @@
          <display value="Epidural infusion"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="17309711000001108"></code>
@@ -890,11 +850,6 @@
          <display value="Dispersion for infusion"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="17644011000001108"></code>
@@ -961,11 +916,6 @@
          <display value="Powder and solvent for suspension for infusion"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="3092311000001108"></code>

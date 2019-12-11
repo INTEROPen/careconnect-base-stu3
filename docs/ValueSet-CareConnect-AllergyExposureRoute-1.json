@@ -3,7 +3,7 @@
   "id": "CareConnect-AllergyExposureRoute-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Allergy Exposure Route</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set|\n            </li>\n         </ul>\n      </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Allergy Exposure Route</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set| \n            </li> \n         </ul> \n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1",
   "version": "3.0.0",
@@ -48,8 +48,8 @@
     ]
   },
   "expansion": {
-    "identifier": "05d76a90-855c-4c7c-99c1-d3341873d2b1",
-    "timestamp": "2019-12-11T15:35:03+00:00",
+    "identifier": "6da47fad-2cf5-4f44-b797-c774dfbb8e19",
+    "timestamp": "2019-12-11T16:50:26+00:00",
     "total": 80,
     "parameter": [
       {
@@ -282,17 +282,6 @@
         "display": "Epilesional"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "417946008",
@@ -319,17 +308,6 @@
         "display": "Intrasternal"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "15881211000001104",

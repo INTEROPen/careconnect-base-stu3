@@ -2,144 +2,144 @@
    <id value="CareConnect-ListCode-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect List Code</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect List Code</h2> 
+         <div> 
             <p>A ValueSet to identify the purpose of a list.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include these codes as defined in 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a>
-               <table class="none">
-                  <tr>
-                     <td style="white-space:nowrap">
-                        <b>Code</b>
-                     </td>
-                     <td>
-                        <b>Display</b>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102">887161000000102</a>
-                     </td>
-                     <td>Diagnoses</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109">887171000000109</a>
-                     </td>
-                     <td>Procedures</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103">717711000000103</a>
-                     </td>
-                     <td>Problems</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108">933361000000108</a>
-                     </td>
-                     <td>Medications and medical devices</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105">886921000000105</a>
-                     </td>
-                     <td>Allergies and adverse reactions</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102">1102411000000102</a>
-                     </td>
-                     <td>Active medications</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100">1102191000000100</a>
-                     </td>
-                     <td>Discontinued medications</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101">1103671000000101</a>
-                     </td>
-                     <td>Ended allergies</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107">325851000000107</a>
-                     </td>
-                     <td>Consultation</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105">25851000000105</a>
-                     </td>
-                     <td>Topic (EHR)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107">24781000000107</a>
-                     </td>
-                     <td>Category (EHR)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102">1102181000000102</a>
-                     </td>
-                     <td>Immunisations</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100">826501000000100</a>
-                     </td>
-                     <td>Miscellaneous record</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107">792931000000107</a>
-                     </td>
-                     <td>Outbound referral</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108">887191000000108</a>
-                     </td>
-                     <td>Investigations and results</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101">1149501000000101</a>
-                     </td>
-                     <td>List of consultations</td>
-                     <td></td>
-                  </tr>
-               </table>
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> 
+               <table class="none"> 
+                  <tr> 
+                     <td style="white-space:nowrap"> 
+                        <b>Code</b> 
+                     </td> 
+                     <td> 
+                        <b>Display</b> 
+                     </td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887161000000102">887161000000102</a> 
+                     </td> 
+                     <td>Diagnoses</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887171000000109">887171000000109</a> 
+                     </td> 
+                     <td>Procedures</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=717711000000103">717711000000103</a> 
+                     </td> 
+                     <td>Problems</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=933361000000108">933361000000108</a> 
+                     </td> 
+                     <td>Medications and medical devices</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=886921000000105">886921000000105</a> 
+                     </td> 
+                     <td>Allergies and adverse reactions</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102411000000102">1102411000000102</a> 
+                     </td> 
+                     <td>Active medications</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102191000000100">1102191000000100</a> 
+                     </td> 
+                     <td>Discontinued medications</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1103671000000101">1103671000000101</a> 
+                     </td> 
+                     <td>Ended allergies</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=325851000000107">325851000000107</a> 
+                     </td> 
+                     <td>Consultation</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=25851000000105">25851000000105</a> 
+                     </td> 
+                     <td>Topic (EHR)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24781000000107">24781000000107</a> 
+                     </td> 
+                     <td>Category (EHR)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1102181000000102">1102181000000102</a> 
+                     </td> 
+                     <td>Immunisations</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=826501000000100">826501000000100</a> 
+                     </td> 
+                     <td>Miscellaneous record</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=792931000000107">792931000000107</a> 
+                     </td> 
+                     <td>Outbound referral</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=887191000000108">887191000000108</a> 
+                     </td> 
+                     <td>Investigations and results</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=1149501000000101">1149501000000101</a> 
+                     </td> 
+                     <td>List of consultations</td> 
+                     <td></td> 
+                  </tr> 
+               </table> 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListCode-1"></url>
@@ -232,8 +232,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="d4f57344-18df-4bdd-b8f6-0cb194fe7996"></identifier>
-      <timestamp value="2019-12-11T15:35:10+00:00"></timestamp>
+      <identifier value="ceef99eb-eabc-4110-af7e-f79ea52e8c40"></identifier>
+      <timestamp value="2019-12-11T16:50:32+00:00"></timestamp>
       <total value="0"></total>
       <parameter>
          <name value="version"></name>

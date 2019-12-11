@@ -3,7 +3,7 @@
   "id": "CareConnect-CompositionSectionCode-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Composition Section Code</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|)\n            </li>\n         </ul>\n      </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Composition Section Code</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK with the expression (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|).</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  (^999001721000000100 | Clinical record headings simple reference set (foundation metadata concept)|) \n            </li> \n         </ul> \n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CompositionSectionCode-1",
   "version": "3.0.0",
@@ -48,8 +48,8 @@
     ]
   },
   "expansion": {
-    "identifier": "d0236a19-1d66-43ab-b9b6-c353934f6d61",
-    "timestamp": "2019-12-11T15:35:10+00:00",
+    "identifier": "f63d35cf-8df1-4f38-ac78-4d0d06e58754",
+    "timestamp": "2019-12-11T16:50:32+00:00",
     "total": 0,
     "parameter": [
       {

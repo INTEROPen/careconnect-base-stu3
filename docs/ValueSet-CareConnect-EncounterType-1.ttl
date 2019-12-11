@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-EncounterType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Encounter Type</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007\n            </li>\n         </ul>\n      </div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Encounter Type</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes an encounter between a care professional and the patient (or patient's record).</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007 \n            </li> \n         </ul> \n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -49,8 +49,8 @@
      ]
   ];
   fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "4b8ad74b-e5e8-43b6-a0aa-a7bdf8f7ca9a" ];
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:13+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.identifier [ fhir:value "866832af-da17-4b99-ae11-c2349b3e9535" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:35+00:00"^^xsd:dateTime ];
      fhir:ValueSet.expansion.total [ fhir:value "161"^^xsd:integer ];
      fhir:ValueSet.expansion.parameter [
        fhir:index 0;

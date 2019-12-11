@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-AllergyExposureRoute-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Allergy Exposure Route</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set|\n            </li>\n         </ul>\n      </div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Allergy Exposure Route</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  ^999000051000001100 |ePrescribing route of administration simple reference set| \n            </li> \n         </ul> \n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyExposureRoute-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -49,8 +49,8 @@
      ]
   ];
   fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "05d76a90-855c-4c7c-99c1-d3341873d2b1" ];
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:03+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.identifier [ fhir:value "6da47fad-2cf5-4f44-b797-c774dfbb8e19" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:26+00:00"^^xsd:dateTime ];
      fhir:ValueSet.expansion.total [ fhir:value "80"^^xsd:integer ];
      fhir:ValueSet.expansion.parameter [
        fhir:index 0;
@@ -282,15 +282,6 @@
        fhir:ValueSet.expansion.contains.display [ fhir:value "Epilesional" ]
      ], [
        fhir:index 43;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "inactive" ];
-           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-         ];
-         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
-       ];
        fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
        fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "417946008" ];
@@ -317,15 +308,6 @@
        fhir:ValueSet.expansion.contains.display [ fhir:value "Intrasternal" ]
      ], [
        fhir:index 48;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "inactive" ];
-           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
-         ];
-         fhir:Extension.url [ fhir:value "http://ontoserver.csiro.au/profiles/expansion" ]
-       ];
        fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
        fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ];
        fhir:ValueSet.expansion.contains.code [ fhir:value "15881211000001104" ];

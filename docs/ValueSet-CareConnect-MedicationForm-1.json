@@ -3,7 +3,7 @@
   "id": "CareConnect-MedicationForm-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Medication Form</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|\n            </li>\n         </ul>\n      </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Medication Form</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set| \n            </li> \n         </ul> \n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1",
   "version": "3.0.0",
@@ -48,8 +48,8 @@
     ]
   },
   "expansion": {
-    "identifier": "81520e0d-6cd4-4c27-b65b-445f5f2f4482",
-    "timestamp": "2019-12-11T15:35:10+00:00",
+    "identifier": "4d4cd89f-46f8-4435-8ad5-1f8aa20c8405",
+    "timestamp": "2019-12-11T16:50:32+00:00",
     "total": 180,
     "parameter": [
       {
@@ -72,17 +72,6 @@
         "display": "Solution for iontophoresis"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "3092611000001103",
@@ -149,17 +138,6 @@
         "display": "Powder for solution for infusion"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "14955111000001100",
@@ -246,17 +224,6 @@
         "display": "Aerosol generator"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "3092811000001104",
@@ -268,17 +235,6 @@
         "display": "Powder for solution for injection"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "15621311000001106",
@@ -310,17 +266,6 @@
         "display": "Poultice"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "32860611000001109",
@@ -402,17 +347,6 @@
         "display": "Living tissue equivalent"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "35367511000001105",
@@ -549,17 +483,6 @@
         "display": "Ophthalmic insert"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "15850011000001106",
@@ -861,17 +784,6 @@
         "display": "Epidural infusion"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "17309711000001108",
@@ -938,17 +850,6 @@
         "display": "Dispersion for infusion"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "17644011000001108",
@@ -1015,17 +916,6 @@
         "display": "Powder and solvent for suspension for infusion"
       },
       {
-        "extension": [
-          {
-            "extension": [
-              {
-                "url": "inactive",
-                "valueBoolean": true
-              }
-            ],
-            "url": "http://ontoserver.csiro.au/profiles/expansion"
-          }
-        ],
         "system": "http://snomed.info/sct",
         "inactive": true,
         "code": "3092311000001108",

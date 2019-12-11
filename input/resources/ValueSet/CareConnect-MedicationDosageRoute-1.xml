@@ -2,22 +2,22 @@
    <id value="CareConnect-MedicationDosageRoute-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Medication Dosage Route</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Medication Dosage Route</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where concept  in  999000051000001100
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where concept  in  999000051000001100 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1"></url>
@@ -51,8 +51,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="3ccd8b22-fc7c-4500-adba-2234dd93b5cc"></identifier>
-      <timestamp value="2019-12-11T15:35:09+00:00"></timestamp>
+      <identifier value="9bb08ae5-182f-4dfb-9cfd-0e588c2442a4"></identifier>
+      <timestamp value="2019-12-11T16:50:32+00:00"></timestamp>
       <total value="80"></total>
       <parameter>
          <name value="version"></name>
@@ -282,11 +282,6 @@
          <display value="Epilesional"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="417946008"></code>
@@ -313,11 +308,6 @@
          <display value="Intrasternal"></display>
       </contains>
       <contains>
-         <extension url="http://ontoserver.csiro.au/profiles/expansion">
-            <extension url="inactive">
-               <valueBoolean value="true"></valueBoolean>
-            </extension>
-         </extension>
          <system value="http://snomed.info/sct"></system>
          <inactive value="true"></inactive>
          <code value="15881211000001104"></code>

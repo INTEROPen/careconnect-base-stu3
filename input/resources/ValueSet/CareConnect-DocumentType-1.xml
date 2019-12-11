@@ -2,22 +2,22 @@
    <id value="CareConnect-DocumentType-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Document Type</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Document Type</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 44041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence document type simple reference set (foundation metadata concept)' with Refset Id 999000391000000109.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where concept  in  999000391000000109
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where concept  in  999000391000000109 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-DocumentType-1"></url>
@@ -51,8 +51,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="a0bbd58f-f221-4326-9971-59b6e9c58ce7"></identifier>
-      <timestamp value="2019-12-11T15:35:16+00:00"></timestamp>
+      <identifier value="97f8189b-fa81-4973-b474-6da4e6590e30"></identifier>
+      <timestamp value="2019-12-11T16:50:39+00:00"></timestamp>
       <total value="30"></total>
       <parameter>
          <name value="version"></name>

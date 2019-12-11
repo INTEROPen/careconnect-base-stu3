@@ -3,22 +3,22 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-AllergySeverity-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Allergy Severity</h2>
-         <div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Allergy Severity</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where constraint  =  (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|)
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  (255604002 |Mild| OR 6736007 |Moderate| OR 24484000 |Severe| OR 399166001 |Fatal| OR 442452003 |Life threatening severity|) 
+            </li> 
+         </ul> 
       </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1"/>
@@ -52,8 +52,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="e49e6aa6-fef2-4a17-a80f-82b3afacfdda"/>
-    <timestamp value="2019-12-11T15:35:11+00:00"/>
+    <identifier value="8cadbd35-d2c6-46b4-8508-3ad46b7a7cb1"/>
+    <timestamp value="2019-12-11T16:50:33+00:00"/>
     <total value="5"/>
     <parameter>
       <name value="version"/>

@@ -3,7 +3,7 @@
   "id": "CareConnect-ObservationMethod-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Observation Method</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;386053000 | Evaluation procedure|).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  (&lt;&lt;386053000 | Evaluation procedure|)\n            </li>\n         </ul>\n      </div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Observation Method</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;386053000 | Evaluation procedure|).</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  (&lt;&lt;386053000 | Evaluation procedure|) \n            </li> \n         </ul> \n      </div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationMethod-1",
   "version": "3.0.0",
@@ -48,8 +48,8 @@
     ]
   },
   "expansion": {
-    "identifier": "246e6b7c-64db-4bc3-ac91-523e19293834",
-    "timestamp": "2019-12-11T15:35:07+00:00",
+    "identifier": "d689a5b2-ca97-40cf-84cc-3a78274bb462",
+    "timestamp": "2019-12-11T16:50:30+00:00",
     "total": 20134,
     "parameter": [
       {

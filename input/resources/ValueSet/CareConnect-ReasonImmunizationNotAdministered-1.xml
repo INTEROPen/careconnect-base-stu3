@@ -2,67 +2,67 @@
    <id value="CareConnect-ReasonImmunizationNotAdministered-1"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Reason Immunization Not Administered</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Reason Immunization Not Administered</h2> 
+         <div> 
             <p>A ValueSet to identify the reason why an immunization was not administered.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include these codes as defined in 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a>
-               <table class="none">
-                  <tr>
-                     <td style="white-space:nowrap">
-                        <b>Code</b>
-                     </td>
-                     <td>
-                        <b>Display</b>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102">201741000000102</a>
-                     </td>
-                     <td>Did not attend child immunisation (finding)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006">281399006</a>
-                     </td>
-                     <td>Did not attend (finding)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006">213257006</a>
-                     </td>
-                     <td>Generally unwell (finding)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009">266758009</a>
-                     </td>
-                     <td>Immunization contraindicated (situation)</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006">310376006</a>
-                     </td>
-                     <td>Immunization consent not given (finding)</td>
-                     <td></td>
-                  </tr>
-               </table>
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> 
+               <table class="none"> 
+                  <tr> 
+                     <td style="white-space:nowrap"> 
+                        <b>Code</b> 
+                     </td> 
+                     <td> 
+                        <b>Display</b> 
+                     </td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102">201741000000102</a> 
+                     </td> 
+                     <td>Did not attend child immunisation (finding)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006">281399006</a> 
+                     </td> 
+                     <td>Did not attend (finding)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006">213257006</a> 
+                     </td> 
+                     <td>Generally unwell (finding)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009">266758009</a> 
+                     </td> 
+                     <td>Immunization contraindicated (situation)</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006">310376006</a> 
+                     </td> 
+                     <td>Immunization consent not given (finding)</td> 
+                     <td></td> 
+                  </tr> 
+               </table> 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"></url>
@@ -111,8 +111,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="272fb591-1083-4912-9ad9-99cd1c0c5633"></identifier>
-      <timestamp value="2019-12-11T15:35:10+00:00"></timestamp>
+      <identifier value="c7024ce0-2518-41d8-9cca-8551d6998b98"></identifier>
+      <timestamp value="2019-12-11T16:50:33+00:00"></timestamp>
       <total value="4"></total>
       <parameter>
          <name value="version"></name>

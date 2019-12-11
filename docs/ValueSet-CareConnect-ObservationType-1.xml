@@ -3,22 +3,22 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-ObservationType-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Observation Type</h2>
-         <div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Observation Type</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;363787002 | Observable entity|).</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include codes from 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a> where constraint  =  (&lt;&lt;363787002 | Observable entity|)
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  (&lt;&lt;363787002 | Observable entity|) 
+            </li> 
+         </ul> 
       </div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1"/>
@@ -52,8 +52,8 @@
     </include>
   </compose>
   <expansion>
-    <identifier value="447a6ceb-c6a2-4684-80bb-23c0858841ed"/>
-    <timestamp value="2019-12-11T15:35:09+00:00"/>
+    <identifier value="9613b605-2d57-4c6d-8777-6f4b8cf1f9b0"/>
+    <timestamp value="2019-12-11T16:50:31+00:00"/>
     <total value="8937"/>
     <parameter>
       <name value="version"/>

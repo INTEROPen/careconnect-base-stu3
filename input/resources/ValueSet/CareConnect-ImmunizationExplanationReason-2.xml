@@ -2,116 +2,116 @@
    <id value="CareConnect-ImmunizationExplanationReason-2"></id>
    <text>
       <status value="generated"></status>
-      <div xmlns="http://www.w3.org/1999/xhtml">
-         <h2>Care Connect Immunization Explanation Reason</h2>
-         <div>
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Immunization Explanation Reason</h2> 
+         <div> 
             <p>A code from the SNOMED Clinical Terminology UK coding system that represents the clinical indication or reason for administering the vaccine.</p> 
-         </div>
-         <p>
-            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.
-         </p>
-         <p>This value set includes codes from the following code systems:</p>
-         <ul>
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
             <li>Include these codes as defined in 
-               <a href="http://www.snomed.org/">
-                  <code>http://snomed.info/sct</code>
-               </a>
-               <table class="none">
-                  <tr>
-                     <td style="white-space:nowrap">
-                        <b>Code</b>
-                     </td>
-                     <td>
-                        <b>Display</b>
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008">171279008</a>
-                     </td>
-                     <td>Immunization due</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007">414448007</a>
-                     </td>
-                     <td>Identified as high risk for travel</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004">161096004</a>
-                     </td>
-                     <td>Going to travel abroad</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109">506931000000109</a>
-                     </td>
-                     <td>Recent travel to disease affected area</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007">78648007</a>
-                     </td>
-                     <td>At risk for infection</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004">14679004</a>
-                     </td>
-                     <td>Occupation</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002">134436002</a>
-                     </td>
-                     <td>Lifestyle</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003">398192003</a>
-                     </td>
-                     <td>Co-morbid conditions</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005">443684005</a>
-                     </td>
-                     <td>Disease outbreak</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001">183995001</a>
-                     </td>
-                     <td>Patient requested procedure</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005">444107005</a>
-                     </td>
-                     <td>Exposure to communicable disease</td>
-                     <td></td>
-                  </tr>
-                  <tr>
-                     <td>
-                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004">723620004</a>
-                     </td>
-                     <td>Requires vaccination</td>
-                     <td></td>
-                  </tr>
-               </table>
-            </li>
-         </ul>
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> 
+               <table class="none"> 
+                  <tr> 
+                     <td style="white-space:nowrap"> 
+                        <b>Code</b> 
+                     </td> 
+                     <td> 
+                        <b>Display</b> 
+                     </td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=171279008">171279008</a> 
+                     </td> 
+                     <td>Immunization due</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=414448007">414448007</a> 
+                     </td> 
+                     <td>Identified as high risk for travel</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=161096004">161096004</a> 
+                     </td> 
+                     <td>Going to travel abroad</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=506931000000109">506931000000109</a> 
+                     </td> 
+                     <td>Recent travel to disease affected area</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78648007">78648007</a> 
+                     </td> 
+                     <td>At risk for infection</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14679004">14679004</a> 
+                     </td> 
+                     <td>Occupation</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=134436002">134436002</a> 
+                     </td> 
+                     <td>Lifestyle</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=398192003">398192003</a> 
+                     </td> 
+                     <td>Co-morbid conditions</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443684005">443684005</a> 
+                     </td> 
+                     <td>Disease outbreak</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=183995001">183995001</a> 
+                     </td> 
+                     <td>Patient requested procedure</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=444107005">444107005</a> 
+                     </td> 
+                     <td>Exposure to communicable disease</td> 
+                     <td></td> 
+                  </tr> 
+                  <tr> 
+                     <td> 
+                        <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=723620004">723620004</a> 
+                     </td> 
+                     <td>Requires vaccination</td> 
+                     <td></td> 
+                  </tr> 
+               </table> 
+            </li> 
+         </ul> 
       </div>
    </text>
    <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ImmunizationExplanationReason-2"></url>
@@ -188,8 +188,8 @@
       </include>
    </compose>
    <expansion>
-      <identifier value="90810fe6-6e68-4e3a-b908-1c2dc20454f3"></identifier>
-      <timestamp value="2019-12-11T15:35:17+00:00"></timestamp>
+      <identifier value="38e49a3e-f4dc-4069-a636-dded5f58d76a"></identifier>
+      <timestamp value="2019-12-11T16:50:39+00:00"></timestamp>
       <total value="11"></total>
       <parameter>
          <name value="version"></name>

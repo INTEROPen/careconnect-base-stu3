@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-CareSettingType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Care Setting Type</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where concept  in  999000381000000107\n            </li>\n         </ul>\n      </div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Care Setting Type</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where concept  in  999000381000000107 \n            </li> \n         </ul> \n      </div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];
@@ -49,8 +49,8 @@
      ]
   ];
   fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "e1e494a6-4446-4a2f-a1f2-dad8a5b684e4" ];
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T15:35:17+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.identifier [ fhir:value "b875fc9d-3094-4c14-ba7d-48b0ab0112d1" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:39+00:00"^^xsd:dateTime ];
      fhir:ValueSet.expansion.total [ fhir:value "218"^^xsd:integer ];
      fhir:ValueSet.expansion.parameter [
        fhir:index 0;
