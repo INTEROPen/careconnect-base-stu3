@@ -6,7 +6,7 @@
       </valueReference>
    </extension>
    <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
-      <valueUri value="	http://hl7.org/fhir/ValueSet/reaction-event-severity"></valueUri>
+      <valueUri value="http://hl7.org/fhir/ValueSet/reaction-event-severity"></valueUri>
    </extension>
    <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
       <valueCode value="pc"></valueCode>

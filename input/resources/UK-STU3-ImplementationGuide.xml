@@ -324,13 +324,13 @@
          <name value="ext-CareSettingType-1"></name>
          <groupingId value="uk-ext"></groupingId>
       </resource>
-      <resource>
+    <!--  <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"></reference>
          </reference>
          <name value="ClinicalDisciplines-1"></name>
          <groupingId value="uk-vs"></groupingId>
-      </resource>
+      </resource> -->
       <resource>
          <reference>
             <reference value="StructureDefinition/Extension-CareConnect-ClinicalSetting-1"></reference>
