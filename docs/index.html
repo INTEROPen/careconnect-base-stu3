@@ -51,7 +51,7 @@
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
         <div id="hl7-status">
-          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect STU3 Base Implementation Guide</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -141,7 +141,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect STU3 Base Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Care Connect Base STU3 Implementation Guide</h2>
   
   
@@ -164,12 +164,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="scope">Scope</h3>
 
-<p>This document presents UK use concepts defined via FHIR processable artefacts; these are collaborative outputs with agreed approaches to varied kinds of healthcare related information based on the core FHIR STU3 specification.</p>
+<p>This document presents English use concepts defined via FHIR processable artefacts; these are collaborative outputs with agreed approaches to varied kinds of healthcare related information based on the core FHIR STU3 specification.</p>
 
 <ul>
-  <li><a href="profiles.html">Profiles</a> - are useful constraints of core FHIR resources and datatype for UK use</li>
-  <li><a href="extensions.html">Extensions</a> - are FHIR extensions that are added for local use, covering needed UK concepts</li>
-  <li><strong>Terminologies</strong> - are defined or referenced in <a href="codesystems.html">code systems</a>, <a href="valuesets.html">value sets</a> and <a href="conceptmaps.html">concept maps</a> for UK context</li>
+  <li><a href="profiles.html">Profiles</a> - are useful constraints of core FHIR resources and datatype for English use</li>
+  <li><a href="extensions.html">Extensions</a> - are FHIR extensions that are added for local use, covering needed English concepts</li>
+  <li><strong>Terminologies</strong> - are defined or referenced in <a href="codesystems.html">code systems</a>, <a href="valuesets.html">value sets</a> and <a href="conceptmaps.html">concept maps</a> for English context</li>
   <li><a href="namingsystems.html">NamingSystems</a> - represents a “System” used within the Identifier and Coding data types, e.g. NHS Number.</li>
 </ul>
 
@@ -177,7 +177,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>This document is a working specification that may be directly implemented by FHIR<sup>®©</sup> system producers.</p>
 
-<p>Information contained in this document is aimed at providing guidance on representing UK local concepts using FHIR. This includes code systems, extensions and profiles on base FHIR types.  The content of the IG is general in nature and seeks to provide a ‘how-to’ guide when representing concepts, it includes core base profiles that can be further constrained for a particular usage.</p>
+<p>Information contained in this document is aimed at providing guidance on representing English local concepts using FHIR. This includes code systems, extensions and profiles on base FHIR types.  The content of the IG is general in nature and seeks to provide a ‘how-to’ guide when representing concepts, it includes core base profiles that can be further constrained for a particular usage.</p>
 
 <h3 id="collaboration">Collaboration</h3>
 
@@ -192,10 +192,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>There are several ways to provide feedback or ask supprt questions.</p>
 
 <ul>
-  <li><a href="https://chat.fhir.org/#narrow/stream/179189-uk">HL7 FHIR Chat Forum - UK Stream</a> - Questions/Discussion about the HL7 UK FHIR ImplementationGuide and the implementation process. Interactive discussion about FHIR issues</li>
+  <li><a href="https://chat.fhir.org/#narrow/stream/179189-uk">HL7 FHIR Chat Forum - UK Stream</a> - Questions/Discussion about the INTEROPen Care Connect Implementation Guide and the implementation process. Interactive discussion about FHIR issues</li>
   <li><a href="https://interopen.ryver.com/">INTEROPen</a> - Questions/Discussions on Care Connect and INTEROpen</li>
   <li><a href="https://stackoverflow.com/questions/tagged/hl7_fhir">StackOverflow</a> - Developer/Programming type questions, mainly about the reference implementations - see <a href="https://meta.stackexchange.com/questions/3966/is-it-okay-to-use-stack-overflow-as-the-support-forum-for-a-product-or-project">StackOverflow guidance</a></li>
-  <li><a href="https://github.com/INTEROPen/careconnect-base-stu3/issues">HL7 UK GitHub Repository</a> - Reporting issues on this Implementation Guide.</li>
+  <li><a href="https://github.com/INTEROPen/careconnect-base-stu3/issues">INTEROPen GitHub Repository</a> - Reporting issues on this Implementation Guide.</li>
 </ul>
 
 
@@ -210,7 +210,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package careconnect.stu3.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 12, 2019 15:45+0000">2019-12-12</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package careconnect.stu3.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 12, 2019 16:50+0000">2019-12-12</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
