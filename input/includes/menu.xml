@@ -1,5 +1,5 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="index.html">HL7 UK Implementation Guide</a></li>
+  <li><a href="index.html">CareConnect Implementation Guide</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
     </b>
@@ -15,7 +15,7 @@
     </b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="profiles.html">Care Connect Profiles</a></li>
+      <li><a href="profiles.html">CareConnect Profiles</a></li>
       <li><a href="extensions.html">Extensions</a></li>
     </ul>
   </li>
