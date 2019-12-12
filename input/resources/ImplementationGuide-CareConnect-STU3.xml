@@ -1,5 +1,5 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="careconnect-stu3-ig"></id>
+   <id value="Careconnect-Base"></id>
    <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"></url>
    <version value="3.0.0"/>
    <name value="CareConnect Implementation Guide"></name>
@@ -1659,7 +1659,7 @@
          <generation value="html"></generation>
          <page>
             <nameUrl value="index.html"></nameUrl>
-            <title value="Care Connect STU3 Implementation Guide"></title>
+            <title value="Care Connect Base STU3 Implementation Guide"></title>
             <generation value="markdown"></generation>
          </page>
          <page>

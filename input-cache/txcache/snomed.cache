@@ -4733,3 +4733,2805 @@ e: {
   "error" : "Error from server: The filter \"constraint = (<105590001 |Substance (substance)| OR <49755003 |Morphologically abnormal structure (morphologic abnormality)| OR <260787004 |Physical object (physical object)|)\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "734163000"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Care plan (record artifact)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "708168004"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Mental health service",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Admission for care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Transfer of care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Ambulance-based care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "999000031000001105"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "unable to find code 999000031000001105 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20190731)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "< 309013001 |Referred by person (finding)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Expected character \"<\" but found 3 at character 3"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "< 306098008 |Self-referral (procedure)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Expected character \"<\" but found 3 at character 3"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255604002"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Mild",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "6736007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Moderate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "24484000"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Severe",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "442452003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Life threatening severity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "385434005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Improbable diagnosis (contextual qualifier) (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "2931005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Probable diagnosis",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255545003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Definite",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "410605003"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Confirmed present (qualifier value)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "255217005"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "First episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "288527008"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "New episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "303350001"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Ongoing episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "272131007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Old episode",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "734163000",
+  "display" : "Care Plan"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "Care plan (record artifact)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "708168004",
+  "display" : "Mental health service"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "Mental health service",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003",
+  "display" : "Admission for care"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Admission for care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "281685003",
+  "display" : "Admission for care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  },
+  "expansion" : {
+    "parameter" : [{
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 2147483647
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "185209009",
+      "display" : "Seen in recreation place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185272004",
+      "display" : "Seen in psychogeriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185208001",
+      "display" : "Seen in work place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313151003",
+      "display" : "Seen in paediatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700154005",
+      "display" : "Seen in weight management clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313152005",
+      "display" : "Seen in hearing aid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314774003",
+      "display" : "Seen in open access surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270420001",
+      "display" : "Seen in own home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185230000",
+      "display" : "Seen in neurology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "763184009",
+      "display" : "Telepractice consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438516005",
+      "display" : "E-mail encounter to carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185190009",
+      "display" : "Seen in audiology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431957001",
+      "display" : "Seen in mental health clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698528008",
+      "display" : "Seen in nuclear medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442454002",
+      "display" : "Seen in burn clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185253004",
+      "display" : "Seen in oral surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416717003",
+      "display" : "Seen in heart failure clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185275002",
+      "display" : "Seen in rehabilitation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429279006",
+      "display" : "Seen in epilepsy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185254005",
+      "display" : "Seen in child orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "735260000",
+      "display" : "Seen in early pregnancy assessment unit"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698529000",
+      "display" : "Seen in cystic fibrosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438515009",
+      "display" : "E-mail encounter from carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185255006",
+      "display" : "Seen in endocrine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "417566006",
+      "display" : "Seen in diabetic nurse consultant clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185252009",
+      "display" : "Seen in orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315014005",
+      "display" : "Seen in rapid access chest pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185250001",
+      "display" : "Seen in nephrology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185251002",
+      "display" : "Seen in EMG clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "407672007",
+      "display" : "Seen in diabetic foot clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185276001",
+      "display" : "Seen in physiotherapy department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185274003",
+      "display" : "Seen in radiotherapy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185273009",
+      "display" : "Seen in homoeopathy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185218006",
+      "display" : "Seen in nursing home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416554009",
+      "display" : "Seen in community diabetes specialist clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185229005",
+      "display" : "Seen in diabetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185179004",
+      "display" : "Seen in orthodontic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185321005",
+      "display" : "Letter encounter to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308720009",
+      "display" : "Letter encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185178007",
+      "display" : "Seen in cholesterol clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314849005",
+      "display" : "Telephone contact by consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185176006",
+      "display" : "Seen in dietician clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185175005",
+      "display" : "Seen in primary care centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307778003",
+      "display" : "Seen in primary care establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713776001",
+      "display" : "Email encounter from third party"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185318008",
+      "display" : "Third party encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "391037000",
+      "display" : "Seen in osteoporosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427933004",
+      "display" : "Seen in musculoskeletal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185177002",
+      "display" : "Seen in lipid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429519002",
+      "display" : "Seen in liver clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185214008",
+      "display" : "Seen in warden-supervised house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439021005",
+      "display" : "Seen in community anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185219003",
+      "display" : "Seen in elderly mentally infirm home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305906009",
+      "display" : "Seen in primary health care clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305907000",
+      "display" : "Seen in day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305908005",
+      "display" : "Seen in psychiatry day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700187009",
+      "display" : "Seen in drug misuse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442005004",
+      "display" : "Seen in chemical pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185182009",
+      "display" : "Seen in pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11797002",
+      "display" : "Telephone call by physician to patient or for consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386472008",
+      "display" : "Telephone consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185317003",
+      "display" : "Telephone encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185212007",
+      "display" : "Seen in hospital ward"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185228002",
+      "display" : "Seen in cardiac clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185187003",
+      "display" : "Seen child psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185226003",
+      "display" : "Seen in antenatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185186007",
+      "display" : "Seen in well child clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185225004",
+      "display" : "Seen in psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185207006",
+      "display" : "Seen in institution"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315599008",
+      "display" : "Seen in young person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185202000",
+      "display" : "Seen in GP's surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313104000",
+      "display" : "Seen in drug rehabilitation centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313340009",
+      "display" : "Seen in diabetic eye clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185203005",
+      "display" : "Seen in Health Centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185201007",
+      "display" : "Site of encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185185006",
+      "display" : "Seen in well person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705063007",
+      "display" : "Seen in paediatric endocrinology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185234009",
+      "display" : "Seen in paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185223006",
+      "display" : "Seen in ENT clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705064001",
+      "display" : "Seen in sickle cell and thalassaemia clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440678006",
+      "display" : "Seen in hospital anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185271006",
+      "display" : "Seen in breast clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401267002",
+      "display" : "Telephone triage encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185270007",
+      "display" : "Seen in oncology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185188008",
+      "display" : "Seen in family planning clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386479004",
+      "display" : "Triage: telephone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416696002",
+      "display" : "Seen in community diabetic specialist nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305910007",
+      "display" : "Seen in care of the elderly day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428120007",
+      "display" : "Seen in cardiothoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305911006",
+      "display" : "Seen in hospice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313103006",
+      "display" : "Seen in baby clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185189000",
+      "display" : "Seen in varicose vein clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270422009",
+      "display" : "Seen in dermatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185233003",
+      "display" : "Seen in elderly assessment clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440168007",
+      "display" : "Provision of copy of letter from specialist to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270424005",
+      "display" : "Letter encounter from patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441828004",
+      "display" : "Seen in child and adolescent psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185235005",
+      "display" : "Site of encounter: street"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185232008",
+      "display" : "Seen in psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270421002",
+      "display" : "Seen in warden-supervised home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439362007",
+      "display" : "Seen in community paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428889007",
+      "display" : "Seen in sleep clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185191008",
+      "display" : "Seen in fracture clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185236006",
+      "display" : "Seen at doctors house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185266004",
+      "display" : "Seen in postnatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275693003",
+      "display" : "Letter from consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270425006",
+      "display" : "Letter from specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185265000",
+      "display" : "Seen in emergency clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314803001",
+      "display" : "Seen in open access nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185243000",
+      "display" : "Seen in colposcopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445450000",
+      "display" : "Encounter by short message service text messaging"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440580005",
+      "display" : "Seen in foetal medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185242005",
+      "display" : "Seen in asthma clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185183004",
+      "display" : "Seen in developmental clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185244006",
+      "display" : "Seen in colorectal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313148005",
+      "display" : "Seen in vascular clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439437006",
+      "display" : "Seen in eating disorder clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185269006",
+      "display" : "Seen in chiropody clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185241003",
+      "display" : "Seen in general medical clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442163005",
+      "display" : "Seen in microbiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185268003",
+      "display" : "Seen in fertility clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185240002",
+      "display" : "Seen in chest clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185267008",
+      "display" : "Seen in thoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185249001",
+      "display" : "Seen in prostate clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185221008",
+      "display" : "Seen in gynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185222001",
+      "display" : "Seen in ophthalmology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "448337001",
+      "display" : "Telemedicine consultation with patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185184005",
+      "display" : "Seen in speech and language clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185247004",
+      "display" : "Seen in neurosurgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185220009",
+      "display" : "Seen in urology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185181002",
+      "display" : "Seen in radiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185180001",
+      "display" : "Seen in GU medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185246008",
+      "display" : "Seen in haematology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185245007",
+      "display" : "Seen in gastroenterology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705062002",
+      "display" : "Seen in bariatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185248009",
+      "display" : "Seen in pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185263007",
+      "display" : "Seen in geriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305909002",
+      "display" : "Seen in psychogeriatric day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185264001",
+      "display" : "Seen in hypertension clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185262002",
+      "display" : "Seen in general surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275691001",
+      "display" : "Seen in old people's home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428658005",
+      "display" : "Seen in community respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428489000",
+      "display" : "Seen in respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431962000",
+      "display" : "Seen in urogynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185227007",
+      "display" : "Seen in rheumatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386473003",
+      "display" : "Telephone follow-up"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "432806004",
+      "display" : "Seen in memory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185215009",
+      "display" : "Seen in warden-supervised flat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307779006",
+      "display" : "Seen in supervised accommodation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185211000",
+      "display" : "Seen in hospital outpatient department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440681001",
+      "display" : "Seen in genetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308021002",
+      "display" : "Seen in clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308467007",
+      "display" : "Seen in establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185237002",
+      "display" : "Seen in gastroscopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185210004",
+      "display" : "Seen in hospital casualty"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308031009",
+      "display" : "Seen in department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313375009",
+      "display" : "Seen in private clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185239004",
+      "display" : "Seen in plastic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401271004",
+      "display" : "E-mail sent to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185320006",
+      "display" : "Encounter by computer link"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185316007",
+      "display" : "Indirect encounter"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007",
+  "display" : "Transfer of care"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Transfer of care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "308292007",
+  "display" : "Transfer of care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  },
+  "expansion" : {
+    "parameter" : [{
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 2147483647
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "185209009",
+      "display" : "Seen in recreation place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185272004",
+      "display" : "Seen in psychogeriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185208001",
+      "display" : "Seen in work place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313151003",
+      "display" : "Seen in paediatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700154005",
+      "display" : "Seen in weight management clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313152005",
+      "display" : "Seen in hearing aid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314774003",
+      "display" : "Seen in open access surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270420001",
+      "display" : "Seen in own home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185230000",
+      "display" : "Seen in neurology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "763184009",
+      "display" : "Telepractice consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438516005",
+      "display" : "E-mail encounter to carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185190009",
+      "display" : "Seen in audiology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431957001",
+      "display" : "Seen in mental health clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698528008",
+      "display" : "Seen in nuclear medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442454002",
+      "display" : "Seen in burn clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185253004",
+      "display" : "Seen in oral surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416717003",
+      "display" : "Seen in heart failure clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185275002",
+      "display" : "Seen in rehabilitation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429279006",
+      "display" : "Seen in epilepsy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185254005",
+      "display" : "Seen in child orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "735260000",
+      "display" : "Seen in early pregnancy assessment unit"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698529000",
+      "display" : "Seen in cystic fibrosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438515009",
+      "display" : "E-mail encounter from carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185255006",
+      "display" : "Seen in endocrine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "417566006",
+      "display" : "Seen in diabetic nurse consultant clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185252009",
+      "display" : "Seen in orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315014005",
+      "display" : "Seen in rapid access chest pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185250001",
+      "display" : "Seen in nephrology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185251002",
+      "display" : "Seen in EMG clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "407672007",
+      "display" : "Seen in diabetic foot clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185276001",
+      "display" : "Seen in physiotherapy department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185274003",
+      "display" : "Seen in radiotherapy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185273009",
+      "display" : "Seen in homoeopathy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185218006",
+      "display" : "Seen in nursing home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416554009",
+      "display" : "Seen in community diabetes specialist clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185229005",
+      "display" : "Seen in diabetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185179004",
+      "display" : "Seen in orthodontic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185321005",
+      "display" : "Letter encounter to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308720009",
+      "display" : "Letter encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185178007",
+      "display" : "Seen in cholesterol clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314849005",
+      "display" : "Telephone contact by consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185176006",
+      "display" : "Seen in dietician clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185175005",
+      "display" : "Seen in primary care centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307778003",
+      "display" : "Seen in primary care establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713776001",
+      "display" : "Email encounter from third party"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185318008",
+      "display" : "Third party encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "391037000",
+      "display" : "Seen in osteoporosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427933004",
+      "display" : "Seen in musculoskeletal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185177002",
+      "display" : "Seen in lipid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429519002",
+      "display" : "Seen in liver clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185214008",
+      "display" : "Seen in warden-supervised house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439021005",
+      "display" : "Seen in community anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185219003",
+      "display" : "Seen in elderly mentally infirm home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305906009",
+      "display" : "Seen in primary health care clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305907000",
+      "display" : "Seen in day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305908005",
+      "display" : "Seen in psychiatry day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700187009",
+      "display" : "Seen in drug misuse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442005004",
+      "display" : "Seen in chemical pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185182009",
+      "display" : "Seen in pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11797002",
+      "display" : "Telephone call by physician to patient or for consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386472008",
+      "display" : "Telephone consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185317003",
+      "display" : "Telephone encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185212007",
+      "display" : "Seen in hospital ward"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185228002",
+      "display" : "Seen in cardiac clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185187003",
+      "display" : "Seen child psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185226003",
+      "display" : "Seen in antenatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185186007",
+      "display" : "Seen in well child clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185225004",
+      "display" : "Seen in psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185207006",
+      "display" : "Seen in institution"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315599008",
+      "display" : "Seen in young person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185202000",
+      "display" : "Seen in GP's surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313104000",
+      "display" : "Seen in drug rehabilitation centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313340009",
+      "display" : "Seen in diabetic eye clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185203005",
+      "display" : "Seen in Health Centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185201007",
+      "display" : "Site of encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185185006",
+      "display" : "Seen in well person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705063007",
+      "display" : "Seen in paediatric endocrinology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185234009",
+      "display" : "Seen in paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185223006",
+      "display" : "Seen in ENT clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705064001",
+      "display" : "Seen in sickle cell and thalassaemia clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440678006",
+      "display" : "Seen in hospital anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185271006",
+      "display" : "Seen in breast clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401267002",
+      "display" : "Telephone triage encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185270007",
+      "display" : "Seen in oncology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185188008",
+      "display" : "Seen in family planning clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386479004",
+      "display" : "Triage: telephone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416696002",
+      "display" : "Seen in community diabetic specialist nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305910007",
+      "display" : "Seen in care of the elderly day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428120007",
+      "display" : "Seen in cardiothoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305911006",
+      "display" : "Seen in hospice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313103006",
+      "display" : "Seen in baby clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185189000",
+      "display" : "Seen in varicose vein clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270422009",
+      "display" : "Seen in dermatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185233003",
+      "display" : "Seen in elderly assessment clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440168007",
+      "display" : "Provision of copy of letter from specialist to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270424005",
+      "display" : "Letter encounter from patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441828004",
+      "display" : "Seen in child and adolescent psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185235005",
+      "display" : "Site of encounter: street"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185232008",
+      "display" : "Seen in psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270421002",
+      "display" : "Seen in warden-supervised home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439362007",
+      "display" : "Seen in community paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428889007",
+      "display" : "Seen in sleep clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185191008",
+      "display" : "Seen in fracture clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185236006",
+      "display" : "Seen at doctors house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185266004",
+      "display" : "Seen in postnatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275693003",
+      "display" : "Letter from consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270425006",
+      "display" : "Letter from specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185265000",
+      "display" : "Seen in emergency clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314803001",
+      "display" : "Seen in open access nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185243000",
+      "display" : "Seen in colposcopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445450000",
+      "display" : "Encounter by short message service text messaging"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440580005",
+      "display" : "Seen in foetal medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185242005",
+      "display" : "Seen in asthma clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185183004",
+      "display" : "Seen in developmental clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185244006",
+      "display" : "Seen in colorectal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313148005",
+      "display" : "Seen in vascular clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439437006",
+      "display" : "Seen in eating disorder clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185269006",
+      "display" : "Seen in chiropody clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185241003",
+      "display" : "Seen in general medical clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442163005",
+      "display" : "Seen in microbiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185268003",
+      "display" : "Seen in fertility clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185240002",
+      "display" : "Seen in chest clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185267008",
+      "display" : "Seen in thoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185249001",
+      "display" : "Seen in prostate clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185221008",
+      "display" : "Seen in gynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185222001",
+      "display" : "Seen in ophthalmology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "448337001",
+      "display" : "Telemedicine consultation with patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185184005",
+      "display" : "Seen in speech and language clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185247004",
+      "display" : "Seen in neurosurgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185220009",
+      "display" : "Seen in urology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185181002",
+      "display" : "Seen in radiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185180001",
+      "display" : "Seen in GU medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185246008",
+      "display" : "Seen in haematology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185245007",
+      "display" : "Seen in gastroenterology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705062002",
+      "display" : "Seen in bariatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185248009",
+      "display" : "Seen in pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185263007",
+      "display" : "Seen in geriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305909002",
+      "display" : "Seen in psychogeriatric day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185264001",
+      "display" : "Seen in hypertension clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185262002",
+      "display" : "Seen in general surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275691001",
+      "display" : "Seen in old people's home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428658005",
+      "display" : "Seen in community respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428489000",
+      "display" : "Seen in respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431962000",
+      "display" : "Seen in urogynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185227007",
+      "display" : "Seen in rheumatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386473003",
+      "display" : "Telephone follow-up"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "432806004",
+      "display" : "Seen in memory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185215009",
+      "display" : "Seen in warden-supervised flat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307779006",
+      "display" : "Seen in supervised accommodation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185211000",
+      "display" : "Seen in hospital outpatient department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440681001",
+      "display" : "Seen in genetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308021002",
+      "display" : "Seen in clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308467007",
+      "display" : "Seen in establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185237002",
+      "display" : "Seen in gastroscopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185210004",
+      "display" : "Seen in hospital casualty"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308031009",
+      "display" : "Seen in department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313375009",
+      "display" : "Seen in private clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185239004",
+      "display" : "Seen in plastic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401271004",
+      "display" : "E-mail sent to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185320006",
+      "display" : "Encounter by computer link"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185316007",
+      "display" : "Indirect encounter"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001",
+  "display" : "Ambulance-based care"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Ambulance-based care",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "11424001",
+  "display" : "Ambulance-based care"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "<<185316007 OR <<308467007 OR <<185201007"
+      }]
+    }]
+  },
+  "expansion" : {
+    "parameter" : [{
+      "name" : "version",
+      "valueUri" : "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+    },
+    {
+      "name" : "count",
+      "valueInteger" : 2147483647
+    },
+    {
+      "name" : "offset",
+      "valueInteger" : 0
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "185209009",
+      "display" : "Seen in recreation place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185272004",
+      "display" : "Seen in psychogeriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185208001",
+      "display" : "Seen in work place"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313151003",
+      "display" : "Seen in paediatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700154005",
+      "display" : "Seen in weight management clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313152005",
+      "display" : "Seen in hearing aid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314774003",
+      "display" : "Seen in open access surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270420001",
+      "display" : "Seen in own home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185230000",
+      "display" : "Seen in neurology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "763184009",
+      "display" : "Telepractice consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438516005",
+      "display" : "E-mail encounter to carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185190009",
+      "display" : "Seen in audiology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431957001",
+      "display" : "Seen in mental health clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698528008",
+      "display" : "Seen in nuclear medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442454002",
+      "display" : "Seen in burn clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185253004",
+      "display" : "Seen in oral surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416717003",
+      "display" : "Seen in heart failure clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185275002",
+      "display" : "Seen in rehabilitation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429279006",
+      "display" : "Seen in epilepsy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185254005",
+      "display" : "Seen in child orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "735260000",
+      "display" : "Seen in early pregnancy assessment unit"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "698529000",
+      "display" : "Seen in cystic fibrosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "438515009",
+      "display" : "E-mail encounter from carer"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185255006",
+      "display" : "Seen in endocrine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "417566006",
+      "display" : "Seen in diabetic nurse consultant clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185252009",
+      "display" : "Seen in orthopaedic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315014005",
+      "display" : "Seen in rapid access chest pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185250001",
+      "display" : "Seen in nephrology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185251002",
+      "display" : "Seen in EMG clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "407672007",
+      "display" : "Seen in diabetic foot clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185276001",
+      "display" : "Seen in physiotherapy department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185274003",
+      "display" : "Seen in radiotherapy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185273009",
+      "display" : "Seen in homoeopathy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185218006",
+      "display" : "Seen in nursing home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416554009",
+      "display" : "Seen in community diabetes specialist clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185229005",
+      "display" : "Seen in diabetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185179004",
+      "display" : "Seen in orthodontic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185321005",
+      "display" : "Letter encounter to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308720009",
+      "display" : "Letter encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185178007",
+      "display" : "Seen in cholesterol clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314849005",
+      "display" : "Telephone contact by consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185176006",
+      "display" : "Seen in dietician clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185175005",
+      "display" : "Seen in primary care centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307778003",
+      "display" : "Seen in primary care establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "713776001",
+      "display" : "Email encounter from third party"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185318008",
+      "display" : "Third party encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "391037000",
+      "display" : "Seen in osteoporosis clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "427933004",
+      "display" : "Seen in musculoskeletal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185177002",
+      "display" : "Seen in lipid clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "429519002",
+      "display" : "Seen in liver clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185214008",
+      "display" : "Seen in warden-supervised house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439021005",
+      "display" : "Seen in community anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185219003",
+      "display" : "Seen in elderly mentally infirm home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305906009",
+      "display" : "Seen in primary health care clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305907000",
+      "display" : "Seen in day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305908005",
+      "display" : "Seen in psychiatry day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "700187009",
+      "display" : "Seen in drug misuse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442005004",
+      "display" : "Seen in chemical pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185182009",
+      "display" : "Seen in pathology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "11797002",
+      "display" : "Telephone call by physician to patient or for consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386472008",
+      "display" : "Telephone consultation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185317003",
+      "display" : "Telephone encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185212007",
+      "display" : "Seen in hospital ward"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185228002",
+      "display" : "Seen in cardiac clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185187003",
+      "display" : "Seen child psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185226003",
+      "display" : "Seen in antenatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185186007",
+      "display" : "Seen in well child clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185225004",
+      "display" : "Seen in psychology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185207006",
+      "display" : "Seen in institution"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "315599008",
+      "display" : "Seen in young person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185202000",
+      "display" : "Seen in GP's surgery"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313104000",
+      "display" : "Seen in drug rehabilitation centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313340009",
+      "display" : "Seen in diabetic eye clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185203005",
+      "display" : "Seen in Health Centre"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185201007",
+      "display" : "Site of encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185185006",
+      "display" : "Seen in well person clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705063007",
+      "display" : "Seen in paediatric endocrinology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185234009",
+      "display" : "Seen in paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185223006",
+      "display" : "Seen in ENT clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705064001",
+      "display" : "Seen in sickle cell and thalassaemia clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440678006",
+      "display" : "Seen in hospital anticoagulation clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185271006",
+      "display" : "Seen in breast clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401267002",
+      "display" : "Telephone triage encounter"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185270007",
+      "display" : "Seen in oncology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185188008",
+      "display" : "Seen in family planning clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386479004",
+      "display" : "Triage: telephone"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "416696002",
+      "display" : "Seen in community diabetic specialist nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305910007",
+      "display" : "Seen in care of the elderly day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428120007",
+      "display" : "Seen in cardiothoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305911006",
+      "display" : "Seen in hospice"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313103006",
+      "display" : "Seen in baby clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185189000",
+      "display" : "Seen in varicose vein clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270422009",
+      "display" : "Seen in dermatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185233003",
+      "display" : "Seen in elderly assessment clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440168007",
+      "display" : "Provision of copy of letter from specialist to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270424005",
+      "display" : "Letter encounter from patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "441828004",
+      "display" : "Seen in child and adolescent psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185235005",
+      "display" : "Site of encounter: street"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185232008",
+      "display" : "Seen in psychiatry clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270421002",
+      "display" : "Seen in warden-supervised home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439362007",
+      "display" : "Seen in community paediatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428889007",
+      "display" : "Seen in sleep clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185191008",
+      "display" : "Seen in fracture clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185236006",
+      "display" : "Seen at doctors house"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185266004",
+      "display" : "Seen in postnatal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275693003",
+      "display" : "Letter from consultant"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "270425006",
+      "display" : "Letter from specialist"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185265000",
+      "display" : "Seen in emergency clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "314803001",
+      "display" : "Seen in open access nurse clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185243000",
+      "display" : "Seen in colposcopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445450000",
+      "display" : "Encounter by short message service text messaging"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440580005",
+      "display" : "Seen in foetal medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185242005",
+      "display" : "Seen in asthma clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185183004",
+      "display" : "Seen in developmental clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185244006",
+      "display" : "Seen in colorectal clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313148005",
+      "display" : "Seen in vascular clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "439437006",
+      "display" : "Seen in eating disorder clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185269006",
+      "display" : "Seen in chiropody clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185241003",
+      "display" : "Seen in general medical clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "442163005",
+      "display" : "Seen in microbiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185268003",
+      "display" : "Seen in fertility clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185240002",
+      "display" : "Seen in chest clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185267008",
+      "display" : "Seen in thoracic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185249001",
+      "display" : "Seen in prostate clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185221008",
+      "display" : "Seen in gynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185222001",
+      "display" : "Seen in ophthalmology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "448337001",
+      "display" : "Telemedicine consultation with patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185184005",
+      "display" : "Seen in speech and language clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185247004",
+      "display" : "Seen in neurosurgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185220009",
+      "display" : "Seen in urology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185181002",
+      "display" : "Seen in radiology department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185180001",
+      "display" : "Seen in GU medicine clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185246008",
+      "display" : "Seen in haematology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185245007",
+      "display" : "Seen in gastroenterology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "705062002",
+      "display" : "Seen in bariatric surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185248009",
+      "display" : "Seen in pain clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185263007",
+      "display" : "Seen in geriatric clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "305909002",
+      "display" : "Seen in psychogeriatric day hospital"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185264001",
+      "display" : "Seen in hypertension clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185262002",
+      "display" : "Seen in general surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "275691001",
+      "display" : "Seen in old people's home"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428658005",
+      "display" : "Seen in community respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "428489000",
+      "display" : "Seen in respiratory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "431962000",
+      "display" : "Seen in urogynaecology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185227007",
+      "display" : "Seen in rheumatology clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "386473003",
+      "display" : "Telephone follow-up"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "432806004",
+      "display" : "Seen in memory clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185215009",
+      "display" : "Seen in warden-supervised flat"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "307779006",
+      "display" : "Seen in supervised accommodation"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185211000",
+      "display" : "Seen in hospital outpatient department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440681001",
+      "display" : "Seen in genetic clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308021002",
+      "display" : "Seen in clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308467007",
+      "display" : "Seen in establishment"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185237002",
+      "display" : "Seen in gastroscopy clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185210004",
+      "display" : "Seen in hospital casualty"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "308031009",
+      "display" : "Seen in department"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "313375009",
+      "display" : "Seen in private clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185239004",
+      "display" : "Seen in plastic surgery clinic"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "401271004",
+      "display" : "E-mail sent to patient"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185320006",
+      "display" : "Encounter by computer link"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "185316007",
+      "display" : "Indirect encounter"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "364075005",
+  "display" : "Heart rate"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Heart rate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
