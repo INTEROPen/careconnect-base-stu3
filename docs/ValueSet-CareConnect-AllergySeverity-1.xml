@@ -26,11 +26,11 @@
   <name value="Care Connect Allergy Severity"/>
   <status value="draft"/>
   <date value="2018-11-14T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the severity of an allergy."/>

@@ -17,11 +17,11 @@
   <name value="CareConnect-RiskAssessment-1"/>
   <status value="draft"/>
   <date value="2019-03-04T15:13:38+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome."/>

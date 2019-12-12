@@ -16,11 +16,11 @@
   <name value="Extension-CareConnect-ListWarningCode-1"/>
   <status value="draft"/>
   <date value="2019-06-11T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit."/>

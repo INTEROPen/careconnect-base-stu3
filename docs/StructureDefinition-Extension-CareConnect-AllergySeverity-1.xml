@@ -78,11 +78,11 @@ https://www.hl7.org/fhir/license.html&lt;/span&gt; &lt;/td&gt; &lt;/tr&gt; &lt;/
   <name value="Extension-CareConnect-AllergySeverity-1"/>
   <status value="draft"/>
   <date value="2017-07-13T10:35:53+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This Extension resource is constrained to support a coded severity of the allergy/intolerance."/>

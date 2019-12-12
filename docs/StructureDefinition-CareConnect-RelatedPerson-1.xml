@@ -14,11 +14,11 @@
   <name value="CareConnect-RelatedPerson-1"/>
   <status value="draft"/>
   <date value="2019-03-01T13:53:50+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process."/>

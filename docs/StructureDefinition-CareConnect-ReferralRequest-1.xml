@@ -33,11 +33,11 @@
   <name value="CareConnect-ReferralRequest-1"/>
   <status value="draft"/>
   <date value="2019-08-07T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization."/>

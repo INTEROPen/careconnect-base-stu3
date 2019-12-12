@@ -17,13 +17,13 @@
   fhir:ValueSet.name [ fhir:value "Care Connect Source of Referral"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2019-07-16T18:43:00+01:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 UK"];
+  fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the source of the referral."];

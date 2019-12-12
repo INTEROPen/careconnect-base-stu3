@@ -23,11 +23,11 @@
   <name value="Extension-CareConnect-CareSettingType-1"/>
   <status value="draft"/>
   <date value="2018-11-05T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="Extension for a Care Setting which provides the originating care setting for the document."/>

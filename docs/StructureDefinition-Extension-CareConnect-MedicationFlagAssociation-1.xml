@@ -16,11 +16,11 @@
   <name value="Extension-CareConnect-MedicationFlagAssociation-1"/>
   <status value="draft"/>
   <date value="2017-07-14T10:08:32+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s)."/>

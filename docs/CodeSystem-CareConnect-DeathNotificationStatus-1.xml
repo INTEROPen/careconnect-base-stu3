@@ -11,11 +11,11 @@
   <name value="Care Connect Death Notification Status"/>
   <status value="draft"/>
   <date value="2018-11-12T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS)."/>

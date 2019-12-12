@@ -26,11 +26,11 @@
   <name value="Care Connect Inspired Oxygen"/>
   <status value="draft"/>
   <date value="2018-10-19T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient requires oxygen or is breathing room air."/>

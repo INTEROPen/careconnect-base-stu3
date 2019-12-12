@@ -26,11 +26,11 @@
   <name value="Extension-CareConnect-RegistrationDetails-1"/>
   <status value="active"/>
   <date value="2017-06-07T16:23:42+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This extension is constrained to represent the additional registration information for a patient."/>

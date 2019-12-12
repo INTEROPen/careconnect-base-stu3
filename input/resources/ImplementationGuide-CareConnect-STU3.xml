@@ -5,12 +5,12 @@
    <name value="CareConnect Implementation Guide"></name>
    <title value="INTEROPen CareConnect Base STU3 Implementation Guide"></title>
    <status value="draft"></status>
-   <publisher value="HL7 UK"></publisher>
+   <publisher value="INTEROpen"></publisher>
    <contact>
       <telecom>
          <!-- Or whatever URL and/or email address(es) are appropriate -->
          <system value="other"></system>
-         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+         <value value="https://interopen.ryver.com/"></value>
       </telecom>
    </contact>
    <description value="Care Connect STU3 Base Implementation Guide"></description>
@@ -21,49 +21,49 @@
          <code value="826"></code>
       </coding>
    </jurisdiction>
-   <packageId value="careconnect.stu3.base"></packageId>
+   <packageId value="careconnect.base.stu3"></packageId>
    <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
    <fhirVersion value="3.0.2"></fhirVersion>
    <definition>
       <grouping id="uk-base">
-         <name value="HL7 UK Base Profiles"></name>
-         <description value="UK Base FHIR Profiles"></description>
+         <name value="CareConnect Base Profiles"></name>
+         <description value="CareConnect Base FHIR Profiles"></description>
       </grouping>
       <grouping id="uk-news2">
-         <name value="HL7 UK Vital Signs"></name>
-         <description value="UK Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)"></description>
+         <name value="CareConnect Vital Signs"></name>
+         <description value="CareConnect Level 3 FHIR Profiles for NEWS2 (National Early Warning Score)"></description>
       </grouping>
       <grouping id="uk-level3">
-         <name value="HL7 UK Level 3 Profiles"></name>
-         <description value="UK Level 3 FHIR Profiles"></description>
+         <name value="CareConnect Level 3 Profiles"></name>
+         <description value="CareConnect Level 3 FHIR Profiles"></description>
       </grouping>
       <grouping id="uk-ext">
-         <name value="HL7 UK Base Extensions"></name>
-         <description value="UK Base FHIR Extensions"></description>
+         <name value="CareConnect Base Extensions"></name>
+         <description value="CareConnect Base FHIR Extensions"></description>
       </grouping>
       <grouping id="uk-vs">
-         <name value="HL7 UK ValueSets"></name>
-         <description value="UK FHIR ValueSets"></description>
+         <name value="CareConnect ValueSets"></name>
+         <description value="CareConnect FHIR ValueSets"></description>
       </grouping>
       <grouping id="uk-cs">
-         <name value="HL7 UK CodeSystems"></name>
-         <description value="UK FHIR CodesSystems"></description>
+         <name value="CareConnect CodeSystems"></name>
+         <description value="CareConnect FHIR CodesSystems"></description>
       </grouping>
       <grouping id="uk-examples">
-         <name value="UK Examples"></name>
+         <name value="CareConnect Examples"></name>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"></description>
       </grouping>
      <!-- <grouping id="uk-capability">
          <name value="Capability Statement"></name>
-         <description value="Minimal recommended Capability Statement for UK RESTful implementations"></description>
+         <description value="Minimal recommended Capability Statement for CareConnect RESTful implementations"></description>
       </grouping> -->
       <grouping id="uk-ns">
          <name value="Naming Systems"></name>
          <description value="Represents a 'System' used within Identifier and Coding data types."></description>
       </grouping>
       <grouping id="uk-cm">
-         <name value="HL7 UK ConceptMap"></name>
-         <description value="UK FHIR ConceptMaps"></description>
+         <name value="CareConnect ConceptMap"></name>
+         <description value="CareConnect FHIR ConceptMaps"></description>
       </grouping>
       <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->

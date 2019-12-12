@@ -11,11 +11,11 @@
   <name value="Care Connect Procedure Code"/>
   <status value="draft"/>
   <date value="2018-11-01T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)."/>

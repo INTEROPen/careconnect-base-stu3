@@ -30,11 +30,11 @@
   <name value="Care Connect Religious Affiliation"/>
   <status value="draft"/>
   <date value="2018-11-02T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK &#39;Religious Affiliation SnCT&#39; subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Religious or other belief system affiliation simple reference set (foundation metadata concept)&#39; with Refset Id 999000531000000100."/>

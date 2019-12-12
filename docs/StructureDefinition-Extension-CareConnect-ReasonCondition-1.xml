@@ -18,11 +18,11 @@
   <name value="Extension-CareConnect-ReasonCondition-1"/>
   <status value="draft"/>
   <date value="2017-07-12T10:48:31+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text."/>

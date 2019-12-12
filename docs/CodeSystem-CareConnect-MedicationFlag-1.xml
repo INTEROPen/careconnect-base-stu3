@@ -11,11 +11,11 @@
   <name value="Care Connect Medication Flag"/>
   <status value="draft"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A CodeSystem to identify detail codes for flagged medication issues."/>

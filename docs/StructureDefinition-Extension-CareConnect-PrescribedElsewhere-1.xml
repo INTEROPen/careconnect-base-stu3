@@ -16,11 +16,11 @@
   <name value="Extension-CareConnect-PrescribedElsewhere-1"/>
   <status value="draft"/>
   <date value="2018-05-10T15:44:33+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as &quot;self-prescribed&quot;."/>

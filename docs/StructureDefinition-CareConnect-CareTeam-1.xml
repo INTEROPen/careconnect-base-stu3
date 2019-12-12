@@ -24,11 +24,11 @@
   <name value="CareConnect-CareTeam-1"/>
   <status value="draft"/>
   <date value="2019-03-04T14:54:10+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient."/>

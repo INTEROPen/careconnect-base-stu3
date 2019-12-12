@@ -14,11 +14,11 @@
   <name value="NHS Data Model and Dictionary Person Marital Status Code"/>
   <status value="active"/>
   <date value="2016-08-03T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="An indicator to identify the legal marital status of a Person."/>

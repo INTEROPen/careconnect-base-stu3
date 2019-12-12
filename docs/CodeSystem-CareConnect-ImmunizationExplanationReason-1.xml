@@ -11,11 +11,11 @@
   <name value="Care Connect Immunization Explanation Reason"/>
   <status value="draft"/>
   <date value="2018-05-03T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A CodeSystem that identifies a code to record the reason why a vaccine was administered."/>

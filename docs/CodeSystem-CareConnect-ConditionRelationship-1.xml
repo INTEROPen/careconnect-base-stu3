@@ -11,11 +11,11 @@
   <name value="Care Connect Condition Relationship"/>
   <status value="draft"/>
   <date value="2019-10-24T19:50:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A CodeSystem that identifies the kind of relationship that exists with a target condition or problem."/>

@@ -60,11 +60,11 @@
   <name value="CareConnect-FamilyMemberHistory-1"/>
   <status value="draft"/>
   <date value="2017-07-12T15:03:45+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="Significant health events and conditions for a person related to the patient relevant in the context of care for the patient."/>

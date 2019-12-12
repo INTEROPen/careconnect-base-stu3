@@ -11,11 +11,11 @@
   <name value="Care Connect Registration Status"/>
   <status value="draft"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A ValueSet that identifies the status of registration for a patient at the healthcare organisation."/>

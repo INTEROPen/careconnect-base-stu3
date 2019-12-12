@@ -32,11 +32,11 @@
   <name value="AllergyIntoleranceSeverity"/>
   <status value="draft"/>
   <date value="2017-04-18T22:44:47+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations."/>

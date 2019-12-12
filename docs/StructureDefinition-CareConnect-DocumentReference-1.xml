@@ -39,11 +39,11 @@
   <name value="CareConnect-DocumentReference-1"/>
   <status value="draft"/>
   <date value="2019-08-07T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="The DocumentReference resource is used to describe a document that is made available to a healthcare system."/>

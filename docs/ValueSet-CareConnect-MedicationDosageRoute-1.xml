@@ -26,11 +26,11 @@
   <name value="Care Connect Medication Dosage Route"/>
   <status value="draft"/>
   <date value="2018-11-01T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK &#39;NHS e-Prescribing route of administration subset&#39; with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is &#39;ePrescribing route of administration simple reference set (foundation metadata concept)&#39; with Refset Id 999000051000001100."/>

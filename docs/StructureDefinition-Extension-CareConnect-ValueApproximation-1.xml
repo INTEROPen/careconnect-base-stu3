@@ -13,11 +13,11 @@
   <name value="Extension-CareConnect-ValueApproximation-1"/>
   <status value="draft"/>
   <date value="2019-03-05T12:45:42+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="An code to indicate that a given value is only an approximation."/>

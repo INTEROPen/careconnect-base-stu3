@@ -26,11 +26,11 @@
   <name value="Care Connect Medication Form"/>
   <status value="draft"/>
   <date value="2018-11-01T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK &#39;NHS dm+d Dose Form&#39; subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is &#39;National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)&#39; with Refset Id 999000781000001107."/>

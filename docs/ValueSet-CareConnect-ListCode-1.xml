@@ -148,11 +148,11 @@
   <name value="Care Connect List Code"/>
   <status value="draft"/>
   <date value="2019-11-22T17:18:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A ValueSet to identify the purpose of a list."/>

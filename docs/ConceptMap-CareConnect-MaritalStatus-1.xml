@@ -3,7 +3,7 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
   <id value="CareConnect-MaritalStatus-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Concept Map - Care Connect Marital Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1)</h2><p>Mapping from <a href="valueset-CareConnect-MaritalStatus-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1</a> to <a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</a></p><p>ACTIVE. Published on 1 Aug 2017, 01:00:00 by HL7 UK (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Concept Map - Care Connect Marital Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1)</h2><p>Mapping from <a href="valueset-CareConnect-MaritalStatus-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1</a> to <a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</a></p><p>ACTIVE. Published on 1 Aug 2017, 01:00:00 by INTEROpen (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.</p>
 </div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>U (unmarried)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>D (Divorced)</td><td>equivalent</td><td>D (Divorced/Person whose Civil Partnership has been dissolved)</td></tr><tr><td>L (Legally Separated)</td><td>equivalent</td><td>P (Separated)</td></tr><tr><td>M (Married)</td><td>equivalent</td><td>M (Married/Civil Partner)</td></tr><tr><td>S (Never Married)</td><td>equivalent</td><td>S (Single)</td></tr><tr><td>W (Widowed)</td><td>equivalent</td><td>W (Widowed/Surviving Civil Partner)</td></tr></table><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>UNK (unknown)</td><td>equivalent</td><td>N (Not disclosed)</td></tr></table></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1"/>
@@ -11,11 +11,11 @@
   <name value="Concept Map - Care Connect Marital Status"/>
   <status value="active"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation."/>

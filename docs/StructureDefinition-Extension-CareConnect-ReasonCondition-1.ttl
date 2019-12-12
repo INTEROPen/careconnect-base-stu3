@@ -20,13 +20,13 @@
   fhir:StructureDefinition.name [ fhir:value "Extension-CareConnect-ReasonCondition-1"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2017-07-12T10:48:31+01:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "HL7 UK"];
+  fhir:StructureDefinition.publisher [ fhir:value "INTEROpen"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text."];

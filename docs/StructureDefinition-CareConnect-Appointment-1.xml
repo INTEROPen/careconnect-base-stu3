@@ -12,11 +12,11 @@
   <name value="CareConnect-Appointment-1"/>
   <status value="draft"/>
   <date value="2018-09-27T15:28:19+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="CareConnect Appointment profile."/>

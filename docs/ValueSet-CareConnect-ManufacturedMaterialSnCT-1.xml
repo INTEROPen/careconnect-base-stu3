@@ -15,11 +15,11 @@
   <name value="Care Connect Manufactured Material SnCT"/>
   <status value="draft"/>
   <date value="2017-08-01T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a manufactured material (e.g. a pharmaceutical product or personal medical device). These will form part of the NHS dm+d. Any code from the SNOMED CT UK &#39;Manufactured Material&#39; subset with subset original id 1391000000139; the corresponding SNOMED CT UK Refset fully specified name is &#39;Manufactured material simple reference set (foundation metadata concept)&#39; with Refset Id 999000031000001105."/>

@@ -25,13 +25,13 @@
   fhir:StructureDefinition.name [ fhir:value "CareConnect-Immunization-1"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2019-11-22T00:00:00+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "HL7 UK"];
+  fhir:StructureDefinition.publisher [ fhir:value "INTEROpen"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "This Immunization Resource describes the event of a patient being administered a vaccination or a record of a vaccination as reported by a patient, a clinician or another party, and may include vaccine reaction information and what vaccination protocol was followed."];

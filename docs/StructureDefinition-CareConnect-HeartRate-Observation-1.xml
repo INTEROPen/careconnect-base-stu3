@@ -91,11 +91,11 @@
   <name value="CareConnect-HeartRate-Observation-1"/>
   <status value="draft"/>
   <date value="2019-06-17T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A Vital Signs profile to carry a patient&#39;s heart rate or pulse."/>

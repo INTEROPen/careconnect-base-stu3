@@ -44,11 +44,11 @@
   <name value="CareConnect-MedicationStatement-1"/>
   <status value="draft"/>
   <date value="2018-11-05T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This MedicationStatement Resource is a record of a medication that is being consumed by a patient."/>

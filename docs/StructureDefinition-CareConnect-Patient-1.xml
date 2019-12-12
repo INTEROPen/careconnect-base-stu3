@@ -79,11 +79,11 @@
   <name value="CareConnect-Patient-1"/>
   <status value="draft"/>
   <date value="2019-05-31T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="The patient resource represents the patient involved in the provision of healthcare related services."/>

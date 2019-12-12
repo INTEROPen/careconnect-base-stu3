@@ -71,11 +71,11 @@
   <name value="Care Connect Reason Immunization Not Administered"/>
   <status value="draft"/>
   <date value="2019-11-22T17:17:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A ValueSet to identify the reason why an immunization was not administered."/>

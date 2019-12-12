@@ -18,11 +18,11 @@
   <name value="Extension-CareConnect-FastingStatus-1"/>
   <status value="draft"/>
   <date value="2017-07-13T10:41:53+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected."/>

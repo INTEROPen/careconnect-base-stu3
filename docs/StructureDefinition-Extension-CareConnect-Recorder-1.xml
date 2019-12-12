@@ -16,11 +16,11 @@
   <name value="Extension-CareConnect-Recorder-1"/>
   <status value="draft"/>
   <date value="2019-06-17T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="This Extension is used to specify who recorded the event."/>

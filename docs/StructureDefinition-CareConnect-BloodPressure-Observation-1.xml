@@ -102,11 +102,11 @@
   <name value="CareConnect-BloodPressure-Observation-1"/>
   <status value="draft"/>
   <date value="2019-06-17T00:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A Vital Signs profile to carry blood pressure information that contains at least one component for systolic and/or diastolic pressure."/>

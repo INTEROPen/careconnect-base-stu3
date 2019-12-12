@@ -11,11 +11,11 @@
   <name value="Care Connect Referral Request Method"/>
   <status value="draft"/>
   <date value="2019-07-16T18:43:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROpen"/>
   <contact>
     <telecom>
       <system value="other"/>
-      <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
+      <value value="https://interopen.ryver.com/"/>
     </telecom>
   </contact>
   <description value="A ValueSet to identify the form in which a referral is sent and received."/>

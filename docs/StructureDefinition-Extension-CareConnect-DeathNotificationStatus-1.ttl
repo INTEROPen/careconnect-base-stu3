@@ -20,13 +20,13 @@
   fhir:StructureDefinition.name [ fhir:value "Extension-CareConnect-DeathNotificationStatus-1"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2018-11-05T00:00:00+00:00"^^xsd:dateTime];
-  fhir:StructureDefinition.publisher [ fhir:value "HL7 UK"];
+  fhir:StructureDefinition.publisher [ fhir:value "INTEROpen"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "other" ];
-       fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS))."];
