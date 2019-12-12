@@ -21,7 +21,7 @@
          <code value="826"></code>
       </coding>
    </jurisdiction>
-   <packageId value="hl7.uk.base"></packageId>
+   <packageId value="careconnect.stu3.base"></packageId>
    <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
    <fhirVersion value="3.0.2"></fhirVersion>
    <definition>

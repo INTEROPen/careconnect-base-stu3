@@ -51,7 +51,7 @@
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
         <div id="hl7-status">
-          <p><span style="font-size:12pt;font-weight:bold">HL7 UK INTEROPen CareConnect</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -137,7 +137,7 @@
 
 
 <div style="counter-reset: section 5" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">HL7 UK INTEROPen CareConnect - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <ul class="nav nav-tabs">
     <li>
       <a href="CareConnect-MedicationDispense-1.html">Content</a>
@@ -285,7 +285,10 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unit</td><td>(see OBX.6 etc.) / CQ.2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system</td><td>(see OBX.6 etc.) / CQ.2</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;code</td><td>(see OBX.6 etc.) / CQ.2</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;daysSupply</td><td>TQ1.6 Timing/Quantity Segment Service Duration.Prior to v2.5, ORC.7.3 Common Order Segment / Quantity/Timing / Duration component.  This is a formatted string, first character for the time unit (e.g., D=days), followed by the value.  For example, “D14” represents “14 days supply”From v2.5 on, TQ1.6 Timing/Quantity Segment / Service Duration.  This is a CQ data type (&lt;Quantity (NM)&gt; ^ &lt;Units (CWE)&gt;), thus for days supply, assuming the unit of measure is “days”, the numeric value is TQ1.6.1 (…|14^For backwards compatibility, ORC.7 was permitted through v2.6.  Both forms (field and segment) may be present in v2.5, v2.5.1, and v2.6</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;daysSupply</td><td>TQ1.6 Timing/Quantity Segment Service Duration.
+Prior to v2.5, ORC.7.3 Common Order Segment / Quantity/Timing / Duration component.  This is a formatted string, first character for the time unit (e.g., D=days), followed by the value.  For example, “D14” represents “14 days supply”
+From v2.5 on, TQ1.6 Timing/Quantity Segment / Service Duration.  This is a CQ data type (&lt;Quantity (NM)&gt; ^ &lt;Units (CWE)&gt;), thus for days supply, assuming the unit of measure is “days”, the numeric value is TQ1.6.1 (…|14^
+For backwards compatibility, ORC.7 was permitted through v2.6.  Both forms (field and segment) may be present in v2.5, v2.5.1, and v2.6</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;whenPrepared</td><td>RXD-3-Date/Time Dispensed</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;whenHandedOver</td><td>RXD-3-Date/Time Dispensed</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;destination</td><td>RXD-13 Dispense-to Location; RXD-30 Dispense to Pharmacy; RXD-31 Dispense to Pharmacy Address</td> </tr>
@@ -337,7 +340,7 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 12, 2019 07:09+0000">2019-12-12</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package hl7.uk.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 12, 2019 07:35+0000">2019-12-12</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
