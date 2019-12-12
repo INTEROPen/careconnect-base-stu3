@@ -6,17 +6,17 @@ This is a UK supplement to [HL7 FHIR Validating Resources](https://www.hl7.org/f
 
 To download the validator: [https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar](https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.validator.jar)
 
-To validate against CareConnect resources you need to use this ImplementationGuide. This guide contains technical corrections to conformance resources held on the [HL7 UK Care Connect INTEROPen - Reference Server](https://fhir.hl7.org.uk/) 
+To validate against CareConnect resources you need to use this ImplementationGuide. This guide contains technical corrections to conformance resources held on the [HL7 UK Care Connect INTEROPen - Reference Server](https://fhir.hl7.org.uk/)
 
-If you wish to use a local copy of this IG's conformance resources they are available on [HL7 UK GitHib](https://github.com/HL7-UK/UK-STU3/tree/master/input/resources). They are also available in a zip package [validator.pack](http://hl7-uk.github.io/UK-STU3/validator.pack) 
+If you wish to use a local copy of this IG's conformance resources they are available on [HL7 UK GitHib](https://github.com/INTEROPen/careconnect-base-stu3/tree/master/input/resources). They are also available in a zip package [validator.pack](https://interopen.github.io/careconnect-base-stu3/validator.pack)
 
-#### Usage 
+#### Usage
 
-To use this IG with the **FHIR Validator**  you need to specify **https://hl7-uk.github.io/UK-STU3** in the **-ig** parameter.
- 
-> java -jar org.hl7.fhir.validator.jar patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3
+To use this IG with the **FHIR Validator**  you need to specify **https://interopen.github.io/careconnect-base-stu3** in the **-ig** parameter.
 
-<!-- This command uses the IG published at [https://hl7-uk.github.io/UK-STU3], alternatively you can use the HL7 UK IG from the [FHIR Package Cache](https://wiki.hl7.org/FHIR_Package_Cache), the package id for the HL7 UK IG is **hl7.uk.base** 
+> java -jar org.hl7.fhir.validator.jar patient.xml -version 3.0 -ig https://interopen.github.io/careconnect-base-stu3/
+
+<!-- This command uses the IG published at [https://interopen.github.io/careconnect-base-stu3], alternatively you can use the HL7 UK IG from the [FHIR Package Cache](https://wiki.hl7.org/FHIR_Package_Cache), the package id for the HL7 UK IG is **hl7.uk.base** 
 
 > java -jar org.hl7.fhir.validator.jar GPCpatient.json -version 3.0 -ig hl7.uk.base
 
@@ -31,7 +31,7 @@ By default, the terminology server used by the **FHIR Validator** is tx.fhir.org
 
 The **FHIR Validator** does not currently work 100% with the [Beta Version - NHS Digital Ontology Server](https://ontoserver.dataproducts.nhs.uk/fhir/). Example   
 
-> java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3 -tx https://ontoserver.dataproducts.nhs.uk/fhir/
+> java -jar org.hl7.fhir.validator.jar c:\temp\patient.xml -version 3.0 -ig https://interopen.github.io/careconnect-base-stu3/ -tx https://ontoserver.dataproducts.nhs.uk/fhir/
 
 
 ### Asking a FHIR Server
