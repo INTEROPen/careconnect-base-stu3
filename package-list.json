@@ -1,23 +1,26 @@
 {
- "package-id" : "careconnect.stu3.base",
- "title" : "Care Connect STU3",
- "canonical" : "https://fhir.hl7.org.uk/STU3",
- "introduction" : "Care Connect STU3",
- "list" : [{
-  "version" : "3.0.0",
-  "fhirversion" : "3.0.2",
-  "desc" : "Continuous Integration Build (latest in version control)",
-  "path" : "https://fhir.hl7.org.uk/STU3",
-  "status" : "ci-build",
-  "current" : true
- },{
-  "version" : "3.0.0",
-  "fhirversion" : "3.0.2",
-  "date" : "2019-12-05",
-  "desc" : "Initial Draft (Dec 2019)",
-  "path" : "https://fhir.hl7.org.uk/STU3",
-  "status" : "draft",
-  "current" : true,
-  "sequence" : "STU3"
- }]
+    "package-id": "careconnect.stu3.base",
+    "title": "Care Connect STU3",
+    "canonical": "https://fhir.hl7.org.uk/STU3",
+    "introduction": "Care Connect STU3",
+    "list": [
+        {
+            "version": "3.0.0",
+            "fhirversion": "3.0.2",
+            "desc": "Continuous Integration Build (latest in version control)",
+            "path": "https://fhir.hl7.org.uk/STU3",
+            "status": "ci-build",
+            "current": true
+        },
+        {
+            "version": "3.0.0",
+            "fhirversion": "3.0.2",
+            "date": "2019-12-05",
+            "desc": "Initial Draft (Dec 2019)",
+            "path": "https://fhir.hl7.org.uk/STU3",
+            "status": "draft",
+            "current": true,
+            "sequence": "STU3"
+        }
+    ]
 }

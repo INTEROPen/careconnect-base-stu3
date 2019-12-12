@@ -16,13 +16,14 @@ To use this IG with the **FHIR Validator**  you need to specify **https://hl7-uk
  
 > java -jar org.hl7.fhir.validator.jar patient.xml -version 3.0 -ig https://hl7-uk.github.io/UK-STU3
 
-This command uses the IG published at [https://hl7-uk.github.io/UK-STU3], alternatively you can use the HL7 UK IG from the [FHIR Package Cache](https://wiki.hl7.org/FHIR_Package_Cache), the package id for the HL7 UK IG is **hl7.uk.base** 
+<!-- This command uses the IG published at [https://hl7-uk.github.io/UK-STU3], alternatively you can use the HL7 UK IG from the [FHIR Package Cache](https://wiki.hl7.org/FHIR_Package_Cache), the package id for the HL7 UK IG is **hl7.uk.base** 
 
 > java -jar org.hl7.fhir.validator.jar GPCpatient.json -version 3.0 -ig hl7.uk.base
 
 The package cache supports multiple versions. Currently the only supported version is **dev**
 
 > java -jar org.hl7.fhir.validator.jar GPCpatient.json -version 3.0 -ig hl7.uk.base#dev
+-->
 
 #### Terminology Support
 
