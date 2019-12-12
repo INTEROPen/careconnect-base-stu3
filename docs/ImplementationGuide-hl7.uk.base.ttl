@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "hl7.uk.base"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect FHIR Conformance Resources.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect Base FHIR Conformance Resources.</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"];
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
-  fhir:ImplementationGuide.name [ fhir:value "HL7 UK Implementation Guide"];
+  fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-11T17:25:40+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-12T07:09:28+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 UK"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "https://chat.fhir.org/#narrow/stream/179189-uk" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "HL7 UK Care Connect FHIR Conformance Resources."];
+  fhir:ImplementationGuide.description [ fhir:value "HL7 UK Care Connect Base FHIR Conformance Resources."];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -1892,24 +1892,6 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ClinicalDisciplines-1.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ClinicalDisciplines-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "A ValueSet to identify the clincial discipline of the care professional or team." ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ClinicalDisciplines-1>;
-         fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ClinicalDisciplines-1" ]
-       ]
-     ], [
-       fhir:index 10;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
          fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-CompositionSectionCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
@@ -1920,7 +1902,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-CompositionSectionCode-1" ]
        ]
      ], [
-       fhir:index 11;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1938,7 +1920,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ConditionCategory-1" ]
        ]
      ], [
-       fhir:index 12;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1956,7 +1938,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ConditionCode-1" ]
        ]
      ], [
-       fhir:index 13;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1974,7 +1956,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ConditionEpisodeSnCT-1" ]
        ]
      ], [
-       fhir:index 14;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1992,7 +1974,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ConditionEpisodicity-1" ]
        ]
      ], [
-       fhir:index 15;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2010,7 +1992,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ConditionRelationship-1" ]
        ]
      ], [
-       fhir:index 16;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2028,7 +2010,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-DischargeDestination-1" ]
        ]
      ], [
-       fhir:index 17;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2046,7 +2028,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-DocumentType-1" ]
        ]
      ], [
-       fhir:index 18;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2064,7 +2046,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-EncounterType-1" ]
        ]
      ], [
-       fhir:index 19;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2082,7 +2064,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-FindingCode-1" ]
        ]
      ], [
-       fhir:index 20;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2100,7 +2082,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-HumanLanguage-1" ]
        ]
      ], [
-       fhir:index 21;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2118,7 +2100,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ImmunizationExplanationReason-1" ]
        ]
      ], [
-       fhir:index 22;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2136,7 +2118,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ImmunizationExplanationReason-2" ]
        ]
      ], [
-       fhir:index 23;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2154,7 +2136,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-InspiredOxygen-1" ]
        ]
      ], [
-       fhir:index 24;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2172,7 +2154,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-LanguageAbilityMode-1" ]
        ]
      ], [
-       fhir:index 25;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2190,7 +2172,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-LanguageAbilityProficiency-1" ]
        ]
      ], [
-       fhir:index 26;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2208,7 +2190,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ListCode-1" ]
        ]
      ], [
-       fhir:index 27;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2226,7 +2208,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ListEmptyReasonCode-1" ]
        ]
      ], [
-       fhir:index 28;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2244,7 +2226,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ManufacturedMaterialSnCT-1" ]
        ]
      ], [
-       fhir:index 29;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2262,7 +2244,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MaritalStatus-1" ]
        ]
      ], [
-       fhir:index 30;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2280,7 +2262,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationChangeStatus-1" ]
        ]
      ], [
-       fhir:index 31;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2298,7 +2280,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationCode-1" ]
        ]
      ], [
-       fhir:index 32;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2316,7 +2298,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationDosageRoute-1" ]
        ]
      ], [
-       fhir:index 33;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2334,7 +2316,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationFlag-1" ]
        ]
      ], [
-       fhir:index 34;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2352,7 +2334,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationForm-1" ]
        ]
      ], [
-       fhir:index 35;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2370,7 +2352,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-MedicationSupplyType-1" ]
        ]
      ], [
-       fhir:index 36;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2388,7 +2370,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1" ]
        ]
      ], [
-       fhir:index 37;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2406,7 +2388,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-NHSDataDictionary-PersonStatedGender-1" ]
        ]
      ], [
-       fhir:index 38;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2424,7 +2406,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-NameUse-1" ]
        ]
      ], [
-       fhir:index 39;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2442,7 +2424,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ObservationMethod-1" ]
        ]
      ], [
-       fhir:index 40;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2460,7 +2442,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ObservationType-1" ]
        ]
      ], [
-       fhir:index 41;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2478,7 +2460,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-PDS-PersonNameType-1" ]
        ]
      ], [
-       fhir:index 42;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2496,7 +2478,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ProblemSignificance-1" ]
        ]
      ], [
-       fhir:index 43;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2514,7 +2496,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ProcedureCode-1" ]
        ]
      ], [
-       fhir:index 44;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2532,7 +2514,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ReactionEventSeverity-1" ]
        ]
      ], [
-       fhir:index 45;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2550,7 +2532,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ReasonImmunizationNotAdministered-1" ]
        ]
      ], [
-       fhir:index 46;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2568,7 +2550,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ReferralRequestMethod-1" ]
        ]
      ], [
-       fhir:index 47;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2586,7 +2568,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-RegistrationStatus-1" ]
        ]
      ], [
-       fhir:index 48;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2604,7 +2586,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-RegistrationType-1" ]
        ]
      ], [
-       fhir:index 49;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2622,7 +2604,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ReportCodeSnCT-1" ]
        ]
      ], [
-       fhir:index 50;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2640,7 +2622,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-SDSJobRoleName-1" ]
        ]
      ], [
-       fhir:index 51;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2658,7 +2640,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-SourceOfAdmission-1" ]
        ]
      ], [
-       fhir:index 52;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2676,7 +2658,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-SpecimenBodySite-1" ]
        ]
      ], [
-       fhir:index 53;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2694,7 +2676,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-SpecimenType-1" ]
        ]
      ], [
-       fhir:index 54;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2712,7 +2694,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-VaccineCode-1" ]
        ]
      ], [
-       fhir:index 55;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2730,7 +2712,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-AdmissionMethod-1" ]
        ]
      ], [
-       fhir:index 56;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2748,7 +2730,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-AllergySeverity-1" ]
        ]
      ], [
-       fhir:index 57;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2766,7 +2748,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-DeathNotificationStatus-1" ]
        ]
      ], [
-       fhir:index 58;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2784,7 +2766,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-DischargeMethod-1" ]
        ]
      ], [
-       fhir:index 59;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2802,7 +2784,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-EmergencyCareDischargeStatus-1" ]
        ]
      ], [
-       fhir:index 60;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2820,7 +2802,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-EthnicCategory-1" ]
        ]
      ], [
-       fhir:index 61;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2838,7 +2820,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ListWarningCode-1" ]
        ]
      ], [
-       fhir:index 62;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2856,7 +2838,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-NHSNumberVerificationStatus-1" ]
        ]
      ], [
-       fhir:index 63;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2874,7 +2856,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-OutcomeOfAttendance-1" ]
        ]
      ], [
-       fhir:index 64;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2892,7 +2874,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-PrescribedElsewhere-1" ]
        ]
      ], [
-       fhir:index 65;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2910,7 +2892,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-PrescriptionType-1" ]
        ]
      ], [
-       fhir:index 66;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2928,7 +2910,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ReligiousAffiliation-1" ]
        ]
      ], [
-       fhir:index 67;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2946,7 +2928,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-ResidentialStatus-1" ]
        ]
      ], [
-       fhir:index 68;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2964,7 +2946,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-SourceOfReferral-1" ]
        ]
      ], [
-       fhir:index 69;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2982,7 +2964,7 @@
          fhir:Reference.reference [ fhir:value "ValueSet/CareConnect-TreatmentCategory-1" ]
        ]
      ], [
-       fhir:index 70;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="hl7.uk.base"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect FHIR Conformance Resources.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect Base FHIR Conformance Resources.</p>
 </div></div>
   </text>
   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base"/>
   <version value="3.0.0"/>
-  <name value="HL7 UK Implementation Guide"/>
+  <name value="CareConnect Implementation Guide"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2019-12-11T17:25:40+00:00"/>
+  <date value="2019-12-12T07:09:28+00:00"/>
   <publisher value="HL7 UK"/>
   <contact>
     <telecom>
@@ -19,7 +19,7 @@
       <value value="https://chat.fhir.org/#narrow/stream/179189-uk"/>
     </telecom>
   </contact>
-  <description value="HL7 UK Care Connect FHIR Conformance Resources."/>
+  <description value="HL7 UK Care Connect Base FHIR Conformance Resources."/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1457,20 +1457,6 @@
       <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK &#39;Correspondence Care setting type&#39; subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Correspondence care setting type simple reference set (foundation metadata concept)&#39; with Refset Id 999000381000000107"/>
       <sourceReference>
         <reference value="ValueSet/CareConnect-CareSettingType-1"/>
-      </sourceReference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ClinicalDisciplines-1.html"/>
-      </extension>
-      <example value="false"/>
-      <name value="ClinicalDisciplines-1"/>
-      <description value="A ValueSet to identify the clincial discipline of the care professional or team."/>
-      <sourceReference>
-        <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"/>
       </sourceReference>
     </resource>
     <resource>

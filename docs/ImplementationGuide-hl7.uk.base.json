@@ -3,14 +3,14 @@
   "id": "hl7.uk.base",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HL7 UK Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect FHIR Conformance Resources.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base</pre><div><p>HL7 UK Care Connect Base FHIR Conformance Resources.</p>\n</div></div>"
   },
   "url": "https://fhir.hl7.org.uk/STU3/ImplementationGuide/hl7.uk.base",
   "version": "3.0.0",
-  "name": "HL7 UK Implementation Guide",
+  "name": "CareConnect Implementation Guide",
   "status": "draft",
   "experimental": true,
-  "date": "2019-12-11T17:25:40+00:00",
+  "date": "2019-12-12T07:09:28+00:00",
   "publisher": "HL7 UK",
   "contact": [
     {
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "HL7 UK Care Connect FHIR Conformance Resources.",
+  "description": "HL7 UK Care Connect Base FHIR Conformance Resources.",
   "jurisdiction": [
     {
       "coding": [
@@ -1883,24 +1883,6 @@
           "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107",
           "sourceReference": {
             "reference": "ValueSet/CareConnect-CareSettingType-1"
-          }
-        },
-        {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-              "valueString": "ValueSet"
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-              "valueUri": "valueset-CareConnect-ClinicalDisciplines-1.html"
-            }
-          ],
-          "example": false,
-          "name": "ClinicalDisciplines-1",
-          "description": "A ValueSet to identify the clincial discipline of the care professional or team.",
-          "sourceReference": {
-            "reference": "ValueSet/CareConnect-ClinicalDisciplines-1"
           }
         },
         {

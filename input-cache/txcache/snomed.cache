@@ -4716,3 +4716,20 @@ v: {
   "error" : "The filter \"constraint = <<185316007 OR <<308467007 OR <<185201007\" was not understood in the context of http://snomed.info/sct"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "constraint",
+        "op" : "=",
+        "value" : "(<105590001 |Substance (substance)| OR <49755003 |Morphologically abnormal structure (morphologic abnormality)| OR <260787004 |Physical object (physical object)|)"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: The filter \"constraint = (<105590001 |Substance (substance)| OR <49755003 |Morphologically abnormal structure (morphologic abnormality)| OR <260787004 |Physical object (physical object)|)\" was not understood in the context of http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
