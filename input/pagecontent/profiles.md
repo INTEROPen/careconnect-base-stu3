@@ -1,4 +1,4 @@
-### Care Connect API
+### Care Connect
 
 See also the guide [INTEROPen - Care Connect API](https://nhsconnect.github.io/CareConnectAPI/)
 and the examples 'sandbox' [Care Connect Reference Implementation](https://data.developer.nhs.uk/ccri)
@@ -8,6 +8,7 @@ and the examples 'sandbox' [Care Connect Reference Implementation](https://data.
 | [Patient](CareConnect-Patient-1.html)          | [Location](CareConnect-Location-1.html)      | [Encounter](CareConnect-Encounter-1.html)   |
 | [Practitioner](CareConnect-Practitioner-1.html)     | [Organisation](CareConnect-Organization-1.html)  | [Flag](CareConnect-Flag-1.html)        |
 | [PractitionerRole](CareConnect-PractitionerRole-1.html) |               |             |
+{: .grid }
 
 | Summary            | Diagnostics      | Medications         |
 |--------------------|------------------|---------------------|
@@ -15,6 +16,7 @@ and the examples 'sandbox' [Care Connect Reference Implementation](https://data.
 | [Condition](CareConnect-Condition-1.html)          | [Observation](CareConnect-Observation-1.html)      | [MedicationRequest](CareConnect-MedicationRequest-1.html)   |
 | [Procedure](CareConnect-Procedure-1.html)          |                  | [MedicationStatement](CareConnect-MedicationStatement-1.html) |
 |                    |                  | [Immunisation](CareConnect-Immunization-1.html)        |
+{: .grid }
 
 ### Vital Signs 
 
@@ -30,6 +32,7 @@ See also [INTEROPen - National Early Warning Score (NEWS)2](https://nhsconnect.g
 | [Respiratory Rate](CareConnect-RespiratoryRate-Observation-1.html)            |
 | [Sub Score](CareConnect-Subscore-Observation-1.html)                   |
 | [Vital Signs](CareConnect-VitalSigns-Observation-1.html)                 |
+{: .grid }
 
 ### All Care Connect Profiles
 
