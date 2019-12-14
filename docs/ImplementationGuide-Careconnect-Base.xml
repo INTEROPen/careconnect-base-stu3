@@ -10,7 +10,7 @@
   <version value="3.0.0"/>
   <name value="CareConnect Implementation Guide"/>
   <status value="draft"/>
-  <date value="2019-12-13T15:26:38+00:00"/>
+  <date value="2019-12-14T09:10:56+00:00"/>
   <publisher value="INTEROpen"/>
   <contact>
     <telecom>
@@ -34,7 +34,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-AllergyIntolerance-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-AllergyIntolerance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyIntolerance-1"/>
@@ -48,7 +48,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Appointment-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Appointment-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Appointment-1"/>
@@ -62,7 +62,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-CarePlan-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-CarePlan-1.html"/>
       </extension>
       <example value="false"/>
       <name value="CarePlan-1"/>
@@ -76,7 +76,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-CareTeam-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-CareTeam-1.html"/>
       </extension>
       <example value="false"/>
       <name value="CareTeam-1"/>
@@ -90,7 +90,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Composition-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Composition-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Composition-1"/>
@@ -104,7 +104,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Condition-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Condition-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Condition-1"/>
@@ -118,7 +118,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-DiagnosticReport-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-DiagnosticReport-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DiagnosticReport-1"/>
@@ -132,7 +132,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-DocumentReference-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-DocumentReference-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DocumentReference-1"/>
@@ -146,7 +146,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Encounter-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Encounter-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Encounter-1"/>
@@ -160,7 +160,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-EpisodeOfCare-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-EpisodeOfCare-1.html"/>
       </extension>
       <example value="false"/>
       <name value="EpisodeOfCare-1"/>
@@ -174,7 +174,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-FamilyMemberHistory-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-FamilyMemberHistory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="FamilyMemberHistory-1"/>
@@ -188,7 +188,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Flag-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Flag-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Flag-1"/>
@@ -202,7 +202,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-HealthcareService-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-HealthcareService-1.html"/>
       </extension>
       <example value="false"/>
       <name value="HealthcareService-1"/>
@@ -216,7 +216,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Immunization-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Immunization-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Immunization-1"/>
@@ -230,7 +230,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-List-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-List-1.html"/>
       </extension>
       <example value="false"/>
       <name value="List-1"/>
@@ -244,7 +244,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Location-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Location-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Location-1"/>
@@ -258,7 +258,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Medication-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Medication-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Medication-1"/>
@@ -272,7 +272,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationDispense-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-MedicationDispense-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationDispense-1"/>
@@ -286,7 +286,21 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationRequest-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-MedicationAdministration-1.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="MedicationAdministration-1"/>
+      <description value="Describes the event of a patient consuming or otherwise being administered a medication."/>
+      <sourceReference>
+        <reference value="StructureDefinition/CareConnect-MedicationAdministration-1"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="StructureDefinition-CareConnect-MedicationRequest-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationRequest-1"/>
@@ -300,7 +314,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationStatement-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-MedicationStatement-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationStatement-1"/>
@@ -314,7 +328,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Observation-1"/>
@@ -328,7 +342,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Organization-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Organization-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Organization-1"/>
@@ -342,7 +356,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Patient-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Patient-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Patient-1"/>
@@ -356,7 +370,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Practitioner-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Practitioner-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Practitioner-1"/>
@@ -370,7 +384,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-PractitionerRole-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-PractitionerRole-1.html"/>
       </extension>
       <example value="false"/>
       <name value="PractitionerRole-1"/>
@@ -384,7 +398,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Procedure-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Procedure-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Procedure-1"/>
@@ -398,7 +412,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ProcedureRequest-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-ProcedureRequest-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ProcedureRequest-1"/>
@@ -412,7 +426,7 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Quantity-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Quantity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Quantity-1"/>
@@ -426,7 +440,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ReferralRequest-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-ReferralRequest-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReferralRequest-1"/>
@@ -440,7 +454,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-RelatedPerson-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-RelatedPerson-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RelatedPerson-1"/>
@@ -454,7 +468,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ResearchStudy-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-ResearchStudy-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ResearchStudy-1"/>
@@ -468,7 +482,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-RiskAssessment-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-RiskAssessment-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RiskAssessment-1"/>
@@ -482,7 +496,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Schedule-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Schedule-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Schedule-1"/>
@@ -496,7 +510,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Slot-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Slot-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Slot-1"/>
@@ -510,7 +524,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Specimen-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Specimen-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Specimen-1"/>
@@ -528,7 +542,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ACVPU-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-ACVPU-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ACVPU-Observation-1"/>
@@ -542,7 +556,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-BloodPressure-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-BloodPressure-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="BloodPressure-Observation-1"/>
@@ -556,7 +570,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-HeartRate-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-HeartRate-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="HeartRate-Observation-1"/>
@@ -570,7 +584,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-InspiredOxygen-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-InspiredOxygen-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="InspiredOxygen-Observation-1"/>
@@ -584,7 +598,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-OxygenSaturation-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-OxygenSaturation-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="OxygenSaturation-Observation-1"/>
@@ -598,7 +612,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-RespiratoryRate-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-RespiratoryRate-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RespiratoryRate-Observation-1"/>
@@ -612,7 +626,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SaturatedOxygenSp02Scale-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SaturatedOxygenSp02Scale-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SaturatedOxygenSp02Scale-1"/>
@@ -626,7 +640,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Subscore-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Subscore-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Subscore-Observation-1"/>
@@ -640,7 +654,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-VitalSigns-Observation-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-VitalSigns-Observation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="VitalSigns-Observation-1"/>
@@ -658,7 +672,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-Medication-Flag-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-Medication-Flag-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Medication-Flag-1"/>
@@ -672,7 +686,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ProblemHeader-Condition-1.html"/>
+        <valueUri value="StructureDefinition-CareConnect-ProblemHeader-Condition-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ProblemHeader-Condition-1"/>
@@ -690,7 +704,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ActualProblem-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ActualProblem-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ActualProblem-1"/>
@@ -704,7 +718,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-AdmissionMethod-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-AdmissionMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AdmissionMethod-1"/>
@@ -717,7 +731,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-AllergyIntoleranceEnd-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyIntoleranceEnd-1"/>
@@ -731,7 +745,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-AllergySeverity-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-AllergySeverity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergySeverity-1"/>
@@ -745,7 +759,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-AnaestheticIssues-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-AnaestheticIssues-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AnaestheticIssues-1"/>
@@ -759,7 +773,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-CareSettingType-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-CareSettingType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ext-CareSettingType-1"/>
@@ -773,7 +787,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ClinicalSetting-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ClinicalSetting-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ClinicalSetting-1"/>
@@ -787,7 +801,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-coding-sctdescid.html"/>
+        <valueUri value="StructureDefinition-Extension-coding-sctdescid.html"/>
       </extension>
       <example value="false"/>
       <name value="coding-sctdescid"/>
@@ -801,7 +815,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ConditionEpisode-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ConditionEpisode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionEpisode-1"/>
@@ -815,7 +829,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-DateRecorded-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-DateRecorded-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DateRecorded-1"/>
@@ -829,7 +843,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-DeathNotificationStatus-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-DeathNotificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DeathNotificationStatus-1"/>
@@ -843,7 +857,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-DischargeMethod-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-DischargeMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DischargeMethod-1"/>
@@ -857,7 +871,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-EmergencyCareDischargeStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="EmergencyCareDischargeStatus-1"/>
@@ -871,7 +885,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-EncounterTransport-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-EncounterTransport-1.html"/>
       </extension>
       <example value="false"/>
       <name value="EncounterTransport-1"/>
@@ -885,7 +899,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-EthnicCategory-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-EthnicCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="EthnicCategory-1"/>
@@ -899,7 +913,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-Evidence-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-Evidence-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Evidence-1"/>
@@ -913,7 +927,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-FastingStatus-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-FastingStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="FastingStatus-1"/>
@@ -927,7 +941,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ListWarningCode-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ListWarningCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ListWarningCode-1"/>
@@ -941,7 +955,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MainLocation-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MainLocation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MainLocation-1"/>
@@ -955,7 +969,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationChangeSummary-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationChangeSummary-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationChangeSummary-1"/>
@@ -969,7 +983,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationFlagAssociation-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationFlagAssociation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationFlagAssociation-1"/>
@@ -983,7 +997,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationQuantityText-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationQuantityText-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationQuantityText-1"/>
@@ -997,7 +1011,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationRepeatInformation-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationRepeatInformation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationRepeatInformation-1"/>
@@ -1011,7 +1025,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationStatementLastIssueDate-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationStatementLastIssueDate-1"/>
@@ -1025,7 +1039,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-MedicationStatusReason-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-MedicationStatusReason-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationStatusReason-1"/>
@@ -1039,7 +1053,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-NHSCommunication-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-NHSCommunication-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NHSCommunication-1"/>
@@ -1053,7 +1067,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-NHSNumberVerificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NHSNumberVerificationStatus-1"/>
@@ -1067,7 +1081,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-NominatedPharmacy-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-NominatedPharmacy-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NominatedPharmacy-1"/>
@@ -1081,7 +1095,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-OutcomeOfAttendance-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-OutcomeOfAttendance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="OutcomeOfAttendance-1"/>
@@ -1095,7 +1109,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ParentPresent-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ParentPresent-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ParentPresent-1"/>
@@ -1109,7 +1123,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-PrescribedElsewhere-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-PrescribedElsewhere-1.html"/>
       </extension>
       <example value="false"/>
       <name value="PrescribedElsewhere-1"/>
@@ -1123,7 +1137,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-PrescriptionType-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-PrescriptionType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="PrescriptionType-1"/>
@@ -1137,7 +1151,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ProbabilityOfRecurrence-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ProbabilityOfRecurrence-1"/>
@@ -1151,7 +1165,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ProblemSignificance-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ProblemSignificance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ext-ProblemSignificance-1"/>
@@ -1165,7 +1179,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ReasonCondition-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ReasonCondition-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReasonCondition-1"/>
@@ -1179,7 +1193,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-Recorder-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-Recorder-1.html"/>
       </extension>
       <example value="false"/>
       <name value="Recorder-1"/>
@@ -1193,7 +1207,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-RegistrationDetails-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-RegistrationDetails-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RegistrationDetails-1"/>
@@ -1207,7 +1221,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-RelatedClinicalContent-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-RelatedClinicalContent-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RelatedClinicalContent-1"/>
@@ -1221,7 +1235,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-RelatedProblemHeader-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-RelatedProblemHeader-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RelatedProblemHeader-1"/>
@@ -1235,7 +1249,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ReligiousAffiliation-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ReligiousAffiliation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReligiousAffiliation-1"/>
@@ -1249,7 +1263,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ReferralRequestMethod-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ReferralRequestMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ext-ReferralRequestMethod-1"/>
@@ -1263,7 +1277,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ResidentialStatus-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ResidentialStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ResidentialStatus-1"/>
@@ -1277,7 +1291,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-SourceOfReferral-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-SourceOfReferral-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SourceOfReferral-1"/>
@@ -1291,7 +1305,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-TreatmentCategory-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-TreatmentCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="TreatmentCategory-1"/>
@@ -1305,7 +1319,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-VaccinationProcedure-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-VaccinationProcedure-1.html"/>
       </extension>
       <example value="false"/>
       <name value="VaccinationProcedure-1"/>
@@ -1319,7 +1333,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="extension-Extension-CareConnect-ValueApproximation-1.html"/>
+        <valueUri value="StructureDefinition-Extension-CareConnect-ValueApproximation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ValueApproximation-1"/>
@@ -1337,7 +1351,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ACVPU-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ACVPU-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ACVPU-1"/>
@@ -1351,7 +1365,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AdministrativeGender-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AdministrativeGender-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AdministrativeGender-1"/>
@@ -1365,7 +1379,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergyCertainty-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergyCertainty-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyCertainty-1"/>
@@ -1379,7 +1393,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergyCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergyCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyCode-1"/>
@@ -1393,7 +1407,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergyExposureRoute-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergyExposureRoute-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyExposureRoute-1"/>
@@ -1407,7 +1421,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergyManifestation-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergyManifestation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyManifestation-1"/>
@@ -1421,7 +1435,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergyVerificationStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergyVerificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="AllergyVerificationStatus-1"/>
@@ -1435,7 +1449,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-BodySite-1.html"/>
+        <valueUri value="ValueSet-CareConnect-BodySite-1.html"/>
       </extension>
       <example value="false"/>
       <name value="BodySite-1"/>
@@ -1449,7 +1463,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-CareSettingType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-CareSettingType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="CareSettingType-1"/>
@@ -1463,7 +1477,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-CompositionSectionCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-CompositionSectionCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="CompositionSectionCode-1"/>
@@ -1477,7 +1491,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ConditionCategory-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ConditionCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionCategory-1"/>
@@ -1491,7 +1505,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ConditionCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ConditionCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionCode-1"/>
@@ -1505,7 +1519,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ConditionEpisodeSnCT-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ConditionEpisodeSnCT-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionEpisodeSnCT-1"/>
@@ -1519,7 +1533,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ConditionEpisodicity-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ConditionEpisodicity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionEpisodicity-1"/>
@@ -1533,7 +1547,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ConditionRelationship-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ConditionRelationship-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionRelationship-1"/>
@@ -1547,7 +1561,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-DischargeDestination-1.html"/>
+        <valueUri value="ValueSet-CareConnect-DischargeDestination-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DischargeDestination-1"/>
@@ -1561,7 +1575,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-DocumentType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-DocumentType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="DocumentType-1"/>
@@ -1575,7 +1589,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-EncounterType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-EncounterType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="EncounterType-1"/>
@@ -1589,7 +1603,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-FindingCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-FindingCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="FindingCode-1"/>
@@ -1603,7 +1617,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-HumanLanguage-1.html"/>
+        <valueUri value="ValueSet-CareConnect-HumanLanguage-1.html"/>
       </extension>
       <example value="false"/>
       <name value="HumanLanguage-1"/>
@@ -1617,7 +1631,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ImmunizationExplanationReason-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ImmunizationExplanationReason-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ImmunizationExplanationReason-1"/>
@@ -1631,7 +1645,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ImmunizationExplanationReason-2.html"/>
+        <valueUri value="ValueSet-CareConnect-ImmunizationExplanationReason-2.html"/>
       </extension>
       <example value="false"/>
       <name value="ImmunizationExplanationReason-2"/>
@@ -1645,7 +1659,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-InspiredOxygen-1.html"/>
+        <valueUri value="ValueSet-CareConnect-InspiredOxygen-1.html"/>
       </extension>
       <example value="false"/>
       <name value="InspiredOxygen-1"/>
@@ -1659,7 +1673,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-LanguageAbilityMode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-LanguageAbilityMode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="LanguageAbilityMode-1"/>
@@ -1673,7 +1687,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-LanguageAbilityProficiency-1.html"/>
+        <valueUri value="ValueSet-CareConnect-LanguageAbilityProficiency-1.html"/>
       </extension>
       <example value="false"/>
       <name value="LanguageAbilityProficiency-1"/>
@@ -1687,7 +1701,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ListCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ListCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ListCode-1"/>
@@ -1701,7 +1715,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ListEmptyReasonCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ListEmptyReasonCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ListEmptyReasonCode-1"/>
@@ -1715,7 +1729,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ManufacturedMaterialSnCT-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ManufacturedMaterialSnCT-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ManufacturedMaterialSnCT-1"/>
@@ -1729,7 +1743,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MaritalStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MaritalStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MaritalStatus-1"/>
@@ -1743,7 +1757,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationChangeStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationChangeStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationChangeStatus-1"/>
@@ -1757,7 +1771,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationCode-1"/>
@@ -1771,7 +1785,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationDosageRoute-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationDosageRoute-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationDosageRoute-1"/>
@@ -1785,7 +1799,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationFlag-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationFlag-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationFlag-1"/>
@@ -1799,7 +1813,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationForm-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationForm-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationForm-1"/>
@@ -1813,7 +1827,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-MedicationSupplyType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-MedicationSupplyType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="MedicationSupplyType-1"/>
@@ -1827,7 +1841,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NHSDataDictionary-PersonMaritalStatus-1"/>
@@ -1841,7 +1855,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
+        <valueUri value="ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NHSDataDictionary-PersonStatedGender-1"/>
@@ -1855,7 +1869,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-NameUse-1.html"/>
+        <valueUri value="ValueSet-CareConnect-NameUse-1.html"/>
       </extension>
       <example value="false"/>
       <name value="NameUse-1"/>
@@ -1869,7 +1883,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ObservationMethod-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ObservationMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ObservationMethod-1"/>
@@ -1883,7 +1897,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ObservationType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ObservationType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ObservationType-1"/>
@@ -1897,7 +1911,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-PDS-PersonNameType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-PDS-PersonNameType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="PDS-PersonNameType-1"/>
@@ -1911,7 +1925,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ProblemSignificance-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ProblemSignificance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ProblemSignificance-1"/>
@@ -1925,7 +1939,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ProcedureCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ProcedureCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ProcedureCode-1"/>
@@ -1939,7 +1953,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ReactionEventSeverity-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ReactionEventSeverity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReactionEventSeverity-1"/>
@@ -1953,7 +1967,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ReasonImmunizationNotAdministered-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ReasonImmunizationNotAdministered-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReasonImmunizationNotAdministered-1"/>
@@ -1967,7 +1981,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ReferralRequestMethod-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ReferralRequestMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReferralRequestMethod-1"/>
@@ -1981,7 +1995,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-RegistrationStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-RegistrationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RegistrationStatus-1"/>
@@ -1995,7 +2009,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-RegistrationType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-RegistrationType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="RegistrationType-1"/>
@@ -2009,7 +2023,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ReportCodeSnCT-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ReportCodeSnCT-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ReportCodeSnCT-1"/>
@@ -2023,7 +2037,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SDSJobRoleName-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SDSJobRoleName-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SDSJobRoleName-1"/>
@@ -2037,7 +2051,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SourceOfAdmission-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SourceOfAdmission-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SourceOfAdmission-1"/>
@@ -2051,7 +2065,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SpecimenBodySite-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SpecimenBodySite-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SpecimenBodySite-1"/>
@@ -2065,7 +2079,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SpecimenType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SpecimenType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="SpecimenType-1"/>
@@ -2079,7 +2093,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-VaccineCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-VaccineCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="VaccineCode-1"/>
@@ -2093,7 +2107,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AdmissionMethod-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AdmissionMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-AdmissionMethod-1"/>
@@ -2107,7 +2121,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-AllergySeverity-1.html"/>
+        <valueUri value="ValueSet-CareConnect-AllergySeverity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-AllergySeverity-1"/>
@@ -2121,7 +2135,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-DeathNotificationStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-DeathNotificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-DeathNotificationStatus-1"/>
@@ -2135,7 +2149,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-DischargeMethod-1.html"/>
+        <valueUri value="ValueSet-CareConnect-DischargeMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-DischargeMethod-1"/>
@@ -2149,7 +2163,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-EmergencyCareDischargeStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-EmergencyCareDischargeStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-EmergencyCareDischargeStatus-1"/>
@@ -2163,7 +2177,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-EthnicCategory-1.html"/>
+        <valueUri value="ValueSet-CareConnect-EthnicCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-EthnicCategory-1"/>
@@ -2177,7 +2191,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ListWarningCode-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ListWarningCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-ListWarningCode-1"/>
@@ -2191,7 +2205,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-NHSNumberVerificationStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-NHSNumberVerificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-NHSNumberVerificationStatus-1"/>
@@ -2205,7 +2219,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-OutcomeOfAttendance-1.html"/>
+        <valueUri value="ValueSet-CareConnect-OutcomeOfAttendance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-OutcomeOfAttendance-1"/>
@@ -2219,7 +2233,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-PrescribedElsewhere-1.html"/>
+        <valueUri value="ValueSet-CareConnect-PrescribedElsewhere-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-PrescribedElsewhere-1"/>
@@ -2233,7 +2247,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-PrescriptionType-1.html"/>
+        <valueUri value="ValueSet-CareConnect-PrescriptionType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-PrescriptionType-1"/>
@@ -2247,7 +2261,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ReligiousAffiliation-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ReligiousAffiliation-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-ReligiousAffiliation-1"/>
@@ -2261,7 +2275,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-ResidentialStatus-1.html"/>
+        <valueUri value="ValueSet-CareConnect-ResidentialStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-ResidentialStatus-1"/>
@@ -2275,7 +2289,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-SourceOfReferral-1.html"/>
+        <valueUri value="ValueSet-CareConnect-SourceOfReferral-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-SourceOfReferral-1"/>
@@ -2289,7 +2303,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-TreatmentCategory-1.html"/>
+        <valueUri value="ValueSet-CareConnect-TreatmentCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-TreatmentCategory-1"/>
@@ -2303,7 +2317,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="valueset-CareConnect-VaccinationProcedure-1.html"/>
+        <valueUri value="ValueSet-CareConnect-VaccinationProcedure-1.html"/>
       </extension>
       <example value="false"/>
       <name value="vs-VaccinationProcedure-1"/>
@@ -2321,7 +2335,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-AdmissionMethod-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-AdmissionMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-AdmissionMethod-1"/>
@@ -2335,7 +2349,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ConditionCategory-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ConditionCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ConditionCategory-1"/>
@@ -2349,7 +2363,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ConditionEpisodicity-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ConditionEpisodicity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ConditionEpisodicity-1"/>
@@ -2363,7 +2377,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ConditionRelationship-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ConditionRelationship-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ConditionRelationship-1"/>
@@ -2377,7 +2391,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-DeathNotificationStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-DeathNotificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-DeathNotificationStatus-1"/>
@@ -2391,7 +2405,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-DischargeDestination-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-DischargeDestination-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-DischargeDestination-1"/>
@@ -2405,7 +2419,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-DischargeMethod-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-DischargeMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-DischargeMethod-1"/>
@@ -2419,7 +2433,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-EthnicCategory-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-EthnicCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-EthnicCategory-1"/>
@@ -2433,7 +2447,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-HumanLanguage-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-HumanLanguage-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-HumanLanguage-1"/>
@@ -2447,7 +2461,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ImmunizationExplanationReason-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ImmunizationExplanationReason-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ImmunizationExplanationReason-1"/>
@@ -2461,7 +2475,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-LanguageAbilityMode-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-LanguageAbilityMode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-LanguageAbilityMode-1"/>
@@ -2475,7 +2489,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-LanguageAbilityProficiency-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-LanguageAbilityProficiency-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-LanguageAbilityProficiency-1"/>
@@ -2489,7 +2503,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ListEmptyReasonCode-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ListEmptyReasonCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ListEmptyReasonCode-1"/>
@@ -2503,7 +2517,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ListWarningCode-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ListWarningCode-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ListWarningCode-1"/>
@@ -2517,7 +2531,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationChangeStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-MedicationChangeStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-MedicationChangeStatus-1"/>
@@ -2531,7 +2545,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationFlag-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-MedicationFlag-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-MedicationFlag-1"/>
@@ -2545,7 +2559,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MedicationSupplyType-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-MedicationSupplyType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-MedicationSupplyType-1"/>
@@ -2559,7 +2573,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-NHSDataDictionary-PersonMaritalStatus-1"/>
@@ -2573,7 +2587,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-NHSDataDictionary-PersonStatedGender-1"/>
@@ -2587,7 +2601,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-NHSNumberVerificationStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-NHSNumberVerificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-NHSNumberVerificationStatus-1"/>
@@ -2601,7 +2615,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-OutcomeOfAttendance-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-OutcomeOfAttendance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-OutcomeOfAttendance-1"/>
@@ -2615,7 +2629,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-PDS-PersonNameType-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-PDS-PersonNameType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-PDS-PersonNameType-1"/>
@@ -2629,7 +2643,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-PrescribedElsewhere-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-PrescribedElsewhere-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-PrescribedElsewhere-1"/>
@@ -2643,7 +2657,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-PrescriptionType-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-PrescriptionType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-PrescriptionType-1"/>
@@ -2657,7 +2671,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ProblemSignificance-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ProblemSignificance-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ProblemSignificance-1"/>
@@ -2671,7 +2685,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ReferralRequestMethod-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ReferralRequestMethod-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ReferralRequestMethod-1"/>
@@ -2685,7 +2699,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-RegistrationStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-RegistrationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-RegistrationStatus-1"/>
@@ -2699,7 +2713,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-RegistrationType-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-RegistrationType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-RegistrationType-1"/>
@@ -2713,7 +2727,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-ResidentialStatus-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-ResidentialStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-ResidentialStatus-1"/>
@@ -2727,7 +2741,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-SDSJobRoleName-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-SDSJobRoleName-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-SDSJobRoleName-1"/>
@@ -2741,7 +2755,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-SourceOfAdmission-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-SourceOfAdmission-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-SourceOfAdmission-1"/>
@@ -2755,7 +2769,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-TreatmentCategory-1.html"/>
+        <valueUri value="CodeSystem-CareConnect-TreatmentCategory-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cs-TreatmentCategory-1"/>
@@ -2773,7 +2787,7 @@
         <valueString value="DocumentReference"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="documentreference-1.html"/>
+        <valueUri value="DocumentReference-documentreference-1.html"/>
       </extension>
       <example value="true"/>
       <name value="DocumentReference example"/>
@@ -2790,7 +2804,7 @@
         <valueString value="Encounter"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-1.html"/>
+        <valueUri value="Encounter-encounter-1.html"/>
       </extension>
       <example value="true"/>
       <name value="Encounter admission example"/>
@@ -2807,7 +2821,7 @@
         <valueString value="Encounter"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-2.html"/>
+        <valueUri value="Encounter-encounter-2.html"/>
       </extension>
       <example value="true"/>
       <name value="Encounter transfer example"/>
@@ -2824,7 +2838,7 @@
         <valueString value="Encounter"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="encounter-735.html"/>
+        <valueUri value="Encounter-encounter-735.html"/>
       </extension>
       <example value="true"/>
       <name value="Encounter emergency example"/>
@@ -2841,7 +2855,7 @@
         <valueString value="Location"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="location-200014.html"/>
+        <valueUri value="Location-location-200014.html"/>
       </extension>
       <example value="true"/>
       <name value="Location example"/>
@@ -2858,7 +2872,7 @@
         <valueString value="Observation"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="observation-9084.html"/>
+        <valueUri value="Observation-observation-9084.html"/>
       </extension>
       <example value="true"/>
       <name value="Observation example"/>
@@ -2875,7 +2889,7 @@
         <valueString value="Organization"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="organization-2.html"/>
+        <valueUri value="Organization-organization-2.html"/>
       </extension>
       <example value="true"/>
       <name value="Organization GP Surgery example"/>
@@ -2889,7 +2903,7 @@
         <valueString value="Organization"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="organization-3.html"/>
+        <valueUri value="Organization-organization-3.html"/>
       </extension>
       <example value="true"/>
       <name value="Organization CCG example"/>
@@ -2906,7 +2920,7 @@
         <valueString value="Organization"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="organization-200001.html"/>
+        <valueUri value="Organization-organization-200001.html"/>
       </extension>
       <example value="true"/>
       <name value="Organization NHS Trust example"/>
@@ -2923,7 +2937,7 @@
         <valueString value="Patient"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="patient-1.html"/>
+        <valueUri value="Patient-patient-1.html"/>
       </extension>
       <example value="true"/>
       <name value="Patient example"/>
@@ -2940,7 +2954,7 @@
         <valueString value="Practitioner"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="practitioner-4.html"/>
+        <valueUri value="Practitioner-practitioner-4.html"/>
       </extension>
       <example value="true"/>
       <name value="Practitioner example"/>
@@ -2957,7 +2971,7 @@
         <valueString value="Practitioner"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="practitioner-3.html"/>
+        <valueUri value="Practitioner-practitioner-3.html"/>
       </extension>
       <example value="true"/>
       <name value="Practitioner example"/>
@@ -2978,7 +2992,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ods-organization-code.html"/>
+        <valueUri value="NamingSystem-ods-organization-code.html"/>
       </extension>
       <example value="false"/>
       <name value="ods-organization-code"/>
@@ -2992,7 +3006,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ods-site-code.html"/>
+        <valueUri value="NamingSystem-ods-site-code.html"/>
       </extension>
       <example value="false"/>
       <name value="ods-site-code"/>
@@ -3006,7 +3020,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="sds-user-id.html"/>
+        <valueUri value="NamingSystem-sds-user-id.html"/>
       </extension>
       <example value="false"/>
       <name value="sds-user-id"/>
@@ -3020,7 +3034,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="uk-chi-number.html"/>
+        <valueUri value="NamingSystem-uk-chi-number.html"/>
       </extension>
       <example value="false"/>
       <name value="uk-chi-number"/>
@@ -3034,7 +3048,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="uk-nhs-number.html"/>
+        <valueUri value="NamingSystem-uk-nhs-number.html"/>
       </extension>
       <example value="false"/>
       <name value="uk-nhs-number"/>
@@ -3048,7 +3062,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="uk-gmp-number.html"/>
+        <valueUri value="NamingSystem-uk-gmp-number.html"/>
       </extension>
       <example value="false"/>
       <name value="uk-gmp-number"/>
@@ -3062,7 +3076,7 @@
         <valueString value="NamingSystem"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="uk-gmc-number.html"/>
+        <valueUri value="NamingSystem-uk-gmc-number.html"/>
       </extension>
       <example value="false"/>
       <name value="uk-gmc-number"/>
@@ -3080,7 +3094,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-PersonNameType-1.html"/>
+        <valueUri value="ConceptMap-CareConnect-PersonNameType-1.html"/>
       </extension>
       <example value="false"/>
       <name value="PersonNameType-1"/>
@@ -3094,7 +3108,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-AdministrativeGender-1.html"/>
+        <valueUri value="ConceptMap-CareConnect-AdministrativeGender-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cm-AdministrativeGender-1"/>
@@ -3108,7 +3122,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-AllergySeverity-1.html"/>
+        <valueUri value="ConceptMap-CareConnect-AllergySeverity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cm-AllergySeverity-1"/>
@@ -3122,7 +3136,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-AllergyVerificationStatus-1.html"/>
+        <valueUri value="ConceptMap-CareConnect-AllergyVerificationStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cm-AllergyVerificationStatus-1"/>
@@ -3136,7 +3150,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="ConditionEpisodicity-1.html"/>
+        <valueUri value="ConceptMap-ConditionEpisodicity-1.html"/>
       </extension>
       <example value="false"/>
       <name value="ConditionEpisodicity-1"/>
@@ -3150,7 +3164,7 @@
         <valueString value="ConceptMap"/>
       </extension>
       <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="CareConnect-MaritalStatus-1.html"/>
+        <valueUri value="ConceptMap-CareConnect-MaritalStatus-1.html"/>
       </extension>
       <example value="false"/>
       <name value="cm-MaritalStatus-1"/>

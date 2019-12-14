@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-13T15:26:38+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-14T09:10:56+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "INTEROpen"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -50,7 +50,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-AllergyIntolerance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-AllergyIntolerance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyIntolerance-1" ];
@@ -68,7 +68,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Appointment-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Appointment-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Appointment-1" ];
@@ -86,7 +86,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-CarePlan-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-CarePlan-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "CarePlan-1" ];
@@ -104,7 +104,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-CareTeam-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-CareTeam-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "CareTeam-1" ];
@@ -122,7 +122,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Composition-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Composition-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Composition-1" ];
@@ -140,7 +140,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Condition-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Condition-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Condition-1" ];
@@ -158,7 +158,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-DiagnosticReport-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-DiagnosticReport-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DiagnosticReport-1" ];
@@ -176,7 +176,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-DocumentReference-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-DocumentReference-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DocumentReference-1" ];
@@ -194,7 +194,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Encounter-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Encounter-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter-1" ];
@@ -212,7 +212,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-EpisodeOfCare-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-EpisodeOfCare-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "EpisodeOfCare-1" ];
@@ -230,7 +230,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-FamilyMemberHistory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-FamilyMemberHistory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "FamilyMemberHistory-1" ];
@@ -248,7 +248,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Flag-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Flag-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Flag-1" ];
@@ -266,7 +266,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-HealthcareService-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-HealthcareService-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "HealthcareService-1" ];
@@ -284,7 +284,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Immunization-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Immunization-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Immunization-1" ];
@@ -302,7 +302,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-List-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-List-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "List-1" ];
@@ -320,7 +320,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Location-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Location-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Location-1" ];
@@ -338,7 +338,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Medication-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Medication-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Medication-1" ];
@@ -356,7 +356,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationDispense-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-MedicationDispense-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationDispense-1" ];
@@ -374,14 +374,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationRequest-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-MedicationAdministration-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationRequest-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "This MedicationRequest Resource represents an order for both supply of the medication and the instructions for administration of the medication to a patient. " ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationAdministration-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Describes the event of a patient consuming or otherwise being administered a medication." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-MedicationRequest-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationAdministration-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-MedicationAdministration-1" ]
        ]
      ], [
        fhir:index 19;
@@ -392,14 +392,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationStatement-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-MedicationRequest-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationStatement-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "This MedicationStatement Resource is a record of a medication that is being consumed by a patient." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationRequest-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "This MedicationRequest Resource represents an order for both supply of the medication and the instructions for administration of the medication to a patient. " ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-MedicationStatement-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-MedicationRequest-1" ]
        ]
      ], [
        fhir:index 20;
@@ -410,14 +410,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-MedicationStatement-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Observation-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Observation resource is used for tracking the current and historical observations that have been made for a patient." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationStatement-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "This MedicationStatement Resource is a record of a medication that is being consumed by a patient." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Observation-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-MedicationStatement-1" ]
        ]
      ], [
        fhir:index 21;
@@ -428,14 +428,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Organization-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Organization resource represents the organisation that employs the healthcare professional." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Observation-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Observation resource is used for tracking the current and historical observations that have been made for a patient." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Organization-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Observation-1" ]
        ]
      ], [
        fhir:index 22;
@@ -446,14 +446,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Patient-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Organization-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Patient-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The patient resource represents the patient involved in the provision of healthcare related services." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Organization resource represents the organisation that employs the healthcare professional." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Patient-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Organization-1" ]
        ]
      ], [
        fhir:index 23;
@@ -464,14 +464,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Practitioner-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Patient-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Patient-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The patient resource represents the patient involved in the provision of healthcare related services." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Practitioner-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Patient-1" ]
        ]
      ], [
        fhir:index 24;
@@ -482,14 +482,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-PractitionerRole-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Practitioner-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "PractitionerRole-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "The PractitionerRole resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The Practitioner resource represents the healthcare professional directly or indirectly involved in the provision of healthcare related services." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-PractitionerRole-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Practitioner-1" ]
        ]
      ], [
        fhir:index 25;
@@ -500,14 +500,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Procedure-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-PractitionerRole-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Procedure-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "An action that is or was performed on a patient." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "PractitionerRole-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "The PractitionerRole resource represents a specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Procedure-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-PractitionerRole-1" ]
        ]
      ], [
        fhir:index 26;
@@ -518,7 +518,25 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ProcedureRequest-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Procedure-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Procedure-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "An action that is or was performed on a patient." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Procedure-1" ]
+       ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-ProcedureRequest-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ProcedureRequest-1" ];
@@ -528,7 +546,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-ProcedureRequest-1" ]
        ]
      ], [
-       fhir:index 27;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -536,7 +554,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Quantity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Quantity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Quantity-1" ];
@@ -544,24 +562,6 @@
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Quantity-1>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Quantity-1" ]
-       ]
-     ], [
-       fhir:index 28;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ReferralRequest-1.html" ]
-       ];
-       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ReferralRequest-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization." ];
-       fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-ReferralRequest-1" ]
        ]
      ], [
        fhir:index 29;
@@ -572,14 +572,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-RelatedPerson-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-ReferralRequest-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "RelatedPerson-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "ReferralRequest-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Used to record and send details about a request for referral service or transfer of a patient to the care of another provider or provider organization." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-RelatedPerson-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-ReferralRequest-1" ]
        ]
      ], [
        fhir:index 30;
@@ -590,14 +590,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ResearchStudy-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-RelatedPerson-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "ResearchStudy-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "A process where a researcher or organization plans and then executes a series of steps intended to increase the field of healthcare-related knowledge. " ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "RelatedPerson-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Information about a person that is involved in the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ResearchStudy-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-ResearchStudy-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-RelatedPerson-1" ]
        ]
      ], [
        fhir:index 31;
@@ -608,14 +608,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-RiskAssessment-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-ResearchStudy-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "RiskAssessment-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "ResearchStudy-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "A process where a researcher or organization plans and then executes a series of steps intended to increase the field of healthcare-related knowledge. " ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RiskAssessment-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-RiskAssessment-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ResearchStudy-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-ResearchStudy-1" ]
        ]
      ], [
        fhir:index 32;
@@ -626,14 +626,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Schedule-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-RiskAssessment-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Schedule-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "CareConnect Schedule profile." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "RiskAssessment-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Schedule-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RiskAssessment-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-RiskAssessment-1" ]
        ]
      ], [
        fhir:index 33;
@@ -644,14 +644,14 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Slot-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Schedule-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
-       fhir:ImplementationGuide.package.resource.name [ fhir:value "Slot-1" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "CareConnectSlot profile." ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Schedule-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "CareConnect Schedule profile." ];
        fhir:ImplementationGuide.package.resource.sourceReference [
-         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Slot-1" ]
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Schedule-1" ]
        ]
      ], [
        fhir:index 34;
@@ -662,7 +662,25 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Specimen-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Slot-1.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Slot-1" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "CareConnectSlot profile." ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CareConnect-Slot-1" ]
+       ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Specimen-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Specimen-1" ];
@@ -686,7 +704,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ACVPU-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-ACVPU-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ACVPU-Observation-1" ];
@@ -704,7 +722,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-BloodPressure-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-BloodPressure-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "BloodPressure-Observation-1" ];
@@ -722,7 +740,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-HeartRate-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-HeartRate-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "HeartRate-Observation-1" ];
@@ -740,7 +758,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-InspiredOxygen-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-InspiredOxygen-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "InspiredOxygen-Observation-1" ];
@@ -758,7 +776,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-OxygenSaturation-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-OxygenSaturation-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "OxygenSaturation-Observation-1" ];
@@ -776,7 +794,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-RespiratoryRate-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-RespiratoryRate-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RespiratoryRate-Observation-1" ];
@@ -794,7 +812,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SaturatedOxygenSp02Scale-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SaturatedOxygenSp02Scale-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SaturatedOxygenSp02Scale-1" ];
@@ -812,7 +830,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Subscore-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Subscore-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Subscore-Observation-1" ];
@@ -830,7 +848,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-VitalSigns-Observation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-VitalSigns-Observation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "VitalSigns-Observation-1" ];
@@ -854,7 +872,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-Medication-Flag-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-Medication-Flag-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Medication-Flag-1" ];
@@ -872,7 +890,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ProblemHeader-Condition-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-CareConnect-ProblemHeader-Condition-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ProblemHeader-Condition-1" ];
@@ -896,7 +914,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ActualProblem-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ActualProblem-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ActualProblem-1" ];
@@ -914,7 +932,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-AdmissionMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-AdmissionMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AdmissionMethod-1" ];
@@ -931,7 +949,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-AllergyIntoleranceEnd-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyIntoleranceEnd-1" ];
@@ -949,7 +967,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-AllergySeverity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-AllergySeverity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergySeverity-1" ];
@@ -967,7 +985,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-AnaestheticIssues-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-AnaestheticIssues-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AnaestheticIssues-1" ];
@@ -985,7 +1003,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-CareSettingType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-CareSettingType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ext-CareSettingType-1" ];
@@ -1003,7 +1021,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ClinicalSetting-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ClinicalSetting-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ClinicalSetting-1" ];
@@ -1021,7 +1039,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-coding-sctdescid.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-coding-sctdescid.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "coding-sctdescid" ];
@@ -1039,7 +1057,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ConditionEpisode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ConditionEpisode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionEpisode-1" ];
@@ -1057,7 +1075,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-DateRecorded-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-DateRecorded-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DateRecorded-1" ];
@@ -1075,7 +1093,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-DeathNotificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-DeathNotificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DeathNotificationStatus-1" ];
@@ -1093,7 +1111,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-DischargeMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-DischargeMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DischargeMethod-1" ];
@@ -1111,7 +1129,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-EmergencyCareDischargeStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "EmergencyCareDischargeStatus-1" ];
@@ -1129,7 +1147,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-EncounterTransport-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-EncounterTransport-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "EncounterTransport-1" ];
@@ -1147,7 +1165,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-EthnicCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-EthnicCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "EthnicCategory-1" ];
@@ -1165,7 +1183,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-Evidence-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-Evidence-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Evidence-1" ];
@@ -1183,7 +1201,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-FastingStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-FastingStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "FastingStatus-1" ];
@@ -1201,7 +1219,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ListWarningCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ListWarningCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ListWarningCode-1" ];
@@ -1219,7 +1237,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MainLocation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MainLocation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MainLocation-1" ];
@@ -1237,7 +1255,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationChangeSummary-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationChangeSummary-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationChangeSummary-1" ];
@@ -1255,7 +1273,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationFlagAssociation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationFlagAssociation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationFlagAssociation-1" ];
@@ -1273,7 +1291,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationQuantityText-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationQuantityText-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationQuantityText-1" ];
@@ -1291,7 +1309,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationRepeatInformation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationRepeatInformation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationRepeatInformation-1" ];
@@ -1309,7 +1327,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationStatementLastIssueDate-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationStatementLastIssueDate-1" ];
@@ -1327,7 +1345,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-MedicationStatusReason-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-MedicationStatusReason-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationStatusReason-1" ];
@@ -1345,7 +1363,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-NHSCommunication-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-NHSCommunication-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NHSCommunication-1" ];
@@ -1363,7 +1381,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-NHSNumberVerificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NHSNumberVerificationStatus-1" ];
@@ -1381,7 +1399,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-NominatedPharmacy-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-NominatedPharmacy-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NominatedPharmacy-1" ];
@@ -1399,7 +1417,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-OutcomeOfAttendance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-OutcomeOfAttendance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "OutcomeOfAttendance-1" ];
@@ -1417,7 +1435,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ParentPresent-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ParentPresent-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ParentPresent-1" ];
@@ -1435,7 +1453,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-PrescribedElsewhere-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-PrescribedElsewhere-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "PrescribedElsewhere-1" ];
@@ -1453,7 +1471,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-PrescriptionType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-PrescriptionType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "PrescriptionType-1" ];
@@ -1471,7 +1489,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ProbabilityOfRecurrence-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ProbabilityOfRecurrence-1" ];
@@ -1489,7 +1507,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ProblemSignificance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ProblemSignificance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ext-ProblemSignificance-1" ];
@@ -1507,7 +1525,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ReasonCondition-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ReasonCondition-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReasonCondition-1" ];
@@ -1525,7 +1543,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-Recorder-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-Recorder-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Recorder-1" ];
@@ -1543,7 +1561,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-RegistrationDetails-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-RegistrationDetails-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RegistrationDetails-1" ];
@@ -1561,7 +1579,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-RelatedClinicalContent-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-RelatedClinicalContent-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RelatedClinicalContent-1" ];
@@ -1579,7 +1597,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-RelatedProblemHeader-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-RelatedProblemHeader-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RelatedProblemHeader-1" ];
@@ -1597,7 +1615,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ReligiousAffiliation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ReligiousAffiliation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReligiousAffiliation-1" ];
@@ -1615,7 +1633,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ReferralRequestMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ReferralRequestMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ext-ReferralRequestMethod-1" ];
@@ -1633,7 +1651,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ResidentialStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ResidentialStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ResidentialStatus-1" ];
@@ -1651,7 +1669,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-SourceOfReferral-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-SourceOfReferral-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SourceOfReferral-1" ];
@@ -1669,7 +1687,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-TreatmentCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-TreatmentCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "TreatmentCategory-1" ];
@@ -1687,7 +1705,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-VaccinationProcedure-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-VaccinationProcedure-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "VaccinationProcedure-1" ];
@@ -1705,7 +1723,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "extension-Extension-CareConnect-ValueApproximation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Extension-CareConnect-ValueApproximation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ValueApproximation-1" ];
@@ -1729,7 +1747,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ACVPU-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ACVPU-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ACVPU-1" ];
@@ -1747,7 +1765,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AdministrativeGender-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AdministrativeGender-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AdministrativeGender-1" ];
@@ -1765,7 +1783,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergyCertainty-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergyCertainty-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyCertainty-1" ];
@@ -1783,7 +1801,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergyCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergyCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyCode-1" ];
@@ -1801,7 +1819,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergyExposureRoute-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergyExposureRoute-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyExposureRoute-1" ];
@@ -1819,7 +1837,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergyManifestation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergyManifestation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyManifestation-1" ];
@@ -1837,7 +1855,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergyVerificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergyVerificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "AllergyVerificationStatus-1" ];
@@ -1855,7 +1873,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-BodySite-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-BodySite-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "BodySite-1" ];
@@ -1873,7 +1891,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-CareSettingType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-CareSettingType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "CareSettingType-1" ];
@@ -1891,7 +1909,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-CompositionSectionCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-CompositionSectionCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "CompositionSectionCode-1" ];
@@ -1909,7 +1927,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ConditionCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ConditionCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionCategory-1" ];
@@ -1927,7 +1945,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ConditionCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ConditionCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionCode-1" ];
@@ -1945,7 +1963,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ConditionEpisodeSnCT-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ConditionEpisodeSnCT-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionEpisodeSnCT-1" ];
@@ -1963,7 +1981,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ConditionEpisodicity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ConditionEpisodicity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionEpisodicity-1" ];
@@ -1981,7 +1999,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ConditionRelationship-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ConditionRelationship-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionRelationship-1" ];
@@ -1999,7 +2017,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-DischargeDestination-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-DischargeDestination-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DischargeDestination-1" ];
@@ -2017,7 +2035,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-DocumentType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-DocumentType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DocumentType-1" ];
@@ -2035,7 +2053,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-EncounterType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-EncounterType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "EncounterType-1" ];
@@ -2053,7 +2071,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-FindingCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-FindingCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "FindingCode-1" ];
@@ -2071,7 +2089,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-HumanLanguage-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-HumanLanguage-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "HumanLanguage-1" ];
@@ -2089,7 +2107,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ImmunizationExplanationReason-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ImmunizationExplanationReason-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ImmunizationExplanationReason-1" ];
@@ -2107,7 +2125,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ImmunizationExplanationReason-2.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ImmunizationExplanationReason-2.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ImmunizationExplanationReason-2" ];
@@ -2125,7 +2143,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-InspiredOxygen-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-InspiredOxygen-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "InspiredOxygen-1" ];
@@ -2143,7 +2161,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-LanguageAbilityMode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-LanguageAbilityMode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "LanguageAbilityMode-1" ];
@@ -2161,7 +2179,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-LanguageAbilityProficiency-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-LanguageAbilityProficiency-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "LanguageAbilityProficiency-1" ];
@@ -2179,7 +2197,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ListCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ListCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ListCode-1" ];
@@ -2197,7 +2215,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ListEmptyReasonCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ListEmptyReasonCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ListEmptyReasonCode-1" ];
@@ -2215,7 +2233,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ManufacturedMaterialSnCT-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ManufacturedMaterialSnCT-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ManufacturedMaterialSnCT-1" ];
@@ -2233,7 +2251,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MaritalStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MaritalStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MaritalStatus-1" ];
@@ -2251,7 +2269,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationChangeStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationChangeStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationChangeStatus-1" ];
@@ -2269,7 +2287,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationCode-1" ];
@@ -2287,7 +2305,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationDosageRoute-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationDosageRoute-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationDosageRoute-1" ];
@@ -2305,7 +2323,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationFlag-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationFlag-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationFlag-1" ];
@@ -2323,7 +2341,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationForm-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationForm-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationForm-1" ];
@@ -2341,7 +2359,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-MedicationSupplyType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-MedicationSupplyType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "MedicationSupplyType-1" ];
@@ -2359,7 +2377,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NHSDataDictionary-PersonMaritalStatus-1" ];
@@ -2377,7 +2395,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-NHSDataDictionary-PersonStatedGender-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-NHSDataDictionary-PersonStatedGender-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NHSDataDictionary-PersonStatedGender-1" ];
@@ -2395,7 +2413,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-NameUse-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-NameUse-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "NameUse-1" ];
@@ -2413,7 +2431,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ObservationMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ObservationMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ObservationMethod-1" ];
@@ -2431,7 +2449,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ObservationType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ObservationType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ObservationType-1" ];
@@ -2449,7 +2467,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-PDS-PersonNameType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-PDS-PersonNameType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "PDS-PersonNameType-1" ];
@@ -2467,7 +2485,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ProblemSignificance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ProblemSignificance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ProblemSignificance-1" ];
@@ -2485,7 +2503,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ProcedureCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ProcedureCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ProcedureCode-1" ];
@@ -2503,7 +2521,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ReactionEventSeverity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ReactionEventSeverity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReactionEventSeverity-1" ];
@@ -2521,7 +2539,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ReasonImmunizationNotAdministered-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ReasonImmunizationNotAdministered-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReasonImmunizationNotAdministered-1" ];
@@ -2539,7 +2557,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ReferralRequestMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ReferralRequestMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReferralRequestMethod-1" ];
@@ -2557,7 +2575,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-RegistrationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-RegistrationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RegistrationStatus-1" ];
@@ -2575,7 +2593,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-RegistrationType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-RegistrationType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "RegistrationType-1" ];
@@ -2593,7 +2611,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ReportCodeSnCT-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ReportCodeSnCT-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ReportCodeSnCT-1" ];
@@ -2611,7 +2629,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SDSJobRoleName-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SDSJobRoleName-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SDSJobRoleName-1" ];
@@ -2629,7 +2647,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SourceOfAdmission-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SourceOfAdmission-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SourceOfAdmission-1" ];
@@ -2647,7 +2665,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SpecimenBodySite-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SpecimenBodySite-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SpecimenBodySite-1" ];
@@ -2665,7 +2683,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SpecimenType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SpecimenType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "SpecimenType-1" ];
@@ -2683,7 +2701,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-VaccineCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-VaccineCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "VaccineCode-1" ];
@@ -2701,7 +2719,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AdmissionMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AdmissionMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-AdmissionMethod-1" ];
@@ -2719,7 +2737,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-AllergySeverity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-AllergySeverity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-AllergySeverity-1" ];
@@ -2737,7 +2755,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-DeathNotificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-DeathNotificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-DeathNotificationStatus-1" ];
@@ -2755,7 +2773,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-DischargeMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-DischargeMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-DischargeMethod-1" ];
@@ -2773,7 +2791,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-EmergencyCareDischargeStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-EmergencyCareDischargeStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-EmergencyCareDischargeStatus-1" ];
@@ -2791,7 +2809,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-EthnicCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-EthnicCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-EthnicCategory-1" ];
@@ -2809,7 +2827,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ListWarningCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ListWarningCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-ListWarningCode-1" ];
@@ -2827,7 +2845,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-NHSNumberVerificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-NHSNumberVerificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-NHSNumberVerificationStatus-1" ];
@@ -2845,7 +2863,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-OutcomeOfAttendance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-OutcomeOfAttendance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-OutcomeOfAttendance-1" ];
@@ -2863,7 +2881,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-PrescribedElsewhere-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-PrescribedElsewhere-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-PrescribedElsewhere-1" ];
@@ -2881,7 +2899,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-PrescriptionType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-PrescriptionType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-PrescriptionType-1" ];
@@ -2899,7 +2917,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ReligiousAffiliation-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ReligiousAffiliation-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-ReligiousAffiliation-1" ];
@@ -2917,7 +2935,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-ResidentialStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-ResidentialStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-ResidentialStatus-1" ];
@@ -2935,7 +2953,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-SourceOfReferral-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-SourceOfReferral-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-SourceOfReferral-1" ];
@@ -2953,7 +2971,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-TreatmentCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-TreatmentCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-TreatmentCategory-1" ];
@@ -2971,7 +2989,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "valueset-CareConnect-VaccinationProcedure-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ValueSet-CareConnect-VaccinationProcedure-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "vs-VaccinationProcedure-1" ];
@@ -2995,7 +3013,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-AdmissionMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-AdmissionMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-AdmissionMethod-1" ];
@@ -3013,7 +3031,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ConditionCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ConditionCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ConditionCategory-1" ];
@@ -3031,7 +3049,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ConditionEpisodicity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ConditionEpisodicity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ConditionEpisodicity-1" ];
@@ -3049,7 +3067,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ConditionRelationship-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ConditionRelationship-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ConditionRelationship-1" ];
@@ -3067,7 +3085,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-DeathNotificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-DeathNotificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-DeathNotificationStatus-1" ];
@@ -3085,7 +3103,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-DischargeDestination-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-DischargeDestination-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-DischargeDestination-1" ];
@@ -3103,7 +3121,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-DischargeMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-DischargeMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-DischargeMethod-1" ];
@@ -3121,7 +3139,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-EthnicCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-EthnicCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-EthnicCategory-1" ];
@@ -3139,7 +3157,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-HumanLanguage-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-HumanLanguage-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-HumanLanguage-1" ];
@@ -3157,7 +3175,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ImmunizationExplanationReason-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ImmunizationExplanationReason-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ImmunizationExplanationReason-1" ];
@@ -3175,7 +3193,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-LanguageAbilityMode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-LanguageAbilityMode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-LanguageAbilityMode-1" ];
@@ -3193,7 +3211,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-LanguageAbilityProficiency-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-LanguageAbilityProficiency-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-LanguageAbilityProficiency-1" ];
@@ -3211,7 +3229,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ListEmptyReasonCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ListEmptyReasonCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ListEmptyReasonCode-1" ];
@@ -3229,7 +3247,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ListWarningCode-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ListWarningCode-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ListWarningCode-1" ];
@@ -3247,7 +3265,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationChangeStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-MedicationChangeStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-MedicationChangeStatus-1" ];
@@ -3265,7 +3283,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationFlag-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-MedicationFlag-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-MedicationFlag-1" ];
@@ -3283,7 +3301,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MedicationSupplyType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-MedicationSupplyType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-MedicationSupplyType-1" ];
@@ -3301,7 +3319,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-NHSDataDictionary-PersonMaritalStatus-1" ];
@@ -3319,7 +3337,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-NHSDataDictionary-PersonStatedGender-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-NHSDataDictionary-PersonStatedGender-1" ];
@@ -3337,7 +3355,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-NHSNumberVerificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-NHSNumberVerificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-NHSNumberVerificationStatus-1" ];
@@ -3355,7 +3373,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-OutcomeOfAttendance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-OutcomeOfAttendance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-OutcomeOfAttendance-1" ];
@@ -3373,7 +3391,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-PDS-PersonNameType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-PDS-PersonNameType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-PDS-PersonNameType-1" ];
@@ -3391,7 +3409,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-PrescribedElsewhere-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-PrescribedElsewhere-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-PrescribedElsewhere-1" ];
@@ -3409,7 +3427,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-PrescriptionType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-PrescriptionType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-PrescriptionType-1" ];
@@ -3427,7 +3445,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ProblemSignificance-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ProblemSignificance-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ProblemSignificance-1" ];
@@ -3445,7 +3463,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ReferralRequestMethod-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ReferralRequestMethod-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ReferralRequestMethod-1" ];
@@ -3463,7 +3481,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-RegistrationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-RegistrationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-RegistrationStatus-1" ];
@@ -3481,7 +3499,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-RegistrationType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-RegistrationType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-RegistrationType-1" ];
@@ -3499,7 +3517,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-ResidentialStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-ResidentialStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-ResidentialStatus-1" ];
@@ -3517,7 +3535,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-SDSJobRoleName-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-SDSJobRoleName-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-SDSJobRoleName-1" ];
@@ -3535,7 +3553,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-SourceOfAdmission-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-SourceOfAdmission-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-SourceOfAdmission-1" ];
@@ -3553,7 +3571,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-TreatmentCategory-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-CareConnect-TreatmentCategory-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cs-TreatmentCategory-1" ];
@@ -3577,7 +3595,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "documentreference-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "DocumentReference-documentreference-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "DocumentReference example" ];
@@ -3599,7 +3617,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "encounter-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "Encounter-encounter-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter admission example" ];
@@ -3621,7 +3639,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "encounter-2.html" ]
+         fhir:Extension.valueUri [ fhir:value "Encounter-encounter-2.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter transfer example" ];
@@ -3643,7 +3661,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "encounter-735.html" ]
+         fhir:Extension.valueUri [ fhir:value "Encounter-encounter-735.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Encounter emergency example" ];
@@ -3665,7 +3683,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "location-200014.html" ]
+         fhir:Extension.valueUri [ fhir:value "Location-location-200014.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Location example" ];
@@ -3687,7 +3705,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "observation-9084.html" ]
+         fhir:Extension.valueUri [ fhir:value "Observation-observation-9084.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Observation example" ];
@@ -3709,7 +3727,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "organization-2.html" ]
+         fhir:Extension.valueUri [ fhir:value "Organization-organization-2.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization GP Surgery example" ];
@@ -3727,7 +3745,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "organization-3.html" ]
+         fhir:Extension.valueUri [ fhir:value "Organization-organization-3.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization CCG example" ];
@@ -3749,7 +3767,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "organization-200001.html" ]
+         fhir:Extension.valueUri [ fhir:value "Organization-organization-200001.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Organization NHS Trust example" ];
@@ -3771,7 +3789,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "patient-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "Patient-patient-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Patient example" ];
@@ -3793,7 +3811,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "practitioner-4.html" ]
+         fhir:Extension.valueUri [ fhir:value "Practitioner-practitioner-4.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner example" ];
@@ -3815,7 +3833,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "practitioner-3.html" ]
+         fhir:Extension.valueUri [ fhir:value "Practitioner-practitioner-3.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "true"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "Practitioner example" ];
@@ -3843,7 +3861,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ods-organization-code.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-ods-organization-code.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ods-organization-code" ];
@@ -3861,7 +3879,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ods-site-code.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-ods-site-code.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ods-site-code" ];
@@ -3879,7 +3897,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "sds-user-id.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-sds-user-id.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "sds-user-id" ];
@@ -3897,7 +3915,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "uk-chi-number.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-uk-chi-number.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-chi-number" ];
@@ -3915,7 +3933,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "uk-nhs-number.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-uk-nhs-number.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-nhs-number" ];
@@ -3933,7 +3951,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "uk-gmp-number.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-uk-gmp-number.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-gmp-number" ];
@@ -3951,7 +3969,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "uk-gmc-number.html" ]
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-uk-gmc-number.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "uk-gmc-number" ];
@@ -3975,7 +3993,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-PersonNameType-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-CareConnect-PersonNameType-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "PersonNameType-1" ];
@@ -3993,7 +4011,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-AdministrativeGender-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-CareConnect-AdministrativeGender-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AdministrativeGender-1" ];
@@ -4011,7 +4029,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-AllergySeverity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-CareConnect-AllergySeverity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AllergySeverity-1" ];
@@ -4029,7 +4047,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-AllergyVerificationStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-CareConnect-AllergyVerificationStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-AllergyVerificationStatus-1" ];
@@ -4047,7 +4065,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "ConditionEpisodicity-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-ConditionEpisodicity-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ConditionEpisodicity-1" ];
@@ -4065,7 +4083,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CareConnect-MaritalStatus-1.html" ]
+         fhir:Extension.valueUri [ fhir:value "ConceptMap-CareConnect-MaritalStatus-1.html" ]
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "cm-MaritalStatus-1" ];

@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-ResidentialStatus-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Residential Status</h2><div><p>A ValueSet that identifies the residential status of a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ResidentialStatus-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Residential Status</h2><div><p>A ValueSet that identifies the residential status of a patient.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CareConnect-ResidentialStatus-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ResidentialStatus-1</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ResidentialStatus-1"];
   fhir:ValueSet.version [ fhir:value "3.0.0"];

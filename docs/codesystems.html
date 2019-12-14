@@ -18,6 +18,9 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +37,11 @@
   </head>
   <body>
 
-
     <style type="text/css">h2{--heading-prefix:"5"}
     h3,h4,h5,h6{--heading-prefix:"5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+        
         <div id="hl7-nav">
           <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
@@ -50,7 +53,9 @@
         <div id="hl7-search">
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
-        <div id="hl7-status">
+
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
@@ -156,69 +161,69 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Code Systems used in this implementation guide.</p>
 
-<tr><td><a href="CareConnect-AdmissionMethod-1.html">NHS Data Model and Dictionary Admission Method</a> </td><td><p>The method of admission to a Hospital Provider Spell.</p>
+<tr><td><a href="CodeSystem-CareConnect-AdmissionMethod-1.html">NHS Data Model and Dictionary Admission Method</a> </td><td><p>The method of admission to a Hospital Provider Spell.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ConditionCategory-1.html">Care Connect Condition Category</a> </td><td><p>A CodeSystem to identify the category of a condition.</p>
+<tr><td><a href="CodeSystem-CareConnect-ConditionCategory-1.html">Care Connect Condition Category</a> </td><td><p>A CodeSystem to identify the category of a condition.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ConditionEpisodicity-1.html">Care Connect Condition Episodicity</a> </td><td><p>A CodeSystem to identify the episodicity of a condition.</p>
+<tr><td><a href="CodeSystem-CareConnect-ConditionEpisodicity-1.html">Care Connect Condition Episodicity</a> </td><td><p>A CodeSystem to identify the episodicity of a condition.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ConditionRelationship-1.html">Care Connect Condition Relationship</a> </td><td><p>A CodeSystem that identifies the kind of relationship that exists with a target condition or problem.</p>
+<tr><td><a href="CodeSystem-CareConnect-ConditionRelationship-1.html">Care Connect Condition Relationship</a> </td><td><p>A CodeSystem that identifies the kind of relationship that exists with a target condition or problem.</p>
 </td></tr>
-<tr><td><a href="CareConnect-DeathNotificationStatus-1.html">Care Connect Death Notification Status</a> </td><td><p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p>
+<tr><td><a href="CodeSystem-CareConnect-DeathNotificationStatus-1.html">Care Connect Death Notification Status</a> </td><td><p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p>
 </td></tr>
-<tr><td><a href="CareConnect-DischargeDestination-1.html">NHS Data Model and Dictionary Discharge Destination</a> </td><td><p>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</p>
+<tr><td><a href="CodeSystem-CareConnect-DischargeDestination-1.html">NHS Data Model and Dictionary Discharge Destination</a> </td><td><p>The destination of a Patient on completion of a Hospital Provider Spell, or a note that the Patient died or was a still birth.</p>
 </td></tr>
-<tr><td><a href="CareConnect-DischargeMethod-1.html">NHS Data Model and Dictionary Discharge Method</a> </td><td><p>The method of discharge from a Hospital Provider Spell.</p>
+<tr><td><a href="CodeSystem-CareConnect-DischargeMethod-1.html">NHS Data Model and Dictionary Discharge Method</a> </td><td><p>The method of discharge from a Hospital Provider Spell.</p>
 </td></tr>
-<tr><td><a href="CareConnect-EthnicCategory-1.html">Care Connect Ethnic Category</a> </td><td><p>A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>
+<tr><td><a href="CodeSystem-CareConnect-EthnicCategory-1.html">Care Connect Ethnic Category</a> </td><td><p>A CodeSystem to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>
 </td></tr>
-<tr><td><a href="CareConnect-HumanLanguage-1.html">Care Connect Human Language</a> </td><td><p>A CodeSystem that identifies the language used by a person.</p>
+<tr><td><a href="CodeSystem-CareConnect-HumanLanguage-1.html">Care Connect Human Language</a> </td><td><p>A CodeSystem that identifies the language used by a person.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ImmunizationExplanationReason-1.html">Care Connect Immunization Explanation Reason</a> </td><td><p>A CodeSystem that identifies a code to record the reason why a vaccine was administered.</p>
+<tr><td><a href="CodeSystem-CareConnect-ImmunizationExplanationReason-1.html">Care Connect Immunization Explanation Reason</a> </td><td><p>A CodeSystem that identifies a code to record the reason why a vaccine was administered.</p>
 </td></tr>
-<tr><td><a href="CareConnect-LanguageAbilityMode-1.html">Care Connect Language Ability Mode</a> </td><td><p>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
+<tr><td><a href="CodeSystem-CareConnect-LanguageAbilityMode-1.html">Care Connect Language Ability Mode</a> </td><td><p>A CodeSystem that identifies the mode the patient can communicate in, representing the method of expression of the language.</p>
 </td></tr>
-<tr><td><a href="CareConnect-LanguageAbilityProficiency-1.html">Care Connect Language Ability Proficiency</a> </td><td><p>A CodeSystem to identify the level of proficiency in communicating a language.</p>
+<tr><td><a href="CodeSystem-CareConnect-LanguageAbilityProficiency-1.html">Care Connect Language Ability Proficiency</a> </td><td><p>A CodeSystem to identify the level of proficiency in communicating a language.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ListEmptyReasonCode-1.html">Care Connect List Empty Reason Code</a> </td><td><p>A CodeSystem to identify the reason a list may be empty.</p>
+<tr><td><a href="CodeSystem-CareConnect-ListEmptyReasonCode-1.html">Care Connect List Empty Reason Code</a> </td><td><p>A CodeSystem to identify the reason a list may be empty.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ListWarningCode-1.html">Care Connect List Warning Code</a> </td><td><p>A CodeSystem to identify the reason a list may be incomplete.</p>
+<tr><td><a href="CodeSystem-CareConnect-ListWarningCode-1.html">Care Connect List Warning Code</a> </td><td><p>A CodeSystem to identify the reason a list may be incomplete.</p>
 </td></tr>
-<tr><td><a href="CareConnect-MedicationChangeStatus-1.html">Care Connect Medication Change Status</a> </td><td><p>A CodeSystem to identify the change status of a medication.</p>
+<tr><td><a href="CodeSystem-CareConnect-MedicationChangeStatus-1.html">Care Connect Medication Change Status</a> </td><td><p>A CodeSystem to identify the change status of a medication.</p>
 </td></tr>
-<tr><td><a href="CareConnect-MedicationFlag-1.html">Care Connect Medication Flag</a> </td><td><p>A CodeSystem to identify detail codes for flagged medication issues.</p>
+<tr><td><a href="CodeSystem-CareConnect-MedicationFlag-1.html">Care Connect Medication Flag</a> </td><td><p>A CodeSystem to identify detail codes for flagged medication issues.</p>
 </td></tr>
-<tr><td><a href="CareConnect-MedicationSupplyType-1.html">Care Connect Medication Supply Type</a> </td><td><p>A CodeSystem to identify the type of medication supply.</p>
+<tr><td><a href="CodeSystem-CareConnect-MedicationSupplyType-1.html">Care Connect Medication Supply Type</a> </td><td><p>A CodeSystem to identify the type of medication supply.</p>
 </td></tr>
-<tr><td><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">NHS Data Model and Dictionary Person Marital Status Code</a> </td><td><p>An indicator to identify the legal marital status of a Person.</p>
+<tr><td><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html">NHS Data Model and Dictionary Person Marital Status Code</a> </td><td><p>An indicator to identify the legal marital status of a Person.</p>
 </td></tr>
-<tr><td><a href="CareConnect-NHSDataDictionary-PersonStatedGender-1.html">NHS Data Model and Dictionary Person Stated Gender Code</a> </td><td><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
+<tr><td><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonStatedGender-1.html">NHS Data Model and Dictionary Person Stated Gender Code</a> </td><td><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>
 </td></tr>
-<tr><td><a href="CareConnect-NHSNumberVerificationStatus-1.html">Care Connect NHS Number Verification Status</a> </td><td><p>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>
+<tr><td><a href="CodeSystem-CareConnect-NHSNumberVerificationStatus-1.html">Care Connect NHS Number Verification Status</a> </td><td><p>A CodeSystem that identifies the trace status of the NHS number. This CodeSystem is comprised of codes from the NHS Data Model and Dictionary: NHS Number Status Indicator Code.</p>
 </td></tr>
-<tr><td><a href="CareConnect-OutcomeOfAttendance-1.html">NHS Data Model and Dictionary Outcome of Attendance</a> </td><td><p>This records the outcome of an Out-Patient Attendance Consultant.</p>
+<tr><td><a href="CodeSystem-CareConnect-OutcomeOfAttendance-1.html">NHS Data Model and Dictionary Outcome of Attendance</a> </td><td><p>This records the outcome of an Out-Patient Attendance Consultant.</p>
 </td></tr>
-<tr><td><a href="CareConnect-PDS-PersonNameType-1.html">PDS Person Name Type</a> </td><td><p>A code to identify the type of a name of a Person.</p>
+<tr><td><a href="CodeSystem-CareConnect-PDS-PersonNameType-1.html">PDS Person Name Type</a> </td><td><p>A code to identify the type of a name of a Person.</p>
 </td></tr>
-<tr><td><a href="CareConnect-PrescribedElsewhere-1.html">Care Connect Prescribed Elsewhere</a> </td><td><p>A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</p>
+<tr><td><a href="CodeSystem-CareConnect-PrescribedElsewhere-1.html">Care Connect Prescribed Elsewhere</a> </td><td><p>A CodeSystem to identify the type of organisation/setting responsible for authorising and issuing medication outside of a GP system.</p>
 </td></tr>
-<tr><td><a href="CareConnect-PrescriptionType-1.html">Care Connect Prescription Type</a> </td><td><p>A CodeSystem to identify the type of prescription</p>
+<tr><td><a href="CodeSystem-CareConnect-PrescriptionType-1.html">Care Connect Prescription Type</a> </td><td><p>A CodeSystem to identify the type of prescription</p>
 </td></tr>
-<tr><td><a href="CareConnect-ProblemSignificance-1.html">Care Connect Problem Significance</a> </td><td><p>A CodeSystem to record the significance of a Problem Header Condition.</p>
+<tr><td><a href="CodeSystem-CareConnect-ProblemSignificance-1.html">Care Connect Problem Significance</a> </td><td><p>A CodeSystem to record the significance of a Problem Header Condition.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ReferralRequestMethod-1.html">Care Connect Referral Request Method</a> </td><td><p>A CodeSystem to identify the form in which a referral is sent and received.</p>
+<tr><td><a href="CodeSystem-CareConnect-ReferralRequestMethod-1.html">Care Connect Referral Request Method</a> </td><td><p>A CodeSystem to identify the form in which a referral is sent and received.</p>
 </td></tr>
-<tr><td><a href="CareConnect-RegistrationStatus-1.html">Care Connect Registration Status</a> </td><td><p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p>
+<tr><td><a href="CodeSystem-CareConnect-RegistrationStatus-1.html">Care Connect Registration Status</a> </td><td><p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p>
 </td></tr>
-<tr><td><a href="CareConnect-RegistrationType-1.html">Care Connect Registration Type</a> </td><td><p>A CodeSystem that identifies the type of registration for a patient at a healthcare organisation.</p>
+<tr><td><a href="CodeSystem-CareConnect-RegistrationType-1.html">Care Connect Registration Type</a> </td><td><p>A CodeSystem that identifies the type of registration for a patient at a healthcare organisation.</p>
 </td></tr>
-<tr><td><a href="CareConnect-ResidentialStatus-1.html">Care Connect Residential Status</a> </td><td><p>A CodeSystem that identifies the residential status of a patient.</p>
+<tr><td><a href="CodeSystem-CareConnect-ResidentialStatus-1.html">Care Connect Residential Status</a> </td><td><p>A CodeSystem that identifies the residential status of a patient.</p>
 </td></tr>
-<tr><td><a href="CareConnect-SDSJobRoleName-1.html">Care Connect SDS Job Role Name</a> </td><td><p>A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>
+<tr><td><a href="CodeSystem-CareConnect-SDSJobRoleName-1.html">Care Connect SDS Job Role Name</a> </td><td><p>A CodeSystem that identifies the job role associated with the person on the smart card. This consists of a set of Role Based Access Control (RBAC) codes. This code list is externally maintained.</p>
 </td></tr>
-<tr><td><a href="CareConnect-SourceOfAdmission-1.html">NHS Data Model and Dictionary Source Of Admission</a> </td><td><p>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</p>
+<tr><td><a href="CodeSystem-CareConnect-SourceOfAdmission-1.html">NHS Data Model and Dictionary Source Of Admission</a> </td><td><p>The source of admission to a Hospital Provider Spell or a Nursing Episode when the Patient is in a Hospital Site or a Care Home.</p>
 </td></tr>
-<tr><td><a href="CareConnect-TreatmentCategory-1.html">Care Connect Treatment Category</a> </td><td><p>A CodeSystem that identifies the treatment category for this patient.</p>
+<tr><td><a href="CodeSystem-CareConnect-TreatmentCategory-1.html">Care Connect Treatment Category</a> </td><td><p>A CodeSystem that identifies the treatment category for this patient.</p>
 </td></tr>
 
 
@@ -233,15 +238,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 13, 2019 15:26+0000">2019-12-13</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Dec 14, 2019 09:10+0000">2019-12-14</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

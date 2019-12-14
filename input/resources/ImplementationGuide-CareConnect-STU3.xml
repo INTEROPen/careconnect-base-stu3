@@ -710,6 +710,13 @@
       </resource>
       <resource>
          <reference>
+            <reference value="StructureDefinition/CareConnect-MedicationAdministration-1"></reference>
+         </reference>
+         <name value="MedicationAdministration-1"></name>
+         <groupingId value="uk-base"></groupingId>
+      </resource>
+      <resource>
+         <reference>
             <reference value="ValueSet/CareConnect-MedicationDosageRoute-1"></reference>
          </reference>
          <name value="MedicationDosageRoute-1"></name>

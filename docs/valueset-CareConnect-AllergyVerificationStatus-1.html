@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
   
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -34,11 +37,11 @@
   </head>
   <body>
 
-
-    <style type="text/css">h2{--heading-prefix:"11.99"}
-    h3,h4,h5,h6{--heading-prefix:"11.99"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.100"}
+    h3,h4,h5,h6{--heading-prefix:"11.100"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
+        
         <div id="hl7-nav">
           <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/STU3/">
             <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
@@ -50,7 +53,9 @@
         <div id="hl7-search">
           <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
         </div>
-        <div id="hl7-status">
+
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
       </div>   <!-- /container -->
@@ -135,8 +140,8 @@
           <div class="inner-wrapper">
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <a name="vs"> </a>
-  <h2 id="vs">Value Set /ValueSet/CareConnect-AllergyVerificationStatus-1</h2>
+  <a name="root"> </a>
+  <h2 id="root">AllergyVerificationStatus-1</h2>
   
   
   <p>
@@ -147,20 +152,21 @@
  <tbody><tr><td>Defining URL:</td><td>https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1</td></tr>
  <tr><td>Version:</td><td>3.0.0</td></tr>
  <tr><td>Name:</td><td>AllergyIntoleranceVerificationStatus</td></tr>
+ <tr><td>Status:</td><td>Active</td></tr>
  <tr><td>Definition:</td><td><p>Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.</p>
 </td></tr>
  <tr><td>Publisher:</td><td>INTEROpen</td></tr>
- <tr><td>OID:</td><td>2.16.840.1.113883.4.642.3.115(for OID based terminology systems)</td></tr>
+ <tr><td>OID:</td><td>2.16.840.1.113883.4.642.3.115 (for OID based terminology systems)</td></tr>
  <tr><td>Copyright:</td><td><p>Copyright &copy; HL7.org 2011+</p>
 </td></tr>
- <tr><td><a name="2f5aa197-f457-464d-855c-f4194f0b079c">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>3</td></tr>
- <tr><td>Source Resource:</td><td><a href="valueset-CareConnect-AllergyVerificationStatus-1.xml.html">XML</a> / <a href="valueset-CareConnect-AllergyVerificationStatus-1.json.html">JSON</a> / <a href="valueset-CareConnect-AllergyVerificationStatus-1.ttl.html">Turtle</a></td></tr>
+ <tr><td><a name="f682e308-4d23-4186-9f81-944fd51b1e7e">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>3</td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-AllergyVerificationStatus-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-AllergyVerificationStatus-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-AllergyVerificationStatus-1.ttl.html">Turtle</a></td></tr>
 </tbody></table>
 
   
   
 <ul>
- <li><a href="CareConnect-AllergyIntolerance-1.html">CareConnect-AllergyIntolerance-1</a></li>
+ <li><a href="StructureDefinition-CareConnect-AllergyIntolerance-1.html">CareConnect-AllergyIntolerance-1</a></li>
 </ul>
 
 
@@ -221,15 +227,16 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 13, 2019 15:26+0000">2019-12-13</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Dec 14, 2019 09:10+0000">2019-12-14</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
                  <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
                    <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
+                 <a style="color: #81BEF7" href="http://hl7.org/fhir-issues" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
+
           </span>
         </p>
       </div>    <!-- /inner-wrapper -->

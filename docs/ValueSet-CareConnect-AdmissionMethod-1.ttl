@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "CareConnect-AdmissionMethod-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Admission Method</h2><div><p>The method of admission to a Hospital Provider Spell.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-AdmissionMethod-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Admission Method</h2><div><p>The method of admission to a Hospital Provider Spell.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CareConnect-AdmissionMethod-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1</code></a></li></ul></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;

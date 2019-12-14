@@ -3,7 +3,7 @@
   "id": "CareConnect-NHSDataDictionary-PersonMaritalStatus-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Person Marital Status Code</h2><div><p>An indicator to identify the legal marital status of a Person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Person Marital Status Code</h2><div><p>An indicator to identify the legal marital status of a Person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></li></ul></div>"
   },
   "extension": [
     {

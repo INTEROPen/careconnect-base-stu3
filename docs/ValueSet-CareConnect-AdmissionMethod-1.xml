@@ -4,7 +4,7 @@
   <id value="CareConnect-AdmissionMethod-1"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Admission Method</h2><div><p>The method of admission to a Hospital Provider Spell.</p>
-</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-AdmissionMethod-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1</code></a></li></ul></div>
+</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-CareConnect-AdmissionMethod-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-AdmissionMethod-1</code></a></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
     <valueUri value="http://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/admission_method_de.asp?shownav=1"/>

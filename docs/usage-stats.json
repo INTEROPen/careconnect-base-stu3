@@ -1930,6 +1930,12 @@
         "title": "CareConnect-Medication-1"
       }
     ],
+    "MedicationAdministration": [
+      {
+        "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationAdministration-1",
+        "title": "CareConnect-MedicationAdministration-1"
+      }
+    ],
     "MedicationDispense": [
       {
         "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationDispense-1",
@@ -2246,6 +2252,7 @@
       "Immunization.vaccinationProtocol.targetDisease.coding",
       "Medication.code.coding",
       "Medication.form.coding",
+      "MedicationAdministration.dosage.route.coding",
       "MedicationRequest.dosageInstruction.additionalInstruction.coding",
       "MedicationRequest.dosageInstruction.route.coding",
       "MedicationStatement.dosage.route.coding",

@@ -9,7 +9,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: organization-2</p><p><b>meta</b>: </p><p><b>identifier</b>: C81010</p><p><b>active</b>: true</p><p><b>name</b>: The Moir Medical Centre</p><p><b>telecom</b>: ph: 0115 9737320(WORK)</p><p><b>address</b>: The Moir Medical Centre Regent Street, Long Eaton Nottingham Nottingham NG10 1QQ (WORK)</p><p><b>partOf</b>: <a href=\"{{[id]}}.html\">Nhs Erewash Ccg. Generated Summary: id: organization-3; 03X; active; name: Nhs Erewash Ccg</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: organization-2</p><p><b>meta</b>: </p><p><b>identifier</b>: C81010</p><p><b>active</b>: true</p><p><b>name</b>: The Moir Medical Centre</p><p><b>telecom</b>: ph: 0115 9737320(WORK)</p><p><b>address</b>: The Moir Medical Centre Regent Street, Long Eaton Nottingham Nottingham NG10 1QQ (WORK)</p><p><b>partOf</b>: <a href=\"{{[type]}}-{{[id]}}.html\">Nhs Erewash Ccg. Generated Summary: id: organization-3; 03X; active; name: Nhs Erewash Ccg</a></p></div>"
   },
   "identifier": [
     {

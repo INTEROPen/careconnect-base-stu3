@@ -18,6 +18,9 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +37,11 @@
   </head>
   <body>
 
-
     <style type="text/css">h2{--heading-prefix:"4"}
     h3,h4,h5,h6{--heading-prefix:"4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+        
         <div id="hl7-nav">
           <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
@@ -50,7 +53,9 @@
         <div id="hl7-search">
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
-        <div id="hl7-status">
+
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
@@ -154,97 +159,97 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="care-connect-extensions">Care Connect Extensions</h3>
 
-<tr><td><a href="extension-Extension-CareConnect-ActualProblem-1.html">Extension-CareConnect-ActualProblem-1</a> </td><td><p>A reference to a Condition, Observation, FamilyMemberHistory, or AllergyIntolerance that is the actual problem.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ActualProblem-1.html">Extension-CareConnect-ActualProblem-1</a> </td><td><p>A reference to a Condition, Observation, FamilyMemberHistory, or AllergyIntolerance that is the actual problem.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-AdmissionMethod-1.html">Extension-CareConnect-AdmissionMethod-1</a> </td><td><p>Extension-CareConnect-AdmissionMethod-1</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-AdmissionMethod-1.html">Extension-CareConnect-AdmissionMethod-1</a> </td><td><p>Extension-CareConnect-AdmissionMethod-1</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-AllergyIntoleranceEnd-1.html">Extension-CareConnect-AllergyIntoleranceEnd-1</a> </td><td><p>Supports the date and reason that the allergy was no longer valid.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-AllergyIntoleranceEnd-1.html">Extension-CareConnect-AllergyIntoleranceEnd-1</a> </td><td><p>Supports the date and reason that the allergy was no longer valid.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-AllergySeverity-1.html">Extension-CareConnect-AllergySeverity-1</a> </td><td><p>This Extension resource is constrained to support a coded severity of the allergy/intolerance.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-AllergySeverity-1.html">Extension-CareConnect-AllergySeverity-1</a> </td><td><p>This Extension resource is constrained to support a coded severity of the allergy/intolerance.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-AnaestheticIssues-1.html">Extension-CareConnect-AnaestheticIssues-1</a> </td><td><p>An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-AnaestheticIssues-1.html">Extension-CareConnect-AnaestheticIssues-1</a> </td><td><p>An Extension to record details of any adverse reaction to any anaesthetic agents including local anaesthesia. Problematic intubation, transfusion reaction, etc.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-CareSettingType-1.html">Extension-CareConnect-CareSettingType-1</a> </td><td><p>Extension for a Care Setting which provides the originating care setting for the document.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-CareSettingType-1.html">Extension-CareConnect-CareSettingType-1</a> </td><td><p>Extension for a Care Setting which provides the originating care setting for the document.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ClinicalSetting-1.html">Extension-CareConnect-ClinicalSetting-1</a> </td><td><p>An extension to record the clinical setting of a problem list.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ClinicalSetting-1.html">Extension-CareConnect-ClinicalSetting-1</a> </td><td><p>An extension to record the clinical setting of a problem list.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-coding-sctdescid.html">Extension-coding-sctdescid</a> </td><td><p>This Extension resource is constrained to support SNOMED CT Description ID for the display.</p>
+<tr><td><a href="StructureDefinition-Extension-coding-sctdescid.html">Extension-coding-sctdescid</a> </td><td><p>This Extension resource is constrained to support SNOMED CT Description ID for the display.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ConditionEpisode-1.html">Extension-CareConnect-ConditionEpisode-1</a> </td><td><p>The episodicity status of a condition.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ConditionEpisode-1.html">Extension-CareConnect-ConditionEpisode-1</a> </td><td><p>The episodicity status of a condition.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-DateRecorded-1.html">Extension-CareConnect-DateRecorded-1</a> </td><td><p>This Extension resource is constrained to support the date that an event was recorded on the system.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-DateRecorded-1.html">Extension-CareConnect-DateRecorded-1</a> </td><td><p>This Extension resource is constrained to support the date that an event was recorded on the system.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-DeathNotificationStatus-1.html">Extension-CareConnect-DeathNotificationStatus-1</a> </td><td><p>This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-DeathNotificationStatus-1.html">Extension-CareConnect-DeathNotificationStatus-1</a> </td><td><p>This extension is constrained to represent a patient’s death notification (as held on Personal Demographics Service (PDS)).</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-DischargeMethod-1.html">Extension-CareConnect-DischargeMethod-1</a> </td><td><p>An extension to the Encounter resource to record the method of discharge from hospital.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-DischargeMethod-1.html">Extension-CareConnect-DischargeMethod-1</a> </td><td><p>An extension to the Encounter resource to record the method of discharge from hospital.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-EmergencyCareDischargeStatus-1.html">Extension-CareConnect-EmergencyCareDischargeStatus-1</a> </td><td><p>An extension to the Encounter resource which is used indicate the status of the Patient on discharge from an Emergency Care Department.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-EmergencyCareDischargeStatus-1.html">Extension-CareConnect-EmergencyCareDischargeStatus-1</a> </td><td><p>An extension to the Encounter resource which is used indicate the status of the Patient on discharge from an Emergency Care Department.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-EncounterTransport-1.html">Extension-CareConnect-EncounterTransport-1</a> </td><td><p>An extension to the Encounter resource to include the Transport used by the subject for an encounter.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-EncounterTransport-1.html">Extension-CareConnect-EncounterTransport-1</a> </td><td><p>An extension to the Encounter resource to include the Transport used by the subject for an encounter.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-EthnicCategory-1.html">Extension-CareConnect-EthnicCategory-1</a> </td><td><p>This extension is constrained to represent the ethnic category for a patient.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-EthnicCategory-1.html">Extension-CareConnect-EthnicCategory-1</a> </td><td><p>This extension is constrained to represent the ethnic category for a patient.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-Evidence-1.html">Extension-CareConnect-Evidence-1</a> </td><td><p>This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-Evidence-1.html">Extension-CareConnect-Evidence-1</a> </td><td><p>This Extension resource is constrained to support a reference to results of investigations that confirmed the certainty of the diagnosis. Examples might include results of skin prick allergy tests.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-FastingStatus-1.html">Extension-CareConnect-FastingStatus-1</a> </td><td><p>This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-FastingStatus-1.html">Extension-CareConnect-FastingStatus-1</a> </td><td><p>This Extension resource is constrained to support a code value to support the fasting status of the patient at the time the specimen was collected.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ListWarningCode-1.html">Extension-CareConnect-ListWarningCode-1</a> </td><td><p>This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ListWarningCode-1.html">Extension-CareConnect-ListWarningCode-1</a> </td><td><p>This extension is used to capture warnings that the list may be incomplete as data has been excluded due to confidentiality or may be missing due to data being in transit.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MainLocation-1.html">Extension-CareConnect-MainLocation-1</a> </td><td><p>This extension is constrained to represent a reference to the main location for an organization.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MainLocation-1.html">Extension-CareConnect-MainLocation-1</a> </td><td><p>This extension is constrained to represent a reference to the main location for an organization.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationChangeSummary-1.html">Extension-CareConnect-MedicationChangeSummary-1</a> </td><td><p>Indicates the change information of a medication item.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationChangeSummary-1.html">Extension-CareConnect-MedicationChangeSummary-1</a> </td><td><p>Indicates the change information of a medication item.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationFlagAssociation-1.html">Extension-CareConnect-MedicationFlagAssociation-1</a> </td><td><p>This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s).</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationFlagAssociation-1.html">Extension-CareConnect-MedicationFlagAssociation-1</a> </td><td><p>This Extension is used to specify the links between a MedicationFlag and its associated MedicationOrder/MedicationStatement resource(s).</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationQuantityText-1.html">Extension-CareConnect-MedicationQuantityText-1</a> </td><td><p>This Extension resource is constrained to support the textual representation of a medication structured quantity.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationQuantityText-1.html">Extension-CareConnect-MedicationQuantityText-1</a> </td><td><p>This Extension resource is constrained to support the textual representation of a medication structured quantity.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationRepeatInformation-1.html">Extension-CareConnect-MedicationRepeatInformation-1</a> </td><td><p>Indicates the specific repeat information of a medication item.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationRepeatInformation-1.html">Extension-CareConnect-MedicationRepeatInformation-1</a> </td><td><p>Indicates the specific repeat information of a medication item.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationStatementLastIssueDate-1.html">Extension-CareConnect-MedicationStatementLastIssueDate-1</a> </td><td><p>Indicates the date a prescription was last issued.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationStatementLastIssueDate-1.html">Extension-CareConnect-MedicationStatementLastIssueDate-1</a> </td><td><p>Indicates the date a prescription was last issued.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-MedicationStatusReason-1.html">Extension-CareConnect-MedicationStatusReason-1</a> </td><td><p>To record the reason the medication (plan or order) was stopped and the date this occurred.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-MedicationStatusReason-1.html">Extension-CareConnect-MedicationStatusReason-1</a> </td><td><p>To record the reason the medication (plan or order) was stopped and the date this occurred.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-NHSCommunication-1.html">Extension-CareConnect-NHSCommunication-1</a> </td><td><p>This extension is constrained to support the communication preferences for a resource in the NHS.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-NHSCommunication-1.html">Extension-CareConnect-NHSCommunication-1</a> </td><td><p>This extension is constrained to support the communication preferences for a resource in the NHS.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-NHSNumberVerificationStatus-1.html">Extension-CareConnect-NHSNumberVerificationStatus-1</a> </td><td><p>This extension is constrained to represent the NHS Number Verification Status.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-NHSNumberVerificationStatus-1.html">Extension-CareConnect-NHSNumberVerificationStatus-1</a> </td><td><p>This extension is constrained to represent the NHS Number Verification Status.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-NominatedPharmacy-1.html">Extension-CareConnect-NominatedPharmacy-1</a> </td><td><p>This extension is constrained to represent a patient's nominated pharmacy.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-NominatedPharmacy-1.html">Extension-CareConnect-NominatedPharmacy-1</a> </td><td><p>This extension is constrained to represent a patient's nominated pharmacy.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-OutcomeOfAttendance-1.html">Extension-CareConnect-OutcomeOfAttendance-1</a> </td><td><p>An extension to the Encounter resource to record the outcome of an Out-Patient attendance.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-OutcomeOfAttendance-1.html">Extension-CareConnect-OutcomeOfAttendance-1</a> </td><td><p>An extension to the Encounter resource to record the outcome of an Out-Patient attendance.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ParentPresent-1.html">Extension-CareConnect-ParentPresent-1</a> </td><td><p>This Extension resource is constrained to indicate whether a parent was present at the Immunization.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ParentPresent-1.html">Extension-CareConnect-ParentPresent-1</a> </td><td><p>This Extension resource is constrained to indicate whether a parent was present at the Immunization.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-PrescribedElsewhere-1.html">Extension-CareConnect-PrescribedElsewhere-1</a> </td><td><p>An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as &quot;self-prescribed&quot;.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-PrescribedElsewhere-1.html">Extension-CareConnect-PrescribedElsewhere-1</a> </td><td><p>An Extension to hold the type of organisation/setting responsible for authorising and issuing a medication outside of a GP system. If no prescription (e.g. OTC) then recorded as &quot;self-prescribed&quot;.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-PrescriptionType-1.html">Extension-CareConnect-PrescriptionType-1</a> </td><td><p>To record the type of prescription.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-PrescriptionType-1.html">Extension-CareConnect-PrescriptionType-1</a> </td><td><p>To record the type of prescription.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ProbabilityOfRecurrence-1.html">Extension-CareConnect-ProbabilityOfRecurrence-1</a> </td><td><p>This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ProbabilityOfRecurrence-1.html">Extension-CareConnect-ProbabilityOfRecurrence-1</a> </td><td><p>This Extension resource is constrained to support representation of the probability of the reaction (allergic, adverse, intolerant) occurring.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ProblemSignificance-1.html">Extension-CareConnect-ProblemSignificance-1</a> </td><td><p>An extension to record the significance of the problem header condition.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ProblemSignificance-1.html">Extension-CareConnect-ProblemSignificance-1</a> </td><td><p>An extension to record the significance of the problem header condition.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ReasonCondition-1.html">Extension-CareConnect-ReasonCondition-1</a> </td><td><p>The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ReasonCondition-1.html">Extension-CareConnect-ReasonCondition-1</a> </td><td><p>The reason why a resource was added/performed/given. This may be due to a Condition, may be coded entity of some type, or may simply be present as text.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-Recorder-1.html">Extension-CareConnect-Recorder-1</a> </td><td><p>This Extension is used to specify who recorded the event.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-Recorder-1.html">Extension-CareConnect-Recorder-1</a> </td><td><p>This Extension is used to specify who recorded the event.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-RegistrationDetails-1.html">Extension-CareConnect-RegistrationDetails-1</a> </td><td><p>This extension is constrained to represent the additional registration information for a patient.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-RegistrationDetails-1.html">Extension-CareConnect-RegistrationDetails-1</a> </td><td><p>This extension is constrained to represent the additional registration information for a patient.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-RelatedClinicalContent-1.html">Extension-CareConnect-RelatedClinicalContent-1</a> </td><td><p>An Extension to support a reference to any resource that provides related clinical content to the Condition.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-RelatedClinicalContent-1.html">Extension-CareConnect-RelatedClinicalContent-1</a> </td><td><p>An Extension to support a reference to any resource that provides related clinical content to the Condition.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-RelatedProblemHeader-1.html">Extension-CareConnect-RelatedProblemHeader-1</a> </td><td><p>A reference to another related problem header condition (target) whose relationship is defined by the relationship type code.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-RelatedProblemHeader-1.html">Extension-CareConnect-RelatedProblemHeader-1</a> </td><td><p>A reference to another related problem header condition (target) whose relationship is defined by the relationship type code.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ReligiousAffiliation-1.html">Extension-CareConnect-ReligiousAffiliation-1</a> </td><td><p>This extension is constrained to represent the religious affiliation for a patient.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ReligiousAffiliation-1.html">Extension-CareConnect-ReligiousAffiliation-1</a> </td><td><p>This extension is constrained to represent the religious affiliation for a patient.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ReferralRequestMethod-1.html">Extension-CareConnect-ReferralRequestMethod-1</a> </td><td><p>This extension is constrained to represent the method used to send or receive a Referral Request.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ReferralRequestMethod-1.html">Extension-CareConnect-ReferralRequestMethod-1</a> </td><td><p>This extension is constrained to represent the method used to send or receive a Referral Request.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ResidentialStatus-1.html">Extension-CareConnect-ResidentialStatus-1</a> </td><td><p>This extension is constrained to represent the residential status for a patient.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ResidentialStatus-1.html">Extension-CareConnect-ResidentialStatus-1</a> </td><td><p>This extension is constrained to represent the residential status for a patient.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-SourceOfReferral-1.html">Extension-CareConnect-SourceOfReferral-1</a> </td><td><p>This extension is constrained to represent the source of the referral of a Referral Request</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-SourceOfReferral-1.html">Extension-CareConnect-SourceOfReferral-1</a> </td><td><p>This extension is constrained to represent the source of the referral of a Referral Request</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-TreatmentCategory-1.html">Extension-CareConnect-TreatmentCategory-1</a> </td><td><p>This extension is constrained to represent the treatment category for a patient.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-TreatmentCategory-1.html">Extension-CareConnect-TreatmentCategory-1</a> </td><td><p>This extension is constrained to represent the treatment category for a patient.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-VaccinationProcedure-1.html">Extension-CareConnect-VaccinationProcedure-1</a> </td><td><p>An extension to hold an immunization procedure code.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-VaccinationProcedure-1.html">Extension-CareConnect-VaccinationProcedure-1</a> </td><td><p>An extension to hold an immunization procedure code.</p>
 </td></tr>
-<tr><td><a href="extension-Extension-CareConnect-ValueApproximation-1.html">Extension-CareConnect-ValueApproximation-1</a> </td><td><p>An code to indicate that a given value is only an approximation.</p>
+<tr><td><a href="StructureDefinition-Extension-CareConnect-ValueApproximation-1.html">Extension-CareConnect-ValueApproximation-1</a> </td><td><p>An code to indicate that a given value is only an approximation.</p>
 </td></tr>
 
 
@@ -259,15 +264,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 13, 2019 15:26+0000">2019-12-13</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Dec 14, 2019 09:10+0000">2019-12-14</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

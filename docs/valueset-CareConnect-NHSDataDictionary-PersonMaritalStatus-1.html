@@ -18,6 +18,9 @@
     <link href="assets/css/project.css" rel="stylesheet"/>
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,11 +37,11 @@
   </head>
   <body>
 
-
-    <style type="text/css">h2{--heading-prefix:"11.128"}
-    h3,h4,h5,h6{--heading-prefix:"11.128"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.129"}
+    h3,h4,h5,h6{--heading-prefix:"11.129"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+        
         <div id="hl7-nav">
           <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
@@ -50,7 +53,9 @@
         <div id="hl7-search">
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
-        <div id="hl7-status">
+
+
+        <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
@@ -135,8 +140,8 @@
           <div class="inner-wrapper">
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  <a name="vs"> </a>
-  <h2 id="vs">Value Set /ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</h2>
+  <a name="root"> </a>
+  <h2 id="root">NHSDataDictionary-PersonMaritalStatus-1</h2>
   
   
   <p>
@@ -147,12 +152,13 @@
  <tbody><tr><td>Defining URL:</td><td>https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</td></tr>
  <tr><td>Version:</td><td>3.0.0</td></tr>
  <tr><td>Name:</td><td>NHS Data Model and Dictionary Person Marital Status Code</td></tr>
+ <tr><td>Status:</td><td>Active</td></tr>
  <tr><td>Definition:</td><td><p>An indicator to identify the legal marital status of a Person.</p>
 </td></tr>
  <tr><td>Publisher:</td><td>INTEROpen</td></tr>
  <tr><td>Copyright:</td><td><p>Copyright © 2016 HL7 UK</p>
 </td></tr>
- <tr><td>Source Resource:</td><td><a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml.html">XML</a> / <a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.json.html">JSON</a> / <a href="valueset-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.ttl.html">Turtle</a></td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.ttl.html">Turtle</a></td></tr>
 </tbody></table>
 
   
@@ -164,13 +170,13 @@
   <h3 id="definition">Content Logical Definition</h3>
 
   <div xmlns="http://www.w3.org/1999/xhtml"><h2>NHS Data Model and Dictionary Person Marital Status Code</h2><div><p>An indicator to identify the legal marital status of a Person.</p>
-</div><p><b>Copyright Statement:</b> Copyright &copy; 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></li></ul></div>
+</div><p><b>Copyright Statement:</b> Copyright &copy; 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></li></ul></div>
   
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 6 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 version 3.0.0</p><p>All codes from system <a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S">S</a></td><td>Single</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M">M</a></td><td>Married/Civil Partner</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D">D</a></td><td>Divorced/Person whose Civil Partnership has been dissolved</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W">W</a></td><td>Widowed/Surviving Civil Partner</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P">P</a></td><td>Separated</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N"> </a><a href="CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N">N</a></td><td>Not disclosed</td><td/></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 6 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1 version 3.0.0</p><p>All codes from system <a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonMaritalStatus-1</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-S">S</a></td><td>Single</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-M">M</a></td><td>Married/Civil Partner</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-D">D</a></td><td>Divorced/Person whose Civil Partnership has been dissolved</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-W">W</a></td><td>Widowed/Surviving Civil Partner</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-P">P</a></td><td>Separated</td><td/></tr><tr><td style="white-space:nowrap"><a name="https---fhir.hl7.org.uk-STU3-CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N"> </a><a href="CodeSystem-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html#CareConnect-NHSDataDictionary-PersonMaritalStatus-1-N">N</a></td><td>Not disclosed</td><td/></tr></table></div>
 
   <hr/>
   <p>
@@ -217,15 +223,16 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 13, 2019 15:26+0000">2019-12-13</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Dec 14, 2019 09:10+0000">2019-12-14</span>
           <br/>
           <span style="color: #FFFF77">
-          Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->
