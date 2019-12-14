@@ -1123,10 +1123,6 @@
             <type>
                 <code value="uri"></code>
             </type>
-            <example>
-                <label value="General"></label>
-                <valueUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri"></valueUri>
-            </example>
             <condition value="ele-1"></condition>
             <constraint>
                 <key value="ele-1"></key>
