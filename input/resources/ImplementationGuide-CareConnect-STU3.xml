@@ -1,6 +1,6 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="Careconnect-Base"></id>
-   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"></url>
+   <id value="careconnect-base"></id>
+   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/careconnect-base"></url>
    <version value="3.0.0"/>
    <name value="CareConnect Implementation Guide"></name>
    <title value="INTEROPen CareConnect Base STU3 Implementation Guide"></title>
