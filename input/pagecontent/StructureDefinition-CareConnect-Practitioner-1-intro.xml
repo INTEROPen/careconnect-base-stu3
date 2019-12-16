@@ -5,14 +5,14 @@
     <h3 id="identifiers">Identifiers</h3>
     <p>These definitions represent common data held in the Practitioner.identifier element:</p>
     <ul>
-        <li><a href="uk-gmc-number.html">GMC Number</a></li>
-        <li><a href="uk-gmp-number.html">GMP Number</a></li>
-        <li><a href="sds-user-id.html">SDS User ID</a></li>
+        <li><a href="NamingSystem-uk-gmc-number.html">GMC Number</a></li>
+        <li><a href="NamingSystem-uk-gmp-number.html">GMP Number</a></li>
+        <li><a href="NamingSystem-sds-user-id.html">SDS User ID</a></li>
     </ul>
     <h3>Examples</h3>
     <p></p>
-    <p><a href="practitioner-4.html">General Practitioner with GMC Code Identifier</a></p>
-    <p><a href="practitioner-3.html">Consultant with GMP Code Identifier</a></p>
+    <p><a href="Practitioner-practitioner-4.html">General Practitioner with GMC Code Identifier</a></p>
+    <p><a href="Practitioner-practitioner-3.html">Consultant with GMP Code Identifier</a></p>
 <!--
     <h2>Search Parameters (Recommended)</h2>
     <p>This implementation guide outlines some suggested search parameters for the Practitioner resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Practitioner resource

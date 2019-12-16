@@ -5,13 +5,13 @@
     <h3 id="identifiers">Identifiers</h3>
     <p>These definitions represent common data held in the Patient.identifier element:</p>
     <ul>
-        <li><a href="uk-nhs-number.html">NHS Number - England and Wales </a></li>
-        <li><a href="uk-chi-number.html">CHI Number - Scotland. Not yet specified</a></li>
+        <li><a href="NamingSystem-uk-nhs-number.html">NHS Number - England and Wales </a></li>
+        <li><a href="NamingSystem-uk-chi-number.html">CHI Number - Scotland. Not yet specified</a></li>
         <li>HSNi - Northern Ireland. Not yet specified</li>
     </ul>
     <h3>Examples</h3>
     <p></p>
-    <p><a href="patient-1.html">Patient with NHS Number and NHS Trust Identifier</a></p>
+    <p><a href="Patient-patient-1.html">Patient with NHS Number and NHS Trust Identifier</a></p>
 
    <!-- <h2>Search Parameters (Recommended)</h2>
 

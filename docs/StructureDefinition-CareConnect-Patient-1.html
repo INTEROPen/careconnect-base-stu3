@@ -117,7 +117,7 @@
     </ul>
   </li>
     <!-- <li><a href="examples.html">Examples</a></li> -->
-    <!-- <li><a href="artifacts.html">Artifact Index</a></li> -->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
 </ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
@@ -182,6 +182,112 @@
   </p>
   <pre>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1</pre>
 
+  
+  
+  
+  <div style="display:inline-block">
+  <div xmlns="http://www.w3.org/1999/xhtml" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<p>
+        This profile defines a patient administration details structure that includes core localisation concepts for use in a UK context.
+    </p>
+    <h3 id="identifiers">Identifiers</h3>
+    <p>These definitions represent common data held in the Patient.identifier element:</p>
+    <ul>
+        <li><a href="NamingSystem-uk-nhs-number.html">NHS Number - England and Wales </a></li>
+        <li><a href="NamingSystem-uk-chi-number.html">CHI Number - Scotland. Not yet specified</a></li>
+        <li>HSNi - Northern Ireland. Not yet specified</li>
+    </ul>
+    <h3>Examples</h3>
+    <p></p>
+    <p><a href="Patient-patient-1.html">Patient with NHS Number and NHS Trust Identifier</a></p>
+
+     <!-- <h2>Search Parameters (Recommended)</h2>
+
+    <p>This implementation guide outlines some suggested search parameters for the Patient resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Patient resource
+    </p>
+    <table style="min-width:100%;width:100%">
+        <tr id="clinical">
+            <th style="width:15%;">Name</th>
+            <th style="width:10%;">Type</th>
+            <th style="width:40%;">Description</th>
+            <th style="width:5%;">Conformance</th>
+            <th style="width:30%;">Path</th>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">address-postalcode</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A postalCode specified in an address</td>
+            <td>MAY</td>
+            <td>Patient.address.postalCode </td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">birthdate</code></td>
+            <td><code class="highlighter-rouge">date</code></td>
+            <td>The patient's date of birth</td>
+            <td>SHALL</td>
+            <td>Patient.birthDate</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">email</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>A value in an email contact</td>
+            <td>MAY</td>
+            <td>Patient.telecom (system=email)</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">family</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A portion of the family name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name.family</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">gender</code></td>
+            <td><code class="highlighter-rouge">token </code></td>
+            <td>Gender of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.gender</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">given</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A portion of the given name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name.given</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">identifier</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>A patient identifier (NHS Number, Hospital Number, etc)</td>
+            <td>SHALL</td>
+            <td>Patient.identifier</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">name </code></td>
+            <td><code class="highlighter-rouge">string </code></td>
+            <td>A portion of either family or given name of the patient</td>
+            <td>SHALL</td>
+            <td>Patient.name</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">phone </code></td>
+            <td><code class="highlighter-rouge">token </code></td>
+            <td>A value in a phone contact</td>
+            <td>MAY</td>
+            <td>Patient.telecom(system=phone)</td>
+        </tr>
+    </table>
+
+    <p>Client systems SHALL provide at least two parameters of differing types, unless searching on identifier where one parameter is permitted. Systems SHALL support the following search combinations:</p>
+
+    <ul>
+        <li>name + gender</li>
+        <li>name + birthdate</li>
+        <li>family + gender</li>
+        <li>given + gender</li>
+    </ul> -->
+</div>
+  </div>
   
   
     <!-- no uri -->
@@ -1621,7 +1727,7 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
     </div>
   </div>
   <p>&nbsp;</p>
-  <p><a name="fb8ff180-1be0-4696-ada3-3d66e0aeb6b8">​</a>Other representations of profile: <a href="StructureDefinition-CareConnect-Patient-1.sch">Schematron</a>
+  <p><a name="afb5a5a2-e8e5-4ac4-a0b8-bd7adfaa2938">​</a>Other representations of profile: <a href="StructureDefinition-CareConnect-Patient-1.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
   <h3 id="tx">Terminology Bindings</h3>
@@ -1733,7 +1839,7 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 16, 2019 21:37+0000">2019-12-16</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 16, 2019 23:06+0000">2019-12-16</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -117,7 +117,7 @@
     </ul>
   </li>
     <!-- <li><a href="examples.html">Examples</a></li> -->
-    <!-- <li><a href="artifacts.html">Artifact Index</a></li> -->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
 </ul>
             </div>    <!-- /.nav-collapse -->
           </div>    <!-- /.container -->
@@ -182,6 +182,55 @@
   </p>
   <pre>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1</pre>
 
+  
+  
+  
+  <div style="display:inline-block">
+  <div xmlns="http://www.w3.org/1999/xhtml" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <p>
+        This profile defines a practitioner administration details structure that includes core localisation concepts for use in a UK context.
+    </p>
+    <h3 id="identifiers">Identifiers</h3>
+    <p>These definitions represent common data held in the Practitioner.identifier element:</p>
+    <ul>
+        <li><a href="NamingSystem-uk-gmc-number.html">GMC Number</a></li>
+        <li><a href="NamingSystem-uk-gmp-number.html">GMP Number</a></li>
+        <li><a href="NamingSystem-sds-user-id.html">SDS User ID</a></li>
+    </ul>
+    <h3>Examples</h3>
+    <p></p>
+    <p><a href="Practitioner-practitioner-4.html">General Practitioner with GMC Code Identifier</a></p>
+    <p><a href="Practitioner-practitioner-3.html">Consultant with GMP Code Identifier</a></p>
+  <!-- <h2>Search Parameters (Recommended)</h2>
+    <p>This implementation guide outlines some suggested search parameters for the Practitioner resource in the table below. To be conformant, provider systems are required to implement all of the SHALL parameters. Provider systems may implement the full list of search parameters for the Practitioner resource
+    </p>
+    <table style="min-width:100%;width:100%">
+        <tr id="clinical">
+            <th style="width:15%;">Name</th>
+            <th style="width:10%;">Type</th>
+            <th style="width:40%;">Description</th>
+            <th style="width:5%;">Conformance</th>
+            <th style="width:30%;">Path</th>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">adddress-postcode</code></td>
+            <td><code class="highlighter-rouge">string</code></td>
+            <td>A postalCode specified in an address</td>
+            <td>MAY</td>
+            <td>Practitioner.address.postalCode</td>
+        </tr>
+        <tr>
+            <td><code class="highlighter-rouge">identifier</code></td>
+            <td><code class="highlighter-rouge">token</code></td>
+            <td>Any identifier for the practitioner (e.g. GMP/GMC code)</td>
+            <td>MAY</td>
+            <td>Practitioner.identifier</td>
+        </tr>
+    </table> -->
+</div>
+
+
+  </div>
   
   
     <!-- no uri -->
@@ -657,7 +706,7 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
     </div>
   </div>
   <p>&nbsp;</p>
-  <p><a name="c560914f-54f7-4714-9cc3-7f7935fea7ca">​</a>Other representations of profile: <a href="StructureDefinition-CareConnect-Practitioner-1.sch">Schematron</a>
+  <p><a name="4e28c820-d1e1-4d09-b8c3-f12e96026651">​</a>Other representations of profile: <a href="StructureDefinition-CareConnect-Practitioner-1.sch">Schematron</a>
   </p>
   <a name="tx"> </a>
   <h3 id="tx">Terminology Bindings</h3>
@@ -733,7 +782,7 @@ Not handled yet: complex extension https://fhir.hl7.org.uk/STU3/StructureDefinit
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 16, 2019 21:37+0000">2019-12-16</span>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 16, 2019 23:06+0000">2019-12-16</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
