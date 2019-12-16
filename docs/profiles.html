@@ -1,37 +1,37 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
     <title>CARECONNECT-BASE\Profiles - FHIR v3.0.2</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
   
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
       
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
   
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
 
-      <!-- Placeholder for child template CSS declarations -->
-    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
   
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
   
-      <!-- Favicons -->
-    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
   </head>
@@ -39,42 +39,42 @@
 
     <style type="text/css">h2{--heading-prefix:"3"}
     h3,h4,h5,h6{--heading-prefix:"3"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
         
         <div id="hl7-nav">
-          <a no-external="true" id="hl7-logo" href="http://hl7.org/fhir/STU3/">
-            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
           </a>
         </div>
         <div id="fhir-nav">
-          <a no-external="true" id="fhir-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="hl7-search">
-          <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir/search.cfm"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
 
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
     
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
     
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">CareConnect Implementation Guide</a></li>
@@ -116,26 +116,26 @@
       </li>
     </ul>
   </li>
-    <!-- <li><a href="examples.html">Examples</a></li> -->
-    <!-- <li><a href="artifacts.html">Artifact Index</a></li> -->
+  <!--<li><a href="examples.html">Examples</a></li>-->
+  <!--<li><a href="artifacts.html">Artifact Index</a></li>-->
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->  
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Profiles</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Profiles</b></li>
         </ul>  
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
     
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 <style type="text/css">
@@ -146,7 +146,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Profiles</h2>
   
   
@@ -170,23 +170,27 @@ and the examples ‘sandbox’ <a href="https://data.developer.nhs.uk/ccri">Care
       <th>Individuals</th>
       <th>Entities</th>
       <th>Management</th>
+      <th>Documents</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a name="247742c0-066a-4a25-ae4c-3d89842b202c">​</a><a href="CareConnect-Patient-1.html">Patient</a></td>
-      <td><a name="af794c8a-b784-4d4d-a3e7-4023c50bec10">​</a><a href="CareConnect-Location-1.html">Location</a></td>
-      <td><a name="ee0ff5e9-1150-4839-bfb3-f4a86035bbfb">​</a><a href="CareConnect-Encounter-1.html">Encounter</a></td>
+      <td><a href="StructureDefinition-CareConnect-Patient-1.html">Patient</a></td>
+      <td><a href="StructureDefinition-CareConnect-Location-1.html">Location</a></td>
+      <td><a href="StructureDefinition-CareConnect-Encounter-1.html">Encounter</a></td>
+      <td><a href="StructureDefinition-CareConnect-DocumentReference-1.html">DocumentReference</a></td>
     </tr>
     <tr>
-      <td><a name="d010acd4-e05c-4efd-b4ac-202803be2e80">​</a><a href="CareConnect-Practitioner-1.html">Practitioner</a></td>
-      <td><a name="d64baec8-9c08-48b6-9dc7-507f4ebb06ae">​</a><a href="CareConnect-Organization-1.html">Organisation</a></td>
-      <td><a name="6a31a477-b8f6-43f7-92c1-639de401f614">​</a><a href="CareConnect-Flag-1.html">Flag</a></td>
+      <td><a href="StructureDefinition-CareConnect-Practitioner-1.html">Practitioner</a></td>
+      <td><a href="StructureDefinition-CareConnect-Organization-1.html">Organisation</a></td>
+      <td><a href="StructureDefinition-CareConnect-Flag-1.html">Flag</a></td>
+      <td><a href="StructureDefinition-CareConnect-Composition-1.html">Composition</a></td>
     </tr>
     <tr>
-      <td><a name="2c13225c-de0d-4dff-9383-a7e41c9308c3">​</a><a href="CareConnect-PractitionerRole-1.html">PractitionerRole</a></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td><a href="StructureDefinition-CareConnect-PractitionerRole-1.html">PractitionerRole</a></td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
@@ -201,24 +205,24 @@ and the examples ‘sandbox’ <a href="https://data.developer.nhs.uk/ccri">Care
   </thead>
   <tbody>
     <tr>
-      <td><a name="1c691d53-9ace-4b99-8685-44701010297e">​</a><a href="CareConnect-AllergyIntolerance-1.html">AllergyIntolerance</a></td>
-      <td><a name="7c4f0db5-a769-40f7-a302-986ae9fe3404">​</a><a href="CareConnect-DiagnosticReport-1.html">DiagnosticReport</a></td>
-      <td><a name="a22c0cbc-8cd6-4356-b294-ce9b5b78043c">​</a><a href="CareConnect-Medication-1.html">Medication</a></td>
+      <td><a href="StructureDefinition-CareConnect-AllergyIntolerance-1.html">AllergyIntolerance</a></td>
+      <td><a href="StructureDefinition-CareConnect-DiagnosticReport-1.html">DiagnosticReport</a></td>
+      <td><a href="StructureDefinition-CareConnect-Medication-1.html">Medication</a></td>
     </tr>
     <tr>
-      <td><a name="a88048a1-cdbe-45aa-9248-1e93ddf9b328">​</a><a href="CareConnect-Condition-1.html">Condition</a></td>
-      <td><a name="616ac8fd-22a6-48c1-a098-2c490550f6a4">​</a><a href="CareConnect-Observation-1.html">Observation</a></td>
-      <td><a name="43708146-8f5c-4d02-9aa3-aaacbd62d611">​</a><a href="CareConnect-MedicationRequest-1.html">MedicationRequest</a></td>
+      <td><a href="StructureDefinition-CareConnect-Condition-1.html">Condition</a></td>
+      <td><a href="StructureDefinition-CareConnect-Observation-1.html">Observation</a></td>
+      <td><a href="StructureDefinition-CareConnect-MedicationRequest-1.html">MedicationRequest</a></td>
     </tr>
     <tr>
-      <td><a name="90ed433b-7bdb-4885-bc58-19e91b176146">​</a><a href="CareConnect-Procedure-1.html">Procedure</a></td>
-      <td>&nbsp;</td>
-      <td><a name="89d7e03a-d9e8-4078-a1af-5685ad464ecd">​</a><a href="CareConnect-MedicationStatement-1.html">MedicationStatement</a></td>
+      <td><a href="StructureDefinition-CareConnect-Procedure-1.html">Procedure</a></td>
+      <td><a href="StructureDefinition-CareConnect-Specimen-1.html">Specimen</a></td>
+      <td><a href="StructureDefinition-CareConnect-MedicationStatement-1.html">MedicationStatement</a></td>
     </tr>
     <tr>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td><a name="013ea86f-c49b-48c2-be2e-68413f4e228a">​</a><a href="CareConnect-Immunization-1.html">Immunisation</a></td>
+      <td> </td>
+      <td> </td>
+      <td><a href="StructureDefinition-CareConnect-Immunization-1.html">Immunisation</a></td>
     </tr>
   </tbody>
 </table>
@@ -235,28 +239,28 @@ and the examples ‘sandbox’ <a href="https://data.developer.nhs.uk/ccri">Care
   </thead>
   <tbody>
     <tr>
-      <td><a name="c51c038f-760a-4533-b566-d6ecfc9f6d7a">​</a><a href="CareConnect-ACVPU-Observation-1.html">ACVPU</a></td>
+      <td><a href="StructureDefinition-CareConnect-ACVPU-Observation-1.html">ACVPU</a></td>
     </tr>
     <tr>
-      <td><a name="eb0df2aa-ac39-4dfa-a07c-83af97083211">​</a><a href="CareConnect-BloodPressure-Observation-1.html">Blood Pressure</a></td>
+      <td><a href="StructureDefinition-CareConnect-BloodPressure-Observation-1.html">Blood Pressure</a></td>
     </tr>
     <tr>
-      <td><a name="34af9fd4-a38d-4e2e-92ca-02c7835c7138">​</a><a href="CareConnect-HeartRate-Observation-1.html">Heart Rate</a></td>
+      <td><a href="StructureDefinition-CareConnect-HeartRate-Observation-1.html">Heart Rate</a></td>
     </tr>
     <tr>
-      <td><a name="fc760e0a-0765-49e6-bb56-811f8f2c91bc">​</a><a href="CareConnect-InspiredOxygen-Observation-1.html">Inspired Oxygen</a></td>
+      <td><a href="StructureDefinition-CareConnect-InspiredOxygen-Observation-1.html">Inspired Oxygen</a></td>
     </tr>
     <tr>
-      <td><a name="736ee966-3a3e-4ea1-afa7-aaa6e861ca57">​</a><a href="CareConnect-OxygenSaturation-Observation-1.html">Oxygen Saturation</a></td>
+      <td><a href="StructureDefinition-CareConnect-OxygenSaturation-Observation-1.html">Oxygen Saturation</a></td>
     </tr>
     <tr>
-      <td><a name="f283bcae-06f2-4514-8693-e2bf82604dfe">​</a><a href="CareConnect-RespiratoryRate-Observation-1.html">Respiratory Rate</a></td>
+      <td><a href="StructureDefinition-CareConnect-RespiratoryRate-Observation-1.html">Respiratory Rate</a></td>
     </tr>
     <tr>
-      <td><a name="d056236b-6875-4c14-93ed-ab00583cf4ef">​</a><a href="CareConnect-Subscore-Observation-1.html">Sub Score</a></td>
+      <td><a href="StructureDefinition-CareConnect-Subscore-Observation-1.html">Sub Score</a></td>
     </tr>
     <tr>
-      <td><a name="8342ad97-ba3e-4b18-8300-f8a71f60364a">​</a><a href="CareConnect-VitalSigns-Observation-1.html">Vital Signs</a></td>
+      <td><a href="StructureDefinition-CareConnect-VitalSigns-Observation-1.html">Vital Signs</a></td>
     </tr>
   </tbody>
 </table>
@@ -356,50 +360,50 @@ and the examples ‘sandbox’ <a href="https://data.developer.nhs.uk/ccri">Care
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
 
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"></a>INTEROpen.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Dec 14, 2019 09:10+0000">2019-12-14</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Mon, Dec 16, 2019 21:37+0000">2019-12-16</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" href="https://fhir.hl7.org.uk/STU3/history.html" target="_blank">Version History <img src="external.png" alt="external" style="vertical-align: baseline"/></a> |
-                 <a rel="license" style="color: #81BEF7" href="http://hl7.org/fhir/STU3/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
-                   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" href="http://hl7.org/fhir-issues" target="_blank">Propose a change <img src="external.png" alt="external" style="vertical-align: baseline"/></a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
 
           </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/fhir.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
   </body>
 </html>

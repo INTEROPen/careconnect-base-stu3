@@ -3,14 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="Careconnect-Base"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base</pre><div><p>Care Connect STU3 Base Implementation Guide</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/Careconnect-Base</pre><div><p>Care Connect STU3 Base Implementation Guide</p>
 </div></div>
   </text>
-  <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"/>
+  <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/Careconnect-Base"/>
   <version value="3.0.0"/>
   <name value="CareConnect Implementation Guide"/>
   <status value="draft"/>
-  <date value="2019-12-14T09:10:56+00:00"/>
+  <date value="2019-12-16T21:37:57+00:00"/>
   <publisher value="INTEROpen"/>
   <contact>
     <telecom>

@@ -108,7 +108,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
 "
 "MedicationAdministration.identifier.system","","","",0,1,"","","Y","uri {[]} {[]}
-","The namespace for the identifier value","Establishes the namespace for the value - that is, a URL that describes a set values that are unique.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers.","","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri""/>","","",,,,,"",,,,"Identifier.system",0,1,"ele-1
+","The namespace for the identifier value","Establishes the namespace for the value - that is, a URL that describes a set values that are unique.","see http://en.wikipedia.org/wiki/Uniform_resource_identifier","There are many sets  of identifiers.  To perform matching of two identifiers, we need to know what set we're dealing with. The system identifies a particular set of unique identifiers.","","","","","","","",,,,,"",,,,"Identifier.system",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() | (children().count() > id.count())}
 "
 "MedicationAdministration.identifier.value","","","",0,1,"","","Y","string {[]} {[]}

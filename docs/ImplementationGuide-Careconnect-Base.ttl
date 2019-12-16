@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "Careconnect-Base"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base</pre><div><p>Care Connect STU3 Base Implementation Guide</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CareConnect Implementation Guide</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.hl7.org.uk/STU3/ImplementationGuide/Careconnect-Base</pre><div><p>Care Connect STU3 Base Implementation Guide</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"];
+  fhir:ImplementationGuide.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ImplementationGuide/Careconnect-Base"];
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-14T09:10:56+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-16T21:37:57+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "INTEROpen"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
