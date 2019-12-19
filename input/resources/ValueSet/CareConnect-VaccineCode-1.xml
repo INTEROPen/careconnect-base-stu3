@@ -102,25 +102,4 @@
          </filter>
       </include>
    </compose>
-   <expansion>
-      <identifier value="de2f2b24-36c7-46f7-a42e-f580827fa161"></identifier>
-      <timestamp value="2019-12-11T16:50:36+00:00"></timestamp>
-      <total value="0"></total>
-      <parameter>
-         <name value="version"></name>
-         <valueUri value="http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11"></valueUri>
-      </parameter>
-      <parameter>
-         <name value="version"></name>
-         <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"></valueUri>
-      </parameter>
-      <parameter>
-         <name value="count"></name>
-         <valueInteger value="2147483647"></valueInteger>
-      </parameter>
-      <parameter>
-         <name value="offset"></name>
-         <valueInteger value="0"></valueInteger>
-      </parameter>
-   </expansion>
 </ValueSet>
