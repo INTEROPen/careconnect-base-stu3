@@ -8,7 +8,7 @@
             "version": "3.0.0",
             "fhirversion": "3.0.2",
             "desc": "Continuous Integration Build (latest in version control)",
-            "path": "https://fhir.hl7.org.uk/STU3",
+            "path": "http://build.fhir.org/ig/INTEROPen/careconnect-base-stu3",
             "status": "ci-build",
             "current": true
         },
@@ -17,7 +17,7 @@
             "fhirversion": "3.0.2",
             "date": "2019-12-05",
             "desc": "Initial Draft (Dec 2019)",
-            "path": "https://fhir.hl7.org.uk/STU3",
+            "path": "https://interopen.github.io/careconnect-base-stu3/",
             "status": "draft",
             "current": true,
             "sequence": "STU3"
