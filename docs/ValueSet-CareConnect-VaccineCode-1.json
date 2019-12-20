@@ -91,28 +91,5 @@
         ]
       }
     ]
-  },
-  "expansion": {
-    "identifier": "de2f2b24-36c7-46f7-a42e-f580827fa161",
-    "timestamp": "2019-12-11T16:50:36+00:00",
-    "total": 0,
-    "parameter": [
-      {
-        "name": "version",
-        "valueUri": "http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11"
-      },
-      {
-        "name": "version",
-        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
-      },
-      {
-        "name": "count",
-        "valueInteger": 2147483647
-      },
-      {
-        "name": "offset",
-        "valueInteger": 0
-      }
-    ]
   }
 }

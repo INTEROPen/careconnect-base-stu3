@@ -91,28 +91,6 @@
          fhir:ValueSet.compose.include.filter.value [ fhir:value "NA" ]
        ]
      ]
-  ];
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.identifier [ fhir:value "de2f2b24-36c7-46f7-a42e-f580827fa161" ];
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:36+00:00"^^xsd:dateTime ];
-     fhir:ValueSet.expansion.total [ fhir:value "0"^^xsd:integer ];
-     fhir:ValueSet.expansion.parameter [
-       fhir:index 0;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://hl7.org/fhir/v3/NullFlavor?version=2016-11-11" ]
-     ], [
-       fhir:index 1;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
-       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
-     ], [
-       fhir:index 2;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
-       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
-     ], [
-       fhir:index 3;
-       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
-       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
-     ]
   ] .
 
 # - ontology header ------------------------------------------------------------
