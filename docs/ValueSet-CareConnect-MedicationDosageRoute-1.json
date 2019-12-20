@@ -1,0 +1,473 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-MedicationDosageRoute-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Medication Dosage Route</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where concept  in  999000051000001100 \n            </li> \n         </ul> \n      </div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1",
+  "version": "3.0.0",
+  "name": "Care Connect Medication Dosage Route",
+  "status": "draft",
+  "date": "2018-11-01T00:00:00+00:00",
+  "publisher": "INTEROpen",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "https://interopen.ryver.com/"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "999000051000001100"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "9bb08ae5-182f-4dfb-9cfd-0e588c2442a4",
+    "timestamp": "2019-12-11T16:50:32+00:00",
+    "total": 80,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372475000",
+        "display": "Perineural"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372476004",
+        "display": "Subconjunctival"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11564311000001109",
+        "display": "Regional perfusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372451000",
+        "display": "Endosinusial"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418730005",
+        "display": "Nasojejunal route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372458006",
+        "display": "Intraamniotic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418586008",
+        "display": "Intratendinous route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "404815008",
+        "display": "Transmucosal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372459003",
+        "display": "Intrabursal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3594011000001102",
+        "display": "Route of administration not applicable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418321004",
+        "display": "Retrobulbar route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372453002",
+        "display": "Extraamniotic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54471007",
+        "display": "Buccal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372450004",
+        "display": "Endocervical"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418821007",
+        "display": "Intracameral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372468001",
+        "display": "Intraocular"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372457001",
+        "display": "Gingival"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "6064005",
+        "display": "Topical"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "26643006",
+        "display": "Oral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18679011000001101",
+        "display": "Inhalation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372460008",
+        "display": "Intracardiac"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9191501000001101",
+        "display": "Percutaneous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "47625008",
+        "display": "Intravenous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11564211000001101",
+        "display": "Submucosal rectal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372449004",
+        "display": "Dental"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10364101000001103",
+        "display": "Subdermal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19537211000001108",
+        "display": "Intracervical route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62226000",
+        "display": "Intrauterine"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372464004",
+        "display": "Intradermal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372463005",
+        "display": "Intracoronary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "58100008",
+        "display": "Intraarterial"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "417255000",
+        "display": "Intraosseous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10547007",
+        "display": "Ear"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "72607000",
+        "display": "Intrathecal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372466002",
+        "display": "Intralesional"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372452007",
+        "display": "Endotracheopulmonary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10334211000001103",
+        "display": "Haemofiltration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447122006",
+        "display": "Intratumoral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372461007",
+        "display": "Intracavernous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419874009",
+        "display": "Submucosal route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "90028008",
+        "display": "Urethral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9191401000001100",
+        "display": "Haemodiafiltration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18246711000001107",
+        "display": "Epilesional"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "417946008",
+        "display": "Pericardial route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418401004",
+        "display": "Intravitreal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "38239002",
+        "display": "Intraperitoneal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21856811000001103",
+        "display": "Iontophoresis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372470005",
+        "display": "Intrasternal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "15881211000001104",
+        "display": "Intraepidermal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "45890007",
+        "display": "Transdermal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420719007",
+        "display": "Intracerebroventricular"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372471009",
+        "display": "Intravesical"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "46713006",
+        "display": "Nasal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16857009",
+        "display": "Vaginal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33770711000001104",
+        "display": "Subretinal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372467006",
+        "display": "Intralymphatic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "404820008",
+        "display": "Epidural"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372474001",
+        "display": "Periarticular"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3323001000001107",
+        "display": "Pericardial route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11478901000001102",
+        "display": "Periosseous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37839007",
+        "display": "Sublingual"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372473007",
+        "display": "Oromucosal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372469009",
+        "display": "Intrapleural"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11479001000001107",
+        "display": "Translingual"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18682911000001103",
+        "display": "Haemodialysis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "418722009",
+        "display": "Peribulbar route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34206005",
+        "display": "Subcutaneous"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419762003",
+        "display": "Peritendinous route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "12130007",
+        "display": "Intra-articular"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420287000",
+        "display": "Intraventricular cardiac"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372465003",
+        "display": "Intradiscal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "448077001",
+        "display": "Intraepidermal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "78421000",
+        "display": "Intramuscular"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127492001",
+        "display": "Nasogastric route"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34777511000001106",
+        "display": "Intestinal use"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37161004",
+        "display": "Rectal"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "372454008",
+        "display": "Gastroenteral"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "54485002",
+        "display": "Eye"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420254004",
+        "display": "Body cavity"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "127491008",
+        "display": "Jejunostomy route"
+      }
+    ]
+  }
+}

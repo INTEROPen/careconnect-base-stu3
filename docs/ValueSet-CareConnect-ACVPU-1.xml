@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ACVPU-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect ACVPU</h2> 
+         <div> 
+            <p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused.</p> 
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
+            <li>Include codes from 
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  (248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|) 
+            </li> 
+         </ul> 
+      </div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ACVPU-1"/>
+  <version value="3.0.0"/>
+  <name value="Care Connect ACVPU"/>
+  <status value="draft"/>
+  <date value="2018-11-08T16:01:00+00:00"/>
+  <publisher value="INTEROpen"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="https://interopen.ryver.com/"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a patient is mentally alert, unresponsive, responds to voice, responds to pain or is acutely confused."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="constraint"/>
+        <op value="="/>
+        <value value="(248234008 |Mentally alert| OR 300202002 |Responds to voice| OR 450847001 |Responds to pain| OR 422768004 |Unresponsive| OR 130987000 |Acute confusion|)"/>
+      </filter>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="c3f271f3-259b-4613-b8a1-33705dc38461"/>
+    <timestamp value="2019-12-11T16:50:29+00:00"/>
+    <total value="5"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="422768004"/>
+      <display value="Unresponsive"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="248234008"/>
+      <display value="Mentally alert"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="300202002"/>
+      <display value="Responds to voice"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="450847001"/>
+      <display value="Responds to pain"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="130987000"/>
+      <display value="Acute confusion"/>
+    </contains>
+  </expansion>
+</ValueSet>

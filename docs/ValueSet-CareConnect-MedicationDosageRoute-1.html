@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>CARECONNECT-BASE\MedicationDosageRoute-1 - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"11.125"}
+    h3,h4,h5,h6{--heading-prefix:"11.125"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">CareConnect Implementation Guide</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="validation.html">Testing/Validation</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">CareConnect Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+      <li>
+        <a href="namingsystems.html">NamingSystems</a>
+      </li>
+    </ul>
+  </li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MedicationDosageRoute-1</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <a name="root"> </a>
+  <h2 id="root">MedicationDosageRoute-1</h2>
+  
+  
+  <p>
+    <b>Summary</b>
+  </p>
+
+  <table class="grid">
+ <tbody><tr><td>Defining URL:</td><td>https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1</td></tr>
+ <tr><td>Version:</td><td>3.0.0</td></tr>
+ <tr><td>Name:</td><td>Care Connect Medication Dosage Route</td></tr>
+ <tr><td>Status:</td><td>draft</td></tr>
+ <tr><td>Definition:</td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p>
+</td></tr>
+ <tr><td>Publisher:</td><td>INTEROpen</td></tr>
+ <tr><td>Copyright:</td><td><p>This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p>
+</td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-MedicationDosageRoute-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-MedicationDosageRoute-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-MedicationDosageRoute-1.ttl.html">Turtle</a></td></tr>
+</tbody></table>
+
+  
+  
+<ul>
+ <li><a href="StructureDefinition-CareConnect-Immunization-1.html">CareConnect-Immunization-1</a></li>
+ <li><a href="StructureDefinition-CareConnect-MedicationAdministration-1.html">CareConnect-MedicationAdministration-1</a></li>
+ <li><a href="StructureDefinition-CareConnect-MedicationRequest-1.html">CareConnect-MedicationRequest-1</a></li>
+ <li><a href="StructureDefinition-CareConnect-MedicationStatement-1.html">CareConnect-MedicationStatement-1</a></li>
+</ul>
+
+
+  <a name="definition"> </a>
+  <h3 id="definition">Content Logical Definition</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Medication Dosage Route</h2> 
+         <div> 
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> 
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &copy; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
+            <li>Include codes from 
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where concept  in  999000051000001100 
+            </li> 
+         </ul> 
+      </div>
+  
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 80 concepts</p><p>All codes from system <a href="http://hl7.org/fhir/STU3/codesystem-snomedct.html"><code>http://snomed.info/sct</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372475000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372475000">372475000</a></td><td>Perineural</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372476004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372476004">372476004</a></td><td>Subconjunctival</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11564311000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11564311000001109">11564311000001109</a></td><td>Regional perfusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372451000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372451000">372451000</a></td><td>Endosinusial</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418730005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418730005">418730005</a></td><td>Nasojejunal route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372458006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372458006">372458006</a></td><td>Intraamniotic</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418586008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418586008">418586008</a></td><td>Intratendinous route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-404815008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=404815008">404815008</a></td><td>Transmucosal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372459003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372459003">372459003</a></td><td>Intrabursal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3594011000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3594011000001102">3594011000001102</a></td><td>Route of administration not applicable</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418321004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418321004">418321004</a></td><td>Retrobulbar route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372453002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372453002">372453002</a></td><td>Extraamniotic</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-54471007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=54471007">54471007</a></td><td>Buccal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372450004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372450004">372450004</a></td><td>Endocervical</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418821007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418821007">418821007</a></td><td>Intracameral</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372468001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372468001">372468001</a></td><td>Intraocular</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372457001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372457001">372457001</a></td><td>Gingival</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-6064005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6064005">6064005</a></td><td>Topical</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-26643006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=26643006">26643006</a></td><td>Oral</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-18679011000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=18679011000001101">18679011000001101</a></td><td>Inhalation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372460008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372460008">372460008</a></td><td>Intracardiac</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-9191501000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=9191501000001101">9191501000001101</a></td><td>Percutaneous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-47625008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=47625008">47625008</a></td><td>Intravenous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11564211000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11564211000001101">11564211000001101</a></td><td>Submucosal rectal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372449004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372449004">372449004</a></td><td>Dental</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-10364101000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10364101000001103">10364101000001103</a></td><td>Subdermal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-19537211000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=19537211000001108">19537211000001108</a></td><td>Intracervical route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-62226000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=62226000">62226000</a></td><td>Intrauterine</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372464004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372464004">372464004</a></td><td>Intradermal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372463005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372463005">372463005</a></td><td>Intracoronary</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-58100008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=58100008">58100008</a></td><td>Intraarterial</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-417255000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=417255000">417255000</a></td><td>Intraosseous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-10547007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10547007">10547007</a></td><td>Ear</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-72607000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=72607000">72607000</a></td><td>Intrathecal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372466002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372466002">372466002</a></td><td>Intralesional</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372452007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372452007">372452007</a></td><td>Endotracheopulmonary</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-10334211000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10334211000001103">10334211000001103</a></td><td>Haemofiltration</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-447122006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447122006">447122006</a></td><td>Intratumoral</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372461007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372461007">372461007</a></td><td>Intracavernous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-419874009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419874009">419874009</a></td><td>Submucosal route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-90028008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=90028008">90028008</a></td><td>Urethral</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-9191401000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=9191401000001100">9191401000001100</a></td><td>Haemodiafiltration</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-18246711000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=18246711000001107">18246711000001107</a></td><td>Epilesional</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-417946008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=417946008">417946008</a></td><td>Pericardial route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418401004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418401004">418401004</a></td><td>Intravitreal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-38239002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=38239002">38239002</a></td><td>Intraperitoneal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-21856811000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=21856811000001103">21856811000001103</a></td><td>Iontophoresis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372470005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372470005">372470005</a></td><td>Intrasternal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15881211000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15881211000001104">15881211000001104</a></td><td>Intraepidermal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-45890007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=45890007">45890007</a></td><td>Transdermal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420719007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420719007">420719007</a></td><td>Intracerebroventricular</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372471009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372471009">372471009</a></td><td>Intravesical</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-46713006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=46713006">46713006</a></td><td>Nasal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-16857009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16857009">16857009</a></td><td>Vaginal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-33770711000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33770711000001104">33770711000001104</a></td><td>Subretinal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372467006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372467006">372467006</a></td><td>Intralymphatic</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-404820008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=404820008">404820008</a></td><td>Epidural</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372474001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372474001">372474001</a></td><td>Periarticular</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3323001000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3323001000001107">3323001000001107</a></td><td>Pericardial route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11478901000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11478901000001102">11478901000001102</a></td><td>Periosseous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-37839007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37839007">37839007</a></td><td>Sublingual</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372473007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372473007">372473007</a></td><td>Oromucosal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372469009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372469009">372469009</a></td><td>Intrapleural</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11479001000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11479001000001107">11479001000001107</a></td><td>Translingual</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-18682911000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=18682911000001103">18682911000001103</a></td><td>Haemodialysis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-418722009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=418722009">418722009</a></td><td>Peribulbar route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34206005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34206005">34206005</a></td><td>Subcutaneous</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-419762003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419762003">419762003</a></td><td>Peritendinous route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-12130007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=12130007">12130007</a></td><td>Intra-articular</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420287000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420287000">420287000</a></td><td>Intraventricular cardiac</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372465003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372465003">372465003</a></td><td>Intradiscal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-448077001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=448077001">448077001</a></td><td>Intraepidermal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-78421000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=78421000">78421000</a></td><td>Intramuscular</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-127492001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=127492001">127492001</a></td><td>Nasogastric route</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34777511000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34777511000001106">34777511000001106</a></td><td>Intestinal use</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-37161004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37161004">37161004</a></td><td>Rectal</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-372454008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=372454008">372454008</a></td><td>Gastroenteral</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-54485002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=54485002">54485002</a></td><td>Eye</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420254004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420254004">420254004</a></td><td>Body cavity</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-127491008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=127491008">127491008</a></td><td>Jejunostomy route</td><td/></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/STU3/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+  
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 20, 2019 16:00+0000">2019-12-20</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

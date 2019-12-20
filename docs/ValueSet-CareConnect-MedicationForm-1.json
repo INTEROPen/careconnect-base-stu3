@@ -1,0 +1,981 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-MedicationForm-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Medication Form</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set| \n            </li> \n         </ul> \n      </div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1",
+  "version": "3.0.0",
+  "name": "Care Connect Medication Form",
+  "status": "draft",
+  "date": "2018-11-01T00:00:00+00:00",
+  "publisher": "INTEROpen",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "https://interopen.ryver.com/"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "constraint",
+            "op": "=",
+            "value": "^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set|"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "4d4cd89f-46f8-4435-8ad5-1f8aa20c8405",
+    "timestamp": "2019-12-11T16:50:32+00:00",
+    "total": 180,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385113008",
+        "display": "Solution for iontophoresis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "3092611000001103",
+        "display": "Injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385115001",
+        "display": "Collodion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7376011000001109",
+        "display": "Powder and solvent for suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385224003",
+        "display": "Powder for suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367411000001106",
+        "display": "Homeopathic liquid potency"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "443424002",
+        "display": "Buccal film"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385221006",
+        "display": "Emulsion for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "739007000",
+        "display": "Stick"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14945811000001105",
+        "display": "Powder for gastroenteral liquid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "66076007",
+        "display": "Chewable tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385078007",
+        "display": "Oromucosal gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421079001",
+        "display": "Pastille"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "764843001",
+        "display": "Powder for solution for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "14955111000001100",
+        "display": "Emulsion for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385203008",
+        "display": "Pressurised inhalation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427609008",
+        "display": "Modified-release drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37937005",
+        "display": "Paste"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13559211000001104",
+        "display": "Solution for dispersion for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385186005",
+        "display": "Enema"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385119007",
+        "display": "Cutaneous sponge"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421716009",
+        "display": "Transdermal system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36407811000001103",
+        "display": "Effervescent powder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420358004",
+        "display": "Homeopathic granules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11377411000001104",
+        "display": "Powder and solvent for solution for instillation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "424552006",
+        "display": "Vaginal sponge"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385201005",
+        "display": "Powder for nebuliser solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385229008",
+        "display": "Solution for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17960811000001101",
+        "display": "Ear/eye/nose drops solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8062811000001100",
+        "display": "Powder for reconstitution for instillation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367611000001109",
+        "display": "Aerosol generator"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "3092811000001104",
+        "display": "Intravenous infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385223009",
+        "display": "Powder for solution for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "15621311000001106",
+        "display": "Powder for suspension for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35366811000001106",
+        "display": "Bath additive"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385184008",
+        "display": "Rectal ointment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385166006",
+        "display": "Vaginal gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385181000",
+        "display": "Vaginal device"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385117009",
+        "display": "Poultice"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "32860611000001109",
+        "display": "Prolonged-release suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385220007",
+        "display": "Suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16602411000001103",
+        "display": "Implantation suspension"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385084005",
+        "display": "Sublingual tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385256005",
+        "display": "Kit for radiopharmaceutical preparation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385045000",
+        "display": "Gastro-resistant granules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385047008",
+        "display": "Modified-release granules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385087003",
+        "display": "Lozenge"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447050008",
+        "display": "Orodispersible film"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385086007",
+        "display": "Muco-adhesive buccal tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3095111000001104",
+        "display": "Paint"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "422201009",
+        "display": "Tablet for cutaneous solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421145000",
+        "display": "Homeopathic cream"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385018001",
+        "display": "Oral drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421166008",
+        "display": "Foam"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34875411000001103",
+        "display": "Living tissue equivalent"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "35367511000001105",
+        "display": "Homeopathic ointment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "70409003",
+        "display": "Mouthwash"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "31867311000001102",
+        "display": "Powder and solvent for suspension for instillation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "426684005",
+        "display": "Drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385122009",
+        "display": "Eye gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385124005",
+        "display": "Eye drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385286003",
+        "display": "Implant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367311000001104",
+        "display": "Soluble tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385207009",
+        "display": "Inhalation powder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385123004",
+        "display": "Eye ointment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9246911000001108",
+        "display": "Sterile solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32779711000001100",
+        "display": "Powder and solvent for prolonged-release suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385088008",
+        "display": "Dental gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421720008",
+        "display": "Spray"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3097611000001100",
+        "display": "Not applicable"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385062005",
+        "display": "Oral lyophilisate"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "32356811000001101",
+        "display": "Chewable capsule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385063000",
+        "display": "Oral gum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385101003",
+        "display": "Ointment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385194003",
+        "display": "Suppository"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385197005",
+        "display": "Nebuliser liquid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15881311000001107",
+        "display": "Solution for skin-prick test"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367111000001101",
+        "display": "Medicated nail lacquer"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385120001",
+        "display": "Impregnated dressing"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385054002",
+        "display": "Modified-release capsule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367211000001107",
+        "display": "Shampoo"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385132002",
+        "display": "Ophthalmic insert"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "15850011000001106",
+        "display": "Suspension for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385111005",
+        "display": "Cutaneous emulsion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35313411000001100",
+        "display": "Periodontal insert"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34012811000001100",
+        "display": "Gas and solvent for dispersion for injection/infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "19276111000001108",
+        "display": "Concentrate for oral solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420243009",
+        "display": "Tampon"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385242008",
+        "display": "Intravesical solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385099005",
+        "display": "Cream"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36407611000001102",
+        "display": "Bladder irrigation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3097511000001104",
+        "display": "Wash"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420954008",
+        "display": "Homeopathic pillule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385240000",
+        "display": "Solution for haemodialysis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "8006811000001100",
+        "display": "Powder and solvent for dispersion for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385114002",
+        "display": "Transdermal patch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36407411000001100",
+        "display": "Colloidal suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385130005",
+        "display": "Eye lotion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385025008",
+        "display": "Oral emulsion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385159005",
+        "display": "Nasal spray suspension"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "419202002",
+        "display": "Cement"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "23670511000001101",
+        "display": "Solution for cardioplegia"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385029002",
+        "display": "Granules for oral suspension"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385095004",
+        "display": "Dental suspension"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "7375911000001101",
+        "display": "Powder and solvent for solution for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385222004",
+        "display": "Powder for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421936000",
+        "display": "Homeopathic drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "18269211000001103",
+        "display": "Solution for sealant"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15647811000001107",
+        "display": "Emulsion and suspension for emulsion for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385038000",
+        "display": "Oral gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421595009",
+        "display": "Homeopathic tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "719200003",
+        "display": "Ophthalmic strip"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14964511000001102",
+        "display": "Infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "764780001",
+        "display": "Effervescent tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385210002",
+        "display": "Inhalation vapour"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385055001",
+        "display": "Tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385044001",
+        "display": "Effervescent granules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367711000001100",
+        "display": "Gastroenteral liquid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385043007",
+        "display": "Granules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385059007",
+        "display": "Gastro-resistant tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385174007",
+        "display": "Pessary"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "421404002",
+        "display": "Homeopathic elixir"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "10984111000001107",
+        "display": "Medicated plaster"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21012211000001108",
+        "display": "Intestinal gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17036711000001108",
+        "display": "Powder and suspension for suspension for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "15362911000001102",
+        "display": "Vaginal delivery system"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36713011000001106",
+        "display": "Prolonged-release solution for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385151008",
+        "display": "Nasal ointment"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385152001",
+        "display": "Nasal drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385150009",
+        "display": "Nasal gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385108009",
+        "display": "Cutaneous solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17960711000001109",
+        "display": "Ear/eye drops solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385136004",
+        "display": "Ear drops"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385049006",
+        "display": "Capsule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35366911000001101",
+        "display": "Dispersible tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385040005",
+        "display": "Instant herbal tea"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385037005",
+        "display": "Herbal tea"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "3092911000001109",
+        "display": "Irrigation"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16605211000001107",
+        "display": "Irrigation solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385106008",
+        "display": "Cutaneous spray solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385238005",
+        "display": "Solution for peritoneal dialysis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "4751611000001101",
+        "display": "Epidural infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "17309711000001108",
+        "display": "Cutaneous patch"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385052003",
+        "display": "Gastro-resistant capsule"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385024007",
+        "display": "Oral suspension"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "35367011000001102",
+        "display": "Medicated chewing-gum"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34538111000001100",
+        "display": "Dispersion for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385023001",
+        "display": "Oral solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385090009",
+        "display": "Dental insert"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "423983005",
+        "display": "Homoeopathic liquid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "37238811000001105",
+        "display": "Solvent for BCG Vaccine AJV"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385179002",
+        "display": "Effervescent vaginal tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385048003",
+        "display": "Cachet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420602001",
+        "display": "Homeopathic oral powder"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "36104911000001101",
+        "display": "Dispersion for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "17644011000001108",
+        "display": "Gel for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "14955211000001106",
+        "display": "Powder and solvent for solution for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385219001",
+        "display": "Solution for injection"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "9247011000001107",
+        "display": "Radionuclide generator"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385065007",
+        "display": "Gargle"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385064006",
+        "display": "Pillules"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34937011000001105",
+        "display": "Solution for blood fraction modification"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "11564111000001107",
+        "display": "Impregnated cigarette"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "21829711000001102",
+        "display": "Powder for solution for iontophoresis"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385074009",
+        "display": "Sublingual spray"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "17406411000001100",
+        "display": "Powder and solvent for nebuliser solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385061003",
+        "display": "Modified-release tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16756411000001100",
+        "display": "Powder and solvent for suspension for infusion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "inactive": true,
+        "code": "3092311000001108",
+        "display": "Inhalation gas"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385070000",
+        "display": "Oromucosal solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16175111000001109",
+        "display": "Intrauterine device"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "13892311000001106",
+        "display": "Modified-release muco-adhesive buccal tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385085006",
+        "display": "Buccal tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "447079001",
+        "display": "Orodispersible tablet"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "424211001",
+        "display": "Solution for haemofiltration"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "420699003",
+        "display": "Liquid"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "33491111000001107",
+        "display": "Powder and gel for gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "385100002",
+        "display": "Gel"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "34582011000001107",
+        "display": "Powder and solvent for intravesical solution"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "85581007",
+        "display": "Powder"
+      }
+    ]
+  }
+}

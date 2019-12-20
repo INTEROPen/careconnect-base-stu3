@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-RegistrationType-1> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-RegistrationType-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Registration Type</h2><div><p>A ValueSet that identifies the type of registration for a patient at a healthcare organisation.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CareConnect-RegistrationType-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-RegistrationType-1"];
+  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.name [ fhir:value "Care Connect Registration Type"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2017-08-01T01:00:00+01:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A ValueSet that identifies the type of registration for a patient at a healthcare organisation."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationType-1" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-RegistrationType-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

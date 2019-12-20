@@ -1,0 +1,437 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-ReligiousAffiliation-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Religious Affiliation</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where concept  in  999000531000000100 \n            </li> \n         </ul> \n      </div>"
+  },
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReligiousAffiliation-1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.2.1.3.2.4.16.21"
+    }
+  ],
+  "version": "3.0.0",
+  "name": "Care Connect Religious Affiliation",
+  "status": "draft",
+  "date": "2018-11-02T00:00:00+00:00",
+  "publisher": "INTEROpen",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "https://interopen.ryver.com/"
+        }
+      ]
+    }
+  ],
+  "description": "A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "in",
+            "value": "999000531000000100"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion": {
+    "identifier": "07935616-0075-4811-bdb2-9d5007deff59",
+    "timestamp": "2019-12-11T16:50:31+00:00",
+    "total": 72,
+    "parameter": [
+      {
+        "name": "version",
+        "valueUri": "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "name": "count",
+        "valueInteger": 2147483647
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428496003",
+        "display": "Tibetan Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160552003",
+        "display": "Not religious"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428666001",
+        "display": "Nichiren Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427755002",
+        "display": "Lutheran, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428408006",
+        "display": "Wiccan, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428816005",
+        "display": "Armenian Catholic, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428815009",
+        "display": "Ahmadi, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429533002",
+        "display": "Mahayana Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309886003",
+        "display": "Quaker, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428347009",
+        "display": "Arya Samaj Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429534008",
+        "display": "Masorti Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429790000",
+        "display": "Zoroastrian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428407001",
+        "display": "Theravada Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160557009",
+        "display": "Baptist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "276119007",
+        "display": "Nonconformist"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "64988008",
+        "display": "Sunni muslim, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428373004",
+        "display": "Coptic Orthodox, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428503004",
+        "display": "Orthodox Christian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428821008",
+        "display": "Seventh Day Adventist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "62458008",
+        "display": "Has religious belief"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429158002",
+        "display": "Greek Orthodox"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429732005",
+        "display": "Baha'i, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428376007",
+        "display": "Eastern Catholic, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160562005",
+        "display": "Pentecostalist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428410008",
+        "display": "Shakti Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160545000",
+        "display": "Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428820009",
+        "display": "Pure Land Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309687009",
+        "display": "Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160566008",
+        "display": "Christadelphian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160560002",
+        "display": "Presbyterian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309885004",
+        "display": "Protestant, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160558004",
+        "display": "Methodist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160540005",
+        "display": "Roman Catholic, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160567004",
+        "display": "Agnostic"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427874000",
+        "display": "Congregationalist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428378008",
+        "display": "Ethiopian Orthodox Tewahedo, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "271448006",
+        "display": "Anglican"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160549006",
+        "display": "Christian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427754003",
+        "display": "Liberal Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428315004",
+        "display": "Anabaptist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "444870008",
+        "display": "Apostolic Pentecostalist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429509008",
+        "display": "Reform Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429539003",
+        "display": "Calvinist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "360984002",
+        "display": "Hasidic Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429511004",
+        "display": "Vaishnava Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "366740002",
+        "display": "Sikh, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429644000",
+        "display": "Orthodox Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "248544006",
+        "display": "Rastafarian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160234004",
+        "display": "Salvation Army member"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427950002",
+        "display": "Haredi Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429708003",
+        "display": "Unitarian, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "763896000",
+        "display": "Refusal by patient to provide information about religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428504005",
+        "display": "Christian Spiritualist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428506007",
+        "display": "Druid, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427963008",
+        "display": "Advaitin Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427729003",
+        "display": "Elim Pentecostalist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429544005",
+        "display": "Russian Orthodox, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "81706006",
+        "display": "Ashkenazi Jew, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429547003",
+        "display": "Shinto, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429543004",
+        "display": "Taoist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429527006",
+        "display": "New Kadampa Tradition Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429379008",
+        "display": "Shiva Hindu, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429787006",
+        "display": "Jain, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160542002",
+        "display": "Atheist"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "427981006",
+        "display": "Zen Buddhist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160544001",
+        "display": "Christian Scientist, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "428801007",
+        "display": "Ismaili Muslim, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "28010004",
+        "display": "Shiite muslim, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "309884000",
+        "display": "Muslim, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "80587008",
+        "display": "Jehovah's Witness, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "160543007",
+        "display": "Jewish, follower of religion"
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "code": "429171004",
+        "display": "Spiritualist, follower of religion"
+      }
+    ]
+  }
+}

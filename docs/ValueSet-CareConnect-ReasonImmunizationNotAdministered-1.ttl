@@ -1,0 +1,112 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-ReasonImmunizationNotAdministered-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Reason Immunization Not Administered</h2> \n         <div> \n            <p>A ValueSet to identify the reason why an immunization was not administered.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> Copyright © 2019 HL7 UK \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include these codes as defined in \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> \n               <table class=\"none\"> \n                  <tr> \n                     <td style=\"white-space:nowrap\"> \n                        <b>Code</b> \n                     </td> \n                     <td> \n                        <b>Display</b> \n                     </td> \n                  </tr> \n                  <tr> \n                     <td> \n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=201741000000102\">201741000000102</a> \n                     </td> \n                     <td>Did not attend child immunisation (finding)</td> \n                     <td/> \n                  </tr> \n                  <tr> \n                     <td> \n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=281399006\">281399006</a> \n                     </td> \n                     <td>Did not attend (finding)</td> \n                     <td/> \n                  </tr> \n                  <tr> \n                     <td> \n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=213257006\">213257006</a> \n                     </td> \n                     <td>Generally unwell (finding)</td> \n                     <td/> \n                  </tr> \n                  <tr> \n                     <td> \n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=266758009\">266758009</a> \n                     </td> \n                     <td>Immunization contraindicated (situation)</td> \n                     <td/> \n                  </tr> \n                  <tr> \n                     <td> \n                        <a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=310376006\">310376006</a> \n                     </td> \n                     <td>Immunization consent not given (finding)</td> \n                     <td/> \n                  </tr> \n               </table> \n            </li> \n         </ul> \n      </div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1"];
+  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.name [ fhir:value "Care Connect Reason Immunization Not Administered"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2019-11-22T17:17:00+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A ValueSet to identify the reason why an immunization was not administered."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "Copyright © 2019 HL7 UK"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "201741000000102" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Did not attend child immunisation (finding)" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "281399006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Did not attend (finding)" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "213257006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Generally unwell (finding)" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "266758009" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immunization contraindicated (situation)" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "310376006" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Immunization consent not given (finding)" ]
+       ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "c7024ce0-2518-41d8-9cca-8551d6998b98" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:33+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "4"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "281399006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Did not attend (finding)" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "213257006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Generally unwell (finding)" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310376006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunization consent not given (finding)" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "266758009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunization contraindicated (situation)" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReasonImmunizationNotAdministered-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

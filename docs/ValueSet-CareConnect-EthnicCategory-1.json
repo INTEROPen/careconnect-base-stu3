@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "id": "CareConnect-EthnicCategory-1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Ethnic Category</h2><div><p>A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CareConnect-EthnicCategory-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1</code></a></li></ul></div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-sourceReference",
+      "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/data_field_notes/p/pds/pds_ethnic_category_code_de.asp?shownav=0"
+    }
+  ],
+  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EthnicCategory-1",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.2.1.3.2.4.16.6"
+    }
+  ],
+  "version": "3.0.0",
+  "name": "Care Connect Ethnic Category",
+  "status": "draft",
+  "date": "2018-11-02T00:00:00+00:00",
+  "publisher": "INTEROpen",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "https://interopen.ryver.com/"
+        }
+      ]
+    }
+  ],
+  "description": "A ValueSet to identify the ethnicity of a Person, as specified by the Person. This vocabulary describes a persons ethnic category, it is an extension of the Ethnic Category Code described in the NHS Data Model and Dictionary.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2016 HL7 UK",
+  "compose": {
+    "include": [
+      {
+        "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-EthnicCategory-1"
+      }
+    ]
+  }
+}

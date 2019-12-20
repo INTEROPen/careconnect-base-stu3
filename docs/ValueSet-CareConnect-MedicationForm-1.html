@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>CARECONNECT-BASE\MedicationForm-1 - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"11.127"}
+    h3,h4,h5,h6{--heading-prefix:"11.127"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">CareConnect Implementation Guide</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="validation.html">Testing/Validation</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">CareConnect Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+      <li>
+        <a href="namingsystems.html">NamingSystems</a>
+      </li>
+    </ul>
+  </li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MedicationForm-1</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <a name="root"> </a>
+  <h2 id="root">MedicationForm-1</h2>
+  
+  
+  <p>
+    <b>Summary</b>
+  </p>
+
+  <table class="grid">
+ <tbody><tr><td>Defining URL:</td><td>https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1</td></tr>
+ <tr><td>Version:</td><td>3.0.0</td></tr>
+ <tr><td>Name:</td><td>Care Connect Medication Form</td></tr>
+ <tr><td>Status:</td><td>draft</td></tr>
+ <tr><td>Definition:</td><td><p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p>
+</td></tr>
+ <tr><td>Publisher:</td><td>INTEROpen</td></tr>
+ <tr><td>Copyright:</td><td><p>This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p>
+</td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-MedicationForm-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-MedicationForm-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-MedicationForm-1.ttl.html">Turtle</a></td></tr>
+</tbody></table>
+
+  
+  
+<ul>
+ <li><a href="StructureDefinition-CareConnect-Medication-1.html">CareConnect-Medication-1</a></li>
+</ul>
+
+
+  <a name="definition"> </a>
+  <h3 id="definition">Content Logical Definition</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Medication Form</h2> 
+         <div> 
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107.</p> 
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright &copy; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
+            <li>Include codes from 
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  ^999000781000001107 |NHS dm+d (dictionary of medicines and devices) dose form simple reference set| 
+            </li> 
+         </ul> 
+      </div>
+  
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 180 concepts</p><p>All codes from system <a href="http://hl7.org/fhir/STU3/codesystem-snomedct.html"><code>http://snomed.info/sct</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385113008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385113008">385113008</a></td><td>Solution for iontophoresis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3092611000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3092611000001103">3092611000001103</a></td><td>Injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385115001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385115001">385115001</a></td><td>Collodion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-7376011000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7376011000001109">7376011000001109</a></td><td>Powder and solvent for suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385224003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385224003">385224003</a></td><td>Powder for suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367411000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367411000001106">35367411000001106</a></td><td>Homeopathic liquid potency</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-443424002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=443424002">443424002</a></td><td>Buccal film</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385221006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385221006">385221006</a></td><td>Emulsion for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-739007000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=739007000">739007000</a></td><td>Stick</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-14945811000001105"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14945811000001105">14945811000001105</a></td><td>Powder for gastroenteral liquid</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-66076007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=66076007">66076007</a></td><td>Chewable tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385078007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385078007">385078007</a></td><td>Oromucosal gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421079001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421079001">421079001</a></td><td>Pastille</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-764843001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764843001">764843001</a></td><td>Powder for solution for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-14955111000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14955111000001100">14955111000001100</a></td><td>Emulsion for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385203008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385203008">385203008</a></td><td>Pressurised inhalation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-427609008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=427609008">427609008</a></td><td>Modified-release drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-37937005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37937005">37937005</a></td><td>Paste</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-13559211000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13559211000001104">13559211000001104</a></td><td>Solution for dispersion for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385186005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385186005">385186005</a></td><td>Enema</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385119007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385119007">385119007</a></td><td>Cutaneous sponge</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421716009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421716009">421716009</a></td><td>Transdermal system</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-36407811000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=36407811000001103">36407811000001103</a></td><td>Effervescent powder</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420358004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420358004">420358004</a></td><td>Homeopathic granules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11377411000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11377411000001104">11377411000001104</a></td><td>Powder and solvent for solution for instillation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-424552006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=424552006">424552006</a></td><td>Vaginal sponge</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385201005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385201005">385201005</a></td><td>Powder for nebuliser solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385229008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385229008">385229008</a></td><td>Solution for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17960811000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17960811000001101">17960811000001101</a></td><td>Ear/eye/nose drops solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-8062811000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8062811000001100">8062811000001100</a></td><td>Powder for reconstitution for instillation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367611000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367611000001109">35367611000001109</a></td><td>Aerosol generator</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3092811000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3092811000001104">3092811000001104</a></td><td>Intravenous infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385223009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385223009">385223009</a></td><td>Powder for solution for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15621311000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15621311000001106">15621311000001106</a></td><td>Powder for suspension for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35366811000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35366811000001106">35366811000001106</a></td><td>Bath additive</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385184008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385184008">385184008</a></td><td>Rectal ointment</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385166006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385166006">385166006</a></td><td>Vaginal gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385181000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385181000">385181000</a></td><td>Vaginal device</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385117009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385117009">385117009</a></td><td>Poultice</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-32860611000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32860611000001109">32860611000001109</a></td><td>Prolonged-release suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385220007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385220007">385220007</a></td><td>Suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-16602411000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16602411000001103">16602411000001103</a></td><td>Implantation suspension</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385084005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385084005">385084005</a></td><td>Sublingual tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385256005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385256005">385256005</a></td><td>Kit for radiopharmaceutical preparation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385045000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385045000">385045000</a></td><td>Gastro-resistant granules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385047008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385047008">385047008</a></td><td>Modified-release granules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385087003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385087003">385087003</a></td><td>Lozenge</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-447050008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447050008">447050008</a></td><td>Orodispersible film</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385086007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385086007">385086007</a></td><td>Muco-adhesive buccal tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3095111000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3095111000001104">3095111000001104</a></td><td>Paint</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-422201009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=422201009">422201009</a></td><td>Tablet for cutaneous solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421145000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421145000">421145000</a></td><td>Homeopathic cream</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385018001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385018001">385018001</a></td><td>Oral drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421166008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421166008">421166008</a></td><td>Foam</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34875411000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34875411000001103">34875411000001103</a></td><td>Living tissue equivalent</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367511000001105"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367511000001105">35367511000001105</a></td><td>Homeopathic ointment</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-70409003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=70409003">70409003</a></td><td>Mouthwash</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-31867311000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=31867311000001102">31867311000001102</a></td><td>Powder and solvent for suspension for instillation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-426684005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=426684005">426684005</a></td><td>Drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385122009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385122009">385122009</a></td><td>Eye gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385124005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385124005">385124005</a></td><td>Eye drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385286003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385286003">385286003</a></td><td>Implant</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367311000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367311000001104">35367311000001104</a></td><td>Soluble tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385207009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385207009">385207009</a></td><td>Inhalation powder</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385123004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385123004">385123004</a></td><td>Eye ointment</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-9246911000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=9246911000001108">9246911000001108</a></td><td>Sterile solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-32779711000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32779711000001100">32779711000001100</a></td><td>Powder and solvent for prolonged-release suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385088008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385088008">385088008</a></td><td>Dental gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421720008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421720008">421720008</a></td><td>Spray</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3097611000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3097611000001100">3097611000001100</a></td><td>Not applicable</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385062005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385062005">385062005</a></td><td>Oral lyophilisate</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-32356811000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32356811000001101">32356811000001101</a></td><td>Chewable capsule</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385063000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385063000">385063000</a></td><td>Oral gum</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385101003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385101003">385101003</a></td><td>Ointment</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385194003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385194003">385194003</a></td><td>Suppository</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385197005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385197005">385197005</a></td><td>Nebuliser liquid</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15881311000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15881311000001107">15881311000001107</a></td><td>Solution for skin-prick test</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367111000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367111000001101">35367111000001101</a></td><td>Medicated nail lacquer</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385120001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385120001">385120001</a></td><td>Impregnated dressing</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385054002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385054002">385054002</a></td><td>Modified-release capsule</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367211000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367211000001107">35367211000001107</a></td><td>Shampoo</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385132002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385132002">385132002</a></td><td>Ophthalmic insert</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15850011000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15850011000001106">15850011000001106</a></td><td>Suspension for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385111005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385111005">385111005</a></td><td>Cutaneous emulsion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35313411000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35313411000001100">35313411000001100</a></td><td>Periodontal insert</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34012811000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34012811000001100">34012811000001100</a></td><td>Gas and solvent for dispersion for injection/infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-19276111000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=19276111000001108">19276111000001108</a></td><td>Concentrate for oral solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420243009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420243009">420243009</a></td><td>Tampon</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385242008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385242008">385242008</a></td><td>Intravesical solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385099005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385099005">385099005</a></td><td>Cream</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-36407611000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=36407611000001102">36407611000001102</a></td><td>Bladder irrigation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3097511000001104"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3097511000001104">3097511000001104</a></td><td>Wash</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420954008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420954008">420954008</a></td><td>Homeopathic pillule</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385240000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385240000">385240000</a></td><td>Solution for haemodialysis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-8006811000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=8006811000001100">8006811000001100</a></td><td>Powder and solvent for dispersion for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385114002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385114002">385114002</a></td><td>Transdermal patch</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-36407411000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=36407411000001100">36407411000001100</a></td><td>Colloidal suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385130005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385130005">385130005</a></td><td>Eye lotion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385025008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385025008">385025008</a></td><td>Oral emulsion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385159005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385159005">385159005</a></td><td>Nasal spray suspension</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-419202002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=419202002">419202002</a></td><td>Cement</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-23670511000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=23670511000001101">23670511000001101</a></td><td>Solution for cardioplegia</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385029002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385029002">385029002</a></td><td>Granules for oral suspension</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385095004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385095004">385095004</a></td><td>Dental suspension</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-7375911000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7375911000001101">7375911000001101</a></td><td>Powder and solvent for solution for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385222004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385222004">385222004</a></td><td>Powder for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421936000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421936000">421936000</a></td><td>Homeopathic drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-18269211000001103"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=18269211000001103">18269211000001103</a></td><td>Solution for sealant</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15647811000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15647811000001107">15647811000001107</a></td><td>Emulsion and suspension for emulsion for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385038000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385038000">385038000</a></td><td>Oral gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421595009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421595009">421595009</a></td><td>Homeopathic tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-719200003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=719200003">719200003</a></td><td>Ophthalmic strip</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-14964511000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14964511000001102">14964511000001102</a></td><td>Infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-764780001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=764780001">764780001</a></td><td>Effervescent tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385210002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385210002">385210002</a></td><td>Inhalation vapour</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385055001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385055001">385055001</a></td><td>Tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385044001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385044001">385044001</a></td><td>Effervescent granules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367711000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367711000001100">35367711000001100</a></td><td>Gastroenteral liquid</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385043007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385043007">385043007</a></td><td>Granules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385059007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385059007">385059007</a></td><td>Gastro-resistant tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385174007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385174007">385174007</a></td><td>Pessary</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-421404002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=421404002">421404002</a></td><td>Homeopathic elixir</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-10984111000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=10984111000001107">10984111000001107</a></td><td>Medicated plaster</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-21012211000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=21012211000001108">21012211000001108</a></td><td>Intestinal gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17036711000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17036711000001108">17036711000001108</a></td><td>Powder and suspension for suspension for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-15362911000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=15362911000001102">15362911000001102</a></td><td>Vaginal delivery system</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-36713011000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=36713011000001106">36713011000001106</a></td><td>Prolonged-release solution for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385151008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385151008">385151008</a></td><td>Nasal ointment</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385152001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385152001">385152001</a></td><td>Nasal drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385150009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385150009">385150009</a></td><td>Nasal gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385108009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385108009">385108009</a></td><td>Cutaneous solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17960711000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17960711000001109">17960711000001109</a></td><td>Ear/eye drops solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385136004"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385136004">385136004</a></td><td>Ear drops</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385049006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385049006">385049006</a></td><td>Capsule</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35366911000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35366911000001101">35366911000001101</a></td><td>Dispersible tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385040005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385040005">385040005</a></td><td>Instant herbal tea</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385037005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385037005">385037005</a></td><td>Herbal tea</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3092911000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3092911000001109">3092911000001109</a></td><td>Irrigation</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-16605211000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16605211000001107">16605211000001107</a></td><td>Irrigation solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385106008"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385106008">385106008</a></td><td>Cutaneous spray solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385238005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385238005">385238005</a></td><td>Solution for peritoneal dialysis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-4751611000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=4751611000001101">4751611000001101</a></td><td>Epidural infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17309711000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17309711000001108">17309711000001108</a></td><td>Cutaneous patch</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385052003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385052003">385052003</a></td><td>Gastro-resistant capsule</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385024007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385024007">385024007</a></td><td>Oral suspension</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-35367011000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=35367011000001102">35367011000001102</a></td><td>Medicated chewing-gum</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34538111000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34538111000001100">34538111000001100</a></td><td>Dispersion for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385023001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385023001">385023001</a></td><td>Oral solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385090009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385090009">385090009</a></td><td>Dental insert</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-423983005"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=423983005">423983005</a></td><td>Homoeopathic liquid</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-37238811000001105"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=37238811000001105">37238811000001105</a></td><td>Solvent for BCG Vaccine AJV</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385179002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385179002">385179002</a></td><td>Effervescent vaginal tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385048003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385048003">385048003</a></td><td>Cachet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420602001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420602001">420602001</a></td><td>Homeopathic oral powder</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-36104911000001101"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=36104911000001101">36104911000001101</a></td><td>Dispersion for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17644011000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17644011000001108">17644011000001108</a></td><td>Gel for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-14955211000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=14955211000001106">14955211000001106</a></td><td>Powder and solvent for solution for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385219001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385219001">385219001</a></td><td>Solution for injection</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-9247011000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=9247011000001107">9247011000001107</a></td><td>Radionuclide generator</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385065007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385065007">385065007</a></td><td>Gargle</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385064006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385064006">385064006</a></td><td>Pillules</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34937011000001105"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34937011000001105">34937011000001105</a></td><td>Solution for blood fraction modification</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-11564111000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11564111000001107">11564111000001107</a></td><td>Impregnated cigarette</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-21829711000001102"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=21829711000001102">21829711000001102</a></td><td>Powder for solution for iontophoresis</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385074009"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385074009">385074009</a></td><td>Sublingual spray</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-17406411000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17406411000001100">17406411000001100</a></td><td>Powder and solvent for nebuliser solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385061003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385061003">385061003</a></td><td>Modified-release tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-16756411000001100"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16756411000001100">16756411000001100</a></td><td>Powder and solvent for suspension for infusion</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-3092311000001108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=3092311000001108">3092311000001108</a></td><td>Inhalation gas</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385070000"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385070000">385070000</a></td><td>Oromucosal solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-16175111000001109"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=16175111000001109">16175111000001109</a></td><td>Intrauterine device</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-13892311000001106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13892311000001106">13892311000001106</a></td><td>Modified-release muco-adhesive buccal tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385085006"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385085006">385085006</a></td><td>Buccal tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-447079001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=447079001">447079001</a></td><td>Orodispersible tablet</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-424211001"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=424211001">424211001</a></td><td>Solution for haemofiltration</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-420699003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=420699003">420699003</a></td><td>Liquid</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-33491111000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=33491111000001107">33491111000001107</a></td><td>Powder and gel for gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-385100002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385100002">385100002</a></td><td>Gel</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-34582011000001107"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=34582011000001107">34582011000001107</a></td><td>Powder and solvent for intravesical solution</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-85581007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=85581007">85581007</a></td><td>Powder</td><td/></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/STU3/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+  
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 20, 2019 16:00+0000">2019-12-20</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

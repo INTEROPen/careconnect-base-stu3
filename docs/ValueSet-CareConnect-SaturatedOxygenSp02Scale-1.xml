@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-SaturatedOxygenSp02Scale-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Saturated Oxygen Sp02 Scale</h2> 
+         <div> 
+            <p>A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)</p> 
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
+            <li>Include codes from 
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where constraint  =  (1104311000000102 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 1 score| OR 1104321000000108 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 2 score|) 
+            </li> 
+         </ul> 
+      </div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SaturatedOxygenSp02Scale-1"/>
+  <version value="3.0.0"/>
+  <name value="Care Connect Saturated Oxygen Sp02 Scale"/>
+  <status value="draft"/>
+  <date value="2018-10-19T13:48:00+01:00"/>
+  <publisher value="INTEROpen"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="https://interopen.ryver.com/"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system which describes whether a saturated oxygen (Sp02) Scale of 1 or 2 should be used.  SpO2 Scale 2 is used in patients with hypercapnic respiratory failure (usually due to COPD)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="constraint"/>
+        <op value="="/>
+        <value value="(1104311000000102 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 1 score| OR 1104321000000108 |Royal College of Physicians National Early Warning Score 2 - oxygen saturation scale 2 score|)"/>
+      </filter>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="5d1cef79-e433-4482-b6af-7b8a123b45d4"/>
+    <timestamp value="2019-12-11T16:50:26+00:00"/>
+    <total value="0"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+  </expansion>
+</ValueSet>

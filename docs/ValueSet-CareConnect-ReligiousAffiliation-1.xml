@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="CareConnect-ReligiousAffiliation-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> 
+         <h2>Care Connect Religious Affiliation</h2> 
+         <div> 
+            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100.</p> 
+         </div> 
+         <p> 
+            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. 
+         </p> 
+         <p>This value set includes codes from the following code systems:</p> 
+         <ul> 
+            <li>Include codes from 
+               <a href="http://www.snomed.org/"> 
+                  <code>http://snomed.info/sct</code> 
+               </a> where concept  in  999000531000000100 
+            </li> 
+         </ul> 
+      </div>
+  </text>
+  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReligiousAffiliation-1"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.21"/>
+  </identifier>
+  <version value="3.0.0"/>
+  <name value="Care Connect Religious Affiliation"/>
+  <status value="draft"/>
+  <date value="2018-11-02T00:00:00+00:00"/>
+  <publisher value="INTEROpen"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="https://interopen.ryver.com/"/>
+    </telecom>
+  </contact>
+  <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK &#39;Religious Affiliation SnCT&#39; subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is &#39;Religious or other belief system affiliation simple reference set (foundation metadata concept)&#39; with Refset Id 999000531000000100."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This value set includes content from SNOMED CT, which is copyright &#xA9; 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="in"/>
+        <value value="999000531000000100"/>
+      </filter>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="07935616-0075-4811-bdb2-9d5007deff59"/>
+    <timestamp value="2019-12-11T16:50:31+00:00"/>
+    <total value="72"/>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"/>
+    </parameter>
+    <parameter>
+      <name value="count"/>
+      <valueInteger value="2147483647"/>
+    </parameter>
+    <parameter>
+      <name value="offset"/>
+      <valueInteger value="0"/>
+    </parameter>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428496003"/>
+      <display value="Tibetan Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160552003"/>
+      <display value="Not religious"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428666001"/>
+      <display value="Nichiren Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427755002"/>
+      <display value="Lutheran, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428408006"/>
+      <display value="Wiccan, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428816005"/>
+      <display value="Armenian Catholic, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428815009"/>
+      <display value="Ahmadi, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429533002"/>
+      <display value="Mahayana Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="309886003"/>
+      <display value="Quaker, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428347009"/>
+      <display value="Arya Samaj Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429534008"/>
+      <display value="Masorti Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429790000"/>
+      <display value="Zoroastrian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428407001"/>
+      <display value="Theravada Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160557009"/>
+      <display value="Baptist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="276119007"/>
+      <display value="Nonconformist"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="64988008"/>
+      <display value="Sunni muslim, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428373004"/>
+      <display value="Coptic Orthodox, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428503004"/>
+      <display value="Orthodox Christian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428821008"/>
+      <display value="Seventh Day Adventist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="62458008"/>
+      <display value="Has religious belief"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429158002"/>
+      <display value="Greek Orthodox"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429732005"/>
+      <display value="Baha&#39;i, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428376007"/>
+      <display value="Eastern Catholic, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160562005"/>
+      <display value="Pentecostalist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428410008"/>
+      <display value="Shakti Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160545000"/>
+      <display value="Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428820009"/>
+      <display value="Pure Land Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="309687009"/>
+      <display value="Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160566008"/>
+      <display value="Christadelphian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160560002"/>
+      <display value="Presbyterian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="309885004"/>
+      <display value="Protestant, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160558004"/>
+      <display value="Methodist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160540005"/>
+      <display value="Roman Catholic, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160567004"/>
+      <display value="Agnostic"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427874000"/>
+      <display value="Congregationalist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428378008"/>
+      <display value="Ethiopian Orthodox Tewahedo, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="271448006"/>
+      <display value="Anglican"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160549006"/>
+      <display value="Christian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427754003"/>
+      <display value="Liberal Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428315004"/>
+      <display value="Anabaptist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="444870008"/>
+      <display value="Apostolic Pentecostalist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429509008"/>
+      <display value="Reform Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429539003"/>
+      <display value="Calvinist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="360984002"/>
+      <display value="Hasidic Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429511004"/>
+      <display value="Vaishnava Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="366740002"/>
+      <display value="Sikh, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429644000"/>
+      <display value="Orthodox Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="248544006"/>
+      <display value="Rastafarian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160234004"/>
+      <display value="Salvation Army member"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427950002"/>
+      <display value="Haredi Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429708003"/>
+      <display value="Unitarian, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="763896000"/>
+      <display value="Refusal by patient to provide information about religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428504005"/>
+      <display value="Christian Spiritualist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428506007"/>
+      <display value="Druid, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427963008"/>
+      <display value="Advaitin Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427729003"/>
+      <display value="Elim Pentecostalist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429544005"/>
+      <display value="Russian Orthodox, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="81706006"/>
+      <display value="Ashkenazi Jew, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429547003"/>
+      <display value="Shinto, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429543004"/>
+      <display value="Taoist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429527006"/>
+      <display value="New Kadampa Tradition Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429379008"/>
+      <display value="Shiva Hindu, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429787006"/>
+      <display value="Jain, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160542002"/>
+      <display value="Atheist"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="427981006"/>
+      <display value="Zen Buddhist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160544001"/>
+      <display value="Christian Scientist, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="428801007"/>
+      <display value="Ismaili Muslim, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="28010004"/>
+      <display value="Shiite muslim, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="309884000"/>
+      <display value="Muslim, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="80587008"/>
+      <display value="Jehovah&#39;s Witness, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="160543007"/>
+      <display value="Jewish, follower of religion"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <code value="429171004"/>
+      <display value="Spiritualist, follower of religion"/>
+    </contains>
+  </expansion>
+</ValueSet>

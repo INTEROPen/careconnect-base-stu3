@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>CARECONNECT-BASE\CareSettingType-1 - JSON Representation - FHIR v3.0.2</title>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+  
+    <link href="fhir.css" rel="stylesheet"/>
+      
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+  
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+  
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+  </head>
+  <body>
+
+    <style type="text/css">h2{--heading-prefix:"11.102"}
+    h3,h4,h5,h6{--heading-prefix:"11.102"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="fhir-nav">
+          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+    
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+    
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">CareConnect Implementation Guide</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="validation.html">Testing/Validation</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Profiles<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li><a href="profiles.html">CareConnect Profiles</a></li>
+      <li><a href="extensions.html">Extensions</a></li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="codesystems.html">CodeSystems</a>
+      </li>
+      <li>
+        <a href="valuesets.html">ValueSets</a>
+      </li>
+      <li>
+        <a href="conceptmaps.html">ConceptMaps</a>
+      </li>
+      <li>
+        <a href="namingsystems.html">NamingSystems</a>
+      </li>
+    </ul>
+  </li>
+  <!--<li><a href="examples.html">Examples</a></li>-->
+ <li><a href="artifacts.html">Artifact Summary</a></li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->  
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CareSettingType-1</b></li>
+        </ul>  
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+    
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <a name="root"> </a>
+  <h2 id="root">CareSettingType-1 - JSON Representation</h2>
+  <p>
+    <a href="ValueSet-CareConnect-CareSettingType-1.html">(back to description)</a>
+  </p>
+  <p>
+    <a href="ValueSet-CareConnect-CareSettingType-1.json">Raw json</a>
+  </p>
+  
+  
+  
+  <p>
+    <b>Source view</b>
+  </p>
+  
+  <pre class="json">
+{
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.id">id</a>" : "CareConnect-CareSettingType-1",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt; \n         &lt;h2&gt;Care Connect Care Setting Type&lt;/h2&gt; \n         &lt;div&gt; \n            &lt;p&gt;A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107&lt;/p&gt; \n         &lt;/div&gt; \n         &lt;p&gt; \n            &lt;b&gt;Copyright Statement:&lt;/b&gt; This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         &lt;/p&gt; \n         &lt;p&gt;This value set includes codes from the following code systems:&lt;/p&gt; \n         &lt;ul&gt; \n            &lt;li&gt;Include codes from \n               &lt;a href=\&quot;http://www.snomed.org/\&quot;&gt; \n                  &lt;code&gt;http://snomed.info/sct&lt;/code&gt; \n               &lt;/a&gt; where concept  in  999000381000000107 \n            &lt;/li&gt; \n         &lt;/ul&gt; \n      &lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.url">url</a>" : "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.version">version</a>" : "3.0.0",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.name">name</a>" : "Care Connect Care Setting Type",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.date">date</a>" : "2018-11-01T00:00:00+00:00",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.publisher">publisher</a>" : "INTEROpen",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "other",
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://interopen.ryver.com/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.description">description</a>" : "A code from the SNOMED Clinical Terminology UK coding system that describes a correspondence care setting type. Any code from the SNOMED CT UK 'Correspondence Care setting type' subset with subset original id 43971000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Correspondence care setting type simple reference set (foundation metadata concept)' with Refset Id 999000381000000107",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">code</a>" : "826"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.copyright">copyright</a>" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.",
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter">filter</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.property">property</a>" : "concept",
+            "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.op">op</a>" : "in",
+            "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.compose.include.filter.value">value</a>" : "999000381000000107"
+          }
+        ]
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.identifier">identifier</a>" : "b875fc9d-3094-4c14-ba7d-48b0ab0112d1",
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2019-12-11T16:50:39+00:00",
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.total">total</a>" : 218,
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter">parameter</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "version",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueUri</a>" : "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "count",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueInteger</a>" : 2147483647
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.name">name</a>" : "offset",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.parameter.value[x]">valueInteger</a>" : 0
+      }
+    ],
+    "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310165002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transplant surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310034009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric intensive care service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310033003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adult intensive care service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708188000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Serology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310166001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Trauma surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310167005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Urology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2351000175106",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sports medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310141000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Thoracic surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310010004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Distraction test audiological screening service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310019003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Tinnitus management service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "706902008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Mycology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3801000175108",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric pulmonology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "699650006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community based physiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310121005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychogeriatric service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700436003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical pharmacology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310120006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Mental handicap psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722424008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Physical medicine and rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310016005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adult hearing aid service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310148006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Restorative dentistry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310080006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pharmacy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310018006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Speech-reading training service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2421000175108",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Acute care inpatient service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310123008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "706901001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Bacteriology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310084002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dance therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310082003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Arts therapy services"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310083008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Art therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310122003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rehabilitation psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310015009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hearing aid service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310147001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric dentistry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700435004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical physiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708169007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Respiratory therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310168000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vascular surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310142007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiac surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310143002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dental surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310014008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric cochlear implant service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "408452007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Behavioural intervention team"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "706900000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Parasitology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "710028007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Maxillofacial surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310017001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric hearing aid service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310149003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Ear, nose and throat service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310146005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Orthodontics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700434000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endocrinology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "408451000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community learning disabilities team"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "408458006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Specialist multidisciplinary team"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310144008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "General dental surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310013002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adult cochlear implant service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310012007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cochlear implant service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310145009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Oral surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700433006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Gastroenterology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310140004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiothoracic surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310109006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Orthotics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310150003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endocrine surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310138009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Surgical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708171007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vascular ultrasound service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310169008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Ultrasonography service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708175003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnostic imaging service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708170008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Nursing service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3761000175103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric endocrinology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310023006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Radiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310022001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical oncology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "395086005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community specialist palliative care"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310073009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Palliative care service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708173005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Obstetric ultrasound service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310067008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community paediatric service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722175001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychosomatic medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722174002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pulmonary medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708194008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Blood bank service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310108003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community orthoptics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310107008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital orthoptics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3751000175100",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric emergency medical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310020009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hearing therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310011000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Aural rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310004004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Audiological service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310152006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "General gastrointestinal surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310151004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Gastrointestinal surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708174004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Interventional radiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310125001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Radiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310155008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Colorectal surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708196005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Haematology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310069006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric oncology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3621000175101",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rheumatology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708172000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiac ultrasound service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "409971007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Emergency medical services"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310021008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Assistive listening device service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310153001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Upper gastrointestinal surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708178001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cytogenetics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310068003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric neurology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722170006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Chiropractic service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708193002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coagulation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310119000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Liaison psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310079008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Neuropathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708183009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anatomic pathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3791000175107",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric nephrology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310162004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pancreatic surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708185002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Virology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310161006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Orthopaedic service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310030000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endoscopy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708182004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Histology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310160007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Ophthalmology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "705150003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Domiciliary physiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310118008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Forensic psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3781000175109",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric infectious disease service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310164003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Plastic surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310031001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Family planning service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708187005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Surgical pathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "734863003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Prosthodontic service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3531000175102",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Geriatric service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708180007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dermatopathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "699478002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Surgical oncology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "444933003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Home hospice service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "734862008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endodontic service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700241009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dermatology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310088004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community-based podiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310087009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Podiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310127009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Magnetic resonance imaging service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310126000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Breast screening service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310062002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pregnancy termination service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310061009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Gynaecology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310128004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Computerised tomography service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310089007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital-based podiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310100005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Play therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310124002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310085001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Drama therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310086000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Music therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "706903003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Mycobacteriology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "741073001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Neonatal intensive care service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310032008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intensive care service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "278032008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Preventive service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310158005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hepatobiliary surgical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310091004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community-based dietetics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310090003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dietetics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310024000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Colposcopy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310156009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "General surgical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310130002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Head injury rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310129007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310027007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Mental health counselling service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310026003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Counselling service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "714089006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community midwifery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "714088003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Midwifery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "3771000175106",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric gastroenterology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310095008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Social services occupational therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310005003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnostic audiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310137004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Stroke service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "711332004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Allergy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310094007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community-based occupational therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310072004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Acute pain service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310071006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pain management service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310007006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric diagnostic audiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310139001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Breast surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310098005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital-based physiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722140001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Physiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310099002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Child physiotherapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310000008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Accident and Emergency service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310132005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Young disabled service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310096009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital-based occupational therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "413294000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community health services"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310092006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital-based dietetics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310003005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Child assessment service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "395104009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cancer primary healthcare multidisciplinary team"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310159002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Neurosurgical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310028002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnostic investigation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310093001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Occupational therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2451000175103",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Perinatology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310029005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Domiciliary visit service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310001007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anaesthetic service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "413299005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Early years services"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "734920002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diabetic education service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "444913002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diabetes mellitus service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310114005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community surgical fitting service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310076001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical biochemistry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "733459009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiac rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310009009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Neonatal audiological screening service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700232004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "General medical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310115006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Public health service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700231006",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Critical care physician service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310117003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Child and adolescent psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310116007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychiatry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708168004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Mental health service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722352000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vascular medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2461000175101",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pulmonary rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310078000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Medical microbiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310008001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Audiological screening service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310006002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Adult diagnostic audiology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310070007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Special care baby service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310111002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community orthotics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310113004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital surgical fitting service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310112009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Surgical fitting service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310110001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital orthotics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310025004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Complementary therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310157000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hand surgery service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708179009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Molecular pathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310131003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community rehabilitation service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "2471000175109",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Employee health service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "395092004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Specialist palliative care"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310163009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Paediatric surgical service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310200001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cytology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310133000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Swallow clinic"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "373654008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Medical referral service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722393008",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Legal medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "722176000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dentistry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "700221004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Care of elderly service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310104001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Child speech and language therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310065000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Open access service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310105000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Optometry service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "445449000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Acute care hospice service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708190004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Immunology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708184003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical pathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310074003",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pathology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310103007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hospital-based speech and language therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310101009",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Speech and language therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310081005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Professional allied to medicine service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310064001",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Occupational health service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310102002",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Community-based speech and language therapy service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310106004",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Orthoptics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310063007",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Obstetrics service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "310060005",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Obstetrics and gynaecology service"
+      },
+      {
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://snomed.info/sct",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.code">code</a>" : "708191000",
+        "<a href="http://hl7.org/fhir/STU3/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Toxicology service"
+      }
+    ]
+  }
+}</pre>
+
+
+  
+  
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 20, 2019 16:00+0000">2019-12-20</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/fhir.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

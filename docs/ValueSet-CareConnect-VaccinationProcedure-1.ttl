@@ -1,0 +1,1412 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-VaccinationProcedure-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Vaccination Procedure</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where constraint  =  (&lt;&lt;33879002 OR &lt;&lt;713404003 OR &lt;&lt;955641000000103 OR &lt;&lt;955691000000108 OR &lt;&lt;955701000000108 OR &lt;&lt;957581000000102 OR &lt;&lt;957751000000103 OR &lt;&lt;1066171000000108 OR &lt;&lt;140611000119104 OR &lt;&lt;15483003 OR &lt;&lt;39343008 OR &lt;&lt;34631000 OR &lt;&lt;72093006 OR &lt;&lt;425897001 OR &lt;&lt;8605003 OR &lt;&lt;428502009 OR &lt;&lt;283451000000105 OR &lt;&lt;308753004 OR &lt;&lt;572481000119103 OR &lt;&lt;965851000000105 OR &lt;&lt;761841000 OR &lt;&lt;16300531000119107 OR &lt;&lt;14747002 OR &lt;&lt;283431000000103 OR &lt;&lt;427633002) MINUS (&lt;&lt;304250009 OR &lt;&lt;51116004 OR &lt;&lt;296811004 OR &lt;&lt;294631000 OR &lt;&lt;425457005 OR &lt;&lt;291705006 OR &lt;&lt;417451006 OR &lt;&lt;47988006 OR &lt;&lt;293095001 OR &lt;&lt;601000000100 OR &lt;&lt;123471000119103 OR &lt;&lt;266758009 OR &lt;&lt;223464006 OR &lt;&lt;185324002 OR &lt;&lt;416064006 OR &lt;&lt;428119001 OR &lt;&lt;308433002 OR &lt;&lt;183944003 OR &lt;&lt;408864009 OR &lt;&lt;202111000000106 OR &lt;&lt;708538000 OR &lt;&lt;418019003 OR &lt;&lt;416237000 OR &lt;&lt;400999005 OR &lt;&lt;309370004) \n            </li> \n         </ul> \n      </div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1"];
+  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.name [ fhir:value "Care Connect Vaccination Procedure"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system to record a vaccination procedure."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "constraint" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "=" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "(<<33879002 OR <<713404003 OR <<955641000000103 OR <<955691000000108 OR <<955701000000108 OR <<957581000000102 OR <<957751000000103 OR <<1066171000000108 OR <<140611000119104 OR <<15483003 OR <<39343008 OR <<34631000 OR <<72093006 OR <<425897001 OR <<8605003 OR <<428502009 OR <<283451000000105 OR <<308753004 OR <<572481000119103 OR <<965851000000105 OR <<761841000 OR <<16300531000119107 OR <<14747002 OR <<283431000000103 OR <<427633002) MINUS (<<304250009 OR <<51116004 OR <<296811004 OR <<294631000 OR <<425457005 OR <<291705006 OR <<417451006 OR <<47988006 OR <<293095001 OR <<601000000100 OR <<123471000119103 OR <<266758009 OR <<223464006 OR <<185324002 OR <<416064006 OR <<428119001 OR <<308433002 OR <<183944003 OR <<408864009 OR <<202111000000106 OR <<708538000 OR <<418019003 OR <<416237000 OR <<400999005 OR <<309370004)" ]
+       ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "b99cc773-007d-4544-ac22-aa821a39a108" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:33+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "267"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "9856004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tularaemia vaccination" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170313005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster cholera vaccination" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412756007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria, tetanus and acellular pertussis (DTaP) vaccination" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170312000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second cholera vaccination" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412757003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria, tetanus and acellular pertussis (DTaP) vaccination" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170317006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second typhoid vaccination" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572481000119103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of measles live vaccine" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "415507003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria tetanus and five component acellular pertussis, haemophilus influenzae type b, inactivated polio vaccination" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "150961000119105" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles vaccination given" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395180002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third tetanus and low dose diphtheria vaccination" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571611000119101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of varicella live vaccine" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170421003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster tetanus and polio vaccination" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170420002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third tetanus and polio vaccination" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572421000119102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of oral typhoid live vaccine" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "737081007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of varicella zoster vaccine" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "626061000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of rotavirus pentavalent live vaccine, oral" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170427004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhoid and Paratyphoid reinforcing dose" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "414259000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria tetanus and five component acellular pertussis, haemophilus influenzae type b, inactivated polio vaccination" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "281658005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tick-borne encephalitis vaccination" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170402006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria, pertussis and tetanus triple and polio vaccination" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170429001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "2nd HiB and DTP vaccine given" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170361003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third smallpox vaccination" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170426008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhoid and Paratyphoid second dose" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170425007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhoid and Paratyphoid first dose" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "712833000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second vaccination with Haemophilus influenzae type B and Neisseria meningitidis serotype C combination vaccine" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170318001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster typhoid vaccination" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "30338008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhus vaccination" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395181003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster tetanus and low dose diphtheria vaccination" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170360002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second smallpox vaccination" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170400003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria, pertussis and tetanus triple and polio vaccination" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "712834006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First vaccination with Haemophilus influenzae type B and Neisseria meningitidis serotype C combination vaccine" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416591003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170428009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "1st HiB and DTP vaccine given" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "67308009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Yellow fever vaccination" ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170401004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria, pertussis and tetanus triple and polio vaccination" ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "307416007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First smallpox vaccination" ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "46079006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination by injection gun" ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "83798008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Paratyphoid fever vaccination" ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "300038004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pertussis booster vaccination" ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "425897001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First varicella vaccination" ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "414619005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170316002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First typhoid vaccination" ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170323001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster diphtheria vaccination" ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "427633002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intravenous injection of vaccine" ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313188000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First hepatitis A junior vaccination" ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170378007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First hepatitis A vaccination" ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314415008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second meningitis C vaccination" ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "7141001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Brucellosis vaccination" ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170327000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second pertussis vaccination" ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "50069008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Plague vaccination" ]
+     ], [
+       fhir:index 50;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170320003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria vaccination" ]
+     ], [
+       fhir:index 51;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170346004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster haemophilus B vaccination" ]
+     ], [
+       fhir:index 52;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571571000119105" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of diphtheria + tetanus + acellular pertussis vaccine" ]
+     ], [
+       fhir:index 53;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412742005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third hepatitis A junior vaccination" ]
+     ], [
+       fhir:index 54;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170380001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third hepatitis A vaccination" ]
+     ], [
+       fhir:index 55;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170430006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "3rd HiB and DTP vaccine given" ]
+     ], [
+       fhir:index 56;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "151061000119101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tetanus toxoid vaccination given" ]
+     ], [
+       fhir:index 57;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395665009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Single dose typhoid vaccination" ]
+     ], [
+       fhir:index 58;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417615007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 59;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412743000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster hepatitis A junior vaccination" ]
+     ], [
+       fhir:index 60;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170381002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster hepatitis A vaccination" ]
+     ], [
+       fhir:index 61;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "22989000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination for arthropod-borne virus" ]
+     ], [
+       fhir:index 62;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170431005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles mumps and rubella booster vaccination" ]
+     ], [
+       fhir:index 63;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170392001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Leishmaniasis vaccination" ]
+     ], [
+       fhir:index 64;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314414007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First meningitis C vaccination" ]
+     ], [
+       fhir:index 65;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170328005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third pertussis vaccination" ]
+     ], [
+       fhir:index 66;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170324007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Low dose diphtheria vaccination" ]
+     ], [
+       fhir:index 67;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "722215002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of herpes zoster vaccine" ]
+     ], [
+       fhir:index 68;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "148297000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Travel vaccination given" ]
+     ], [
+       fhir:index 69;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "700358002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster meningitis C vaccination" ]
+     ], [
+       fhir:index 70;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "39568006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunisation for encephalitis virus" ]
+     ], [
+       fhir:index 71;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170321004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria vaccination" ]
+     ], [
+       fhir:index 72;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416144004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 73;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412763007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria, tetanus, acellular pertussis (DTaP) and polio vaccination" ]
+     ], [
+       fhir:index 74;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "281039000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Post-school tetanus and polio vaccination" ]
+     ], [
+       fhir:index 75;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571511000119102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of adult hepatitis A vaccine" ]
+     ], [
+       fhir:index 76;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571641000119102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of meningococcal polysaccharide vaccine" ]
+     ], [
+       fhir:index 77;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170322006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria vaccination" ]
+     ], [
+       fhir:index 78;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16298691000119102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of meningococcal oligosaccharide A, C, Y, and W-135 vaccine" ]
+     ], [
+       fhir:index 79;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "390892002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningitis ACW & Y vaccination" ]
+     ], [
+       fhir:index 80;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16298561000119108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of tetanus, diphtheria, and acellular pertussis vaccine" ]
+     ], [
+       fhir:index 81;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "761841000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of human papilloma virus vaccine" ]
+     ], [
+       fhir:index 82;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170326009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First pertussis vaccination" ]
+     ], [
+       fhir:index 83;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313189008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second hepatitis A junior vaccination" ]
+     ], [
+       fhir:index 84;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170379004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second hepatitis A vaccination" ]
+     ], [
+       fhir:index 85;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "90640007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Coronavirus vaccination" ]
+     ], [
+       fhir:index 86;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314417000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningitis A & C vaccination" ]
+     ], [
+       fhir:index 87;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170433008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles mumps and rubella vaccination - second dose" ]
+     ], [
+       fhir:index 88;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "28877009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cholera vaccination" ]
+     ], [
+       fhir:index 89;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170432003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "MMR pre-school booster vaccination" ]
+     ], [
+       fhir:index 90;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170436000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third combined hepatitis A and B vaccination" ]
+     ], [
+       fhir:index 91;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312868009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Combined hepatitis A and B vaccination" ]
+     ], [
+       fhir:index 92;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314416009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third meningitis C vaccination" ]
+     ], [
+       fhir:index 93;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412764001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria, tetanus, acellular pertussis (DTaP) and polio vaccination" ]
+     ], [
+       fhir:index 94;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "22850005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunisation for autoimmune disease" ]
+     ], [
+       fhir:index 95;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412762002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria, tetanus, acellular pertussis (DTaP) and polio vaccination" ]
+     ], [
+       fhir:index 96;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428975001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination with Haemophilus influenzae type B and Neisseria meningitidis serotype C combination vaccine" ]
+     ], [
+       fhir:index 97;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "719596001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningitis C vaccination" ]
+     ], [
+       fhir:index 98;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "41088001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningococcus vaccination" ]
+     ], [
+       fhir:index 99;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "243789007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hepatitis A immunisation" ]
+     ], [
+       fhir:index 100;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571631000119106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of pneumococcal polysaccharide 23 valent vaccine" ]
+     ], [
+       fhir:index 101;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "12866006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pneumococcal vaccination" ]
+     ], [
+       fhir:index 102;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170331006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second tetanus vaccination" ]
+     ], [
+       fhir:index 103;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417211006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First booster low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 104;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "396456003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria, acellular pertussis, hepatitis B and inactivated polio vaccination" ]
+     ], [
+       fhir:index 105;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170339008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second anthrax vaccination" ]
+     ], [
+       fhir:index 106;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "415354003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rotavirus vaccination" ]
+     ], [
+       fhir:index 107;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "315335004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster Japanese encephalitis vaccination" ]
+     ], [
+       fhir:index 108;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170334003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Final tetanus immunisation" ]
+     ], [
+       fhir:index 109;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "308753004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Subcutaneous injection of Pneumovax II" ]
+     ], [
+       fhir:index 110;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734154002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of human papilloma virus type 6, 11, 16, and 18 vaccine done" ]
+     ], [
+       fhir:index 111;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312867004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhoid and paratyphoid vaccination" ]
+     ], [
+       fhir:index 112;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "286941000119101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Viral hepatitis A and B vaccination given" ]
+     ], [
+       fhir:index 113;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "43941000119105" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Viral hepatitis A vaccination given" ]
+     ], [
+       fhir:index 114;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "720539004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First meningitis B vaccination" ]
+     ], [
+       fhir:index 115;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "42284007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "BCG vaccination" ]
+     ], [
+       fhir:index 116;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "394678003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster pneumococcal vaccination" ]
+     ], [
+       fhir:index 117;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "390865008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster diphtheria, tetanus, acellular pertussis (DTaP) and polio vaccination" ]
+     ], [
+       fhir:index 118;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170330007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First tetanus vaccination" ]
+     ], [
+       fhir:index 119;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170311007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First cholera vaccination" ]
+     ], [
+       fhir:index 120;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "396455004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Borrelia burgdorferi vaccination" ]
+     ], [
+       fhir:index 121;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "390846000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster diphtheria, tetanus and acellular pertussis (DTaP) vaccination" ]
+     ], [
+       fhir:index 122;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "412755006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria, tetanus and acellular pertussis (DTaP) vaccination" ]
+     ], [
+       fhir:index 123;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170332004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third tetanus vaccination" ]
+     ], [
+       fhir:index 124;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170333009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster tetanus vaccination" ]
+     ], [
+       fhir:index 125;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "720537002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningitis B vaccination" ]
+     ], [
+       fhir:index 126;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16292691000119104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of intramuscular Japanese encephalitis inactivated vaccine" ]
+     ], [
+       fhir:index 127;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "734152003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of human papilloma virus type 6, 11, 16, and 18 vaccine" ]
+     ], [
+       fhir:index 128;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "91223004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Emergency immunisation during epidemic" ]
+     ], [
+       fhir:index 129;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170405008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria and tetanus double vaccination" ]
+     ], [
+       fhir:index 130;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416059007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rabies booster vaccination" ]
+     ], [
+       fhir:index 131;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170367004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third rabies vaccination" ]
+     ], [
+       fhir:index 132;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "73701000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Influenza vaccination given" ]
+     ], [
+       fhir:index 133;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314179000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second hepatitis A and typhoid vaccination" ]
+     ], [
+       fhir:index 134;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170366008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second rabies vaccination" ]
+     ], [
+       fhir:index 135;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170406009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria and tetanus double vaccination" ]
+     ], [
+       fhir:index 136;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170340005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third anthrax vaccination" ]
+     ], [
+       fhir:index 137;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170341009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Fourth anthrax vaccination" ]
+     ], [
+       fhir:index 138;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "8605003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunisation for bordetella" ]
+     ], [
+       fhir:index 139;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314178008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First hepatitis A and typhoid vaccination" ]
+     ], [
+       fhir:index 140;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170407000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria and tetanus double vaccination" ]
+     ], [
+       fhir:index 141;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "720544006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster meningitis B vaccination" ]
+     ], [
+       fhir:index 142;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "724332002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of human papilloma virus type 9 vaccine" ]
+     ], [
+       fhir:index 143;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170408005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster diphtheria and tetanus double vaccination" ]
+     ], [
+       fhir:index 144;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170364006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles vaccination plus immunoglobulin" ]
+     ], [
+       fhir:index 145;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "150971000119104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles, mumps and rubella vaccination given" ]
+     ], [
+       fhir:index 146;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "720540002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second meningitis B vaccination" ]
+     ], [
+       fhir:index 147;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "632481000119106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of diphtheria and tetanus vaccine, less than 7 years of age" ]
+     ], [
+       fhir:index 148;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "85720009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Salmonella vaccination" ]
+     ], [
+       fhir:index 149;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170365007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First rabies vaccination" ]
+     ], [
+       fhir:index 150;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314450000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Single meningitis C vaccination" ]
+     ], [
+       fhir:index 151;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572511000119105" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of measles + mumps + rubella + varicella live vaccine" ]
+     ], [
+       fhir:index 152;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170370000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First hepatitis B vaccination" ]
+     ], [
+       fhir:index 153;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170434002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First combined hepatitis A and B vaccination" ]
+     ], [
+       fhir:index 154;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170395004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria, pertussis and tetanus triple vaccination" ]
+     ], [
+       fhir:index 155;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "105941000119105" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Herpes zoster vaccination given" ]
+     ], [
+       fhir:index 156;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310308006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third DTP polio and Hib vaccination" ]
+     ], [
+       fhir:index 157;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170413009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 158;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "359956001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Autogenous immunisation" ]
+     ], [
+       fhir:index 159;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314763007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "3rd Japanese encephalitis vaccination" ]
+     ], [
+       fhir:index 160;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "39031000119103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Viral hepatitis B vaccination given" ]
+     ], [
+       fhir:index 161;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310307001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second DTP polio and Hib vaccination" ]
+     ], [
+       fhir:index 162;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "40001004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Smallpox vaccination" ]
+     ], [
+       fhir:index 163;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170371001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second hepatitis B vaccination" ]
+     ], [
+       fhir:index 164;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170414003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 165;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "275841003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pre-school diphtheria and tetanus double vaccination" ]
+     ], [
+       fhir:index 166;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "310306005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First DTP polio and Hib vaccination" ]
+     ], [
+       fhir:index 167;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417384007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second booster low dose diphtheria, tetanus and inactivated polio vaccination" ]
+     ], [
+       fhir:index 168;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170356000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster polio vaccination" ]
+     ], [
+       fhir:index 169;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "717953009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of human papilloma virus type 16 and type 18 vaccine" ]
+     ], [
+       fhir:index 170;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314761009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "1st Japanese encephalitis vaccination" ]
+     ], [
+       fhir:index 171;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428502009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second varicella vaccination" ]
+     ], [
+       fhir:index 172;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170374009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Fourth hepatitis B vaccination" ]
+     ], [
+       fhir:index 173;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572391000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of rabies vaccine via intramuscular route" ]
+     ], [
+       fhir:index 174;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170397007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria, pertussis and tetanus triple vaccination" ]
+     ], [
+       fhir:index 175;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "394691002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster hepatitis A and typhoid vaccination" ]
+     ], [
+       fhir:index 176;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314177003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hepatitis A and typhoid vaccination" ]
+     ], [
+       fhir:index 177;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314762002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "2nd Japanese encephalitis vaccination" ]
+     ], [
+       fhir:index 178;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "314759000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Japanese encephalitis vaccination" ]
+     ], [
+       fhir:index 179;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "70322007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunisation in infancy" ]
+     ], [
+       fhir:index 180;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170372008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third hepatitis B vaccination" ]
+     ], [
+       fhir:index 181;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170412004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 182;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "270898008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 183;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "735981009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of pneumococcal 7-valent conjugate vaccine" ]
+     ], [
+       fhir:index 184;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170437009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster combined hepatitis A and B vaccination" ]
+     ], [
+       fhir:index 185;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11842003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rocky Mountain spotted fever vaccination" ]
+     ], [
+       fhir:index 186;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170354002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second polio vaccination" ]
+     ], [
+       fhir:index 187;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170419008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second tetanus and polio vaccination" ]
+     ], [
+       fhir:index 188;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "570001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination for arthropod-borne viral encephalitis" ]
+     ], [
+       fhir:index 189;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170355001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third polio vaccination" ]
+     ], [
+       fhir:index 190;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395179000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second tetanus and low dose diphtheria vaccination" ]
+     ], [
+       fhir:index 191;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "275849001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Infective hepatitis immunisation" ]
+     ], [
+       fhir:index 192;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "415712004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third diphtheria tetanus and five component acellular pertussis, haemophilus influenzae type b, inactivated polio vaccination" ]
+     ], [
+       fhir:index 193;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "14747002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Elective immunisation for international travel" ]
+     ], [
+       fhir:index 194;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "39361000119108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Meningococcus vaccination given" ]
+     ], [
+       fhir:index 195;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "151031000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rubella vaccination given" ]
+     ], [
+       fhir:index 196;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170353008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First polio vaccination" ]
+     ], [
+       fhir:index 197;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "416923003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Sixth hepatitis B vaccination" ]
+     ], [
+       fhir:index 198;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170418000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First tetanus and polio vaccination" ]
+     ], [
+       fhir:index 199;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3509001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Streptococcus vaccination" ]
+     ], [
+       fhir:index 200;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "281040003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pre-school diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 201;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "571591000119106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of measles + mumps + rubella live vaccine" ]
+     ], [
+       fhir:index 202;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170375005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Fifth hepatitis B vaccination" ]
+     ], [
+       fhir:index 203;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428741008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination with first dose of human papillomavirus" ]
+     ], [
+       fhir:index 204;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "140611000119104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Human papilloma virus type 16 and 18 vaccination given" ]
+     ], [
+       fhir:index 205;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "313383003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Fourth DTP polio and Hib vaccination" ]
+     ], [
+       fhir:index 206;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "99501000119107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Human papilloma virus vaccination given" ]
+     ], [
+       fhir:index 207;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170435001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second combined hepatitis A and B vaccination" ]
+     ], [
+       fhir:index 208;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428931000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination with third dose of human papillomavirus" ]
+     ], [
+       fhir:index 209;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "428570002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination for human papillomavirus" ]
+     ], [
+       fhir:index 210;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170396003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second diphtheria, pertussis and tetanus triple vaccination" ]
+     ], [
+       fhir:index 211;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "414001002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria tetanus and five component acellular pertussis, haemophilus influenzae type b, inactivated polio vaccination" ]
+     ], [
+       fhir:index 212;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "442333005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Influenza A virus subtype H1N1 vaccination" ]
+     ], [
+       fhir:index 213;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "86198006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Influenza vaccination" ]
+     ], [
+       fhir:index 214;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "429396009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination with second dose of human papillomavirus" ]
+     ], [
+       fhir:index 215;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170338000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First anthrax vaccination" ]
+     ], [
+       fhir:index 216;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "395178008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First tetanus and low dose diphtheria vaccination" ]
+     ], [
+       fhir:index 217;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16300531000119107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Human papillomavirus type 9 vaccination given" ]
+     ], [
+       fhir:index 218;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "359959008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Autogenous vaccination" ]
+     ], [
+       fhir:index 219;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170415002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster diphtheria and tetanus double and polio vaccination" ]
+     ], [
+       fhir:index 220;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170373003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster hepatitis B vaccination" ]
+     ], [
+       fhir:index 221;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "359950007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster immunisation" ]
+     ], [
+       fhir:index 222;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16292731000119106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of intramuscular Japanese encephalitis inactivated adsorbed vaccine" ]
+     ], [
+       fhir:index 223;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "44004000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Staphylococcus vaccination" ]
+     ], [
+       fhir:index 224;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "43961000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pneumococcal 7-valent conjugate vaccination given" ]
+     ], [
+       fhir:index 225;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170344001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Second haemophilus B vaccination" ]
+     ], [
+       fhir:index 226;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "433733003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of second measles, mumps, rubella, and varicella vaccine" ]
+     ], [
+       fhir:index 227;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "432636005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of measles, mumps, rubella, and varicella vaccine" ]
+     ], [
+       fhir:index 228;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "767634004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of varicella virus vaccine" ]
+     ], [
+       fhir:index 229;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "38598009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles-mumps-rubella vaccination" ]
+     ], [
+       fhir:index 230;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "82314000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rubella vaccination" ]
+     ], [
+       fhir:index 231;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "50583002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mumps vaccination" ]
+     ], [
+       fhir:index 232;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "47435007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Measles vaccination" ]
+     ], [
+       fhir:index 233;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170345000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Third haemophilus B vaccination" ]
+     ], [
+       fhir:index 234;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "151071000119107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Bacillus Calmette-Guerin vaccination given" ]
+     ], [
+       fhir:index 235;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "713404003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination given" ]
+     ], [
+       fhir:index 236;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572561000119108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of diphtheria + tetanus + acellular pertussis + hepatitis B + inactivated polio virus vaccine" ]
+     ], [
+       fhir:index 237;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16584000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hepatitis B vaccination" ]
+     ], [
+       fhir:index 238;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16290681000119103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of diphtheria + tetanus + acellular pertussis + inactivated poliovirus vaccine" ]
+     ], [
+       fhir:index 239;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16292771000119109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of poliomyelitis inactivated vaccine" ]
+     ], [
+       fhir:index 240;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "414620004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Low dose diphtheria, tetanus, five component acellular pertussis and inactivated polio vaccination" ]
+     ], [
+       fhir:index 241;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170399005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria, pertussis and tetanus triple and polio vaccination" ]
+     ], [
+       fhir:index 242;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170343007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "First haemophilus B vaccination" ]
+     ], [
+       fhir:index 243;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "127787002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemophilus influenzae type b vaccination" ]
+     ], [
+       fhir:index 244;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "51572002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemophilus influenzae immunisation" ]
+     ], [
+       fhir:index 245;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312871001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Immunisation against bacterial disease" ]
+     ], [
+       fhir:index 246;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "33879002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Active immunisation" ]
+     ], [
+       fhir:index 247;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "626071000119103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of subcutaneous zoster virus live vaccine" ]
+     ], [
+       fhir:index 248;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "34631000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rabies vaccination" ]
+     ], [
+       fhir:index 249;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312870000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria, tetanus, pertussis, polio and haemophilus influenza B vaccination" ]
+     ], [
+       fhir:index 250;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "399014008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaccination for diphtheria, pertussis, and tetanus" ]
+     ], [
+       fhir:index 251;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "39343008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pertussis vaccination" ]
+     ], [
+       fhir:index 252;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312869001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemophilus influenza B, diphtheria, tetanus and polio vaccination" ]
+     ], [
+       fhir:index 253;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "73152006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tetanus diphtheria vaccination" ]
+     ], [
+       fhir:index 254;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "76668005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Diphtheria vaccination" ]
+     ], [
+       fhir:index 255;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "268499008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tetanus and polio vaccination" ]
+     ], [
+       fhir:index 256;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "72093006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Poliomyelitis vaccination" ]
+     ], [
+       fhir:index 257;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "49083007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Viral immunisation" ]
+     ], [
+       fhir:index 258;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "312872008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Combined immunisation against bacterial and viral disease" ]
+     ], [
+       fhir:index 259;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "127786006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tetanus vaccination" ]
+     ], [
+       fhir:index 260;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "150981000119101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mumps vaccination given" ]
+     ], [
+       fhir:index 261;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "572431000119104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Administration of typhoid VI capsular polysaccharide vaccine via intramuscular route" ]
+     ], [
+       fhir:index 262;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "15483003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Typhoid vaccination" ]
+     ], [
+       fhir:index 263;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170409002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Tetanus and low dose diphtheria double vaccination" ]
+     ], [
+       fhir:index 264;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "170342002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster anthrax vaccination" ]
+     ], [
+       fhir:index 265;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "49598002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anthrax vaccination" ]
+     ], [
+       fhir:index 266;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "359953009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Booster vaccination" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccinationProcedure-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

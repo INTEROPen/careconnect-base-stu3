@@ -1,0 +1,479 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CareConnect-MedicationDosageRoute-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n         <h2>Care Connect Medication Dosage Route</h2> \n         <div> \n            <p>A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100.</p> \n         </div> \n         <p> \n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. \n         </p> \n         <p>This value set includes codes from the following code systems:</p> \n         <ul> \n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\"> \n                  <code>http://snomed.info/sct</code> \n               </a> where concept  in  999000051000001100 \n            </li> \n         </ul> \n      </div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1"];
+  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.name [ fhir:value "Care Connect Medication Dosage Route"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "A code from the SNOMED Clinical Terminology UK coding system that describes the e-Prescribing route of administration. Any code from the SNOMED CT UK 'NHS e-Prescribing route of administration subset' with subset original id 30201000001137; the corresponding SNOMED CT UK Refset FSN is 'ePrescribing route of administration simple reference set (foundation metadata concept)' with Refset Id 999000051000001100."];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:ValueSet.copyright [ fhir:value "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "in" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "999000051000001100" ]
+       ]
+     ]
+  ];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.identifier [ fhir:value "9bb08ae5-182f-4dfb-9cfd-0e588c2442a4" ];
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2019-12-11T16:50:32+00:00"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.total [ fhir:value "80"^^xsd:integer ];
+     fhir:ValueSet.expansion.parameter [
+       fhir:index 0;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "version" ];
+       fhir:ValueSet.expansion.parameter.valueUri [ fhir:value "http://snomed.info/sct?version=http%3A%2F%2Fsnomed.info%2Fsct%2F999000031000000106%2Fversion%2F20190807" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "count" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "2147483647"^^xsd:integer ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.parameter.name [ fhir:value "offset" ];
+       fhir:ValueSet.expansion.parameter.valueInteger [ fhir:value "0"^^xsd:integer ]
+     ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372475000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Perineural" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372476004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Subconjunctival" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11564311000001109" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Regional perfusion" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372451000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endosinusial" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418730005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nasojejunal route" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372458006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraamniotic" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418586008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intratendinous route" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "404815008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Transmucosal" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372459003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intrabursal" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3594011000001102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Route of administration not applicable" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418321004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Retrobulbar route" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372453002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Extraamniotic" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "54471007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Buccal" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372450004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endocervical" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418821007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracameral" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372468001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraocular" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372457001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gingival" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "6064005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Topical" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "26643006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oral" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "18679011000001101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Inhalation" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372460008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracardiac" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "9191501000001101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Percutaneous" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "47625008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intravenous" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11564211000001101" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Submucosal rectal" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372449004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dental" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "10364101000001103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Subdermal" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "19537211000001108" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracervical route" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "62226000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intrauterine" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372464004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intradermal" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372463005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracoronary" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "58100008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraarterial" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417255000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraosseous" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "10547007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ear" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "72607000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intrathecal" ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372466002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intralesional" ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372452007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endotracheopulmonary" ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "10334211000001103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemofiltration" ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "447122006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intratumoral" ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372461007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracavernous" ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "419874009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Submucosal route" ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "90028008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Urethral" ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "9191401000001100" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemodiafiltration" ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "18246711000001107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Epilesional" ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "417946008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pericardial route" ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418401004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intravitreal" ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "38239002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraperitoneal" ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "21856811000001103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Iontophoresis" ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372470005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intrasternal" ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.inactive [ fhir:value "true"^^xsd:boolean ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "15881211000001104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraepidermal" ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "45890007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Transdermal" ]
+     ], [
+       fhir:index 50;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "420719007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intracerebroventricular" ]
+     ], [
+       fhir:index 51;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372471009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intravesical" ]
+     ], [
+       fhir:index 52;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "46713006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nasal" ]
+     ], [
+       fhir:index 53;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "16857009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vaginal" ]
+     ], [
+       fhir:index 54;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "33770711000001104" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Subretinal" ]
+     ], [
+       fhir:index 55;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372467006" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intralymphatic" ]
+     ], [
+       fhir:index 56;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "404820008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Epidural" ]
+     ], [
+       fhir:index 57;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372474001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Periarticular" ]
+     ], [
+       fhir:index 58;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "3323001000001107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pericardial route" ]
+     ], [
+       fhir:index 59;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11478901000001102" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Periosseous" ]
+     ], [
+       fhir:index 60;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "37839007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Sublingual" ]
+     ], [
+       fhir:index 61;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372473007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oromucosal" ]
+     ], [
+       fhir:index 62;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372469009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intrapleural" ]
+     ], [
+       fhir:index 63;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "11479001000001107" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Translingual" ]
+     ], [
+       fhir:index 64;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "18682911000001103" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemodialysis" ]
+     ], [
+       fhir:index 65;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "418722009" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Peribulbar route" ]
+     ], [
+       fhir:index 66;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "34206005" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Subcutaneous" ]
+     ], [
+       fhir:index 67;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "419762003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Peritendinous route" ]
+     ], [
+       fhir:index 68;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "12130007" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intra-articular" ]
+     ], [
+       fhir:index 69;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "420287000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraventricular cardiac" ]
+     ], [
+       fhir:index 70;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372465003" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intradiscal" ]
+     ], [
+       fhir:index 71;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "448077001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intraepidermal" ]
+     ], [
+       fhir:index 72;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "78421000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intramuscular" ]
+     ], [
+       fhir:index 73;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "127492001" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nasogastric route" ]
+     ], [
+       fhir:index 74;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "34777511000001106" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intestinal use" ]
+     ], [
+       fhir:index 75;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "37161004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rectal" ]
+     ], [
+       fhir:index 76;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "372454008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gastroenteral" ]
+     ], [
+       fhir:index 77;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "54485002" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Eye" ]
+     ], [
+       fhir:index 78;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "420254004" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Body cavity" ]
+     ], [
+       fhir:index 79;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "127491008" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Jejunostomy route" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationDosageRoute-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

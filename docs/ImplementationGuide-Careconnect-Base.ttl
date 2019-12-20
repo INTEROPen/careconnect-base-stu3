@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-20T14:46:26+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2019-12-20T16:00:57+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "INTEROpen"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
