@@ -1,4 +1,4 @@
-# CareConnect Base Implementation Guide
+# INTEROPen CareConnect Base Implementation Guide
 
 https://github.com/INTEROPen/careconnect-base-stu3
 
