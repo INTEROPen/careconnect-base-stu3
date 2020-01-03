@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2019-12-20T16:00:57+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-01-03T06:41:54+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "INTEROpen"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -3977,6 +3977,96 @@
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/uk-gmc-number>;
          fhir:Reference.reference [ fhir:value "NamingSystem/uk-gmc-number" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-read-v2.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Read Codes Version 2" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Read Codes version 2" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/read-v2>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/read-v2" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-read-v3.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "Read Codes Version 3" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "Read Codes version 3 - ctv3" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/read-v3>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/read-v3" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-icd-10-uk.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "ICD 10" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 10th Edition UK" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/icd-10-uk>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/icd-10-uk" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-icd-11-uk.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "ICD 11" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/icd-11-uk>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/icd-11-uk" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "NamingSystem-opcs-4.html" ]
+       ];
+       fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
+       fhir:ImplementationGuide.package.resource.name [ fhir:value "OPCS 4" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "OPCS Classification of Interventions and Procedures version 4" ];
+       fhir:ImplementationGuide.package.resource.sourceReference [
+         fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/opcs-4>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/opcs-4" ]
        ]
      ]
   ], [

@@ -1,13 +1,18 @@
+/* Product families should override the following two colors with family-specific colors */
 #segment-footer > .container {
-  background-color: #ad1f2f;
+  background-color: #505050;
 }
 .navbar-inverse {
-  background-color: #ad1f2f;
+  background-color: #505050;
 }
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #808080;
+}
+/* Generic settings common to all HL7 IGs */
 #hl7-nav {
   line-height: 50px;
   float: left;
-  margin-top: 16px;
+  margin-top: 4px;
   color: #808080;
 }
 #hl7-nav a {
@@ -20,19 +25,45 @@
 #hl7-search {
   line-height: 50px;
   float: right;
-  margin-top: 16px;
+  margin-top: 4px;
   color: maroon;
 }
 #hl7-search a {
   color: inherit;
 }
-#fhir-nav {
+#project-nav {
   line-height: 50px;
-  float: right;
-  margin-top: 16px;
+  float: left;
+  margin-top: 4px;
+  margin-bottom: 4px;
   color: #808080;
 }
-#fhir-logo {
-  float: right;
-  margin-left: 6px;
+#project-logo {
+  float: left;
+  margin-left: 3px;
+}
+
+/* ----------note-to-balloters styling------*/
+
+.note-to-balloters::before {
+  white-space: pre;
+  content: "Note To Balloters\A ";
+  #background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+.note-to-balloters, .stu-note{
+    margin: 5px;
+    padding: 10px;
+    border-left-style: solid;
+    background-color: #fff2ff;
+    border-left-color: #ffa0ff;
+}
+
+.stu-note::before {
+  white-space: pre;
+  content: "STU Note\A ";
+  #background-color: yellow;
+  color: red;
+  font-weight: bold;
 }

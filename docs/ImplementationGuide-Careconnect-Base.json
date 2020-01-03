@@ -9,7 +9,7 @@
   "version": "3.0.0",
   "name": "CareConnect Implementation Guide",
   "status": "draft",
-  "date": "2019-12-20T16:00:57+00:00",
+  "date": "2020-01-03T06:41:54+00:00",
   "publisher": "INTEROpen",
   "contact": [
     {
@@ -3970,6 +3970,96 @@
           "description": "General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)",
           "sourceReference": {
             "reference": "NamingSystem/uk-gmc-number"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "NamingSystem-read-v2.html"
+            }
+          ],
+          "example": false,
+          "name": "Read Codes Version 2",
+          "description": "Read Codes version 2",
+          "sourceReference": {
+            "reference": "NamingSystem/read-v2"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "NamingSystem-read-v3.html"
+            }
+          ],
+          "example": false,
+          "name": "Read Codes Version 3",
+          "description": "Read Codes version 3 - ctv3",
+          "sourceReference": {
+            "reference": "NamingSystem/read-v3"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "NamingSystem-icd-10-uk.html"
+            }
+          ],
+          "example": false,
+          "name": "ICD 10",
+          "description": "International Statistical Classification of Diseases and Related Health Problems - 10th Edition UK",
+          "sourceReference": {
+            "reference": "NamingSystem/icd-10-uk"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "NamingSystem-icd-11-uk.html"
+            }
+          ],
+          "example": false,
+          "name": "ICD 11",
+          "description": "International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK",
+          "sourceReference": {
+            "reference": "NamingSystem/icd-11-uk"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "NamingSystem"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "NamingSystem-opcs-4.html"
+            }
+          ],
+          "example": false,
+          "name": "OPCS 4",
+          "description": "OPCS Classification of Interventions and Procedures version 4",
+          "sourceReference": {
+            "reference": "NamingSystem/opcs-4"
           }
         }
       ]

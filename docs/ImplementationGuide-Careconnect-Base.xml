@@ -10,7 +10,7 @@
   <version value="3.0.0"/>
   <name value="CareConnect Implementation Guide"/>
   <status value="draft"/>
-  <date value="2019-12-20T16:00:57+00:00"/>
+  <date value="2020-01-03T06:41:54+00:00"/>
   <publisher value="INTEROpen"/>
   <contact>
     <telecom>
@@ -3083,6 +3083,76 @@
       <description value="General Medical Council Reference Number. See [NHS Data Dictionary](https://www.datadictionary.nhs.uk/data_dictionary/attributes/g/general_medical_practitioner_ppd_code_de.asp)"/>
       <sourceReference>
         <reference value="NamingSystem/uk-gmc-number"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="NamingSystem-read-v2.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Read Codes Version 2"/>
+      <description value="Read Codes version 2"/>
+      <sourceReference>
+        <reference value="NamingSystem/read-v2"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="NamingSystem-read-v3.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="Read Codes Version 3"/>
+      <description value="Read Codes version 3 - ctv3"/>
+      <sourceReference>
+        <reference value="NamingSystem/read-v3"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="NamingSystem-icd-10-uk.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ICD 10"/>
+      <description value="International Statistical Classification of Diseases and Related Health Problems - 10th Edition UK"/>
+      <sourceReference>
+        <reference value="NamingSystem/icd-10-uk"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="NamingSystem-icd-11-uk.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="ICD 11"/>
+      <description value="International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK"/>
+      <sourceReference>
+        <reference value="NamingSystem/icd-11-uk"/>
+      </sourceReference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="NamingSystem-opcs-4.html"/>
+      </extension>
+      <example value="false"/>
+      <name value="OPCS 4"/>
+      <description value="OPCS Classification of Interventions and Procedures version 4"/>
+      <sourceReference>
+        <reference value="NamingSystem/opcs-4"/>
       </sourceReference>
     </resource>
   </package>

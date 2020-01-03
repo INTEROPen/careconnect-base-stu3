@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/NamingSystem/opcs-4> a fhir:NamingSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "opcs-4"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: opcs-4</p><p><b>name</b>: OPCS 4</p><p><b>status</b>: draft</p><p><b>kind</b>: codesystem</p><p><b>date</b>: 2 Jan 2020, 00:00:00</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: NHS Digital</p><p><b>description</b>: OPCS Classification of Interventions and Procedures version 4</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style=\"background: LightGoldenRodYellow\">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: UK Secondary Care - Procedures and Interventions</p><h3>UniqueIds</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>uri</td><td>https://fhir.nhs.uk/Id/opcs-4</td><td>true</td></tr></table></div>"
+  ];
+  fhir:NamingSystem.name [ fhir:value "OPCS 4"];
+  fhir:NamingSystem.status [ fhir:value "draft"];
+  fhir:NamingSystem.kind [ fhir:value "codesystem"];
+  fhir:NamingSystem.date [ fhir:value "2020-01-02T00:00:00+00:00"^^xsd:dateTime];
+  fhir:NamingSystem.publisher [ fhir:value "INTEROpen"];
+  fhir:NamingSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "other" ];
+       fhir:ContactPoint.value [ fhir:value "https://interopen.ryver.com/" ]
+     ]
+  ];
+  fhir:NamingSystem.responsible [ fhir:value "NHS Digital"];
+  fhir:NamingSystem.description [ fhir:value "OPCS Classification of Interventions and Procedures version 4"];
+  fhir:NamingSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "826" ]
+     ]
+  ];
+  fhir:NamingSystem.usage [ fhir:value "UK Secondary Care - Procedures and Interventions"];
+  fhir:NamingSystem.uniqueId [
+     fhir:index 0;
+     fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];
+     fhir:NamingSystem.uniqueId.value [ fhir:value "https://fhir.nhs.uk/Id/opcs-4" ];
+     fhir:NamingSystem.uniqueId.preferred [ fhir:value "true"^^xsd:boolean ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.hl7.org.uk/STU3/NamingSystem/opcs-4.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

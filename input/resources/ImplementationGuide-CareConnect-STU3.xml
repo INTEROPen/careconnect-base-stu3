@@ -1613,7 +1613,41 @@
          <name value="uk-gmc-number"></name>
          <groupingId value="uk-ns"></groupingId>
       </resource>
-
+      <resource>
+         <reference>
+            <reference value="NamingSystem/read-v2"></reference>
+         </reference>
+         <name value="Read Codes Version 2"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/read-v3"></reference>
+         </reference>
+         <name value="Read Codes Version 3"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/icd-10-uk"></reference>
+         </reference>
+         <name value="ICD 10"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/icd-11-uk"></reference>
+         </reference>
+         <name value="ICD 11"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
+      <resource>
+         <reference>
+            <reference value="NamingSystem/opcs-4"></reference>
+         </reference>
+         <name value="OPCS 4"></name>
+         <groupingId value="uk-ns"></groupingId>
+      </resource>
       <resource>
          <reference>
             <reference value="ConceptMap/CareConnect-PersonNameType-1"></reference>

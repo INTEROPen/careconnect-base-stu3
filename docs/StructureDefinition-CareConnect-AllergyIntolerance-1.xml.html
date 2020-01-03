@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
   
-    <link href="fhir.css" rel="stylesheet"/>
-      
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
@@ -21,6 +19,7 @@
 
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -43,12 +42,12 @@
       <div class="container">  <!-- container -->
         
         <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
           </a>
         </div>
-        <div id="fhir-nav">
-          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="hl7-search">
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -1216,11 +1215,7 @@ Systems that capture a severity at the condition level are actually representing
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;Code for an allergy or intolerance statement (either a positive or a negated/excluded statement).  This may be a code for a substance or pharmaceutical product that is considered to be responsible for the adverse reaction risk (e.g., &amp;quot;Latex&amp;quot;), an allergy or intolerance condition (e.g., &amp;quot;Latex allergy&amp;quot;), or a negated/excluded code for a specific substance or class (e.g., &amp;quot;No latex allergy&amp;quot;) or a general or categorical negated statement (e.g.,  &amp;quot;No known allergy&amp;quot;, &amp;quot;No known drug allergies&amp;quot;).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;It is strongly recommended that this element be populated using a terminology, where possible. For example, some terminologies used include RxNorm, SNOMED CT, DM+D, NDFRT, ICD-9, IDC-10, UNI, ATC and CPT. Plain text should only be used if there is no appropriate terminology available. Additional details can be specified in the text.
-
-When a substance or product code is specified for the &amp;#39;code&amp;#39; element, the &amp;quot;default&amp;quot; semantic context is that this is a positive statement of an allergy or intolerance (depending on the value of the &amp;#39;type&amp;#39; element, if present) condition to the specified substance/product.  In the corresponding SNOMED CT allergy model, the specified substance/product is the target (destination) of the &amp;quot;Causative agent&amp;quot; relationship.
-
-The &amp;#39;substanceExposureRisk&amp;#39; extension is available as a structured and more flexible alternative to the &amp;#39;code&amp;#39; element for making positive or negative allergy or intolerance statements.  This extension provides the capability to make &amp;quot;no known allergy&amp;quot; (or &amp;quot;no risk of adverse reaction&amp;quot;) statements regarding any coded substance/product (including cases when a pre-coordinated &amp;quot;no allergy to x&amp;quot; concept for that substance/product does not exist).  If the &amp;#39;substanceExposureRisk&amp;#39; extension is present, the AllergyIntolerance.code element SHALL be omitted.&quot;/&gt;
+               <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">value</a>=&quot;It is strongly recommended that this element be populated using a terminology, where possible. For example, some terminologies used include RxNorm, SNOMED CT, DM+D, NDFRT, ICD-9, IDC-10, UNI, ATC and CPT. Plain text should only be used if there is no appropriate terminology available. Additional details can be specified in the text.When a substance or product code is specified for the &amp;#39;code&amp;#39; element, the &amp;quot;default&amp;quot; semantic context is that this is a positive statement of an allergy or intolerance (depending on the value of the &amp;#39;type&amp;#39; element, if present) condition to the specified substance/product.  In the corresponding SNOMED CT allergy model, the specified substance/product is the target (destination) of the &amp;quot;Causative agent&amp;quot; relationship.The &amp;#39;substanceExposureRisk&amp;#39; extension is available as a structured and more flexible alternative to the &amp;#39;code&amp;#39; element for making positive or negative allergy or intolerance statements.  This extension provides the capability to make &amp;quot;no known allergy&amp;quot; (or &amp;quot;no risk of adverse reaction&amp;quot;) statements regarding any coded substance/product (including cases when a pre-coordinated &amp;quot;no allergy to x&amp;quot; concept for that substance/product does not exist).  If the &amp;#39;substanceExposureRisk&amp;#39; extension is present, the AllergyIntolerance.code element SHALL be omitted.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Code&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
@@ -1253,17 +1248,7 @@ The &amp;#39;substanceExposureRisk&amp;#39; extension is available as a structur
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.map">map</a>
-             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;substance/product:
-
-.participation[typeCode=CAGNT].role[classCode=ADMM].player[classCode=MAT, determinerCode=KIND, code &amp;lt;= ExposureAgentEntityType]
-
-negated/excluded substance/product:
-
-.participation[typeCode=CAGNT, negationInd=true].role[classCode=ADMM].player[classCode=MAT, determinerCode=KIND, code &amp;lt;= ExposureAgentEntityType]
-
-positive or negated/excluded condition/situation:
-
-Observation.code=ASSERTION; Observation.value&quot;/&gt;
+             <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;substance/product:.participation[typeCode=CAGNT].role[classCode=ADMM].player[classCode=MAT, determinerCode=KIND, code &amp;lt;= ExposureAgentEntityType]negated/excluded substance/product:.participation[typeCode=CAGNT, negationInd=true].role[classCode=ADMM].player[classCode=MAT, determinerCode=KIND, code &amp;lt;= ExposureAgentEntityType]positive or negated/excluded condition/situation:Observation.code=ASSERTION; Observation.value&quot;/&gt;
       &lt;/mapping&gt;
       &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#id">value</a>=&quot;w5&quot;/&gt;
@@ -4161,12 +4146,12 @@ Observation.code=ASSERTION; Observation.value&quot;/&gt;
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 20, 2019 16:00+0000">2019-12-20</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Jan 3, 2020 06:41+0000">2020-01-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
                  <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
@@ -4189,7 +4174,6 @@ Observation.code=ASSERTION; Observation.value&quot;/&gt;
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/fhir.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>

@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
   
-    <link href="fhir.css" rel="stylesheet"/>
-      
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet"/>
     <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
@@ -21,6 +19,7 @@
 
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir.css" rel="stylesheet"/>
   
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -37,18 +36,18 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"11.215"}
-    h3,h4,h5,h6{--heading-prefix:"11.215"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.220"}
+    h3,h4,h5,h6{--heading-prefix:"11.220"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
         <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
           </a>
         </div>
-        <div id="fhir-nav">
-          <a id="fhir-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
         </div>
         <div id="hl7-search">
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
@@ -148,7 +147,7 @@
   Formats: <a href="ConceptMap-CareConnect-PersonNameType-1.xml.html">XML</a>, <a href="ConceptMap-CareConnect-PersonNameType-1.json.html">JSON</a>, <a href="ConceptMap-CareConnect-PersonNameType-1.ttl.html">Turtle</a>
   </p>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Concept Map - Care Connect Person Name Type (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1)</h2><p>Mapping from <a href="ValueSet-CareConnect-NameUse-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1</a> to <a href="ValueSet-CareConnect-PDS-PersonNameType-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1</a></p><p>DRAFT. Published on 02-Nov-2018 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Concept Map - Care Connect Person Name Type (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-PersonNameType-1)</h2><p>Mapping from <a href="ValueSet-CareConnect-NameUse-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NameUse-1</a> to <a href="ValueSet-CareConnect-PDS-PersonNameType-1.html">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1</a></p><p>DRAFT. Published on 2 Nov 2018, 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Name Use to PDS Person Name Type to aid interpretation.</p>
 </div><br/><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>official</td><td>equivalent</td><td>L (Usual (current) name)</td></tr><tr><td>nickname</td><td>equivalent</td><td>A (Alias name)</td></tr><tr><td>usual</td><td>equivalent</td><td>PREFERRED (Preferred name)</td></tr><tr><td>old</td><td>equivalent</td><td>PREVIOUS (Other previous name)</td></tr><tr><td>old</td><td>equivalent</td><td>PREVIOUS-BACHELOR (Bachelor name)</td></tr><tr><td>old</td><td>equivalent</td><td>PREVIOUS-BIRTH (Birth name)</td></tr><tr><td>old</td><td>equivalent</td><td>PREVIOUS-MAIDEN (Maiden name)</td></tr></table></div>
 
   
@@ -164,12 +163,12 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/"/>INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Dec 20, 2019 16:00+0000">2019-12-20</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Fri, Jan 3, 2020 06:41+0000">2020-01-03</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a> |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
                  <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
@@ -192,7 +191,6 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/fhir.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>

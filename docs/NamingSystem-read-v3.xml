@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="read-v3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: read-v3</p><p><b>name</b>: READ_V3</p><p><b>status</b>: draft</p><p><b>kind</b>: codesystem</p><p><b>date</b>: 2 Jan 2020, 00:00:00</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: HL7 UK</p><p><b>description</b>: Read Codes version 3 - ctv3</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: UK Primary Care</p><h3>UniqueIds</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>uri</td><td>http://read.info/ctv3</td><td>true</td></tr></table></div>
+  </text>
+  <name value="READ_V3"/>
+  <status value="draft"/>
+  <kind value="codesystem"/>
+  <date value="2020-01-02T00:00:00+00:00"/>
+  <publisher value="INTEROpen"/>
+  <contact>
+    <telecom>
+      <system value="other"/>
+      <value value="https://interopen.ryver.com/"/>
+    </telecom>
+  </contact>
+  <responsible value="HL7 UK"/>
+  <description value="Read Codes version 3 - ctv3"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <usage value="UK Primary Care"/>
+  <uniqueId>
+    <type value="uri"/>
+    <value value="http://read.info/ctv3"/>
+    <preferred value="true"/>
+  </uniqueId>
+</NamingSystem>
