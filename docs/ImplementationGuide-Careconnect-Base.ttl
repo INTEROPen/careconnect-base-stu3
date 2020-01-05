@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "3.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "CareConnect Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2020-01-03T06:41:54+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-01-05T09:28:00+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "INTEROpen"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -4027,7 +4027,7 @@
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ICD 10" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 10th Edition UK" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 10th Edition" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/icd-10-uk>;
          fhir:Reference.reference [ fhir:value "NamingSystem/icd-10-uk" ]
@@ -4045,7 +4045,7 @@
        ];
        fhir:ImplementationGuide.package.resource.example [ fhir:value "false"^^xsd:boolean ];
        fhir:ImplementationGuide.package.resource.name [ fhir:value "ICD 11" ];
-       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK" ];
+       fhir:ImplementationGuide.package.resource.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 11th Edition" ];
        fhir:ImplementationGuide.package.resource.sourceReference [
          fhir:link <https://fhir.hl7.org.uk/STU3/NamingSystem/icd-11-uk>;
          fhir:Reference.reference [ fhir:value "NamingSystem/icd-11-uk" ]

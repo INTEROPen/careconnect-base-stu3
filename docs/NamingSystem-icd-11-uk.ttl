@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "icd-11-uk"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: icd-11-uk</p><p><b>name</b>: ICD 11</p><p><b>status</b>: draft</p><p><b>kind</b>: codesystem</p><p><b>date</b>: 2 Jan 2020, 00:00:00</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: HL7 UK</p><p><b>description</b>: International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style=\"background: LightGoldenRodYellow\">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: UK Secondary Care - Condition</p><h3>UniqueIds</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>uri</td><td>http://hl7.org/fhir/sid/icd-11-uk</td><td>true</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: icd-11-uk</p><p><b>name</b>: ICD 11</p><p><b>status</b>: draft</p><p><b>kind</b>: codesystem</p><p><b>date</b>: 2 Jan 2020, 00:00:00</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: HL7 UK</p><p><b>description</b>: International Statistical Classification of Diseases and Related Health Problems - 11th Edition</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style=\"background: LightGoldenRodYellow\">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: UK Secondary Care - Condition</p><h3>UniqueIds</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>uri</td><td>http://hl7.org/fhir/sid/icd-11</td><td>true</td></tr></table></div>"
   ];
   fhir:NamingSystem.name [ fhir:value "ICD 11"];
   fhir:NamingSystem.status [ fhir:value "draft"];
@@ -26,7 +26,7 @@
      ]
   ];
   fhir:NamingSystem.responsible [ fhir:value "HL7 UK"];
-  fhir:NamingSystem.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK"];
+  fhir:NamingSystem.description [ fhir:value "International Statistical Classification of Diseases and Related Health Problems - 11th Edition"];
   fhir:NamingSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -39,7 +39,7 @@
   fhir:NamingSystem.uniqueId [
      fhir:index 0;
      fhir:NamingSystem.uniqueId.type [ fhir:value "uri" ];
-     fhir:NamingSystem.uniqueId.value [ fhir:value "http://hl7.org/fhir/sid/icd-11-uk" ];
+     fhir:NamingSystem.uniqueId.value [ fhir:value "http://hl7.org/fhir/sid/icd-11" ];
      fhir:NamingSystem.uniqueId.preferred [ fhir:value "true"^^xsd:boolean ]
   ] .
 

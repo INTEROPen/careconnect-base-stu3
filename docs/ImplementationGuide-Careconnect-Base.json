@@ -9,7 +9,7 @@
   "version": "3.0.0",
   "name": "CareConnect Implementation Guide",
   "status": "draft",
-  "date": "2020-01-03T06:41:54+00:00",
+  "date": "2020-01-05T09:28:00+00:00",
   "publisher": "INTEROpen",
   "contact": [
     {
@@ -4021,7 +4021,7 @@
           ],
           "example": false,
           "name": "ICD 10",
-          "description": "International Statistical Classification of Diseases and Related Health Problems - 10th Edition UK",
+          "description": "International Statistical Classification of Diseases and Related Health Problems - 10th Edition",
           "sourceReference": {
             "reference": "NamingSystem/icd-10-uk"
           }
@@ -4039,7 +4039,7 @@
           ],
           "example": false,
           "name": "ICD 11",
-          "description": "International Statistical Classification of Diseases and Related Health Problems - 11th Edition UK",
+          "description": "International Statistical Classification of Diseases and Related Health Problems - 11th Edition",
           "sourceReference": {
             "reference": "NamingSystem/icd-11-uk"
           }
