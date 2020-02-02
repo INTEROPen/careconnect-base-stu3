@@ -7,7 +7,9 @@
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
-  
+
+    <link rel="stylesheet" href="fhir.css"/>
+     
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
@@ -16,11 +18,12 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-
       <!-- Placeholder for child template CSS declarations -->
     <link rel="stylesheet" href="assets/css/hl7.css"/>
     <link rel="stylesheet" href="assets/css/fhir.css"/>
-  
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -32,7 +35,7 @@
     <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
     <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
-    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body>
 
@@ -55,7 +58,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -75,7 +78,7 @@
             </button>
             <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+              <ul class="nav navbar-nav">
   <li><a href="index.html">CareConnect Implementation Guide</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
@@ -158,7 +161,7 @@
  <tr><td>OID:</td><td>2.16.840.1.113883.4.642.3.28 (for OID based terminology systems)</td></tr>
  <tr><td>Copyright:</td><td><p>Copyright &copy; HL7.org 2011+</p>
 </td></tr>
- <tr><td><a name="b2e90eb2-d451-4d21-ba17-be1202252886">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>5</td></tr>
+ <tr><td><a name="e3ba3c35-b49a-4454-915a-a000cd113fb3">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>5</td></tr>
  <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-MaritalStatus-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-MaritalStatus-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-MaritalStatus-1.ttl.html">Turtle</a></td></tr>
 </tbody></table>
 
@@ -170,7 +173,7 @@
   <a name="definition"> </a>
   <h3 id="definition">Content Logical Definition</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Marital Status Codes</h2><div><p>This value set defines the set of codes that can be used to indicate the marital status of a person.</p>
+  <div><h2>Marital Status Codes</h2><div><p>This value set defines the set of codes that can be used to indicate the marital status of a person.</p>
 </div><p><b>Copyright Statement:</b> Copyright &copy; HL7.org 2011+</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html"><code>http://hl7.org/fhir/v3/MaritalStatus</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-A">A</a></td><td>Annulled</td><td>Marriage contract has been declared null and to not have existed</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-D">D</a></td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-I">I</a></td><td>Interlocutory</td><td>Subject to an Interlocutory Decree.</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-L">L</a></td><td>Legally Separated</td><td>Legally Separated</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-M">M</a></td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-P">P</a></td><td>Polygamous</td><td>More than 1 current spouse</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-S">S</a></td><td>Never Married</td><td>No marriage contract has ever been entered</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-T">T</a></td><td>Domestic partner</td><td>Person declares that a domestic partner relationship exists.</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-U">U</a></td><td>unmaried</td><td>Currently not in a marriage contract.</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-W">W</a></td><td>Widowed</td><td>The spouse has died</td></tr></table></li><li>Include these codes as defined in <a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html"><code>http://hl7.org/fhir/v3/NullFlavor</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a></td><td>unknown</td><td>Description:A proper value is applicable, but not known.<br/>
                         
                            Usage Notes: This means the actual value is not known.  If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used.  No properties should be included for a datatype with this property unless:<br/>
@@ -182,7 +185,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 11 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/v3/NullFlavor version 2016-11-11, http://hl7.org/fhir/v3/MaritalStatus version 2016-11-11</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-A"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-A">A</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Annulled</td><td>Marriage contract has been declared null and to not have existed</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-D"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-D">D</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-I"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-I">I</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Interlocutory</td><td>Subject to an Interlocutory Decree.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-L"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-L">L</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Legally Separated</td><td>Legally Separated</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-M"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-M">M</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-P"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-P">P</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Polygamous</td><td>More than 1 current spouse</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-S"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-S">S</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Never Married</td><td>No marriage contract has ever been entered</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-T"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-T">T</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Domestic partner</td><td>Person declares that a domestic partner relationship exists.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-U"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-U">U</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>unmaried</td><td>Currently not in a marriage contract.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-W"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-W">W</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Widowed</td><td>The spouse has died</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-NullFlavor-UNK"> </a><a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a></td><td>http://hl7.org/fhir/v3/NullFlavor</td><td>unknown</td><td>Description:A proper value is applicable, but not known.
+  <div><p>This value set contains 11 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/v3/NullFlavor version 2016-11-11, http://hl7.org/fhir/v3/MaritalStatus version 2016-11-11</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-A"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-A">A</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Annulled</td><td>Marriage contract has been declared null and to not have existed</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-D"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-D">D</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Divorced</td><td>Marriage contract has been declared dissolved and inactive</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-I"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-I">I</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Interlocutory</td><td>Subject to an Interlocutory Decree.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-L"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-L">L</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Legally Separated</td><td>Legally Separated</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-M"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-M">M</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Married</td><td>A current marriage contract is active</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-P"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-P">P</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Polygamous</td><td>More than 1 current spouse</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-S"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-S">S</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Never Married</td><td>No marriage contract has ever been entered</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-T"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-T">T</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Domestic partner</td><td>Person declares that a domestic partner relationship exists.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-U"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-U">U</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>unmaried</td><td>Currently not in a marriage contract.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-MaritalStatus-W"> </a><a href="http://hl7.org/fhir/STU3/v3/MaritalStatus/cs.html#v3-MaritalStatus-W">W</a></td><td>http://hl7.org/fhir/v3/MaritalStatus</td><td>Widowed</td><td>The spouse has died</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-v3-NullFlavor-UNK"> </a><a href="http://hl7.org/fhir/STU3/v3/NullFlavor/cs.html#v3-NullFlavor-UNK">UNK</a></td><td>http://hl7.org/fhir/v3/NullFlavor</td><td>unknown</td><td>Description:A proper value is applicable, but not known.
 
                         
                            Usage Notes: This means the actual value is not known.  If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used.  No properties should be included for a datatype with this property unless:
@@ -236,7 +239,7 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Jan 5, 2020 09:28+0000">2020-01-05</span>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Feb 2, 2020 10:22+0000">2020-02-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

@@ -73,7 +73,7 @@ This element is labeled as a modifier because it indicates that a procedure didn
 ","Classification of the procedure","A code that classifies the procedure for searching, sorting and display purposes (e.g. ""Surgical Procedure"").","","","","","","","","","",,"example","A code that classifies a procedure for searching, sorting and display purposes.","http://hl7.org/fhir/ValueSet/procedure-category","",,,,"Procedure.category",0,1,"","",".outboundRelationship[typeCode=""COMP].target[classCode=""LIST"", moodCode=""EVN""].code","class"
 "Procedure.code","","type
 ","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","Identification of the procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"preferred","A code to identify a specific procedure.","","",,,,"Procedure.code",0,1,"","",".code","what","OBR-44/OBR-45"
+","Identification of the procedure","The specific procedure that is performed. Use text if the exact nature of the procedure cannot be coded (e.g. ""Laparoscopic Appendectomy"").","","0..1 to account for primarily narrative only resources.","","","","","","","",,"preferred","A code to identify a specific procedure.","http://hl7.org/fhir/ValueSet/procedure-code","",,,,"Procedure.code",0,1,"","",".code","what","OBR-44/OBR-45"
 "Procedure.code.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Procedure.code.extension","","extensions

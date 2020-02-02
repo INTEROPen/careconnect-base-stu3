@@ -7,7 +7,9 @@
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
-  
+
+    <link rel="stylesheet" href="fhir.css"/>
+     
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
@@ -16,11 +18,12 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-
       <!-- Placeholder for child template CSS declarations -->
     <link rel="stylesheet" href="assets/css/hl7.css"/>
     <link rel="stylesheet" href="assets/css/fhir.css"/>
-  
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -32,7 +35,7 @@
     <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
     <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
-    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body>
 
@@ -55,7 +58,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -75,7 +78,7 @@
             </button>
             <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+              <ul class="nav navbar-nav">
   <li><a href="index.html">CareConnect Implementation Guide</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Guidance<b class="caret">
@@ -158,7 +161,7 @@
  <tr><td>OID:</td><td>2.16.840.1.113883.4.642.3.1 (for OID based terminology systems)</td></tr>
  <tr><td>Copyright:</td><td><p>Copyright &copy; HL7.org 2011+</p>
 </td></tr>
- <tr><td><a name="23dbf13c-4bdf-4ff4-8a1f-f1220c3556ad">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>5</td></tr>
+ <tr><td><a name="aecf9587-ed26-41f1-aef2-f2f512d1fef1">​</a><a href="versions.html#maturity" title="Maturity Level" class="fmm">Maturity</a>:</td><td>5</td></tr>
  <tr><td>Source Resource:</td><td><a href="ValueSet-CareConnect-AdministrativeGender-1.xml.html">XML</a> / <a href="ValueSet-CareConnect-AdministrativeGender-1.json.html">JSON</a> / <a href="ValueSet-CareConnect-AdministrativeGender-1.ttl.html">Turtle</a></td></tr>
 </tbody></table>
 
@@ -174,14 +177,14 @@
   <a name="definition"> </a>
   <h3 id="definition">Content Logical Definition</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Administrative Gender</h2><div><p>The gender of a person used for administrative purposes.</p>
+  <div><h2>Administrative Gender</h2><div><p>The gender of a person used for administrative purposes.</p>
 </div><p><b>Copyright Statement:</b> Copyright &copy; HL7.org 2011+</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td>Male</td><td>Male</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td>Female</td><td>Female</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-other">other</a></td><td>Other</td><td>Other</td></tr><tr><td><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a></td><td>Unknown</td><td>Unknown</td></tr></table></li></ul></div>
   
   <p>&nbsp;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 4 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/administrative-gender version 3.0.2</p><p>All codes from system <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-male"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td>Male</td><td>Male</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-female"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td>Female</td><td>Female</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-other"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-other">other</a></td><td>Other</td><td>Other</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-unknown"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a></td><td>Unknown</td><td>Unknown</td></tr></table></div>
+  <div><p>This value set contains 4 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px">Expansion based on http://hl7.org/fhir/administrative-gender version 3.0.2</p><p>All codes from system <a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html"><code>http://hl7.org/fhir/administrative-gender</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-male"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-male">male</a></td><td>Male</td><td>Male</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-female"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-female">female</a></td><td>Female</td><td>Female</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-other"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-other">other</a></td><td>Other</td><td>Other</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-administrative-gender-unknown"> </a><a href="http://hl7.org/fhir/STU3/codesystem-administrative-gender.html#administrative-gender-unknown">unknown</a></td><td>Unknown</td><td>Unknown</td></tr></table></div>
 
   <hr/>
   <p>
@@ -228,7 +231,7 @@
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Jan 5, 2020 09:28+0000">2020-01-05</span>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sun, Feb 2, 2020 10:22+0000">2020-02-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

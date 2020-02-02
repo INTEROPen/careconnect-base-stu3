@@ -1,14 +1,30 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 6, errors = 17, warn = 0, info = 0 -->
+<!-- broken links = 7, errors = 16, warn = 87, info = 4 -->
 <head>
   <title>CareConnect Implementation Guide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CareConnect Implementation Guide</h1>
- <p>Generated Sun Jan 05 09:49:33 GMT 2020, FHIR version 3.0.2 for careconnect.base.stu3#3.0.0 (canonical = <a href="https://fhir.hl7.org.uk/STU3">https://fhir.hl7.org.uk/STU3</a> (<a href="https://fhir.hl7.org.uk/STU3/history.html">history</a>))</p>
-<p>IG Publisher Version: v1.0.37-SNAPSHOT</p>
+ <p>Generated Sun Feb 02 10:56:41 GMT 2020, FHIR version 3.0.2 for careconnect.base.stu3#3.0.0 (canonical = <a href="https://fhir.hl7.org.uk/STU3">https://fhir.hl7.org.uk/STU3</a> (<a href="https://fhir.hl7.org.uk/STU3/history.html">history</a>))</p>
+<p>IG Publisher Version: v1.0.56-SNAPSHOT</p>
 <p><a href="#suppressed">10 Suppressed Errors</a></p>
  <p>HL7 Publication check:</p> <ul>
   <li>History Page 'null' is wrong (ig.json#paths/history) - must be 'https://fhir.hl7.org.uk/STU3/history.html'</li>
@@ -21,25 +37,25 @@
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Information messages &amp; Warnings</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>5</b></td><td><b>1</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>5</b></td><td><b>2</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_documentreference-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1</b></a></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_documentreference-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-2"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-2"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-735"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_encounter-735"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_location-200014"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_location-200014"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014</b></a></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_observation-9084"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_observation-9084"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_organization-2"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -51,40 +67,40 @@
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_organization-3"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-3</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_patient-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_patient-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_practitioner-3"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_practitioner-3"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_practitioner-4"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_examples_practitioner-4"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ACVPU-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ACVPU-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-AllergyIntolerance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-AllergyIntolerance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Appointment-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Appointment-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Appointment-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Appointment-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-BloodPressure-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-BloodPressure-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1</b></a></td><td><b>0</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-CarePlan-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-CarePlan-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-CareTeam-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-CareTeam-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Composition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Composition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Condition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Condition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-DiagnosticReport-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-DiagnosticReport-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-DocumentReference-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DocumentReference-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -93,49 +109,49 @@
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Encounter-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Encounter-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-EpisodeOfCare-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-EpisodeOfCare-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-FamilyMemberHistory-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-FamilyMemberHistory-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Flag-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Flag-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-HealthcareService-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-HealthcareService-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-HeartRate-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-HeartRate-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Immunization-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Immunization-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Immunization-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Immunization-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-InspiredOxygen-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-InspiredOxygen-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-InspiredOxygen-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-InspiredOxygen-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-List-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-List-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-List-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-List-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Location-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Location-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Medication-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Medication-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Medication-Flag-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-Flag-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Medication-Flag-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-Flag-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationAdministration-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationAdministration-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationAdministration-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationAdministration-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationDispense-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationDispense-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationDispense-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationDispense-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationRequest-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationRequest-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationStatement-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationStatement-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-MedicationStatement-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationStatement-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
@@ -144,196 +160,196 @@
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Organization-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Organization-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-OxygenSaturation-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-OxygenSaturation-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-OxygenSaturation-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-OxygenSaturation-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Patient-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1</b></a></td><td><b>3</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Patient-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Practitioner-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Practitioner-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-PractitionerRole-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-PractitionerRole-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ProblemHeader-Condition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ProblemHeader-Condition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Procedure-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Procedure-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ProcedureRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ProcedureRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Quantity-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Quantity-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ReferralRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ReferralRequest-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RelatedPerson-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RelatedPerson-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ResearchStudy-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-ResearchStudy-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RespiratoryRate-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RespiratoryRate-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RiskAssessment-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RiskAssessment-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-RiskAssessment-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RiskAssessment-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Schedule-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Schedule-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Schedule-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Schedule-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Slot-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Slot-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Slot-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Slot-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Specimen-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Specimen-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Specimen-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Specimen-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Subscore-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Subscore-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-Subscore-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Subscore-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-VitalSigns-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-VitalSigns-Observation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_CareConnect-VitalSigns-Observation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-VitalSigns-Observation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ActualProblem-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ActualProblem-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ActualProblem-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ActualProblem-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AdmissionMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AdmissionMethod-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AdmissionMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AdmissionMethod-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AllergyIntoleranceEnd-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AllergyIntoleranceEnd-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AllergySeverity-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AllergySeverity-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AnaestheticIssues-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-AnaestheticIssues-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-CareSettingType-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-CareSettingType-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ClinicalSetting-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ClinicalSetting-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ConditionEpisode-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ConditionEpisode-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DateRecorded-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DateRecorded-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DeathNotificationStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DeathNotificationStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DeathNotificationStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DeathNotificationStatus-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DischargeMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DischargeMethod-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-DischargeMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DischargeMethod-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-EmergencyCareDischargeStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EmergencyCareDischargeStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-EmergencyCareDischargeStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EmergencyCareDischargeStatus-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-EncounterTransport-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EncounterTransport-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-EncounterTransport-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EncounterTransport-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-EthnicCategory-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EthnicCategory-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-Evidence-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Evidence-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-Evidence-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Evidence-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-FastingStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-FastingStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-FastingStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-FastingStatus-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ListWarningCode-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ListWarningCode-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ListWarningCode-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ListWarningCode-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MainLocation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MainLocation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MainLocation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MainLocation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationChangeSummary-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationChangeSummary-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationChangeSummary-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationChangeSummary-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationFlagAssociation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationFlagAssociation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationFlagAssociation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationFlagAssociation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationQuantityText-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationQuantityText-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationQuantityText-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationQuantityText-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationRepeatInformation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationRepeatInformation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationRepeatInformation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationRepeatInformation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationStatementLastIssueDate-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatementLastIssueDate-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationStatementLastIssueDate-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatementLastIssueDate-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationStatusReason-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatusReason-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-MedicationStatusReason-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatusReason-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-NHSCommunication-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSCommunication-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-NHSCommunication-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSCommunication-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-NHSNumberVerificationStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSNumberVerificationStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-NominatedPharmacy-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NominatedPharmacy-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-NominatedPharmacy-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NominatedPharmacy-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-OutcomeOfAttendance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-OutcomeOfAttendance-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-OutcomeOfAttendance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-OutcomeOfAttendance-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ParentPresent-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ParentPresent-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ParentPresent-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ParentPresent-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-PrescribedElsewhere-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-PrescribedElsewhere-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-PrescriptionType-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-PrescriptionType-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ProbabilityOfRecurrence-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ProbabilityOfRecurrence-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ProblemSignificance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ProblemSignificance-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReasonCondition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReasonCondition-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-Recorder-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-Recorder-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReferralRequestMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReferralRequestMethod-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RegistrationDetails-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RegistrationDetails-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RelatedClinicalContent-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RelatedClinicalContent-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RelatedProblemHeader-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-RelatedProblemHeader-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReligiousAffiliation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReligiousAffiliation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ReligiousAffiliation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReligiousAffiliation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ResidentialStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ResidentialStatus-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ResidentialStatus-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ResidentialStatus-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-SourceOfReferral-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-SourceOfReferral-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-SourceOfReferral-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-SourceOfReferral-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-TreatmentCategory-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-TreatmentCategory-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-TreatmentCategory-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-TreatmentCategory-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-VaccinationProcedure-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-VaccinationProcedure-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ValueApproximation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-CareConnect-ValueApproximation-1"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-coding-sctdescid"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid</b></a></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_Extension-coding-sctdescid"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid</b></a></td><td><b>0</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_Users_kevinmayfield_Development_HL7-UK_UK-STU3_input_resources_ImplementationGuide-CareConnect-STU3"><b>/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/ImplementationGuide-CareConnect-STU3</b></a></td><td><b>3</b></td><td><b>0</b></td>
@@ -709,20 +725,23 @@
    <tr style="background-color: #ffebcc">
      <td><b>ImplementationGuide.id</b></td><td><b>warning</b></td><td><b>The Implementation Guide Resource id should be careconnect.base.stu3</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b><a href="ValueSet-CareConnect-AdministrativeGender-1.html#23dbf13c-4bdf-4ff4-8a1f-f1220c3556ad">ValueSet-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 161, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find description for the resource.  Descriptions are strongly encouraged to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="ValueSet-CareConnect-AllergyVerificationStatus-1.html#f9d70d38-2d9e-4aa2-ab8d-8195cb5b7b0f">ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 161, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+     <td><b><a href="ValueSet-CareConnect-AdministrativeGender-1.html#aecf9587-ed26-41f1-aef2-f2f512d1fef1">ValueSet-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="ValueSet-CareConnect-MaritalStatus-1.html#b2e90eb2-d451-4d21-ba17-be1202252886">ValueSet-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 161, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+     <td><b><a href="ValueSet-CareConnect-AllergyVerificationStatus-1.html#5915faa5-81f9-4f95-b25f-92e250ff86af">ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="ValueSet-CareConnect-NameUse-1.html#3c791b68-fa58-4b79-b120-905fb06afd85">ValueSet-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 161, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+     <td><b><a href="ValueSet-CareConnect-MaritalStatus-1.html#e3ba3c35-b49a-4454-915a-a000cd113fb3">ValueSet-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="ValueSet-CareConnect-ReactionEventSeverity-1.html#cfac4351-84a5-4aaa-929b-e9054f36a4e6">ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 161, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+     <td><b><a href="ValueSet-CareConnect-NameUse-1.html#b77aaa30-d9bf-49c9-850b-7c00a982bf4e">ValueSet-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-CareConnect-ReactionEventSeverity-1.html#424d8295-b11a-41df-b567-e87036ed03bc">ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12</a></b></td><td><b>error</b></td><td><b>The link 'versions.html#maturity' for &quot;Maturity&quot; cannot be resolved</b></td>
    </tr>
 </table>
 <hr/>
@@ -730,7 +749,13 @@
 <h2><a href="DocumentReference-documentreference-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>DocumentReference/documentreference-1: DocumentReference.type</b></td><td><b>error</b></td><td><b>Unknown Code http://snomed.info/sct#734163000 in http://snomed.info/sct</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>DocumentReference/documentreference-1: DocumentReference.context.practiceSetting</b></td><td><b>error</b></td><td><b>Unknown Code http://snomed.info/sct#708168004 in http://snomed.info/sct</b></td>
    </tr>
 </table>
 <hr/>
@@ -738,7 +763,10 @@
 <h2><a href="Encounter-encounter-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-1.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Encounter/encounter-1: Encounter.type[0].coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -746,7 +774,10 @@
 <h2><a href="Encounter-encounter-2.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Encounter/encounter-2: Encounter.type[0].coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -754,7 +785,10 @@
 <h2><a href="Encounter-encounter-735.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Encounter/encounter-735: Encounter.type[0].coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code.  (error message = The filter &quot;constraint = &lt;&lt;185316007 OR &lt;&lt;308467007 OR &lt;&lt;185201007&quot; was not understood in the context of http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -762,7 +796,10 @@
 <h2><a href="Location-location-200014.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Location/location-200014: Location.identifier[0]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1</b> <span id="sl12" class="flip" onclick="flip('l12')">Show Reasoning</span><div id="l12" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1: <ul><li>Location.identifier[0]: discriminator = true and ('https://fhir.nhs.uk/Id/ods-site-code' in system)</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -770,7 +807,10 @@
 <h2><a href="Observation-observation-9084.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation/observation-9084: Observation.code.coding[0]</b></td><td><b>warning</b></td><td><b>The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code.  (error message = Unknown Code http://snomed.info/sct#364075005 in http://snomed.info/sct)</b></td>
    </tr>
 </table>
 <hr/>
@@ -802,7 +842,10 @@
 <h2><a href="Patient-patient-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/patient-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Patient/patient-1: Patient.identifier[1]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1</b> <span id="sl14" class="flip" onclick="flip('l14')">Show Reasoning</span><div id="l14" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1: <ul><li>Patient.identifier[1]: discriminator = true and ('https://fhir.nhs.uk/Id/nhs-number' in system)</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -810,7 +853,10 @@
 <h2><a href="Practitioner-practitioner-3.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-3.json</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Practitioner/practitioner-3: Practitioner.identifier[1]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1</b> <span id="sl15" class="flip" onclick="flip('l15')">Show Reasoning</span><div id="l15" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1: <ul><li>Practitioner.identifier[1]: discriminator = true and ('https://fhir.nhs.uk/Id/sds-user-id' in system)</li>, <li>Practitioner.identifier[1]: discriminator = true and ('https://fhir.nhs.uk/Id/sds-role-profile-id' in system)</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -818,7 +864,10 @@
 <h2><a href="Practitioner-practitioner-4.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/practitioner-4.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b><a href="">Practitioner/practitioner-4: Practitioner.identifier[0]</a></b></td><td><b>Slicing Information</b></td><td><b>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1</b> <span id="sl16" class="flip" onclick="flip('l16')">Show Reasoning</span><div id="l16" style="display: none"><p>&nbsp;</p>This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1: <ul><li>Practitioner.identifier[0]: discriminator = true and ('https://fhir.nhs.uk/Id/sds-user-id' in system)</li>, <li>Practitioner.identifier[0]: discriminator = true and ('https://fhir.nhs.uk/Id/sds-role-profile-id' in system)</li></ul></div></td>
    </tr>
 </table>
 <hr/>
@@ -826,7 +875,10 @@
 <h2><a href="StructureDefinition-CareConnect-ACVPU-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ACVPU-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ACVPU-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -834,7 +886,10 @@
 <h2><a href="StructureDefinition-CareConnect-AllergyIntolerance-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-AllergyIntolerance-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-AllergyIntolerance-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -842,7 +897,10 @@
 <h2><a href="StructureDefinition-CareConnect-Appointment-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Appointment-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -850,7 +908,13 @@
 <h2><a href="StructureDefinition-CareConnect-BloodPressure-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-BloodPressure-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1#Observation.related.target</b></td><td><b>warning</b></td><td><b>Connect check whether the target profile https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Observation-1 is valid constraint on the base because it is not known</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-BloodPressure-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -858,7 +922,10 @@
 <h2><a href="StructureDefinition-CareConnect-CarePlan-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CarePlan-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CarePlan-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -866,7 +933,10 @@
 <h2><a href="StructureDefinition-CareConnect-CareTeam-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-CareTeam-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-CareTeam-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -874,7 +944,10 @@
 <h2><a href="StructureDefinition-CareConnect-Composition-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Composition-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Composition-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -882,7 +955,10 @@
 <h2><a href="StructureDefinition-CareConnect-Condition-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Condition-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -890,7 +966,10 @@
 <h2><a href="StructureDefinition-CareConnect-DiagnosticReport-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-DiagnosticReport-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DiagnosticReport-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -914,7 +993,10 @@
 <h2><a href="StructureDefinition-CareConnect-EpisodeOfCare-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-EpisodeOfCare-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -922,7 +1004,10 @@
 <h2><a href="StructureDefinition-CareConnect-FamilyMemberHistory-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-FamilyMemberHistory-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-FamilyMemberHistory-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -930,7 +1015,10 @@
 <h2><a href="StructureDefinition-CareConnect-Flag-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Flag-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -938,7 +1026,10 @@
 <h2><a href="StructureDefinition-CareConnect-HealthcareService-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HealthcareService-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HealthcareService-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -946,7 +1037,10 @@
 <h2><a href="StructureDefinition-CareConnect-HeartRate-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-HeartRate-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HeartRate-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -954,7 +1048,10 @@
 <h2><a href="StructureDefinition-CareConnect-Immunization-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Immunization-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Immunization-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -962,7 +1059,10 @@
 <h2><a href="StructureDefinition-CareConnect-InspiredOxygen-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-InspiredOxygen-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-InspiredOxygen-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -970,7 +1070,10 @@
 <h2><a href="StructureDefinition-CareConnect-List-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-List-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-List-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -986,7 +1089,10 @@
 <h2><a href="StructureDefinition-CareConnect-Medication-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -994,7 +1100,10 @@
 <h2><a href="StructureDefinition-CareConnect-Medication-Flag-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Medication-Flag-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-Flag-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1002,7 +1111,10 @@
 <h2><a href="StructureDefinition-CareConnect-MedicationAdministration-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationAdministration-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationAdministration-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1010,7 +1122,10 @@
 <h2><a href="StructureDefinition-CareConnect-MedicationDispense-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationDispense-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationDispense-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1018,7 +1133,10 @@
 <h2><a href="StructureDefinition-CareConnect-MedicationRequest-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationRequest-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1026,7 +1144,10 @@
 <h2><a href="StructureDefinition-CareConnect-MedicationStatement-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-MedicationStatement-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1050,7 +1171,10 @@
 <h2><a href="StructureDefinition-CareConnect-OxygenSaturation-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-OxygenSaturation-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-OxygenSaturation-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1058,16 +1182,7 @@
 <h2><a href="StructureDefinition-CareConnect-Patient-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Patient-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1.Patient.extension:nhsCommunication.extension:preferred.value[x]:valueBoolean</b></td><td><b>error</b></td><td><b>Duplicate Element id Patient.extension:nhsCommunication.extension:preferred.value[x]:valueBoolean</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1.Patient.extension:nhsCommunication.extension:interpreterRequired.value[x]:valueBoolean</b></td><td><b>error</b></td><td><b>Duplicate Element id Patient.extension:nhsCommunication.extension:interpreterRequired.value[x]:valueBoolean</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition/CareConnect-Patient-1: StructureDefinition</b></td><td><b>error</b></td><td><b>sdf-16: All element definitions must have unique ids (snapshot) ( (ids: Patient,Patient.id,Patient.meta,Patient.implicitRules,Patient.language,Patient.text,Patient.contained,Patient.extension,Patient.extension:ethnicCategory,Patient.extension:religiousAffiliation,Patient.extension:patient-cadavericDonor,Patient.extension:residentialStatus,Patient.extension:treatmentCategory,Patient.extension:nhsCommunication,Patient.extension:nhsCommunication.id,Patient.extension:nhsCommunication.extension,Patient.extension:nhsCommunication.extension:language,Patient.extension:nhsCommunication.extension:language.id,Patient.extension:nhsCommunication.extension:language.extension,Patient.extension:nhsCommunication.extension:language.extension.id,Patient.extension:nhsCommunication.extension:language.extension.extension,Patient.extension:nhsCommunication.extension:language.extension.url,Patient.extension:nhsCommunication.extension:language.extension.value[x],Patient.extension:nhsCommunication.extension:language.url,Patient.extension:nhsCommunication.extension:language.value[x],Patient.extension:nhsCommunication.extension:language.value[x]:valueCodeableConcept,Patient.extension:nhsCommunication.extension:preferred,Patient.extension:nhsCommunication.extension:preferred.id,Patient.extension:nhsCommunication.extension:preferred.extension,Patient.extension:nhsCommunication.extension:preferred.extension.id,Patient.extension:nhsCommunication.extension:preferred.extension.extension,Patient.extension:nhsCommunication.extension:preferred.extension.url,Patient.extension:nhsCommunication.extension:preferred.extension.value[x],Patient.extension:nhsCommunication.extension:preferred.url,Patient.extension:nhsCommunication.extension:preferred.value[x]:valueBoolean,Patient.extension:nhsCommunication.extension:preferred.value[x]:valueBoolean,Patient.extension:nhsCommunication.extension:modeOfCommunication,Patient.extension:nhsCommunication.extension:modeOfCommunication.id,Patient.extension:nhsCommunication.extension:modeOfCommunication.extension,Patient.extension:nhsCommunication.extension:modeOfCommunication.extension.id,Patient.extension:nhsCommunication.extension:modeOfCommunication.extension.extension,Patient.extension:nhsCommunication.extension:modeOfCommunication.extension.url,Patient.extension:nhsCommunication.extension:modeOfCommunication.extension.value[x],Patient.extension:nhsCommunication.extension:modeOfCommunication.url,Patient.extension:nhsCommunication.extension:modeOfCommunication.value[x],Patient.extension:nhsCommunication.extension:modeOfCommunication.value[x]:valueCodeableConcept,Patient.extension:nhsCommunication.extension:communicationProficiency,Patient.extension:nhsCommunication.extension:communicationProficiency.id,Patient.extension:nhsCommunication.extension:communicationProficiency.extension,Patient.extension:nhsCommunication.extension:communicationProficiency.extension.id,Patient.extension:nhsCommunication.extension:communicationProficiency.extension.extension,Patient.extension:nhsCommunication.extension:communicationProficiency.extension.url,Patient.extension:nhsCommunication.extension:communicationProficiency.extension.value[x],Patient.extension:nhsCommunication.extension:communicationProficiency.url,Patient.extension:nhsCommunication.extension:communicationProficiency.value[x],Patient.extension:nhsCommunication.extension:communicationProficiency.value[x]:valueCodeableConcept,Patient.extension:nhsCommunication.extension:interpreterRequired,Patient.extension:nhsCommunication.extension:interpreterRequired.id,Patient.extension:nhsCommunication.extension:interpreterRequired.extension,Patient.extension:nhsCommunication.extension:interpreterRequired.extension.id,Patient.extension:nhsCommunication.extension:interpreterRequired.extension.extension,Patient.extension:nhsCommunication.extension:interpreterRequired.extension.url,Patient.extension:nhsCommunication.extension:interpreterRequired.extension.value[x],Patient.extension:nhsCommunication.extension:interpreterRequired.url,Patient.extension:nhsCommunication.extension:interpreterRequired.value[x]:valueBoolean,Patient.extension:nhsCommunication.extension:interpreterRequired.value[x]:valueBoolean,Patient.extension:nhsCommunication.url,Patient.extension:nhsCommunication.value[x],Patient.extension:birthPlace,Patient.extension:nominatedPharmacy,Patient.extension:deathNotificationStatus,Patient.modifierExtension,Patient.identifier,Patient.identifier:nhsNumber,Patient.identifier:nhsNumber.id,Patient.identifier:nhsNumber.extension,Patient.identifier:nhsNumber.extension:nhsNumberVerificationStatus,Patient.identifier:nhsNumber.use,Patient.identifier:nhsNumber.type,Patient.identifier:nhsNumber.system,Patient.identifier:nhsNumber.value,Patient.identifier:nhsNumber.period,Patient.identifier:nhsNumber.assigner,Patient.active,Patient.name,Patient.name:official,Patient.name:official.id,Patient.name:official.extension,Patient.name:official.use,Patient.name:official.text,Patient.name:official.family,Patient.name:official.given,Patient.name:official.prefix,Patient.name:official.suffix,Patient.name:official.period,Patient.telecom,Patient.telecom.id,Patient.telecom.extension,Patient.telecom.system,Patient.telecom.value,Patient.telecom.use,Patient.telecom.rank,Patient.telecom.period,Patient.gender,Patient.birthDate,Patient.birthDate.id,Patient.birthDate.extension,Patient.birthDate.extension:patient-birthTime,Patient.birthDate.value,Patient.deceased[x],Patient.address,Patient.address.id,Patient.address.extension,Patient.address.use,Patient.address.type,Patient.address.text,Patient.address.line,Patient.address.city,Patient.address.district,Patient.address.state,Patient.address.postalCode,Patient.address.country,Patient.address.period,Patient.maritalStatus,Patient.maritalStatus.id,Patient.maritalStatus.extension,Patient.maritalStatus.coding,Patient.maritalStatus.coding.id,Patient.maritalStatus.coding.extension,Patient.maritalStatus.coding.system,Patient.maritalStatus.coding.version,Patient.maritalStatus.coding.code,Patient.maritalStatus.coding.display,Patient.maritalStatus.coding.userSelected,Patient.maritalStatus.text,Patient.multipleBirth[x],Patient.photo,Patient.contact,Patient.contact.id,Patient.contact.extension,Patient.contact.modifierExtension,Patient.contact.relationship,Patient.contact.name,Patient.contact.name.id,Patient.contact.name.extension,Patient.contact.name.use,Patient.contact.name.text,Patient.contact.name.family,Patient.contact.name.given,Patient.contact.name.prefix,Patient.contact.name.suffix,Patient.contact.name.period,Patient.contact.telecom,Patient.contact.address,Patient.contact.address.id,Patient.contact.address.extension,Patient.contact.address.use,Patient.contact.address.type,Patient.contact.address.text,Patient.contact.address.line,Patient.contact.address.city,Patient.contact.address.district,Patient.contact.address.state,Patient.contact.address.postalCode,Patient.contact.address.country,Patient.contact.address.period,Patient.contact.gender,Patient.contact.organization,Patient.contact.period,Patient.animal,Patient.animal.id,Patient.animal.extension,Patient.animal.modifierExtension,Patient.animal.species,Patient.animal.breed,Patient.animal.genderStatus,Patient.communication,Patient.communication.id,Patient.communication.extension,Patient.communication.modifierExtension,Patient.communication.language,Patient.communication.preferred,Patient.generalPractitioner,Patient.managingOrganization,Patient.link,Patient.link.id,Patient.link.extension,Patient.link.modifierExtension,Patient.link.other,Patient.link.type)) [snapshot.element.id.trace('ids').isDistinct()]</b></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1083,7 +1198,10 @@
 <h2><a href="StructureDefinition-CareConnect-PractitionerRole-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-PractitionerRole-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1091,7 +1209,10 @@
 <h2><a href="StructureDefinition-CareConnect-ProblemHeader-Condition-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProblemHeader-Condition-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProblemHeader-Condition-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1099,7 +1220,10 @@
 <h2><a href="StructureDefinition-CareConnect-Procedure-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Procedure-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1107,7 +1231,10 @@
 <h2><a href="StructureDefinition-CareConnect-ProcedureRequest-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ProcedureRequest-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ProcedureRequest-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1123,7 +1250,10 @@
 <h2><a href="StructureDefinition-CareConnect-ReferralRequest-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ReferralRequest-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ReferralRequest-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1131,7 +1261,10 @@
 <h2><a href="StructureDefinition-CareConnect-RelatedPerson-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RelatedPerson-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RelatedPerson-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1139,7 +1272,10 @@
 <h2><a href="StructureDefinition-CareConnect-ResearchStudy-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-ResearchStudy-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-ResearchStudy-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1147,7 +1283,10 @@
 <h2><a href="StructureDefinition-CareConnect-RespiratoryRate-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RespiratoryRate-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RespiratoryRate-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1155,7 +1294,10 @@
 <h2><a href="StructureDefinition-CareConnect-RiskAssessment-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-RiskAssessment-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RiskAssessment-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1163,7 +1305,10 @@
 <h2><a href="StructureDefinition-CareConnect-Schedule-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Schedule-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1171,7 +1316,10 @@
 <h2><a href="StructureDefinition-CareConnect-Slot-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Slot-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1179,7 +1327,10 @@
 <h2><a href="StructureDefinition-CareConnect-Specimen-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Specimen-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Specimen-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1187,7 +1338,10 @@
 <h2><a href="StructureDefinition-CareConnect-Subscore-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-Subscore-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Subscore-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1195,7 +1349,10 @@
 <h2><a href="StructureDefinition-CareConnect-VitalSigns-Observation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/CareConnect-VitalSigns-Observation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-VitalSigns-Observation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <hr/>
@@ -1203,7 +1360,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ActualProblem-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ActualProblem-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ActualProblem-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1211,7 +1371,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-AdmissionMethod-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AdmissionMethod-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AdmissionMethod-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1219,7 +1382,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-AllergyIntoleranceEnd-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergyIntoleranceEnd-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergyIntoleranceEnd-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1227,7 +1393,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-AllergySeverity-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AllergySeverity-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AllergySeverity-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1235,7 +1404,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-AnaestheticIssues-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-AnaestheticIssues-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-AnaestheticIssues-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1243,7 +1415,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-CareSettingType-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-CareSettingType-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-CareSettingType-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1251,7 +1426,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ClinicalSetting-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ClinicalSetting-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ClinicalSetting-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1259,7 +1437,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ConditionEpisode-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ConditionEpisode-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ConditionEpisode-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1267,7 +1448,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-DateRecorded-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DateRecorded-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DateRecorded-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1275,7 +1459,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-DeathNotificationStatus-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DeathNotificationStatus-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DeathNotificationStatus-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1283,7 +1470,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-DischargeMethod-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-DischargeMethod-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-DischargeMethod-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1291,7 +1481,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-EmergencyCareDischargeStatus-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EmergencyCareDischargeStatus-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EmergencyCareDischargeStatus-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1299,7 +1492,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-EncounterTransport-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-EncounterTransport-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-EncounterTransport-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1315,7 +1511,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-Evidence-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Evidence-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Evidence-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1323,7 +1522,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-FastingStatus-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-FastingStatus-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-FastingStatus-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1331,7 +1533,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ListWarningCode-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ListWarningCode-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ListWarningCode-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1339,7 +1544,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MainLocation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MainLocation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MainLocation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1347,7 +1555,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationChangeSummary-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationChangeSummary-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationChangeSummary-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1355,7 +1566,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationFlagAssociation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationFlagAssociation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationFlagAssociation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1363,7 +1577,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationQuantityText-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationQuantityText-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationQuantityText-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1371,7 +1588,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationRepeatInformation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationRepeatInformation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationRepeatInformation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1379,7 +1599,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationStatementLastIssueDate-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatementLastIssueDate-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationStatementLastIssueDate-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1387,7 +1610,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-MedicationStatusReason-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-MedicationStatusReason-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-MedicationStatusReason-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1395,7 +1621,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-NHSCommunication-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NHSCommunication-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1411,7 +1640,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-NominatedPharmacy-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-NominatedPharmacy-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NominatedPharmacy-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1419,7 +1651,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-OutcomeOfAttendance-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-OutcomeOfAttendance-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-OutcomeOfAttendance-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1427,7 +1662,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ParentPresent-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ParentPresent-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ParentPresent-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1435,7 +1673,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-PrescribedElsewhere-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescribedElsewhere-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-PrescribedElsewhere-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1443,7 +1684,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-PrescriptionType-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-PrescriptionType-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-PrescriptionType-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1451,7 +1695,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ProbabilityOfRecurrence-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProbabilityOfRecurrence-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProbabilityOfRecurrence-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1459,7 +1706,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ProblemSignificance-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ProblemSignificance-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ProblemSignificance-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1467,7 +1717,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ReasonCondition-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReasonCondition-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReasonCondition-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1475,7 +1728,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-Recorder-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-Recorder-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-Recorder-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1483,7 +1739,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ReferralRequestMethod-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReferralRequestMethod-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReferralRequestMethod-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1491,7 +1750,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-RegistrationDetails-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RegistrationDetails-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RegistrationDetails-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1499,7 +1761,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-RelatedClinicalContent-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedClinicalContent-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedClinicalContent-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1507,7 +1772,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-RelatedProblemHeader-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-RelatedProblemHeader-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-RelatedProblemHeader-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1515,7 +1783,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ReligiousAffiliation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ReligiousAffiliation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1523,7 +1794,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ResidentialStatus-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ResidentialStatus-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ResidentialStatus-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1531,7 +1805,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-SourceOfReferral-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-SourceOfReferral-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-SourceOfReferral-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1539,7 +1816,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-TreatmentCategory-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-TreatmentCategory-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-TreatmentCategory-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1547,7 +1827,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-VaccinationProcedure-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-VaccinationProcedure-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-VaccinationProcedure-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1555,7 +1838,10 @@
 <h2><a href="StructureDefinition-Extension-CareConnect-ValueApproximation-1.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-CareConnect-ValueApproximation-1.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>
@@ -1563,7 +1849,10 @@
 <h2><a href="StructureDefinition-Extension-coding-sctdescid.html">/Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/resources/Extension-coding-sctdescid.xml</a></h2>
  <table class="grid">
    <tr>
-     <td>&check;</td>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>

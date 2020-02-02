@@ -54,7 +54,7 @@ Where the system is known, a type is unnecessary because the type is always part
 "Flag.status","","","",1,1,"","Y","Y","code {[]} {[]}
 ","active | inactive | entered-in-error","Supports basic workflow.","This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.","","","","","","","","",,"required","Indicates whether this flag is active and needs to be displayed to a user, or whether it is no longer needed or entered in error.","http://hl7.org/fhir/ValueSet/flag-status","",,,,"Flag.status",1,1,"","",".status","status"
 "Flag.category","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Clinical, administrative, etc.","Allows an flag to be divided into different categories like clinical, administrative etc. Intended to be used as a means of filtering which flags are displayed to particular user or in a given context.","","","","","","","","","",,"required","","","",,,,"Flag.category",0,1,"","",".code","class"
+","Clinical, administrative, etc.","Allows an flag to be divided into different categories like clinical, administrative etc. Intended to be used as a means of filtering which flags are displayed to particular user or in a given context.","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/flag-category","",,,,"Flag.category",0,1,"","",".code","class"
 "Flag.category.id","","","",0,1,"","","","string {[]} {[]}
 ","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Flag.category.extension","","extensions

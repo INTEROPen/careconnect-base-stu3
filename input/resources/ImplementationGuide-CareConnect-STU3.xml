@@ -53,7 +53,7 @@
          <name value="CareConnect Examples"></name>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"></description>
       </grouping>
-     <!-- <grouping id="uk-capability">
+      <!-- <grouping id="uk-capability">
          <name value="Capability Statement"></name>
          <description value="Minimal recommended Capability Statement for CareConnect RESTful implementations"></description>
       </grouping> -->
@@ -323,7 +323,7 @@
          <name value="ext-CareSettingType-1"></name>
          <groupingId value="uk-ext"></groupingId>
       </resource>
-    <!--  <resource>
+      <!--  <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"></reference>
          </reference>
@@ -589,7 +589,7 @@
          <name value="InspiredOxygen-Observation-1"></name>
          <groupingId value="uk-news2"></groupingId>
       </resource>
- <!--     <resource>
+      <!--     <resource>
          <reference>
             <reference value="ValueSet/CareConnect-InterpretationCode-1"></reference>
          </reference>
@@ -1690,6 +1690,19 @@
          <name value="cm-MaritalStatus-1"></name>
          <groupingId value="uk-cm"></groupingId>
       </resource>
+      <parameter>
+         <code value="copyrightyear"/>
+         <value value="2020+"/>
+      </parameter>
+      <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+      <parameter>
+         <code value="releaselabel"/>
+         <value value="CI Build"/>
+      </parameter>
+      <parameter>
+         <code value="find-other-resources"/>
+         <value value="true"/>
+      </parameter>
       <!-- END OF EXAMPLES
 
       THE FOLLOWING RESOURCES ARE AUTOMATICALLY GENERATED -->
