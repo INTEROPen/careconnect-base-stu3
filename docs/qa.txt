@@ -1,9 +1,9 @@
 ﻿CareConnect Implementation Guide : Validation Results
 =========================================
 
-err = 32, warn = 174, info = 8
-IG Publisher Version: v1.0.56-SNAPSHOT Out of date - current version is v1.0.62-SNAPSHOT
-Generated Sat Feb 08 07:33:22 GMT 2020. FHIR version 3.0.2 for careconnect.base.stu3#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
+err = 32, warn = 176, info = 8
+IG Publisher Version: v1.0.70-SNAPSHOT
+Generated Tue Mar 10 13:31:05 GMT 2020. FHIR version 3.0.2 for careconnect.base.stu3#3.0.0 (canonical = https://fhir.hl7.org.uk/STU3)
 
  Build Errors : 5 / 2
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1 : 2 / 0
@@ -11,6 +11,7 @@ Generated Sat Feb 08 07:33:22 GMT 2020. FHIR version 3.0.2 for careconnect.base.
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-2 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/encounter-735 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014 : 0 / 1
+ /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-19 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084 : 0 / 1
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2 : 0 / 0
  /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-200001 : 0 / 0
@@ -235,12 +236,12 @@ Generated Sat Feb 08 07:33:22 GMT 2020. FHIR version 3.0.2 for careconnect.base.
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be careconnect.base.stu3
-WARNING: Unable to find description for the resource.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 164, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+WARNING: Unable to find description for the resource StructureDefinition/Extension-CareConnect-AdmissionMethod-1.  Descriptions are strongly encouraged to allow proper population of the artifact list.
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-AdministrativeGender-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 147, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-AllergyVerificationStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 147, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-MaritalStatus-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 147, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-NameUse-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 147, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/HL7-UK/UK-STU3/output/ValueSet-CareConnect-ReactionEventSeverity-1.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 147, column 12: The link 'versions.html#maturity' for "Maturity" cannot be resolved
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/documentreference-1.json ==
 ERROR: DocumentReference/documentreference-1: DocumentReference.type: Unknown Code http://snomed.info/sct#734163000 in http://snomed.info/sct
 ERROR: DocumentReference/documentreference-1: DocumentReference.context.practiceSetting: Unknown Code http://snomed.info/sct#708168004 in http://snomed.info/sct
@@ -252,6 +253,8 @@ WARNING: Encounter/encounter-2: Encounter.type[0].coding[0]: The Coding provided
 WARNING: Encounter/encounter-735: Encounter.type[0].coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EncounterType-1, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = <<185316007 OR <<308467007 OR <<185201007" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/location-200014.json ==
 INFORMATION: Location/location-200014: Location.identifier[0]: This element does not match any known slice defined in the profile https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1
+== /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-19.xml ==
+WARNING: Observation/observation-19: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code.  (error message = The filter "constraint = (<<363787002 | Observable entity|)" was not understood in the context of http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/observation-9084.xml ==
 WARNING: Observation/observation-9084: Observation.code.coding[0]: The Coding provided is not in the value set https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ObservationType-1, and a code should come from this value set unless it has no suitable code.  (error message = Unknown Code http://snomed.info/sct#364075005 in http://snomed.info/sct)
 == /Users/kevinmayfield/Development/HL7-UK/UK-STU3/input/examples/organization-2.xml ==

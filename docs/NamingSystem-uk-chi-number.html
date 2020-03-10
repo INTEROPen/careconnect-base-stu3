@@ -19,8 +19,6 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
     <!-- Placeholder for child template CSS declarations -->
-    <link href="assets/css/hl7.css" rel="stylesheet"/>
-    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -39,23 +37,11 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"11.211"}
-    h3,h4,h5,h6{--heading-prefix:"11.211"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.212"}
+    h3,h4,h5,h6{--heading-prefix:"11.212"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
-        <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org">
-            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
-          </a>
-        </div>
-        <div id="family-nav">
-          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-        </div>
-        <div id="hl7-search">
-          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-        </div>
-
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - CI Build</p>
@@ -174,7 +160,7 @@
   <p>
     <b>Narrative view</b>
   </p>
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: uk-chi-number</p><p><b>name</b>: CHI Number</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 9 Dec 2019, 00:00:00</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: NHS Scotland</p><p><b>description</b>: Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: A patient identifier for everyone registered with the NHS in Scotland.</p><h3>UniqueIds</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>oid</td><td>2.16.840.1.113883.2.1.3.2.4.16.53</td><td>true</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: uk-chi-number</p><p><b>name</b>: CHI Number</p><p><b>status</b>: draft</p><p><b>kind</b>: identifier</p><p><b>date</b>: 2019-12-09</p><p><b>publisher</b>: INTEROpen</p><p><b>contact</b>: </p><p><b>responsible</b>: NHS Scotland</p><p><b>description</b>: Community Health Index Number allocated to the patient in Scotland. [CHI Number](https://www.datadictionary.nhs.uk/data_dictionary/attributes/c/com/community_health_index_number_de.asp)</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>usage</b>: A patient identifier for everyone registered with the NHS in Scotland.</p><h3>UniqueIds</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td>oid</td><td>2.16.840.1.113883.2.1.3.2.4.16.53</td><td>true</td></tr></table></div>
 
   
   
@@ -189,16 +175,11 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Feb 8, 2020 07:23+0000">2020-02-08</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Mar 10, 2020 13:05+0000">2020-03-10</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
-                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
-
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

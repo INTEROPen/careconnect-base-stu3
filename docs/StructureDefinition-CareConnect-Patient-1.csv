@@ -322,8 +322,8 @@ Territory","",0,1,"","","Y","string {[]} {[]}
 ","Country (e.g. can be ISO 3166 2 or 3 letter code)","Country - a nation as commonly understood or generally accepted.","ISO 3166 3 letter codes can be used in place of a full country name.","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""GBR""/>","","",,,,,"",,,,"Address.country",0,1,"","","AD.part[parttype = CNT]","XAD.6"
 "Patient.address.period","","","",0,1,"","","Y","Period {[]} {[]}
 ","Time period when address was/is in use","Time period when address was/is in use.","","Allows addresses to be placed in historical context.","","","","","<valuePeriod xmlns=""http://hl7.org/fhir"">
-  <start value=""2010-03-23T00:00:00+00:00""/>
-  <end value=""2010-07-01T00:00:00+01:00""/>
+  <start value=""2010-03-23""/>
+  <end value=""2010-07-01""/>
 </valuePeriod>","","",,,,,"",,,,"Address.period",0,1,"","","./usablePeriod[type=""IVL<TS>""]","XAD.12 / XAD.13 + XAD.14"
 "Patient.maritalStatus","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Marital (civil) status of a patient","This field contains a patient's most recent marital (civil) status.","","Most, if not all systems capture it.","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/marital-status","",,,,"Patient.maritalStatus",0,1,"","","player[classCode=PSN]/maritalStatusCode",".patient.maritalStatusCode","PID-16"
@@ -430,8 +430,8 @@ Territory","",0,1,"","","Y","string {[]} {[]}
 ","Country (e.g. can be ISO 3166 2 or 3 letter code)","Country - a nation as commonly understood or generally accepted.","ISO 3166 3 letter codes can be used in place of a full country name.","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""GBR""/>","","",,,,,"",,,,"Address.country",0,1,"","","AD.part[parttype = CNT]","XAD.6"
 "Patient.contact.address.period","","","",0,1,"","","Y","Period {[]} {[]}
 ","Time period when address was/is in use","Time period when address was/is in use.","","Allows addresses to be placed in historical context.","","","","","<valuePeriod xmlns=""http://hl7.org/fhir"">
-  <start value=""2010-03-23T00:00:00+00:00""/>
-  <end value=""2010-07-01T00:00:00+01:00""/>
+  <start value=""2010-03-23""/>
+  <end value=""2010-07-01""/>
 </valuePeriod>","","",,,,,"",,,,"Address.period",0,1,"","","./usablePeriod[type=""IVL<TS>""]","XAD.12 / XAD.13 + XAD.14"
 "Patient.contact.gender","","","",0,1,"","","","code {[]} {[]}
 ","male | female | other | unknown","Administrative Gender - the gender that the contact person is considered to have for administration and record keeping purposes.","","Needed to address the person correctly.","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/administrative-gender","",,,,"Patient.contact.gender",0,1,"","","player[classCode=PSN|ANM and determinerCode=INSTANCE]/administrativeGender","n/a","NK1-15"

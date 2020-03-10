@@ -21,7 +21,7 @@
   fhir:ValueSet.version [ fhir:value "3.0.0"];
   fhir:ValueSet.name [ fhir:value "NHS Data Model and Dictionary Person Stated Gender Code"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2017-08-21T13:00:00+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2017-08-21T12:00:00+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
   fhir:ValueSet.contact [
      fhir:index 0;

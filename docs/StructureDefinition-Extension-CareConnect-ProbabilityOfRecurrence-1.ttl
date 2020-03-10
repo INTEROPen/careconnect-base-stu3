@@ -19,7 +19,7 @@
   fhir:StructureDefinition.version [ fhir:value "3.0.0"];
   fhir:StructureDefinition.name [ fhir:value "Extension-CareConnect-ProbabilityOfRecurrence-1"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2017-07-13T10:47:04+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2017-07-13T10:47:04.75919+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "INTEROpen"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

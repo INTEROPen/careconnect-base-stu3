@@ -135,3 +135,19 @@ e: {
   "error" : "Error from server: The Snomed Concept 999000811000001105 was not known"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "text/html"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "text/html",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

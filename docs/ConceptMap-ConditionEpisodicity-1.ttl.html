@@ -19,8 +19,6 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
     <!-- Placeholder for child template CSS declarations -->
-    <link href="assets/css/hl7.css" rel="stylesheet"/>
-    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -39,23 +37,11 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"11.224"}
-    h3,h4,h5,h6{--heading-prefix:"11.224"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.225"}
+    h3,h4,h5,h6{--heading-prefix:"11.225"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
-        <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org">
-            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
-          </a>
-        </div>
-        <div id="family-nav">
-          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-        </div>
-        <div id="hl7-search">
-          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-        </div>
-
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - CI Build</p>
@@ -170,7 +156,7 @@
   <a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#id">fhir:value</a> &quot;ConditionEpisodicity-1&quot;];
   <a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.text">fhir:DomainResource.text</a> [
      <a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Concept Map - Condition Episodicity (https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=\&quot;ValueSet-CareConnect-ConditionEpisodicity-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1&lt;/a&gt; to &lt;a href=\&quot;ValueSet-CareConnect-ConditionEpisodeSnCT-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on 14 Nov 2018, 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;first&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;255217005 (First episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;new&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;288527008 (New episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;review&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;303350001 (Ongoing episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;end&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;272131007 (Old episode)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Concept Map - Condition Episodicity (https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=\&quot;ValueSet-CareConnect-ConditionEpisodicity-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1&lt;/a&gt; to &lt;a href=\&quot;ValueSet-CareConnect-ConditionEpisodeSnCT-1.html\&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;DRAFT. Published on 14 Nov 2018, 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes&lt;/p&gt;\n&lt;/div&gt;&lt;br/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;first&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;255217005 (First episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;new&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;288527008 (New episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;review&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;303350001 (Ongoing episode)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;end&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;272131007 (Old episode)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
   ];
   <a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.url">fhir:ConceptMap.url</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> &quot;https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1&quot;];
   <a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.version">fhir:ConceptMap.version</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> &quot;3.0.0&quot;];
@@ -257,16 +243,11 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Feb 8, 2020 07:23+0000">2020-02-08</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Mar 10, 2020 13:05+0000">2020-03-10</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
-                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
-
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

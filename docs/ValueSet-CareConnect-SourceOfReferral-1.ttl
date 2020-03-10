@@ -16,7 +16,7 @@
   fhir:ValueSet.version [ fhir:value "3.0.0"];
   fhir:ValueSet.name [ fhir:value "Care Connect Source of Referral"];
   fhir:ValueSet.status [ fhir:value "draft"];
-  fhir:ValueSet.date [ fhir:value "2019-07-16T18:43:00+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-07-16T17:43:00+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "INTEROpen"];
   fhir:ValueSet.contact [
      fhir:index 0;

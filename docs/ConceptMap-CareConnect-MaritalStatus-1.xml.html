@@ -19,8 +19,6 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
     <!-- Placeholder for child template CSS declarations -->
-    <link href="assets/css/hl7.css" rel="stylesheet"/>
-    <link href="assets/css/fhir.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -39,23 +37,11 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"11.225"}
-    h3,h4,h5,h6{--heading-prefix:"11.225"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.226"}
+    h3,h4,h5,h6{--heading-prefix:"11.226"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         
-        <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org">
-            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
-          </a>
-        </div>
-        <div id="family-nav">
-          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
-        </div>
-        <div id="hl7-search">
-          <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
-        </div>
-
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - CI Build</p>
@@ -164,14 +150,14 @@
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h2&gt;Concept Map - Care Connect Marital Status (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1)&lt;/h2&gt;&lt;p&gt;Mapping from &lt;a href=&quot;ValueSet-CareConnect-MaritalStatus-1.html&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MaritalStatus-1&lt;/a&gt; to &lt;a href=&quot;ValueSet-CareConnect-NHSDataDictionary-PersonMaritalStatus-1.html&quot;&gt;https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-NHSDataDictionary-PersonMaritalStatus-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;ACTIVE. Published on 1 Aug 2017, 01:00:00 by INTEROpen (). Copyright © 2016 HL7 UK&lt;/p&gt;&lt;div&gt;&lt;p&gt;A Concept Map from ValueSet Marital Status to NHS Data Dictionary Person Marital Status to aid interpretation.&lt;/p&gt;
-&lt;/div&gt;&lt;br/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;U (unmarried)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;S (Single)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;D (Divorced)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;D (Divorced/Person whose Civil Partnership has been dissolved)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;L (Legally Separated)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;P (Separated)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;M (Married)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;M (Married/Civil Partner)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;S (Never Married)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;S (Single)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;W (Widowed)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;W (Widowed/Surviving Civil Partner)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UNK (unknown)&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;N (Not disclosed)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+&lt;/div&gt;&lt;br/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;U (unmarried)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;S (Single)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;D (Divorced)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;D (Divorced/Person whose Civil Partnership has been dissolved)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;L (Legally Separated)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;P (Separated)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;M (Married)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;M (Married/Civil Partner)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;S (Never Married)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;S (Single)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;W (Widowed)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;W (Widowed/Surviving Civil Partner)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Destination Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UNK (unknown)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/STU3/codesystem-concept-map-equivalence.html#equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;N (Not disclosed)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.url">url</a>
        <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">value</a>=&quot;https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-MaritalStatus-1&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.version">version</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;3.0.0&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.name">name</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;Concept Map - Care Connect Marital Status&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.status">status</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>=&quot;2017-08-01T01:00:00+01:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.date">date</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">value</a>=&quot;2017-08-01T00:00:00+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.publisher">publisher</a> <a href="http://hl7.org/fhir/STU3/datatypes.html#string">value</a>=&quot;INTEROpen&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/STU3/conceptmap.html#ConceptMap.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/STU3/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
@@ -282,16 +268,11 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Feb 8, 2020 07:23+0000">2020-02-08</span>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="https://interopen.ryver.com/">INTEROpen</a>.  Package careconnect.base.stu3#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Tue, Mar 10, 2020 13:05+0000">2020-03-10</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a>
-                 | <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
-                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
-                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
-
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

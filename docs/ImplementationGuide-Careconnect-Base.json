@@ -9,7 +9,7 @@
   "version": "3.0.0",
   "name": "CareConnect Implementation Guide",
   "status": "draft",
-  "date": "2020-02-08T07:23:19+00:00",
+  "date": "2020-03-10T13:05:24+00:00",
   "publisher": "INTEROpen",
   "contact": [
     {
@@ -3711,6 +3711,27 @@
           "description": "Level 3 Example",
           "sourceReference": {
             "reference": "Observation/observation-9084"
+          },
+          "exampleFor": {
+            "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+              "valueString": "Observation"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+              "valueUri": "Observation-observation-19.html"
+            }
+          ],
+          "example": true,
+          "name": "Observation example - Exposure to COVID-19",
+          "description": "Level 3 Example",
+          "sourceReference": {
+            "reference": "Observation/observation-19"
           },
           "exampleFor": {
             "reference": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"

@@ -1,0 +1,25 @@
+<Observation xmlns="http://hl7.org/fhir">
+    <id value="observation-19"/>
+    <meta>
+        <lastUpdated value="2018-09-14T08:44:09.570+00:00"/>
+        <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+    </meta>
+    <identifier>
+        <system value="https://fhir.yas.nhs.uk/Observation/Identifier"/>
+        <value value="COVID3803"/>
+    </identifier>
+    <status value="preliminary"/>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="840546002"/>
+            <display value="Exposure to severe acute respiratory syndrome coronavirus 2 (event)"/>
+        </coding>
+        <text value="Exposure to severe acute respiratory syndrome coronavirus 2 (event)"/>
+    </code>
+    <subject>
+        <reference value="Patient/patient-1"/>
+        <display value="Ms Bernie Kanfeld"/>
+    </subject>
+    <effectiveDateTime value="2020-03-10T12:46:03+00:00"/>
+</Observation>

@@ -10,7 +10,7 @@
   <version value="3.0.0"/>
   <name value="CareConnect Implementation Guide"/>
   <status value="draft"/>
-  <date value="2020-02-08T07:23:19+00:00"/>
+  <date value="2020-03-10T13:05:24+00:00"/>
   <publisher value="INTEROpen"/>
   <contact>
     <telecom>
@@ -2879,6 +2879,23 @@
       <description value="Level 3 Example"/>
       <sourceReference>
         <reference value="Observation/observation-9084"/>
+      </sourceReference>
+      <exampleFor>
+        <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
+      </exampleFor>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="Observation-observation-19.html"/>
+      </extension>
+      <example value="true"/>
+      <name value="Observation example - Exposure to COVID-19"/>
+      <description value="Level 3 Example"/>
+      <sourceReference>
+        <reference value="Observation/observation-19"/>
       </sourceReference>
       <exampleFor>
         <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"/>
